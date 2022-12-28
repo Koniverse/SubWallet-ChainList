@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/extension-koni-base authors & contributors
+// Copyright 2019-2022 @subwallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 export enum _ChainStatus {

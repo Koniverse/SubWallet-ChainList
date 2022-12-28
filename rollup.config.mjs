@@ -1,6 +1,7 @@
 // Copyright 2017-2022 @subwallet/base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+
 import pluginAlias from '@rollup/plugin-alias';
 import pluginCommonjs from '@rollup/plugin-commonjs';
 import pluginInject from '@rollup/plugin-inject';
@@ -47,16 +48,7 @@ export function createBundle({entries = {}, external, globals = {}, index, injec
 }
 
 const pkgs = [
-  '@subwallet/base',
-  '@subwallet/chain-services',
-  '@subwallet/controllers',
-  '@subwallet/keyring',
-  '@subwallet/networks',
-  '@subwallet/storage',
-  '@subwallet/stream',
-  '@subwallet/utils',
-  '@subwallet/web2-services',
-  '@subwallet/web3-services'
+  '@subwallet/chain-list',
 ];
 
 const external = [...pkgs];

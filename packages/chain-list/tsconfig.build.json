@@ -3,11 +3,15 @@
   "compilerOptions": {
     "baseUrl": "..",
     "outDir": "./build",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "resolveJsonModule": true
   },
   "exclude": [
     "**/*.spec.ts",
     "**/test/**/*"
+  ],
+  "include": [
+    "src/**/*.json"
   ],
   "references": []
 }

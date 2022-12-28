@@ -23,7 +23,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/util": "^10.1.7",
+    "@polkadot/dev": "0.67.167",
+    "@polkadot/util": "^10.2.1",
     "eventemitter3": "^4.0.7"
   }
 }
