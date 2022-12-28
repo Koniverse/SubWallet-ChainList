@@ -1,0 +1,30 @@
+{
+  "DOT-polkadot": {
+    "slug": "DOT-Polkadot",
+    "originChainAsset": 1,
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "priceId": "polkadot"
+  },
+  "KSM-kusama": {
+    "slug": "KSM-Kusama",
+    "originChainAsset": 2,
+    "name": "Kusama",
+    "symbol": "KSM",
+    "priceId": "kusama"
+  },
+  "GLMR-Moonbeam": {
+    "slug": "GLMR-Moonbeam",
+    "originChainAsset": "moonbeam-NATIVE-GLMR",
+    "name": "Moonbeam",
+    "symbol": "GLMR",
+    "priceId": "moonbeam"
+  },
+  "USDT-Tether": {
+    "slug": "USDT-Tether",
+    "originChainAsset": null,
+    "name": "Tether",
+    "symbol": "USDT",
+    "priceId": "tether"
+  }
+}

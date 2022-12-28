@@ -1,0 +1,58 @@
+{
+  "author": "NamPC <nampham@subwallet.app>",
+  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
+  "homepage": "https://github.com/Koniverse/SubWallet-Chain#readme",
+  "license": "Apache-2.0",
+  "packageManager": "yarn@3.2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.0.1",
+  "versions": {
+    "git": "0.0.1",
+    "npm": "0.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "bin": {
+    "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
+    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs"
+  },
+  "scripts": {
+    "build": "subwallet-dev-build-ts",
+    "build:extra": "",
+    "build:release": "subwallet-ci-ghact-build",
+    "build:rollup": "polkadot-exec-rollup --config",
+    "chain:info": "polkadot-types-chain-info",
+    "clean": "polkadot-dev-clean-build",
+    "deno": "yarn polkadot-dev-deno-map && yarn build && deno check --import-map=import_map.json mod.ts",
+    "lint": "polkadot-dev-run-lint",
+    "postinstall": "patch-package && polkadot-dev-yarn-only",
+    "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
+    "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit",
+    "deploy": "gh-pages --dist 'packages/chain-list/src/data' --branch 'gh-page'"
+  },
+  "dependencies": {
+    "eventemitter3": "^4.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/register": "^7.18.9",
+    "@babel/runtime": "^7.18.9",
+    "@polkadot/dev": "^0.67.115",
+    "@types/jest": "^29.2.4",
+    "copyfiles": "^2.4.1",
+    "gh-pages": "^4.0.0",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
+  },
+  "resolutions": {
+    "@polkadot/util": "^10.0.2",
+    "typescript": "^4.7.4"
+  }
+}

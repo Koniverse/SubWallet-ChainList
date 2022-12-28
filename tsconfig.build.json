@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./packages/chain-list/tsconfig.build.json" },
+    { "path": "./packages/chain-list/tsconfig.spec.json" }
+  ]
+}

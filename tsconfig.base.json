@@ -1,0 +1,11 @@
+{
+  "extends": "@polkadot/dev/config/tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "paths": {
+      "@subwallet/chain-list": ["chain-list/src"],
+      "@subwallet/chain-list/*": ["chain-list/src/*"]
+    },
+    "skipLibCheck": true
+  }
+ }

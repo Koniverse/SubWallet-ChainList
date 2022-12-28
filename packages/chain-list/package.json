@@ -1,0 +1,29 @@
+{
+  "author": "NamPC <nampham@subwallet.app>",
+  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
+  "contributors": [],
+  "description": "Open-source package to manage chains, tokens and other information",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/Koniverse/SubWallet-Chain/tree/master/packages/chain-list#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@subwallet/chain-list",
+  "repository": {
+    "directory": "packages/chain-list",
+    "type": "git",
+    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+  },
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "@polkadot/util": "^10.1.7",
+    "eventemitter3": "^4.0.7"
+  }
+}
