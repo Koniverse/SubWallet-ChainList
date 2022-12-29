@@ -3,10 +3,15 @@
 
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from './types';
 
-export const ChainInfoMap = require('@subwallet/chain-list/data/ChainInfo.json') as Record<string, _ChainInfo>;
-export const ChainAssetMap = require('@subwallet/chain-list/data/ChainAsset.json') as Record<string, _ChainAsset>;
-export const AssetRefMap = require('@subwallet/chain-list/data/AssetRef.json') as Record<string, _AssetRef>;
-export const MultiChainAssetMap = require('@subwallet/chain-list/data/MultiChainAsset.json') as Record<string, _MultiChainAsset>;
+import * as _ChainInfoMap from './data/ChainInfo.json';
+import * as _ChainAssetMap from './data/ChainAsset.json';
+import * as _AssetRefMap from './data/AssetRef.json';
+import * as _MultiChainAssetMap from './data/MultiChainAsset.json';
+
+export const ChainInfoMap = _ChainInfoMap as unknown as Record<string, _ChainInfo>;
+export const ChainAssetMap = _ChainAssetMap as unknown as Record<string, _ChainInfo>;
+export const AssetRefMap = _AssetRefMap as unknown as Record<string, _ChainInfo>;
+export const MultiChainAssetMap = _MultiChainAssetMap as unknown as Record<string, _ChainInfo>;
 
 export enum COMMON_CHAIN_SLUGS {
   POLKADOT = 'polkadot',
