@@ -100,6 +100,36 @@
       "supportSmartContract": ["ERC721", "ERC20"]
     }
   },
+  "acala": {
+    "slug": "acala",
+    "name": "Acala",
+    "logo": "./34.Moonbeam.png",
+    "providers": {
+      "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
+      "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
+      "Acala Foundation 2": "wss://acala-rpc-2.aca-api.network/ws",
+      "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
+      "Polkawallet 0": "wss://acala.polkawallet.io",
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
+      "Dwellir": "wss://acala-rpc.dwellir.com"
+    },
+    "substrateInfo": {
+      "paraId": 2000,
+      "relaySlug": "polkadot",
+      "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+      "addressPrefix": 10,
+      "crowdloanUrl": "https://distribution.acala.network/",
+      "category": ["PARACHAIN"],
+      "blockExplorer": "https://acala.subscan.io/",
+
+      "symbol": "ACA",
+      "existentialDeposit": "100000000000",
+      "decimals": 12,
+
+      "supportStaking": false,
+      "supportSmartContract": null
+    }
+  },
   "alephZeroTest": {
     "slug": "alephZeroTest",
     "name": "Aleph Zero Testnet",

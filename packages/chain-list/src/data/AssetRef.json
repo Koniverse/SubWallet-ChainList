@@ -3,5 +3,10 @@
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "moonbeam-LOCAL-xcDOT",
     "path": "XCM"
+  },
+  "acala-NATIVE-ACA": {
+    "srcAsset": "acala-NATIVE-ACA",
+    "destAsset": "moonbeam-LOCAL-xcACA",
+    "path": "XCM"
   }
 }

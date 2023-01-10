@@ -1,12 +1,12 @@
 {
-  "DOT-polkadot": {
+  "DOT-Polkadot": {
     "slug": "DOT-Polkadot",
     "originChainAsset": 1,
     "name": "Polkadot",
     "symbol": "DOT",
     "priceId": "polkadot"
   },
-  "KSM-kusama": {
+  "KSM-Kusama": {
     "slug": "KSM-Kusama",
     "originChainAsset": 2,
     "name": "Kusama",
@@ -19,6 +19,13 @@
     "name": "Moonbeam",
     "symbol": "GLMR",
     "priceId": "moonbeam"
+  },
+  "ACA-Acala": {
+    "slug": "ACA-Acala",
+    "originChainAsset": "acala-NATIVE-ACA",
+    "name": "Acala",
+    "symbol": "ACA",
+    "priceId": "acala"
   },
   "USDT-Tether": {
     "slug": "USDT-Tether",

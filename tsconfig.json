@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "composite": false,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": [
     "packages/**/src/**/*"

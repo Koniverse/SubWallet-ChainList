@@ -9,7 +9,7 @@
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "polkadot"
+    "multiChainAsset": "DOT-Polkadot"
   },
   "kusama-NATIVE-KSM": {
     "originChain": "kusama",
@@ -21,7 +21,7 @@
     "minAmount": "33333333",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "kusama"
+    "multiChainAsset": "KSM-Kusama"
   },
   "moonbeam-NATIVE-GLMR": {
     "originChain": "moonbeam",
@@ -33,7 +33,19 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "moonbeam"
+    "multiChainAsset": "GLMR-Moonbeam"
+  },
+  "acala-NATIVE-ACA": {
+    "originChain": "acala",
+    "slug": "acala-NATIVE-ACA",
+    "name": "Acala",
+    "symbol": "ACA",
+    "decimals": 12,
+    "priceId": "acala",
+    "minAmount": "100000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ACA-Acala"
   },
   "alephZeroTest-NATIVE-TZERO": {
     "originChain": "alephZeroTest",
@@ -60,7 +72,22 @@
       "assetType": "ForeignAsset",
       "assetId": "42259045809535163221576417993425387648"
     },
-    "multiChainAsset": "polkadot"
+    "multiChainAsset": "DOT-Polkadot"
+  },
+  "moonbeam-LOCAL-xcACA": {
+    "originChain": "moonbeam",
+    "slug": "acala-LOCAL-xcACA",
+    "name": "Acala",
+    "symbol": "xcACA",
+    "decimals": 12,
+    "priceId": "acala",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetType": "ForeignAsset",
+      "assetId": "224821240862170613278369189818311486111"
+    },
+    "multiChainAsset": "ACA-Acala"
   },
   "alephZeroTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke": {
     "originChain": "alephZeroTest",
