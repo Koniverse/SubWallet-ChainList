@@ -18,7 +18,7 @@
       "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
       "addressPrefix": 0,
       "crowdloanUrl": null,
-      "category": ["RELAYCHAIN"],
+      "chainType": "RELAYCHAIN",
       "blockExplorer": "https://polkadot.subscan.io/",
 
       "symbol": "DOT",
@@ -49,7 +49,7 @@
       "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
       "addressPrefix": 2,
       "crowdloanUrl": null,
-      "category": ["RELAYCHAIN"],
+      "chainType": "RELAYCHAIN",
       "blockExplorer": "https://kusama.subscan.io/",
 
       "symbol": "KSM",
@@ -79,7 +79,7 @@
       "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
       "addressPrefix": 1284,
       "crowdloanUrl": "https://moonbeam.foundation/moonbeam-crowdloan/",
-      "category": ["PARACHAIN"],
+      "chainType": "PARACHAIN",
       "blockExplorer": "https://moonbeam.subscan.io/",
 
       "symbol": "GLMR",
@@ -97,7 +97,8 @@
       "decimals": 18,
       "existentialDeposit": "0",
 
-      "supportSmartContract": ["ERC721", "ERC20"]
+      "supportSmartContract": ["ERC721", "ERC20"],
+      "abiExplorer": "https://api-moonbeam.moonscan.io/api?module=contract&action=getabi"
     }
   },
   "acala": {
@@ -119,7 +120,7 @@
       "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
       "addressPrefix": 10,
       "crowdloanUrl": "https://distribution.acala.network/",
-      "category": ["PARACHAIN"],
+      "chainType": "PARACHAIN",
       "blockExplorer": "https://acala.subscan.io/",
 
       "symbol": "ACA",
@@ -143,7 +144,7 @@
       "genesisHash": "0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5",
       "addressPrefix": 42,
       "crowdloanUrl": null,
-      "category": ["TEST_NET"],
+      "chainType": "RELAYCHAIN",
       "supportStaking": true,
       "blockExplorer": null,
 
@@ -172,7 +173,8 @@
       "symbol": "ETH",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": ["ERC20", "ERC721"]
+      "supportSmartContract": ["ERC20", "ERC721"],
+      "abiExplorer": "https://etherscan.io"
     }
   }
 }

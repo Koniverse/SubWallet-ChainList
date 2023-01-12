@@ -32,10 +32,9 @@ export enum _AssetType {
   UNKNOWN = 'UNKNOWN'
 }
 
-export enum SubstrateChainCategory {
+export enum _SubstrateChainType {
   RELAYCHAIN = 'RELAYCHAIN',
-  PARACHAIN = 'PARACHAIN',
-  TEST_NET = 'TEST_NET'
+  PARACHAIN = 'PARACHAIN'
 }
 
 export interface _ChainInfo {
@@ -69,7 +68,8 @@ export interface _EvmInfo {
   decimals: number,
   symbol: string,
 
-  supportSmartContract: _AssetType[] | null
+  supportSmartContract: _AssetType[] | null,
+  abiExplorer: string | null
 }
 
 export interface _SubstrateInfo {
@@ -78,7 +78,7 @@ export interface _SubstrateInfo {
   genesisHash: string,
   addressPrefix: number,
   crowdloanUrl: string | null,
-  category: SubstrateChainCategory[],
+  chainType: _SubstrateChainType,
   blockExplorer: string | null,
 
   // some info about native tokens (for convenience)

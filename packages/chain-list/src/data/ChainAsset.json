@@ -47,6 +47,18 @@
     "metadata": null,
     "multiChainAsset": "ACA-Acala"
   },
+  "acala-LOCAL-DOT": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": null,
+    "multiChainAsset": "DOT-Polkadot"
+  },
   "alephZeroTest-NATIVE-TZERO": {
     "originChain": "alephZeroTest",
     "slug": "alephZeroTest-NATIVE-TZERO",

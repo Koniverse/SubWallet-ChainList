@@ -1,10 +1,15 @@
 {
-  "polkadot-NATIVE-DOT": {
+  "polkadot-NATIVE-DOT-moonbeam-LOCAL-xcDOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "moonbeam-LOCAL-xcDOT",
     "path": "XCM"
   },
-  "acala-NATIVE-ACA": {
+  "polkadot-NATIVE-DOT-acala-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "acala-LOCAL-DOT",
+    "path": "XCM"
+  },
+  "acala-NATIVE-ACA-moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
     "destAsset": "moonbeam-LOCAL-xcACA",
     "path": "XCM"
