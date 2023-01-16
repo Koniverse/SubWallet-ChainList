@@ -1,7 +1,7 @@
 // Copyright 2019-2022 @subwallet/extension-koni-base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-const LogosMap: Record<string, string> = {
+const LogoMap: Record<string, string> = {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
   acala: require('./54.Acala.png'),
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -556,4 +556,4 @@ const LogosMap: Record<string, string> = {
   default: require('./73.Default.png')
 };
 
-export default LogosMap;
+export default LogoMap;
