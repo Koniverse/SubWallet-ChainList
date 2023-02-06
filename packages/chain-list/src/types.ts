@@ -86,7 +86,7 @@ export interface _SubstrateInfo {
   decimals: number,
   symbol: string,
 
-  supportNft: boolean,
+  hasNativeNft: boolean,
   supportStaking: boolean,
   supportSmartContract: _AssetType[] | null
 }
