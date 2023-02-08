@@ -56,7 +56,8 @@ export interface _ChainAsset {
   minAmount: string | null,
   assetType: _AssetType,
   metadata: Record<any, any> | null,
-  multiChainAsset: string | null
+  multiChainAsset: string | null,
+  hasValue: boolean
 }
 
 export interface _EvmInfo {
