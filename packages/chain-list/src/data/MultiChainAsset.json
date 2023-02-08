@@ -33,5 +33,12 @@
     "name": "Tether",
     "symbol": "USDT",
     "priceId": "tether"
+  },
+  "ETH-Ethereum": {
+    "slug": "ETH-Ethereum",
+    "originChainAsset": null,
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "priceId": "ethereum"
   }
 }
