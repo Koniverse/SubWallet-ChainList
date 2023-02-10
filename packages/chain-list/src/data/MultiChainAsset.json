@@ -1,14 +1,14 @@
 {
   "DOT-Polkadot": {
     "slug": "DOT-Polkadot",
-    "originChainAsset": 1,
+    "originChainAsset": "polkadot-NATIVE-DOT",
     "name": "Polkadot",
     "symbol": "DOT",
     "priceId": "polkadot"
   },
   "KSM-Kusama": {
     "slug": "KSM-Kusama",
-    "originChainAsset": 2,
+    "originChainAsset": "kusama-NATIVE-KSM",
     "name": "Kusama",
     "symbol": "KSM",
     "priceId": "kusama"
@@ -36,7 +36,7 @@
   },
   "ETH-Ethereum": {
     "slug": "ETH-Ethereum",
-    "originChainAsset": null,
+    "originChainAsset": "ethereum-NATIVE-ETH",
     "name": "Ethereum",
     "symbol": "ETH",
     "priceId": "ethereum"
