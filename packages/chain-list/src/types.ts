@@ -41,6 +41,8 @@ export interface _ChainInfo {
   slug: string,
   name: string,
   logo: string,
+  chainStatus: _ChainStatus,
+  isTestnet: boolean,
   providers: Record<string, string>,
   substrateInfo: _SubstrateInfo | null,
   evmInfo: _EvmInfo | null

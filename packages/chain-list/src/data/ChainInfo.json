@@ -3,6 +3,8 @@
     "slug": "polkadot",
     "name": "Polkadot Relay Chain",
     "logo": "./71.Polkadot.png",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://rpc.polkadot.io",
       "OnFinality": "wss://polkadot.api.onfinality.io/public-ws",
@@ -35,6 +37,8 @@
     "slug": "kusama",
     "name": "Kusama Relay Chain",
     "logo": "./72.Kusama.png",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://kusama-rpc.polkadot.io",
       "OnFinality": "wss://kusama.api.onfinality.io/public-ws",
@@ -67,6 +71,8 @@
     "slug": "moonbeam",
     "name": "Moonbeam",
     "logo": "./34.Moonbeam.png",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
       "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
@@ -108,6 +114,8 @@
     "slug": "acala",
     "name": "Acala",
     "logo": "./34.Moonbeam.png",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
     "providers": {
       "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
@@ -139,6 +147,8 @@
     "slug": "alephZeroTest",
     "name": "Aleph Zero Testnet",
     "logo": "./55.Aleph.png",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
     "providers": {
       "Aleph Zero Foundation": "wss://ws.test.azero.dev"
     },
@@ -166,6 +176,8 @@
     "slug": "ethereum",
     "name": "Ethereum Mainnet",
     "logo": "./77.Ethereum.png",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
     "providers": {
       "Cloudflare": "https://cloudflare-eth.com",
       "BlastApi": "https://eth-mainnet.public.blastapi.io",
