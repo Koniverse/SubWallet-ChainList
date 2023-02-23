@@ -1,8 +1,8 @@
 {
   "polkadot": {
     "slug": "polkadot",
-    "name": "Polkadot Relay Chain",
-    "logo": "./71.Polkadot.png",
+    "name": "Polkadot",
+    "logo": "polkadot",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -35,8 +35,8 @@
   },
   "kusama": {
     "slug": "kusama",
-    "name": "Kusama Relay Chain",
-    "logo": "./72.Kusama.png",
+    "name": "Kusama",
+    "logo": "kusama",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -70,7 +70,7 @@
   "moonbeam": {
     "slug": "moonbeam",
     "name": "Moonbeam",
-    "logo": "./34.Moonbeam.png",
+    "logo": "moonbeam",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -94,7 +94,7 @@
       "existentialDeposit": "0",
       "decimals": 18,
 
-      "hasNativeNft": true,
+      "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
     },
@@ -113,7 +113,7 @@
   "acala": {
     "slug": "acala",
     "name": "Acala",
-    "logo": "./34.Moonbeam.png",
+    "logo": "acala",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -143,10 +143,10 @@
       "supportSmartContract": null
     }
   },
-  "alephZeroTest": {
-    "slug": "alephZeroTest",
+  "alephTest": {
+    "slug": "alephTest",
     "name": "Aleph Zero Testnet",
-    "logo": "./55.Aleph.png",
+    "logo": "aleph",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -174,8 +174,8 @@
   },
   "ethereum": {
     "slug": "ethereum",
-    "name": "Ethereum Mainnet",
-    "logo": "./77.Ethereum.png",
+    "name": "Ethereum",
+    "logo": "ethereum",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -194,5 +194,215 @@
       "supportSmartContract": ["ERC20", "ERC721"],
       "abiExplorer": "https://etherscan.io"
     }
+  },
+  "astar": {
+    "slug": "astar",
+    "name": "Astar",
+    "logo": "astar",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws",
+      "Dwellir": "wss://astar-rpc.dwellir.com",
+      "Astar": "wss://rpc.astar.network",
+      "PinkNode": "wss://public-rpc.pinknode.io/astar",
+      "Blast": "wss://astar.public.blastapi.io",
+      "1RPC": "wss://1rpc.io/astr",
+      "Light Client": "light://substrate-connect/polkadot/astar"
+    },
+    "substrateInfo": {
+      "paraId": 2006,
+      "relaySlug": "polkadot",
+      "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+      "addressPrefix": 5,
+      "crowdloanUrl": "https://crowdloan.astar.network/#/",
+      "chainType": "PARACHAIN",
+
+      "blockExplorer": "https://astar.subscan.io/",
+
+      "symbol": "ASTR",
+      "existentialDeposit": "1000000",
+      "decimals": 18,
+
+      "hasNativeNft": false,
+      "supportSmartContract": ["PSP34", "PSP22"],
+      "supportStaking": true
+    },
+    "evmInfo": null
+  },
+  "astarEvm": {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "logo": "astar",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws",
+      "Dwellir": "wss://astar-rpc.dwellir.com",
+      "Astar": "wss://rpc.astar.network",
+      "PinkNode": "wss://public-rpc.pinknode.io/astar",
+      "Blast": "wss://astar.public.blastapi.io",
+      "1RPC": "wss://1rpc.io/astr",
+      "Light Client": "light://substrate-connect/polkadot/astar"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 592,
+      "blockExplorer": "https://blockscout.com/astar/",
+
+      "symbol": "ASTR",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": ["ERC20", "ERC721"],
+      "abiExplorer": null
+    }
+  },
+  "shibuya": {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "logo": "shibuya",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Shibuya": "wss://rpc.shibuya.astar.network",
+      "Dwellir": "wss://shibuya-rpc.dwellir.com"
+    },
+    "substrateInfo": {
+      "paraId": 1000,
+      "relaySlug": null,
+      "genesisHash": "0xddb89973361a170839f80f152d2e9e38a376a5a7eccefcade763f46a8e567019",
+      "addressPrefix": 5,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+
+      "blockExplorer": "https://shibuya.subscan.io/",
+
+      "symbol": "SBY",
+      "existentialDeposit": "1000000",
+      "decimals": 18,
+
+      "hasNativeNft": false,
+      "supportSmartContract": ["PSP34", "PSP22"],
+      "supportStaking": true
+    },
+    "evmInfo": null
+  },
+  "shibuyaEvm": {
+    "slug": "shibuyaEvm",
+    "name": "Shibuya Testnet - EVM",
+    "logo": "shibuya",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Shibuya": "wss://rpc.shibuya.astar.network",
+      "Dwellir": "wss://shibuya-rpc.dwellir.com"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 81,
+      "blockExplorer": null,
+
+      "symbol": "SBY",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": ["ERC20", "ERC721"],
+      "abiExplorer": null
+    }
+  },
+  "westend": {
+    "slug": "westend",
+    "name": "Westend",
+    "logo": "westend",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Parity": "wss://westend-rpc.polkadot.io",
+      "Pinknode": "wss://rpc.pinknode.io/westend/explorer",
+      "Dwellir": "wss://westend-rpc.dwellir.com",
+      "Light Client": "light://substrate-connect/westend",
+      "DottersNet": "wss://rpc.dotters.network/westend",
+      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+      "addressPrefix": 42,
+      "crowdloanUrl": null,
+      "chainType": "RELAYCHAIN",
+
+      "blockExplorer": "https://westend.subscan.io/",
+
+      "symbol": "WND",
+      "existentialDeposit": "10000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": true
+    },
+    "evmInfo": null
+  },
+  "rococo": {
+    "slug": "rococo",
+    "name": "Rococo",
+    "logo": "rococo",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Parity": "wss://rococo-rpc.polkadot.io",
+      "OnFinality": "wss://rococo.api.onfinality.io/public-ws",
+      "Pinknode": "wss://rpc.pinknode.io/rococo/explorer",
+      "Ares Protocol": "wss://rococo.aresprotocol.com",
+      "Light Client": "light://substrate-connect/rococo"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+      "addressPrefix": 42,
+      "crowdloanUrl": null,
+      "chainType": "RELAYCHAIN",
+
+      "blockExplorer": null,
+
+      "symbol": "ROC",
+      "existentialDeposit": "33333333",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportSmartContract": ["PSP34", "PSP22"],
+      "supportStaking": false
+    },
+    "evmInfo": null
+  },
+  "bitcountry": {
+    "slug": "bitcountry",
+    "name": "Bit.Country - Alpha Net",
+    "logo": "bitcountry",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Metaverse Foundation": "wss://alphanet-rpc.bit.country"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xfff6fd94251f570d4c9cdf25a0475da0d7ad35160290da19dad8f9caf8bf31b5",
+      "addressPrefix": 42,
+      "crowdloanUrl": null,
+      "chainType": "RELAYCHAIN",
+
+      "blockExplorer": null,
+
+      "symbol": "NUUM",
+      "existentialDeposit": "1",
+      "decimals": 18,
+
+      "hasNativeNft": true,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null
   }
 }

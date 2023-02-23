@@ -2,6 +2,7 @@
   "polkadot-NATIVE-DOT": {
     "originChain": "polkadot",
     "slug": "polkadot-NATIVE-DOT",
+    "logo": "polkadot",
     "name": "Polkadot",
     "symbol": "DOT",
     "decimals": 10,
@@ -15,6 +16,7 @@
   "kusama-NATIVE-KSM": {
     "originChain": "kusama",
     "slug": "kusama-NATIVE-KSM",
+    "logo": "kusama",
     "name": "Kusama",
     "symbol": "KSM",
     "decimals": 12,
@@ -28,6 +30,7 @@
   "moonbeam-NATIVE-GLMR": {
     "originChain": "moonbeam",
     "slug": "moonbeam-NATIVE-GLMR",
+    "logo": "moonbeam",
     "name": "Moonbeam",
     "symbol": "GLMR",
     "decimals": 18,
@@ -41,32 +44,161 @@
   "acala-NATIVE-ACA": {
     "originChain": "acala",
     "slug": "acala-NATIVE-ACA",
+    "logo": "acala",
     "name": "Acala",
     "symbol": "ACA",
     "decimals": 12,
     "priceId": "acala",
     "minAmount": "100000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "Token": "ACA"
+        }
+      }
+    },
     "multiChainAsset": "ACA-Acala",
     "hasValue": true
   },
   "acala-LOCAL-DOT": {
     "originChain": "acala",
     "slug": "acala-LOCAL-DOT",
+    "logo": "polkadot",
     "name": "Polkadot",
     "symbol": "DOT",
     "decimals": 10,
     "priceId": "polkadot",
-    "minAmount": null,
+    "minAmount": "100000000",
     "assetType": "LOCAL",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "Token": "DOT"
+        }
+      }
+    },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true
   },
-  "alephZeroTest-NATIVE-TZERO": {
-    "originChain": "alephZeroTest",
-    "slug": "alephZeroTest-NATIVE-TZERO",
+  "acala-LOCAL-GLMR": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-GLMR",
+    "logo": "moonbeam",
+    "name": "Moonbeam",
+    "symbol": "GLMR",
+    "decimals": 18,
+    "priceId": "moonbeam",
+    "minAmount": "100000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAssetId": 0
+      }
+    },
+    "multiChainAsset": "GLMR-Moonbeam",
+    "hasValue": true
+  },
+  "acala-LOCAL-aUSD": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-aUSD",
+    "logo": "acalaUsd",
+    "name": "Acala USD",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": "acala-dollar-acala",
+    "minAmount": "100000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "Token": "AUSD"
+        }
+      }
+    },
+    "multiChainAsset": "aUSD-AcalaDollar",
+    "hasValue": true
+  },
+  "acala-LOCAL-ASTR": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-ASTR",
+    "logo": "astar",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "100000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAssetId": 2
+      }
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true
+  },
+  "acala-LOCAL-LDOT": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-LDOT",
+    "logo": "polkadot",
+    "name": "Liquid DOT",
+    "symbol": "LDOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "500000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "Token": "LDOT"
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true
+  },
+  "acala-LOCAL-LcDOT": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-LcDOT",
+    "logo": "polkadot",
+    "name": "Liquid Crowdloan DOT",
+    "symbol": "LcDOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "LiquidCrowdloan": 13
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true
+  },
+  "acala-LOCAL-tDOT": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-tDOT",
+    "logo": "tapioDot",
+    "name": "Tapio DOT",
+    "symbol": "tDOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "StableAssetId": 0
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true
+  },
+  "alephTest-NATIVE-TZERO": {
+    "originChain": "alephTest",
+    "slug": "alephTest-NATIVE-TZERO",
+    "logo": "aleph",
     "name": "Aleph Zero Testnet",
     "symbol": "TZERO",
     "decimals": 12,
@@ -80,6 +212,7 @@
   "moonbeam-LOCAL-xcDOT": {
     "originChain": "moonbeam",
     "slug": "moonbeam-LOCAL-xcDOT",
+    "logo": "polkadot",
     "name": "Polkadot",
     "symbol": "xcDOT",
     "decimals": 10,
@@ -95,7 +228,8 @@
   },
   "moonbeam-LOCAL-xcACA": {
     "originChain": "moonbeam",
-    "slug": "acala-LOCAL-xcACA",
+    "slug": "moonbeam-LOCAL-xcACA",
+    "logo": "acala",
     "name": "Acala",
     "symbol": "xcACA",
     "decimals": 12,
@@ -109,9 +243,10 @@
     "multiChainAsset": "ACA-Acala",
     "hasValue": true
   },
-  "alephZeroTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke": {
-    "originChain": "alephZeroTest",
-    "slug": "alephZeroTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke",
+  "alephTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke": {
+    "originChain": "alephTest",
+    "slug": "alephTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke",
+    "logo": "panx",
     "name": "PANX",
     "symbol": "PANX",
     "decimals": 12,
@@ -127,6 +262,7 @@
   "moonbeam-ERC721-MFBB-0x02a6dec99b2ca768d638fcd87a96f6069f91287c": {
     "originChain": "moonbeam",
     "slug": "moonbeam-ERC721-MFBB-0x02a6dec99b2ca768d638fcd87a96f6069f91287c",
+    "logo": null,
     "name": "MoonFit Beast and Beauty",
     "symbol": "MFBB",
     "decimals": null,
@@ -142,6 +278,7 @@
   "ethereum-NATIVE-ETH": {
     "originChain": "ethereum",
     "slug": "ethereum-NATIVE-ETH",
+    "logo": "ethereum",
     "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
@@ -151,5 +288,103 @@
     "metadata": null,
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true
+  },
+  "astar-NATIVE-ASTR": {
+    "originChain": "astar",
+    "slug": "astar-NATIVE-ASTR",
+    "logo": "astar",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true
+  },
+  "astarEvm-NATIVE-ASTR": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-NATIVE-ASTR",
+    "logo": "astar",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true
+  },
+  "shibuya-NATIVE-SBY": {
+    "originChain": "shibuya",
+    "slug": "shibuya-NATIVE-SBY",
+    "logo": "shibuya",
+    "name": "Shibuya",
+    "symbol": "SBY",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false
+  },
+  "shibuyaEvm-NATIVE-SBY": {
+    "originChain": "shibuyaEvm",
+    "slug": "shibuyaEvm-NATIVE-SBY",
+    "logo": "shibuya",
+    "name": "Shibuya",
+    "symbol": "SBY",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false
+  },
+  "westend-NATIVE-WND": {
+    "originChain": "westend",
+    "slug": "westend-NATIVE-WND",
+    "logo": "westend",
+    "name": "Westend",
+    "symbol": "WND",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false
+  },
+  "rococo-NATIVE-ROC": {
+    "originChain": "rococo",
+    "slug": "rococo-NATIVE-ROC",
+    "logo": "rococo",
+    "name": "Rococo",
+    "symbol": "ROC",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "33333333",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false
+  },
+  "bitcountry-NATIVE-NUUM": {
+    "originChain": "bitcountry",
+    "slug": "bitcountry-NATIVE-NUUM",
+    "logo": "bitcountry",
+    "name": "Bit.Country - Alpha Net",
+    "symbol": "NUUM",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false
   }
 }
