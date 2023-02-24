@@ -404,5 +404,35 @@
       "supportStaking": false
     },
     "evmInfo": null
+  },
+  "equilibrium_parachain": {
+    "slug": "equilibrium_parachain",
+    "name": "Equilibrium",
+    "logo": "equilibrium",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Equilibrium": "wss://node.pol.equilibrium.io",
+      "Dwellir": "wss://equilibrium-rpc.dwellir.com"
+    },
+    "substrateInfo": {
+      "paraId": 2011,
+      "relaySlug": "polkadot",
+      "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+      "addressPrefix": 68,
+      "crowdloanUrl": "https://equilibrium.io/en/crowdloan#bid",
+      "chainType": "PARACHAIN",
+
+      "blockExplorer": "https://equilibrium.subscan.io",
+
+      "symbol": "EQ",
+      "existentialDeposit": "100000000",
+      "decimals": 9,
+
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null
   }
 }

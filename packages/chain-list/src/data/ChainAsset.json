@@ -73,9 +73,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "NativeAssetId": {
-          "Token": "DOT"
-        }
+        "Token": "DOT"
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -93,7 +91,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "ForeignAssetId": 0
+        "ForeignAsset": 0
       }
     },
     "multiChainAsset": "GLMR-Moonbeam",
@@ -111,9 +109,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "NativeAssetId": {
-          "Token": "AUSD"
-        }
+        "Token": "AUSD"
       }
     },
     "multiChainAsset": "aUSD-AcalaDollar",
@@ -131,7 +127,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "ForeignAssetId": 2
+        "ForeignAsset": 2
       }
     },
     "multiChainAsset": "ASTR-Astar",
@@ -149,9 +145,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "NativeAssetId": {
-          "Token": "LDOT"
-        }
+        "Token": "LDOT"
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -169,9 +163,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "NativeAssetId": {
-          "LiquidCrowdloan": 13
-        }
+        "LiquidCrowdloan": 13
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -189,7 +181,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "StableAssetId": 0
+        "StableAssetPoolToken": 0
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -386,5 +378,19 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false
+  },
+  "equilibrium_parachain-NATIVE-EQ": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-NATIVE-EQ",
+    "logo": "equilibrium",
+    "name": "Equilibrium",
+    "symbol": "EQ",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
   }
 }
