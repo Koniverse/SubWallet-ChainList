@@ -4,7 +4,6 @@
     "originChainAsset": "polkadot-NATIVE-DOT",
     "name": "Polkadot",
     "symbol": "DOT",
-    "logo": "polkadot",
     "priceId": "polkadot"
   },
   "KSM-Kusama": {
@@ -12,7 +11,6 @@
     "originChainAsset": "kusama-NATIVE-KSM",
     "name": "Kusama",
     "symbol": "KSM",
-    "logo": "kusama",
     "priceId": "kusama"
   },
   "GLMR-Moonbeam": {
@@ -20,7 +18,6 @@
     "originChainAsset": "moonbeam-NATIVE-GLMR",
     "name": "Moonbeam",
     "symbol": "GLMR",
-    "logo": "moonbeam",
     "priceId": "moonbeam"
   },
   "ACA-Acala": {
@@ -28,7 +25,6 @@
     "originChainAsset": "acala-NATIVE-ACA",
     "name": "Acala",
     "symbol": "ACA",
-    "logo": "acala",
     "priceId": "acala"
   },
   "USDT-Tether": {
@@ -36,7 +32,6 @@
     "originChainAsset": null,
     "name": "Tether",
     "symbol": "USDT",
-    "logo": "usdt",
     "priceId": "tether"
   },
   "ETH-Ethereum": {
@@ -44,7 +39,6 @@
     "originChainAsset": "ethereum-NATIVE-ETH",
     "name": "Ethereum",
     "symbol": "ETH",
-    "logo": "ethereum",
     "priceId": "ethereum"
   },
   "ASTR-Astar": {
@@ -52,7 +46,6 @@
     "originChainAsset": "astar-NATIVE-ASTR",
     "name": "Astar",
     "symbol": "ASTR",
-    "logo": "astar",
     "priceId": "astar"
   },
   "aUSD-AcalaDollar": {
@@ -60,7 +53,13 @@
     "originChainAsset": "acala-LOCAL-aUSD",
     "name": "Acala Dollar",
     "symbol": "aUSD",
-    "logo": "acalaUsd",
     "priceId": "acala-dollar-acala"
+  },
+  "DEV-MoonbaseDev": {
+    "slug": "DEV-MoonbaseDev",
+    "originChainAsset": "moonbase-NATIVE-DEV",
+    "name": "Moonbase Dev",
+    "symbol": "DEV",
+    "priceId": null
   }
 }

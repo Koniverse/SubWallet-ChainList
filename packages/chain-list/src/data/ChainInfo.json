@@ -2,7 +2,6 @@
   "polkadot": {
     "slug": "polkadot",
     "name": "Polkadot",
-    "logo": "polkadot",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -36,7 +35,6 @@
   "kusama": {
     "slug": "kusama",
     "name": "Kusama",
-    "logo": "kusama",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -70,7 +68,6 @@
   "moonbeam": {
     "slug": "moonbeam",
     "name": "Moonbeam",
-    "logo": "moonbeam",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -113,7 +110,6 @@
   "acala": {
     "slug": "acala",
     "name": "Acala",
-    "logo": "acala",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -146,7 +142,6 @@
   "alephTest": {
     "slug": "alephTest",
     "name": "Aleph Zero Testnet",
-    "logo": "aleph",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -175,7 +170,6 @@
   "ethereum": {
     "slug": "ethereum",
     "name": "Ethereum",
-    "logo": "ethereum",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -198,7 +192,6 @@
   "astar": {
     "slug": "astar",
     "name": "Astar",
-    "logo": "astar",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -233,7 +226,6 @@
   "astarEvm": {
     "slug": "astarEvm",
     "name": "Astar - EVM",
-    "logo": "astar",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -260,7 +252,6 @@
   "shibuya": {
     "slug": "shibuya",
     "name": "Shibuya Testnet",
-    "logo": "shibuya",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -290,7 +281,6 @@
   "shibuyaEvm": {
     "slug": "shibuyaEvm",
     "name": "Shibuya Testnet - EVM",
-    "logo": "shibuya",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -312,7 +302,6 @@
   "westend": {
     "slug": "westend",
     "name": "Westend",
-    "logo": "westend",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -346,7 +335,6 @@
   "rococo": {
     "slug": "rococo",
     "name": "Rococo",
-    "logo": "rococo",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -379,7 +367,6 @@
   "bitcountry": {
     "slug": "bitcountry",
     "name": "Bit.Country - Alpha Net",
-    "logo": "bitcountry",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -408,7 +395,6 @@
   "equilibrium_parachain": {
     "slug": "equilibrium_parachain",
     "name": "Equilibrium",
-    "logo": "equilibrium",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -434,5 +420,44 @@
       "supportStaking": false
     },
     "evmInfo": null
+  },
+  "moonbase": {
+    "slug": "moonbase",
+    "name": "Moonbase Alpha",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
+      "OnFinality": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
+      "Blast": "wss://moonbase-alpha.public.blastapi.io"
+    },
+    "substrateInfo": {
+      "paraId": 1000,
+      "relaySlug": null,
+      "genesisHash": "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
+      "addressPrefix": 1287,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://moonbase.subscan.io/",
+
+      "symbol": "DEV",
+      "existentialDeposit": "0",
+      "decimals": 18,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": {
+      "evmChainId": 1287,
+      "blockExplorer": "https://moonbase.moonscan.io/",
+
+      "symbol": "DEV",
+      "decimals": 18,
+      "existentialDeposit": "0",
+
+      "supportSmartContract": ["ERC721", "ERC20"],
+      "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
+    }
   }
 }
