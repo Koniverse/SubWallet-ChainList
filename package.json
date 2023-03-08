@@ -4,17 +4,16 @@
   "homepage": "https://github.com/Koniverse/SubWallet-Chain#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.2.0",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/Koniverse/SubWallet-Chain.git"
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "versions": {
-    "git": "0.0.7",
-    "npm": "0.0.7"
+    "git": "0.0.10",
+    "npm": "0.0.10"
   },
   "workspaces": [
     "packages/*"
