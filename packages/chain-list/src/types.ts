@@ -40,7 +40,6 @@ export enum _SubstrateChainType {
 export interface _ChainInfo {
   slug: string,
   name: string,
-  logo: string | null,
   chainStatus: _ChainStatus,
   isTestnet: boolean,
   providers: Record<string, string>,
@@ -51,7 +50,6 @@ export interface _ChainInfo {
 export interface _ChainAsset {
   originChain: string,
   slug: string,
-  logo: string | null,
   name: string,
   symbol: string,
   decimals: number | null,
@@ -100,8 +98,7 @@ export interface _MultiChainAsset {
   originChainAsset: string,
   name: string,
   symbol: string,
-  priceId: string,
-  logo: string | null
+  priceId: string
 }
 
 export enum _AssetRefPath {

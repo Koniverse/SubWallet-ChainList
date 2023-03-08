@@ -459,5 +459,289 @@
       "supportSmartContract": ["ERC721", "ERC20"],
       "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
     }
+  },
+  "moonriver": {
+    "slug": "moonriver",
+    "name": "Moonriver",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
+      "OnFinality": "wss://moonriver.api.onfinality.io/public-ws",
+      "Blast": "wss://moonriver.public.blastapi.io",
+      "Dwellir": "wss://moonriver-rpc.dwellir.com",
+      "Pinknode": "wss://public-rpc.pinknode.io/moonriver",
+      "UnitedBloc": "wss://moonriver.unitedbloc.com:2001"
+    },
+    "substrateInfo": {
+      "paraId": 2023,
+      "relaySlug": "kusama",
+      "genesisHash": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+      "addressPrefix": 1285,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://moonriver.subscan.io/",
+
+      "symbol": "MOVR",
+      "existentialDeposit": "0",
+      "decimals": 18,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": {
+      "evmChainId": 1285,
+      "blockExplorer": "https://moonriver.moonscan.io/",
+
+      "symbol": "MOVR",
+      "decimals": 18,
+      "existentialDeposit": "0",
+
+      "supportSmartContract": ["ERC721", "ERC20"],
+      "abiExplorer": "https://api-moonriver.moonscan.io/api?module=contract&action=getabi"
+    }
+  },
+  "turingStaging": {
+    "slug": "turingStaging",
+    "name": "Turing Staging",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Turing": "wss://rpc.turing-staging.oak.tech"
+    },
+    "substrateInfo": {
+      "paraId": 2114,
+      "relaySlug": null,
+      "genesisHash": "0xd54f0988402deb4548538626ce37e4a318441ea0529ca369400ebec4e04dfe4b",
+      "addressPrefix": 51,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": null,
+
+      "symbol": "TUR",
+      "existentialDeposit": "100000000",
+      "decimals": 10,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "turing": {
+    "slug": "turing",
+    "name": "Turing",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Turing": "wss://rpc.turing.oak.tech",
+      "Dwellir": "wss://turing-rpc.dwellir.com"
+    },
+    "substrateInfo": {
+      "paraId": 2114,
+      "relaySlug": "kusama",
+      "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+      "addressPrefix": 51,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://turing.subscan.io/",
+
+      "symbol": "TUR",
+      "existentialDeposit": "100000000",
+      "decimals": 10,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "bifrost": {
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
+      "Dwellir": "wss://bifrost-rpc.dwellir.com",
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+    },
+    "substrateInfo": {
+      "paraId": 2001,
+      "relaySlug": "kusama",
+      "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+      "addressPrefix": 6,
+      "crowdloanUrl": "https://bifrost.app/vcrowdloan",
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://bifrost-kusama.subscan.io",
+
+      "symbol": "BNC",
+      "existentialDeposit": "10000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "bifrost_dot": {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+    },
+    "substrateInfo": {
+      "paraId": 2030,
+      "relaySlug": "polkadot",
+      "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+      "addressPrefix": 6,
+      "crowdloanUrl": "https://bifrost.app/vcrowdloan",
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://bifrost.subscan.io",
+
+      "symbol": "BNC",
+      "existentialDeposit": "10000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "bifrost_testnet": {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Liebi": "wss://bifrost-rpc.rococo.liebi.com/ws"
+    },
+    "substrateInfo": {
+      "paraId": 2030,
+      "relaySlug": "rococo",
+      "genesisHash": "0x8b290fa39a8808f29d7309ea99442c95bf964838aef14be5a6449ae48f8a5f1f",
+      "addressPrefix": 6,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://bifrost-testnet.subscan.io/",
+
+      "symbol": "BNC",
+      "existentialDeposit": "10000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "calamari": {
+    "slug": "calamari",
+    "name": "Calamari Parachain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Manta Network": "wss://ws.calamari.systems/",
+      "OnFinality": "wss://calamari.api.onfinality.io/public-ws"
+    },
+    "substrateInfo": {
+      "paraId": 2084,
+      "relaySlug": "kusama",
+      "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+      "addressPrefix": 78,
+      "crowdloanUrl": "https://calamari.network/",
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://calamari.subscan.io/",
+
+      "symbol": "KMA",
+      "existentialDeposit": "100000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "amplitude": {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+    },
+    "substrateInfo": {
+      "paraId": 2124,
+      "relaySlug": "kusama",
+      "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+      "addressPrefix": 57,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": null,
+
+      "symbol": "AMPE",
+      "existentialDeposit": "1000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "amplitude_test": {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    },
+    "substrateInfo": {
+      "paraId": 2124,
+      "relaySlug": "rococo",
+      "genesisHash": "0x67221cd96c1551b72d55f65164d6a39f31b570c77a05c90e31931b0e2f379e13",
+      "addressPrefix": 57,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": null,
+
+      "symbol": "AMPE",
+      "existentialDeposit": "1000000000",
+      "decimals": 12,
+
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null
+    },
+    "evmInfo": null
+  },
+  "bobabase": {
+    "slug": "bobabase",
+    "name": "Bobabase Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "RPC": "https://bobabase.boba.network",
+      "Replica RPC": "https://replica.bobabase.boba.network"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 1297,
+      "blockExplorer": null,
+
+      "symbol": "BOBA",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": ["ERC20", "ERC721"],
+      "abiExplorer": "https://blockexplorer.bobabase.boba.network"
+    }
   }
 }

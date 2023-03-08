@@ -61,5 +61,12 @@
     "name": "Moonbase Dev",
     "symbol": "DEV",
     "priceId": null
+  },
+  "MOVR-Moonriver": {
+    "slug": "MOVR-Moonriver",
+    "originChainAsset": "moonriver-NATIVE-MOVR",
+    "name": "Moonriver",
+    "symbol": "MOVR",
+    "priceId": "moonriver"
   }
 }
