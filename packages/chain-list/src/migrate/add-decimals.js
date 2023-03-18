@@ -1,4 +1,4 @@
-{
+const inputMap = {
   "polkadot": {
     "slug": "polkadot",
     "name": "Polkadot",
@@ -21,9 +21,11 @@
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://polkadot.subscan.io/",
+
       "symbol": "DOT",
       "existentialDeposit": "10000000000",
       "decimals": 10,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -52,9 +54,11 @@
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://kusama.subscan.io/",
+
       "symbol": "KSM",
       "existentialDeposit": "333333333",
       "decimals": 12,
+
       "hasNativeNft": true,
       "supportStaking": true,
       "supportSmartContract": null
@@ -82,9 +86,11 @@
       "crowdloanUrl": "https://moonbeam.foundation/moonbeam-crowdloan/",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://moonbeam.subscan.io/",
+
       "symbol": "GLMR",
       "existentialDeposit": "0",
       "decimals": 18,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -92,13 +98,12 @@
     "evmInfo": {
       "evmChainId": 1284,
       "blockExplorer": "https://moonscan.io/",
+
       "symbol": "GLMR",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC721",
-        "ERC20"
-      ],
+
+      "supportSmartContract": ["ERC721", "ERC20"],
       "abiExplorer": "https://api-moonbeam.moonscan.io/api?module=contract&action=getabi"
     }
   },
@@ -124,9 +129,11 @@
       "crowdloanUrl": "https://distribution.acala.network/",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://acala.subscan.io/",
+
       "symbol": "ACA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+
       "hasNativeNft": true,
       "supportStaking": false,
       "supportSmartContract": null
@@ -147,15 +154,15 @@
       "addressPrefix": 42,
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+
       "blockExplorer": null,
+
       "symbol": "TZERO",
       "existentialDeposit": "500",
       "decimals": 12,
+
       "hasNativeNft": false,
-      "supportSmartContract": [
-        "PSP34",
-        "PSP22"
-      ],
+      "supportSmartContract": ["PSP34", "PSP22"],
       "supportStaking": true
     },
     "evmInfo": null
@@ -174,13 +181,11 @@
     "evmInfo": {
       "evmChainId": 1,
       "blockExplorer": "https://etherscan.io",
+
       "symbol": "ETH",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
+      "supportSmartContract": ["ERC20", "ERC721"],
       "abiExplorer": "https://etherscan.io"
     }
   },
@@ -205,15 +210,15 @@
       "addressPrefix": 5,
       "crowdloanUrl": "https://crowdloan.astar.network/#/",
       "chainType": "PARACHAIN",
+
       "blockExplorer": "https://astar.subscan.io/",
+
       "symbol": "ASTR",
       "existentialDeposit": "1000000",
       "decimals": 18,
+
       "hasNativeNft": false,
-      "supportSmartContract": [
-        "PSP34",
-        "PSP22"
-      ],
+      "supportSmartContract": ["PSP34", "PSP22"],
       "supportStaking": true
     },
     "evmInfo": null
@@ -234,13 +239,11 @@
     "evmInfo": {
       "evmChainId": 592,
       "blockExplorer": "https://blockscout.com/astar/",
+
       "symbol": "ASTR",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
+      "supportSmartContract": ["ERC20", "ERC721"],
       "abiExplorer": null
     }
   },
@@ -262,15 +265,15 @@
       "addressPrefix": 5,
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "PARACHAIN",
+
       "blockExplorer": "https://shiden.subscan.io/",
+
       "symbol": "SDN",
       "existentialDeposit": "1000000",
       "decimals": 18,
+
       "hasNativeNft": false,
-      "supportSmartContract": [
-        "PSP34",
-        "PSP22"
-      ],
+      "supportSmartContract": ["PSP34", "PSP22"],
       "supportStaking": true
     },
     "evmInfo": null
@@ -290,13 +293,11 @@
     "evmInfo": {
       "evmChainId": 336,
       "blockExplorer": "https://blockscout.com/shiden/",
+
       "symbol": "SDN",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
+      "supportSmartContract": ["ERC20", "ERC721"],
       "abiExplorer": null
     }
   },
@@ -316,15 +317,15 @@
       "addressPrefix": 5,
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+
       "blockExplorer": "https://shibuya.subscan.io/",
+
       "symbol": "SBY",
       "existentialDeposit": "1000000",
       "decimals": 18,
+
       "hasNativeNft": false,
-      "supportSmartContract": [
-        "PSP34",
-        "PSP22"
-      ],
+      "supportSmartContract": ["PSP34", "PSP22"],
       "supportStaking": true
     },
     "evmInfo": null
@@ -343,13 +344,11 @@
     "evmInfo": {
       "evmChainId": 81,
       "blockExplorer": null,
+
       "symbol": "SBY",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
+      "supportSmartContract": ["ERC20", "ERC721"],
       "abiExplorer": null
     }
   },
@@ -373,10 +372,13 @@
       "addressPrefix": 42,
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+
       "blockExplorer": "https://westend.subscan.io/",
+
       "symbol": "WND",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportSmartContract": null,
       "supportStaking": true
@@ -402,15 +404,15 @@
       "addressPrefix": 42,
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+
       "blockExplorer": null,
+
       "symbol": "ROC",
       "existentialDeposit": "33333333",
       "decimals": 12,
+
       "hasNativeNft": false,
-      "supportSmartContract": [
-        "PSP34",
-        "PSP22"
-      ],
+      "supportSmartContract": ["PSP34", "PSP22"],
       "supportStaking": false
     },
     "evmInfo": null
@@ -430,10 +432,13 @@
       "addressPrefix": 42,
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+
       "blockExplorer": null,
+
       "symbol": "NUUM",
       "existentialDeposit": "1",
       "decimals": 18,
+
       "hasNativeNft": true,
       "supportSmartContract": null,
       "supportStaking": false
@@ -456,9 +461,13 @@
       "addressPrefix": 68,
       "crowdloanUrl": "https://equilibrium.io/en/crowdloan#bid",
       "chainType": "PARACHAIN",
+
       "blockExplorer": "https://equilibrium.subscan.io",
+
       "symbol": "EQ",
+      "existentialDeposit": "100000000",
       "decimals": 9,
+
       "hasNativeNft": false,
       "supportSmartContract": null,
       "supportStaking": false
@@ -483,9 +492,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://moonbase.subscan.io/",
+
       "symbol": "DEV",
       "existentialDeposit": "0",
       "decimals": 18,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -493,13 +504,12 @@
     "evmInfo": {
       "evmChainId": 1287,
       "blockExplorer": "https://moonbase.moonscan.io/",
+
       "symbol": "DEV",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC721",
-        "ERC20"
-      ],
+
+      "supportSmartContract": ["ERC721", "ERC20"],
       "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
     }
   },
@@ -524,9 +534,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://moonriver.subscan.io/",
+
       "symbol": "MOVR",
       "existentialDeposit": "0",
       "decimals": 18,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -534,13 +546,12 @@
     "evmInfo": {
       "evmChainId": 1285,
       "blockExplorer": "https://moonriver.moonscan.io/",
+
       "symbol": "MOVR",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC721",
-        "ERC20"
-      ],
+
+      "supportSmartContract": ["ERC721", "ERC20"],
       "abiExplorer": "https://api-moonriver.moonscan.io/api?module=contract&action=getabi"
     }
   },
@@ -560,9 +571,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": null,
+
       "symbol": "TUR",
       "existentialDeposit": "100000000",
       "decimals": 10,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -586,9 +599,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://turing.subscan.io/",
+
       "symbol": "TUR",
       "existentialDeposit": "100000000",
       "decimals": 10,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -613,9 +628,11 @@
       "crowdloanUrl": "https://bifrost.app/vcrowdloan",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://bifrost-kusama.subscan.io",
+
       "symbol": "BNC",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -639,9 +656,11 @@
       "crowdloanUrl": "https://bifrost.app/vcrowdloan",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://bifrost.subscan.io",
+
       "symbol": "BNC",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -664,9 +683,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://bifrost-testnet.subscan.io/",
+
       "symbol": "BNC",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -690,9 +711,11 @@
       "crowdloanUrl": "https://calamari.network/",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://calamari.subscan.io/",
+
       "symbol": "KMA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -715,9 +738,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": null,
+
       "symbol": "AMPE",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -740,9 +765,11 @@
       "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": null,
+
       "symbol": "AMPE",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null
@@ -762,13 +789,11 @@
     "evmInfo": {
       "evmChainId": 1297,
       "blockExplorer": null,
+
       "symbol": "BOBA",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
+      "supportSmartContract": ["ERC20", "ERC721"],
       "abiExplorer": "https://blockexplorer.bobabase.boba.network"
     }
   },
@@ -793,11 +818,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://statemint.subscan.io/",
       "symbol": "DOT",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -821,8 +845,7 @@
       "existentialDeposit": "100000000000000000",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -842,10 +865,7 @@
       "symbol": "GoerliETH",
       "decimals": 18,
       "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ]
+      "supportSmartContract": ["ERC20", "ERC721"]
     }
   },
   "binance": {
@@ -912,11 +932,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://parallel.subscan.io/",
       "symbol": "PARA",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -941,8 +960,7 @@
       "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -984,12 +1002,10 @@
       "crowdloanUrl": "https://loan.hydradx.io/",
       "chainType": "PARACHAIN",
       "symbol": "HDX",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1011,11 +1027,10 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://edgeware.subscan.io/",
       "symbol": "EDG",
-      "existentialDeposit": "10000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1037,11 +1052,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://centrifuge.subscan.io/",
       "symbol": "CFG",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1063,10 +1077,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://interlay.subscan.io/",
       "symbol": "INTR",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1089,11 +1103,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://nodle.subscan.io/",
       "symbol": "NODL",
-      "existentialDeposit": "10000",
+      "existentialDeposit": "0",
       "decimals": 11,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1118,8 +1131,7 @@
       "existentialDeposit": "0",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1139,12 +1151,10 @@
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "PARACHAIN",
       "symbol": "XOR",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1164,12 +1174,10 @@
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "RELAYCHAIN",
       "symbol": "ARES",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1191,7 +1199,7 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://polkadex.subscan.io/",
       "symbol": "PDEX",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
@@ -1215,12 +1223,11 @@
       "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
       "chainType": "RELAYCHAIN",
       "symbol": "Unit",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1240,12 +1247,11 @@
       "crowdloanUrl": "https://contribute.alephzero.org/",
       "chainType": "RELAYCHAIN",
       "symbol": "AZERO",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1264,12 +1270,10 @@
       "addressPrefix": 0,
       "chainType": "RELAYCHAIN",
       "symbol": "UNIT",
-      "existentialDeposit": "10000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1289,10 +1293,10 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://dolphin.subscan.io/",
       "symbol": "DOL",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1317,9 +1321,7 @@
       "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1341,11 +1343,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://efinity.subscan.io/",
       "symbol": "EFI",
-      "existentialDeposit": "1000000000000000000",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1365,12 +1366,10 @@
       "crowdloanUrl": "https://crowdloan.composable.finance/",
       "chainType": "PARACHAIN",
       "symbol": "LAYR",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1392,11 +1391,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://phala.subscan.io/",
       "symbol": "PHA",
-      "existentialDeposit": "10000000000",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1418,11 +1416,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://crust.subscan.io/",
       "symbol": "CRU",
-      "existentialDeposit": "100000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1447,11 +1444,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://statemine.subscan.io/",
       "symbol": "KSM",
-      "existentialDeposit": "33333333",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1478,11 +1474,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://karura.subscan.io/",
       "symbol": "KAR",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1506,11 +1501,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://khala.subscan.io/",
       "symbol": "PHA",
-      "existentialDeposit": "10000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1532,12 +1526,11 @@
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "PARACHAIN",
       "symbol": "KILT",
-      "existentialDeposit": "10000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1559,11 +1552,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://basilisk.subscan.io/",
       "symbol": "BSX",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1585,11 +1577,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://altair.subscan.io/",
       "symbol": "AIR",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1610,12 +1601,10 @@
       "crowdloanUrl": "https://crowdloan.parallel.fi/#/auction/contribute/kusama/2085",
       "chainType": "PARACHAIN",
       "symbol": "HKO",
-      "existentialDeposit": "10000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1637,10 +1626,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://kintsugi.subscan.io/",
       "symbol": "KINT",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1659,11 +1648,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "KINT",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1684,11 +1672,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://picasso.subscan.io/",
       "symbol": "PICA",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1714,8 +1701,7 @@
       "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1738,9 +1724,7 @@
       "symbol": "UNQ",
       "existentialDeposit": "0",
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1761,10 +1745,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://genshiro.subscan.io/",
       "symbol": "GENS",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1783,13 +1767,12 @@
       "addressPrefix": 68,
       "chainType": "RELAYCHAIN",
       "symbol": "TOKEN",
+      "existentialDeposit": "0",
       "decimals": 9,
       "hasNativeNft": false,
       "supportSmartContract": [
 
-      ],
-      "blockExplorer": null,
-      "supportStaking": false
+      ]
     },
     "evmInfo": null
   },
@@ -1809,11 +1792,9 @@
       "crowdloanUrl": "https://app.subsocial.network/crowdloan",
       "chainType": "PARACHAIN",
       "symbol": "SUB",
-      "existentialDeposit": "100000000",
+      "existentialDeposit": "0",
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1835,11 +1816,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://zeitgeist.subscan.io/",
       "symbol": "ZTG",
-      "existentialDeposit": "50000000",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1860,11 +1840,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://sakura.subscan.io/",
       "symbol": "SKU",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1885,11 +1864,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://shadow.subscan.io/",
       "symbol": "CSM",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1911,9 +1889,7 @@
       "existentialDeposit": "0",
       "decimals": 15,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1937,11 +1913,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://robonomics.subscan.io/",
       "symbol": "XRT",
-      "existentialDeposit": "1000",
+      "existentialDeposit": "0",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1963,11 +1938,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://integritee.subscan.io/",
       "symbol": "TEER",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -1987,12 +1961,10 @@
       "crowdloanUrl": "https://crowdloan.integritee.network/",
       "chainType": "PARACHAIN",
       "symbol": "TEER",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2018,8 +1990,7 @@
       "existentialDeposit": "0",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2042,9 +2013,7 @@
       "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2088,8 +2057,7 @@
       "existentialDeposit": "0",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2131,9 +2099,7 @@
       "symbol": "PCX",
       "existentialDeposit": "0",
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2153,11 +2119,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "ACA",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2177,10 +2142,10 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://mangatax.subscan.io/",
       "symbol": "MGAT",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2200,10 +2165,9 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "MGX",
+      "existentialDeposit": "0",
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2223,10 +2187,9 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://encointer.subscan.io/",
       "symbol": "KSM",
-      "existentialDeposit": "3333333",
+      "existentialDeposit": "0",
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2246,12 +2209,10 @@
       "crowdloanUrl": "https://kusama-crowdloan.litentry.com/",
       "chainType": "PARACHAIN",
       "symbol": "LIT",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2272,12 +2233,10 @@
       "crowdloanUrl": "https://crowdloan.litentry.com/",
       "chainType": "PARACHAIN",
       "symbol": "LIT",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2299,12 +2258,10 @@
       "crowdloanUrl": "https://invarch.network/tinkernet",
       "chainType": "PARACHAIN",
       "symbol": "TNKR",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2323,12 +2280,10 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "IMBU",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2347,11 +2302,10 @@
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
       "symbol": "tSSC",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2373,11 +2327,10 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://subspace.subscan.io",
       "symbol": "tSSC",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2399,11 +2352,10 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://subspace.github.io/blockexplorer/#/gemini-3c",
       "symbol": "tSSC",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2423,11 +2375,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://origintrail.subscan.io/",
       "symbol": "OTP",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2446,12 +2397,10 @@
       "addressPrefix": 128,
       "chainType": "PARACHAIN",
       "symbol": "DORA",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2473,11 +2422,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://bajun.subscan.io/",
       "symbol": "BAJU",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2497,11 +2445,10 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "LT",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2520,12 +2467,10 @@
       "addressPrefix": 27,
       "chainType": "PARACHAIN",
       "symbol": "KAB",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2546,12 +2491,10 @@
       "addressPrefix": 7013,
       "chainType": "PARACHAIN",
       "symbol": "FREN",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2570,12 +2513,11 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "CAPS",
-      "existentialDeposit": "150000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2594,11 +2536,10 @@
       "addressPrefix": 33,
       "chainType": "PARACHAIN",
       "symbol": "DHX",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2617,11 +2558,10 @@
       "addressPrefix": 56,
       "chainType": "PARACHAIN",
       "symbol": "PEN",
+      "existentialDeposit": "1000000000",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2640,12 +2580,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "Unit",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2665,11 +2603,10 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://snow.subscan.io/",
       "symbol": "ICZ",
-      "existentialDeposit": "10000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2688,12 +2625,10 @@
       "addressPrefix": 2207,
       "chainType": "RELAYCHAIN",
       "symbol": "ICY",
-      "existentialDeposit": "10000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2712,12 +2647,11 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "CAPS",
-      "existentialDeposit": "150000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2736,12 +2670,11 @@
       "addressPrefix": 78,
       "chainType": "RELAYCHAIN",
       "symbol": "KMA",
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2825,12 +2758,11 @@
       "addressPrefix": 38,
       "chainType": "RELAYCHAIN",
       "symbol": "PILT",
-      "existentialDeposit": "10000000000000",
+      "existentialDeposit": "0",
       "decimals": 15,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2850,12 +2782,10 @@
       "addressPrefix": 55,
       "chainType": "RELAYCHAIN",
       "symbol": "xx",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2874,12 +2804,10 @@
       "addressPrefix": 19,
       "chainType": "RELAYCHAIN",
       "symbol": "WATRD",
-      "existentialDeposit": "10000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2918,12 +2846,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "TAO",
-      "existentialDeposit": "1",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2942,12 +2868,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "DISC",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 14,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2966,12 +2890,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "DISC",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 14,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -2990,12 +2912,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "ATO",
-      "existentialDeposit": "1000000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3014,12 +2934,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "MYRIA",
-      "existentialDeposit": "1000000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3038,12 +2956,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "DBIO",
-      "existentialDeposit": "10000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3062,11 +2978,10 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "BAR",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3104,12 +3019,11 @@
       "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "symbol": "DOT",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 10,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3129,12 +3043,11 @@
       "addressPrefix": 1328,
       "chainType": "PARACHAIN",
       "symbol": "AJUN",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3153,12 +3066,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "BBB",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3178,12 +3090,11 @@
       "addressPrefix": 90,
       "chainType": "PARACHAIN",
       "symbol": "FRQCY",
-      "existentialDeposit": "1000000",
+      "existentialDeposit": "0",
       "decimals": 8,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3202,12 +3113,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "HASH",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3226,16 +3136,15 @@
       "addressPrefix": 2007,
       "chainType": "PARACHAIN",
       "symbol": "KPX",
-      "existentialDeposit": "1",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
-  " kylinNetwork": {
+  "kylinNetwork": {
     "slug": " kylinNetwork",
     "name": "Kylin Network",
     "chainStatus": "ACTIVE",
@@ -3250,11 +3159,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "KYL",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3273,12 +3182,11 @@
       "addressPrefix": 32,
       "chainType": "PARACHAIN",
       "symbol": "MITO",
-      "existentialDeposit": "1000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3297,12 +3205,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "KICO",
-      "existentialDeposit": "100000000000000",
+      "existentialDeposit": "0",
       "decimals": 14,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3321,11 +3228,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "LUHN",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3345,12 +3252,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "PCHU",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3369,12 +3275,11 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "UNIT",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3394,12 +3299,11 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "ATA",
-      "existentialDeposit": "1000000000000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3418,12 +3322,11 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "CTC",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3442,12 +3345,11 @@
       "addressPrefix": 0,
       "chainType": "RELAYCHAIN",
       "symbol": "CSOV",
-      "existentialDeposit": "1",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3467,7 +3369,7 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://dock.subscan.io",
       "symbol": "DOCK",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 6,
       "hasNativeNft": false,
       "supportSmartContract": null,
@@ -3494,8 +3396,7 @@
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3514,12 +3415,11 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "LGNT",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3538,12 +3438,11 @@
       "addressPrefix": 48,
       "chainType": "RELAYCHAIN",
       "symbol": "NEAT",
-      "existentialDeposit": "10000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
@@ -3562,16 +3461,15 @@
       "addressPrefix": 12191,
       "chainType": "RELAYCHAIN",
       "symbol": "NMT",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false,
-      "blockExplorer": null
+      "supportStaking": false
     },
     "evmInfo": null
   },
-  "polymesh": {
+  "polymesh ": {
     "slug": "polymesh",
     "name": "Polymesh Mainnet",
     "chainStatus": "ACTIVE",
@@ -3614,8 +3512,7 @@
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3634,12 +3531,11 @@
       "addressPrefix": 44,
       "chainType": "RELAYCHAIN",
       "symbol": "KSX",
-      "existentialDeposit": "10000000000",
+      "existentialDeposit": "0",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3689,8 +3585,7 @@
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3709,12 +3604,11 @@
       "addressPrefix": 71,
       "chainType": "RELAYCHAIN",
       "symbol": "P3D",
-      "existentialDeposit": "1",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3733,12 +3627,11 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "SZERO",
-      "existentialDeposit": "500",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   },
@@ -3758,7 +3651,7 @@
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://kulupu.subscan.io",
       "symbol": "KLP",
-      "existentialDeposit": "100000",
+      "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
@@ -3781,13 +3674,164 @@
       "addressPrefix": 126,
       "chainType": "RELAYCHAIN",
       "symbol": "JOY",
-      "existentialDeposit": "266666560",
+      "existentialDeposit": "0",
       "decimals": 10,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null
   }
 }
+
+const output = {}
+
+const decimals = {
+    moonriver: "0",
+    pangolinEvm: '0',
+    pangolin: '0',
+    automata: '1000000000000000000',
+    kusama: '333333333',
+    fusotao: '1',
+    opal: '0',
+    dorafactory: '1000000000',
+    barnacle_evm: '0',
+    atocha: '1000000000000000000',
+    unique_network: '0',
+    deBio: '10000000000000000',
+    acala: '100000000000',
+    moonbase: '0',
+    crab: '0',
+    moonbeam: '0',
+    robonomics: '1000',
+    nftmart: '1000000000000',
+    quartz: '0',
+    litmus: '100000000000',
+    calamari: '100000000000',
+    riochain: '0',
+    composableFinance: '100000000000',
+    gear_testnet: '500',
+    '3dpass': '1',
+    efinity: '1000000000000000000',
+    discovol_testnet: '1000000000000',
+    crabEvm: '0',
+    karura: '100000000000',
+    edgeware: '10000000000000',
+    altair: '1000000000000',
+    shadow: '100000000000',
+    bitcountry: '1',
+    bifrost: '10000000000',
+    shiden: '1000000',
+    statemine: '33333333',
+    encointer: '3333333',
+    bajun: '1000000000',
+    astarEvm: '1000000',
+    kico: '100000000000000',
+    darwinia: '0',
+    statemint: '1000000000',
+    odyssey: '500',
+    xx_network: '1000000000',
+    creditcoin: '500',
+    ipci: '1000000',
+    myriad: '1000000000000000000',
+    subspace_gemini_2a: '500',
+    subspace_gemini_3c: '500',
+    uniqueNft: '0',
+    nodle: '10000',
+    turingStaging: '100000000',
+    frequency: '1000000',
+    centrifuge: '1000000000000',
+    crabParachain: '0',
+    polkadex: '1000000000000',
+    bitgreen: '1000000000',
+    khala: '10000000000',
+    clover: '0',
+    alephTest: '500',
+    pioneer: '100000000000000000',
+    chainx: '0',
+    basilisk: '1000000000000',
+    kilt: '10000000000000',
+    discovol: '1000000000000',
+    westend: '10000000000',
+    hydradx_main: '1000000000000',
+    parallel: '100000000000',
+    shidenEvm: '1000000',
+    swapdex: '0',
+    rmrk: '10000000000',
+    logion: '500',
+    sora_ksm: '1000000000',
+    origintrail: '1000000000000',
+    sakura: '500',
+    integriteePolkadot: '1000000000',
+    ajunaPolkadot: '1000000000',
+    kulupu: '100000',
+    neatcoin: '10000000000',
+    hashedNetwork: '1000000000',
+    imbue_network: '100000000000',
+    shibuya: '1000000',
+    shibuyaEvm: '1000000',
+    'sora-substrate': '0',
+    bifrost_testnet: '10000000000',
+    bifrost_dot: '10000000000',
+    kabocha: '1000000000',
+    polkadot: '10000000000',
+    tinkernet: '1000000000',
+    calamari_test: '100000000000',
+    kusari: '0',
+    zeitgeist: '50000000',
+    aleph: '500',
+    ternoa: '150000000000000000',
+    kapex: '1',
+    picasso: '100000000000',
+    collectives: '1000000000',
+    litentry: '100000000000',
+    integritee: '1000000000',
+    watr_network: '10000000000000000',
+    crust: '100000000',
+    alephSmartNet: '500',
+    turing: '100000000',
+    pichiu: '1000000000000',
+    dockPosMainnet: '500',
+    joystream: '266666560',
+    snow: '10000000000000000',
+    gmdie: '1000000000',
+    kilt_peregrine: '10000000000000',
+    cloverEvm: '0',
+    heiko: '10000000000',
+    phala: '10000000000',
+    ternoa_alphanet: '150000000000000000',
+    amplitude_test: '1000000000',
+    amplitude: '1000000000',
+    rococo: '33333333',
+    sherpax: '10000000000',
+    polkadexTest: '1000000000000',
+    subsocial_x: '100000000',
+    riodefi: '1000000000',
+    polymesh: '0',
+    astar: '1000000',
+    crownSterling: '1',
+    kylinNetwork: '1000000000000',
+    arctic_testnet: '10000000000000000'
+}
+
+Object.values(inputMap).forEach((input) => {
+  if (input.substrateInfo) {
+    input.substrateInfo.existentialDeposit = decimals[input.slug]
+  }
+
+  if (input.substrateInfo && !input.substrateInfo.blockExplorer) {
+    input.substrateInfo.blockExplorer = null
+  }
+
+  if (input.substrateInfo && !input.substrateInfo.supportStaking) {
+    input.substrateInfo.supportStaking = false
+  }
+
+  output[input.slug] = input;
+})
+
+const json = JSON.stringify(output);
+
+import * as fs from "fs";
+
+fs.writeFile('myjsonfile.json', json, 'utf8', () => {});
