@@ -510,5 +510,31 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false
+  },
+  "shiden-NATIVE-SDN": {
+    "originChain": "shiden",
+    "slug": "shiden-NATIVE-SDN",
+    "name": "Shiden",
+    "symbol": "SDN",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "shidenEvm-NATIVE-SDN": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-NATIVE-SDN",
+    "name": "Shiden EVM",
+    "symbol": "SDN",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
   }
 }
