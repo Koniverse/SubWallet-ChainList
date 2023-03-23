@@ -988,7 +988,7 @@
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://hydradx.subscan.io/",
       "supportStaking": false
     },
     "evmInfo": null
@@ -1245,7 +1245,7 @@
       "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null
+      "blockExplorer": "https://alephzero.subscan.io/"
     },
     "evmInfo": null
   },
@@ -1369,7 +1369,7 @@
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://composable.subscan.io/",
       "supportStaking": false
     },
     "evmInfo": null
@@ -1537,7 +1537,7 @@
       "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null
+      "blockExplorer": "https://spiritnet.subscan.io/"
     },
     "evmInfo": null
   },
@@ -1614,7 +1614,7 @@
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://parallel-heiko.subscan.io/",
       "supportStaking": false
     },
     "evmInfo": null
@@ -1739,7 +1739,7 @@
       "existentialDeposit": "0",
       "hasNativeNft": true,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://unique.subscan.io/",
       "supportStaking": false
     },
     "evmInfo": null
@@ -2156,7 +2156,7 @@
       "decimals": 12,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://acala-testnet.subscan.io/",
       "supportStaking": false
     },
     "evmInfo": null
@@ -2371,7 +2371,7 @@
       "genesisHash": "0x43d10ffd50990380ffe6c9392145431d630ae67e89dbc9c014cac2a417759101",
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
-      "blockExplorer": "https://subspace.subscan.io",
+      "blockExplorer": "https://subspace.subscan.io/",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
@@ -2597,7 +2597,7 @@
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://datahighway.subscan.io",
       "supportStaking": false
     },
     "evmInfo": null
@@ -2830,7 +2830,7 @@
       "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null
+      "blockExplorer": "https://kilt-testnet.subscan.io/"
     },
     "evmInfo": null
   },
