@@ -53,7 +53,7 @@ const pkgs = [
 
 const external = [...pkgs];
 
-const entries = ['base'].reduce((all, p) => ({
+const entries = ['chain-list'].reduce((all, p) => ({
   ...all, [`@subwallet/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
 }), {});
 
