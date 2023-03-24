@@ -98,7 +98,8 @@ export interface _MultiChainAsset {
   originChainAsset: string,
   name: string,
   symbol: string,
-  priceId: string
+  priceId: string,
+  hasValue: boolean
 }
 
 export enum _AssetRefPath {

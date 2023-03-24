@@ -1,4 +1,4 @@
-{
+const data = {
   "polkadot-NATIVE-DOT": {
     "originChain": "polkadot",
     "slug": "polkadot-NATIVE-DOT",
@@ -911,8 +911,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "minAmount": "0"
+    "hasValue": false
   },
   "opal-NATIVE-OPL": {
     "originChain": "opal",
@@ -1169,8 +1168,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "genshiro-LOCAL-DOT": {
     "originChain": "genshiro",
@@ -1390,8 +1388,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "minAmount": "0"
+    "hasValue": false
   },
   "mangatax-NATIVE-MGAT": {
     "originChain": "mangatax",
@@ -1403,8 +1400,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "minAmount": "0"
+    "hasValue": false
   },
   "mangatax_para-NATIVE-MGX": {
     "originChain": "mangatax_para",
@@ -1415,8 +1411,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "encointer-NATIVE-KSM": {
     "originChain": "encointer",
@@ -1492,8 +1487,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "minAmount": "0"
+    "hasValue": false
   },
   "subspace_gemini_2a-NATIVE-tSSC": {
     "originChain": "subspace_gemini_2a",
@@ -1570,8 +1564,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "kabocha-NATIVE-KAB": {
     "originChain": "kabocha",
@@ -1622,8 +1615,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "pendulum-NATIVE-PEN": {
     "originChain": "pendulum",
@@ -1635,8 +1627,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "gear_testnet-NATIVE-Unit": {
     "originChain": "gear_testnet",
@@ -1882,8 +1873,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "minAmount": "0"
+    "hasValue": false
   },
   "barnacle_evm-NATIVE-EBAR": {
     "originChain": "barnacle_evm",
@@ -1976,8 +1966,8 @@
     "multiChainAsset": null,
     "hasValue": true
   },
-  "kylinNetwork-NATIVE-KYL": {
-    "originChain": "kylinNetwork",
+  " kylinNetwork-NATIVE-KYL": {
+    "originChain": " kylinNetwork",
     "slug": " kylinNetwork-NATIVE-KYL",
     "name": "Kylin Network",
     "symbol": "KYL",
@@ -1986,8 +1976,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "ipci-NATIVE-MITO": {
     "originChain": "ipci",
@@ -2025,8 +2014,7 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "minAmount": "0"
+    "hasValue": true
   },
   "pichiu-NATIVE-PCHU": {
     "originChain": "pichiu",
@@ -2291,3 +2279,15 @@
     "hasValue": true
   }
 }
+
+Object.values(data).forEach((token) => {
+  if (token.minAmount === undefined) {
+    token.minAmount = "0";
+  }
+});
+
+const json = JSON.stringify(data);
+
+import * as fs from "fs";
+
+fs.writeFile('added-ED-tokens.json', json, 'utf8', () => {});

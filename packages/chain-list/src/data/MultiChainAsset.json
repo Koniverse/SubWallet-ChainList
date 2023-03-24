@@ -4,69 +4,79 @@
     "originChainAsset": "polkadot-NATIVE-DOT",
     "name": "Polkadot",
     "symbol": "DOT",
-    "priceId": "polkadot"
+    "priceId": "polkadot",
+    "hasValue": true
   },
   "KSM-Kusama": {
     "slug": "KSM-Kusama",
     "originChainAsset": "kusama-NATIVE-KSM",
     "name": "Kusama",
     "symbol": "KSM",
-    "priceId": "kusama"
+    "priceId": "kusama",
+    "hasValue": true
   },
   "GLMR-Moonbeam": {
     "slug": "GLMR-Moonbeam",
     "originChainAsset": "moonbeam-NATIVE-GLMR",
     "name": "Moonbeam",
     "symbol": "GLMR",
-    "priceId": "moonbeam"
+    "priceId": "moonbeam",
+    "hasValue": true
   },
   "ACA-Acala": {
     "slug": "ACA-Acala",
     "originChainAsset": "acala-NATIVE-ACA",
     "name": "Acala",
     "symbol": "ACA",
-    "priceId": "acala"
+    "priceId": "acala",
+    "hasValue": true
   },
   "USDT-Tether": {
     "slug": "USDT-Tether",
     "originChainAsset": null,
     "name": "Tether",
     "symbol": "USDT",
-    "priceId": "tether"
+    "priceId": "tether",
+    "hasValue": true
   },
   "ETH-Ethereum": {
     "slug": "ETH-Ethereum",
     "originChainAsset": "ethereum-NATIVE-ETH",
     "name": "Ethereum",
     "symbol": "ETH",
-    "priceId": "ethereum"
+    "priceId": "ethereum",
+    "hasValue": true
   },
   "ASTR-Astar": {
     "slug": "ASTR-Astar",
     "originChainAsset": "astar-NATIVE-ASTR",
     "name": "Astar",
     "symbol": "ASTR",
-    "priceId": "astar"
+    "priceId": "astar",
+    "hasValue": true
   },
   "aUSD-AcalaDollar": {
     "slug": "aUSD-AcalaDollar",
     "originChainAsset": "acala-LOCAL-aUSD",
     "name": "Acala Dollar",
     "symbol": "aUSD",
-    "priceId": "acala-dollar-acala"
+    "priceId": "acala-dollar-acala",
+    "hasValue": true
   },
   "DEV-MoonbaseDev": {
     "slug": "DEV-MoonbaseDev",
     "originChainAsset": "moonbase-NATIVE-DEV",
     "name": "Moonbase Dev",
     "symbol": "DEV",
-    "priceId": null
+    "priceId": null,
+    "hasValue": false
   },
   "MOVR-Moonriver": {
     "slug": "MOVR-Moonriver",
     "originChainAsset": "moonriver-NATIVE-MOVR",
     "name": "Moonriver",
     "symbol": "MOVR",
-    "priceId": "moonriver"
+    "priceId": "moonriver",
+    "hasValue": true
   }
 }
