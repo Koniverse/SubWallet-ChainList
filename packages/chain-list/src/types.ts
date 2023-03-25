@@ -109,5 +109,9 @@ export enum _AssetRefPath {
 export interface _AssetRef {
   srcAsset: string,
   destAsset: string,
+
+  srcChain: string,
+  destChain: string,
+
   path: _AssetRefPath
 }
