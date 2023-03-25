@@ -277,6 +277,56 @@
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true
   },
+  "astar-LOCAL-DOT": {
+    "originChain": "astar",
+    "slug": "astar-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "340282366920938463463374607431768211455",
+      "multilocation": {
+        "parents": 1,
+        "interior": "Here"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true
+  },
+  "astar-LOCAL-USDT": {
+    "originChain": "astar",
+    "slug": "astar-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "4294969280",
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "GeneralIndex": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
   "astarEvm-NATIVE-ASTR": {
     "originChain": "astarEvm",
     "slug": "astarEvm-NATIVE-ASTR",
@@ -595,8 +645,15 @@
     "priceId": null,
     "minAmount": "1000000000",
     "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
+    "metadata": {
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": "Here"
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
     "hasValue": true
   },
   "pioneer-NATIVE-NEER": {
@@ -1167,7 +1224,9 @@
     "decimals": 10,
     "priceId": null,
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "assetId": "1734700659"
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "minAmount": "0"
@@ -1196,7 +1255,9 @@
     "priceId": null,
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "assetId": "1734700659"
+    },
     "multiChainAsset": null,
     "hasValue": false
   },
@@ -2285,7 +2346,22 @@
     "minAmount": "700000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1984"
+      "assetId": "1984",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true

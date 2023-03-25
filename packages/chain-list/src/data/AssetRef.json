@@ -1,17 +1,79 @@
 {
-  "polkadot-NATIVE-DOT-moonbeam-LOCAL-xcDOT": {
+  "polkadot-NATIVE-DOT___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "moonbeam-LOCAL-xcDOT",
+    "srcChain": "polkadot",
+    "destChain": "moonbeam",
     "path": "XCM"
   },
-  "polkadot-NATIVE-DOT-acala-LOCAL-DOT": {
+  "polkadot-NATIVE-DOT___acala-LOCAL-DOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "acala-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "acala",
     "path": "XCM"
   },
-  "acala-NATIVE-ACA-moonbeam-LOCAL-xcACA": {
+  "polkadot-NATIVE-DOT___astar-NATIVE-ASTR": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "astar-NATIVE-ASTR",
+    "srcChain": "polkadot",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "polkadot-NATIVE-DOT___statemint-NATIVE-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "polkadot",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
     "destAsset": "moonbeam-LOCAL-xcACA",
+    "srcChain": "acala",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "astar-LOCAL-DOT___polkadot-NATIVE-DOT": {
+    "srcAsset": "astar-LOCAL-DOT",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "astar",
+    "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "moonbeam-LOCAL-xcDOT___polkadot-NATIVE-DOT": {
+    "srcAsset": "moonbeam-LOCAL-xcDOT",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "moonbeam",
+    "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "statemint-NATIVE-DOT___polkadot-NATIVE-DOT": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "statemint",
+    "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___astar-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "astar-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "astar-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "astar",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "astar-NATIVE-ASTR___acala-LOCAL-ASTR": {
+    "srcAsset": "astar-NATIVE-ASTR",
+    "destAsset": "acala-LOCAL-ASTR",
+    "srcChain": "astar",
+    "destChain": "acala",
     "path": "XCM"
   }
 }
