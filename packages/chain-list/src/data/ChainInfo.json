@@ -426,7 +426,7 @@
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
-      "genesisHash": "0xfff6fd94251f570d4c9cdf25a0475da0d7ad35160290da19dad8f9caf8bf31b5",
+      "genesisHash": "0x8ffa3204b182fbda4676f75ea2d6a9bbdbbaf0d78470c62952e918c60e0583b4",
       "addressPrefix": 42,
       "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
@@ -1102,21 +1102,20 @@
     "name": "Darwinia",
     "chainStatus": "ACTIVE",
     "providers": {
-      "Darwinia Network": "wss://rpc.darwinia.network",
-      "Darwinia": "wss://darwinia-rpc.dwellir.com"
+      "Darwinia Network": "wss://parachain-rpc.darwinia.network"
     },
     "isTestnet": false,
     "substrateInfo": {
-      "paraId": 2003,
+      "paraId": 2046,
       "relaySlug": "polkadot",
-      "genesisHash": "0x729cb8f2cf428adcf81fe69610edda32c5711b2ff17de747e8604a3587021db8",
+      "genesisHash": "0xe71578b37a7c799b0ab4ee87ffa6f059a6b98f71f06fb8c84a8d88013a548ad6",
       "addressPrefix": 18,
       "crowdloanUrl": "https://darwinia.network/plo_contribute",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://darwinia.subscan.io/",
       "symbol": "RING",
       "existentialDeposit": "0",
-      "decimals": 9,
+      "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "supportStaking": false
@@ -1480,7 +1479,7 @@
       "symbol": "KAR",
       "existentialDeposit": "100000000000",
       "decimals": 12,
-      "hasNativeNft": false,
+      "hasNativeNft": true,
       "supportSmartContract": null,
       "supportStaking": false
     },
@@ -1996,45 +1995,20 @@
     },
     "evmInfo": null
   },
-  "crab": {
-    "slug": "crab",
-    "name": "Darwinia Crab",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "OnFinality": "wss://darwinia-crab.api.onfinality.io/public-ws",
-      "Darwinia_Network": "wss://crab-rpc.darwinia.network",
-      "Dwellir": "wss://darwiniacrab-rpc.dwellir.com"
-    },
-    "isTestnet": false,
-    "substrateInfo": {
-      "paraId": null,
-      "relaySlug": null,
-      "genesisHash": "0x34f61bfda344b3fad3c3e38832a91448b3c613b199eb23e5110a635d71c13c65",
-      "addressPrefix": 42,
-      "crowdloanUrl": "https://crab.network/plo",
-      "chainType": "RELAYCHAIN",
-      "blockExplorer": "https://crab.subscan.io/",
-      "symbol": "CRAB",
-      "existentialDeposit": "0",
-      "decimals": 9,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
-    },
-    "evmInfo": null
-  },
   "crabParachain": {
     "slug": "crabParachain",
-    "name": "Crab Parachain",
+    "name": "Crab2 Parachain",
     "chainStatus": "ACTIVE",
     "providers": {
-      "Crab": "wss://crab-parachain-rpc.darwinia.network"
+      "Crab": "wss://crab-rpc.darwinia.network/",
+      "Dwellir": "wss://darwiniacrab-rpc.dwellir.com",
+      "OnFinality": "wss://crab.api.onfinality.io/public-ws"
     },
     "isTestnet": false,
     "substrateInfo": {
       "paraId": 2105,
       "relaySlug": "kusama",
-      "genesisHash": "0xeac895d7768b17837a9c3a9f0280c01502c3ef40193df923490a0fa9c60ea076",
+      "genesisHash": "0x86e49c195aeae7c5c4a86ced251f1a28c67b3c35d8289c387ede1776cdd88b24",
       "addressPrefix": 42,
       "crowdloanUrl": "https://crab.network/plo",
       "chainType": "PARACHAIN",
@@ -2043,20 +2017,9 @@
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://crab.subscan.io",
       "supportStaking": false
     },
-    "evmInfo": null
-  },
-  "crabEvm": {
-    "slug": "crabEvm",
-    "name": "Darwinia Crab - EVM",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Darwinia_Network": "wss://crab-rpc.darwinia.network"
-    },
-    "isTestnet": false,
-    "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 44,
       "blockExplorer": "https://crab.subscan.io",
@@ -2078,30 +2041,19 @@
     },
     "isTestnet": true,
     "substrateInfo": {
-      "paraId": null,
-      "relaySlug": null,
-      "genesisHash": "0xce44bd16fc276f9e457b452577b6c2678e57768260012af127479fed806da7e7",
+      "paraId": 2105,
+      "relaySlug": "rococo",
+      "genesisHash": "0xb067215e6232ffeed7cede2f92ac6b65f2121523fa221fc76f2e4430086c6b70",
       "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "blockExplorer": "https://pangolin.subscan.io",
       "symbol": "PRING",
       "existentialDeposit": "0",
-      "decimals": 9,
+      "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
-  },
-  "pangolinEvm": {
-    "slug": "pangolinEvm",
-    "name": "Pangolin - EVM",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    },
-    "isTestnet": true,
-    "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 43,
       "blockExplorer": "https://pangolin.subscan.io",

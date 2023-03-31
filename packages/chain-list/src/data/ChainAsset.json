@@ -52,6 +52,9 @@
         "NativeAssetId": {
           "Token": "ACA"
         }
+      },
+      "multilocation": {
+        "Token": "ACA"
       }
     },
     "multiChainAsset": "ACA-Acala",
@@ -221,6 +224,22 @@
     "multiChainAsset": "ACA-Acala",
     "hasValue": true
   },
+  "moonbeam-LOCAL-xcaUSD": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcaUSD",
+    "name": "Acala USD",
+    "symbol": "xcaUSD",
+    "decimals": 12,
+    "priceId": "acala-dollar-acala",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetType": "ForeignAsset",
+      "assetId": "110021739665376159354538090254163045594"
+    },
+    "multiChainAsset": "aUSD-AcalaDollar",
+    "hasValue": true
+  },
   "alephTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke": {
     "originChain": "alephTest",
     "slug": "alephTest-PSP22-PANX-5CY8zDBjUDNwZBHdGbERtLLSZqY7dJYsm1KhY6tSorYvnSke",
@@ -338,6 +357,21 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "ASTR-Astar",
+    "hasValue": true
+  },
+  "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFFFFFFFF000000000000000000000001000007C0"
+    },
+    "multiChainAsset": "USDT-Tether",
     "hasValue": true
   },
   "shibuya-NATIVE-SBY": {
@@ -525,7 +559,7 @@
     "name": "Bifrost Kusama",
     "symbol": "BNC",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "bifrost-native-coin",
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -665,7 +699,11 @@
     "priceId": null,
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "multilocation": {
+        "NativeToken": 0
+      }
+    },
     "multiChainAsset": null,
     "hasValue": true
   },
@@ -872,7 +910,7 @@
     "slug": "darwinia-NATIVE-RING",
     "name": "Darwinia",
     "symbol": "RING",
-    "decimals": 9,
+    "decimals": 18,
     "priceId": null,
     "minAmount": "0",
     "assetType": "NATIVE",
@@ -1045,8 +1083,15 @@
     "priceId": null,
     "minAmount": "33333333",
     "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
+    "metadata": {
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": "Here"
+        }
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
     "hasValue": true
   },
   "karura-NATIVE-KAR": {
@@ -1059,7 +1104,7 @@
     "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "KAR-Karura",
     "hasValue": true
   },
   "khala-NATIVE-PHA": {
@@ -1364,23 +1409,10 @@
     "multiChainAsset": null,
     "hasValue": true
   },
-  "crab-NATIVE-CRAB": {
-    "originChain": "crab",
-    "slug": "crab-NATIVE-CRAB",
-    "name": "Darwinia Crab",
-    "symbol": "CRAB",
-    "decimals": 9,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true
-  },
   "crabParachain-NATIVE-CRAB": {
     "originChain": "crabParachain",
     "slug": "crabParachain-NATIVE-CRAB",
-    "name": "Crab Parachain",
+    "name": "Crab2 Parachain",
     "symbol": "CRAB",
     "decimals": 18,
     "priceId": null,
@@ -1390,16 +1422,18 @@
     "multiChainAsset": null,
     "hasValue": true
   },
-  "crabEvm-NATIVE-CRAB": {
-    "originChain": "crabEvm",
-    "slug": "crabEvm-NATIVE-CRAB",
-    "name": "Darwinia Crab - EVM",
-    "symbol": "CRAB",
+  "crabParachain-LOCAL-CKTON": {
+    "originChain": "crabParachain",
+    "slug": "crabParachain-LOCAL-CKTON",
+    "name": "Crab Commitment Token",
+    "symbol": "CKTON",
     "decimals": 18,
     "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1026"
+    },
     "multiChainAsset": null,
     "hasValue": true
   },
@@ -1408,19 +1442,6 @@
     "slug": "pangolin-NATIVE-PRING",
     "name": "Pangolin",
     "symbol": "PRING",
-    "decimals": 9,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false
-  },
-  "pangolinEvm-NATIVE-PRING": {
-    "originChain": "pangolinEvm",
-    "slug": "pangolinEvm-NATIVE-PRING",
-    "name": "Pangolin - EVM",
-    "symbol": "PRING",
     "decimals": 18,
     "priceId": null,
     "minAmount": "0",
@@ -1428,6 +1449,21 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false
+  },
+  "pangolin-LOCAL-CKTON": {
+    "originChain": "pangolin",
+    "slug": "pangolin-LOCAL-CKTON",
+    "name": "Crab Commitment Token",
+    "symbol": "CKTON",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1026"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
   },
   "chainx-NATIVE-PCX": {
     "originChain": "chainx",
@@ -2365,5 +2401,230 @@
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true
-  }
+  },
+  "moonriver-LOCAL-xcKSM": {
+    "originChain": "moonriver",
+    "slug": "moonriver-LOCAL-xcKSM",
+    "name": "Kusama",
+    "symbol": "xcKSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "42259045809535163221576417993425387648",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
+  "shiden-LOCAL-KSM": {
+    "originChain": "shiden",
+    "slug": "shiden-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "42259045809535163221576417993425387648",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true
+  },
+  "karura-LOCAL-KSM": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KSM"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true
+  },
+  "karura-LOCAL-BNC": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-BNC",
+    "name": "Bifrost Kusama",
+    "symbol": "BNC",
+    "decimals": 12,
+    "priceId": "bifrost-native-coin",
+    "minAmount": "8000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "BNC"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true
+  },
+  "bifrost-LOCAL-KSM": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KSM"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true
+  },
+  "moonbeam-LOCAL-xcUSDT": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcUSDT",
+    "name": "Tether USD",
+    "symbol": "xcUSDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "311091173110107856861649819128533077277",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
+  "astar-LOCAL-aUSD": {
+    "originChain": "astar",
+    "slug": "astar-LOCAL-aUSD",
+    "name": "Acala USD",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": "acala-dollar-acala",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551617",
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X2": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKey": "0x0001"
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "aUSD-AcalaDollar",
+    "hasValue": true
+  },
+  "astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001",
+    "name": "Acala Dollar",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": "acala-dollar-acala",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfFFFFfFF00000000000000010000000000000001"
+    },
+    "multiChainAsset": "aUSD-AcalaDollar",
+    "hasValue": true
+  },
+  "moonriver-LOCAL-xcKAR": {
+    "originChain": "moonriver",
+    "slug": "moonriver-LOCAL-xcKAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "10810581592933651521121702237638664357",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "KAR-Karura",
+    "hasValue": true
+  },
+  "karura-LOCAL-aUSD": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-aUSD",
+    "name": "Karura USD",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KUSD"
+      }
+    },
+    "multiChainAsset": "aUSD-KaruraDollar",
+    "hasValue": true
+  },
+  "shiden-LOCAL-aUSD": {
+    "originChain": "shiden",
+    "slug": "shiden-LOCAL-aUSD",
+    "name": "Karura USD",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551616",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "aUSD-KaruraDollar",
+    "hasValue": true
+  },
+  "shidenEvm-LOCAL-aUSD": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-LOCAL-aUSD",
+    "name": "Karura USD",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551616",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "aUSD-KaruraDollar",
+    "hasValue": true
+  },
+  "bifrost-LOCAL-kUSD": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-kUSD",
+    "name": "Karura USD",
+    "symbol": "kUSD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Stable": "KUSD"
+      }
+    },
+    "multiChainAsset": "aUSD-KaruraDollar",
+    "hasValue": true
+  },
+
 }

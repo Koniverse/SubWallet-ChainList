@@ -31,6 +31,14 @@
     "priceId": "acala",
     "hasValue": true
   },
+  "KAR-Karura": {
+    "slug": "KAR-Karura",
+    "originChainAsset": "karura-NATIVE-KAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "priceId": null,
+    "hasValue": true
+  },
   "USDT-Tether": {
     "slug": "USDT-Tether",
     "originChainAsset": null,
@@ -63,6 +71,14 @@
     "priceId": "acala-dollar-acala",
     "hasValue": true
   },
+  "aUSD-KaruraDollar": {
+    "slug": "aUSD-KaruraDollar",
+    "originChainAsset": "karura-LOCAL-aUSD",
+    "name": "Karura Dollar",
+    "symbol": "aUSD",
+    "priceId": null,
+    "hasValue": true
+  },
   "DEV-MoonbaseDev": {
     "slug": "DEV-MoonbaseDev",
     "originChainAsset": "moonbase-NATIVE-DEV",
@@ -77,6 +93,14 @@
     "name": "Moonriver",
     "symbol": "MOVR",
     "priceId": "moonriver",
+    "hasValue": true
+  },
+  "BNC-BifrostKusama": {
+    "slug": "BNC-BifrostKusama",
+    "originChainAsset": "bifrost-NATIVE-BNC",
+    "name": "Bifrost Kusama",
+    "symbol": "BNC",
+    "priceId": "bifrost-native-coin",
     "hasValue": true
   }
 }
