@@ -63,7 +63,6 @@
     "destChain": "bifrost",
     "path": "XCM"
   },
-
   "statemint-NATIVE-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "statemint-NATIVE-DOT",
     "destAsset": "polkadot-NATIVE-DOT",
@@ -92,7 +91,6 @@
     "destChain": "astarEvm",
     "path": "XCM"
   },
-
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
     "destAsset": "moonbeam-LOCAL-xcACA",
@@ -150,9 +148,9 @@
     "destChain": "shiden",
     "path": "XCM"
   },
-  "karura-LOCAL-aUSD___shidenEvm-LOCAL-aUSD": {
+  "karura-LOCAL-aUSD___shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000": {
     "srcAsset": "karura-LOCAL-aUSD",
-    "destAsset": "shidenEvm-LOCAL-aUSD",
+    "destAsset": "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000",
     "srcChain": "karura",
     "destChain": "shidenEvm",
     "path": "XCM"
@@ -192,7 +190,6 @@
     "destChain": "pioneer",
     "path": "XCM"
   },
-
   "moonbeam-LOCAL-xcaUSD___acala-LOCAL-aUSD": {
     "srcAsset": "moonbeam-LOCAL-xcaUSD",
     "destAsset": "acala-LOCAL-aUSD",
@@ -221,7 +218,6 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
-
   "moonriver-LOCAL-xcaUSD___karura-LOCAL-aUSD": {
     "srcAsset": "moonriver-LOCAL-xcaUSD",
     "destAsset": "karura-LOCAL-aUSD",
@@ -257,7 +253,6 @@
     "destChain": "bifrost",
     "path": "XCM"
   },
-
   "astar-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "astar-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",

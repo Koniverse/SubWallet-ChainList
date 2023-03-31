@@ -102,5 +102,45 @@
     "symbol": "BNC",
     "priceId": "bifrost-native-coin",
     "hasValue": true
+  },
+  "NEER-Pioneer": {
+    "slug": "NEER-Pioneer",
+    "originChainAsset": "pioneer-NATIVE-NEER",
+    "name": "Pioneer",
+    "symbol": "NEER",
+    "priceId": "metaverse-network-pioneer",
+    "hasValue": true
+  },
+  "INTR-Interlay": {
+    "slug": "INTR-Interlay",
+    "originChainAsset": "interlay-NATIVE-INTR",
+    "name": "Interlay",
+    "symbol": "INTR",
+    "priceId": "interlay",
+    "hasValue": true
+  },
+  "iBTC-interBTC": {
+    "slug": "iBTC-interBTC",
+    "originChainAsset": "interlay-LOCAL-iBTC",
+    "name": "interBTC",
+    "symbol": "iBTC",
+    "priceId": null,
+    "hasValue": true
+  },
+  "KINT-Kintsugi": {
+    "slug": "KINT-Kintsugi",
+    "originChainAsset": "kintsugi-NATIVE-KINT",
+    "name": "Kintsugi",
+    "symbol": "KINT",
+    "priceId": null,
+    "hasValue": true
+  },
+  "kBTC-KintsugiWrappedBTC": {
+    "slug": "kBTC-KintsugiWrappedBTC",
+    "originChainAsset": "kintsugi-LOCAL-kBTC",
+    "name": "Kintsugi Wrapped BTC",
+    "symbol": "ikBTC",
+    "priceId": null,
+    "hasValue": true
   }
 }

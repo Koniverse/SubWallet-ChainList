@@ -208,6 +208,38 @@
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true
   },
+  "moonbeam-LOCAL-xcINTR": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcINTR",
+    "name": "Interlay",
+    "symbol": "xcINTR",
+    "decimals": 10,
+    "priceId": "interlay",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetType": "ForeignAsset",
+      "assetId": "101170542313601871197860408087030232491"
+    },
+    "multiChainAsset": "INTR-Interlay",
+    "hasValue": true
+  },
+  "moonbeam-LOCAL-xciBTC": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xciBTC",
+    "name": "interBTC",
+    "symbol": "xciBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetType": "ForeignAsset",
+      "assetId": "120637696315203257380661607956669368914"
+    },
+    "multiChainAsset": "iBTC-interBTC",
+    "hasValue": true
+  },
   "moonbeam-LOCAL-xcACA": {
     "originChain": "moonbeam",
     "slug": "moonbeam-LOCAL-xcACA",
@@ -704,7 +736,7 @@
         "NativeToken": 0
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "NEER-Pioneer",
     "hasValue": true
   },
   "pioneer-LOCAL-BIT": {
@@ -890,6 +922,40 @@
       }
     },
     "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
+  "interlay-LOCAL-iBTC": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-iBTC",
+    "name": "interBTC",
+    "symbol": "iBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "IBTC"
+      }
+    },
+    "multiChainAsset": "iBTC-interBTC",
+    "hasValue": true
+  },
+  "kintsugi-LOCAL-kBTC": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-kBTC",
+    "name": "Kintsugi Wrapped BTC",
+    "symbol": "kBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KBTC"
+      }
+    },
+    "multiChainAsset": "kBTC-KintsugiWrappedBTC",
     "hasValue": true
   },
   "nodle-NATIVE-NODL": {
@@ -2451,6 +2517,23 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true
   },
+  "karura-LOCAL-NEER": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-NEER",
+    "name": "Metaverse.Network Pioneer",
+    "symbol": "NEER",
+    "decimals": 18,
+    "priceId": "metaverse-network-pioneer",
+    "minAmount": "100000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": "9"
+      }
+    },
+    "multiChainAsset": "NEER-Pioneer",
+    "hasValue": true
+  },
   "karura-LOCAL-BNC": {
     "originChain": "karura",
     "slug": "karura-LOCAL-BNC",
@@ -2499,6 +2582,70 @@
       "assetType": "ForeignAsset"
     },
     "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
+  "moonriver-LOCAL-xcaUSD": {
+    "originChain": "moonriver",
+    "slug": "moonriver-LOCAL-xcaUSD",
+    "name": "Karura USD",
+    "symbol": "xcaUSD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "214920334981412447805621250067209749032",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "aUSD-KaruraDollar",
+    "hasValue": true
+  },
+  "moonriver-LOCAL-xcKINT": {
+    "originChain": "moonriver",
+    "slug": "moonriver-LOCAL-xcKINT",
+    "name": "Kintsugi",
+    "symbol": "xcKINT",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "175400718394635817552109270754364440562",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "KINT-Kintsugi",
+    "hasValue": true
+  },
+  "moonriver-LOCAL-xckBTC": {
+    "originChain": "moonriver",
+    "slug": "moonriver-LOCAL-xckBTC",
+    "name": "Kintsugi Wrapped BTC",
+    "symbol": "xckBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "328179947973504579459046439826496046832",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "kBTC-KintsugiWrappedBTC",
+    "hasValue": true
+  },
+  "moonriver-LOCAL-xcBNC": {
+    "originChain": "moonriver",
+    "slug": "moonriver-LOCAL-xcBNC",
+    "name": "Bifrost Kusama",
+    "symbol": "xcBNC",
+    "decimals": 12,
+    "priceId": "bifrost-native-coin",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "319623561105283008236062145480775032445",
+      "assetType": "ForeignAsset"
+    },
+    "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true
   },
   "astar-LOCAL-aUSD": {
@@ -2593,9 +2740,9 @@
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true
   },
-  "shidenEvm-LOCAL-aUSD": {
+  "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000": {
     "originChain": "shidenEvm",
-    "slug": "shidenEvm-LOCAL-aUSD",
+    "slug": "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000",
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
@@ -2603,8 +2750,7 @@
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "18446744073709551616",
-      "assetType": "ForeignAsset"
+      "contractAddress": "0xfFFfFFfF00000000000000010000000000000000"
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true
@@ -2626,5 +2772,22 @@
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true
   },
+  "bifrost-LOCAL-KAR": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-KAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "decimals": 12,
+    "priceId": "karura",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KAR"
+      }
+    },
+    "multiChainAsset": "KAR-Karura",
+    "hasValue": true
+  }
 
 }
