@@ -10,10 +10,10 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.18",
+  "version": "0.0.21",
   "versions": {
-    "git": "0.0.18",
-    "npm": "0.0.18"
+    "git": "0.0.21",
+    "npm": "0.0.21"
   },
   "workspaces": [
     "packages/*"
