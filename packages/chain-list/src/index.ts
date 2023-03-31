@@ -25,8 +25,7 @@ export enum COMMON_CHAIN_SLUGS {
   ASTAR = 'astar',
   WESTEND = 'westend',
   BINANCE = 'binance',
-  ASTAR_EVM = 'astarEvm',
-  ASTAR = 'astar'
+  ASTAR_EVM = 'astarEvm'
 }
 
 export const _DEFAULT_CHAINS = [
