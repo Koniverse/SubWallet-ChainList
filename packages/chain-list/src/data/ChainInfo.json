@@ -2046,7 +2046,7 @@
       "genesisHash": "0xb067215e6232ffeed7cede2f92ac6b65f2121523fa221fc76f2e4430086c6b70",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
-      "blockExplorer": "https://pangolin.subscan.io",
+      "blockExplorer": null,
       "symbol": "PRING",
       "existentialDeposit": "0",
       "decimals": 18,
@@ -2056,7 +2056,7 @@
     },
     "evmInfo": {
       "evmChainId": 43,
-      "blockExplorer": "https://pangolin.subscan.io",
+      "blockExplorer": null,
       "symbol": "PRING",
       "decimals": 18,
       "existentialDeposit": "0",
@@ -2709,28 +2709,7 @@
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 288,
-      "blockExplorer": "https://blockexplorer.boba.network",
-      "symbol": "ETH",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ]
-    }
-  },
-  "boba_rinkeby": {
-    "slug": "boba_rinkeby",
-    "name": "Boba Rinkeby (Testnet)",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "RPC": "https://rinkeby.boba.network"
-    },
-    "isTestnet": true,
-    "substrateInfo": null,
-    "evmInfo": {
-      "evmChainId": 28,
-      "blockExplorer": "https://blockexplorer.rinkeby.boba.network",
+      "blockExplorer": "https://bobascan.com/",
       "symbol": "ETH",
       "decimals": 18,
       "existentialDeposit": "0",
@@ -3708,7 +3687,7 @@
       "genesisHash": "0xf7a99d3cb92853d00d5275c971c132c074636256583fee53b3bbe60d7b8769ba",
       "addressPrefix": 16,
       "chainType": "RELAYCHAIN",
-      "blockExplorer": "https://kulupu.subscan.io",
+      "blockExplorer": null,
       "symbol": "KLP",
       "existentialDeposit": "100000",
       "decimals": 12,
