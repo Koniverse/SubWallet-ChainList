@@ -2700,27 +2700,6 @@ const inputMap = {
       ]
     }
   },
-  "boba_rinkeby": {
-    "slug": "boba_rinkeby",
-    "name": "Boba Rinkeby (Testnet)",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "RPC": "https://rinkeby.boba.network"
-    },
-    "isTestnet": true,
-    "substrateInfo": null,
-    "evmInfo": {
-      "evmChainId": 28,
-      "blockExplorer": "https://blockexplorer.rinkeby.boba.network",
-      "symbol": "ETH",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ]
-    }
-  },
   "bobabeam": {
     "slug": "bobabeam",
     "name": "Bobabeam",

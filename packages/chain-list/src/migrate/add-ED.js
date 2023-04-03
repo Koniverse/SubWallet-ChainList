@@ -1707,19 +1707,6 @@ const data = {
     "multiChainAsset": null,
     "hasValue": true
   },
-  "boba_rinkeby-NATIVE-ETH": {
-    "originChain": "boba_rinkeby",
-    "slug": "boba_rinkeby-NATIVE-ETH",
-    "name": "Boba Rinkeby (Testnet)",
-    "symbol": "ETH",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false
-  },
   "bobabeam-NATIVE-BOBA": {
     "originChain": "bobabeam",
     "slug": "bobabeam-NATIVE-BOBA",

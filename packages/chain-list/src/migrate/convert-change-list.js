@@ -2054,27 +2054,6 @@ const inputMap = {
     abiExplorer: 'https://blockexplorer.boba.network',
     supportSmartContract: [ContractType.evm]
   },
-  boba_rinkeby: {
-    key: 'boba_rinkeby',
-    chain: 'Boba Rinkeby (Testnet)',
-    genesisHash: '0x6854c3f614bd5096f3b4cf142c9fbad8b95ced2eda2f5d64f97e8136b80e3677',
-    ss58Format: 0,
-    providers: {
-      RPC: 'https://rinkeby.boba.network'
-    },
-    active: false,
-    currentProviderMode: 'http',
-    currentProvider: 'RPC',
-    groups: ['TEST_NET'],
-    isEthereum: true,
-    nativeToken: 'ETH',
-    decimals: 18,
-    evmChainId: 28,
-    supportBonding: false,
-    getStakingOnChain: false,
-    abiExplorer: 'https://blockexplorer.rinkeby.boba.network',
-    supportSmartContract: [ContractType.evm]
-  },
   bobabeam: {
     key: 'bobabeam',
     chain: 'Bobabeam',
@@ -2889,7 +2868,6 @@ const evmExplorerMap = {
   ethereum_goerli: 'https://goerli.etherscan.io',
   binance: 'https://bscscan.com',
   binance_test: 'https://testnet.bscscan.com',
-  boba_rinkeby: 'https://blockexplorer.rinkeby.boba.network',
   boba: 'https://blockexplorer.boba.network',
   bobabase: 'https://blockexplorer.bobabase.boba.network',
   bobabeam: 'https://blockexplorer.bobabeam.boba.network'
