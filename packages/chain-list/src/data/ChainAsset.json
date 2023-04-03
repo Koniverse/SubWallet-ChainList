@@ -203,7 +203,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetType": "ForeignAsset",
-      "assetId": "42259045809535163221576417993425387648"
+      "assetId": "42259045809535163221576417993425387648",
+      "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true
@@ -219,7 +220,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetType": "ForeignAsset",
-      "assetId": "101170542313601871197860408087030232491"
+      "assetId": "101170542313601871197860408087030232491",
+      "contractAddress": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab"
     },
     "multiChainAsset": "INTR-Interlay",
     "hasValue": true
@@ -235,7 +237,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetType": "ForeignAsset",
-      "assetId": "120637696315203257380661607956669368914"
+      "assetId": "120637696315203257380661607956669368914",
+      "contractAddress": "0xFFFFFfFf5AC1f9A51A93F5C527385edF7Fe98A52"
     },
     "multiChainAsset": "iBTC-interBTC",
     "hasValue": true
@@ -251,7 +254,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetType": "ForeignAsset",
-      "assetId": "224821240862170613278369189818311486111"
+      "assetId": "224821240862170613278369189818311486111",
+      "contractAddress": "0xffffFFffa922Fef94566104a6e5A35a4fCDDAA9f"
     },
     "multiChainAsset": "ACA-Acala",
     "hasValue": true
@@ -267,7 +271,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetType": "ForeignAsset",
-      "assetId": "110021739665376159354538090254163045594"
+      "assetId": "110021739665376159354538090254163045594",
+      "contractAddress": "0xfFfFFFFF52C56A9257bB97f4B2b6F7B2D624ecda"
     },
     "multiChainAsset": "aUSD-AcalaDollar",
     "hasValue": true
@@ -2479,7 +2484,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "42259045809535163221576417993425387648",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true
@@ -2579,7 +2585,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "311091173110107856861649819128533077277",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true
@@ -2595,7 +2602,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "214920334981412447805621250067209749032",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFfFffFFfa1B026a00FbAA67c86D5d1d5BF8D8228"
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true
@@ -2611,7 +2619,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "175400718394635817552109270754364440562",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfffFFFFF83F4f317d3cbF6EC6250AeC3697b3fF2"
     },
     "multiChainAsset": "KINT-Kintsugi",
     "hasValue": true
@@ -2627,7 +2636,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "328179947973504579459046439826496046832",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFFfFfFfF6E528AD57184579beeE00c5d5e646F0"
     },
     "multiChainAsset": "kBTC-KintsugiWrappedBTC",
     "hasValue": true
@@ -2643,7 +2653,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "319623561105283008236062145480775032445",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFfFFfFFF075423be54811EcB478e911F22dDe7D"
     },
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true
@@ -2702,7 +2713,8 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "10810581592933651521121702237638664357",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFfFFFFfF08220AD2E6e157f26eD8bD22A336A0A5"
     },
     "multiChainAsset": "KAR-Karura",
     "hasValue": true
