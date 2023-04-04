@@ -280,5 +280,12 @@
     "srcChain": "astar",
     "destChain": "polkadot",
     "path": "XCM"
+  },
+  "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
+    "srcAsset": "pioneer-NATIVE-NEER",
+    "destAsset": "karura-LOCAL-NEER",
+    "srcChain": "pioneer",
+    "destChain": "karura",
+    "path": "XCM"
   }
 }
