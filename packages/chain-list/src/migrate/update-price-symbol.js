@@ -1,3 +1,6 @@
+// Copyright 2017-2023 @subwallet/chain-list authors & contributors
+// SPDX-License-Identifier: Apache-2.0
+
 // Convert chain list
 
 import fs from 'fs';
@@ -22,8 +25,9 @@ Object.entries(AssetMap).forEach(([slug, asset]) => {
   if (!asset.priceId && symbolMap[lsym]) {
     if (ChainMap[asset.originChain] && ChainMap[asset.originChain].isTestnet) {
       if (asset.priceId) {
-        console.warn(slug)
+        console.warn(slug);
       }
+
       return;
     }
 

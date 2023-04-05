@@ -1,3 +1,6 @@
+// Copyright 2017-2023 @subwallet/chain-list authors & contributors
+// SPDX-License-Identifier: Apache-2.0
+
 // Convert chain list
 import fs from 'fs';
 

@@ -142,5 +142,21 @@
     "symbol": "kBTC",
     "priceId": null,
     "hasValue": true
+  },
+  "USDC-Coin": {
+    "slug": "USDC-Coin",
+    "originChainAsset": null,
+    "name": "USDC",
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "hasValue": true
+  },
+  "BNB-Binance": {
+    "slug": "BNB-Binance",
+    "originChainAsset": "binance-NATIVE-BNB",
+    "name": "Binance Smart Chain",
+    "symbol": "BNB",
+    "priceId": "binancecoin",
+    "hasValue": true
   }
 }

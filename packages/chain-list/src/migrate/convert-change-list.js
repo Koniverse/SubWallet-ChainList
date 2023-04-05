@@ -1,9 +1,12 @@
+// Copyright 2017-2023 @subwallet/chain-list authors & contributors
+// SPDX-License-Identifier: Apache-2.0
+
 // Convert chain list
 
 const ContractType = {
   wasm: 'wasm',
   evm: 'evm'
-}
+};
 
 const inputMap = {
   polkadot: {
@@ -2779,87 +2782,87 @@ const inputMap = {
     nativeToken: 'JOY',
     decimals: 10
   }
-}
+};
 
 const subscanExplorerMap = {
-  "polkadot": "https://polkadot.subscan.io/",
-  "acala": "https://acala.subscan.io/",
-  "astar": "https://astar.subscan.io/",
-  "bifrost": "https://bifrost.subscan.io/",
-  "centrifuge": "https://centrifuge.subscan.io/",
-  "clv": "https://clv.subscan.io/",
-  "composable": "https://composable.subscan.io/",
-  "crust-parachain": "https://crust-parachain.subscan.io/",
-  "darwinia-parachain": "https://darwinia-parachain.subscan.io/",
-  "efinity": "https://efinity.subscan.io/",
-  "equilibrium": "https://equilibrium.subscan.io/",
-  "hydradx": "https://hydradx.subscan.io/",
-  "interlay": "https://interlay.subscan.io/",
-  "spiritnet": "https://spiritnet.subscan.io/",
-  "moonbeam": "https://moonbeam.subscan.io/",
-  "nodle": "https://nodle.subscan.io/",
-  "origintrail": "https://origintrail.subscan.io/",
-  "parallel": "https://parallel.subscan.io/",
-  "phala": "https://phala.subscan.io/",
-  "statemint": "https://statemint.subscan.io/",
-  "unique": "https://unique.subscan.io/",
-  "zeitgeist": "https://zeitgeist.subscan.io/",
-  "kusama": "https://kusama.subscan.io/",
-  "altair": "https://altair.subscan.io/",
-  "bajun": "https://bajun.subscan.io/",
-  "basilisk": "https://basilisk.subscan.io/",
-  "bifrost-kusama": "https://bifrost-kusama.subscan.io/",
-  "calamari": "https://calamari.subscan.io/",
-  "crab": "https://crab.subscan.io/",
-  "datahighway": "https://datahighway.subscan.io/",
-  "encointer": "https://encointer.subscan.io/",
-  "parallel-heiko": "https://parallel-heiko.subscan.io/",
-  "integritee": "https://integritee.subscan.io/",
-  "karura": "https://karura.subscan.io/",
-  "khala": "https://khala.subscan.io/",
-  "kintsugi": "https://kintsugi.subscan.io/",
-  "mangatax": "https://mangatax.subscan.io/",
-  "moonriver": "https://moonriver.subscan.io/",
-  "picasso": "https://picasso.subscan.io/",
-  "pioneer": "https://pioneer.subscan.io/",
-  "quartz": "https://quartz.subscan.io/",
-  "robonomics": "https://robonomics.subscan.io/",
-  "shadow": "https://shadow.subscan.io/",
-  "shiden": "https://shiden.subscan.io/",
-  "snow": "https://snow.subscan.io/",
-  "statemine": "https://statemine.subscan.io/",
-  "turing": "https://turing.subscan.io/",
-  "darwinia": "https://darwinia.subscan.io/",
-  "alephzero": "https://alephzero.subscan.io/",
-  "clover": "https://clover.subscan.io/",
-  "crust": "https://crust.subscan.io/",
-  "dbc": "https://dbc.subscan.io/",
-  "dock": "https://dock.subscan.io/",
-  "edgeware": "https://edgeware.subscan.io/",
-  "genshiro": "https://genshiro.subscan.io/",
-  "polkadex": "https://polkadex.subscan.io/",
-  "polymesh": "https://polymesh.subscan.io/",
-  "reef": "https://reef.subscan.io/",
-  "sakura": "https://sakura.subscan.io/",
-  "sora": "https://sora.subscan.io/",
-  "stafi": "https://stafi.subscan.io/",
-  "rococo": "https://rococo.subscan.io/",
-  "bifrost-testnet": "https://bifrost-testnet.subscan.io/",
-  "dali": "https://dali.subscan.io/",
-  "dolphin": "https://dolphin.subscan.io/",
-  "origintrail-testnet": "https://origintrail-testnet.subscan.io/",
-  "rockmine": "https://rockmine.subscan.io/",
-  "westend": "https://westend.subscan.io/",
-  "acala-testnet": "https://acala-testnet.subscan.io/",
-  "arctic": "https://arctic.subscan.io/",
-  "clover-testnet": "https://clover-testnet.subscan.io/",
-  "kilt-testnet": "https://kilt-testnet.subscan.io/",
-  "moonbase": "https://moonbase.subscan.io/",
-  "pangoro": "https://pangoro.subscan.io/",
-  "polymesh-testnet": "https://polymesh-testnet.subscan.io/",
-  "shibuya": "https://shibuya.subscan.io/",
-  "subspace": "https://subspace.subscan.io/"
-}
+  polkadot: 'https://polkadot.subscan.io/',
+  acala: 'https://acala.subscan.io/',
+  astar: 'https://astar.subscan.io/',
+  bifrost: 'https://bifrost.subscan.io/',
+  centrifuge: 'https://centrifuge.subscan.io/',
+  clv: 'https://clv.subscan.io/',
+  composable: 'https://composable.subscan.io/',
+  'crust-parachain': 'https://crust-parachain.subscan.io/',
+  'darwinia-parachain': 'https://darwinia-parachain.subscan.io/',
+  efinity: 'https://efinity.subscan.io/',
+  equilibrium: 'https://equilibrium.subscan.io/',
+  hydradx: 'https://hydradx.subscan.io/',
+  interlay: 'https://interlay.subscan.io/',
+  spiritnet: 'https://spiritnet.subscan.io/',
+  moonbeam: 'https://moonbeam.subscan.io/',
+  nodle: 'https://nodle.subscan.io/',
+  origintrail: 'https://origintrail.subscan.io/',
+  parallel: 'https://parallel.subscan.io/',
+  phala: 'https://phala.subscan.io/',
+  statemint: 'https://statemint.subscan.io/',
+  unique: 'https://unique.subscan.io/',
+  zeitgeist: 'https://zeitgeist.subscan.io/',
+  kusama: 'https://kusama.subscan.io/',
+  altair: 'https://altair.subscan.io/',
+  bajun: 'https://bajun.subscan.io/',
+  basilisk: 'https://basilisk.subscan.io/',
+  'bifrost-kusama': 'https://bifrost-kusama.subscan.io/',
+  calamari: 'https://calamari.subscan.io/',
+  crab: 'https://crab.subscan.io/',
+  datahighway: 'https://datahighway.subscan.io/',
+  encointer: 'https://encointer.subscan.io/',
+  'parallel-heiko': 'https://parallel-heiko.subscan.io/',
+  integritee: 'https://integritee.subscan.io/',
+  karura: 'https://karura.subscan.io/',
+  khala: 'https://khala.subscan.io/',
+  kintsugi: 'https://kintsugi.subscan.io/',
+  mangatax: 'https://mangatax.subscan.io/',
+  moonriver: 'https://moonriver.subscan.io/',
+  picasso: 'https://picasso.subscan.io/',
+  pioneer: 'https://pioneer.subscan.io/',
+  quartz: 'https://quartz.subscan.io/',
+  robonomics: 'https://robonomics.subscan.io/',
+  shadow: 'https://shadow.subscan.io/',
+  shiden: 'https://shiden.subscan.io/',
+  snow: 'https://snow.subscan.io/',
+  statemine: 'https://statemine.subscan.io/',
+  turing: 'https://turing.subscan.io/',
+  darwinia: 'https://darwinia.subscan.io/',
+  alephzero: 'https://alephzero.subscan.io/',
+  clover: 'https://clover.subscan.io/',
+  crust: 'https://crust.subscan.io/',
+  dbc: 'https://dbc.subscan.io/',
+  dock: 'https://dock.subscan.io/',
+  edgeware: 'https://edgeware.subscan.io/',
+  genshiro: 'https://genshiro.subscan.io/',
+  polkadex: 'https://polkadex.subscan.io/',
+  polymesh: 'https://polymesh.subscan.io/',
+  reef: 'https://reef.subscan.io/',
+  sakura: 'https://sakura.subscan.io/',
+  sora: 'https://sora.subscan.io/',
+  stafi: 'https://stafi.subscan.io/',
+  rococo: 'https://rococo.subscan.io/',
+  'bifrost-testnet': 'https://bifrost-testnet.subscan.io/',
+  dali: 'https://dali.subscan.io/',
+  dolphin: 'https://dolphin.subscan.io/',
+  'origintrail-testnet': 'https://origintrail-testnet.subscan.io/',
+  rockmine: 'https://rockmine.subscan.io/',
+  westend: 'https://westend.subscan.io/',
+  'acala-testnet': 'https://acala-testnet.subscan.io/',
+  arctic: 'https://arctic.subscan.io/',
+  'clover-testnet': 'https://clover-testnet.subscan.io/',
+  'kilt-testnet': 'https://kilt-testnet.subscan.io/',
+  moonbase: 'https://moonbase.subscan.io/',
+  pangoro: 'https://pangoro.subscan.io/',
+  'polymesh-testnet': 'https://polymesh-testnet.subscan.io/',
+  shibuya: 'https://shibuya.subscan.io/',
+  subspace: 'https://subspace.subscan.io/'
+};
 const evmExplorerMap = {
   moonbeam: 'https://moonbeam.moonscan.io',
   moonriver: 'https://moonriver.moonscan.io',
@@ -2873,13 +2876,13 @@ const evmExplorerMap = {
   bobabeam: 'https://blockexplorer.bobabeam.boba.network'
 };
 
-const useSubscanMap = Object.fromEntries(Object.keys(subscanExplorerMap).map(k => [k, false]));
+const useSubscanMap = Object.fromEntries(Object.keys(subscanExplorerMap).map((k) => [k, false]));
 
 // Convert inputMap to outputMap
 const outputMap = Object.keys(inputMap).reduce((acc, k) => {
   const value = inputMap[k];
   // Extract all the values from the value
-  const {key, chain, icon, active, providers, currentProvider, currentProviderMode, customProviders, nftProvider, genesisHash, groups, ss58Format, paraId, chainType, crowdloanUrl, isEthereum, evmChainId, isHybrid,nativeToken, decimals, coinGeckoKey, blockExplorer, abiExplorer, dependencies, getStakingOnChain, supportBonding, supportSmartContract, apiStatus, requestId} = value;
+  const { abiExplorer, active, apiStatus, blockExplorer, chain, chainType, coinGeckoKey, crowdloanUrl, currentProvider, currentProviderMode, customProviders, decimals, dependencies, evmChainId, genesisHash, getStakingOnChain, groups, icon, isEthereum, isHybrid, key, nativeToken, nftProvider, paraId, providers, requestId, ss58Format, supportBonding, supportSmartContract } = value;
 
   const newItem = {
     slug: key,
@@ -2888,11 +2891,11 @@ const outputMap = Object.keys(inputMap).reduce((acc, k) => {
     providers,
     isTestnet: groups.includes('TEST_NET'),
     substrateInfo: null,
-    evmInfo: null,
-  }
+    evmInfo: null
+  };
 
   if (subscanExplorerMap[k]) {
-    useSubscanMap[k] = true
+    useSubscanMap[k] = true;
   }
 
   if (isEthereum || currentProviderMode === 'http') {
@@ -2901,18 +2904,17 @@ const outputMap = Object.keys(inputMap).reduce((acc, k) => {
 
     newItem.evmInfo = {
       evmChainId,
-      blockExplorer: subscanExplorerMap[k] || evmExplorerMap[k]|| blockExplorer,
+      blockExplorer: subscanExplorerMap[k] || evmExplorerMap[k] || blockExplorer,
       symbol: nativeToken,
       decimals,
       existentialDeposit: '0',
-      supportSmartContract: ['ERC20', 'ERC721'],
-    }
+      supportSmartContract: ['ERC20', 'ERC721']
+    };
   }
 
   if (currentProviderMode === 'ws') {
     // set prop substrateInfo with these field:
     // paraId, relaySlug, genesisHash, addressPrefix, crowdloanUrl, chainType, blockExplorer, symbol, existentialDeposit, decimals, hasNativeNft, supportStaking, supportSmartContract
-
 
     newItem.substrateInfo = {
       paraId: paraId || null,
@@ -2927,13 +2929,14 @@ const outputMap = Object.keys(inputMap).reduce((acc, k) => {
       decimals,
       supportStaking: supportBonding || false,
       hasNativeNft: false,
-      supportSmartContract: supportSmartContract && supportSmartContract.filter(i => (i !== 'ERC20' && i !== 'ERC721')) || null
-    }
+      supportSmartContract: supportSmartContract && supportSmartContract.filter((i) => (i !== 'ERC20' && i !== 'ERC721')) || null
+    };
 
     if (groups.includes('POLKADOT_PARACHAIN') && paraId) {
       newItem.substrateInfo.relaySlug = 'polkadot';
       newItem.substrateInfo.chainType = 'PARACHAIN';
     }
+
     if (groups.includes('KUSAMA_PARACHAIN') && paraId) {
       newItem.substrateInfo.relaySlug = 'kusama';
       newItem.substrateInfo.chainType = 'PARACHAIN';
@@ -2941,6 +2944,7 @@ const outputMap = Object.keys(inputMap).reduce((acc, k) => {
   }
 
   acc[k] = newItem;
+
   return acc;
 }, {});
 
@@ -2972,12 +2976,11 @@ const migrated = [
   'amplitude',
   'amplitude_test',
   'bobabase'
-]
+];
 
 for (const key of migrated) {
   delete outputMap[key];
 }
-
 
 // console.log(useSubscanMap);
 console.log(JSON.stringify(outputMap));
