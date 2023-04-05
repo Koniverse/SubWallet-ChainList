@@ -3339,5 +3339,55 @@
     },
     "hasValue": true,
     "multiChainAsset": null
+  },
+  // shiden
+  // TODO: need to review
+  "shiden-LOCAL-LKSM": {
+    "originChain": "shiden",
+    "slug": "shiden-LOCAL-LKSM",
+    "name": "Liquid KSM",
+    "symbol": "LKSM",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551619",
+      "assetType": "ForeignAsset"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shiden-LOCAL-MOVR": {
+    "originChain": "shiden",
+    "slug": "shiden-LOCAL-MOVR",
+    "name": "Moonriver",
+    "symbol": "MOVR",
+    "decimals": 18,
+    "priceId": "moonriver",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551620",
+      "assetType": "ForeignAsset"
+    },
+    "hasValue": true,
+    "multiChainAsset": "MOVR-Moonriver"
+  },
+  "shiden-LOCAL-KAR": {
+    "originChain": "shiden",
+    "slug": "shiden-LOCAL-KAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "decimals": 12,
+    "priceId": "karura",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551618",
+      "assetType": "ForeignAsset"
+    },
+    "hasValue": true,
+    "multiChainAsset": "KAR-Karura"
   }
 }
