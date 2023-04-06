@@ -143,8 +143,8 @@
     "priceId": null,
     "hasValue": true
   },
-  "USDC-Coin": {
-    "slug": "USDC-Coin",
+  "USDC-USDCoin": {
+    "slug": "USDC-USDCoin",
     "originChainAsset": null,
     "name": "USDC",
     "symbol": "USDC",
@@ -157,6 +157,30 @@
     "name": "Binance Smart Chain",
     "symbol": "BNB",
     "priceId": "binancecoin",
+    "hasValue": true
+  },
+  "BUSD-BinanceUSD": {
+    "slug": "BUSD-BinanceUSD",
+    "originChainAsset": "binance-NATIVE-BNB",
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "priceId": "binance-usd",
+    "hasValue": true
+  },
+  "DAI-DaiStablecoin": {
+    "slug": "DAI-DaiStablecoin",
+    "originChainAsset": null,
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "priceId": "dai",
+    "hasValue": true
+  },
+  "SDN-Shiden": {
+    "slug": "SDN-Shiden",
+    "originChainAsset": "shiden-NATIVE-SDN",
+    "name": "Shiden",
+    "symbol": "SDN",
+    "priceId": "shiden",
     "hasValue": true
   }
 }
