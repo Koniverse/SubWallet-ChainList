@@ -161,7 +161,7 @@
   },
   "BUSD-BinanceUSD": {
     "slug": "BUSD-BinanceUSD",
-    "originChainAsset": "binance-NATIVE-BNB",
+    "originChainAsset": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
     "name": "Binance USD",
     "symbol": "BUSD",
     "priceId": "binance-usd",
@@ -189,6 +189,30 @@
     "name": "PolkaEx",
     "symbol": "PKEX",
     "priceId": "polkaex",
+    "hasValue": true
+  },
+  "CRU-Crust": {
+    "slug": "CRU-Crust",
+    "originChainAsset": "crust-NATIVE-CRU",
+    "name": "Crust",
+    "symbol": "CRU",
+    "priceId": "crust-network",
+    "hasValue": true
+  },
+  "PHA-Phala": {
+    "slug": "PHA-Phala",
+    "originChainAsset": "phala-NATIVE-PHA",
+    "name": "Phala",
+    "symbol": "PHA",
+    "priceId": "pha",
+    "hasValue": true
+  },
+  "PARA-Parallel": {
+    "slug": "PARA-Parallel",
+    "originChainAsset": "parallel-NATIVE-PARA",
+    "name": "Parallel",
+    "symbol": "PARA",
+    "priceId": "parallel-finance",
     "hasValue": true
   }
 }

@@ -810,7 +810,7 @@
     "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "PARA-Parallel",
     "hasValue": true
   },
   "clover-NATIVE-CLV": {
@@ -892,7 +892,7 @@
         "Token": "INTR"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "INTR-Interlay",
     "hasValue": true
   },
   "interlay-LOCAL-LDOT": {
@@ -1124,12 +1124,12 @@
     "slug": "phala-NATIVE-PHA",
     "name": "Phala",
     "symbol": "PHA",
-    "decimals": 10,
+    "decimals": 12,
     "priceId": "pha",
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "PHA-Phala",
     "hasValue": true
   },
   "crust-NATIVE-CRU": {
@@ -1142,7 +1142,7 @@
     "minAmount": "100000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "CRU-Crust",
     "hasValue": true
   },
   "statemine-NATIVE-KSM": {
@@ -3943,6 +3943,202 @@
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  // equilibrium_parachain
+  "equilibrium_parachain-LOCAL-BNB": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-BNB",
+    "name": "Binance Coin",
+    "decimals": 18,
+    "symbol": "BNB",
+    "priceId": "binancecoin",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "6450786"
+    },
+    "hasValue": true,
+    "multiChainAsset": "BNB-Binance"
+  },
+  "equilibrium_parachain-LOCAL-BNC": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-BNC",
+    "name": "Bifrost Kusama",
+    "decimals": 12,
+    "symbol": "BNC",
+    "priceId": "bifrost-native-coin",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "6450787"
+    },
+    "hasValue": true,
+    "multiChainAsset": "BNC-BifrostKusama"
+  },
+  "equilibrium_parachain-LOCAL-CRU": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-CRU",
+    "name": "Crust",
+    "symbol": "CRU",
+    "decimals": 12,
+    "priceId": "crust-network",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "6517365"
+    },
+    "hasValue": true,
+    "multiChainAsset": "CRU-Crust"
+  },
+  "equilibrium_parachain-LOCAL-EQD": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-EQD",
+    "name": "EQD",
+    "decimals": 9,
+    "symbol": "EQD",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "6648164"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "equilibrium_parachain-LOCAL-PHA": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-PHA",
+    "name": "Phala",
+    "decimals": 12,
+    "symbol": "PHA",
+    "priceId": "pha",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "7366753"
+    },
+    "hasValue": true,
+    "multiChainAsset": "PHA-Phala"
+  },
+  "equilibrium_parachain-LOCAL-ASTR": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-ASTR",
+    "name": "Astar",
+    "decimals": 18,
+    "symbol": "ASTR",
+    "priceId": "astar",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1634956402"
+    },
+    "hasValue": true,
+    "multiChainAsset": "ASTR-Astar"
+  },
+  "equilibrium_parachain-LOCAL-BUSD": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-BUSD",
+    "name": "Binance USD",
+    "decimals": 18,
+    "symbol": "BUSD",
+    "priceId": "binance-usd",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1651864420"
+    },
+    "hasValue": true,
+    "multiChainAsset": "BUSD-BinanceUSD"
+  },
+  "equilibrium_parachain-LOCAL-GLMR": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-GLMR",
+    "name": "Moonbeam",
+    "decimals": 18,
+    "symbol": "GLMR",
+    "priceId": "moonbeam",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1735159154"
+    },
+    "hasValue": true,
+    "multiChainAsset": "GLMR-Moonbeam"
+  },
+  "equilibrium_parachain-LOCAL-iBTC": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-iBTC",
+    "name": "interBTC",
+    "symbol": "iBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1768060003"
+    },
+    "hasValue": true,
+    "multiChainAsset": "iBTC-interBTC"
+  },
+  "equilibrium_parachain-LOCAL-INTR": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-INTR",
+    "decimals": 10,
+    "name": "Interlay",
+    "symbol": "INTR",
+    "priceId": "interlay",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1768846450"
+    },
+    "hasValue": true,
+    "multiChainAsset": "INTR-Interlay"
+  },
+  "equilibrium_parachain-LOCAL-PARA": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-PARA",
+    "decimals": 12,
+    "name": "Parallel",
+    "symbol": "PARA",
+    "priceId": "parallel-finance",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1885434465"
+    },
+    "hasValue": true,
+    "multiChainAsset": "PARA-Parallel"
+  },
+  "equilibrium_parachain-LOCAL-USDT": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1970496628"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDT-Tether"
+  },
+  "equilibrium_parachain-LOCAL-EQDOT": {
+    "originChain": "equilibrium_parachain",
+    "slug": "equilibrium_parachain-LOCAL-EQDOT",
+    "name": "EQDOT",
+    "decimals": 9,
+    "symbol": "EQDOT",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "435694104436"
     },
     "hasValue": true,
     "multiChainAsset": null
