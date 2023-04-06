@@ -2818,7 +2818,6 @@
     "multiChainAsset": "KAR-Karura",
     "hasValue": true
   },
-  // Statemine
   "statemine-LOCAL-USDt": {
     "originChain": "statemine",
     "slug": "statemine-LOCAL-USDt",
@@ -2939,7 +2938,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  // Moonbase
   "moonbase-LOCAL-xcUNIT": {
     "originChain": "moonbase",
     "slug": "moonbase-LOCAL-xcUNIT",
@@ -3038,7 +3036,6 @@
     "hasValue": false,
     "multiChainAsset": null
   },
-  // Moonbeam
   "moonbeam-ERC20-USDC-0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b": {
     "originChain": "moonbeam",
     "slug": "moonbeam-ERC20-USDC-0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
@@ -3204,7 +3201,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  // Moonriver
   "moonriver-ERC20-USDC-0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D": {
     "originChain": "moonriver",
     "slug": "moonriver-ERC20-USDC-0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
@@ -3340,7 +3336,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  // shiden
   "shiden-LOCAL-LKSM": {
     "originChain": "shiden",
     "slug": "shiden-LOCAL-LKSM",
@@ -3389,7 +3384,6 @@
     "hasValue": true,
     "multiChainAsset": "KAR-Karura"
   },
-  // Binance
   "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": {
     "originChain": "binance",
     "slug": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
@@ -3405,7 +3399,6 @@
     "hasValue": true,
     "multiChainAsset": "BUSD-BinanceUSD"
   },
-  // astarEvm
   "astarEvm-ERC20-DOT-0xffffffffffffffffffffffffffffffffffffffff": {
     "originChain": "astarEvm",
     "slug": "astarEvm-ERC20-DOT-0xffffffffffffffffffffffffffffffffffffffff",
@@ -3721,7 +3714,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  // shidenEvm
   "shidenEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
     "originChain": "shidenEvm",
     "slug": "shidenEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0",
@@ -3947,7 +3939,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  // equilibrium_parachain
   "equilibrium_parachain-LOCAL-BNB": {
     "originChain": "equilibrium_parachain",
     "slug": "equilibrium_parachain-LOCAL-BNB",
@@ -4143,7 +4134,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  // boba
   "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7": {
     "originChain": "boba",
     "slug": "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7",
@@ -4159,7 +4149,6 @@
     "hasValue": true,
     "multiChainAsset": "BOBA-BobaToken"
   },
-  // bobabeam
   "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023": {
     "originChain": "bobabeam",
     "slug": "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023",
