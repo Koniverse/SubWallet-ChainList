@@ -1098,7 +1098,7 @@
     "slug": "efinity-NATIVE-EFI",
     "name": "Efinity",
     "symbol": "EFI",
-    "decimals": 10,
+    "decimals": 18,
     "priceId": "efinity",
     "minAmount": "1000000000000000000",
     "assetType": "NATIVE",
@@ -3060,7 +3060,7 @@
     "name": "Binance",
     "decimals": 18,
     "symbol": "BNB",
-    "priceId": null,
+    "priceId": "binancecoin",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3105,7 +3105,7 @@
     "name": "MoonBeans",
     "decimals": 18,
     "symbol": "BEANS",
-    "priceId": null,
+    "priceId": "moonbeans",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3218,7 +3218,7 @@
       "contractAddress": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
     },
     "hasValue": true,
-    "multiChainAsset": "USDC-USDCoin"
+    "multiChainAsset": null
   },
   "moonriver-ERC20-DAI-0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844": {
     "originChain": "moonriver",
@@ -3487,7 +3487,7 @@
     "name": "Sirius Finance",
     "decimals": 18,
     "symbol": "SRS",
-    "priceId": null,
+    "priceId": "sirius-finance",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3584,7 +3584,7 @@
       "contractAddress": "0x1fE622E91e54D6AD00B01917351Ea6081426764A"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": "PKEX-PolkaEx"
   },
   "astarEvm-ERC20-SDN-0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4": {
     "originChain": "astarEvm",
@@ -3717,6 +3717,232 @@
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0x34F79636a55d9961E47b7784eF460B021B499406"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  // shidenEvm
+  "shidenEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0",
+    "name": "Tether USD",
+    "decimals": 6,
+    "symbol": "USDT",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFFFFFFFF000000000000000000000001000007C0"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-PKEX-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-PKEX-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98",
+    "name": "PolkaEx",
+    "decimals": 18,
+    "symbol": "PKEX",
+    "priceId": "polkaex",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98"
+    },
+    "hasValue": true,
+    "multiChainAsset": "PKEX-PolkaEx"
+  },
+  "shidenEvm-ERC20-BNB-0x332730a4f6e03d9c55829435f10360e13cfa41ff": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-BNB-0x332730a4f6e03d9c55829435f10360e13cfa41ff",
+    "name": "Binance",
+    "decimals": 18,
+    "symbol": "BNB",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x332730a4f6e03d9c55829435f10360e13cfa41ff"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-BUSD-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-BUSD-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98",
+    "name": "Binance-Peg BUSD Token",
+    "decimals": 18,
+    "symbol": "BUSD",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-JPYC-0x735abe48e8782948a37c7765ecb76b98cde97b0f": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-JPYC-0x735abe48e8782948a37c7765ecb76b98cde97b0f",
+    "name": "JPY Coin",
+    "decimals": 18,
+    "symbol": "JPYC",
+    "priceId": "jpyc",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x735abe48e8782948a37c7765ecb76b98cde97b0f"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-ETH-0x765277eebeca2e31912c9946eae1021199b39c61": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-ETH-0x765277eebeca2e31912c9946eae1021199b39c61",
+    "name": "Ethereum",
+    "decimals": 18,
+    "symbol": "ETH",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x765277eebeca2e31912c9946eae1021199b39c61"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-USDC-0xfa9343c3897324496a05fc75abed6bac29f8a40f": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-USDC-0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfa9343c3897324496a05fc75abed6bac29f8a40f"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-WSDN-0x0f933dc137d21ca519ae4c7e93f87a4c8ef365ef": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-WSDN-0x0f933dc137d21ca519ae4c7e93f87a4c8ef365ef",
+    "name": "Wrapped Shiden",
+    "decimals": 18,
+    "symbol": "WSDN",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0f933dc137d21ca519ae4c7e93f87a4c8ef365ef"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-Kac-0xb12c13e66ade1f72f71834f2fc5082db8c091358": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-Kac-0xb12c13e66ade1f72f71834f2fc5082db8c091358",
+    "name": "Kaco Token",
+    "decimals": 18,
+    "symbol": "Kac",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb12c13e66ade1f72f71834f2fc5082db8c091358"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c",
+    "name": "SHINOBI",
+    "decimals": 18,
+    "symbol": "SHBI",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xec0c789c6dc019b1c19f055edf938b369d235d2c"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-SMS-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-SMS-0xec0c789c6dc019b1c19f055edf938b369d235d2c",
+    "name": "SafeMoonShiden",
+    "decimals": 18,
+    "symbol": "SMS",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xec0c789c6dc019b1c19f055edf938b369d235d2c"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-STND-0x722377A047e89CA735f09Eb7CccAb780943c4CB4": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-STND-0x722377A047e89CA735f09Eb7CccAb780943c4CB4",
+    "name": "Standard",
+    "decimals": 18,
+    "symbol": "STND",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x722377A047e89CA735f09Eb7CccAb780943c4CB4"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-SRISE-0x16bf7ecaf868348703ff5b5c0c3b84be7bf483f9": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-SRISE-0x16bf7ecaf868348703ff5b5c0c3b84be7bf483f9",
+    "name": "SHIDENRISE",
+    "decimals": 18,
+    "symbol": "SRISE",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x16bf7ecaf868348703ff5b5c0c3b84be7bf483f9"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-FEGS-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-FEGS-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41",
+    "name": "FEGSHIDEN",
+    "decimals": 18,
+    "symbol": "FEGS",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
+    },
+    "hasValue": true,
+    "multiChainAsset": null
+  },
+  "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41": {
+    "originChain": "shidenEvm",
+    "slug": "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41",
+    "name": "Kwikswap",
+    "decimals": 18,
+    "symbol": "KWIK",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
     },
     "hasValue": true,
     "multiChainAsset": null

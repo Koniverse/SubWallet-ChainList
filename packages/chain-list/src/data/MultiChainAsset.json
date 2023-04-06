@@ -182,5 +182,13 @@
     "symbol": "SDN",
     "priceId": "shiden",
     "hasValue": true
+  },
+  "PKEX-PolkaEx": {
+    "slug": "PKEX-PolkaEx",
+    "originChainAsset": null,
+    "name": "PolkaEx",
+    "symbol": "PKEX",
+    "priceId": "polkaex",
+    "hasValue": true
   }
 }
