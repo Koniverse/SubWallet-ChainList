@@ -91,7 +91,7 @@
     },
     "evmInfo": {
       "evmChainId": 1284,
-      "blockExplorer": "https://moonscan.io/",
+      "blockExplorer": "https://moonbeam.subscan.io/",
       "symbol": "GLMR",
       "decimals": 18,
       "existentialDeposit": "0",
@@ -533,7 +533,7 @@
     },
     "evmInfo": {
       "evmChainId": 1285,
-      "blockExplorer": "https://moonriver.moonscan.io/",
+      "blockExplorer": "https://moonriver.subscan.io/",
       "symbol": "MOVR",
       "decimals": 18,
       "existentialDeposit": "0",
