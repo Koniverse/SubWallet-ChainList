@@ -214,5 +214,13 @@
     "symbol": "PARA",
     "priceId": "parallel-finance",
     "hasValue": true
+  },
+  "BOBA-BobaToken": {
+    "slug": "BOBA-BobaToken",
+    "originChainAsset": "bobabeam-NATIVE-BOBA",
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "priceId": "boba-network",
+    "hasValue": true
   }
 }

@@ -499,7 +499,7 @@
     "name": "Equilibrium",
     "symbol": "EQ",
     "decimals": 9,
-    "priceId": "equilibrium",
+    "priceId": "equilibrium-token",
     "minAmount": "100000000",
     "assetType": "NATIVE",
     "metadata": {
@@ -1874,27 +1874,27 @@
   "boba-NATIVE-ETH": {
     "originChain": "boba",
     "slug": "boba-NATIVE-ETH",
-    "name": "Boba Network",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
     "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true
   },
   "bobabeam-NATIVE-BOBA": {
     "originChain": "bobabeam",
     "slug": "bobabeam-NATIVE-BOBA",
-    "name": "Bobabeam",
+    "name": "Boba Token",
     "symbol": "BOBA",
     "decimals": 18,
     "priceId": "boba-network",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BOBA-BobaToken",
     "hasValue": true
   },
   "kilt_peregrine-NATIVE-PILT": {
@@ -4142,5 +4142,37 @@
     },
     "hasValue": true,
     "multiChainAsset": null
+  },
+  // boba
+  "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7": {
+    "originChain": "boba",
+    "slug": "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7",
+    "name": "Boba Token",
+    "decimals": 18,
+    "symbol": "BOBA",
+    "priceId": "boba-network",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xa18bf3994c0cc6e3b63ac420308e5383f53120d7"
+    },
+    "hasValue": true,
+    "multiChainAsset": "BOBA-BobaToken"
+  },
+  // bobabeam
+  "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023": {
+    "originChain": "bobabeam",
+    "slug": "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023",
+    "name": "Moonbeam",
+    "decimals": 18,
+    "symbol": "GLMR",
+    "priceId": "moonbeam",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4200000000000000000000000000000000000023"
+    },
+    "hasValue": true,
+    "multiChainAsset": "GLMR-Moonbeam"
   }
 }
