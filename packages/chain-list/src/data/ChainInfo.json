@@ -1604,7 +1604,7 @@
     "substrateInfo": {
       "paraId": 2085,
       "relaySlug": "kusama",
-      "genesisHash": "0x64a1c658a48b2e70a7fb1a d4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+      "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
       "addressPrefix": 110,
       "crowdloanUrl": "https://crowdloan.parallel.fi/#/auction/contribute/kusama/2085",
       "chainType": "PARACHAIN",
@@ -2327,7 +2327,7 @@
       "genesisHash": "0x43d10ffd50990380ffe6c9392145431d630ae67e89dbc9c014cac2a417759101",
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
-      "blockExplorer": "https://subspace.subscan.io/",
+      "blockExplorer": "https://explorer.subspace.network/#/gemini-2a",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
@@ -2353,7 +2353,7 @@
       "genesisHash": "0xab946a15b37f59c5f4f27c5de93acde9fe67a28e0b724a43a30e4fe0e87246b7",
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
-      "blockExplorer": "https://subspace.github.io/blockexplorer/#/gemini-3c",
+      "blockExplorer": "https://explorer.subspace.network/#/gemini-3c",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
@@ -3718,6 +3718,54 @@
       "symbol": "JOY",
       "existentialDeposit": "266666560",
       "decimals": 10,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null
+  },
+  "aventus": {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Aventus": "wss://public-rpc.mainnet.aventus.io"
+    },
+    "isTestnet": false,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "symbol": "AVT",
+      "existentialDeposit": "0",
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null
+  },
+  "aventus_testnet": {
+    "slug": "aventus_testnet",
+    "name": "Aventus Testnet",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Aventus": "wss://public-rpc.public-testnet.aventus.io"
+    },
+    "isTestnet": true,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xa6ffcef7fb8caadf7f6c5ad8ada65e3eaa90d1604f3eabda546ff1d486865a0c",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "symbol": "AVT",
+      "existentialDeposit": "0",
+      "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
       "supportSmartContract": null,
