@@ -3642,7 +3642,7 @@
       "contractAddress": "0xad543f18cff85c77e140e3e5e3c3392f6ba9d5ca"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": "WBTC-WrappedBTC"
   },
   "astarEvm-ERC20-WETH-0x81ECac0D6Be0550A00FF064a4f9dd2400585FE9c": {
     "originChain": "astarEvm",
@@ -4260,5 +4260,905 @@
     },
     "hasValue": true,
     "multiChainAsset": "PHA-Phala"
+  },
+  "binance-ERC20-USDC-0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-USDC-0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "name": "Binance-Peg USD Coin",
+    "symbol": "USDC",
+    "decimals": 18,
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true
+  },
+  "binance-ERC20-vUSDT-0xfD5840Cd36d94D7229439859C0112a4185BC0255": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-vUSDT-0xfD5840Cd36d94D7229439859C0112a4185BC0255",
+    "name": "Venus USDT",
+    "symbol": "vUSDT",
+    "decimals": 8,
+    "priceId": "venus-usdt",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfD5840Cd36d94D7229439859C0112a4185BC0255"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-vBUSD-0x95c78222B3D6e262426483D42CfA53685A67Ab9D": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-vBUSD-0x95c78222B3D6e262426483D42CfA53685A67Ab9D",
+    "name": "Venus BUSD",
+    "symbol": "vBUSD",
+    "decimals": 8,
+    "priceId": "venus-busd",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x95c78222B3D6e262426483D42CfA53685A67Ab9D"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-WBNB-0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-WBNB-0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "decimals": 18,
+    "priceId": "wbnb",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-ETH-0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-ETH-0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    "name": "Binance-Peg Ethereum Token",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
+    },
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true
+  },
+  "binance-ERC20-Cake-0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-Cake-0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "name": "PancakeSwap Token",
+    "symbol": "Cake",
+    "decimals": 18,
+    "priceId": "pancakeswap-token",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-BTCB-0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-BTCB-0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "name": "Binance-Peg BTCB Token",
+    "symbol": "BTCB",
+    "decimals": 18,
+    "priceId": "binance-bitcoin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-ADA-0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-ADA-0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+    "name": "Binance-Peg Cardano Token",
+    "symbol": "ADA",
+    "decimals": 18,
+    "priceId": "binance-peg-cardano",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-XRP-0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-XRP-0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+    "name": "Binance-Peg XRP Token",
+    "symbol": "XRP",
+    "decimals": 18,
+    "priceId": "binance-peg-xrp",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-DOT-0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-DOT-0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+    "name": "Binance-Peg Polkadot Token",
+    "symbol": "DOT",
+    "decimals": 18,
+    "priceId": "binance-peg-polkadot",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955",
+    "name": "Binance-Peg BSC-USD",
+    "symbol": "USDT",
+    "decimals": 18,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true
+  },
+  "ethereum-ERC20-BNB-0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-BNB-0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18,
+    "priceId": "binancecoin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+    },
+    "multiChainAsset": "BNB-Binance",
+    "hasValue": true
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true
+  },
+  "ethereum-ERC20-BUSD-0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-BUSD-0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "priceId": "binance-usd",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+    },
+    "multiChainAsset": "BUSD-BinanceUSD",
+    "hasValue": true
+  },
+  "ethereum-ERC20-LDO-0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-LDO-0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "name": "Lido DAO Token",
+    "symbol": "LDO",
+    "decimals": 18,
+    "priceId": "lido-dao",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "priceId": "wrapped-steth",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-stETH-0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-stETH-0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "name": "Lido Staked Ether",
+    "symbol": "stETH",
+    "decimals": 18,
+    "priceId": "staked-ether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-THETA-0x3883f5e181fccaF8410FA61e12b59BAd963fb645": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-THETA-0x3883f5e181fccaF8410FA61e12b59BAd963fb645",
+    "name": "Theta Token",
+    "symbol": "THETA",
+    "decimals": 18,
+    "priceId": "theta-token",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3883f5e181fccaF8410FA61e12b59BAd963fb645"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-NEAR-0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-NEAR-0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4",
+    "name": "NEAR",
+    "symbol": "NEAR",
+    "decimals": 24,
+    "priceId": "near",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-APE-0x4d224452801ACEd8B2F0aebE155379bb5D594381": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-APE-0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18,
+    "priceId": "apecoin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4d224452801ACEd8B2F0aebE155379bb5D594381"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-LINK-0x514910771AF9Ca656af840dff83E8264EcF986CA": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-LINK-0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "name": "ChainLink Token",
+    "symbol": "LINK",
+    "decimals": 18,
+    "priceId": "chainlink",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-DAI-0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-DAI-0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true
+  },
+  "ethereum-ERC20-BAT-0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-BAT-0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+    "name": "Basic Attention",
+    "symbol": "BAT",
+    "decimals": 18,
+    "priceId": "basic-attention-token",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-CRO-0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CRO-0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+    "name": "Cronos Coin",
+    "symbol": "CRO",
+    "decimals": 8,
+    "priceId": "crypto-com-chain",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-COMP-0xc00e94Cb662C3520282E6f5717214004A7f26888": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-COMP-0xc00e94Cb662C3520282E6f5717214004A7f26888",
+    "name": "Compound",
+    "symbol": "COMP",
+    "decimals": 18,
+    "priceId": "compound-governance-token",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-ENJ-0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-ENJ-0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+    "name": "Enjin Coin",
+    "symbol": "ENJ",
+    "decimals": 18,
+    "priceId": "enjincoin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-SAND-0x3845badAde8e6dFF049820680d1F14bD3903a5d0": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-SAND-0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+    "name": "The Sandbox",
+    "symbol": "SAND",
+    "decimals": 18,
+    "priceId": "the-sandbox",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-GALA-0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-GALA-0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+    "name": "GALA",
+    "symbol": "GALA",
+    "decimals": 8,
+    "priceId": "gala",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-CHZ-0x3506424F91fD33084466F402d5D97f05F8e3b4AF": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CHZ-0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+    "name": "Chiliz",
+    "symbol": "CHZ",
+    "decimals": 18,
+    "priceId": "chiliz",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-1INCH-0x111111111117dC0aa78b770fA6A738034120C302": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-1INCH-0x111111111117dC0aa78b770fA6A738034120C302",
+    "name": "1INCH Token",
+    "symbol": "1INCH",
+    "decimals": 18,
+    "priceId": "1inch",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x111111111117dC0aa78b770fA6A738034120C302"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-FTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-FTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+    "name": "Wrapped Fantom",
+    "symbol": "WFTM",
+    "decimals": 18,
+    "priceId": "wrapped-fantom",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-MKR-0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MKR-0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "name": "Maker",
+    "symbol": "MKR",
+    "decimals": 18,
+    "priceId": "maker",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-KNC-0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-KNC-0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
+    "name": "Kyber Network Crystal",
+    "symbol": "KNC",
+    "decimals": 18,
+    "priceId": "kyber-network-crystal",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "wrapped-bitcoin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true
+  },
+  "ethereum-ERC20-ENS-0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-ENS-0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+    "name": "Ethereum Name Service",
+    "symbol": "ENS",
+    "decimals": 18,
+    "priceId": "ethereum-name-service",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-UNI-0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-UNI-0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "decimals": 18,
+    "priceId": "uniswap",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-MATIC-0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MATIC-0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+    "name": "Matic Token",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "priceId": "matic-network",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+    "name": "SHIBA INU",
+    "symbol": "SHIB",
+    "decimals": 18,
+    "priceId": "shiba-inu",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC20-TFA-0xE065ffaf3f7dED69BB5cf5FDd1Fd1dDA2EEe8493": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-TFA-0xE065ffaf3f7dED69BB5cf5FDd1Fd1dDA2EEe8493",
+    "name": "Take Flight Alpha DAO",
+    "symbol": "TFA",
+    "decimals": 18,
+    "priceId": "take-flight-alpha-dao",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE065ffaf3f7dED69BB5cf5FDd1Fd1dDA2EEe8493"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-MFMP-0x6758053c0b27E478edE1E4882adFF708Fc4FA72D": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-MFMP-0x6758053c0b27E478edE1E4882adFF708Fc4FA72D",
+    "name": "MoonFit Mint Pass",
+    "symbol": "MFMP",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x6758053c0b27E478edE1E4882adFF708Fc4FA72D"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-MM-0xCc1A7573C8f10d0df7Ee4d57cc958C8Df4a5Aca9": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-MM-0xCc1A7573C8f10d0df7Ee4d57cc958C8Df4a5Aca9",
+    "name": "Moon Monkeys",
+    "symbol": "MM",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xCc1A7573C8f10d0df7Ee4d57cc958C8Df4a5Aca9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-MDAO-0xc6342EAB8B7cC405Fc35ebA7F7401fc400aC0709": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-MDAO-0xc6342EAB8B7cC405Fc35ebA7F7401fc400aC0709",
+    "name": "MoonDAONFT",
+    "symbol": "MDAO",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xc6342EAB8B7cC405Fc35ebA7F7401fc400aC0709"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-GLMA-0x8fbe243d898e7c88a6724bb9eb13d746614d23d6": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-GLMA-0x8fbe243d898e7c88a6724bb9eb13d746614d23d6",
+    "name": "GlimmerApes",
+    "symbol": "GLMA",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x8fbe243d898e7c88a6724bb9eb13d746614d23d6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-GLMJ-0xcB13945Ca8104f813992e4315F8fFeFE64ac49cA": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-GLMJ-0xcB13945Ca8104f813992e4315F8fFeFE64ac49cA",
+    "name": "GlimmerJungle",
+    "symbol": "GLMJ",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xcB13945Ca8104f813992e4315F8fFeFE64ac49cA"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-PUNK-0xFD86D63748a6390E4a80739e776463088811774D": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-PUNK-0xFD86D63748a6390E4a80739e776463088811774D",
+    "name": "Moonbeam Punks",
+    "symbol": "PUNK",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xFD86D63748a6390E4a80739e776463088811774D"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-GPUNKS-0x25714FcBc4bE731B95AE86483EF97ef6C3deB5Ce": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-GPUNKS-0x25714FcBc4bE731B95AE86483EF97ef6C3deB5Ce",
+    "name": "GlmrPunks",
+    "symbol": "GPUNKS",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x25714FcBc4bE731B95AE86483EF97ef6C3deB5Ce"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-GlmrZuki-0xC36D971c11CEbbCc20eE2C2910e07e2b1Be3790d": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-GlmrZuki-0xC36D971c11CEbbCc20eE2C2910e07e2b1Be3790d",
+    "name": "MoonbeamZuki",
+    "symbol": "GlmrZuki",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xC36D971c11CEbbCc20eE2C2910e07e2b1Be3790d"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-GKC-0x62E413D4b097b474999CF33d336cD74881084ba5": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-GKC-0x62E413D4b097b474999CF33d336cD74881084ba5",
+    "name": "GlimmerKongsClub",
+    "symbol": "GKC",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x62E413D4b097b474999CF33d336cD74881084ba5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-MBNS-0x9576167Eb03141F041ccAf57D4D0bd40Abb2b583": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-MBNS-0x9576167Eb03141F041ccAf57D4D0bd40Abb2b583",
+    "name": "Moonbeam Name Service (.moon)",
+    "symbol": "MBNS",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x9576167Eb03141F041ccAf57D4D0bd40Abb2b583"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-ANFT-0xcf82ddcca84d0e419bccd7a540e807c114250ded": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-ANFT-0xcf82ddcca84d0e419bccd7a540e807c114250ded",
+    "name": "AthosNFT",
+    "symbol": "ANFT",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xcf82ddcca84d0e419bccd7a540e807c114250ded"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonriver-ERC721-ZOOMBIE-0x08716e418e68564C96b68192E985762740728018": {
+    "originChain": "moonriver",
+    "slug": "moonriver-ERC721-ZOOMBIE-0x08716e418e68564C96b68192E985762740728018",
+    "name": "Zoombies",
+    "symbol": "ZOOMBIE",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x08716e418e68564C96b68192E985762740728018"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonriver-ERC721-NFTQ-0x79c8C73F85ec794f570aa7B768568a7fEdB294f8": {
+    "originChain": "moonriver",
+    "slug": "moonriver-ERC721-NFTQ-0x79c8C73F85ec794f570aa7B768568a7fEdB294f8",
+    "name": "Moonriver NFT Quest",
+    "symbol": "NFTQ",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x79c8C73F85ec794f570aa7B768568a7fEdB294f8"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "astarEvm-ERC721-GHOST-0xb4bd85893d6f66869d7766ace1b1eb4d867d963e": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC721-GHOST-0xb4bd85893d6f66869d7766ace1b1eb4d867d963e",
+    "name": "AstarGhost",
+    "symbol": "GHOST",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xb4bd85893d6f66869d7766ace1b1eb4d867d963e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "astarEvm-ERC721-AP-0x1b57C69838cDbC59c8236DDa73287a4780B4831F": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC721-AP-0x1b57C69838cDbC59c8236DDa73287a4780B4831F",
+    "name": "Astar Punks",
+    "symbol": "AP",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x1b57C69838cDbC59c8236DDa73287a4780B4831F"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "astarEvm-ERC721-DEGEN-0xd59fc6bfd9732ab19b03664a45dc29b8421bda9a": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC721-DEGEN-0xd59fc6bfd9732ab19b03664a45dc29b8421bda9a",
+    "name": "AstarDegens",
+    "symbol": "DEGEN",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xd59fc6bfd9732ab19b03664a45dc29b8421bda9a"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "astarEvm-ERC721-ANAUT-0xf008371a7EeD0AB54FDd975fE0d0f66fEFBA3415": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC721-ANAUT-0xf008371a7EeD0AB54FDd975fE0d0f66fEFBA3415",
+    "name": "Astarnaut",
+    "symbol": "ANAUT",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xf008371a7EeD0AB54FDd975fE0d0f66fEFBA3415"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "astarEvm-ERC721-CAT-0x8b5d62f396Ca3C6cF19803234685e693733f9779": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC721-CAT-0x8b5d62f396Ca3C6cF19803234685e693733f9779",
+    "name": "AstarCats",
+    "symbol": "CAT",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x8b5d62f396Ca3C6cF19803234685e693733f9779"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-EXRP-0x515e20e6275ceefe19221fc53e77e38cc32b80fb": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-EXRP-0x515e20e6275ceefe19221fc53e77e38cc32b80fb",
+    "name": "Exiled Racers Pilot",
+    "symbol": "EXRP",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x515e20e6275ceefe19221fc53e77e38cc32b80fb"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "moonbeam-ERC721-MOONPETS-0x2159762693C629C5A44Fc9baFD484f8B96713467": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-MOONPETS-0x2159762693C629C5A44Fc9baFD484f8B96713467",
+    "name": "MOONPETS",
+    "symbol": "MOONPETS",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x2159762693C629C5A44Fc9baFD484f8B96713467"
+    },
+    "multiChainAsset": null,
+    "hasValue": true
   }
 }

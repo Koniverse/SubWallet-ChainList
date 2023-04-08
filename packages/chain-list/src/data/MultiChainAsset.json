@@ -246,5 +246,13 @@
     "symbol": "RMRK",
     "priceId": "rmrk",
     "hasValue": true
+  },
+  "WBTC-WrappedBTC": {
+    "slug": "WBTC-WrappedBTC",
+    "originChainAsset": null,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "priceId": "wrapped-bitcoin",
+    "hasValue": true
   }
 }
