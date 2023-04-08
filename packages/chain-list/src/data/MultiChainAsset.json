@@ -222,5 +222,29 @@
     "symbol": "BOBA",
     "priceId": "boba-network",
     "hasValue": true
+  },
+  "EQD-EquilibriumUSD": {
+    "slug": "EQD-EquilibriumUSD",
+    "originChainAsset": "equilibrium_parachain-LOCAL-EQD",
+    "name": "Equilibrium USD",
+    "symbol": "EQD",
+    "priceId": null,
+    "hasValue": true
+  },
+  "WETH-WrappedEther": {
+    "slug": "WETH-WrappedEther",
+    "originChainAsset": "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "priceId": "weth",
+    "hasValue": true
+  },
+  "RMRK-RMRKApp": {
+    "slug": "RMRK-RMRKApp",
+    "originChainAsset": "statemine-LOCAL-RMRK",
+    "name": "RMRK.app",
+    "symbol": "RMRK",
+    "priceId": "rmrk",
+    "hasValue": true
   }
 }

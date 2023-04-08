@@ -320,6 +320,21 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true
   },
+  "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "decimals": 18,
+    "symbol": "WETH",
+    "priceId": "weth",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true
+  },
   "astar-NATIVE-ASTR": {
     "originChain": "astar",
     "slug": "astar-NATIVE-ASTR",
@@ -2866,7 +2881,7 @@
       "assetId": "8"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": "RMRK-RMRKApp"
   },
   "statemine-LOCAL-ARIS": {
     "originChain": "statemine",
@@ -4002,7 +4017,7 @@
       "assetId": "6648164"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": "EQD-EquilibriumUSD"
   },
   "equilibrium_parachain-LOCAL-PHA": {
     "originChain": "equilibrium_parachain",
@@ -4168,5 +4183,82 @@
     },
     "hasValue": true,
     "multiChainAsset": "GLMR-Moonbeam"
+  },
+  "aventus-NATIVE-AVT": {
+    "originChain": "aventus",
+    "slug": "aventus-NATIVE-AVT",
+    "name": "Aventus",
+    "symbol": "AVT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "aventus_testnet-NATIVE-AVT": {
+    "originChain": "aventus_testnet",
+    "slug": "aventus_testnet-NATIVE-AVT",
+    "name": "Aventus",
+    "symbol": "AVT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false
+  },
+  "bifrost-LOCAL-MOVR": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-MOVR",
+    "name": "Moonriver Native Token",
+    "symbol": "MOVR",
+    "decimals": 18,
+    "priceId": "moonriver",
+    "minAmount": "1000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "MOVR"
+      }
+    },
+    "hasValue": true,
+    "multiChainAsset": "MOVR-Moonriver"
+  },
+  "bifrost-LOCAL-RMRK": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-RMRK",
+    "name": "RMRK Token",
+    "symbol": "RMRK",
+    "decimals": 10,
+    "priceId": "rmrk",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "RMRK"
+      }
+    },
+    "hasValue": true,
+    "multiChainAsset": "RMRK-RMRKApp"
+  },
+  "bifrost-LOCAL-PHA": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-PHA",
+    "name": "Phala Native Token",
+    "symbol": "PHA",
+    "decimals": 12,
+    "priceId": "pha",
+    "minAmount": "40000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "PHA"
+      }
+    },
+    "hasValue": true,
+    "multiChainAsset": "PHA-Phala"
   }
 }
