@@ -1243,7 +1243,10 @@
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
+      "supportSmartContract": [
+        "PSP34",
+        "PSP22"
+      ],
       "blockExplorer": "https://alephzero.subscan.io/"
     },
     "evmInfo": null
