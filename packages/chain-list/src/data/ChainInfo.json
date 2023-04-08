@@ -1264,7 +1264,7 @@
       "chainType": "RELAYCHAIN",
       "symbol": "UNIT",
       "existentialDeposit": "10000000000",
-      "decimals": 12,
+      "decimals": 10,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null,
@@ -1532,7 +1532,7 @@
       "chainType": "PARACHAIN",
       "symbol": "KILT",
       "existentialDeposit": "10000000000000",
-      "decimals": 12,
+      "decimals": 15,
       "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
@@ -1648,13 +1648,13 @@
     "name": "Kintsugi Testnet",
     "chainStatus": "ACTIVE",
     "providers": {
-      "testnet": "wss://api-testnet.interlay.io:443/parachain"
+      "testnet": "wss://api-dev-kintsugi.interlay.io/parachain"
     },
     "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
-      "genesisHash": "0x364dd762ee3fa02f63548f579f185e64932fc1a29052d7d9a588d2a57b191abf",
+      "genesisHash": "0x3a5a5cd27eb15fd26c37315a0f0b938733bb798c897428448efac5e6150cad06",
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "symbol": "KINT",
@@ -1736,6 +1736,7 @@
       "chainType": "PARACHAIN",
       "symbol": "UNQ",
       "existentialDeposit": "0",
+      "decimals": 18,
       "hasNativeNft": true,
       "supportSmartContract": null,
       "blockExplorer": "https://unique.subscan.io/",
@@ -1760,7 +1761,7 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://genshiro.subscan.io/",
       "symbol": "GENS",
-      "decimals": 10,
+      "decimals": 9,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "supportStaking": false
@@ -1785,7 +1786,6 @@
       "decimals": 9,
       "hasNativeNft": false,
       "supportSmartContract": [
-
       ],
       "blockExplorer": null,
       "supportStaking": false
@@ -1809,6 +1809,7 @@
       "chainType": "PARACHAIN",
       "symbol": "SUB",
       "existentialDeposit": "100000000",
+      "decimals": 10,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null,
@@ -1860,7 +1861,7 @@
       "blockExplorer": "https://sakura.subscan.io/",
       "symbol": "SKU",
       "existentialDeposit": "500",
-      "decimals": 10,
+      "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "supportStaking": false
@@ -2081,6 +2082,7 @@
       "addressPrefix": 44,
       "chainType": "RELAYCHAIN",
       "symbol": "PCX",
+      "decimals": 8,
       "existentialDeposit": "0",
       "hasNativeNft": false,
       "supportSmartContract": null,
@@ -2152,6 +2154,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "symbol": "MGX",
+      "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null,
@@ -2175,6 +2178,7 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://encointer.subscan.io/",
       "symbol": "KSM",
+      "decimals": 12,
       "existentialDeposit": "3333333",
       "hasNativeNft": false,
       "supportSmartContract": null,
@@ -2636,10 +2640,10 @@
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
-      "genesisHash": "0x5c4207232d344710a176b1982471acf9b058f40b4a57470c25410b68b684c766",
-      "addressPrefix": 2207,
+      "genesisHash": "0xd0d9ce714804ff485ae4efcfcfc1bb950257e55db5e0c42ffc9d062839d5a066",
+      "addressPrefix": 2208,
       "chainType": "RELAYCHAIN",
-      "symbol": "ICY",
+      "symbol": "ICZ",
       "existentialDeposit": "10000000000000000",
       "decimals": 18,
       "hasNativeNft": false,
