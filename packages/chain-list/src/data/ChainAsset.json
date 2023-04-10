@@ -344,7 +344,14 @@
     "priceId": "astar",
     "minAmount": "1000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": "Here"
+        }
+      }
+    },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true
   },
@@ -360,8 +367,10 @@
     "metadata": {
       "assetId": "340282366920938463463374607431768211455",
       "multilocation": {
-        "parents": 1,
-        "interior": "Here"
+        "Concrete": {
+          "parents": 1,
+          "interior": "Here"
+        }
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -379,19 +388,21 @@
     "metadata": {
       "assetId": "4294969280",
       "multilocation": {
-        "parents": 1,
-        "interior": {
-          "X3": [
-            {
-              "Parachain": 1000
-            },
-            {
-              "GeneralIndex": 50
-            },
-            {
-              "GeneralIndex": 1984
-            }
-          ]
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "GeneralIndex": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
         }
       }
     },
@@ -1189,7 +1200,16 @@
     "priceId": "karura",
     "minAmount": "100000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "Token": "KAR"
+        }
+      },
+      "multilocation": {
+        "Token": "KAR"
+      }
+    },
     "multiChainAsset": "KAR-Karura",
     "hasValue": true
   },
@@ -2372,9 +2392,9 @@
     "multiChainAsset": null,
     "hasValue": true
   },
-  "sora-substrate-NATIVE-XOR": {
-    "originChain": "sora-substrate",
-    "slug": "sora-substrate-NATIVE-XOR",
+  "sora_substrate-NATIVE-XOR": {
+    "originChain": "sora_substrate",
+    "slug": "sora_substrate-NATIVE-XOR",
     "name": "SORA",
     "symbol": "XOR",
     "decimals": 18,
@@ -2494,7 +2514,7 @@
       "assetType": "ForeignAsset",
       "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
     },
-    "multiChainAsset": "USDT-Tether",
+    "multiChainAsset": "KSM-Kusama",
     "hasValue": true
   },
   "shiden-LOCAL-KSM": {
@@ -2508,7 +2528,13 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "42259045809535163221576417993425387648",
-      "assetType": "ForeignAsset"
+      "assetType": "ForeignAsset",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": "Here"
+        }
+      }
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true
@@ -2561,7 +2587,7 @@
         "Token": "BNC"
       }
     },
-    "multiChainAsset": "KSM-Kusama",
+    "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true
   },
   "bifrost-LOCAL-KSM": {
@@ -2678,16 +2704,18 @@
     "metadata": {
       "assetId": "18446744073709551617",
       "multilocation": {
-        "parents": 1,
-        "interior": {
-          "X2": [
-            {
-              "Parachain": 2000
-            },
-            {
-              "GeneralKey": "0x0001"
-            }
-          ]
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X2": [
+              {
+                "Parachain": 2000
+              },
+              {
+                "GeneralKey": "0x0001"
+              }
+            ]
+          }
         }
       }
     },
@@ -2743,9 +2771,9 @@
     "originChain": "moonriver",
     "slug": "moonriver-LOCAL-xcKAR",
     "name": "Karura",
-    "symbol": "KAR",
+    "symbol": "xcKAR",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "karura",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -3689,12 +3717,12 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  "astarEvm-ERC20-ARSW-LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C": {
+  "astarEvm-ERC20-ARSW_LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C": {
     "originChain": "astarEvm",
-    "slug": "astarEvm-ERC20-ARSW-LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C",
+    "slug": "astarEvm-ERC20-ARSW_LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C",
     "name": "Arthswap LPs (ARSW-LP)",
     "decimals": 18,
-    "symbol": "ARSW-LP",
+    "symbol": "ARSW_LP",
     "priceId": null,
     "minAmount": null,
     "assetType": "ERC20",
@@ -4726,9 +4754,9 @@
     "multiChainAsset": null,
     "hasValue": true
   },
-  "ethereum-ERC20-FTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
+  "ethereum-ERC20-WFTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
     "originChain": "ethereum",
-    "slug": "ethereum-ERC20-FTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+    "slug": "ethereum-ERC20-WFTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
     "name": "Wrapped Fantom",
     "symbol": "WFTM",
     "decimals": 18,
