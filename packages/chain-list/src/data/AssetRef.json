@@ -205,7 +205,7 @@
     "path": "XCM"
   },
   "moonbeam-LOCAL-xciBTC___interlay-LOCAL-iBTC": {
-    "srcAsset": "moonbeam-LOCAL-xcINTR",
+    "srcAsset": "moonbeam-LOCAL-xciBTC",
     "destAsset": "interlay-LOCAL-iBTC",
     "srcChain": "moonbeam",
     "destChain": "interlay",
@@ -286,6 +286,48 @@
     "destAsset": "karura-LOCAL-NEER",
     "srcChain": "pioneer",
     "destChain": "karura",
+    "path": "XCM"
+  },
+  "bifrost-NATIVE-BNC___karura-LOCAL-BNC": {
+    "srcAsset": "bifrost-NATIVE-BNC",
+    "destAsset": "karura-LOCAL-BNC",
+    "srcChain": "bifrost",
+    "destChain": "karura",
+    "path": "XCM"
+  },
+  "bifrost-NATIVE-BNC___moonriver-LOCAL-xcBNC": {
+    "srcAsset": "bifrost-NATIVE-BNC",
+    "destAsset": "moonriver-LOCAL-xcBNC",
+    "srcChain": "bifrost",
+    "destChain": "moonriver",
+    "path": "XCM"
+  },
+  "interlay-LOCAL-iBTC___moonbeam-LOCAL-xciBTC": {
+    "srcAsset": "interlay-LOCAL-iBTC",
+    "destAsset": "moonbeam-LOCAL-xciBTC",
+    "srcChain": "interlay",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "interlay-NATIVE-INTR___moonbeam-LOCAL-xcINTR": {
+    "srcAsset": "interlay-NATIVE-INTR",
+    "destAsset": "moonbeam-LOCAL-xcINTR",
+    "srcChain": "interlay",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "shiden-LOCAL-KSM___kusama-NATIVE-KSM": {
+    "srcAsset": "shiden-LOCAL-KSM",
+    "destAsset": "kusama-NATIVE-KSM",
+    "srcChain": "shiden",
+    "destChain": "kusama",
+    "path": "XCM"
+  },
+  "bifrost-LOCAL-KSM___kusama-NATIVE-KSM": {
+    "srcAsset": "bifrost-LOCAL-KSM",
+    "destAsset": "kusama-NATIVE-KSM",
+    "srcChain": "bifrost",
+    "destChain": "kusama",
     "path": "XCM"
   }
 }
