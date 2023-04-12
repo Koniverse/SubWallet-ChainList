@@ -61,6 +61,54 @@
     },
     "evmInfo": null
   },
+  "ethereum": {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Cloudflare": "https://cloudflare-eth.com",
+      "BlastApi": "https://eth-mainnet.public.blastapi.io",
+      "Infura": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 1,
+      "blockExplorer": "https://etherscan.io",
+      "symbol": "ETH",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://etherscan.io"
+    }
+  },
+  "binance": {
+    "slug": "binance",
+    "name": "Binance Smart Chain",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Binance": "https://bsc-dataseed.binance.org/",
+      "Defibit": "https://bsc-dataseed1.defibit.io/",
+      "Ninicoin": "https://bsc-dataseed1.ninicoin.io/",
+      "Nodereal": "https://bsc.nodereal.io/"
+    },
+    "isTestnet": false,
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 56,
+      "blockExplorer": "https://bscscan.com",
+      "symbol": "BNB",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ]
+    }
+  },
   "moonbeam": {
     "slug": "moonbeam",
     "name": "Moonbeam",
@@ -102,87 +150,58 @@
       "abiExplorer": "https://api-moonbeam.moonscan.io/api?module=contract&action=getabi"
     }
   },
-  "acala": {
-    "slug": "acala",
-    "name": "Acala",
+  "pioneer": {
+    "slug": "pioneer",
+    "name": "Pioneer Network",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "OnFinality": "wss://pioneer.api.onfinality.io/public-w s"
+    },
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
-      "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
-      "Acala Foundation 2": "wss://acala-rpc-2.aca-api.network/ws",
-      "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
-      "Polkawallet 0": "wss://acala.polkawallet.io",
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
-      "Dwellir": "wss://acala-rpc.dwellir.com"
-    },
     "substrateInfo": {
-      "paraId": 2000,
-      "relaySlug": "polkadot",
-      "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-      "addressPrefix": 10,
-      "crowdloanUrl": "https://distribution.acala.network/",
+      "paraId": 2096,
+      "relaySlug": "kusama",
+      "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+      "addressPrefix": 268,
+      "crowdloanUrl": "https://ksmcrowdloan.bit.country/",
       "chainType": "PARACHAIN",
-      "blockExplorer": "https://acala.subscan.io/",
-      "symbol": "ACA",
-      "existentialDeposit": "100000000000",
-      "decimals": 12,
+      "blockExplorer": "https://pioneer.subscan.io/",
+      "symbol": "NEER",
+      "existentialDeposit": "100000000000000000",
+      "decimals": 18,
       "hasNativeNft": true,
-      "supportStaking": false,
-      "supportSmartContract": null
-    }
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null
   },
-  "alephTest": {
-    "slug": "alephTest",
-    "name": "Aleph Zero Testnet",
-    "isTestnet": true,
+  "aleph": {
+    "slug": "aleph",
+    "name": "Aleph Zero",
     "chainStatus": "ACTIVE",
     "providers": {
-      "Aleph Zero Foundation": "wss://ws.test.azero.dev"
+      "Aleph Zero Foundation": "wss://ws.azero.dev"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
-      "genesisHash": "0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5",
+      "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
       "addressPrefix": 42,
-      "crowdloanUrl": null,
+      "crowdloanUrl": "https://contribute.alephzero.org/",
       "chainType": "RELAYCHAIN",
-      "blockExplorer": null,
-      "symbol": "TZERO",
+      "symbol": "AZERO",
       "existentialDeposit": "500",
       "decimals": 12,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": [
         "PSP34",
         "PSP22"
       ],
-      "supportStaking": true
+      "blockExplorer": "https://alephzero.subscan.io/"
     },
     "evmInfo": null
-  },
-  "ethereum": {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Cloudflare": "https://cloudflare-eth.com",
-      "BlastApi": "https://eth-mainnet.public.blastapi.io",
-      "Infura": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8"
-    },
-    "substrateInfo": null,
-    "evmInfo": {
-      "evmChainId": 1,
-      "blockExplorer": "https://etherscan.io",
-      "symbol": "ETH",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": "https://etherscan.io"
-    }
   },
   "astar": {
     "slug": "astar",
@@ -243,6 +262,93 @@
       ],
       "abiExplorer": null
     }
+  },
+  "statemint": {
+    "slug": "statemint",
+    "name": "Statemint",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Parity": "wss://statemint-rpc.polkadot.io",
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
+      "Dwellir": "wss://statemint-rpc.dwellir .com",
+      "PinkNode": "wss://public-rpc.pinknode.io/statemint",
+      "RadiumBlock": "wss://statemint.public.curie.radiumblock.xyz/ws",
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
+    },
+    "isTestnet": false,
+    "substrateInfo": {
+      "paraId": 1000,
+      "relaySlug": "polkadot",
+      "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://statemint.subscan.io/",
+      "symbol": "DOT",
+      "existentialDeposit": "1000000000",
+      "decimals": 10,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null
+  },
+  "acala": {
+    "slug": "acala",
+    "name": "Acala",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
+      "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
+      "Acala Foundation 2": "wss://acala-rpc-2.aca-api.network/ws",
+      "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
+      "Polkawallet 0": "wss://acala.polkawallet.io",
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
+      "Dwellir": "wss://acala-rpc.dwellir.com"
+    },
+    "substrateInfo": {
+      "paraId": 2000,
+      "relaySlug": "polkadot",
+      "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+      "addressPrefix": 10,
+      "crowdloanUrl": "https://distribution.acala.network/",
+      "chainType": "PARACHAIN",
+      "blockExplorer": "https://acala.subscan.io/",
+      "symbol": "ACA",
+      "existentialDeposit": "100000000000",
+      "decimals": 12,
+      "hasNativeNft": true,
+      "supportStaking": false,
+      "supportSmartContract": null
+    }
+  },
+  "alephTest": {
+    "slug": "alephTest",
+    "name": "Aleph Zero Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Aleph Zero Foundation": "wss://ws.test.azero.dev"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5",
+      "addressPrefix": 42,
+      "crowdloanUrl": null,
+      "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
+      "symbol": "TZERO",
+      "existentialDeposit": "500",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportSmartContract": [
+        "PSP34",
+        "PSP22"
+      ],
+      "supportStaking": true
+    },
+    "evmInfo": null
   },
   "shiden": {
     "slug": "shiden",
@@ -352,6 +458,30 @@
       ],
       "abiExplorer": null
     }
+  },
+  "aventus": {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Aventus": "wss://public-rpc.mainnet.aventus.io"
+    },
+    "isTestnet": false,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "symbol": "AVT",
+      "existentialDeposit": "0",
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null
   },
   "westend": {
     "slug": "westend",
@@ -643,7 +773,7 @@
       "existentialDeposit": "10000000000",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null
     },
     "evmInfo": null
@@ -772,60 +902,6 @@
       "abiExplorer": "https://blockexplorer.bobabase.boba.network"
     }
   },
-  "statemint": {
-    "slug": "statemint",
-    "name": "Statemint",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Parity": "wss://statemint-rpc.polkadot.io",
-      "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
-      "Dwellir": "wss://statemint-rpc.dwellir .com",
-      "PinkNode": "wss://public-rpc.pinknode.io/statemint",
-      "RadiumBlock": "wss://statemint.public.curie.radiumblock.xyz/ws",
-      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
-    },
-    "isTestnet": false,
-    "substrateInfo": {
-      "paraId": 1000,
-      "relaySlug": "polkadot",
-      "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-      "addressPrefix": 0,
-      "chainType": "PARACHAIN",
-      "blockExplorer": "https://statemint.subscan.io/",
-      "symbol": "DOT",
-      "existentialDeposit": "1000000000",
-      "decimals": 10,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
-    },
-    "evmInfo": null
-  },
-  "pioneer": {
-    "slug": "pioneer",
-    "name": "Pioneer Network",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "OnFinality": "wss://pioneer.api.onfinality.io/public-w s"
-    },
-    "isTestnet": false,
-    "substrateInfo": {
-      "paraId": 2096,
-      "relaySlug": "kusama",
-      "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-      "addressPrefix": 268,
-      "crowdloanUrl": "https://ksmcrowdloan.bit.country/",
-      "chainType": "PARACHAIN",
-      "blockExplorer": "https://pioneer.subscan.io/",
-      "symbol": "NEER",
-      "existentialDeposit": "100000000000000000",
-      "decimals": 18,
-      "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
-    },
-    "evmInfo": null
-  },
   "ethereum_goerli": {
     "slug": "ethereum_goerli",
     "name": "Ethereum Testnet (Goerli)",
@@ -840,30 +916,6 @@
       "evmChainId": 1,
       "blockExplorer": "https://goerli.etherscan.io",
       "symbol": "GoerliETH",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ]
-    }
-  },
-  "binance": {
-    "slug": "binance",
-    "name": "Binance Smart Chain",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Binance": "https://bsc-dataseed.binance.org/",
-      "Defibit": "https://bsc-dataseed1.defibit.io/",
-      "Ninicoin": "https://bsc-dataseed1.ninicoin.io/",
-      "Nodereal": "https://bsc.nodereal.io/"
-    },
-    "isTestnet": false,
-    "substrateInfo": null,
-    "evmInfo": {
-      "evmChainId": 56,
-      "blockExplorer": "https://bscscan.com",
-      "symbol": "BNB",
       "decimals": 18,
       "existentialDeposit": "0",
       "supportSmartContract": [
@@ -1220,34 +1272,6 @@
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null
-    },
-    "evmInfo": null
-  },
-  "aleph": {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Aleph Zero Foundation": "wss://ws.azero.dev"
-    },
-    "isTestnet": false,
-    "substrateInfo": {
-      "paraId": null,
-      "relaySlug": null,
-      "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
-      "addressPrefix": 42,
-      "crowdloanUrl": "https://contribute.alephzero.org/",
-      "chainType": "RELAYCHAIN",
-      "symbol": "AZERO",
-      "existentialDeposit": "500",
-      "decimals": 12,
-      "supportStaking": true,
-      "hasNativeNft": false,
-      "supportSmartContract": [
-        "PSP34",
-        "PSP22"
-      ],
-      "blockExplorer": "https://alephzero.subscan.io/"
     },
     "evmInfo": null
   },
@@ -3721,30 +3745,6 @@
       "symbol": "JOY",
       "existentialDeposit": "266666560",
       "decimals": 10,
-      "supportStaking": false,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
-    },
-    "evmInfo": null
-  },
-  "aventus": {
-    "slug": "aventus",
-    "name": "Aventus Polkadot",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Aventus": "wss://public-rpc.mainnet.aventus.io"
-    },
-    "isTestnet": false,
-    "substrateInfo": {
-      "paraId": null,
-      "relaySlug": null,
-      "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
-      "addressPrefix": 42,
-      "chainType": "PARACHAIN",
-      "symbol": "AVT",
-      "existentialDeposit": "0",
-      "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
       "supportSmartContract": null,
