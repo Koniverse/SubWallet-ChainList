@@ -155,7 +155,7 @@
     "name": "Pioneer Network",
     "chainStatus": "ACTIVE",
     "providers": {
-      "OnFinality": "wss://pioneer.api.onfinality.io/public-w s"
+      "OnFinality": "wss://pioneer.api.onfinality.io/public-ws"
     },
     "isTestnet": false,
     "substrateInfo": {

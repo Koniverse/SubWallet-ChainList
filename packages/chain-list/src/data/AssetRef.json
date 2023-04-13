@@ -63,6 +63,7 @@
     "destChain": "bifrost",
     "path": "XCM"
   },
+
   "statemint-NATIVE-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "statemint-NATIVE-DOT",
     "destAsset": "polkadot-NATIVE-DOT",
@@ -91,6 +92,7 @@
     "destChain": "astarEvm",
     "path": "XCM"
   },
+
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
     "destAsset": "moonbeam-LOCAL-xcACA",
@@ -134,62 +136,6 @@
     "path": "XCM"
   },
 
-  "karura-NATIVE-KAR___moonriver-LOCAL-xcKAR": {
-    "srcAsset": "karura-NATIVE-KAR",
-    "destAsset": "moonriver-LOCAL-xcKAR",
-    "srcChain": "karura",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
-  "karura-LOCAL-aUSD___shiden-LOCAL-aUSD": {
-    "srcAsset": "karura-LOCAL-aUSD",
-    "destAsset": "shiden-LOCAL-aUSD",
-    "srcChain": "karura",
-    "destChain": "shiden",
-    "path": "XCM"
-  },
-  "karura-LOCAL-aUSD___shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000": {
-    "srcAsset": "karura-LOCAL-aUSD",
-    "destAsset": "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000",
-    "srcChain": "karura",
-    "destChain": "shidenEvm",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "karura",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "karura-LOCAL-aUSD___bifrost-LOCAL-kUSD": {
-    "srcAsset": "karura-LOCAL-aUSD",
-    "destAsset": "bifrost-LOCAL-kUSD",
-    "srcChain": "karura",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "karura-LOCAL-BNC___bifrost-NATIVE-BNC": {
-    "srcAsset": "karura-LOCAL-BNC",
-    "destAsset": "bifrost-NATIVE-BNC",
-    "srcChain": "karura",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "karura-NATIVE-KAR___bifrost-LOCAL-KAR": {
-    "srcAsset": "karura-NATIVE-KAR",
-    "destAsset": "bifrost-LOCAL-KAR",
-    "srcChain": "karura",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "karura-LOCAL-NEER___pioneer-NATIVE-NEER": {
-    "srcAsset": "karura-LOCAL-NEER",
-    "destAsset": "pioneer-NATIVE-NEER",
-    "srcChain": "karura",
-    "destChain": "pioneer",
-    "path": "XCM"
-  },
   "moonbeam-LOCAL-xcaUSD___acala-LOCAL-aUSD": {
     "srcAsset": "moonbeam-LOCAL-xcaUSD",
     "destAsset": "acala-LOCAL-aUSD",
@@ -218,41 +164,7 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
-  "moonriver-LOCAL-xcaUSD___karura-LOCAL-aUSD": {
-    "srcAsset": "moonriver-LOCAL-xcaUSD",
-    "destAsset": "karura-LOCAL-aUSD",
-    "srcChain": "moonriver",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKINT___kintsugi-NATIVE-KINT": {
-    "srcAsset": "moonriver-LOCAL-xcKINT",
-    "destAsset": "kintsugi-NATIVE-KINT",
-    "srcChain": "moonriver",
-    "destChain": "kintsugi",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xckBTC___kintsugi-LOCAL-kBTC": {
-    "srcAsset": "moonriver-LOCAL-xckBTC",
-    "destAsset": "kintsugi-LOCAL-kBTC",
-    "srcChain": "moonriver",
-    "destChain": "kintsugi",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___kusama-NATIVE-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "moonriver",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcBNC___bifrost-NATIVE-BNC": {
-    "srcAsset": "moonriver-LOCAL-xcBNC",
-    "destAsset": "bifrost-NATIVE-BNC",
-    "srcChain": "moonriver",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
+
   "astar-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "astar-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -281,6 +193,7 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
+
   "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
     "srcAsset": "pioneer-NATIVE-NEER",
     "destAsset": "karura-LOCAL-NEER",
@@ -288,20 +201,7 @@
     "destChain": "karura",
     "path": "XCM"
   },
-  "bifrost-NATIVE-BNC___karura-LOCAL-BNC": {
-    "srcAsset": "bifrost-NATIVE-BNC",
-    "destAsset": "karura-LOCAL-BNC",
-    "srcChain": "bifrost",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "bifrost-NATIVE-BNC___moonriver-LOCAL-xcBNC": {
-    "srcAsset": "bifrost-NATIVE-BNC",
-    "destAsset": "moonriver-LOCAL-xcBNC",
-    "srcChain": "bifrost",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
+
   "interlay-LOCAL-iBTC___moonbeam-LOCAL-xciBTC": {
     "srcAsset": "interlay-LOCAL-iBTC",
     "destAsset": "moonbeam-LOCAL-xciBTC",
@@ -314,20 +214,6 @@
     "destAsset": "moonbeam-LOCAL-xcINTR",
     "srcChain": "interlay",
     "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "shiden",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "bifrost-LOCAL-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "bifrost",
-    "destChain": "kusama",
     "path": "XCM"
   }
 }
