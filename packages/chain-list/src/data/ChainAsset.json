@@ -25,6 +25,32 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true
   },
+  "ethereum-NATIVE-ETH": {
+    "originChain": "ethereum",
+    "slug": "ethereum-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true
+  },
+  "binance-NATIVE-BNB": {
+    "originChain": "binance",
+    "slug": "binance-NATIVE-BNB",
+    "name": "Binance Smart Chain",
+    "symbol": "BNB",
+    "decimals": 18,
+    "priceId": "binancecoin",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "BNB-Binance",
+    "hasValue": true
+  },
   "moonbeam-NATIVE-GLMR": {
     "originChain": "moonbeam",
     "slug": "moonbeam-NATIVE-GLMR",
@@ -36,6 +62,76 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "GLMR-Moonbeam",
+    "hasValue": true
+  },
+  "pioneer-NATIVE-NEER": {
+    "originChain": "pioneer",
+    "slug": "pioneer-NATIVE-NEER",
+    "name": "Pioneer Network",
+    "symbol": "NEER",
+    "decimals": 18,
+    "priceId": "metaverse-network-pioneer",
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "multilocation": {
+        "NativeToken": 0
+      }
+    },
+    "multiChainAsset": "NEER-Pioneer",
+    "hasValue": true
+  },
+  "aleph-NATIVE-AZERO": {
+    "originChain": "aleph",
+    "slug": "aleph-NATIVE-AZERO",
+    "name": "Aleph Zero",
+    "symbol": "AZERO",
+    "decimals": 12,
+    "priceId": "aleph-zero",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
+  },
+  "astar-NATIVE-ASTR": {
+    "originChain": "astar",
+    "slug": "astar-NATIVE-ASTR",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": "Here"
+        }
+      }
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true
+  },
+  "statemint-NATIVE-DOT": {
+    "originChain": "statemint",
+    "slug": "statemint-NATIVE-DOT",
+    "name": "Statemint",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": "Here"
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
     "hasValue": true
   },
   "acala-NATIVE-ACA": {
@@ -292,19 +388,6 @@
     "multiChainAsset": null,
     "hasValue": true
   },
-  "ethereum-NATIVE-ETH": {
-    "originChain": "ethereum",
-    "slug": "ethereum-NATIVE-ETH",
-    "name": "Ethereum",
-    "symbol": "ETH",
-    "decimals": 18,
-    "priceId": "ethereum",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true
-  },
   "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
     "originChain": "ethereum",
     "slug": "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -318,26 +401,6 @@
       "contractAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     },
     "multiChainAsset": "WETH-WrappedEther",
-    "hasValue": true
-  },
-  "astar-NATIVE-ASTR": {
-    "originChain": "astar",
-    "slug": "astar-NATIVE-ASTR",
-    "name": "Astar",
-    "symbol": "ASTR",
-    "decimals": 18,
-    "priceId": "astar",
-    "minAmount": "1000000",
-    "assetType": "NATIVE",
-    "metadata": {
-      "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": "Here"
-        }
-      }
-    },
-    "multiChainAsset": "ASTR-Astar",
     "hasValue": true
   },
   "astar-LOCAL-DOT": {
@@ -718,43 +781,6 @@
     "multiChainAsset": "SDN-Shiden",
     "hasValue": true
   },
-  "statemint-NATIVE-DOT": {
-    "originChain": "statemint",
-    "slug": "statemint-NATIVE-DOT",
-    "name": "Statemint",
-    "symbol": "DOT",
-    "decimals": 10,
-    "priceId": "polkadot",
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": {
-      "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": "Here"
-        }
-      }
-    },
-    "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
-  },
-  "pioneer-NATIVE-NEER": {
-    "originChain": "pioneer",
-    "slug": "pioneer-NATIVE-NEER",
-    "name": "Pioneer Network",
-    "symbol": "NEER",
-    "decimals": 18,
-    "priceId": "metaverse-network-pioneer",
-    "minAmount": "100000000000000000",
-    "assetType": "NATIVE",
-    "metadata": {
-      "multilocation": {
-        "NativeToken": 0
-      }
-    },
-    "multiChainAsset": "NEER-Pioneer",
-    "hasValue": true
-  },
   "pioneer-LOCAL-BIT": {
     "originChain": "pioneer",
     "slug": "pioneer-LOCAL-BIT",
@@ -784,19 +810,6 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false
-  },
-  "binance-NATIVE-BNB": {
-    "originChain": "binance",
-    "slug": "binance-NATIVE-BNB",
-    "name": "Binance Smart Chain",
-    "symbol": "BNB",
-    "decimals": 18,
-    "priceId": "binancecoin",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "BNB-Binance",
-    "hasValue": true
   },
   "binance_test-NATIVE-BNB": {
     "originChain": "binance_test",
@@ -1051,19 +1064,6 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false
-  },
-  "aleph-NATIVE-AZERO": {
-    "originChain": "aleph",
-    "slug": "aleph-NATIVE-AZERO",
-    "name": "Aleph Zero",
-    "symbol": "AZERO",
-    "decimals": 12,
-    "priceId": "aleph-zero",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true
   },
   "rmrk-NATIVE-UNIT": {
     "originChain": "rmrk",
