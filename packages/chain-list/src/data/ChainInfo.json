@@ -322,7 +322,6 @@
       "supportSmartContract": null
     }
   },
-
   "polygon": {
     "slug": "polygon",
     "name": "Polygon",
@@ -415,7 +414,6 @@
       "abiExplorer": "https://tomoscan.i"
     }
   },
-
   "alephTest": {
     "slug": "alephTest",
     "name": "Aleph Zero Testnet",
@@ -2475,6 +2473,31 @@
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://explorer.subspace.network/#/gemini-3c",
+      "symbol": "tSSC",
+      "existentialDeposit": "500",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null
+  },
+  "subspace_gemini_3d": {
+    "slug": "subspace_gemini_3d",
+    "name": "Subspace Gemini 3d",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Europe 0": "wss://eu-0.gemini-3d.subspace.network/ws",
+      "Europe 1": "wss://eu-1.gemini-3d.subspace.network/ws"
+    },
+    "isTestnet": true,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x7f489750cfe91e17fc19b42a5acaba41d1975cedd3440075d4a4b4171ad0ac20",
+      "addressPrefix": 2254,
+      "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://explorer.subspace.network/#/gemini-3d",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
