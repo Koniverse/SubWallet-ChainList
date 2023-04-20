@@ -2607,7 +2607,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "42259045809535163221576417993425387648",
+      "assetId": "340282366920938463463374607431768211455",
       "assetType": "ForeignAsset",
       "multilocation": {
         "Concrete": {
@@ -3066,74 +3066,6 @@
     "hasValue": true,
     "multiChainAsset": null
   },
-  "moonbase-LOCAL-xcUNIT": {
-    "originChain": "moonbase",
-    "slug": "moonbase-LOCAL-xcUNIT",
-    "name": "xcUNIT",
-    "decimals": 12,
-    "symbol": "xcUNIT",
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "42259045809535163221576417993425387648",
-      "assetType": "ForeignAsset",
-      "contractAddress": "0xFFFFFFFF1fcacbd218edc0eba20fc2308c778080"
-    },
-    "hasValue": false,
-    "multiChainAsset": null
-  },
-  "moonbase-LOCAL-xcKAR": {
-    "originChain": "moonbase",
-    "slug": "moonbase-LOCAL-xcKAR",
-    "name": "xcKarura",
-    "decimals": 12,
-    "symbol": "xcKAR",
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "10810581592933651521121702237638664357",
-      "assetType": "ForeignAsset",
-      "contractAddress": "0xFFFFFFFF8220ad2e6e157f26ed8bd22a336a0a5"
-    },
-    "hasValue": false,
-    "multiChainAsset": null
-  },
-  "moonbase-LOCAL-XCKINT": {
-    "originChain": "moonbase",
-    "slug": "moonbase-LOCAL-XCKINT",
-    "name": "xcKintsugi",
-    "decimals": 12,
-    "symbol": "XCKINT",
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "52837329483626033197882584414163773570",
-      "assetType": "ForeignAsset",
-      "contractAddress": "0xFFFFFFFF27c019790dfbee7cb70f5996671b2882"
-    },
-    "hasValue": false,
-    "multiChainAsset": null
-  },
-  "moonbase-LOCAL-xcBNC": {
-    "originChain": "moonbase",
-    "slug": "moonbase-LOCAL-xcBNC",
-    "name": "BNC",
-    "decimals": 12,
-    "symbol": "xcBNC",
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "319623561105283008236062145480775032445",
-      "assetType": "ForeignAsset",
-      "contractAddress": "0xFFFFFFFFf075423be54811ecb478e911f22dde7d"
-    },
-    "hasValue": false,
-    "multiChainAsset": null
-  },
   "moonbase-ERC20-MFR-0xc2bFd8e028b342F0537aDC2bF310821c807c1312": {
     "originChain": "moonbase",
     "slug": "moonbase-ERC20-MFR-0xc2bFd8e028b342F0537aDC2bF310821c807c1312",
@@ -3478,7 +3410,7 @@
       "assetType": "ForeignAsset"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": "KSM-Kusama"
   },
   "shiden-LOCAL-MOVR": {
     "originChain": "shiden",
