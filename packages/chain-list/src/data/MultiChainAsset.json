@@ -254,5 +254,29 @@
     "symbol": "WBTC",
     "priceId": "wrapped-bitcoin",
     "hasValue": true
+  },
+  "MATIC-Polygon": {
+    "slug": "MATIC-Polygon",
+    "originChainAsset": "polygon-NATIVE-MATIC",
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "priceId": "matic-network",
+    "hasValue": true
+  },
+  "ARB-ArbitrumOne": {
+    "slug": "ARB-ArbitrumOne",
+    "originChainAsset": "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "name": "Arbitrum One",
+    "symbol": "ARB",
+    "priceId": "arbitrum",
+    "hasValue": true
+  },
+  "OP-Optimism": {
+    "slug": "OP-Optimism",
+    "originChainAsset": "optimism-ERC20-OP-0x4200000000000000000000000000000000000042",
+    "name": "Optimism",
+    "symbol": "OP",
+    "priceId": "optimism",
+    "hasValue": true
   }
 }

@@ -322,6 +322,100 @@
       "supportSmartContract": null
     }
   },
+
+  "polygon": {
+    "slug": "polygon",
+    "name": "Polygon",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Llamarpc": "https://polygon.llamarpc.com",
+      "BlastApi": "https://polygon-mainnet.public.blastapi.io",
+      "BorPublicNode": "https://polygon-bor.publicnode.com"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 137,
+      "blockExplorer": "https://polygonscan.com",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://polygonscan.com"
+    }
+  },
+  "arbitrum_one": {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+      "BlastApi": "https://arbitrum-one.public.blastapi.io"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 42161,
+      "blockExplorer": "https://arbiscan.io",
+      "symbol": "ETH",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://arbiscan.io"
+    }
+  },
+  "optimism": {
+    "slug": "optimism",
+    "name": "Optimism",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Optimism": "https://mainnet.optimism.io",
+      "BlastApi": "https://optimism-mainnet.public.blastapi.io"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 10,
+      "blockExplorer": "https://optimistic.etherscan.io",
+      "symbol": "ETH",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://optimistic.etherscan.io"
+    }
+  },
+  "tomochain": {
+    "slug": "tomochain",
+    "name": "TomoChain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "TomoChain": "https://rpc.tomochain.com"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 88,
+      "blockExplorer": "https://tomoscan.io",
+      "symbol": "TOMO",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://tomoscan.i"
+    }
+  },
+
   "alephTest": {
     "slug": "alephTest",
     "name": "Aleph Zero Testnet",
