@@ -13,7 +13,7 @@ Object.entries(AssetMap).forEach(([slug, asset]) => {
   }
 
   if (!ChainMap[asset.originChain]) {
-    console.warn('Notfound:', slug, asset.originChain, asset.symbol);
+    console.warn('Not found:', slug, asset.originChain, asset.symbol);
   }
 });
 
@@ -22,7 +22,7 @@ Object.entries(ChainMap).forEach(([slug, chain]) => {
     const nativeTokenSlug = `${slug}-NATIVE-${chain.substrateInfo.symbol}`;
 
     if (!AssetMap[nativeTokenSlug]) {
-      console.warn('Notfound native token:', slug, nativeTokenSlug);
+      console.warn('Not found native token:', slug, nativeTokenSlug);
     }
   }
 
@@ -30,7 +30,7 @@ Object.entries(ChainMap).forEach(([slug, chain]) => {
     const nativeTokenSlug = `${slug}-NATIVE-${chain.evmInfo.symbol}`;
 
     if (!AssetMap[nativeTokenSlug]) {
-      console.warn('Notfound native token:', slug, nativeTokenSlug);
+      console.warn('Not found native token:', slug, nativeTokenSlug);
     }
   }
 });
