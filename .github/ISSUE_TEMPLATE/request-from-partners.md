@@ -1,7 +1,7 @@
 ---
 name: Request from partners
 about: Create an issue to integrate with SubWallet-Chain
-title: ''
+title: "[Chain][Project (optional)][Asset symbol (optional)] "
 labels: integration, requested-by-partner
 assignees: NamPhamc99, Sokol142196
 
@@ -33,7 +33,12 @@ Please tag @RyanDinh8 or @Mabel-Nguyen if you want to discuss business
 - Is it available on other blockchains?
 - Metadata of the asset (symbol, decimals, smart contract address, on-chain metadata like assetId,...)
 - Logo of the token
-*Note: if you want to add a smart contract asset, then you would need to provide proof that your project is active and there are users/holders*
+- Is your asset transferable?
+
+Note: 
+- If you want to add a smart contract asset, then you would need to provide proof that your project is active and there are users/holders
+- Make sure your logo follow this styling: https://www.figma.com/file/PxPvXw5woBernBu3BtwxkX/Polkadot-Project-Logo?node-id=13-2096&t=dwcwfywiIfHXXiBv-0
+
 
 **If you want to integrate a project, you would need to provide**
 - Name about the project
@@ -42,3 +47,5 @@ Please tag @RyanDinh8 or @Mabel-Nguyen if you want to discuss business
 
 **Documents and references**
 Please attach all sources of the information you provided above
+
+**Take a look at https://github.com/Koniverse/SubWallet-Chain/blob/master/CONTRIBUTING.md**
