@@ -46,3 +46,6 @@ We have provided an *issue template*, so you can easily fill in the necessary in
      - For smart contract asset, please also add contract address at the end `ORIGIN_CHAIN-ASSET_TYPE-ASSET_SYMBOL_CONTRACT_ADDRESS`. Ex: `ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7`
      - Native/local token example: `polkadot-NATIVE-DOT`, `moonbeam-LOCAL-xcDOT`
    - Multichain asset: `SYMBOL-ASSET_NAME` (just need to make sure that it's unique)
+5. Logo styling guide
+   - The minimum size is 160px x 160px
+   - Follow [this link](https://www.figma.com/file/PxPvXw5woBernBu3BtwxkX/Polkadot-Project-Logo?node-id=13-2096&t=dwcwfywiIfHXXiBv-0)
