@@ -101,3 +101,5 @@ erDiagram
 - **Multichain asset**: a high-level abstraction representation of an asset across many blockchains, it might have an on-chain origin or not
 - **Asset reference**: showing path in which an asset can be converted to another
 - **Project**: products for end-user building upon a blockchain, can be a dApp, a media team,...
+
+**Please refer to [this guide](https://github.com/Koniverse/SubWallet-Chain/blob/master/CONTRIBUTING.md) to start contributing to the project**
