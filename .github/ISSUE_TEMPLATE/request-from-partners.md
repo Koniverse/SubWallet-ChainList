@@ -1,12 +1,14 @@
 ---
-name: "[Blockchain] [Your project name (optional)] [Asset symbol (optional)] A short
-  description of your issue "
+name: Request from partners
 about: Create an issue to integrate with SubWallet-Chain
 title: ''
 labels: integration, requested-by-partner
 assignees: NamPhamc99, Sokol142196
 
 ---
+
+** Please name the issue with this format**
+[Blockchain] [Your project name (optional)] [Asset symbol (optional)] A short description of your issue 
 
 **If this is your team first time integrating, the following information is required**
 - A short introduction about your project/ your team
