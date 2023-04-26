@@ -1,12 +1,15 @@
-** Please name the issue/PR with this format**
+** Please name the issue/PR after this format**
 [Blockchain] [Your project name (optional)] [Asset symbol (optional)] A short description of your issue
 
-**If this is your team first time integrating, the following information is required**
+**If this is your first time integrating, the following information is required**
 - A short introduction about your project/ your team
-- Basic information about your team
+- Basic information about your team (as transparent as possible)
 - Whitepaper (if you have one)
 - Social media links (telegram, discord, website, linkedin,...)
 - Any other useful material so we can get to know you better
+- An email (and element channel if you have one)
+- Github
+- Any grant information you can provide (W3F Grants, Substrate Builders Program,...) (optional)
 
 Please tag @RyanDinh8 or @Mabel-Nguyen if you want to discuss business
 
@@ -30,13 +33,7 @@ Note:
 - If you want to add a smart contract asset, then you would need to provide proof that your project is active and there are users/holders
 - Make sure your logo follow this styling: https://www.figma.com/file/PxPvXw5woBernBu3BtwxkX/Polkadot-Project-Logo?node-id=13-2096&t=dwcwfywiIfHXXiBv-0
 
-
-**If you want to integrate a project, you would need to provide**
-- Name about the project
-- A short, concise description about your project
-- Social media links (discord, telegram, website, twitter,...)
-
 **Documents and references:**
 Please attach all sources of the information you provided above
 
-**Take a look at https://github.com/Koniverse/SubWallet-Chain/blob/master/CONTRIBUTING.md**
+**Please take a look at https://github.com/Koniverse/SubWallet-Chain/blob/master/CONTRIBUTING.md**
