@@ -5200,5 +5200,18 @@
     },
     "multiChainAsset": null,
     "hasValue": true
+  },
+  "vara_network-NATIVE-VARA": {
+    "originChain": "vara_network",
+    "slug": "vara_network-NATIVE-VARA",
+    "name": "Vara",
+    "symbol": "VARA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
   }
 }
