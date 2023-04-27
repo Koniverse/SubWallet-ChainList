@@ -5200,5 +5200,18 @@
     },
     "multiChainAsset": null,
     "hasValue": true
+  },
+  "snow_evm-NATIVE-ICZ": {
+    "originChain": "snow_evm",
+    "slug": "snow_evm-NATIVE-ICZ",
+    "name": "Snow",
+    "symbol": "ICZ",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true
   }
 }

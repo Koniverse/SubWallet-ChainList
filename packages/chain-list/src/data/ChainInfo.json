@@ -3892,5 +3892,27 @@
       "blockExplorer": null
     },
     "evmInfo": null
+  },
+  "snow_evm": {
+    "slug": "snow_evm",
+    "name": "Snow - EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Snow": "https://snow-rpc.icenetwork.io:9933"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 552,
+      "blockExplorer": null,
+      "symbol": "ICZ",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    }
   }
 }
