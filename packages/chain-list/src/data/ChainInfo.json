@@ -28,7 +28,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "polkadot.png"
   },
   "kusama": {
     "slug": "kusama",
@@ -59,7 +60,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kusama.png"
   },
   "ethereum": {
     "slug": "ethereum",
@@ -83,7 +85,8 @@
         "ERC721"
       ],
       "abiExplorer": "https://etherscan.io"
-    }
+    },
+    "icon": "ethereum.png"
   },
   "binance": {
     "slug": "binance",
@@ -107,7 +110,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "bnb.png"
   },
   "moonbeam": {
     "slug": "moonbeam",
@@ -148,7 +152,8 @@
         "ERC20"
       ],
       "abiExplorer": "https://api-moonbeam.moonscan.io/api?module=contract&action=getabi"
-    }
+    },
+    "icon": "moonbeam.png"
   },
   "pioneer": {
     "slug": "pioneer",
@@ -173,7 +178,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bit.country-pioneer.png"
   },
   "aleph": {
     "slug": "aleph",
@@ -201,7 +207,8 @@
       ],
       "blockExplorer": "https://alephzero.subscan.io/"
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "aleph-zero.png"
   },
   "astar": {
     "slug": "astar",
@@ -235,7 +242,8 @@
       ],
       "supportStaking": true
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "astar-network.png"
   },
   "astarEvm": {
     "slug": "astarEvm",
@@ -261,7 +269,8 @@
         "ERC721"
       ],
       "abiExplorer": null
-    }
+    },
+    "icon": "astar-network.png"
   },
   "statemint": {
     "slug": "statemint",
@@ -290,7 +299,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "statemine.png"
   },
   "acala": {
     "slug": "acala",
@@ -320,7 +330,8 @@
       "hasNativeNft": true,
       "supportStaking": false,
       "supportSmartContract": null
-    }
+    },
+    "icon": "acala.png"
   },
   "polygon": {
     "slug": "polygon",
@@ -344,7 +355,8 @@
         "ERC721"
       ],
       "abiExplorer": "https://polygonscan.com"
-    }
+    },
+    "icon": "polygon.png"
   },
   "arbitrum_one": {
     "slug": "arbitrum_one",
@@ -367,7 +379,8 @@
         "ERC721"
       ],
       "abiExplorer": "https://arbiscan.io"
-    }
+    },
+    "icon": "arbitrum.png"
   },
   "optimism": {
     "slug": "optimism",
@@ -390,7 +403,8 @@
         "ERC721"
       ],
       "abiExplorer": "https://optimistic.etherscan.io"
-    }
+    },
+    "icon": "optimism.png"
   },
   "tomochain": {
     "slug": "tomochain",
@@ -412,7 +426,8 @@
         "ERC721"
       ],
       "abiExplorer": "https://tomoscan.i"
-    }
+    },
+    "icon": "tomochain.png"
   },
   "alephTest": {
     "slug": "alephTest",
@@ -440,7 +455,8 @@
       ],
       "supportStaking": true
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "aleph-zero.png"
   },
   "shiden": {
     "slug": "shiden",
@@ -471,7 +487,8 @@
       ],
       "supportStaking": true
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "shiden.png"
   },
   "shidenEvm": {
     "slug": "shidenEvm",
@@ -496,7 +513,8 @@
         "ERC721"
       ],
       "abiExplorer": null
-    }
+    },
+    "icon": "shiden.png"
   },
   "shibuya": {
     "slug": "shibuya",
@@ -525,7 +543,8 @@
       ],
       "supportStaking": true
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "astar-network.png"
   },
   "shibuyaEvm": {
     "slug": "shibuyaEvm",
@@ -549,7 +568,8 @@
         "ERC721"
       ],
       "abiExplorer": null
-    }
+    },
+    "icon": "astar-network.png"
   },
   "aventus": {
     "slug": "aventus",
@@ -573,7 +593,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "westend": {
     "slug": "westend",
@@ -603,7 +624,8 @@
       "supportSmartContract": null,
       "supportStaking": true
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "westend.png"
   },
   "rococo": {
     "slug": "rococo",
@@ -635,7 +657,8 @@
       ],
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "rococo.png"
   },
   "bitcountry": {
     "slug": "bitcountry",
@@ -660,7 +683,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bit.country-continuum.png"
   },
   "equilibrium_parachain": {
     "slug": "equilibrium_parachain",
@@ -685,7 +709,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "equilibrium.png"
   },
   "moonbase": {
     "slug": "moonbase",
@@ -723,7 +748,8 @@
         "ERC20"
       ],
       "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
-    }
+    },
+    "icon": "moonbase.png"
   },
   "moonriver": {
     "slug": "moonriver",
@@ -764,7 +790,8 @@
         "ERC20"
       ],
       "abiExplorer": "https://api-moonriver.moonscan.io/api?module=contract&action=getabi"
-    }
+    },
+    "icon": "moonriver.png"
   },
   "turingStaging": {
     "slug": "turingStaging",
@@ -789,7 +816,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "turing": {
     "slug": "turing",
@@ -815,7 +843,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "turing-network.png"
   },
   "bifrost": {
     "slug": "bifrost",
@@ -842,7 +871,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bifrost-kusama.png"
   },
   "bifrost_dot": {
     "slug": "bifrost_dot",
@@ -868,7 +898,8 @@
       "supportStaking": false,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bifrost-kusama.png"
   },
   "bifrost_testnet": {
     "slug": "bifrost_testnet",
@@ -893,7 +924,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bifrost-kusama.png"
   },
   "calamari": {
     "slug": "calamari",
@@ -919,7 +951,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "calamarinetwork.png"
   },
   "amplitude": {
     "slug": "amplitude",
@@ -944,7 +977,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "amplitude.png"
   },
   "amplitude_test": {
     "slug": "amplitude_test",
@@ -969,7 +1003,8 @@
       "supportStaking": true,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "bobabase": {
     "slug": "bobabase",
@@ -992,7 +1027,8 @@
         "ERC721"
       ],
       "abiExplorer": "https://blockexplorer.bobabase.boba.network"
-    }
+    },
+    "icon": "boba-network.png"
   },
   "ethereum_goerli": {
     "slug": "ethereum_goerli",
@@ -1014,7 +1050,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "ethereum.png"
   },
   "binance_test": {
     "slug": "binance_test",
@@ -1036,7 +1073,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "bnb.png"
   },
   "parallel": {
     "slug": "parallel",
@@ -1062,7 +1100,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "parallel.png"
   },
   "clover": {
     "slug": "clover",
@@ -1088,7 +1127,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "clover.png"
   },
   "cloverEvm": {
     "slug": "cloverEvm",
@@ -1109,7 +1149,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "clover.png"
   },
   "hydradx_main": {
     "slug": "hydradx_main",
@@ -1135,7 +1176,8 @@
       "blockExplorer": "https://hydradx.subscan.io/",
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "hydradx.png"
   },
   "edgeware": {
     "slug": "edgeware",
@@ -1161,7 +1203,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "edgeware.png"
   },
   "centrifuge": {
     "slug": "centrifuge",
@@ -1187,7 +1230,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "centrifuge.png"
   },
   "interlay": {
     "slug": "interlay",
@@ -1212,7 +1256,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "interlay.png"
   },
   "nodle": {
     "slug": "nodle",
@@ -1239,7 +1284,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "nodle.png"
   },
   "darwinia": {
     "slug": "darwinia",
@@ -1264,7 +1310,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "darwinia.png"
   },
   "sora_ksm": {
     "slug": "sora_ksm",
@@ -1289,7 +1336,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "sora.png"
   },
   "odyssey": {
     "slug": "odyssey",
@@ -1314,7 +1362,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "odyssey.png"
   },
   "polkadex": {
     "slug": "polkadex",
@@ -1340,7 +1389,8 @@
       "hasNativeNft": false,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "polkadex.png"
   },
   "polkadexTest": {
     "slug": "polkadexTest",
@@ -1365,7 +1415,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "rmrk": {
     "slug": "rmrk",
@@ -1389,7 +1440,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "rmrk.png"
   },
   "dolphin": {
     "slug": "dolphin",
@@ -1412,7 +1464,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "dolphin.png"
   },
   "opal": {
     "slug": "opal",
@@ -1439,7 +1492,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "opal.png"
   },
   "efinity": {
     "slug": "efinity",
@@ -1465,7 +1519,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "efinity.png"
   },
   "composableFinance": {
     "slug": "composableFinance",
@@ -1490,7 +1545,8 @@
       "blockExplorer": "https://composable.subscan.io/",
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "composable-finance.png"
   },
   "phala": {
     "slug": "phala",
@@ -1516,7 +1572,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "phala-network.png"
   },
   "crust": {
     "slug": "crust",
@@ -1542,7 +1599,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "crust.png"
   },
   "statemine": {
     "slug": "statemine",
@@ -1571,7 +1629,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "statemine.png"
   },
   "karura": {
     "slug": "karura",
@@ -1602,7 +1661,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "karura.png"
   },
   "khala": {
     "slug": "khala",
@@ -1630,7 +1690,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "khala-network.png"
   },
   "kilt": {
     "slug": "kilt",
@@ -1657,7 +1718,8 @@
       "supportSmartContract": null,
       "blockExplorer": "https://spiritnet.subscan.io/"
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kilt.png"
   },
   "basilisk": {
     "slug": "basilisk",
@@ -1683,7 +1745,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "basilisk.png"
   },
   "altair": {
     "slug": "altair",
@@ -1709,7 +1772,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "altair.png"
   },
   "heiko": {
     "slug": "heiko",
@@ -1735,7 +1799,8 @@
       "blockExplorer": "https://parallel-heiko.subscan.io/",
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "heiko.png"
   },
   "kintsugi": {
     "slug": "kintsugi",
@@ -1760,7 +1825,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kintsugi.png"
   },
   "kintsugi_test": {
     "slug": "kintsugi_test",
@@ -1783,7 +1849,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kintsugi.png"
   },
   "picasso": {
     "slug": "picasso",
@@ -1808,7 +1875,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "picasso.png"
   },
   "quartz": {
     "slug": "quartz",
@@ -1835,7 +1903,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "quartz.png"
   },
   "unique_network": {
     "slug": "unique_network",
@@ -1861,7 +1930,8 @@
       "blockExplorer": "https://unique.subscan.io/",
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "unique-network.png"
   },
   "genshiro": {
     "slug": "genshiro",
@@ -1885,7 +1955,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "genshiro.png"
   },
   "genshiro_testnet": {
     "slug": "genshiro_testnet",
@@ -1904,12 +1975,12 @@
       "symbol": "TOKEN",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportSmartContract": [
-      ],
+      "supportSmartContract": [],
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "genshiro.png"
   },
   "subsocial_x": {
     "slug": "subsocial_x",
@@ -1934,7 +2005,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "subsocial.png"
   },
   "zeitgeist": {
     "slug": "zeitgeist",
@@ -1960,7 +2032,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "zeitgeist.png"
   },
   "sakura": {
     "slug": "sakura",
@@ -1985,7 +2058,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "sakura.png"
   },
   "shadow": {
     "slug": "shadow",
@@ -2010,7 +2084,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "crust-shadow.png"
   },
   "uniqueNft": {
     "slug": "uniqueNft",
@@ -2034,7 +2109,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "robonomics": {
     "slug": "robonomics",
@@ -2062,7 +2138,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "robonomics.png"
   },
   "integritee": {
     "slug": "integritee",
@@ -2088,7 +2165,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "integritee-kusama.png"
   },
   "integriteePolkadot": {
     "slug": "integriteePolkadot",
@@ -2113,7 +2191,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "integritee-kusama.png"
   },
   "crabParachain": {
     "slug": "crabParachain",
@@ -2150,7 +2229,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "crab-network.png"
   },
   "pangolin": {
     "slug": "pangolin",
@@ -2184,7 +2264,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "pangolin.png"
   },
   "chainx": {
     "slug": "chainx",
@@ -2208,7 +2289,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "chainx.png"
   },
   "acala_testnet": {
     "slug": "acala_testnet",
@@ -2232,7 +2314,8 @@
       "blockExplorer": "https://acala-testnet.subscan.io/",
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "acala.png"
   },
   "mangatax": {
     "slug": "mangatax",
@@ -2255,7 +2338,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "mangata-x.png"
   },
   "mangatax_para": {
     "slug": "mangatax_para",
@@ -2279,7 +2363,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "mangata-x.png"
   },
   "encointer": {
     "slug": "encointer",
@@ -2303,7 +2388,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "encointer.png"
   },
   "litmus": {
     "slug": "litmus",
@@ -2328,7 +2414,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "litmus.png"
   },
   "litentry": {
     "slug": "litentry",
@@ -2354,7 +2441,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "litentry.png"
   },
   "tinkernet": {
     "slug": "tinkernet",
@@ -2381,7 +2469,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "tinkernet-parachain.png"
   },
   "imbue_network": {
     "slug": "imbue_network",
@@ -2405,7 +2494,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "imbue-network.png"
   },
   "subspace_test": {
     "slug": "subspace_test",
@@ -2428,7 +2518,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "subspace.png"
   },
   "subspace_gemini_2a": {
     "slug": "subspace_gemini_2a",
@@ -2454,7 +2545,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "subspace.png"
   },
   "subspace_gemini_3c": {
     "slug": "subspace_gemini_3c",
@@ -2480,7 +2572,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "subspace.png"
   },
   "subspace_gemini_3d": {
     "slug": "subspace_gemini_3d",
@@ -2505,7 +2598,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "origintrail": {
     "slug": "origintrail",
@@ -2529,7 +2623,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "origintrail.png"
   },
   "dorafactory": {
     "slug": "dorafactory",
@@ -2553,7 +2648,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "dora-factory.png"
   },
   "bajun": {
     "slug": "bajun",
@@ -2579,7 +2675,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bajun-network.png"
   },
   "listen": {
     "slug": "listen",
@@ -2603,7 +2700,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "listen.png"
   },
   "kabocha": {
     "slug": "kabocha",
@@ -2627,7 +2725,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kabocha.png"
   },
   "gmdie": {
     "slug": "gmdie",
@@ -2653,7 +2752,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "gmdie.png"
   },
   "ternoa": {
     "slug": "ternoa",
@@ -2677,7 +2777,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "ternoa.png"
   },
   "tanganika": {
     "slug": "tanganika",
@@ -2700,7 +2801,8 @@
       "blockExplorer": "https://datahighway.subscan.io",
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "tanganika.png"
   },
   "pendulum": {
     "slug": "pendulum",
@@ -2723,7 +2825,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "pendulum.png"
   },
   "gear_testnet": {
     "slug": "gear_testnet",
@@ -2747,7 +2850,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "gear.png"
   },
   "snow": {
     "slug": "snow",
@@ -2771,7 +2875,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "snow-network.png"
   },
   "arctic_testnet": {
     "slug": "arctic_testnet",
@@ -2795,7 +2900,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "arctic.png"
   },
   "ternoa_alphanet": {
     "slug": "ternoa_alphanet",
@@ -2819,7 +2925,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "ternoa.png"
   },
   "calamari_test": {
     "slug": "calamari_test",
@@ -2843,7 +2950,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "boba": {
     "slug": "boba",
@@ -2865,7 +2973,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "boba-network.png"
   },
   "bobabeam": {
     "slug": "bobabeam",
@@ -2887,7 +2996,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "boba-network.png"
   },
   "kilt_peregrine": {
     "slug": "kilt_peregrine",
@@ -2911,7 +3021,8 @@
       "supportSmartContract": null,
       "blockExplorer": "https://kilt-testnet.subscan.io/"
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "xx_network": {
     "slug": "xx_network",
@@ -2936,7 +3047,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "xxnetwork.png"
   },
   "watr_network": {
     "slug": "watr_network",
@@ -2960,7 +3072,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "watr-protocol.png"
   },
   "watr_network_evm": {
     "slug": "watr_network_evm",
@@ -2980,7 +3093,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "watr-protocol.png"
   },
   "fusotao": {
     "slug": "fusotao",
@@ -3004,7 +3118,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "fusotao.png"
   },
   "discovol": {
     "slug": "discovol",
@@ -3028,7 +3143,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "discovol.png"
   },
   "discovol_testnet": {
     "slug": "discovol_testnet",
@@ -3052,7 +3168,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "discovol.png"
   },
   "atocha": {
     "slug": "atocha",
@@ -3076,7 +3193,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "atocha.png"
   },
   "myriad": {
     "slug": "myriad",
@@ -3100,7 +3218,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "myriad.png"
   },
   "deBio": {
     "slug": "deBio",
@@ -3124,7 +3243,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "dbio.png"
   },
   "barnacle": {
     "slug": "barnacle",
@@ -3147,7 +3267,8 @@
       "blockExplorer": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "barnacle.png"
   },
   "barnacle_evm": {
     "slug": "barnacle_evm",
@@ -3166,7 +3287,8 @@
         "ERC20",
         "ERC721"
       ]
-    }
+    },
+    "icon": "barnacle.png"
   },
   "collectives": {
     "slug": "collectives",
@@ -3190,7 +3312,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "collectives.png"
   },
   "ajunaPolkadot": {
     "slug": "ajunaPolkadot",
@@ -3215,7 +3338,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "ajuna-network.png"
   },
   "bitgreen": {
     "slug": "bitgreen",
@@ -3239,7 +3363,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "bitgreen.png"
   },
   "frequency": {
     "slug": "frequency",
@@ -3264,7 +3389,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "frequency.png"
   },
   "hashedNetwork": {
     "slug": "hashedNetwork",
@@ -3288,7 +3414,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "hashed.png"
   },
   "kapex": {
     "slug": "kapex",
@@ -3312,7 +3439,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kapex.png"
   },
   "kylinNetwork": {
     "slug": "kylinNetwork",
@@ -3335,7 +3463,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kylin.png"
   },
   "ipci": {
     "slug": "ipci",
@@ -3359,7 +3488,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "dao-ipci.png"
   },
   "kico": {
     "slug": "kico",
@@ -3383,7 +3513,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kico.png"
   },
   "luhnNetwork": {
     "slug": "luhnNetwork",
@@ -3406,7 +3537,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "luhn.png"
   },
   "pichiu": {
     "slug": "pichiu",
@@ -3431,7 +3563,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "pichiu.png"
   },
   "riodefi": {
     "slug": "riodefi",
@@ -3455,7 +3588,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "riodefi.png"
   },
   "automata": {
     "slug": "automata",
@@ -3480,7 +3614,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "automata-network.png"
   },
   "creditcoin": {
     "slug": "creditcoin",
@@ -3504,7 +3639,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "creditcoin.png"
   },
   "crownSterling": {
     "slug": "crownSterling",
@@ -3528,7 +3664,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "crownsterling.png"
   },
   "dockPosMainnet": {
     "slug": "dockPosMainnet",
@@ -3552,7 +3689,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "dockmainnet.png"
   },
   "kusari": {
     "slug": "kusari",
@@ -3576,7 +3714,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kusari.png"
   },
   "logion": {
     "slug": "logion",
@@ -3600,7 +3739,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "logion.png"
   },
   "neatcoin": {
     "slug": "neatcoin",
@@ -3624,7 +3764,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   },
   "nftmart": {
     "slug": "nftmart",
@@ -3648,7 +3789,8 @@
       "supportStaking": false,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "nftmart.png"
   },
   "polymesh": {
     "slug": "polymesh",
@@ -3672,7 +3814,8 @@
       "supportSmartContract": null,
       "supportStaking": false
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "polymesh.png"
   },
   "riochain": {
     "slug": "riochain",
@@ -3696,7 +3839,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "riochain.png"
   },
   "sherpax": {
     "slug": "sherpax",
@@ -3720,7 +3864,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "sherpax.png"
   },
   "sora_substrate": {
     "slug": "sora_substrate",
@@ -3747,7 +3892,8 @@
       "hasNativeNft": false,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "sora.png"
   },
   "swapdex": {
     "slug": "swapdex",
@@ -3771,7 +3917,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "swapdex.png"
   },
   "3dpass": {
     "slug": "3dpass",
@@ -3795,7 +3942,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "3dpass.png"
   },
   "alephSmartNet": {
     "slug": "alephSmartNet",
@@ -3819,7 +3967,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "aleph-zero.png"
   },
   "kulupu": {
     "slug": "kulupu",
@@ -3843,7 +3992,8 @@
       "hasNativeNft": false,
       "supportSmartContract": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "kulupu-network.png"
   },
   "joystream": {
     "slug": "joystream",
@@ -3867,7 +4017,8 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "joystream.png"
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
@@ -3891,6 +4042,7 @@
       "supportSmartContract": null,
       "blockExplorer": null
     },
-    "evmInfo": null
+    "evmInfo": null,
+    "icon": "default.png"
   }
 }

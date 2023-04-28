@@ -2613,7 +2613,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@subwallet/chain-list@workspace:packages/chain-list"
   dependencies:
-    "@json2csv/plainjs": ^6.1.3
     "@polkadot/dev": 0.67.167
     "@polkadot/util": ^10.2.1
     eventemitter3: ^4.0.7
@@ -10578,6 +10577,7 @@ __metadata:
     "@babel/core": ^7.18.13
     "@babel/register": ^7.18.9
     "@babel/runtime": ^7.18.9
+    "@json2csv/plainjs": ^6.1.3
     "@polkadot/dev": ^0.67.167
     "@types/jest": ^29.2.4
     copyfiles: ^2.4.1
@@ -10586,8 +10586,15 @@ __metadata:
     patch-package: ^6.4.7
     postinstall-postinstall: ^2.1.0
   bin:
+    export-assets: ./scripts/exports/export-assets.js
+    export-chains: ./scripts/exports/export-chains.js
+    export-xcm-channels: ./scripts/exports/export-xcm-channels.js
+    generate-logo-map: ./scripts/generators/generate-logo-map.js
     subwallet-ci-ghact-build: ./scripts/subwallet-ci-ghact-build.mjs
     subwallet-dev-build-ts: ./scripts/subwallet-dev-build-ts.mjs
+    validate-asset-refs: ./scripts/validations/validate-asset-refs.js
+    validate-chains: ./scripts/validations/validate-chains.js
+    validate-tokens: ./scripts/validations/validate-tokens.js
   languageName: unknown
   linkType: soft
 

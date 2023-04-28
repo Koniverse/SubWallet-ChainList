@@ -1,9 +1,11 @@
 // Copyright 2019-2022 @subwallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import _AssetLogoMap from '@subwallet/chain-list/data/AssetLogoMap.json';
 import _AssetRefMap from '@subwallet/chain-list/data/AssetRef.json';
 import _ChainAssetMap from '@subwallet/chain-list/data/ChainAsset.json';
 import _ChainInfoMap from '@subwallet/chain-list/data/ChainInfo.json';
+import _ChainLogoMap from '@subwallet/chain-list/data/ChainLogoMap.json';
 import _MultiChainAssetMap from '@subwallet/chain-list/data/MultiChainAsset.json';
 
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from './types';
@@ -12,6 +14,8 @@ export const ChainInfoMap = _ChainInfoMap as unknown as Record<string, _ChainInf
 export const ChainAssetMap = _ChainAssetMap as unknown as Record<string, _ChainAsset>;
 export const AssetRefMap = _AssetRefMap as unknown as Record<string, _AssetRef>;
 export const MultiChainAssetMap = _MultiChainAssetMap as unknown as Record<string, _MultiChainAsset>;
+export const AssetLogoMap = _AssetLogoMap as unknown as Record<string, string>;
+export const ChainLogoMap = _ChainLogoMap as unknown as Record<string, string>;
 
 export enum COMMON_CHAIN_SLUGS {
   POLKADOT = 'polkadot',
