@@ -1614,7 +1614,7 @@
       "Dwellir": "wss://khala-rpc.dwellir.com",
       "PinkNode": "wss://public-rpc.pinknode.io/khala"
     },
-    "isTestnet ": false,
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2004,
       "relaySlug": "kusama",
@@ -1965,7 +1965,7 @@
   "sakura": {
     "slug": "sakura",
     "name": "Sakura",
-    "chainStatus ": "ACTIVE",
+    "chainStatus": "ACTIVE",
     "providers": {
       "Clover": "wss://rpc.sakura.clover.finance"
     },
@@ -2497,7 +2497,7 @@
       "genesisHash": "0x7f489750cfe91e17fc19b42a5acaba41d1975cedd3440075d4a4b4171ad0ac20",
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
-      "blockExplorer": "https://explorer.subspace.network/#/gemini-3d",
+      "blockExplorer": null,
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
@@ -2510,7 +2510,7 @@
   "origintrail": {
     "slug": "origintrail",
     "name": "OriginTrail",
-    "chai nStatus": "ACTIVE",
+    "chainStatus": "ACTIVE",
     "providers": {
       "TraceLabs": "wss://parachain-rpc.origin-trail.network"
     },
@@ -3804,7 +3804,7 @@
     "providers": {
       "alephSmartNet": "wss://ws-smartnet.test.azero.dev"
     },
-    "isTestnet ": true,
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,

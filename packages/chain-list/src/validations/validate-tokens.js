@@ -48,6 +48,11 @@ Object.entries(ChainAssetMap).forEach(([assetSlug, chainAsset]) => {
     if (['ERC20', 'ERC721', 'PSP22', 'PSP34'].includes(chainAsset.assetType)) {
       if (!chainAsset.metadata.contractAddress) {
         console.error('Cannot find multi-chain asset: ', assetSlug);
+
+        if (['ERC20', 'ERC721'].includes(chainAsset.assetType)) {
+          const isDuplicated = Object.entries(ChainAssetMap).some(([, tokenInfo]) => chainAsset?.metadata?.contractAddress === tokenInfo?.metadata?.contractAddress);
+          isDuplicated && console.error('Asset existed: ', assetSlug);
+        }
       }
     }
 
