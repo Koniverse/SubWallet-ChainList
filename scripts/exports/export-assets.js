@@ -4,7 +4,7 @@ import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' a
 import AssetRefMap from '../../packages/chain-list/src/data/AssetRef.json' assert { type: "json" };
 
 import fs from "fs";
-import {LOGO_PATH} from "../../packages/chain-list/src/index.js";
+const LOGO_URL = 'https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo';
 
 const allAssets = [];
 
@@ -35,7 +35,7 @@ Object.values(ChainAssetMap).forEach((chainAsset) => {
     hasValue: chainAsset.hasValue,
     xcmDestination: getAssetRef(chainAsset),
     multiChainAsset: chainAsset.multiChainAsset,
-    icon: `${LOGO_PATH}/${chainAsset.icon}`
+    icon: `${LOGO_URL}/${chainAsset.icon}`
   });
 });
 

@@ -2,8 +2,8 @@ import { Parser } from '@json2csv/plainjs';
 import ChainInfoMap from '../../packages/chain-list/src/data/ChainInfo.json' assert { type: "json" };
 
 import fs from "fs";
-import {LOGO_PATH} from "../../packages/chain-list/src/index.js";
 
+const LOGO_URL = 'https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo';
 const allChains = [];
 const NOMINATION_POOL_CHAINS = ['polkadot', 'kusama', 'westend', 'alephTest', 'aleph'];
 
@@ -96,7 +96,7 @@ Object.values(ChainInfoMap).forEach((chainInfo) => {
     isTestnet: chainInfo.isTestnet,
     types: getChainTypes(chainInfo),
     specialFeatures: getSpecialFeatures(chainInfo),
-    icon: `${LOGO_PATH}/{${chainInfo.icon}`
+    icon: `${LOGO_URL}/${chainInfo.icon}`
   });
 });
 
