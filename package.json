@@ -10,10 +10,10 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "versions": {
-    "git": "0.1.1",
-    "npm": "0.1.1"
+    "git": "0.1.2",
+    "npm": "0.1.2"
   },
   "workspaces": [
     "packages/*"
@@ -55,7 +55,7 @@
     "@polkadot/dev": "^0.67.167",
     "@types/jest": "^29.2.4",
     "copyfiles": "^2.4.1",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0"
   },
