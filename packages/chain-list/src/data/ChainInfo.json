@@ -4044,5 +4044,30 @@
     },
     "evmInfo": null,
     "icon": "default.png"
+  },
+  "vara_network": {
+    "slug": "vara_network",
+    "name": "Vara Network",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Vara": "wss://rpc.vara-network.io"
+    },
+    "isTestnet": false,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xfe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
+      "addressPrefix": 137,
+      "chainType": "RELAYCHAIN",
+      "symbol": "VARA",
+      "existentialDeposit": "10000000000000",
+      "decimals": 12,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null,
+    "icon": "default.png"
   }
 }
