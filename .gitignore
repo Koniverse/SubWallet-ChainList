@@ -4,6 +4,7 @@ build-*/
 coverage/
 node_modules/
 tmp/
+exports/
 /import_map.json
 /mod.ts
 NOTES.md

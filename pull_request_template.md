@@ -13,6 +13,10 @@
 
 Please tag @RyanDinh8 or @Mabel-Nguyen if you want to discuss business
 
+**Related issues**
+
+Please list them here if there's any
+
 **If you want to integrate a chain, you would need to provide**
 - Name of the blockchain
 - Type of the blockchain (can be Substrate, EVM or both)
