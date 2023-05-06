@@ -7,6 +7,7 @@ module.exports = {
   ...base,
   ignorePatterns: [
     ...base.ignorePatterns,
+    "scripts/**/*.js",
     "i18next-scanner.config.js",
     "subwallet-*.mjs",
   ],

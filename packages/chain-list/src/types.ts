@@ -44,7 +44,8 @@ export interface _ChainInfo {
   isTestnet: boolean,
   providers: Record<string, string>,
   substrateInfo: _SubstrateInfo | null,
-  evmInfo: _EvmInfo | null
+  evmInfo: _EvmInfo | null,
+  icon: string
 }
 
 export interface _ChainAsset {
@@ -58,7 +59,8 @@ export interface _ChainAsset {
   assetType: _AssetType,
   metadata: Record<any, any> | null,
   multiChainAsset: string | null,
-  hasValue: boolean
+  hasValue: boolean,
+  icon: string
 }
 
 export interface _EvmInfo {

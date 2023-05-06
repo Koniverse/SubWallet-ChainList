@@ -10,20 +10,27 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.0.31",
+  "version": "0.1.2",
   "versions": {
-    "git": "0.0.31",
-    "npm": "0.0.31"
+    "git": "0.1.2",
+    "npm": "0.1.2"
   },
   "workspaces": [
     "packages/*"
   ],
   "bin": {
+    "export-assets": "./scripts/exports/export-assets.js",
+    "export-chains": "./scripts/exports/export-chains.js",
+    "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
+    "generate-logo-map": "./scripts/generators/generate-logo-map.js",
     "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
-    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs"
+    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
+    "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
+    "validate-chains": "./scripts/validations/validate-chains.js",
+    "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "subwallet-dev-build-ts",
+    "build": "yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
     "build:extra": "",
     "build:release": "subwallet-ci-ghact-build",
     "build:rollup": "polkadot-exec-rollup --config",
@@ -31,6 +38,7 @@
     "clean": "polkadot-dev-clean-build",
     "deno": "yarn polkadot-dev-deno-map && yarn build && deno check --import-map=import_map.json mod.ts",
     "deploy": "gh-pages --dist 'packages/chain-list/src/data' --branch 'gh-page'",
+    "export": "export-assets && export-chains && export-xcm-channels",
     "lint": "polkadot-dev-run-lint",
     "postinstall": "polkadot-dev-yarn-only && patch-package",
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
@@ -43,10 +51,11 @@
     "@babel/core": "^7.18.13",
     "@babel/register": "^7.18.9",
     "@babel/runtime": "^7.18.9",
+    "@json2csv/plainjs": "^6.1.3",
     "@polkadot/dev": "^0.67.167",
     "@types/jest": "^29.2.4",
     "copyfiles": "^2.4.1",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^5.0.0",
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0"
   },
