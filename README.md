@@ -102,4 +102,4 @@ erDiagram
 - **Asset reference**: showing path in which an asset can be converted to another
 - **Project**: products for end-user building upon a blockchain, can be a dApp, a media team,...
 
-**Please refer to [this guide](https://github.com/Koniverse/SubWallet-Chain/blob/master/CONTRIBUTING.md) to start contributing to the project**
+**Please refer to [this guide](https://github.com/Koniverse/SubWallet-ChainList/wiki/Start-contributing-to-the-project) to start contributing to the project**
