@@ -1,4 +1,5 @@
 {
+  "default": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/default.png",
   "polkadot": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/polkadot.png",
   "kusama": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/kusama.png",
   "ethereum": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/ethereum.png",
@@ -105,7 +106,6 @@
   "pendulum": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/pendulum.png",
   "gear_testnet": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/gear.png",
   "snow": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/snow-network.png",
-  "snow_evm": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/snow-network.png",
   "arctic_testnet": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/arctic.png",
   "ternoa_alphanet": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/ternoa.png",
   "calamari_test": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/default.png",
@@ -152,5 +152,7 @@
   "alephSmartNet": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/aleph-zero.png",
   "kulupu": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/kulupu-network.png",
   "joystream": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/joystream.png",
-  "aventus_testnet": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/default.png"
+  "aventus_testnet": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/default.png",
+  "vara_network": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/default.png",
+  "snow_evm": "https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo/snow-network.png"
 }

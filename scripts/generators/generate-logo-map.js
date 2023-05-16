@@ -5,7 +5,9 @@ import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' a
 const LOGO_URL = 'https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo';
 
 try {
-  const chainLogoMap = {};
+  const chainLogoMap = {
+    default: `${LOGO_URL}/default.png`
+  };
 
   Object.entries(ChainInfoMap).forEach(([slug, item]) => {
     chainLogoMap[slug] = `${LOGO_URL}/${item.icon}`;
@@ -17,7 +19,9 @@ try {
     console.log(`Update ${fileName} successfully`);
   });
 
-  const assetLogoMap = {};
+  const assetLogoMap = {
+    default: `${LOGO_URL}/default.png`
+  };
   Object.entries(ChainAssetMap).forEach(([slug, item]) => {
     if (item.symbol && !assetLogoMap[item.symbol.toLowerCase()] && item.icon) {
       assetLogoMap[item.symbol.toLowerCase()] = `${LOGO_URL}/${item.icon}`;
