@@ -10,7 +10,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "kusama-NATIVE-KSM": {
     "originChain": "kusama",
@@ -23,7 +24,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "KSM-Kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "ethereum-NATIVE-ETH": {
     "originChain": "ethereum",
@@ -36,7 +38,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "binance-NATIVE-BNB": {
     "originChain": "binance",
@@ -49,7 +52,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "BNB-Binance",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bnb.png"
   },
   "moonbeam-NATIVE-GLMR": {
     "originChain": "moonbeam",
@@ -62,7 +66,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "GLMR-Moonbeam",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "moonbeam.png"
   },
   "pioneer-NATIVE-NEER": {
     "originChain": "pioneer",
@@ -79,7 +84,8 @@
       }
     },
     "multiChainAsset": "NEER-Pioneer",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bit.country-pioneer.png"
   },
   "aleph-NATIVE-AZERO": {
     "originChain": "aleph",
@@ -92,7 +98,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "aleph-zero.png"
   },
   "astar-NATIVE-ASTR": {
     "originChain": "astar",
@@ -112,7 +119,8 @@
       }
     },
     "multiChainAsset": "ASTR-Astar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "astar-network.png"
   },
   "statemint-NATIVE-DOT": {
     "originChain": "statemint",
@@ -132,7 +140,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "acala-NATIVE-ACA": {
     "originChain": "acala",
@@ -154,7 +163,8 @@
       }
     },
     "multiChainAsset": "ACA-Acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "acala.png"
   },
   "polygon-NATIVE-MATIC": {
     "originChain": "polygon",
@@ -167,7 +177,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "MATIC-Polygon",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polygon.png"
   },
   "arbitrum_one-NATIVE-ETH": {
     "originChain": "arbitrum_one",
@@ -180,7 +191,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548": {
     "originChain": "arbitrum_one",
@@ -195,7 +207,8 @@
       "contractAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548"
     },
     "multiChainAsset": "ARB-ArbitrumOne",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "arbitrum.png"
   },
   "optimism-NATIVE-ETH": {
     "originChain": "optimism",
@@ -208,7 +221,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "optimism-ERC20-OP-0x4200000000000000000000000000000000000042": {
     "originChain": "optimism",
@@ -223,7 +237,8 @@
       "contractAddress": "0x4200000000000000000000000000000000000042"
     },
     "multiChainAsset": "OP-Optimism",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "optimism.png"
   },
   "tomochain-NATIVE-TOMO": {
     "originChain": "tomochain",
@@ -236,7 +251,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "tomochain.png"
   },
   "acala-LOCAL-DOT": {
     "originChain": "acala",
@@ -253,7 +269,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "acala-LOCAL-GLMR": {
     "originChain": "acala",
@@ -270,7 +287,8 @@
       }
     },
     "multiChainAsset": "GLMR-Moonbeam",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "moonbeam.png"
   },
   "acala-LOCAL-aUSD": {
     "originChain": "acala",
@@ -287,7 +305,8 @@
       }
     },
     "multiChainAsset": "aUSD-AcalaDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "acala-LOCAL-ASTR": {
     "originChain": "acala",
@@ -304,7 +323,8 @@
       }
     },
     "multiChainAsset": "ASTR-Astar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "astar-network.png"
   },
   "acala-LOCAL-LDOT": {
     "originChain": "acala",
@@ -321,7 +341,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "acala-LOCAL-LcDOT": {
     "originChain": "acala",
@@ -338,7 +359,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "acala-LOCAL-tDOT": {
     "originChain": "acala",
@@ -355,7 +377,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "tdot.png"
   },
   "alephTest-NATIVE-TZERO": {
     "originChain": "alephTest",
@@ -368,7 +391,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "aleph-zero.png"
   },
   "moonbeam-LOCAL-xcDOT": {
     "originChain": "moonbeam",
@@ -385,7 +409,8 @@
       "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "moonbeam-LOCAL-xcINTR": {
     "originChain": "moonbeam",
@@ -402,7 +427,8 @@
       "contractAddress": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab"
     },
     "multiChainAsset": "INTR-Interlay",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "interlay.png"
   },
   "moonbeam-LOCAL-xciBTC": {
     "originChain": "moonbeam",
@@ -419,7 +445,8 @@
       "contractAddress": "0xFFFFFfFf5AC1f9A51A93F5C527385edF7Fe98A52"
     },
     "multiChainAsset": "iBTC-interBTC",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ibtc.png"
   },
   "moonbeam-LOCAL-xcACA": {
     "originChain": "moonbeam",
@@ -436,7 +463,8 @@
       "contractAddress": "0xffffFFffa922Fef94566104a6e5A35a4fCDDAA9f"
     },
     "multiChainAsset": "ACA-Acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "acala.png"
   },
   "moonbeam-LOCAL-xcaUSD": {
     "originChain": "moonbeam",
@@ -453,7 +481,8 @@
       "contractAddress": "0xfFfFFFFF52C56A9257bB97f4B2b6F7B2D624ecda"
     },
     "multiChainAsset": "aUSD-AcalaDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-MFBB-0x02a6dec99b2ca768d638fcd87a96f6069f91287c": {
     "originChain": "moonbeam",
@@ -468,7 +497,8 @@
       "contractAddress": "0x02A6DeC99B2Ca768D638fcD87A96F6069F91287c"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
     "originChain": "ethereum",
@@ -483,7 +513,8 @@
       "contractAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     },
     "multiChainAsset": "WETH-WrappedEther",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "astar-LOCAL-DOT": {
     "originChain": "astar",
@@ -504,7 +535,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "astar-LOCAL-USDT": {
     "originChain": "astar",
@@ -537,7 +569,8 @@
       }
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "astarEvm-NATIVE-ASTR": {
     "originChain": "astarEvm",
@@ -550,7 +583,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "ASTR-Astar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "astar-network.png"
   },
   "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
     "originChain": "astarEvm",
@@ -565,7 +599,8 @@
       "contractAddress": "0xFFFFFFFF000000000000000000000001000007C0"
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "shibuya-NATIVE-SBY": {
     "originChain": "shibuya",
@@ -578,7 +613,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "astar-network.png"
   },
   "shibuyaEvm-NATIVE-SBY": {
     "originChain": "shibuyaEvm",
@@ -591,7 +627,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "astar-network.png"
   },
   "westend-NATIVE-WND": {
     "originChain": "westend",
@@ -604,7 +641,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "westend.png"
   },
   "rococo-NATIVE-ROC": {
     "originChain": "rococo",
@@ -617,7 +655,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "rococo.png"
   },
   "bitcountry-NATIVE-NUUM": {
     "originChain": "bitcountry",
@@ -630,7 +669,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "bit.country-continuum.png"
   },
   "bitcountry-LOCAL-BIT": {
     "originChain": "bitcountry",
@@ -647,7 +687,8 @@
       }
     },
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "bit.png"
   },
   "equilibrium_parachain-NATIVE-EQ": {
     "originChain": "equilibrium_parachain",
@@ -662,7 +703,8 @@
       "assetId": "25969"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "equilibrium.png"
   },
   "equilibrium_parachain-LOCAL-ACA": {
     "originChain": "equilibrium_parachain",
@@ -677,7 +719,8 @@
       "assetId": "6382433"
     },
     "multiChainAsset": "ACA-Acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "acala.png"
   },
   "equilibrium_parachain-LOCAL-DOT": {
     "originChain": "equilibrium_parachain",
@@ -692,7 +735,8 @@
       "assetId": "6582132"
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "moonbase-NATIVE-DEV": {
     "originChain": "moonbase",
@@ -705,7 +749,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "DEV-MoonbaseDev",
-    "hasValue": false
+    "hasValue": false,
+    "icon": "moonbase.png"
   },
   "moonriver-NATIVE-MOVR": {
     "originChain": "moonriver",
@@ -718,7 +763,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "MOVR-Moonriver",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "moonriver.png"
   },
   "turingStaging-NATIVE-TUR": {
     "originChain": "turingStaging",
@@ -731,7 +777,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "turing-network.png"
   },
   "turing-NATIVE-TUR": {
     "originChain": "turing",
@@ -744,7 +791,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "turing-network.png"
   },
   "bifrost-NATIVE-BNC": {
     "originChain": "bifrost",
@@ -757,7 +805,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "BNC-BifrostKusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bifrost-kusama.png"
   },
   "bifrost_dot-NATIVE-BNC": {
     "originChain": "bifrost_dot",
@@ -770,7 +819,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bifrost-kusama.png"
   },
   "bifrost_testnet-NATIVE-BNC": {
     "originChain": "bifrost_testnet",
@@ -783,7 +833,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "bifrost-kusama.png"
   },
   "calamari-NATIVE-KMA": {
     "originChain": "calamari",
@@ -796,7 +847,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "calamarinetwork.png"
   },
   "amplitude-NATIVE-AMPE": {
     "originChain": "amplitude",
@@ -809,7 +861,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "amplitude.png"
   },
   "amplitude_test-NATIVE-AMPE": {
     "originChain": "amplitude_test",
@@ -822,7 +875,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "amplitude.png"
   },
   "bobabase-NATIVE-BOBA": {
     "originChain": "bobabase",
@@ -835,7 +889,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "boba-network.png"
   },
   "shiden-NATIVE-SDN": {
     "originChain": "shiden",
@@ -848,7 +903,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "SDN-Shiden",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "shiden.png"
   },
   "shidenEvm-NATIVE-SDN": {
     "originChain": "shidenEvm",
@@ -861,7 +917,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "SDN-Shiden",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "shiden.png"
   },
   "pioneer-LOCAL-BIT": {
     "originChain": "pioneer",
@@ -878,7 +935,8 @@
       }
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bit.png"
   },
   "ethereum_goerli-NATIVE-GoerliETH": {
     "originChain": "ethereum_goerli",
@@ -891,7 +949,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "ethereum.png"
   },
   "binance_test-NATIVE-BNB": {
     "originChain": "binance_test",
@@ -904,7 +963,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "bnb.png"
   },
   "parallel-NATIVE-PARA": {
     "originChain": "parallel",
@@ -917,7 +977,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "PARA-Parallel",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "parallel.png"
   },
   "clover-NATIVE-CLV": {
     "originChain": "clover",
@@ -930,7 +991,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "clover.png"
   },
   "cloverEvm-NATIVE-CLV": {
     "originChain": "cloverEvm",
@@ -943,7 +1005,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "clover.png"
   },
   "hydradx_main-NATIVE-HDX": {
     "originChain": "hydradx_main",
@@ -956,7 +1019,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "hydradx.png"
   },
   "edgeware-NATIVE-EDG": {
     "originChain": "edgeware",
@@ -969,7 +1033,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "edgeware.png"
   },
   "centrifuge-NATIVE-CFG": {
     "originChain": "centrifuge",
@@ -982,7 +1047,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "centrifuge.png"
   },
   "interlay-NATIVE-INTR": {
     "originChain": "interlay",
@@ -999,7 +1065,8 @@
       }
     },
     "multiChainAsset": "INTR-Interlay",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "interlay.png"
   },
   "interlay-LOCAL-LDOT": {
     "originChain": "interlay",
@@ -1016,7 +1083,8 @@
       }
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "interlay-LOCAL-USDT": {
     "originChain": "interlay",
@@ -1033,7 +1101,8 @@
       }
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "interlay-LOCAL-iBTC": {
     "originChain": "interlay",
@@ -1050,7 +1119,8 @@
       }
     },
     "multiChainAsset": "iBTC-interBTC",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ibtc.png"
   },
   "kintsugi-LOCAL-kBTC": {
     "originChain": "kintsugi",
@@ -1067,7 +1137,8 @@
       }
     },
     "multiChainAsset": "kBTC-KintsugiWrappedBTC",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kbtc.png"
   },
   "nodle-NATIVE-NODL": {
     "originChain": "nodle",
@@ -1080,7 +1151,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "nodle.png"
   },
   "darwinia2-NATIVE-RING": {
     "originChain": "darwinia",
@@ -1093,7 +1165,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "darwinia.png"
   },
   "sora_ksm-NATIVE-XOR": {
     "originChain": "sora_ksm",
@@ -1106,7 +1179,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "sora.png"
   },
   "odyssey-NATIVE-ARES": {
     "originChain": "odyssey",
@@ -1119,7 +1193,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "odyssey.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -1132,7 +1207,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadex.png"
   },
   "polkadexTest-NATIVE-Unit": {
     "originChain": "polkadexTest",
@@ -1145,7 +1221,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "riodefi.png"
   },
   "rmrk-NATIVE-UNIT": {
     "originChain": "rmrk",
@@ -1158,7 +1235,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "riodefi.png"
   },
   "dolphin-NATIVE-DOL": {
     "originChain": "dolphin",
@@ -1171,7 +1249,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "dolphin.png"
   },
   "opal-NATIVE-OPL": {
     "originChain": "opal",
@@ -1184,7 +1263,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "opal.png"
   },
   "efinity-NATIVE-EFI": {
     "originChain": "efinity",
@@ -1197,7 +1277,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "efinity.png"
   },
   "composableFinance-NATIVE-LAYR": {
     "originChain": "composableFinance",
@@ -1210,7 +1291,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "composable-finance.png"
   },
   "phala-NATIVE-PHA": {
     "originChain": "phala",
@@ -1223,7 +1305,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "PHA-Phala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "khala-network.png"
   },
   "crust-NATIVE-CRU": {
     "originChain": "crust",
@@ -1236,7 +1319,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "CRU-Crust",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "crust.png"
   },
   "statemine-NATIVE-KSM": {
     "originChain": "statemine",
@@ -1256,7 +1340,8 @@
       }
     },
     "multiChainAsset": "KSM-Kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "karura-NATIVE-KAR": {
     "originChain": "karura",
@@ -1278,7 +1363,8 @@
       }
     },
     "multiChainAsset": "KAR-Karura",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "karura.png"
   },
   "khala-NATIVE-PHA": {
     "originChain": "khala",
@@ -1291,7 +1377,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "khala-network.png"
   },
   "kilt-NATIVE-KILT": {
     "originChain": "kilt",
@@ -1304,7 +1391,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kilt.png"
   },
   "basilisk-NATIVE-BSX": {
     "originChain": "basilisk",
@@ -1317,7 +1405,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "basilisk.png"
   },
   "altair-NATIVE-AIR": {
     "originChain": "altair",
@@ -1330,7 +1419,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "altair.png"
   },
   "heiko-NATIVE-HKO": {
     "originChain": "heiko",
@@ -1343,7 +1433,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "heiko.png"
   },
   "kintsugi-NATIVE-KINT": {
     "originChain": "kintsugi",
@@ -1360,7 +1451,8 @@
       }
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kintsugi.png"
   },
   "kintsugi-LOCAL-USDT": {
     "originChain": "kintsugi",
@@ -1377,7 +1469,8 @@
       }
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "kintsugi_test-NATIVE-KINT": {
     "originChain": "kintsugi_test",
@@ -1394,7 +1487,8 @@
       }
     },
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "kintsugi.png"
   },
   "picasso-NATIVE-PICA": {
     "originChain": "picasso",
@@ -1407,7 +1501,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "picasso.png"
   },
   "quartz-NATIVE-QTZ": {
     "originChain": "quartz",
@@ -1420,7 +1515,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "quartz.png"
   },
   "unique_network-NATIVE-UNQ": {
     "originChain": "unique_network",
@@ -1433,7 +1529,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "unique-network.png"
   },
   "genshiro-NATIVE-GENS": {
     "originChain": "genshiro",
@@ -1448,7 +1545,8 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "genshiro.png"
   },
   "genshiro-LOCAL-DOT": {
     "originChain": "genshiro",
@@ -1463,7 +1561,8 @@
       "assetId": "6582132"
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "genshiro_testnet-NATIVE-TOKEN": {
     "originChain": "genshiro_testnet",
@@ -1478,7 +1577,8 @@
       "assetId": "1734700659"
     },
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "genshiro.png"
   },
   "subsocial_x-NATIVE-SUB": {
     "originChain": "subsocial_x",
@@ -1491,7 +1591,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "subsocial.png"
   },
   "zeitgeist-NATIVE-ZTG": {
     "originChain": "zeitgeist",
@@ -1504,7 +1605,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "zeitgeist.png"
   },
   "sakura-NATIVE-SKU": {
     "originChain": "sakura",
@@ -1517,7 +1619,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "sakura.png"
   },
   "shadow-NATIVE-CSM": {
     "originChain": "shadow",
@@ -1530,7 +1633,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "crust-shadow.png"
   },
   "uniqueNft-NATIVE-UNQ": {
     "originChain": "uniqueNft",
@@ -1543,7 +1647,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "unique-network.png"
   },
   "robonomics-NATIVE-XRT": {
     "originChain": "robonomics",
@@ -1556,7 +1661,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "robonomics.png"
   },
   "integritee-NATIVE-TEER": {
     "originChain": "integritee",
@@ -1569,7 +1675,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "integritee-kusama.png"
   },
   "integriteePolkadot-NATIVE-TEER": {
     "originChain": "integriteePolkadot",
@@ -1582,7 +1689,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "integritee-kusama.png"
   },
   "crabParachain-NATIVE-CRAB": {
     "originChain": "crabParachain",
@@ -1595,7 +1703,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "crab-network.png"
   },
   "crabParachain-LOCAL-CKTON": {
     "originChain": "crabParachain",
@@ -1610,7 +1719,8 @@
       "assetId": "1026"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "pangolin-NATIVE-PRING": {
     "originChain": "pangolin",
@@ -1623,7 +1733,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "pangolin.png"
   },
   "pangolin-LOCAL-CKTON": {
     "originChain": "pangolin",
@@ -1638,7 +1749,8 @@
       "assetId": "1026"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "chainx-NATIVE-PCX": {
     "originChain": "chainx",
@@ -1651,7 +1763,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "chainx.png"
   },
   "acala_testnet-NATIVE-ACA": {
     "originChain": "acala_testnet",
@@ -1664,7 +1777,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "acala.png"
   },
   "mangatax-NATIVE-MGAT": {
     "originChain": "mangatax",
@@ -1677,7 +1791,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "mangata-x.png"
   },
   "mangatax_para-NATIVE-MGX": {
     "originChain": "mangatax_para",
@@ -1690,7 +1805,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "mangata-x.png"
   },
   "encointer-NATIVE-KSM": {
     "originChain": "encointer",
@@ -1703,7 +1819,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "litmus-NATIVE-LIT": {
     "originChain": "litmus",
@@ -1716,7 +1833,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "litentry.png"
   },
   "litentry-NATIVE-LIT": {
     "originChain": "litentry",
@@ -1729,7 +1847,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "litentry.png"
   },
   "tinkernet-NATIVE-TNKR": {
     "originChain": "tinkernet",
@@ -1742,7 +1861,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "tinkernet-parachain.png"
   },
   "imbue_network-NATIVE-IMBU": {
     "originChain": "imbue_network",
@@ -1755,7 +1875,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "imbue-network.png"
   },
   "subspace_test-NATIVE-tSSC": {
     "originChain": "subspace_test",
@@ -1768,7 +1889,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "subspace.png"
   },
   "subspace_gemini_2a-NATIVE-tSSC": {
     "originChain": "subspace_gemini_2a",
@@ -1781,7 +1903,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "subspace.png"
   },
   "subspace_gemini_3c-NATIVE-tSSC": {
     "originChain": "subspace_gemini_3c",
@@ -1794,7 +1917,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "subspace.png"
   },
   "subspace_gemini_3d-NATIVE-tSSC": {
     "originChain": "subspace_gemini_3d",
@@ -1807,7 +1931,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "subspace.png"
   },
   "origintrail-NATIVE-OTP": {
     "originChain": "origintrail",
@@ -1820,7 +1945,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "origintrail.png"
   },
   "dorafactory-NATIVE-DORA": {
     "originChain": "dorafactory",
@@ -1833,7 +1959,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "dora-factory.png"
   },
   "bajun-NATIVE-BAJU": {
     "originChain": "bajun",
@@ -1846,7 +1973,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bajun-network.png"
   },
   "listen-NATIVE-LT": {
     "originChain": "listen",
@@ -1859,7 +1987,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "listen.png"
   },
   "kabocha-NATIVE-KAB": {
     "originChain": "kabocha",
@@ -1872,7 +2001,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kabocha.png"
   },
   "gmdie-NATIVE-FREN": {
     "originChain": "gmdie",
@@ -1885,7 +2015,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "gmdie.png"
   },
   "ternoa-NATIVE-CAPS": {
     "originChain": "ternoa",
@@ -1898,7 +2029,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ternoa.png"
   },
   "tanganika-NATIVE-DHX": {
     "originChain": "tanganika",
@@ -1911,7 +2043,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "tanganika.png"
   },
   "pendulum-NATIVE-PEN": {
     "originChain": "pendulum",
@@ -1924,7 +2057,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "pendulum.png"
   },
   "gear_testnet-NATIVE-Unit": {
     "originChain": "gear_testnet",
@@ -1937,7 +2071,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "riodefi.png"
   },
   "snow-NATIVE-ICZ": {
     "originChain": "snow",
@@ -1950,7 +2085,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "snow-network.png"
   },
   "arctic_testnet-NATIVE-ICZ": {
     "originChain": "arctic_testnet",
@@ -1963,7 +2099,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "snow-network.png"
   },
   "ternoa_alphanet-NATIVE-CAPS": {
     "originChain": "ternoa_alphanet",
@@ -1976,7 +2113,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "ternoa.png"
   },
   "calamari_test-NATIVE-KMA": {
     "originChain": "calamari_test",
@@ -1989,7 +2127,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "calamarinetwork.png"
   },
   "boba-NATIVE-ETH": {
     "originChain": "boba",
@@ -2002,7 +2141,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "bobabeam-NATIVE-BOBA": {
     "originChain": "bobabeam",
@@ -2015,7 +2155,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "BOBA-BobaToken",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "boba-network.png"
   },
   "kilt_peregrine-NATIVE-PILT": {
     "originChain": "kilt_peregrine",
@@ -2028,7 +2169,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "default.png"
   },
   "xx_network-NATIVE-xx": {
     "originChain": "xx_network",
@@ -2041,7 +2183,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "xxnetwork.png"
   },
   "watr_network-NATIVE-WATRD": {
     "originChain": "watr_network",
@@ -2054,7 +2197,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "watr-protocol.png"
   },
   "watr_network_evm-NATIVE-WATRD": {
     "originChain": "watr_network_evm",
@@ -2067,7 +2211,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "watr-protocol.png"
   },
   "fusotao-NATIVE-TAO": {
     "originChain": "fusotao",
@@ -2080,7 +2225,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "fusotao.png"
   },
   "discovol-NATIVE-DISC": {
     "originChain": "discovol",
@@ -2093,7 +2239,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "discovol.png"
   },
   "discovol_testnet-NATIVE-DISC": {
     "originChain": "discovol_testnet",
@@ -2106,7 +2253,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "discovol.png"
   },
   "atocha-NATIVE-ATO": {
     "originChain": "atocha",
@@ -2119,7 +2267,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "atocha.png"
   },
   "myriad-NATIVE-MYRIA": {
     "originChain": "myriad",
@@ -2132,7 +2281,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "myriad.png"
   },
   "deBio-NATIVE-DBIO": {
     "originChain": "deBio",
@@ -2145,7 +2295,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "dbio.png"
   },
   "barnacle-NATIVE-BAR": {
     "originChain": "barnacle",
@@ -2158,7 +2309,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "barnacle.png"
   },
   "barnacle_evm-NATIVE-EBAR": {
     "originChain": "barnacle_evm",
@@ -2171,7 +2323,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "barnacle.png"
   },
   "collectives-NATIVE-DOT": {
     "originChain": "collectives",
@@ -2184,7 +2337,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "ajunaPolkadot-NATIVE-AJUN": {
     "originChain": "ajunaPolkadot",
@@ -2197,7 +2351,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ajuna-network.png"
   },
   "bitgreen-NATIVE-BBB": {
     "originChain": "bitgreen",
@@ -2210,7 +2365,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bitgreen.png"
   },
   "frequency-NATIVE-FRQCY": {
     "originChain": "frequency",
@@ -2223,7 +2379,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "frequency.png"
   },
   "hashedNetwork-NATIVE-HASH": {
     "originChain": "hashedNetwork",
@@ -2236,7 +2393,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "hashed.png"
   },
   "kapex-NATIVE-KPX": {
     "originChain": "kapex",
@@ -2249,7 +2407,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kapex.png"
   },
   "kylinNetwork-NATIVE-KYL": {
     "originChain": "kylinNetwork",
@@ -2262,7 +2421,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "kylin.png"
   },
   "ipci-NATIVE-MITO": {
     "originChain": "ipci",
@@ -2275,7 +2435,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "dao-ipci.png"
   },
   "kico-NATIVE-KICO": {
     "originChain": "kico",
@@ -2288,7 +2449,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kico.png"
   },
   "luhnNetwork-NATIVE-LUHN": {
     "originChain": "luhnNetwork",
@@ -2301,7 +2463,8 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "minAmount": "0"
+    "minAmount": "0",
+    "icon": "luhn.png"
   },
   "pichiu-NATIVE-PCHU": {
     "originChain": "pichiu",
@@ -2314,7 +2477,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "pichiu.png"
   },
   "riodefi-NATIVE-UNIT": {
     "originChain": "riodefi",
@@ -2327,7 +2491,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "riodefi.png"
   },
   "automata-NATIVE-ATA": {
     "originChain": "automata",
@@ -2340,7 +2505,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "automata-network.png"
   },
   "creditcoin-NATIVE-CTC": {
     "originChain": "creditcoin",
@@ -2353,7 +2519,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "creditcoin.png"
   },
   "crownSterling-NATIVE-CSOV": {
     "originChain": "crownSterling",
@@ -2366,7 +2533,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "crownsterling.png"
   },
   "dockPosMainnet-NATIVE-DOCK": {
     "originChain": "dockPosMainnet",
@@ -2379,7 +2547,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "dockmainnet.png"
   },
   "kusari-NATIVE-KSI": {
     "originChain": "kusari",
@@ -2392,7 +2561,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusari.png"
   },
   "logion-NATIVE-LGNT": {
     "originChain": "logion",
@@ -2405,7 +2575,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "logion.png"
   },
   "neatcoin-NATIVE-NEAT": {
     "originChain": "neatcoin",
@@ -2418,7 +2589,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "nftmart-NATIVE-NMT": {
     "originChain": "nftmart",
@@ -2431,7 +2603,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "nftmart.png"
   },
   "polymesh-NATIVE-POLYX": {
     "originChain": "polymesh",
@@ -2444,7 +2617,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polymesh.png"
   },
   "riochain-NATIVE-RFUEL": {
     "originChain": "riochain",
@@ -2457,7 +2631,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "riochain.png"
   },
   "sherpax-NATIVE-KSX": {
     "originChain": "sherpax",
@@ -2470,7 +2645,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "sherpax.png"
   },
   "sora_substrate-NATIVE-XOR": {
     "originChain": "sora_substrate",
@@ -2483,7 +2659,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "sora.png"
   },
   "swapdex-NATIVE-SDX": {
     "originChain": "swapdex",
@@ -2496,7 +2673,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "swapdex.png"
   },
   "3dpass-NATIVE-P3D": {
     "originChain": "3dpass",
@@ -2509,7 +2687,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "3dpass.png"
   },
   "alephSmartNet-NATIVE-SZERO": {
     "originChain": "alephSmartNet",
@@ -2522,7 +2701,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "aleph-zero.png"
   },
   "kulupu-NATIVE-KLP": {
     "originChain": "kulupu",
@@ -2535,7 +2715,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kulupu-network.png"
   },
   "joystream-NATIVE-JOY": {
     "originChain": "joystream",
@@ -2548,7 +2729,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "joystream.png"
   },
   "statemint-LOCAL-USDt": {
     "originChain": "statemint",
@@ -2578,7 +2760,8 @@
       }
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "moonriver-LOCAL-xcKSM": {
     "originChain": "moonriver",
@@ -2595,7 +2778,8 @@
       "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
     },
     "multiChainAsset": "KSM-Kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "shiden-LOCAL-KSM": {
     "originChain": "shiden",
@@ -2617,7 +2801,8 @@
       }
     },
     "multiChainAsset": "KSM-Kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "karura-LOCAL-KSM": {
     "originChain": "karura",
@@ -2634,7 +2819,8 @@
       }
     },
     "multiChainAsset": "KSM-Kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "karura-LOCAL-NEER": {
     "originChain": "karura",
@@ -2651,7 +2837,8 @@
       }
     },
     "multiChainAsset": "NEER-Pioneer",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bit.country-pioneer.png"
   },
   "karura-LOCAL-BNC": {
     "originChain": "karura",
@@ -2668,7 +2855,8 @@
       }
     },
     "multiChainAsset": "BNC-BifrostKusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bifrost-kusama.png"
   },
   "bifrost-LOCAL-KSM": {
     "originChain": "bifrost",
@@ -2685,7 +2873,8 @@
       }
     },
     "multiChainAsset": "KSM-Kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "moonbeam-LOCAL-xcUSDT": {
     "originChain": "moonbeam",
@@ -2702,7 +2891,8 @@
       "contractAddress": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d"
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "moonriver-LOCAL-xcaUSD": {
     "originChain": "moonriver",
@@ -2719,7 +2909,8 @@
       "contractAddress": "0xFfFffFFfa1B026a00FbAA67c86D5d1d5BF8D8228"
     },
     "multiChainAsset": "aUSD-KaruraDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonriver-LOCAL-xcKINT": {
     "originChain": "moonriver",
@@ -2736,7 +2927,8 @@
       "contractAddress": "0xfffFFFFF83F4f317d3cbF6EC6250AeC3697b3fF2"
     },
     "multiChainAsset": "KINT-Kintsugi",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kintsugi.png"
   },
   "moonriver-LOCAL-xckBTC": {
     "originChain": "moonriver",
@@ -2753,7 +2945,8 @@
       "contractAddress": "0xFFFfFfFfF6E528AD57184579beeE00c5d5e646F0"
     },
     "multiChainAsset": "kBTC-KintsugiWrappedBTC",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kbtc.png"
   },
   "moonriver-LOCAL-xcBNC": {
     "originChain": "moonriver",
@@ -2770,7 +2963,8 @@
       "contractAddress": "0xFFfFFfFFF075423be54811EcB478e911F22dDe7D"
     },
     "multiChainAsset": "BNC-BifrostKusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bifrost-kusama.png"
   },
   "astar-LOCAL-aUSD": {
     "originChain": "astar",
@@ -2800,7 +2994,8 @@
       }
     },
     "multiChainAsset": "aUSD-AcalaDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "astar-LOCAL-LDOT": {
     "originChain": "astar",
@@ -2815,7 +3010,8 @@
       "assetId": "18446744073709551618"
     },
     "multiChainAsset": "DOT-Polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "astar-LOCAL-ACA": {
     "originChain": "astar",
@@ -2830,7 +3026,8 @@
       "assetId": "18446744073709551616"
     },
     "multiChainAsset": "ACA-Acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "acala.png"
   },
   "astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001": {
     "originChain": "astarEvm",
@@ -2845,7 +3042,8 @@
       "contractAddress": "0xfFFFFfFF00000000000000010000000000000001"
     },
     "multiChainAsset": "aUSD-AcalaDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "moonriver-LOCAL-xcKAR": {
     "originChain": "moonriver",
@@ -2862,7 +3060,8 @@
       "contractAddress": "0xFfFFFFfF08220AD2E6e157f26eD8bD22A336A0A5"
     },
     "multiChainAsset": "KAR-Karura",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "karura.png"
   },
   "karura-LOCAL-aUSD": {
     "originChain": "karura",
@@ -2879,7 +3078,8 @@
       }
     },
     "multiChainAsset": "aUSD-KaruraDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "shiden-LOCAL-aUSD": {
     "originChain": "shiden",
@@ -2895,7 +3095,8 @@
       "assetType": "ForeignAsset"
     },
     "multiChainAsset": "aUSD-KaruraDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000": {
     "originChain": "shidenEvm",
@@ -2910,7 +3111,8 @@
       "contractAddress": "0xfFFfFFfF00000000000000010000000000000000"
     },
     "multiChainAsset": "aUSD-KaruraDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "bifrost-LOCAL-kUSD": {
     "originChain": "bifrost",
@@ -2927,7 +3129,8 @@
       }
     },
     "multiChainAsset": "aUSD-KaruraDollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "bifrost-LOCAL-KAR": {
     "originChain": "bifrost",
@@ -2944,7 +3147,8 @@
       }
     },
     "multiChainAsset": "KAR-Karura",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "karura.png"
   },
   "statemine-LOCAL-USDt": {
     "originChain": "statemine",
@@ -2959,7 +3163,8 @@
       "assetId": "1984"
     },
     "hasValue": true,
-    "multiChainAsset": "USDT-Tether"
+    "multiChainAsset": "USDT-Tether",
+    "icon": "usdt.png"
   },
   "statemine-LOCAL-USDC": {
     "originChain": "statemine",
@@ -2974,7 +3179,8 @@
       "assetId": "10"
     },
     "hasValue": true,
-    "multiChainAsset": "USDC-USDCoin"
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
   },
   "statemine-LOCAL-RMRK": {
     "originChain": "statemine",
@@ -2989,7 +3195,8 @@
       "assetId": "8"
     },
     "hasValue": true,
-    "multiChainAsset": "RMRK-RMRKApp"
+    "multiChainAsset": "RMRK-RMRKApp",
+    "icon": "default.png"
   },
   "statemine-LOCAL-ARIS": {
     "originChain": "statemine",
@@ -3004,7 +3211,8 @@
       "assetId": "16"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "aris.png"
   },
   "statemine-LOCAL-BILL": {
     "originChain": "statemine",
@@ -3019,7 +3227,8 @@
       "assetId": "223"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "bill.png"
   },
   "statemine-LOCAL-CHAOS": {
     "originChain": "statemine",
@@ -3034,7 +3243,8 @@
       "assetId": "69420"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "chaosdao.png"
   },
   "statemine-LOCAL-CHRWNA": {
     "originChain": "statemine",
@@ -3049,7 +3259,8 @@
       "assetId": "567"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "chrwna.png"
   },
   "statemine-LOCAL-BAILEGO": {
     "originChain": "statemine",
@@ -3064,7 +3275,8 @@
       "assetId": "88888"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "moonbase-ERC20-MFR-0xc2bFd8e028b342F0537aDC2bF310821c807c1312": {
     "originChain": "moonbase",
@@ -3079,7 +3291,8 @@
       "contractAddress": "0xc2bFd8e028b342F0537aDC2bF310821c807c1312"
     },
     "hasValue": false,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "moonbase-ERC20-MFG-0x3ef88816ebE8F50019e931bdFFB0e428A44a29B1": {
     "originChain": "moonbase",
@@ -3094,7 +3307,8 @@
       "contractAddress": "0x3ef88816ebE8F50019e931bdFFB0e428A44a29B1"
     },
     "hasValue": false,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "moonbeam-ERC20-USDC-0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b": {
     "originChain": "moonbeam",
@@ -3109,7 +3323,8 @@
       "contractAddress": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b"
     },
     "hasValue": true,
-    "multiChainAsset": "USDC-USDCoin"
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
   },
   "moonbeam-ERC20-BNB-0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055": {
     "originChain": "moonbeam",
@@ -3124,7 +3339,8 @@
       "contractAddress": "0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055"
     },
     "hasValue": true,
-    "multiChainAsset": "BNB-Binance"
+    "multiChainAsset": "BNB-Binance",
+    "icon": "bnb.png"
   },
   "moonbeam-ERC20-GLINT-0xcd3B51D98478D53F4515A306bE565c6EebeF1D58": {
     "originChain": "moonbeam",
@@ -3139,7 +3355,8 @@
       "contractAddress": "0xcd3B51D98478D53F4515A306bE565c6EebeF1D58"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "glint.png"
   },
   "moonbeam-ERC20-SHARE-0x4204cAd97732282d261FbB7088e07557810A6408": {
     "originChain": "moonbeam",
@@ -3154,7 +3371,8 @@
       "contractAddress": "0x4204cAd97732282d261FbB7088e07557810A6408"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "glint.png"
   },
   "moonbeam-ERC20-BEANS-0x65b09ef8c5A096C5Fd3A80f1F7369E56eB932412": {
     "originChain": "moonbeam",
@@ -3169,7 +3387,8 @@
       "contractAddress": "0x65b09ef8c5A096C5Fd3A80f1F7369E56eB932412"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "beans.png"
   },
   "moonbeam-ERC20-STELLA-0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2": {
     "originChain": "moonbeam",
@@ -3184,7 +3403,8 @@
       "contractAddress": "0x0E358838ce72d5e61E0018a2ffaC4bEC5F4c88d2"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "stellaswap.png"
   },
   "moonbeam-ERC20-xStella-0x06A3b410b681c82417A906993aCeFb91bAB6A080": {
     "originChain": "moonbeam",
@@ -3199,7 +3419,8 @@
       "contractAddress": "0x06A3b410b681c82417A906993aCeFb91bAB6A080"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "stellaswap.png"
   },
   "moonbeam-ERC20-veSOLAR-0x0DB6729C03C85B0708166cA92801BcB5CAc781fC": {
     "originChain": "moonbeam",
@@ -3214,7 +3435,8 @@
       "contractAddress": "0x0DB6729C03C85B0708166cA92801BcB5CAc781fC"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "solarflare.png"
   },
   "moonbeam-ERC20-FLARE-0xE3e43888fa7803cDC7BEA478aB327cF1A0dc11a7": {
     "originChain": "moonbeam",
@@ -3229,7 +3451,8 @@
       "contractAddress": "0xE3e43888fa7803cDC7BEA478aB327cF1A0dc11a7"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "solarflare.png"
   },
   "moonbeam-ERC20-CSG-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": {
     "originChain": "moonbeam",
@@ -3244,7 +3467,8 @@
       "contractAddress": "0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "csg.png"
   },
   "moonbeam-ERC20-WELL-0x511ab53f793683763e5a8829738301368a2411e3": {
     "originChain": "moonbeam",
@@ -3259,7 +3483,8 @@
       "contractAddress": "0x511ab53f793683763e5a8829738301368a2411e3"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "moonwell-artemis.png"
   },
   "moonriver-ERC20-USDC-0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D": {
     "originChain": "moonriver",
@@ -3274,7 +3499,8 @@
       "contractAddress": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "usdc.png"
   },
   "moonriver-ERC20-DAI-0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844": {
     "originChain": "moonriver",
@@ -3289,7 +3515,8 @@
       "contractAddress": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844"
     },
     "hasValue": true,
-    "multiChainAsset": "DAI-DaiStablecoin"
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "icon": "dai.png"
   },
   "moonriver-ERC20-MFAM-0xBb8d88bcD9749636BC4D2bE22aaC4Bb3B01A58F1": {
     "originChain": "moonriver",
@@ -3304,7 +3531,8 @@
       "contractAddress": "0xBb8d88bcD9749636BC4D2bE22aaC4Bb3B01A58F1"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "moonwell-apollo.png"
   },
   "moonriver-ERC20-ZLK-0x0f47ba9d9Bde3442b42175e51d6A367928A1173B": {
     "originChain": "moonriver",
@@ -3319,7 +3547,8 @@
       "contractAddress": "0x0f47ba9d9Bde3442b42175e51d6A367928A1173B"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "zenlink.png"
   },
   "moonriver-ERC20-SOLAR-0x6bD193Ee6D2104F14F94E2cA6efefae561A4334B": {
     "originChain": "moonriver",
@@ -3334,7 +3563,8 @@
       "contractAddress": "0x6bD193Ee6D2104F14F94E2cA6efefae561A4334B"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "solarbeam.png"
   },
   "moonriver-ERC20-FRAX-0x1A93B23281CC1CDE4C4741353F3064709A16197d": {
     "originChain": "moonriver",
@@ -3349,7 +3579,8 @@
       "contractAddress": "0x1A93B23281CC1CDE4C4741353F3064709A16197d"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "frax-finance.png"
   },
   "moonriver-ERC20-FXS-0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98": {
     "originChain": "moonriver",
@@ -3364,7 +3595,8 @@
       "contractAddress": "0x6f1D1Ee50846Fcbc3de91723E61cb68CFa6D0E98"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "frax-finance.png"
   },
   "moonriver-ERC20-CWS-0x6fc9651f45B262AE6338a701D563Ab118B1eC0Ce": {
     "originChain": "moonriver",
@@ -3379,7 +3611,8 @@
       "contractAddress": "0x6fc9651f45B262AE6338a701D563Ab118B1eC0Ce"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "cws.png"
   },
   "moonriver-ERC20-RIB-0xbD90A6125a84E5C512129D622a75CDDE176aDE5E": {
     "originChain": "moonriver",
@@ -3394,7 +3627,8 @@
       "contractAddress": "0xbD90A6125a84E5C512129D622a75CDDE176aDE5E"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "rib.png"
   },
   "shiden-LOCAL-LKSM": {
     "originChain": "shiden",
@@ -3410,7 +3644,8 @@
       "assetType": "ForeignAsset"
     },
     "hasValue": true,
-    "multiChainAsset": "KSM-Kusama"
+    "multiChainAsset": "KSM-Kusama",
+    "icon": "kusama.png"
   },
   "shiden-LOCAL-MOVR": {
     "originChain": "shiden",
@@ -3426,7 +3661,8 @@
       "assetType": "ForeignAsset"
     },
     "hasValue": true,
-    "multiChainAsset": "MOVR-Moonriver"
+    "multiChainAsset": "MOVR-Moonriver",
+    "icon": "moonriver.png"
   },
   "shiden-LOCAL-KAR": {
     "originChain": "shiden",
@@ -3442,7 +3678,8 @@
       "assetType": "ForeignAsset"
     },
     "hasValue": true,
-    "multiChainAsset": "KAR-Karura"
+    "multiChainAsset": "KAR-Karura",
+    "icon": "karura.png"
   },
   "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56": {
     "originChain": "binance",
@@ -3457,7 +3694,8 @@
       "contractAddress": "0xe9e7cea3dedca5984780bafc599bd69add087d56"
     },
     "hasValue": true,
-    "multiChainAsset": "BUSD-BinanceUSD"
+    "multiChainAsset": "BUSD-BinanceUSD",
+    "icon": "busd.png"
   },
   "astarEvm-ERC20-DOT-0xffffffffffffffffffffffffffffffffffffffff": {
     "originChain": "astarEvm",
@@ -3472,7 +3710,8 @@
       "contractAddress": "0xffffffffffffffffffffffffffffffffffffffff"
     },
     "hasValue": true,
-    "multiChainAsset": "DOT-Polkadot"
+    "multiChainAsset": "DOT-Polkadot",
+    "icon": "polkadot.png"
   },
   "astarEvm-ERC20-ARSW-0xde2578edec4669ba7f41c5d5d2386300bcea4678": {
     "originChain": "astarEvm",
@@ -3487,7 +3726,8 @@
       "contractAddress": "0xde2578edec4669ba7f41c5d5d2386300bcea4678"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "arthswap.png"
   },
   "astarEvm-ERC20-LAY-0xc4335B1b76fA6d52877b3046ECA68F6E708a27dd": {
     "originChain": "astarEvm",
@@ -3502,7 +3742,8 @@
       "contractAddress": "0xc4335B1b76fA6d52877b3046ECA68F6E708a27dd"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "starlay.png"
   },
   "astarEvm-ERC20-BAI-0x733ebcc6df85f8266349defd0980f8ced9b45f35": {
     "originChain": "astarEvm",
@@ -3517,7 +3758,8 @@
       "contractAddress": "0x733ebcc6df85f8266349defd0980f8ced9b45f35"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "astarEvm-ERC20-ATID-0x5271d85ce4241b310c0b34b7c2f1f036686a6d7c": {
     "originChain": "astarEvm",
@@ -3532,7 +3774,8 @@
       "contractAddress": "0x5271d85ce4241b310c0b34b7c2f1f036686a6d7c"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "adtrisdao.png"
   },
   "astarEvm-ERC20-SRS-0x9448610696659de8f72e1831d392214ae1ca4838": {
     "originChain": "astarEvm",
@@ -3547,7 +3790,8 @@
       "contractAddress": "0x9448610696659de8f72e1831d392214ae1ca4838"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "sirius-finance.png"
   },
   "astarEvm-ERC20-ORU-0xcdb32eed99aa19d39e5d6ec45ba74dc4afec549f": {
     "originChain": "astarEvm",
@@ -3562,7 +3806,8 @@
       "contractAddress": "0xcdb32eed99aa19d39e5d6ec45ba74dc4afec549f"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "oru.png"
   },
   "astarEvm-ERC20-BNB-0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52": {
     "originChain": "astarEvm",
@@ -3577,7 +3822,8 @@
       "contractAddress": "0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52"
     },
     "hasValue": true,
-    "multiChainAsset": "BNB-Binance"
+    "multiChainAsset": "BNB-Binance",
+    "icon": "bnb.png"
   },
   "astarEvm-ERC20-BUSD-0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E": {
     "originChain": "astarEvm",
@@ -3592,7 +3838,8 @@
       "contractAddress": "0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E"
     },
     "hasValue": true,
-    "multiChainAsset": "BUSD-BinanceUSD"
+    "multiChainAsset": "BUSD-BinanceUSD",
+    "icon": "busd.png"
   },
   "astarEvm-ERC20-CRV-0x7756a83563f0f56937A6FdF668E7D9F387c0D199": {
     "originChain": "astarEvm",
@@ -3607,7 +3854,8 @@
       "contractAddress": "0x7756a83563f0f56937A6FdF668E7D9F387c0D199"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "astarEvm-ERC20-DAI-0x6De33698e9e9b787e09d3Bd7771ef63557E148bb": {
     "originChain": "astarEvm",
@@ -3622,7 +3870,8 @@
       "contractAddress": "0x6De33698e9e9b787e09d3Bd7771ef63557E148bb"
     },
     "hasValue": true,
-    "multiChainAsset": "DAI-DaiStablecoin"
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "icon": "dai.png"
   },
   "astarEvm-ERC20-PKEX-0x1fE622E91e54D6AD00B01917351Ea6081426764A": {
     "originChain": "astarEvm",
@@ -3637,7 +3886,8 @@
       "contractAddress": "0x1fE622E91e54D6AD00B01917351Ea6081426764A"
     },
     "hasValue": true,
-    "multiChainAsset": "PKEX-PolkaEx"
+    "multiChainAsset": "PKEX-PolkaEx",
+    "icon": "pkex.png"
   },
   "astarEvm-ERC20-SDN-0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4": {
     "originChain": "astarEvm",
@@ -3652,7 +3902,8 @@
       "contractAddress": "0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4"
     },
     "hasValue": true,
-    "multiChainAsset": "SDN-Shiden"
+    "multiChainAsset": "SDN-Shiden",
+    "icon": "shiden.png"
   },
   "astarEvm-ERC20-USDC-0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98": {
     "originChain": "astarEvm",
@@ -3667,7 +3918,8 @@
       "contractAddress": "0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98"
     },
     "hasValue": true,
-    "multiChainAsset": "USDC-USDCoin"
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
   },
   "astarEvm-ERC20-WBTC-0xad543f18cff85c77e140e3e5e3c3392f6ba9d5ca": {
     "originChain": "astarEvm",
@@ -3682,7 +3934,8 @@
       "contractAddress": "0xad543f18cff85c77e140e3e5e3c3392f6ba9d5ca"
     },
     "hasValue": true,
-    "multiChainAsset": "WBTC-WrappedBTC"
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "icon": "btc.png"
   },
   "astarEvm-ERC20-WETH-0x81ECac0D6Be0550A00FF064a4f9dd2400585FE9c": {
     "originChain": "astarEvm",
@@ -3697,7 +3950,8 @@
       "contractAddress": "0x81ECac0D6Be0550A00FF064a4f9dd2400585FE9c"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "ethereum.png"
   },
   "astarEvm-ERC20-KZY-0x3d4DCFD2B483549527f7611ccFecb40b47d0c17b": {
     "originChain": "astarEvm",
@@ -3712,7 +3966,8 @@
       "contractAddress": "0x3d4DCFD2B483549527f7611ccFecb40b47d0c17b"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "astarEvm-ERC20-WASTR-0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720": {
     "originChain": "astarEvm",
@@ -3727,7 +3982,8 @@
       "contractAddress": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "astarEvm-ERC20-ARSW_LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C": {
     "originChain": "astarEvm",
@@ -3742,7 +3998,8 @@
       "contractAddress": "0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "astarEvm-ERC20-KOS-0xbcF7aa4fC081f5670d9b8a1BdD1cFd98DCAeE6e6": {
     "originChain": "astarEvm",
@@ -3757,7 +4014,8 @@
       "contractAddress": "0xbcF7aa4fC081f5670d9b8a1BdD1cFd98DCAeE6e6"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "astarEvm-ERC20-PPC-0x34F79636a55d9961E47b7784eF460B021B499406": {
     "originChain": "astarEvm",
@@ -3772,7 +4030,8 @@
       "contractAddress": "0x34F79636a55d9961E47b7784eF460B021B499406"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
     "originChain": "shidenEvm",
@@ -3787,7 +4046,8 @@
       "contractAddress": "0xFFFFFFFF000000000000000000000001000007C0"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "usdt.png"
   },
   "shidenEvm-ERC20-PKEX-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98": {
     "originChain": "shidenEvm",
@@ -3802,7 +4062,8 @@
       "contractAddress": "0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98"
     },
     "hasValue": true,
-    "multiChainAsset": "PKEX-PolkaEx"
+    "multiChainAsset": "PKEX-PolkaEx",
+    "icon": "pkex.png"
   },
   "shidenEvm-ERC20-BNB-0x332730a4f6e03d9c55829435f10360e13cfa41ff": {
     "originChain": "shidenEvm",
@@ -3817,7 +4078,8 @@
       "contractAddress": "0x332730a4f6e03d9c55829435f10360e13cfa41ff"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "bnb.png"
   },
   "shidenEvm-ERC20-BUSD-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98": {
     "originChain": "shidenEvm",
@@ -3832,7 +4094,8 @@
       "contractAddress": "0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "busd.png"
   },
   "shidenEvm-ERC20-JPYC-0x735abe48e8782948a37c7765ecb76b98cde97b0f": {
     "originChain": "shidenEvm",
@@ -3847,7 +4110,8 @@
       "contractAddress": "0x735abe48e8782948a37c7765ecb76b98cde97b0f"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "jpyd.png"
   },
   "shidenEvm-ERC20-ETH-0x765277eebeca2e31912c9946eae1021199b39c61": {
     "originChain": "shidenEvm",
@@ -3862,7 +4126,8 @@
       "contractAddress": "0x765277eebeca2e31912c9946eae1021199b39c61"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "ethereum.png"
   },
   "shidenEvm-ERC20-USDC-0xfa9343c3897324496a05fc75abed6bac29f8a40f": {
     "originChain": "shidenEvm",
@@ -3877,7 +4142,8 @@
       "contractAddress": "0xfa9343c3897324496a05fc75abed6bac29f8a40f"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "usdc.png"
   },
   "shidenEvm-ERC20-WSDN-0x0f933dc137d21ca519ae4c7e93f87a4c8ef365ef": {
     "originChain": "shidenEvm",
@@ -3892,7 +4158,8 @@
       "contractAddress": "0x0f933dc137d21ca519ae4c7e93f87a4c8ef365ef"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-Kac-0xb12c13e66ade1f72f71834f2fc5082db8c091358": {
     "originChain": "shidenEvm",
@@ -3907,7 +4174,8 @@
       "contractAddress": "0xb12c13e66ade1f72f71834f2fc5082db8c091358"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
     "originChain": "shidenEvm",
@@ -3922,7 +4190,8 @@
       "contractAddress": "0xec0c789c6dc019b1c19f055edf938b369d235d2c"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-SMS-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
     "originChain": "shidenEvm",
@@ -3937,7 +4206,8 @@
       "contractAddress": "0xec0c789c6dc019b1c19f055edf938b369d235d2c"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-STND-0x722377A047e89CA735f09Eb7CccAb780943c4CB4": {
     "originChain": "shidenEvm",
@@ -3952,7 +4222,8 @@
       "contractAddress": "0x722377A047e89CA735f09Eb7CccAb780943c4CB4"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-SRISE-0x16bf7ecaf868348703ff5b5c0c3b84be7bf483f9": {
     "originChain": "shidenEvm",
@@ -3967,7 +4238,8 @@
       "contractAddress": "0x16bf7ecaf868348703ff5b5c0c3b84be7bf483f9"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-FEGS-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41": {
     "originChain": "shidenEvm",
@@ -3982,7 +4254,8 @@
       "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41": {
     "originChain": "shidenEvm",
@@ -3997,7 +4270,8 @@
       "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "equilibrium_parachain-LOCAL-BNB": {
     "originChain": "equilibrium_parachain",
@@ -4012,7 +4286,8 @@
       "assetId": "6450786"
     },
     "hasValue": true,
-    "multiChainAsset": "BNB-Binance"
+    "multiChainAsset": "BNB-Binance",
+    "icon": "bnb.png"
   },
   "equilibrium_parachain-LOCAL-BNC": {
     "originChain": "equilibrium_parachain",
@@ -4027,7 +4302,8 @@
       "assetId": "6450787"
     },
     "hasValue": true,
-    "multiChainAsset": "BNC-BifrostKusama"
+    "multiChainAsset": "BNC-BifrostKusama",
+    "icon": "bifrost-kusama.png"
   },
   "equilibrium_parachain-LOCAL-CRU": {
     "originChain": "equilibrium_parachain",
@@ -4042,7 +4318,8 @@
       "assetId": "6517365"
     },
     "hasValue": true,
-    "multiChainAsset": "CRU-Crust"
+    "multiChainAsset": "CRU-Crust",
+    "icon": "crust.png"
   },
   "equilibrium_parachain-LOCAL-EQD": {
     "originChain": "equilibrium_parachain",
@@ -4057,7 +4334,8 @@
       "assetId": "6648164"
     },
     "hasValue": true,
-    "multiChainAsset": "EQD-EquilibriumUSD"
+    "multiChainAsset": "EQD-EquilibriumUSD",
+    "icon": "default.png"
   },
   "equilibrium_parachain-LOCAL-PHA": {
     "originChain": "equilibrium_parachain",
@@ -4072,7 +4350,8 @@
       "assetId": "7366753"
     },
     "hasValue": true,
-    "multiChainAsset": "PHA-Phala"
+    "multiChainAsset": "PHA-Phala",
+    "icon": "khala-network.png"
   },
   "equilibrium_parachain-LOCAL-ASTR": {
     "originChain": "equilibrium_parachain",
@@ -4087,7 +4366,8 @@
       "assetId": "1634956402"
     },
     "hasValue": true,
-    "multiChainAsset": "ASTR-Astar"
+    "multiChainAsset": "ASTR-Astar",
+    "icon": "astar-network.png"
   },
   "equilibrium_parachain-LOCAL-BUSD": {
     "originChain": "equilibrium_parachain",
@@ -4102,7 +4382,8 @@
       "assetId": "1651864420"
     },
     "hasValue": true,
-    "multiChainAsset": "BUSD-BinanceUSD"
+    "multiChainAsset": "BUSD-BinanceUSD",
+    "icon": "busd.png"
   },
   "equilibrium_parachain-LOCAL-GLMR": {
     "originChain": "equilibrium_parachain",
@@ -4117,7 +4398,8 @@
       "assetId": "1735159154"
     },
     "hasValue": true,
-    "multiChainAsset": "GLMR-Moonbeam"
+    "multiChainAsset": "GLMR-Moonbeam",
+    "icon": "moonbeam.png"
   },
   "equilibrium_parachain-LOCAL-iBTC": {
     "originChain": "equilibrium_parachain",
@@ -4132,7 +4414,8 @@
       "assetId": "1768060003"
     },
     "hasValue": true,
-    "multiChainAsset": "iBTC-interBTC"
+    "multiChainAsset": "iBTC-interBTC",
+    "icon": "ibtc.png"
   },
   "equilibrium_parachain-LOCAL-INTR": {
     "originChain": "equilibrium_parachain",
@@ -4147,7 +4430,8 @@
       "assetId": "1768846450"
     },
     "hasValue": true,
-    "multiChainAsset": "INTR-Interlay"
+    "multiChainAsset": "INTR-Interlay",
+    "icon": "interlay.png"
   },
   "equilibrium_parachain-LOCAL-PARA": {
     "originChain": "equilibrium_parachain",
@@ -4162,7 +4446,8 @@
       "assetId": "1885434465"
     },
     "hasValue": true,
-    "multiChainAsset": "PARA-Parallel"
+    "multiChainAsset": "PARA-Parallel",
+    "icon": "parallel.png"
   },
   "equilibrium_parachain-LOCAL-USDT": {
     "originChain": "equilibrium_parachain",
@@ -4177,7 +4462,8 @@
       "assetId": "1970496628"
     },
     "hasValue": true,
-    "multiChainAsset": "USDT-Tether"
+    "multiChainAsset": "USDT-Tether",
+    "icon": "usdt.png"
   },
   "equilibrium_parachain-LOCAL-EQDOT": {
     "originChain": "equilibrium_parachain",
@@ -4192,7 +4478,8 @@
       "assetId": "435694104436"
     },
     "hasValue": true,
-    "multiChainAsset": null
+    "multiChainAsset": null,
+    "icon": "default.png"
   },
   "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7": {
     "originChain": "boba",
@@ -4207,7 +4494,8 @@
       "contractAddress": "0xa18bf3994c0cc6e3b63ac420308e5383f53120d7"
     },
     "hasValue": true,
-    "multiChainAsset": "BOBA-BobaToken"
+    "multiChainAsset": "BOBA-BobaToken",
+    "icon": "boba-network.png"
   },
   "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023": {
     "originChain": "bobabeam",
@@ -4222,7 +4510,8 @@
       "contractAddress": "0x4200000000000000000000000000000000000023"
     },
     "hasValue": true,
-    "multiChainAsset": "GLMR-Moonbeam"
+    "multiChainAsset": "GLMR-Moonbeam",
+    "icon": "moonbeam.png"
   },
   "aventus-NATIVE-AVT": {
     "originChain": "aventus",
@@ -4235,7 +4524,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "aventus_testnet-NATIVE-AVT": {
     "originChain": "aventus_testnet",
@@ -4248,7 +4538,8 @@
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "default.png"
   },
   "bifrost-LOCAL-MOVR": {
     "originChain": "bifrost",
@@ -4265,7 +4556,8 @@
       }
     },
     "hasValue": true,
-    "multiChainAsset": "MOVR-Moonriver"
+    "multiChainAsset": "MOVR-Moonriver",
+    "icon": "moonriver.png"
   },
   "bifrost-LOCAL-RMRK": {
     "originChain": "bifrost",
@@ -4282,7 +4574,8 @@
       }
     },
     "hasValue": true,
-    "multiChainAsset": "RMRK-RMRKApp"
+    "multiChainAsset": "RMRK-RMRKApp",
+    "icon": "default.png"
   },
   "bifrost-LOCAL-PHA": {
     "originChain": "bifrost",
@@ -4299,7 +4592,8 @@
       }
     },
     "hasValue": true,
-    "multiChainAsset": "PHA-Phala"
+    "multiChainAsset": "PHA-Phala",
+    "icon": "khala-network.png"
   },
   "binance-ERC20-USDC-0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
     "originChain": "binance",
@@ -4314,7 +4608,8 @@
       "contractAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
     },
     "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdc.png"
   },
   "binance-ERC20-vUSDT-0xfD5840Cd36d94D7229439859C0112a4185BC0255": {
     "originChain": "binance",
@@ -4329,7 +4624,8 @@
       "contractAddress": "0xfD5840Cd36d94D7229439859C0112a4185BC0255"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "vusdt.png"
   },
   "binance-ERC20-vBUSD-0x95c78222B3D6e262426483D42CfA53685A67Ab9D": {
     "originChain": "binance",
@@ -4344,7 +4640,8 @@
       "contractAddress": "0x95c78222B3D6e262426483D42CfA53685A67Ab9D"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "vbusd.png"
   },
   "binance-ERC20-WBNB-0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
     "originChain": "binance",
@@ -4359,7 +4656,8 @@
       "contractAddress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bnb.png"
   },
   "binance-ERC20-ETH-0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
     "originChain": "binance",
@@ -4374,7 +4672,8 @@
       "contractAddress": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8"
     },
     "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "binance-ERC20-Cake-0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82": {
     "originChain": "binance",
@@ -4389,7 +4688,8 @@
       "contractAddress": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "pancake.png"
   },
   "binance-ERC20-BTCB-0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c": {
     "originChain": "binance",
@@ -4404,7 +4704,8 @@
       "contractAddress": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "btc.png"
   },
   "binance-ERC20-ADA-0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47": {
     "originChain": "binance",
@@ -4419,7 +4720,8 @@
       "contractAddress": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "cardano.png"
   },
   "binance-ERC20-XRP-0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE": {
     "originChain": "binance",
@@ -4434,7 +4736,8 @@
       "contractAddress": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "xrp.png"
   },
   "binance-ERC20-DOT-0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402": {
     "originChain": "binance",
@@ -4449,7 +4752,8 @@
       "contractAddress": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
     "originChain": "binance",
@@ -4464,7 +4768,8 @@
       "contractAddress": "0x55d398326f99059fF775485246999027B3197955"
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
     "originChain": "ethereum",
@@ -4479,7 +4784,8 @@
       "contractAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
     },
     "multiChainAsset": "USDT-Tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "ethereum-ERC20-BNB-0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
     "originChain": "ethereum",
@@ -4494,7 +4800,8 @@
       "contractAddress": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
     },
     "multiChainAsset": "BNB-Binance",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bnb.png"
   },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
     "originChain": "ethereum",
@@ -4509,7 +4816,8 @@
       "contractAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     },
     "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdc.png"
   },
   "ethereum-ERC20-BUSD-0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
     "originChain": "ethereum",
@@ -4524,7 +4832,8 @@
       "contractAddress": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
     },
     "multiChainAsset": "BUSD-BinanceUSD",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "busd.png"
   },
   "ethereum-ERC20-LDO-0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
     "originChain": "ethereum",
@@ -4539,7 +4848,8 @@
       "contractAddress": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ldo.png"
   },
   "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
     "originChain": "ethereum",
@@ -4554,7 +4864,8 @@
       "contractAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "wsteth.png"
   },
   "ethereum-ERC20-stETH-0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
     "originChain": "ethereum",
@@ -4569,7 +4880,8 @@
       "contractAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "ethereum-ERC20-THETA-0x3883f5e181fccaF8410FA61e12b59BAd963fb645": {
     "originChain": "ethereum",
@@ -4584,7 +4896,8 @@
       "contractAddress": "0x3883f5e181fccaF8410FA61e12b59BAd963fb645"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "theta.png"
   },
   "ethereum-ERC20-NEAR-0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4": {
     "originChain": "ethereum",
@@ -4599,7 +4912,8 @@
       "contractAddress": "0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "near.png"
   },
   "ethereum-ERC20-APE-0x4d224452801ACEd8B2F0aebE155379bb5D594381": {
     "originChain": "ethereum",
@@ -4614,7 +4928,8 @@
       "contractAddress": "0x4d224452801ACEd8B2F0aebE155379bb5D594381"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "apecoin.png"
   },
   "ethereum-ERC20-LINK-0x514910771AF9Ca656af840dff83E8264EcF986CA": {
     "originChain": "ethereum",
@@ -4629,7 +4944,8 @@
       "contractAddress": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "link.png"
   },
   "ethereum-ERC20-DAI-0x6B175474E89094C44Da98b954EedeAC495271d0F": {
     "originChain": "ethereum",
@@ -4644,7 +4960,8 @@
       "contractAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
     },
     "multiChainAsset": "DAI-DaiStablecoin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "dai.png"
   },
   "ethereum-ERC20-BAT-0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
     "originChain": "ethereum",
@@ -4659,7 +4976,8 @@
       "contractAddress": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bat.png"
   },
   "ethereum-ERC20-CRO-0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b": {
     "originChain": "ethereum",
@@ -4674,7 +4992,8 @@
       "contractAddress": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "cro.png"
   },
   "ethereum-ERC20-COMP-0xc00e94Cb662C3520282E6f5717214004A7f26888": {
     "originChain": "ethereum",
@@ -4689,7 +5008,8 @@
       "contractAddress": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "comp.png"
   },
   "ethereum-ERC20-ENJ-0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c": {
     "originChain": "ethereum",
@@ -4704,7 +5024,8 @@
       "contractAddress": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "enjin.png"
   },
   "ethereum-ERC20-SAND-0x3845badAde8e6dFF049820680d1F14bD3903a5d0": {
     "originChain": "ethereum",
@@ -4719,7 +5040,8 @@
       "contractAddress": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "sand.png"
   },
   "ethereum-ERC20-GALA-0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA": {
     "originChain": "ethereum",
@@ -4734,7 +5056,8 @@
       "contractAddress": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "gala.png"
   },
   "ethereum-ERC20-CHZ-0x3506424F91fD33084466F402d5D97f05F8e3b4AF": {
     "originChain": "ethereum",
@@ -4749,7 +5072,8 @@
       "contractAddress": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "chiliz.png"
   },
   "ethereum-ERC20-1INCH-0x111111111117dC0aa78b770fA6A738034120C302": {
     "originChain": "ethereum",
@@ -4764,7 +5088,8 @@
       "contractAddress": "0x111111111117dC0aa78b770fA6A738034120C302"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "1inch.png"
   },
   "ethereum-ERC20-WFTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
     "originChain": "ethereum",
@@ -4779,7 +5104,8 @@
       "contractAddress": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "ethereum-ERC20-MKR-0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
     "originChain": "ethereum",
@@ -4794,7 +5120,8 @@
       "contractAddress": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "mkr.png"
   },
   "ethereum-ERC20-KNC-0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202": {
     "originChain": "ethereum",
@@ -4809,7 +5136,8 @@
       "contractAddress": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kyber.png"
   },
   "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
     "originChain": "ethereum",
@@ -4824,7 +5152,8 @@
       "contractAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
     },
     "multiChainAsset": "WBTC-WrappedBTC",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "btc.png"
   },
   "ethereum-ERC20-ENS-0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72": {
     "originChain": "ethereum",
@@ -4839,7 +5168,8 @@
       "contractAddress": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ens.png"
   },
   "ethereum-ERC20-UNI-0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
     "originChain": "ethereum",
@@ -4854,7 +5184,8 @@
       "contractAddress": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "uniswap.png"
   },
   "ethereum-ERC20-MATIC-0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
     "originChain": "ethereum",
@@ -4869,7 +5200,8 @@
       "contractAddress": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polygon.png"
   },
   "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
     "originChain": "ethereum",
@@ -4884,7 +5216,8 @@
       "contractAddress": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "shiba.png"
   },
   "moonbeam-ERC20-TFA-0xE065ffaf3f7dED69BB5cf5FDd1Fd1dDA2EEe8493": {
     "originChain": "moonbeam",
@@ -4899,7 +5232,8 @@
       "contractAddress": "0xE065ffaf3f7dED69BB5cf5FDd1Fd1dDA2EEe8493"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "tfa.png"
   },
   "moonbeam-ERC721-MFMP-0x6758053c0b27E478edE1E4882adFF708Fc4FA72D": {
     "originChain": "moonbeam",
@@ -4914,7 +5248,8 @@
       "contractAddress": "0x6758053c0b27E478edE1E4882adFF708Fc4FA72D"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-MM-0xCc1A7573C8f10d0df7Ee4d57cc958C8Df4a5Aca9": {
     "originChain": "moonbeam",
@@ -4929,7 +5264,8 @@
       "contractAddress": "0xCc1A7573C8f10d0df7Ee4d57cc958C8Df4a5Aca9"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-MDAO-0xc6342EAB8B7cC405Fc35ebA7F7401fc400aC0709": {
     "originChain": "moonbeam",
@@ -4944,7 +5280,8 @@
       "contractAddress": "0xc6342EAB8B7cC405Fc35ebA7F7401fc400aC0709"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-GLMA-0x8fbe243d898e7c88a6724bb9eb13d746614d23d6": {
     "originChain": "moonbeam",
@@ -4959,7 +5296,8 @@
       "contractAddress": "0x8fbe243d898e7c88a6724bb9eb13d746614d23d6"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-GLMJ-0xcB13945Ca8104f813992e4315F8fFeFE64ac49cA": {
     "originChain": "moonbeam",
@@ -4974,7 +5312,8 @@
       "contractAddress": "0xcB13945Ca8104f813992e4315F8fFeFE64ac49cA"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-PUNK-0xFD86D63748a6390E4a80739e776463088811774D": {
     "originChain": "moonbeam",
@@ -4989,7 +5328,8 @@
       "contractAddress": "0xFD86D63748a6390E4a80739e776463088811774D"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-GPUNKS-0x25714FcBc4bE731B95AE86483EF97ef6C3deB5Ce": {
     "originChain": "moonbeam",
@@ -5004,7 +5344,8 @@
       "contractAddress": "0x25714FcBc4bE731B95AE86483EF97ef6C3deB5Ce"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-GlmrZuki-0xC36D971c11CEbbCc20eE2C2910e07e2b1Be3790d": {
     "originChain": "moonbeam",
@@ -5019,7 +5360,8 @@
       "contractAddress": "0xC36D971c11CEbbCc20eE2C2910e07e2b1Be3790d"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-GKC-0x62E413D4b097b474999CF33d336cD74881084ba5": {
     "originChain": "moonbeam",
@@ -5034,7 +5376,8 @@
       "contractAddress": "0x62E413D4b097b474999CF33d336cD74881084ba5"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-MBNS-0x9576167Eb03141F041ccAf57D4D0bd40Abb2b583": {
     "originChain": "moonbeam",
@@ -5049,7 +5392,8 @@
       "contractAddress": "0x9576167Eb03141F041ccAf57D4D0bd40Abb2b583"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-ANFT-0xcf82ddcca84d0e419bccd7a540e807c114250ded": {
     "originChain": "moonbeam",
@@ -5064,7 +5408,8 @@
       "contractAddress": "0xcf82ddcca84d0e419bccd7a540e807c114250ded"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonriver-ERC721-ZOOMBIE-0x08716e418e68564C96b68192E985762740728018": {
     "originChain": "moonriver",
@@ -5079,7 +5424,8 @@
       "contractAddress": "0x08716e418e68564C96b68192E985762740728018"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonriver-ERC721-NFTQ-0x79c8C73F85ec794f570aa7B768568a7fEdB294f8": {
     "originChain": "moonriver",
@@ -5094,7 +5440,8 @@
       "contractAddress": "0x79c8C73F85ec794f570aa7B768568a7fEdB294f8"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "astarEvm-ERC721-GHOST-0xb4bd85893d6f66869d7766ace1b1eb4d867d963e": {
     "originChain": "astarEvm",
@@ -5109,7 +5456,8 @@
       "contractAddress": "0xb4bd85893d6f66869d7766ace1b1eb4d867d963e"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "astarEvm-ERC721-AP-0x1b57C69838cDbC59c8236DDa73287a4780B4831F": {
     "originChain": "astarEvm",
@@ -5124,7 +5472,8 @@
       "contractAddress": "0x1b57C69838cDbC59c8236DDa73287a4780B4831F"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "astarEvm-ERC721-DEGEN-0xd59fc6bfd9732ab19b03664a45dc29b8421bda9a": {
     "originChain": "astarEvm",
@@ -5139,7 +5488,8 @@
       "contractAddress": "0xd59fc6bfd9732ab19b03664a45dc29b8421bda9a"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "astarEvm-ERC721-ANAUT-0xf008371a7EeD0AB54FDd975fE0d0f66fEFBA3415": {
     "originChain": "astarEvm",
@@ -5154,7 +5504,8 @@
       "contractAddress": "0xf008371a7EeD0AB54FDd975fE0d0f66fEFBA3415"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "astarEvm-ERC721-CAT-0x8b5d62f396Ca3C6cF19803234685e693733f9779": {
     "originChain": "astarEvm",
@@ -5169,7 +5520,8 @@
       "contractAddress": "0x8b5d62f396Ca3C6cF19803234685e693733f9779"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-EXRP-0x515e20e6275ceefe19221fc53e77e38cc32b80fb": {
     "originChain": "moonbeam",
@@ -5184,7 +5536,8 @@
       "contractAddress": "0x515e20e6275ceefe19221fc53e77e38cc32b80fb"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-ERC721-MOONPETS-0x2159762693C629C5A44Fc9baFD484f8B96713467": {
     "originChain": "moonbeam",
@@ -5199,6 +5552,35 @@
       "contractAddress": "0x2159762693C629C5A44Fc9baFD484f8B96713467"
     },
     "multiChainAsset": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "default.png"
+  },
+  "vara_network-NATIVE-VARA": {
+    "originChain": "vara_network",
+    "slug": "vara_network-NATIVE-VARA",
+    "name": "Vara",
+    "symbol": "VARA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "default.png"
+  },
+  "snow_evm-NATIVE-ICZ": {
+    "originChain": "snow_evm",
+    "slug": "snow_evm-NATIVE-ICZ",
+    "name": "Snow",
+    "symbol": "ICZ",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "default.png"
   }
 }
