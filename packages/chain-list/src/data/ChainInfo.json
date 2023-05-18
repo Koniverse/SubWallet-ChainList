@@ -2358,8 +2358,8 @@
     "name": "Mangata Kusama",
     "chainStatus": "ACTIVE",
     "providers": {
-      "mangata": "wss://prod-kusama-collator-01.mangatafinance.cloud",
-      "OnFinality": "wss://mangata-x.api.onfinality.io/public-ws"
+      "mangata": "wss://kusama-rpc.mangata.online",
+      "Mangata Archive": "wss://kusama-archive.mangata.online"
     },
     "isTestnet": false,
     "substrateInfo": {
