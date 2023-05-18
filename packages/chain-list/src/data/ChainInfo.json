@@ -1996,15 +1996,15 @@
   },
   "subsocial_x": {
     "slug": "subsocial_x",
-    "name": "SubsocialX",
+    "name": "Subsocial",
     "chainStatus": "ACTIVE",
     "providers": {
       "subsocialx": "wss://para.f3joule.space"
     },
     "isTestnet": false,
     "substrateInfo": {
-      "paraId": 2100,
-      "relaySlug": "kusama",
+      "paraId": 2101,
+      "relaySlug": "polkadot",
       "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
       "addressPrefix": 28,
       "crowdloanUrl": "https://app.subsocial.network/crowdloan",
@@ -2030,8 +2030,8 @@
     },
     "isTestnet": false,
     "substrateInfo": {
-      "paraId": 2101,
-      "relaySlug": "kusama",
+      "paraId": 2092,
+      "relaySlug": "polkadot",
       "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
       "addressPrefix": 73,
       "crowdloanUrl": "https://crowdloan.zeitgeist.pm/",
