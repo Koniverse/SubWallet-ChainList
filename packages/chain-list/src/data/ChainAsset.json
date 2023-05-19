@@ -1155,7 +1155,7 @@
     "icon": "nodle.png"
   },
   "darwinia2-NATIVE-RING": {
-    "originChain": "darwinia",
+    "originChain": "darwinia2",
     "slug": "darwinia2-NATIVE-RING",
     "name": "Darwinia",
     "symbol": "RING",
@@ -1167,6 +1167,22 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "darwinia.png"
+  },
+  "darwinia2-LOCAL-KTON": {
+    "originChain": "darwinia2",
+    "slug": "darwinia2-LOCAL-KTON",
+    "name": "Darwinia Commitment Token",
+    "symbol": "KTON",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1026"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "default.png"
   },
   "sora_ksm-NATIVE-XOR": {
     "originChain": "sora_ksm",
