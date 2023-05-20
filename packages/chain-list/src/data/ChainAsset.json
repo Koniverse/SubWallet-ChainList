@@ -848,7 +848,7 @@
     "decimals": 18,
     "priceId": "voucher-glmr",
     "minAmount": "1000000000000",
-    "assetType": "NATIVE",
+    "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
         "VToken2": "1"
@@ -3212,7 +3212,7 @@
     "decimals": 12,
     "priceId": null,
     "minAmount": null,
-    "assetType": "LOCAL",
+    "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xfFFfFFfF00000000000000010000000000000000"
     },
