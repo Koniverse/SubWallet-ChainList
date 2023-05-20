@@ -822,6 +822,42 @@
     "hasValue": true,
     "icon": "bifrost-kusama.png"
   },
+  "bifrost_dot-LOCAL-vDOT": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vDOT",
+    "name": "Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 10,
+    "priceId": "voucher-dot",
+    "minAmount": "1000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken2": "0"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "default.png"
+  },
+  "bifrost_dot-LOCAL-vGLMR": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vGLMR",
+    "name": "Voucher GLMR",
+    "symbol": "vGLMR",
+    "decimals": 18,
+    "priceId": "voucher-glmr",
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "onChainInfo": {
+        "VToken2": "1"
+      }
+    },
+    "multiChainAsset": "GLMR-Moonbeam",
+    "hasValue": true,
+    "icon": "default.png"
+  },
   "bifrost_testnet-NATIVE-BNC": {
     "originChain": "bifrost_testnet",
     "slug": "bifrost_testnet-NATIVE-BNC",
@@ -2891,6 +2927,60 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "kusama.png"
+  },
+  "bifrost-LOCAL-vKSM": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-vKSM",
+    "name": "Voucher KSM",
+    "symbol": "vKSM",
+    "decimals": 12,
+    "priceId": "voucher-ksm",
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken": "KSM"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "default.png"
+  },
+  "bifrost-LOCAL-vMOVR": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-vMOVR",
+    "name": "Voucher MOVR",
+    "symbol": "vMOVR",
+    "decimals": 18,
+    "priceId": "voucher-movr",
+    "minAmount": "1000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken": "MOVR"
+      }
+    },
+    "multiChainAsset": "MOVR-Moonriver",
+    "hasValue": true,
+    "icon": "default.png"
+  },
+  "bifrost-LOCAL-vBNC": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-vBNC",
+    "name": "Voucher BNC",
+    "symbol": "vBNC",
+    "decimals": 12,
+    "priceId": "bifrost-native-coin",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken": "BNC"
+      }
+    },
+    "multiChainAsset": "BNC-BifrostKusama",
+    "hasValue": true,
+    "icon": "default.png"
   },
   "moonbeam-LOCAL-xcUSDT": {
     "originChain": "moonbeam",
