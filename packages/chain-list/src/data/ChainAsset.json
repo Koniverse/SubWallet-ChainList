@@ -840,6 +840,24 @@
     "hasValue": true,
     "icon": "default.png"
   },
+  "bifrost_dot-LOCAL-vsDOT": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vsDOT",
+    "name": "Voucher Slot DOT",
+    "symbol": "vsDOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VSToken2": "0"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "default.png"
+  },
   "bifrost_dot-LOCAL-vGLMR": {
     "originChain": "bifrost_dot",
     "slug": "bifrost_dot-LOCAL-vGLMR",
@@ -2940,6 +2958,24 @@
     "metadata": {
       "onChainInfo": {
         "VToken": "KSM"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "default.png"
+  },
+  "bifrost-LOCAL-vsKSM": {
+    "originChain": "bifrost",
+    "slug": "bifrost-LOCAL-vsKSM",
+    "name": "Voucher Slot KSM",
+    "symbol": "vsKSM",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VSToken": "KSM"
       }
     },
     "multiChainAsset": "KSM-Kusama",
