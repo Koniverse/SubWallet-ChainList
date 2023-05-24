@@ -2,7 +2,8 @@ import fs from "fs";
 import ChainInfoMap from '../../packages/chain-list/src/data/ChainInfo.json' assert { type: "json" };
 import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' assert { type: "json" };
 
-const LOGO_URL = 'https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo';
+const BRANCH_NAME = process.env.BRANCH_NAME || 'master';
+const LOGO_URL = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/${BRANCH_NAME}/packages/chain-list/src/logo`;
 
 try {
   const chainLogoMap = {
