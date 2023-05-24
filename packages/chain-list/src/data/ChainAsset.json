@@ -5652,5 +5652,133 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
+  },
+  "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "optimism-ERC20-USDT-0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-USDT-0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "tomochain-ERC20-USDT-0x381B31409e4D220919B2cFF012ED94d70135A59e": {
+    "originChain": "tomochain",
+    "slug": "tomochain-ERC20-USDT-0x381B31409e4D220919B2cFF012ED94d70135A59e",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x381B31409e4D220919B2cFF012ED94d70135A59e"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "optimism-ERC20-USDC-0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-USDC-0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "tomochain-ERC20-USDC-0xCCA4E6302510d555B654B3EaB9c0fCB223BCFDf0": {
+    "originChain": "tomochain",
+    "slug": "tomochain-ERC20-USDC-0xCCA4E6302510d555B654B3EaB9c0fCB223BCFDf0",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xCCA4E6302510d555B654B3EaB9c0fCB223BCFDf0"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
   }
 }
