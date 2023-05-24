@@ -278,5 +278,13 @@
     "symbol": "OP",
     "priceId": "optimism",
     "hasValue": true
+  },
+  "EQ-Equilibrium": {
+    "slug": "EQ-Equilibrium",
+    "originChainAsset": "equilibrium_parachain-NATIVE-EQ",
+    "name": "Equilibrium",
+    "symbol": "EQ",
+    "priceId": "equilibrium-token",
+    "hasValue": true
   }
 }

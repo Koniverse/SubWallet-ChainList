@@ -702,9 +702,9 @@
     "metadata": {
       "assetId": "25969"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "EQ-Equilibrium",
     "hasValue": true,
-    "icon": "equilibrium.png"
+    "icon": "eq.png"
   },
   "equilibrium_parachain-LOCAL-ACA": {
     "originChain": "equilibrium_parachain",
@@ -806,7 +806,7 @@
     "metadata": null,
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "bifrost_dot-NATIVE-BNC": {
     "originChain": "bifrost_dot",
@@ -820,7 +820,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "bifrost_testnet-NATIVE-BNC": {
     "originChain": "bifrost_testnet",
@@ -834,7 +834,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "calamari-NATIVE-KMA": {
     "originChain": "calamari",
@@ -1736,7 +1736,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ckton.png"
   },
   "pangolin-NATIVE-PRING": {
     "originChain": "pangolin",
@@ -1766,7 +1766,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ckton.png"
   },
   "chainx-NATIVE-PCX": {
     "originChain": "chainx",
@@ -2186,7 +2186,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "default.png"
+    "icon": "pilt.png"
   },
   "xx_network-NATIVE-xx": {
     "originChain": "xx_network",
@@ -2872,7 +2872,7 @@
     },
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "bifrost-LOCAL-KSM": {
     "originChain": "bifrost",
@@ -2909,6 +2909,42 @@
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "usdt.png"
+  },
+  "moonbeam-LOCAL-xcEQ": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcEQ",
+    "name": "Equilibrium Token",
+    "symbol": "xcEQ",
+    "decimals": 9,
+    "priceId": "equilibrium-token",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "190590555344745888270686124937537713878",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFffFFfFf8f6267e040D8a0638C576dfBa4F0F6D6"
+    },
+    "multiChainAsset": "EQ-Equilibrium",
+    "hasValue": true,
+    "icon": "eq.png"
+  },
+  "moonbeam-LOCAL-xcEQD": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcEQD",
+    "name": "Equilibrium Dollar",
+    "symbol": "xcEQD",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "187224307232923873519830480073807488153",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFffFfFF8cdA1707bAF23834d211B08726B1E499"
+    },
+    "multiChainAsset": "EQD-EquilibriumUSD",
+    "hasValue": true,
+    "icon": "eqd.png"
   },
   "moonriver-LOCAL-xcaUSD": {
     "originChain": "moonriver",
@@ -2980,7 +3016,7 @@
     },
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "astar-LOCAL-aUSD": {
     "originChain": "astar",
@@ -3212,7 +3248,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "RMRK-RMRKApp",
-    "icon": "default.png"
+    "icon": "rmrk-token.png"
   },
   "statemine-LOCAL-ARIS": {
     "originChain": "statemine",
@@ -3775,7 +3811,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "bai.png"
   },
   "astarEvm-ERC20-ATID-0x5271d85ce4241b310c0b34b7c2f1f036686a6d7c": {
     "originChain": "astarEvm",
@@ -3871,7 +3907,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "crv.png"
   },
   "astarEvm-ERC20-DAI-0x6De33698e9e9b787e09d3Bd7771ef63557E148bb": {
     "originChain": "astarEvm",
@@ -3999,7 +4035,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "wastr.png"
   },
   "astarEvm-ERC20-ARSW_LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C": {
     "originChain": "astarEvm",
@@ -4175,7 +4211,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "wsdn.png"
   },
   "shidenEvm-ERC20-Kac-0xb12c13e66ade1f72f71834f2fc5082db8c091358": {
     "originChain": "shidenEvm",
@@ -4287,7 +4323,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "kwik.png"
   },
   "equilibrium_parachain-LOCAL-BNB": {
     "originChain": "equilibrium_parachain",
@@ -4319,7 +4355,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "BNC-BifrostKusama",
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "equilibrium_parachain-LOCAL-CRU": {
     "originChain": "equilibrium_parachain",
@@ -4351,7 +4387,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "EQD-EquilibriumUSD",
-    "icon": "default.png"
+    "icon": "eqd.png"
   },
   "equilibrium_parachain-LOCAL-PHA": {
     "originChain": "equilibrium_parachain",
@@ -4495,7 +4531,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "eqdot.png"
   },
   "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7": {
     "originChain": "boba",
@@ -4541,7 +4577,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "avt.png"
   },
   "aventus_testnet-NATIVE-AVT": {
     "originChain": "aventus_testnet",
@@ -4555,7 +4591,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "default.png"
+    "icon": "avt.png"
   },
   "bifrost-LOCAL-MOVR": {
     "originChain": "bifrost",
@@ -4591,7 +4627,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "RMRK-RMRKApp",
-    "icon": "default.png"
+    "icon": "rmrk-token.png"
   },
   "bifrost-LOCAL-PHA": {
     "originChain": "bifrost",
@@ -4897,7 +4933,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "wsteth.png"
   },
   "ethereum-ERC20-THETA-0x3883f5e181fccaF8410FA61e12b59BAd963fb645": {
     "originChain": "ethereum",
@@ -5121,7 +5157,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ftm.png"
   },
   "ethereum-ERC20-MKR-0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
     "originChain": "ethereum",

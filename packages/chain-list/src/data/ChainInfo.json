@@ -594,7 +594,7 @@
       "blockExplorer": "https://explorer.mainnet.aventus.io/"
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "aventus.png"
   },
   "westend": {
     "slug": "westend",
@@ -817,7 +817,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "turing-network.png"
   },
   "turing": {
     "slug": "turing",
@@ -899,7 +899,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "bifrost_testnet": {
     "slug": "bifrost_testnet",
@@ -925,7 +925,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "calamari": {
     "slug": "calamari",
@@ -1004,7 +1004,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "amplitude.png"
   },
   "bobabase": {
     "slug": "bobabase",
@@ -1428,7 +1428,7 @@
       "blockExplorer": null
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "polkadex.png"
   },
   "rmrk": {
     "slug": "rmrk",
@@ -2122,7 +2122,7 @@
       "supportStaking": false
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "unique-network.png"
   },
   "robonomics": {
     "slug": "robonomics",
@@ -2963,7 +2963,7 @@
       "blockExplorer": null
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "calamarinetwork.png"
   },
   "boba": {
     "slug": "boba",
@@ -3034,7 +3034,7 @@
       "blockExplorer": "https://kilt-testnet.subscan.io/"
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "kilt.png"
   },
   "xx_network": {
     "slug": "xx_network",
@@ -4055,7 +4055,7 @@
       "blockExplorer": "https://explorer.testnet.aventus.io/"
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "aventus.png"
   },
   "vara_network": {
     "slug": "vara_network",
@@ -4080,7 +4080,7 @@
       "blockExplorer": null
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "vara.png"
   },
   "snow_evm": {
     "slug": "snow_evm",
