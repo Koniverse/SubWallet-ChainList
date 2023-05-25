@@ -3569,7 +3569,7 @@
       "contractAddress": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
     },
     "hasValue": true,
-    "multiChainAsset": null,
+    "multiChainAsset": "USDC-USDCoin",
     "icon": "usdc.png"
   },
   "moonriver-ERC20-DAI-0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844": {
@@ -5780,5 +5780,21 @@
     "hasValue": true,
     "multiChainAsset": "USDC-USDCoin",
     "icon": "usdc.png"
+  },
+  "astar-PSP34-SERPENATORS-WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D": {
+    "originChain": "astar",
+    "slug": "astar-PSP34-SERPENATORS-WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D",
+    "name": "AI SERPENATORS",
+    "decimals": 6,
+    "symbol": "SERPENATORS",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D"
+    },
+    "hasValue": true,
+    "multiChainAsset": null,
+    "icon": "default.png"
   }
 }
