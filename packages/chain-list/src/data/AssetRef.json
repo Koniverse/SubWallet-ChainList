@@ -136,35 +136,6 @@
     "path": "XCM"
   },
 
-  "moonbeam-LOCAL-xcaUSD___acala-LOCAL-aUSD": {
-    "srcAsset": "moonbeam-LOCAL-xcaUSD",
-    "destAsset": "acala-LOCAL-aUSD",
-    "srcChain": "moonbeam",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcINTR___interlay-NATIVE-INTR": {
-    "srcAsset": "moonbeam-LOCAL-xcINTR",
-    "destAsset": "interlay-NATIVE-INTR",
-    "srcChain": "moonbeam",
-    "destChain": "interlay",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xciBTC___interlay-LOCAL-iBTC": {
-    "srcAsset": "moonbeam-LOCAL-xciBTC",
-    "destAsset": "interlay-LOCAL-iBTC",
-    "srcChain": "moonbeam",
-    "destChain": "interlay",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___polkadot-NATIVE-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "polkadot-NATIVE-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "polkadot",
-    "path": "XCM"
-  },
-
   "astar-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "astar-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
