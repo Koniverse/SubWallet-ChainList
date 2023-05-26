@@ -3042,7 +3042,7 @@
     "chainStatus": "ACTIVE",
     "providers": {
       "XX Foundation": "wss://rpc.xx.network",
-      "Dwellir": "wss://xxnetwork-rpc.dwellir.com"
+      "OnFinality": "wss://xx.api.onfinality.io/public-ws"
     },
     "isTestnet": false,
     "substrateInfo": {
