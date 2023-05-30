@@ -4247,22 +4247,6 @@
     "multiChainAsset": null,
     "icon": "default.png"
   },
-  "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
-    "originChain": "shidenEvm",
-    "slug": "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c",
-    "name": "SHINOBI",
-    "decimals": 18,
-    "symbol": "SHBI",
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xec0c789c6dc019b1c19f055edf938b369d235d2c"
-    },
-    "hasValue": true,
-    "multiChainAsset": null,
-    "icon": "default.png"
-  },
   "shidenEvm-ERC20-SMS-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
     "originChain": "shidenEvm",
     "slug": "shidenEvm-ERC20-SMS-0xec0c789c6dc019b1c19f055edf938b369d235d2c",
@@ -4326,22 +4310,6 @@
     "hasValue": true,
     "multiChainAsset": null,
     "icon": "default.png"
-  },
-  "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41": {
-    "originChain": "shidenEvm",
-    "slug": "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41",
-    "name": "Kwikswap",
-    "decimals": 18,
-    "symbol": "KWIK",
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
-    },
-    "hasValue": true,
-    "multiChainAsset": null,
-    "icon": "kwik.png"
   },
   "equilibrium_parachain-LOCAL-BNB": {
     "originChain": "equilibrium_parachain",
