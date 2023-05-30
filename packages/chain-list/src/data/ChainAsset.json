@@ -332,7 +332,7 @@
     "name": "Liquid DOT",
     "symbol": "LDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": "liquid-staking-dot",
     "minAmount": "500000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -340,7 +340,7 @@
         "Token": "LDOT"
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -350,7 +350,7 @@
     "name": "Liquid Crowdloan DOT",
     "symbol": "LcDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -358,7 +358,7 @@
         "LiquidCrowdloan": 13
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -368,7 +368,7 @@
     "name": "Tapio DOT",
     "symbol": "tDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -376,7 +376,7 @@
         "StableAssetPoolToken": 0
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "tdot.png"
   },
@@ -1074,7 +1074,7 @@
     "name": "Liquid DOT",
     "symbol": "LDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1082,7 +1082,7 @@
         "ForeignAsset": 1
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -1644,7 +1644,7 @@
     "name": "Crust Shadow",
     "symbol": "CSM",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "crust-storage-market",
     "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2040,7 +2040,7 @@
     "name": "Ternoa",
     "symbol": "CAPS",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "coin-capsule",
     "minAmount": "150000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2885,7 +2885,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
-        "StableAssetId": "0"
+        "StableAssetPoolToken": "0"
       }
     },
     "multiChainAsset": null,
@@ -3073,13 +3073,13 @@
     "name": "Liquid DOT",
     "symbol": "LDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "18446744073709551618"
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -3714,7 +3714,7 @@
       "assetType": "ForeignAsset"
     },
     "hasValue": true,
-    "multiChainAsset": "KSM-Kusama",
+    "multiChainAsset": null,
     "icon": "kusama.png"
   },
   "shiden-LOCAL-MOVR": {
