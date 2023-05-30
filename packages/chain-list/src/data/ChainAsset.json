@@ -436,7 +436,7 @@
     "name": "interBTC",
     "symbol": "xciBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -1110,7 +1110,7 @@
     "name": "interBTC",
     "symbol": "iBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1128,7 +1128,7 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "kBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1466,7 +1466,7 @@
         "Token": "KINT"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "KINT-Kintsugi",
     "hasValue": true,
     "icon": "kintsugi.png"
   },
@@ -1830,11 +1830,11 @@
     "name": "Encointer",
     "symbol": "KSM",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "kusama",
     "minAmount": "3333333",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "kusama.png"
   },
@@ -2054,7 +2054,7 @@
     "name": "DataHighway Tanganika",
     "symbol": "DHX",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "datahighway",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -2348,11 +2348,11 @@
     "name": "Polkadot Collectives",
     "symbol": "DOT",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "polkadot",
     "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -2530,7 +2530,7 @@
     "name": "Creditcoin",
     "symbol": "CTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "creditcoin-2",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2544,7 +2544,7 @@
     "name": "Crown Sterling",
     "symbol": "CSOV",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "crown-sovereign",
     "minAmount": "1",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2642,7 +2642,7 @@
     "name": "RioChain",
     "symbol": "RFUEL",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "rio-defi",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2970,7 +2970,7 @@
     "name": "Karura USD",
     "symbol": "xcaUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -2988,7 +2988,7 @@
     "name": "Kintsugi",
     "symbol": "xcKINT",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "kintsugi",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3006,7 +3006,7 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "xckBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3139,7 +3139,7 @@
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3157,7 +3157,7 @@
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -3174,7 +3174,7 @@
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -3190,7 +3190,7 @@
     "name": "Karura USD",
     "symbol": "kUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3562,7 +3562,7 @@
     "name": "USD Coin",
     "decimals": 6,
     "symbol": "USDC",
-    "priceId": null,
+    "priceId": "usd-coin",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3674,7 +3674,7 @@
     "name": "Crowns",
     "decimals": 18,
     "symbol": "CWS",
-    "priceId": null,
+    "priceId": "crowns",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -4269,7 +4269,7 @@
     "name": "Standard",
     "decimals": 18,
     "symbol": "STND",
-    "priceId": null,
+    "priceId": "standard-protocol",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -4445,7 +4445,7 @@
     "name": "interBTC",
     "symbol": "iBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -4557,7 +4557,7 @@
     "name": "Aventus",
     "symbol": "AVT",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "aventus",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
