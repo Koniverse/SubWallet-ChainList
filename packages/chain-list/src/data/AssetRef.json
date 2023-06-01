@@ -92,6 +92,48 @@
     "destChain": "astarEvm",
     "path": "XCM"
   },
+  "statemint-LOCAL-USDt___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___parallel-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "parallel-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "parallel",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___equilibrium_parachain-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "equilibrium_parachain-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "equilibrium_parachain",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___bifrost_dot-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "bifrost_dot-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___acala-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "acala-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___interlay-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "interlay-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
 
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
@@ -133,6 +175,13 @@
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "acala",
     "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "acala-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "acala",
+    "destChain": "statemint",
     "path": "XCM"
   },
 
@@ -185,6 +234,46 @@
     "destAsset": "moonbeam-LOCAL-xcINTR",
     "srcChain": "interlay",
     "destChain": "moonbeam",
+    "path": "XCM"
+  },
+
+  "hydradx_main-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+
+  "parallel-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "parallel-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "parallel",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+
+  "equilibrium_parachain-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "equilibrium_parachain-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "equilibrium_parachain",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+
+  "bifrost_dot-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "bifrost_dot",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+
+  "interlay-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "interlay",
+    "destChain": "statemint",
     "path": "XCM"
   }
 }

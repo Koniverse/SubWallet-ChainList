@@ -290,6 +290,24 @@
     "hasValue": true,
     "icon": "moonbeam.png"
   },
+  "acala-LOCAL-USDT": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 12
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
   "acala-LOCAL-aUSD": {
     "originChain": "acala",
     "slug": "acala-LOCAL-aUSD",
@@ -822,6 +840,24 @@
     "hasValue": true,
     "icon": "bifrost.png"
   },
+  "bifrost_dot-LOCAL-USDT": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "2"
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
   "bifrost_testnet-NATIVE-BNC": {
     "originChain": "bifrost_testnet",
     "slug": "bifrost_testnet-NATIVE-BNC",
@@ -980,6 +1016,22 @@
     "hasValue": true,
     "icon": "parallel.png"
   },
+  "parallel-LOCAL-USDT": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
   "clover-NATIVE-CLV": {
     "originChain": "clover",
     "slug": "clover-NATIVE-CLV",
@@ -1021,6 +1073,22 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "hydradx.png"
+  },
+  "hydradx_main-LOCAL-USDT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDT",
+    "name": "Statemint USDT",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "10"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "edgeware-NATIVE-EDG": {
     "originChain": "edgeware",
