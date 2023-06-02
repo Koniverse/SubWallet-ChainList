@@ -4597,7 +4597,25 @@
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1970496628"
+      "assetId": "1970496628",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "GeneralIndex": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
     },
     "hasValue": true,
     "multiChainAsset": "USDT-Tether",
