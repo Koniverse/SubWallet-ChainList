@@ -1084,7 +1084,25 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "10"
+      "assetId": "10",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "GeneralIndex": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
