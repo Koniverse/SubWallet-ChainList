@@ -1818,7 +1818,11 @@
     "priceId": "mangata-x",
     "decimals": 18,
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "CurrencyId": "0"
+      }
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "minAmount": "0",
@@ -2673,7 +2677,9 @@
     "priceId": "sora",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "assetId": "0x0200000000000000000000000000000000000000000000000000000000000000"
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "sora.png"
