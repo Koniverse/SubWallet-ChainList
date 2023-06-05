@@ -22,7 +22,7 @@ Object.values(ChainAssetMap)
       type: chainAsset.assetType,
       decimals: chainAsset.decimals || 0,
       minAmount: chainAsset.minAmount || '',
-      minAmountConverted: new BigN(chainAsset.minAmount || 0).div(new BigN(10).pow(chainAsset.decimals || 0)).toString()
+      minAmountConverted: new BigN(chainAsset.minAmount || 0).div(new BigN(10).pow(chainAsset.decimals || 0)).toFixed()
     });
   });
 

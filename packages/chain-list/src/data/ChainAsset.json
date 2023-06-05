@@ -3009,7 +3009,7 @@
     "symbol": "xcUSDT",
     "decimals": 6,
     "priceId": "tether",
-    "minAmount": "100000000",
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "311091173110107856861649819128533077277",
@@ -3182,7 +3182,7 @@
     "symbol": "ACA",
     "decimals": 12,
     "priceId": "acala",
-    "minAmount": "1`",
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "18446744073709551616"
@@ -3327,22 +3327,6 @@
     "hasValue": true,
     "multiChainAsset": "USDT-Tether",
     "icon": "usdt.png"
-  },
-  "statemine-LOCAL-USDC": {
-    "originChain": "statemine",
-    "slug": "statemine-LOCAL-USDC",
-    "name": "USDC",
-    "symbol": "USDC",
-    "decimals": 4,
-    "priceId": "usd-coin",
-    "minAmount": "69420000000000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "10"
-    },
-    "hasValue": true,
-    "multiChainAsset": "USDC-USDCoin",
-    "icon": "usdc.png"
   },
   "statemine-LOCAL-RMRK": {
     "originChain": "statemine",
