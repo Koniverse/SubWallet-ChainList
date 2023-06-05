@@ -21,6 +21,7 @@ NOTES.md
 .pnp.*
 .idea/
 .vscode/
+!scripts/exports
 cc-test-reporter
 lerna-debug.log*
 npm-debug.log*
