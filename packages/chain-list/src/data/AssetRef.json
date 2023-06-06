@@ -85,13 +85,6 @@
     "destChain": "astar",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDt___astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
-    "srcAsset": "statemint-LOCAL-USDt",
-    "destAsset": "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0",
-    "srcChain": "statemint",
-    "destChain": "astarEvm",
-    "path": "XCM"
-  },
   "statemint-LOCAL-USDt___hydradx_main-LOCAL-USDT": {
     "srcAsset": "statemint-LOCAL-USDt",
     "destAsset": "hydradx_main-LOCAL-USDT",
