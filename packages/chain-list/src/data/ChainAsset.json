@@ -872,7 +872,7 @@
         "VToken2": "0"
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
@@ -890,7 +890,7 @@
         "VSToken2": "0"
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
@@ -908,7 +908,7 @@
         "VToken2": "1"
       }
     },
-    "multiChainAsset": "GLMR-Moonbeam",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
@@ -3070,7 +3070,7 @@
         "VToken": "KSM"
       }
     },
-    "multiChainAsset": "KSM-Kusama",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
@@ -3088,7 +3088,7 @@
         "VSToken": "KSM"
       }
     },
-    "multiChainAsset": "KSM-Kusama",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
@@ -3106,7 +3106,7 @@
         "VToken": "MOVR"
       }
     },
-    "multiChainAsset": "MOVR-Moonriver",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
@@ -3124,7 +3124,7 @@
         "VToken": "BNC"
       }
     },
-    "multiChainAsset": "BNC-BifrostKusama",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
   },
