@@ -290,6 +290,24 @@
     "hasValue": true,
     "icon": "moonbeam.png"
   },
+  "acala-LOCAL-USDT": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 12
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
   "acala-LOCAL-aUSD": {
     "originChain": "acala",
     "slug": "acala-LOCAL-aUSD",
@@ -332,7 +350,7 @@
     "name": "Liquid DOT",
     "symbol": "LDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": "liquid-staking-dot",
     "minAmount": "500000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -340,7 +358,7 @@
         "Token": "LDOT"
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -350,7 +368,7 @@
     "name": "Liquid Crowdloan DOT",
     "symbol": "LcDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -358,7 +376,7 @@
         "LiquidCrowdloan": 13
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -368,7 +386,7 @@
     "name": "Tapio DOT",
     "symbol": "tDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -376,7 +394,7 @@
         "StableAssetPoolToken": 0
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "tdot.png"
   },
@@ -436,7 +454,7 @@
     "name": "interBTC",
     "symbol": "xciBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -482,7 +500,7 @@
     },
     "multiChainAsset": "aUSD-AcalaDollar",
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ausd.png"
   },
   "moonbeam-ERC721-MFBB-0x02a6dec99b2ca768d638fcd87a96f6069f91287c": {
     "originChain": "moonbeam",
@@ -558,7 +576,7 @@
                 "Parachain": 1000
               },
               {
-                "GeneralIndex": 50
+                "PalletInstance": 50
               },
               {
                 "GeneralIndex": 1984
@@ -702,9 +720,9 @@
     "metadata": {
       "assetId": "25969"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "EQ-Equilibrium",
     "hasValue": true,
-    "icon": "equilibrium.png"
+    "icon": "eq.png"
   },
   "equilibrium_parachain-LOCAL-ACA": {
     "originChain": "equilibrium_parachain",
@@ -806,7 +824,7 @@
     "metadata": null,
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "bifrost_dot-NATIVE-BNC": {
     "originChain": "bifrost_dot",
@@ -820,7 +838,25 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
+  },
+  "bifrost_dot-LOCAL-USDT": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "2"
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "bifrost_dot-LOCAL-vDOT": {
     "originChain": "bifrost_dot",
@@ -888,7 +924,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "calamari-NATIVE-KMA": {
     "originChain": "calamari",
@@ -1034,6 +1070,22 @@
     "hasValue": true,
     "icon": "parallel.png"
   },
+  "parallel-LOCAL-USDT": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
   "clover-NATIVE-CLV": {
     "originChain": "clover",
     "slug": "clover-NATIVE-CLV",
@@ -1075,6 +1127,40 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "hydradx.png"
+  },
+  "hydradx_main-LOCAL-USDT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDT",
+    "name": "Statemint USDT",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "10",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "edgeware-NATIVE-EDG": {
     "originChain": "edgeware",
@@ -1128,7 +1214,7 @@
     "name": "Liquid DOT",
     "symbol": "LDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1136,7 +1222,7 @@
         "ForeignAsset": 1
       }
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -1164,7 +1250,7 @@
     "name": "interBTC",
     "symbol": "iBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1182,7 +1268,7 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "kBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1520,7 +1606,7 @@
         "Token": "KINT"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "KINT-Kintsugi",
     "hasValue": true,
     "icon": "kintsugi.png"
   },
@@ -1698,7 +1784,7 @@
     "name": "Crust Shadow",
     "symbol": "CSM",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "crust-storage-market",
     "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -1790,7 +1876,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ckton.png"
   },
   "pangolin-NATIVE-PRING": {
     "originChain": "pangolin",
@@ -1820,7 +1906,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ckton.png"
   },
   "chainx-NATIVE-PCX": {
     "originChain": "chainx",
@@ -1872,7 +1958,11 @@
     "priceId": "mangata-x",
     "decimals": 18,
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "CurrencyId": "0"
+      }
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "minAmount": "0",
@@ -1884,11 +1974,11 @@
     "name": "Encointer",
     "symbol": "KSM",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "kusama",
     "minAmount": "3333333",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "kusama.png"
   },
@@ -2094,7 +2184,7 @@
     "name": "Ternoa",
     "symbol": "CAPS",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "coin-capsule",
     "minAmount": "150000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2108,7 +2198,7 @@
     "name": "DataHighway Tanganika",
     "symbol": "DHX",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "datahighway",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -2240,7 +2330,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "default.png"
+    "icon": "pilt.png"
   },
   "xx_network-NATIVE-xx": {
     "originChain": "xx_network",
@@ -2248,7 +2338,7 @@
     "name": "XX Network",
     "symbol": "xx",
     "decimals": 9,
-    "priceId": null,
+    "priceId": "xxcoin",
     "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2402,11 +2492,11 @@
     "name": "Polkadot Collectives",
     "symbol": "DOT",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "polkadot",
     "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -2584,7 +2674,7 @@
     "name": "Creditcoin",
     "symbol": "CTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "creditcoin-2",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2598,7 +2688,7 @@
     "name": "Crown Sterling",
     "symbol": "CSOV",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "crown-sovereign",
     "minAmount": "1",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2696,7 +2786,7 @@
     "name": "RioChain",
     "symbol": "RFUEL",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "rio-defi",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2727,7 +2817,9 @@
     "priceId": "sora",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "assetId": "0x0200000000000000000000000000000000000000000000000000000000000000"
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "sora.png"
@@ -2926,7 +3018,25 @@
     },
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
+  },
+  "karura-LOCAL-tKSM": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-tKSM",
+    "name": "Taiga KSM",
+    "symbol": "tKSM",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "StableAssetPoolToken": "0"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "taiksm.png"
   },
   "bifrost-LOCAL-KSM": {
     "originChain": "bifrost",
@@ -3025,7 +3135,7 @@
     "symbol": "xcUSDT",
     "decimals": 6,
     "priceId": "tether",
-    "minAmount": "100000000",
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "311091173110107856861649819128533077277",
@@ -3036,13 +3146,49 @@
     "hasValue": true,
     "icon": "usdt.png"
   },
+  "moonbeam-LOCAL-xcEQ": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcEQ",
+    "name": "Equilibrium Token",
+    "symbol": "xcEQ",
+    "decimals": 9,
+    "priceId": "equilibrium-token",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "190590555344745888270686124937537713878",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFffFFfFf8f6267e040D8a0638C576dfBa4F0F6D6"
+    },
+    "multiChainAsset": "EQ-Equilibrium",
+    "hasValue": true,
+    "icon": "eq.png"
+  },
+  "moonbeam-LOCAL-xcEQD": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcEQD",
+    "name": "Equilibrium Dollar",
+    "symbol": "xcEQD",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "187224307232923873519830480073807488153",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFffFfFF8cdA1707bAF23834d211B08726B1E499"
+    },
+    "multiChainAsset": "EQD-EquilibriumUSD",
+    "hasValue": true,
+    "icon": "eqd.png"
+  },
   "moonriver-LOCAL-xcaUSD": {
     "originChain": "moonriver",
     "slug": "moonriver-LOCAL-xcaUSD",
     "name": "Karura USD",
     "symbol": "xcaUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3052,7 +3198,7 @@
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ausd.png"
   },
   "moonriver-LOCAL-xcKINT": {
     "originChain": "moonriver",
@@ -3060,7 +3206,7 @@
     "name": "Kintsugi",
     "symbol": "xcKINT",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "kintsugi",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3078,7 +3224,7 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "xckBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3106,7 +3252,7 @@
     },
     "multiChainAsset": "BNC-BifrostKusama",
     "hasValue": true,
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "astar-LOCAL-aUSD": {
     "originChain": "astar",
@@ -3145,13 +3291,13 @@
     "name": "Liquid DOT",
     "symbol": "LDOT",
     "decimals": 10,
-    "priceId": "polkadot",
+    "priceId": null,
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "18446744073709551618"
     },
-    "multiChainAsset": "DOT-Polkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "polkadot.png"
   },
@@ -3162,7 +3308,7 @@
     "symbol": "ACA",
     "decimals": 12,
     "priceId": "acala",
-    "minAmount": "1`",
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "18446744073709551616"
@@ -3211,7 +3357,7 @@
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3229,7 +3375,7 @@
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -3246,7 +3392,7 @@
     "name": "Karura USD",
     "symbol": "aUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3262,7 +3408,7 @@
     "name": "Karura USD",
     "symbol": "kUSD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "acala-dollar",
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3308,22 +3454,6 @@
     "multiChainAsset": "USDT-Tether",
     "icon": "usdt.png"
   },
-  "statemine-LOCAL-USDC": {
-    "originChain": "statemine",
-    "slug": "statemine-LOCAL-USDC",
-    "name": "USDC",
-    "symbol": "USDC",
-    "decimals": 4,
-    "priceId": "usd-coin",
-    "minAmount": "69420000000000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "10"
-    },
-    "hasValue": true,
-    "multiChainAsset": "USDC-USDCoin",
-    "icon": "usdc.png"
-  },
   "statemine-LOCAL-RMRK": {
     "originChain": "statemine",
     "slug": "statemine-LOCAL-RMRK",
@@ -3338,7 +3468,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "RMRK-RMRKApp",
-    "icon": "default.png"
+    "icon": "rmrk-token.png"
   },
   "statemine-LOCAL-ARIS": {
     "originChain": "statemine",
@@ -3634,14 +3764,14 @@
     "name": "USD Coin",
     "decimals": 6,
     "symbol": "USDC",
-    "priceId": null,
+    "priceId": "usd-coin",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
     },
     "hasValue": true,
-    "multiChainAsset": null,
+    "multiChainAsset": "USDC-USDCoin",
     "icon": "usdc.png"
   },
   "moonriver-ERC20-DAI-0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844": {
@@ -3746,7 +3876,7 @@
     "name": "Crowns",
     "decimals": 18,
     "symbol": "CWS",
-    "priceId": null,
+    "priceId": "crowns",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3786,7 +3916,7 @@
       "assetType": "ForeignAsset"
     },
     "hasValue": true,
-    "multiChainAsset": "KSM-Kusama",
+    "multiChainAsset": null,
     "icon": "kusama.png"
   },
   "shiden-LOCAL-MOVR": {
@@ -3901,7 +4031,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "bai.png"
   },
   "astarEvm-ERC20-ATID-0x5271d85ce4241b310c0b34b7c2f1f036686a6d7c": {
     "originChain": "astarEvm",
@@ -3997,7 +4127,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "crv.png"
   },
   "astarEvm-ERC20-DAI-0x6De33698e9e9b787e09d3Bd7771ef63557E148bb": {
     "originChain": "astarEvm",
@@ -4125,7 +4255,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "wastr.png"
   },
   "astarEvm-ERC20-ARSW_LP-0x87988EbDE7E661F44eB3a586C5E0cEAB533a2d9C": {
     "originChain": "astarEvm",
@@ -4141,7 +4271,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "arthswap.png"
   },
   "astarEvm-ERC20-KOS-0xbcF7aa4fC081f5670d9b8a1BdD1cFd98DCAeE6e6": {
     "originChain": "astarEvm",
@@ -4301,7 +4431,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "wsdn.png"
   },
   "shidenEvm-ERC20-Kac-0xb12c13e66ade1f72f71834f2fc5082db8c091358": {
     "originChain": "shidenEvm",
@@ -4314,22 +4444,6 @@
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xb12c13e66ade1f72f71834f2fc5082db8c091358"
-    },
-    "hasValue": true,
-    "multiChainAsset": null,
-    "icon": "default.png"
-  },
-  "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c": {
-    "originChain": "shidenEvm",
-    "slug": "shidenEvm-ERC20-SHBI-0xec0c789c6dc019b1c19f055edf938b369d235d2c",
-    "name": "SHINOBI",
-    "decimals": 18,
-    "symbol": "SHBI",
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xec0c789c6dc019b1c19f055edf938b369d235d2c"
     },
     "hasValue": true,
     "multiChainAsset": null,
@@ -4357,7 +4471,7 @@
     "name": "Standard",
     "decimals": 18,
     "symbol": "STND",
-    "priceId": null,
+    "priceId": "standard-protocol",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -4399,22 +4513,6 @@
     "multiChainAsset": null,
     "icon": "default.png"
   },
-  "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41": {
-    "originChain": "shidenEvm",
-    "slug": "shidenEvm-ERC20-KWIK-0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41",
-    "name": "Kwikswap",
-    "decimals": 18,
-    "symbol": "KWIK",
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xa9b79AAB9d60e8e6d08D2cbAd56ff0De58ff8d41"
-    },
-    "hasValue": true,
-    "multiChainAsset": null,
-    "icon": "default.png"
-  },
   "equilibrium_parachain-LOCAL-BNB": {
     "originChain": "equilibrium_parachain",
     "slug": "equilibrium_parachain-LOCAL-BNB",
@@ -4445,7 +4543,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "BNC-BifrostKusama",
-    "icon": "bifrost-kusama.png"
+    "icon": "bifrost.png"
   },
   "equilibrium_parachain-LOCAL-CRU": {
     "originChain": "equilibrium_parachain",
@@ -4477,7 +4575,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "EQD-EquilibriumUSD",
-    "icon": "default.png"
+    "icon": "eqd.png"
   },
   "equilibrium_parachain-LOCAL-PHA": {
     "originChain": "equilibrium_parachain",
@@ -4549,7 +4647,7 @@
     "name": "interBTC",
     "symbol": "iBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
@@ -4601,7 +4699,25 @@
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1970496628"
+      "assetId": "1970496628",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
     },
     "hasValue": true,
     "multiChainAsset": "USDT-Tether",
@@ -4621,7 +4737,7 @@
     },
     "hasValue": true,
     "multiChainAsset": null,
-    "icon": "default.png"
+    "icon": "eqdot.png"
   },
   "boba-ERC20-BOBA-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7": {
     "originChain": "boba",
@@ -4661,13 +4777,13 @@
     "name": "Aventus",
     "symbol": "AVT",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "aventus",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "avt.png"
   },
   "aventus_testnet-NATIVE-AVT": {
     "originChain": "aventus_testnet",
@@ -4681,7 +4797,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "default.png"
+    "icon": "avt.png"
   },
   "bifrost-LOCAL-MOVR": {
     "originChain": "bifrost",
@@ -4717,7 +4833,7 @@
     },
     "hasValue": true,
     "multiChainAsset": "RMRK-RMRKApp",
-    "icon": "default.png"
+    "icon": "rmrk-token.png"
   },
   "bifrost-LOCAL-PHA": {
     "originChain": "bifrost",
@@ -5023,7 +5139,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "wsteth.png"
   },
   "ethereum-ERC20-THETA-0x3883f5e181fccaF8410FA61e12b59BAd963fb645": {
     "originChain": "ethereum",
@@ -5247,7 +5363,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "ftm.png"
   },
   "ethereum-ERC20-MKR-0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
     "originChain": "ethereum",
@@ -5709,7 +5825,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vara.png"
   },
   "snow_evm-NATIVE-ICZ": {
     "originChain": "snow_evm",
@@ -5723,6 +5839,150 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
+    "icon": "default.png"
+  },
+  "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "optimism-ERC20-USDT-0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-USDT-0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "tomochain-ERC20-USDT-0x381B31409e4D220919B2cFF012ED94d70135A59e": {
+    "originChain": "tomochain",
+    "slug": "tomochain-ERC20-USDT-0x381B31409e4D220919B2cFF012ED94d70135A59e",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x381B31409e4D220919B2cFF012ED94d70135A59e"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "optimism-ERC20-USDC-0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-USDC-0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "tomochain-ERC20-USDC-0xCCA4E6302510d555B654B3EaB9c0fCB223BCFDf0": {
+    "originChain": "tomochain",
+    "slug": "tomochain-ERC20-USDC-0xCCA4E6302510d555B654B3EaB9c0fCB223BCFDf0",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xCCA4E6302510d555B654B3EaB9c0fCB223BCFDf0"
+    },
+    "hasValue": true,
+    "multiChainAsset": "USDC-USDCoin",
+    "icon": "usdc.png"
+  },
+  "astar-PSP34-SERPENATORS-WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D": {
+    "originChain": "astar",
+    "slug": "astar-PSP34-SERPENATORS-WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D",
+    "name": "AI SERPENATORS",
+    "decimals": 6,
+    "symbol": "SERPENATORS",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D"
+    },
+    "hasValue": true,
+    "multiChainAsset": null,
     "icon": "default.png"
   }
 }

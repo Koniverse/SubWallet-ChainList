@@ -10,10 +10,10 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.1.7",
+  "version": "0.1.10-beta.2",
   "versions": {
-    "git": "0.1.7",
-    "npm": "0.1.7"
+    "git": "0.1.10-beta.2",
+    "npm": "0.1.10-beta.2"
   },
   "workspaces": [
     "packages/*"
@@ -31,6 +31,7 @@
   },
   "scripts": {
     "build": "yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:release": "subwallet-ci-ghact-build",
     "build:rollup": "polkadot-exec-rollup --config",
@@ -41,6 +42,8 @@
     "export": "export-assets && export-chains && export-xcm-channels",
     "lint": "polkadot-dev-run-lint",
     "postinstall": "polkadot-dev-yarn-only && patch-package",
+    "publish:beta": "yarn build:beta && cd ./packages/chain-list/build && npm publish --target --tag beta",
+    "publish:latest": "yarn build && cd ./packages/chain-list/build && npm publish --target --tag lastest",
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
     "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit"
   },
@@ -54,6 +57,7 @@
     "@json2csv/plainjs": "^6.1.3",
     "@polkadot/dev": "^0.67.167",
     "@types/jest": "^29.2.4",
+    "bignumber.js": "^9.1.1",
     "copyfiles": "^2.4.1",
     "gh-pages": "^5.0.0",
     "patch-package": "^6.4.7",
