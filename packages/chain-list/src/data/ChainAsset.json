@@ -5529,6 +5529,22 @@
     "hasValue": true,
     "icon": "default.png"
   },
+  "astar-PSP34-Neurolauncher-bYLgJmSkWd4S4pTEacF2sNBWFeM4bNerS27FgNVcC9SqRE4": {
+    "originChain": "astar",
+    "slug": "astar-PSP34-Neurolauncher-bYLgJmSkWd4S4pTEacF2sNBWFeM4bNerS27FgNVcC9SqRE4",
+    "name": "Neurolauncher",
+    "symbol": "NRL",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "bYLgJmSkWd4S4pTEacF2sNBWFeM4bNerS27FgNVcC9SqRE4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "neurolauncher.png"
+  },
   "astarEvm-ERC721-AP-0x1b57C69838cDbC59c8236DDa73287a4780B4831F": {
     "originChain": "astarEvm",
     "slug": "astarEvm-ERC721-AP-0x1b57C69838cDbC59c8236DDa73287a4780B4831F",
