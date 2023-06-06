@@ -85,13 +85,6 @@
     "destChain": "astar",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDt___astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
-    "srcAsset": "statemint-LOCAL-USDt",
-    "destAsset": "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0",
-    "srcChain": "statemint",
-    "destChain": "astarEvm",
-    "path": "XCM"
-  },
   "statemint-LOCAL-USDt___hydradx_main-LOCAL-USDT": {
     "srcAsset": "statemint-LOCAL-USDt",
     "destAsset": "hydradx_main-LOCAL-USDT",
@@ -135,13 +128,6 @@
     "path": "XCM"
   },
 
-  "moonbeam-LOCAL-xcaUSD___acala-LOCAL-aUSD": {
-    "srcAsset": "moonbeam-LOCAL-xcaUSD",
-    "destAsset": "acala-LOCAL-aUSD",
-    "srcChain": "moonbeam",
-    "destChain": "acala",
-    "path": "XCM"
-  },
   "moonbeam-LOCAL-xcINTR___interlay-NATIVE-INTR": {
     "srcAsset": "moonbeam-LOCAL-xcINTR",
     "destAsset": "interlay-NATIVE-INTR",
@@ -178,32 +164,11 @@
     "destChain": "moonbeam",
     "path": "XCM"
   },
-  "acala-LOCAL-aUSD___moonbeam-LOCAL-xcaUSD": {
-    "srcAsset": "acala-LOCAL-aUSD",
-    "destAsset": "moonbeam-LOCAL-xcaUSD",
-    "srcChain": "acala",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
   "acala-LOCAL-GLMR___moonbeam-NATIVE-GLMR": {
     "srcAsset": "acala-LOCAL-GLMR",
     "destAsset": "moonbeam-NATIVE-GLMR",
     "srcChain": "acala",
     "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "acala-LOCAL-aUSD___astar-LOCAL-aUSD": {
-    "srcAsset": "acala-LOCAL-aUSD",
-    "destAsset": "astar-LOCAL-aUSD",
-    "srcChain": "acala",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "acala-LOCAL-aUSD___astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001": {
-    "srcAsset": "acala-LOCAL-aUSD",
-    "destAsset": "astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001",
-    "srcChain": "acala",
-    "destChain": "astarEvm",
     "path": "XCM"
   },
   "acala-LOCAL-DOT___polkadot-NATIVE-DOT": {
@@ -231,13 +196,6 @@
   "astar-NATIVE-ASTR___acala-LOCAL-ASTR": {
     "srcAsset": "astar-NATIVE-ASTR",
     "destAsset": "acala-LOCAL-ASTR",
-    "srcChain": "astar",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "astar-LOCAL-aUSD___acala-LOCAL-aUSD": {
-    "srcAsset": "astar-LOCAL-aUSD",
-    "destAsset": "acala-LOCAL-aUSD",
     "srcChain": "astar",
     "destChain": "acala",
     "path": "XCM"
