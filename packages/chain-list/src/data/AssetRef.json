@@ -13,9 +13,9 @@
     "destChain": "acala",
     "path": "XCM"
   },
-  "polkadot-NATIVE-DOT___astar-NATIVE-ASTR": {
+  "polkadot-NATIVE-DOT___astar-LOCAL-DOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
-    "destAsset": "astar-NATIVE-ASTR",
+    "destAsset": "astar-LOCAL-DOT",
     "srcChain": "polkadot",
     "destChain": "astar",
     "path": "XCM"
