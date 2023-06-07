@@ -10,10 +10,14 @@ Object.entries(AssetRefMap).forEach(([slug, assetRef]) => {
 
   if (assetRef.path === 'XCM') {
     const srcAsset = ChainAssetMap[assetRef.srcAsset];
+    const destAsset = ChainAssetMap[assetRef.destAsset];
 
-    if (!srcAsset) {
+    if (!srcAsset || !destAsset) {
       console.error('Asset not found: ', assetRef);
     } else {
+      if (!(srcAsset.symbol.toLowerCase().includes(destAsset.symbol.toLowerCase()) || destAsset.symbol.toLowerCase().includes(srcAsset.symbol.toLowerCase()))) {
+        console.error('Symbol mismatch: ', assetRef);
+      }
       if (['astar', 'shiden', 'statemine', 'statemint', 'pioneer'].includes(srcAsset.originChain)) {
         if (!srcAsset?.metadata?.multilocation) {
           console.error('Token must have multilocation: ', assetRef.srcAsset);
