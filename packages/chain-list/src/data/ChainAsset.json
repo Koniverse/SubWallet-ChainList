@@ -874,7 +874,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vdot.png"
   },
   "bifrost_dot-LOCAL-vsDOT": {
     "originChain": "bifrost_dot",
@@ -892,7 +892,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vsdot.png"
   },
   "bifrost_dot-LOCAL-vGLMR": {
     "originChain": "bifrost_dot",
@@ -910,7 +910,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vglmr.png"
   },
   "bifrost_testnet-NATIVE-BNC": {
     "originChain": "bifrost_testnet",
@@ -3072,7 +3072,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vksm.png"
   },
   "bifrost-LOCAL-vsKSM": {
     "originChain": "bifrost",
@@ -3090,7 +3090,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vsksm.png"
   },
   "bifrost-LOCAL-vMOVR": {
     "originChain": "bifrost",
@@ -3108,7 +3108,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vmovr.png"
   },
   "bifrost-LOCAL-vBNC": {
     "originChain": "bifrost",
@@ -3126,7 +3126,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "default.png"
+    "icon": "vbnc.png"
   },
   "moonbeam-LOCAL-xcUSDT": {
     "originChain": "moonbeam",
