@@ -247,14 +247,6 @@
     "path": "XCM"
   },
 
-  "equilibrium_parachain-LOCAL-USDT___statemint-LOCAL-USDt": {
-    "srcAsset": "equilibrium_parachain-LOCAL-USDT",
-    "destAsset": "statemint-LOCAL-USDt",
-    "srcChain": "equilibrium_parachain",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-
   "bifrost_dot-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "bifrost_dot-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
