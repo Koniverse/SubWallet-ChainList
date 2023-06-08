@@ -63,6 +63,116 @@
     "destChain": "bifrost",
     "path": "XCM"
   },
+  "kusama-NATIVE-KSM___kintsugi-LOCAL-KSM": {
+    "srcAsset": "kusama-NATIVE-KSM",
+    "destAsset": "kintsugi-LOCAL-KSM",
+    "srcChain": "kusama",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+
+  "kintsugi-LOCAL-KSM___moonriver-LOCAL-xcKSM": {
+    "srcAsset": "kintsugi-LOCAL-KSM",
+    "destAsset": "moonriver-LOCAL-xcKSM",
+    "srcChain": "kintsugi",
+    "destChain": "moonriver",
+    "path": "XCM"
+  },
+  "kintsugi-NATIVE-KINT___karura-LOCAL-KINT": {
+    "srcAsset": "kintsugi-NATIVE-KINT",
+    "destAsset": "karura-LOCAL-KINT",
+    "srcChain": "kintsugi",
+    "destChain": "karura",
+    "path": "XCM"
+  },
+  "kintsugi-NATIVE-KINT___moonriver-LOCAL-xcKINT": {
+    "srcAsset": "kintsugi-NATIVE-KINT",
+    "destAsset": "moonriver-LOCAL-xcKINT",
+    "srcChain": "kintsugi",
+    "destChain": "moonriver",
+    "path": "XCM"
+  },
+  "kintsugi-NATIVE-KINT___parallel-LOCAL-KINT": {
+    "srcAsset": "kintsugi-NATIVE-KINT",
+    "destAsset": "parallel-LOCAL-KINT",
+    "srcChain": "kintsugi",
+    "destChain": "parallel",
+    "path": "XCM"
+  },
+  "kintsugi-LOCAL-kBTC___moonriver-LOCAL-xckBTC": {
+    "srcAsset": "kintsugi-LOCAL-kBTC",
+    "destAsset": "moonriver-LOCAL-xckBTC",
+    "srcChain": "kintsugi",
+    "destChain": "moonriver",
+    "path": "XCM"
+  },
+  "kintsugi-LOCAL-kBTC___karura-LOCAL-KBTC": {
+    "srcAsset": "kintsugi-LOCAL-kBTC",
+    "destAsset": "karura-LOCAL-KBTC",
+    "srcChain": "kintsugi",
+    "destChain": "karura",
+    "path": "XCM"
+  },
+  "kintsugi-LOCAL-kBTC___parallel-LOCAL-KBTC": {
+    "srcAsset": "kintsugi-LOCAL-kBTC",
+    "destAsset": "parallel-LOCAL-KBTC",
+    "srcChain": "kintsugi",
+    "destChain": "parallel",
+    "path": "XCM"
+  },
+
+  "parallel-LOCAL-KINT___kintsugi-NATIVE-KINT": {
+    "srcAsset": "parallel-LOCAL-KINT",
+    "destAsset": "kintsugi-NATIVE-KINT",
+    "srcChain": "parallel",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "parallel-LOCAL-KBTC___kintsugi-LOCAL-kBTC": {
+    "srcAsset": "parallel-LOCAL-KBTC",
+    "destAsset": "kintsugi-LOCAL-kBTC",
+    "srcChain": "parallel",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+
+  "karura-LOCAL-KINT___kintsugi-NATIVE-KINT": {
+    "srcAsset": "karura-LOCAL-KINT",
+    "destAsset": "kintsugi-NATIVE-KINT",
+    "srcChain": "karura",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "karura-LOCAL-KBTC___kintsugi-LOCAL-kBTC": {
+    "srcAsset": "karura-LOCAL-KBTC",
+    "destAsset": "kintsugi-LOCAL-kBTC",
+    "srcChain": "karura",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+
+  "moonriver-LOCAL-xcKSM___kintsugi-LOCAL-KSM": {
+    "srcAsset": "moonriver-LOCAL-xcKSM",
+    "destAsset": "kintsugi-LOCAL-KSM",
+    "srcChain": "moonriver",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "moonriver-LOCAL-xcKINT___kintsugi-NATIVE-KINT": {
+    "srcAsset": "moonriver-LOCAL-xcKINT",
+    "destAsset": "kintsugi-NATIVE-KINT",
+    "srcChain": "moonriver",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "moonriver-LOCAL-xckBTC___kintsugi-LOCAL-kBTC": {
+    "srcAsset": "moonriver-LOCAL-xckBTC",
+    "destAsset": "kintsugi-LOCAL-kBTC",
+    "srcChain": "moonriver",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+
 
   "statemint-NATIVE-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "statemint-NATIVE-DOT",

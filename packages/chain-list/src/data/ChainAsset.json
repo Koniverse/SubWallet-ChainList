@@ -980,6 +980,38 @@
     "hasValue": true,
     "icon": "parallel.png"
   },
+  "parallel-LOCAL-KINT": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-KINT",
+    "name": "Kintsugi",
+    "symbol": "KINT",
+    "decimals": 12,
+    "priceId": "kintsugi",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "119"
+    },
+    "multiChainAsset": "KINT-Kintsugi",
+    "hasValue": true,
+    "icon": "kintsugi.png"
+  },
+  "parallel-LOCAL-KBTC": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-KBTC",
+    "name": "Kintsugi Wrapped BTC",
+    "symbol": "KBTC",
+    "decimals": 8,
+    "priceId": "kintsugi-btc",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "121"
+    },
+    "multiChainAsset": "kBTC-KintsugiWrappedBTC",
+    "hasValue": true,
+    "icon": "kbtc.png"
+  },
   "clover-NATIVE-CLV": {
     "originChain": "clover",
     "slug": "clover-NATIVE-CLV",
@@ -1128,7 +1160,7 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "kBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -1139,6 +1171,24 @@
     "multiChainAsset": "kBTC-KintsugiWrappedBTC",
     "hasValue": true,
     "icon": "kbtc.png"
+  },
+  "kintsugi-LOCAL-KSM": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KSM"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "nodle-NATIVE-NODL": {
     "originChain": "nodle",
@@ -2838,6 +2888,42 @@
     "hasValue": true,
     "icon": "kusama.png"
   },
+  "karura-LOCAL-KINT": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-KINT",
+    "name": "Kintsugi",
+    "symbol": "KINT",
+    "decimals": 12,
+    "priceId": "kintsugi",
+    "minAmount": "133330000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KINT"
+      }
+    },
+    "multiChainAsset": "KINT-Kintsugi",
+    "hasValue": true,
+    "icon": "kintsugi.png"
+  },
+  "karura-LOCAL-KBTC": {
+    "originChain": "karura",
+    "slug": "karura-LOCAL-KBTC",
+    "name": "Kintsugi Wrapped BTC",
+    "symbol": "KBTC",
+    "decimals": 8,
+    "priceId": "kintsugi-btc",
+    "minAmount": "66",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "KBTC"
+      }
+    },
+    "multiChainAsset": "kBTC-KintsugiWrappedBTC",
+    "hasValue": true,
+    "icon": "kbtc.png"
+  },
   "karura-LOCAL-NEER": {
     "originChain": "karura",
     "slug": "karura-LOCAL-NEER",
@@ -3006,7 +3092,7 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "xckBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3562,7 +3648,7 @@
     "name": "USD Coin",
     "decimals": 6,
     "symbol": "USDC",
-    "priceId": null,
+    "priceId": "usd-coin",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {

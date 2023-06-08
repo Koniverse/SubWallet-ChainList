@@ -132,7 +132,7 @@
     "originChainAsset": "kintsugi-NATIVE-KINT",
     "name": "Kintsugi",
     "symbol": "KINT",
-    "priceId": null,
+    "priceId": "kintsugi",
     "hasValue": true
   },
   "kBTC-KintsugiWrappedBTC": {
@@ -140,7 +140,7 @@
     "originChainAsset": "kintsugi-LOCAL-kBTC",
     "name": "Kintsugi Wrapped BTC",
     "symbol": "kBTC",
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "hasValue": true
   },
   "USDC-USDCoin": {
