@@ -5973,13 +5973,29 @@
     "originChain": "astar",
     "slug": "astar-PSP34-SERPENATORS-WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D",
     "name": "AI SERPENATORS",
-    "decimals": 6,
+    "decimals": null,
     "symbol": "SERPENATORS",
     "priceId": null,
     "minAmount": null,
     "assetType": "PSP34",
     "metadata": {
       "contractAddress": "WCX5y1WsgPBxQqtn75jXNtHey9w4EZSEKCdjg2jX3gcA97D"
+    },
+    "hasValue": true,
+    "multiChainAsset": null,
+    "icon": "default.png"
+  },
+  "astar-PSP34-USAGII-WvyVtR9Ktvxa9fRRFJPXvEgYTU5K5Lf491xzFhMQL3haDN6": {
+    "originChain": "astar",
+    "slug": "astar-PSP34-USAGII-WvyVtR9Ktvxa9fRRFJPXvEgYTU5K5Lf491xzFhMQL3haDN6",
+    "name": "USAGII",
+    "decimals": null,
+    "symbol": "USAGII",
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "WvyVtR9Ktvxa9fRRFJPXvEgYTU5K5Lf491xzFhMQL3haDN6"
     },
     "hasValue": true,
     "multiChainAsset": null,
