@@ -22,7 +22,7 @@ Object.entries(ChainAssetMap).forEach(([assetSlug, chainAsset]) => {
   const tokenSymbol = assetSlug.split('-')[2];
 
   const isValidOriginChain = originChainSlug === chainAsset.originChain && originChainSlug in ChainInfoMap;
-  const isValidTokenType = ASSET_TYPES.includes(tokenType);
+  const isValidTokenType = ASSET_TYPES.includes(tokenType) && tokenType === chainAsset.assetType.toString();
   const isValidTokenSymbol = tokenSymbol === chainAsset.symbol;
 
   if (!(isValidOriginChain && isValidTokenType && isValidTokenSymbol)) {
