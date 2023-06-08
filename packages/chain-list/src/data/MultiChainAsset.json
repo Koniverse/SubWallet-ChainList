@@ -76,7 +76,7 @@
     "originChainAsset": "karura-LOCAL-aUSD",
     "name": "Karura Dollar",
     "symbol": "aUSD",
-    "priceId": null,
+    "priceId": "acala-dollar",
     "hasValue": true
   },
   "DEV-MoonbaseDev": {
@@ -124,7 +124,7 @@
     "originChainAsset": "interlay-LOCAL-iBTC",
     "name": "interBTC",
     "symbol": "iBTC",
-    "priceId": null,
+    "priceId": "interbtc",
     "hasValue": true
   },
   "KINT-Kintsugi": {
@@ -132,7 +132,7 @@
     "originChainAsset": "kintsugi-NATIVE-KINT",
     "name": "Kintsugi",
     "symbol": "KINT",
-    "priceId": null,
+    "priceId": "kintsugi",
     "hasValue": true
   },
   "kBTC-KintsugiWrappedBTC": {
@@ -140,7 +140,7 @@
     "originChainAsset": "kintsugi-LOCAL-kBTC",
     "name": "Kintsugi Wrapped BTC",
     "symbol": "kBTC",
-    "priceId": null,
+    "priceId": "kintsugi-btc",
     "hasValue": true
   },
   "USDC-USDCoin": {

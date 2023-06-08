@@ -1081,8 +1081,8 @@
     "name": "Parallel",
     "chainStatus": "ACTIVE",
     "providers": {
-      "OnFinality": "wss://parallel.api.onfinality.io/public-ws",
-      "Parallel": "wss://rpc.parallel.fi"
+      "Parallel": "wss://rpc.parallel.fi",
+      "OnFinality": "wss://parallel.api.onfinality.io/public-ws"
     },
     "isTestnet": false,
     "substrateInfo": {
