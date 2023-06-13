@@ -933,8 +933,7 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
-      "Manta Network": "wss://ws.calamari.systems/",
-      "OnFinality": "wss://calamari.api.onfinality.io/public-ws"
+      "Manta Network": "wss://calamari.systems"
     },
     "substrateInfo": {
       "paraId": 2084,
