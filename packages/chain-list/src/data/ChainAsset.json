@@ -6045,6 +6045,22 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "default.png"
+    "icon": "kate.png"
+  },
+  "aleph-PSP22-INW-5H4aCwLKUpVpct6XGJzDGPPXFockNKQU2JUVNgUw6BXEPzST": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-INW-5H4aCwLKUpVpct6XGJzDGPPXFockNKQU2JUVNgUw6BXEPzST",
+    "name": "Ink Whale",
+    "symbol": "INW",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5H4aCwLKUpVpct6XGJzDGPPXFockNKQU2JUVNgUw6BXEPzST"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "inw.png"
   }
 }
