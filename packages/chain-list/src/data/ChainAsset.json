@@ -6032,5 +6032,19 @@
     "hasValue": true,
     "multiChainAsset": null,
     "icon": "default.png"
+  },
+  "kate-NATIVE-AVL": {
+    "originChain": "kate",
+    "slug": "kate-NATIVE-AVL",
+    "name": "AVL",
+    "symbol": "AVL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "default.png"
   }
 }

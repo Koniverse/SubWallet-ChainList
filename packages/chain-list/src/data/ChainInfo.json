@@ -4103,5 +4103,30 @@
       "abiExplorer": null
     },
     "icon": "snow-network.png"
+  },
+  "kate": {
+    "slug": "kate",
+    "name": "Avail Kate Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "AVAIL": "wss://kate.avail.tools/ws"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xd12003ac837853b062aaccca5ce87ac4838c48447e41db4a3dcfb5bf312350c6",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "symbol": "AVL",
+      "existentialDeposit": "10000000000000",
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null,
+    "icon": "kate.png"
   }
 }
