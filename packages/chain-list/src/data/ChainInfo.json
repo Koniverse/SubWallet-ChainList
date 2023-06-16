@@ -274,7 +274,7 @@
   },
   "statemint": {
     "slug": "statemint",
-    "name": "Statemint",
+    "name": "Polkadot asset hub (Statemint)",
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://statemint-rpc.polkadot.io",
@@ -300,7 +300,7 @@
       "supportStaking": false
     },
     "evmInfo": null,
-    "icon": "statemine.png"
+    "icon": "polkadot-asset-hub.png"
   },
   "acala": {
     "slug": "acala",
@@ -929,7 +929,7 @@
   },
   "calamari": {
     "slug": "calamari",
-    "name": "Calamari Parachain",
+    "name": "Calamari",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
@@ -1615,7 +1615,7 @@
   },
   "statemine": {
     "slug": "statemine",
-    "name": "Statemine",
+    "name": "Kusama asset hub (Statemine)",
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://statemine-rpc.polkadot.io",
@@ -1641,7 +1641,7 @@
       "supportStaking": false
     },
     "evmInfo": null,
-    "icon": "statemine.png"
+    "icon": "kusama-asset-hub.png"
   },
   "karura": {
     "slug": "karura",
