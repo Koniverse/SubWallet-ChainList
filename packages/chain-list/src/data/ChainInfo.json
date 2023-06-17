@@ -274,7 +274,7 @@
   },
   "statemint": {
     "slug": "statemint",
-    "name": "Polkadot asset hub (Statemint)",
+    "name": "Polkadot Asset Hub (Statemint)",
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://statemint-rpc.polkadot.io",
@@ -1615,7 +1615,7 @@
   },
   "statemine": {
     "slug": "statemine",
-    "name": "Kusama asset hub (Statemine)",
+    "name": "Kusama Asset Hub (Statemine)",
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://statemine-rpc.polkadot.io",
