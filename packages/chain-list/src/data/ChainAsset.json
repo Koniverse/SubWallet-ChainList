@@ -926,6 +926,7 @@
     "hasValue": false,
     "icon": "bifrost.png"
   },
+
   "calamari-NATIVE-KMA": {
     "originChain": "calamari",
     "slug": "calamari-NATIVE-KMA",
@@ -935,11 +936,222 @@
     "priceId": "calamari-network",
     "minAmount": "100000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "assetId": "1"
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "calamarinetwork.png"
   },
+  "calamari-LOCAL-zkKMA": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkKMA",
+    "name": "Calamari",
+    "symbol": "zkKMA",
+    "decimals": 12,
+    "priceId": "calamari-network",
+    "minAmount": "100000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "calamarinetwork.png"
+  },
+  "calamari-LOCAL-USDT": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "14"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "calamari-LOCAL-zkUSDT": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkUSDT",
+    "name": "Tether USD",
+    "symbol": "zkUSDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "14"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
+  "calamari-LOCAL-DAI": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-DAI",
+    "name": "DAI Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "10000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "15"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "dai.png"
+  },
+  "calamari-LOCAL-zkDAI": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkDAI",
+    "name": "DAI Stablecoin",
+    "symbol": "zkDAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "10000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "15"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "dai.png"
+  },
+  "calamari-LOCAL-USDC": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "16"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "usdc.png"
+  },
+  "calamari-LOCAL-zkUSDC": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkUSDC",
+    "name": "USD Coin",
+    "symbol": "zkUSDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "16"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "usdc.png"
+  },
+  "calamari-LOCAL-KAR": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-KAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "decimals": 12,
+    "priceId": "karura",
+    "minAmount": "100000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "8"
+    },
+    "multiChainAsset": "KAR-Karura",
+    "hasValue": true,
+    "icon": "karura.png"
+  },
+  "calamari-LOCAL-zkKAR": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkKAR",
+    "name": "Karura",
+    "symbol": "zkKAR",
+    "decimals": 12,
+    "priceId": "karura",
+    "minAmount": "100000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "8"
+    },
+    "multiChainAsset": "KAR-Karura",
+    "hasValue": true,
+    "icon": "karura.png"
+  },
+  "calamari-LOCAL-KSM": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "33333333",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "12"
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "kusama.png"
+  },
+  "calamari-LOCAL-zkKSM": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkKSM",
+    "name": "Kusama",
+    "symbol": "zkKSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "33333333",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "12"
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "kusama.png"
+  },
+  "calamari-LOCAL-MOVR": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-MOVR",
+    "name": "Moonriver",
+    "symbol": "MOVR",
+    "decimals": 18,
+    "priceId": "moonriver",
+    "minAmount": "100000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "11"
+    },
+    "multiChainAsset": "MOVR-Moonriver",
+    "hasValue": true,
+    "icon": "moonriver.png"
+  },
+  "calamari-LOCAL-zkMOVR": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-zkMOVR",
+    "name": "Moonriver",
+    "symbol": "zkMOVR",
+    "decimals": 18,
+    "priceId": "moonriver",
+    "minAmount": "100000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "11"
+    },
+    "multiChainAsset": "MOVR-Moonriver",
+    "hasValue": true,
+    "icon": "moonriver.png"
+  },
+
   "amplitude-NATIVE-AMPE": {
     "originChain": "amplitude",
     "slug": "amplitude-NATIVE-AMPE",
