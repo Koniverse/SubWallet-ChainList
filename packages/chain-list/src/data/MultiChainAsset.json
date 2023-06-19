@@ -286,5 +286,13 @@
     "symbol": "EQ",
     "priceId": "equilibrium-token",
     "hasValue": true
+  },
+  "KMA-Calamari": {
+    "slug": "KMA-Calamari",
+    "originChainAsset": "calamari-NATIVE-KMA",
+    "name": "Calamari",
+    "symbol": "KMA",
+    "priceId": "calamari-network",
+    "hasValue": true
   }
 }
