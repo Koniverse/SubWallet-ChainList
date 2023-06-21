@@ -276,6 +276,7 @@
     "destAsset": "calamari-LOCAL-zkKMA",
     "srcChain": "calamari",
     "destChain": "calamari",
+    "displayName": "Calamari (private)",
     "path": "MANTA_ZK"
   },
   "calamari-LOCAL-zkKMA___calamari-NATIVE-KMA": {
@@ -283,6 +284,7 @@
     "destAsset": "calamari-NATIVE-KMA",
     "srcChain": "calamari",
     "destChain": "calamari",
+    "displayName": "Calamari (public)",
     "path": "MANTA_ZK"
   }
 }
