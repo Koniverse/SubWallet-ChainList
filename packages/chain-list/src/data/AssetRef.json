@@ -269,5 +269,20 @@
     "srcChain": "interlay",
     "destChain": "statemint",
     "path": "XCM"
+  },
+
+  "calamari-NATIVE-KMA___calamari-LOCAL-zkKMA": {
+    "srcAsset": "calamari-NATIVE-KMA",
+    "destAsset": "calamari-LOCAL-zkKMA",
+    "srcChain": "calamari",
+    "destChain": "calamari",
+    "path": "MANTA_ZK"
+  },
+  "calamari-LOCAL-zkKMA___calamari-NATIVE-KMA": {
+    "srcAsset": "calamari-LOCAL-zkKMA",
+    "destAsset": "calamari-NATIVE-KMA",
+    "srcChain": "calamari",
+    "destChain": "calamari",
+    "path": "MANTA_ZK"
   }
 }
