@@ -6062,5 +6062,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "inw.png"
+  },
+  "bridgeHubPolkadot-NATIVE-DOT": {
+    "originChain": "bridgeHubPolkadot",
+    "slug": "bridgeHubPolkadot-NATIVE-DOT",
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "bridgeHubKusama-NATIVE-KSM": {
+    "originChain": "bridgeHubKusama",
+    "slug": "bridgeHubKusama-NATIVE-KSM",
+    "name": "KSM",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "33333333",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "kusama.png"
   }
 }
