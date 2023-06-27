@@ -31,7 +31,7 @@
   },
   "scripts": {
     "build": "yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
-    "build:beta": "BRANCH_NAME=dev yarn build",
+    "build:beta": "BRANCH_NAME=koni/dev/issue-15 yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",
     "build:rollup": "polkadot-exec-rollup --config",
