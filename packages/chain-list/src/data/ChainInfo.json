@@ -3324,7 +3324,7 @@
       "blockExplorer": null
     },
     "evmInfo": null,
-    "icon": "collectives.png"
+    "icon": "polkadot-collectives.png"
   },
   "ajunaPolkadot": {
     "slug": "ajunaPolkadot",
@@ -4128,5 +4128,59 @@
     },
     "evmInfo": null,
     "icon": "kate.png"
+  },
+  "bridgeHubPolkadot": {
+    "slug": "bridgeHubPolkadot",
+    "name": "Polkadot Bridge Hub",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Parity": "wss://polkadot-bridge-hub-rpc.polkadot.io",
+      "Stakeworld": "wss://dot-rpc.stakeworld.io/bridgehub"
+    },
+    "substrateInfo": {
+      "paraId": 1002,
+      "relaySlug": "polkadot",
+      "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "symbol": "DOT",
+      "existentialDeposit": "1000000000",
+      "decimals": 10,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null,
+    "icon": "polkadot-bridge-hub.png"
+  },
+  "bridgeHubKusama": {
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io",
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io/bridgehub",
+      "IBP-GeoDNS1": "wss://sys.ibp.network/bridgehub-kusama",
+      "IBP-GeoDNS2": "wss://sys.dotters.network/bridgehub-kusama"
+    },
+    "substrateInfo": {
+      "paraId": 1002,
+      "relaySlug": "kusama",
+      "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
+      "addressPrefix": 2,
+      "chainType": "PARACHAIN",
+      "symbol": "KSM",
+      "existentialDeposit": "33333333",
+      "decimals": 12,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null,
+    "icon": "kusama-bridge-hub.png"
   }
 }
