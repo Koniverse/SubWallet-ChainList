@@ -69,6 +69,8 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
+      "Llamarpc": "https://eth.llamarpc.com",
+      "PublicNode": "https://ethereum.publicnode.com",
       "Cloudflare": "https://cloudflare-eth.com",
       "BlastApi": "https://eth-mainnet.public.blastapi.io",
       "Infura": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8"
