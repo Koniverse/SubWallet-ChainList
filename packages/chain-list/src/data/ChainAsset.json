@@ -6124,5 +6124,80 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "veth.png"
+  },
+  "kintsugi-LOCAL-LP_KSM_KINT": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-LP_KSM_KINT",
+    "name": "LP KSM-KINT",
+    "symbol": "LP KSM-KINT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LpToken": [
+          {
+            "Token": "KSM"
+          },
+          {
+            "Token": "KINT"
+          }
+        ]
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "lp-ksm-kint.png"
+  },
+  "kintsugi-LOCAL-LP_KSM_kBTC": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-LP_KSM_kBTC",
+    "name": "LP KSM-kBTC",
+    "symbol": "LP KSM-kBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LpToken": [
+          {
+            "Token": "KSM"
+          },
+          {
+            "Token": "KBTC"
+          }
+        ]
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "lp-ksm-kbtc.png"
+  },
+  "kintsugi-LOCAL-LP_kBTC_USDT": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-LP_kBTC_USDT",
+    "name": "LP kBTC-USDT",
+    "symbol": "LP kBTC-USDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LpToken": [
+          {
+            "Token": "kBTC"
+          },
+          {
+            "ForeignAsset": 3
+          }
+        ]
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "lp-kbtc-usdt.png"
   }
 }
