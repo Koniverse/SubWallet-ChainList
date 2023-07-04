@@ -116,7 +116,5 @@ export interface _AssetRef {
   srcChain: string,
   destChain: string,
 
-  displayName?: string,
-
   path: _AssetRefPath
 }
