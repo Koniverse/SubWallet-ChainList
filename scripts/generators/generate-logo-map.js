@@ -5,6 +5,10 @@ import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' a
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 const LOGO_URL = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/${BRANCH_NAME}/packages/chain-list/src/logo`;
 
+const SpecialCustomToken = {
+  cp: 'cp.png'
+}
+
 try {
   const chainLogoMap = {
     default: `${LOGO_URL}/default.png`
@@ -26,6 +30,13 @@ try {
   Object.entries(ChainAssetMap).forEach(([slug, item]) => {
     if (item.symbol && !assetLogoMap[item.symbol.toLowerCase()] && item.icon) {
       assetLogoMap[item.symbol.toLowerCase()] = `${LOGO_URL}/${item.icon}`;
+    }
+  });
+
+  // For special custom token
+  Object.entries(SpecialCustomToken).forEach(([token, logo]) => {
+    if (!assetLogoMap[token.toLowerCase()] && logo) {
+      assetLogoMap[token.toLowerCase()] = `${LOGO_URL}/${logo}`;
     }
   });
 
