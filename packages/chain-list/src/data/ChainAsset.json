@@ -959,6 +959,70 @@
     "hasValue": true,
     "icon": "calamarinetwork.png"
   },
+  "calamari-LOCAL-BNB": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-BNB",
+    "name": "Binance Smart Chain",
+    "symbol": "BNB",
+    "decimals": 18,
+    "priceId": "binancecoin",
+    "minAmount": "40000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "21"
+    },
+    "multiChainAsset": "BNB-Binance",
+    "hasValue": true,
+    "icon": "bnb.png"
+  },
+  "calamari-LOCAL-WBTC": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-WBTC",
+    "name": "Wrapped Bitcoin",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "bitcoin",
+    "minAmount": "35",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "26"
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true,
+    "icon": "btc.png"
+  },
+  "calamari-LOCAL-BUSD": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-BUSD",
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "priceId": "binance-usd",
+    "minAmount": "10000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "23"
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true,
+    "icon": "btc.png"
+  },
+  "calamari-LOCAL-AUSD": {
+    "originChain": "calamari",
+    "slug": "calamari-LOCAL-AUSD",
+    "name": "Acala Dollar",
+    "symbol": "aUSD",
+    "decimals": 12,
+    "priceId": "acala-dollar",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "9"
+    },
+    "multiChainAsset": "aUSD-KaruraDollar",
+    "hasValue": true,
+    "icon": "ausd.png"
+  },
   "calamari-LOCAL-USDT": {
     "originChain": "calamari",
     "slug": "calamari-LOCAL-USDT",
