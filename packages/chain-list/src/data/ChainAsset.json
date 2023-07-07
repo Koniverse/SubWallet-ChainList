@@ -2370,6 +2370,20 @@
     "hasValue": false,
     "icon": "subspace.png"
   },
+  "subspace_gemini_3e-NATIVE-tSSC": {
+    "originChain": "subspace_gemini_3e",
+    "slug": "subspace_gemini_3e-NATIVE-tSSC",
+    "name": "Subspace Gemini 3e",
+    "symbol": "tSSC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "subspace.png"
+  },
   "origintrail-NATIVE-OTP": {
     "originChain": "origintrail",
     "slug": "origintrail-NATIVE-OTP",

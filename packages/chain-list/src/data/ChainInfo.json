@@ -2614,6 +2614,31 @@
     "evmInfo": null,
     "icon": "subspace.png"
   },
+  "subspace_gemini_3e": {
+    "slug": "subspace_gemini_3e",
+    "name": "Subspace Gemini 3e",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Gemini 3e": "wss://rpc.gemini-3e.subspace.network/ws"
+    },
+    "isTestnet": true,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xa3cd4b592d93f79943fbc58fc90ca8f516106699c9cf4d7ada98ca22877bc1ae",
+      "addressPrefix": 2254,
+      "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://explorer.subspace.network/#/gemini-3e",
+      "symbol": "tSSC",
+      "existentialDeposit": "500",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null,
+    "icon": "subspace.png"
+  },
   "origintrail": {
     "slug": "origintrail",
     "name": "OriginTrail",
