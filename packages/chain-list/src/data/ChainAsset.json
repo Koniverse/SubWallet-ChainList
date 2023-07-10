@@ -1003,9 +1003,9 @@
     "metadata": {
       "assetId": "23"
     },
-    "multiChainAsset": "WBTC-WrappedBTC",
+    "multiChainAsset": "BUSD-BinanceUSD",
     "hasValue": true,
-    "icon": "btc.png"
+    "icon": "busd.png"
   },
   "calamari-LOCAL-AUSD": {
     "originChain": "calamari",
@@ -5667,7 +5667,7 @@
     "metadata": {
       "contractAddress": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "FTM-Fantom",
     "hasValue": true,
     "icon": "ftm.png"
   },
@@ -6489,5 +6489,49 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "lp-kbtc-usdt.png"
+  },
+  "fantom-NATIVE-FTM": {
+    "originChain": "fantom",
+    "slug": "fantom-NATIVE-FTM",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "priceId": "fantom",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "FTM-Fantom",
+    "hasValue": true,
+    "icon": "ftm.png"
+  },
+  "fantom_testnet-NATIVE-FTM": {
+    "originChain": "fantom_testnet",
+    "slug": "fantom_testnet-NATIVE-FTM",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "ftm.png"
+  },
+  "binance-ERC20-FTM-0xAD29AbB318791D579433D831ed122aFeAf29dcfe": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-FTM-0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "priceId": "fantom",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
+    },
+    "multiChainAsset": "FTM-Fantom",
+    "hasValue": true,
+    "icon": "ftm.png"
   }
 }
