@@ -1,12 +1,12 @@
 // Copyright 2019-2022 @subwallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import _AssetLogoMap from '@subwallet/chain-list/data/AssetLogoMap.json';
-import _AssetRefMap from '@subwallet/chain-list/data/AssetRef.json';
-import _ChainAssetMap from '@subwallet/chain-list/data/ChainAsset.json';
-import _ChainInfoMap from '@subwallet/chain-list/data/ChainInfo.json';
-import _ChainLogoMap from '@subwallet/chain-list/data/ChainLogoMap.json';
-import _MultiChainAssetMap from '@subwallet/chain-list/data/MultiChainAsset.json';
+import _AssetLogoMap from '@subwallet/chain-list/data/AssetLogoMap.json' assert { type: 'json' };
+import _AssetRefMap from '@subwallet/chain-list/data/AssetRef.json' assert { type: 'json' };
+import _ChainAssetMap from '@subwallet/chain-list/data/ChainAsset.json' assert { type: 'json' };
+import _ChainInfoMap from '@subwallet/chain-list/data/ChainInfo.json' assert { type: 'json' };
+import _ChainLogoMap from '@subwallet/chain-list/data/ChainLogoMap.json' assert { type: 'json' };
+import _MultiChainAssetMap from '@subwallet/chain-list/data/MultiChainAsset.json' assert { type: 'json' };
 
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from './types';
 
