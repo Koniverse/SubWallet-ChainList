@@ -2510,6 +2510,42 @@
     "minAmount": "0",
     "icon": "pendulum.png"
   },
+  "pendulum-LOCAL-DOT": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "0"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "pendulum-LOCAL-USDT": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "1"
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
+  },
   "gear_testnet-NATIVE-Unit": {
     "originChain": "gear_testnet",
     "slug": "gear_testnet-NATIVE-Unit",
@@ -3692,11 +3728,11 @@
     "hasValue": true,
     "icon": "ausd.png"
   },
-  "bifrost-LOCAL-kUSD": {
+  "bifrost-LOCAL-aUSD": {
     "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-kUSD",
+    "slug": "bifrost-LOCAL-aUSD",
     "name": "Karura USD",
-    "symbol": "kUSD",
+    "symbol": "aUSD",
     "decimals": 12,
     "priceId": "acala-dollar",
     "minAmount": "100000000",
