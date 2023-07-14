@@ -2614,6 +2614,31 @@
     "evmInfo": null,
     "icon": "subspace.png"
   },
+  "subspace_gemini_3e": {
+    "slug": "subspace_gemini_3e",
+    "name": "Subspace Gemini 3e",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Gemini 3e": "wss://rpc.gemini-3e.subspace.network/ws"
+    },
+    "isTestnet": true,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0xa3cd4b592d93f79943fbc58fc90ca8f516106699c9cf4d7ada98ca22877bc1ae",
+      "addressPrefix": 2254,
+      "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://explorer.subspace.network/#/gemini-3e",
+      "symbol": "tSSC",
+      "existentialDeposit": "500",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null,
+    "icon": "subspace.png"
+  },
   "origintrail": {
     "slug": "origintrail",
     "name": "OriginTrail",
@@ -2836,7 +2861,7 @@
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": false
+      "supportStaking": true
     },
     "evmInfo": null,
     "icon": "pendulum.png"
@@ -4184,5 +4209,58 @@
     },
     "evmInfo": null,
     "icon": "kusama-bridge-hub.png"
+  },
+  "fantom": {
+    "slug": "fantom",
+    "name": "Fantom",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Ankr": "https://rpc.ankr.com/fantom",
+      "RPC_API": "https://rpcapi.fantom.network",
+      "BlastApi": "https://fantom-mainnet.public.blastapi.io",
+      "FTM_TOOLS": "https://rpc.ftm.tools",
+      "PoktNetwork": "https://fantom-rpc.gateway.pokt.network"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 250,
+      "blockExplorer": "https://ftmscan.com",
+      "symbol": "FTM",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://ftmscan.com"
+    },
+    "icon": "ftm.png"
+  },
+  "fantom_testnet": {
+    "slug": "fantom_testnet",
+    "name": "Fantom Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Ankr": "https://rpc.ankr.com/fantom_testnet",
+      "X_API": "https://xapi.testnet.fantom.network/lachesis/",
+      "FantomNetwork": "https://rpc.testnet.fantom.network/",
+      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 4002,
+      "blockExplorer": "https://testnet.ftmscan.com",
+      "symbol": "FTM",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://testnet.ftmscan.com"
+    },
+    "icon": "ftm.png"
   }
 }

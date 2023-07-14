@@ -1003,9 +1003,9 @@
     "metadata": {
       "assetId": "23"
     },
-    "multiChainAsset": "WBTC-WrappedBTC",
+    "multiChainAsset": "BUSD-BinanceUSD",
     "hasValue": true,
-    "icon": "btc.png"
+    "icon": "busd.png"
   },
   "calamari-LOCAL-AUSD": {
     "originChain": "calamari",
@@ -2370,6 +2370,20 @@
     "hasValue": false,
     "icon": "subspace.png"
   },
+  "subspace_gemini_3e-NATIVE-tSSC": {
+    "originChain": "subspace_gemini_3e",
+    "slug": "subspace_gemini_3e-NATIVE-tSSC",
+    "name": "Subspace Gemini 3e",
+    "symbol": "tSSC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "subspace.png"
+  },
   "origintrail-NATIVE-OTP": {
     "originChain": "origintrail",
     "slug": "origintrail-NATIVE-OTP",
@@ -2495,6 +2509,42 @@
     "hasValue": true,
     "minAmount": "0",
     "icon": "pendulum.png"
+  },
+  "pendulum-LOCAL-DOT": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "0"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "pendulum-LOCAL-USDT": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "1"
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "gear_testnet-NATIVE-Unit": {
     "originChain": "gear_testnet",
@@ -3162,7 +3212,7 @@
     "name": "Joystream",
     "symbol": "JOY",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "joystream",
     "minAmount": "266666560",
     "assetType": "NATIVE",
     "metadata": null,
@@ -3678,11 +3728,11 @@
     "hasValue": true,
     "icon": "ausd.png"
   },
-  "bifrost-LOCAL-kUSD": {
+  "bifrost-LOCAL-aUSD": {
     "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-kUSD",
+    "slug": "bifrost-LOCAL-aUSD",
     "name": "Karura USD",
-    "symbol": "kUSD",
+    "symbol": "aUSD",
     "decimals": 12,
     "priceId": "acala-dollar",
     "minAmount": "100000000",
@@ -5653,7 +5703,7 @@
     "metadata": {
       "contractAddress": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "FTM-Fantom",
     "hasValue": true,
     "icon": "ftm.png"
   },
@@ -6475,5 +6525,49 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "lp-kbtc-usdt.png"
+  },
+  "fantom-NATIVE-FTM": {
+    "originChain": "fantom",
+    "slug": "fantom-NATIVE-FTM",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "priceId": "fantom",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "FTM-Fantom",
+    "hasValue": true,
+    "icon": "ftm.png"
+  },
+  "fantom_testnet-NATIVE-FTM": {
+    "originChain": "fantom_testnet",
+    "slug": "fantom_testnet-NATIVE-FTM",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "ftm.png"
+  },
+  "binance-ERC20-FTM-0xAD29AbB318791D579433D831ed122aFeAf29dcfe": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-FTM-0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "priceId": "fantom",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
+    },
+    "multiChainAsset": "FTM-Fantom",
+    "hasValue": true,
+    "icon": "ftm.png"
   }
 }
