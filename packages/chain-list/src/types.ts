@@ -43,8 +43,9 @@ export interface _ChainInfo {
   chainStatus: _ChainStatus,
   isTestnet: boolean,
   providers: Record<string, string>,
-  substrateInfo: _SubstrateInfo | null,
-  evmInfo: _EvmInfo | null,
+  substrateInfo?: _SubstrateInfo,
+  evmInfo?: _EvmInfo,
+  cosmosInfo?: _CosmosInfo;
   icon: string
 }
 
@@ -93,6 +94,50 @@ export interface _SubstrateInfo {
   hasNativeNft: boolean,
   supportStaking: boolean,
   supportSmartContract: _AssetType[] | null
+}
+
+export interface _CosmosCoinInfo {
+  coinDenom: string,
+  coinMinimalDenom: string,
+  coinDecimals: number,
+
+  coinGeckoId?: string,
+  gasPriceStep?: {
+    low: number,
+    average: number,
+    high: number
+  }
+}
+
+export enum _CosmosFeature {
+  COSMWASM = 'COSMWASM',
+  OSMOSIS_TXFEES = 'osmosis-txfees',
+  ETH_ADDRESS_GEN = 'eth-address-gen',
+  ETH_KEY_SIGN = 'eth-key-sign',
+  NO_LEGACY_STDTX = 'no-legacy-stdTx'
+}
+
+export interface _CosmosInfo {
+  chainId: string,
+  symbol: string,
+  decimals: number
+  rest: string,
+  bip44: {
+    coinType: number
+  },
+  bech32Config: {
+    bech32PrefixAccAddr: string,
+    bech32PrefixAccPub: string,
+    bech32PrefixValAddr: string,
+    bech32PrefixValPub: string,
+    bech32PrefixConsAddr: string,
+    bech32PrefixConsPub: string
+  },
+  blockExplorer: string,
+  currencies: _CosmosCoinInfo[],
+  feeCurrencies: _CosmosCoinInfo[],
+  stakeCurrency: _CosmosCoinInfo,
+  features: _CosmosFeature[]
 }
 
 export interface _MultiChainAsset {

@@ -6565,9 +6565,25 @@
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
-    },
+    },0
     "multiChainAsset": "FTM-Fantom",
     "hasValue": true,
     "icon": "ftm.png"
+  },
+  "euphoria_testnet-NATIVE-EAURA": {
+    "originChain": "euphoria_testnet",
+    "slug": "euphoria_testnet-NATIVE-EAURA",
+    "name": "Euphoria",
+    "symbol": "EAURA",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "coinMinimalDenom": "ueaura"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "aura-network.png"
   }
 }
