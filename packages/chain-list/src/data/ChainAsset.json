@@ -308,13 +308,13 @@
     "hasValue": true,
     "icon": "usdt.png"
   },
-  "acala-LOCAL-aUSD": {
+  "acala-LOCAL-aSEED": {
     "originChain": "acala",
-    "slug": "acala-LOCAL-aUSD",
-    "name": "Acala USD",
-    "symbol": "aUSD",
+    "slug": "acala-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": "100000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -322,9 +322,9 @@
         "Token": "AUSD"
       }
     },
-    "multiChainAsset": "aUSD-AcalaDollar",
+    "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
-    "icon": "ausd.png"
+    "icon": "aseed.png"
   },
   "acala-LOCAL-ASTR": {
     "originChain": "acala",
@@ -3677,13 +3677,13 @@
     "hasValue": true,
     "icon": "karura.png"
   },
-  "karura-LOCAL-aUSD": {
+  "karura-LOCAL-aSEED": {
     "originChain": "karura",
-    "slug": "karura-LOCAL-aUSD",
-    "name": "Karura USD",
-    "symbol": "aUSD",
+    "slug": "karura-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3691,9 +3691,9 @@
         "Token": "KUSD"
       }
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
-    "icon": "ausd.png"
+    "icon": "aseed.png"
   },
   "shiden-LOCAL-aUSD": {
     "originChain": "shiden",
@@ -6569,5 +6569,188 @@
     "multiChainAsset": "FTM-Fantom",
     "hasValue": true,
     "icon": "ftm.png"
+  },
+  "interlay-LOCAL-LP_DOT_iBTC": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-LP_DOT_iBTC",
+    "name": "LP DOT-iBTC",
+    "symbol": "LP DOT-iBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LpToken": [
+          {
+            "Token": "DOT"
+          },
+          {
+            "Token": "iBTC"
+          }
+        ]
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "lp-dot-ibtc.png"
+  },
+  "interlay-LOCAL-LP_iBTC_USDT": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-LP_iBTC_USDT",
+    "name": "LP iBTC-USDT",
+    "symbol": "LP iBTC-USDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LpToken": [
+          {
+            "Token": "iBTC"
+          },
+          {
+            "ForeignAsset": 2
+          }
+        ]
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "lp-ibtc-usdt.png"
+  },
+  "interlay-LOCAL-LP_INTR_USDT": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-LP_INTR_USDT",
+    "name": "LP INTR-USDT",
+    "symbol": "LP INTR-USDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LpToken": [
+          {
+            "Token": "INTR"
+          },
+          {
+            "ForeignAsset": 2
+          }
+        ]
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "lp-intr-usdt.png"
+  },
+  "interlay-LOCAL-qIBTC": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-qIBTC",
+    "name": "qIBTC",
+    "symbol": "qIBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LendToken": 1
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "qibtc.png"
+  },
+  "interlay-LOCAL-qDOT": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-qDOT",
+    "name": "qDOT",
+    "symbol": "qDOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LendToken": 2
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "qdot.png"
+  },
+  "interlay-LOCAL-qUSDT": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-qUSDT",
+    "name": "qUSDT",
+    "symbol": "qUSDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LendToken": 3
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "qusdt.png"
+  },
+  "kintsugi-LOCAL-qKBTC": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-qKBTC",
+    "name": "qKBTC",
+    "symbol": "qKBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LendToken": 1
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "qkbtc.png"
+  },
+  "kintsugi-LOCAL-qKSM": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-qKSM",
+    "name": "qKSM",
+    "symbol": "qKSM",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LendToken": 2
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "qksm.png"
+  },
+  "kintsugi-LOCAL-qUSDT": {
+    "originChain": "kintsugi",
+    "slug": "kintsugi-LOCAL-qUSDT",
+    "name": "qUSDT",
+    "symbol": "qUSDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "LendToken": 3
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "qusdt.png"
   }
 }

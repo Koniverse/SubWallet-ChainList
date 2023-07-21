@@ -65,7 +65,7 @@
   },
   "aUSD-AcalaDollar": {
     "slug": "aUSD-AcalaDollar",
-    "originChainAsset": "acala-LOCAL-aUSD",
+    "originChainAsset": null,
     "name": "Acala Dollar",
     "symbol": "aUSD",
     "priceId": "acala-dollar-acala",
@@ -73,7 +73,7 @@
   },
   "aUSD-KaruraDollar": {
     "slug": "aUSD-KaruraDollar",
-    "originChainAsset": "karura-LOCAL-aUSD",
+    "originChainAsset": null,
     "name": "Karura Dollar",
     "symbol": "aUSD",
     "priceId": "acala-dollar",
@@ -302,6 +302,22 @@
     "name": "Fantom",
     "symbol": "FTM",
     "priceId": "fantom",
+    "hasValue": true
+  },
+  "aSEED-aSEEDAcala": {
+    "slug": "aSEED-aSEEDAcala",
+    "originChainAsset": "acala-LOCAL-aSEED",
+    "name": "aUSD SEED (Acala)",
+    "symbol": "aSEED",
+    "priceId": "ausd-seed-acala",
+    "hasValue": true
+  },
+  "aSEED-aSEEDKarura": {
+    "slug": "aSEED-aSEEDKarura",
+    "originChainAsset": "karura-LOCAL-aSEED",
+    "name": "aUSD SEED (Karura)",
+    "symbol": "aSEED",
+    "priceId": "ausd-seed-karura",
     "hasValue": true
   }
 }
