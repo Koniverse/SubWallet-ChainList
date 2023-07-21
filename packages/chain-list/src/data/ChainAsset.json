@@ -308,13 +308,13 @@
     "hasValue": true,
     "icon": "usdt.png"
   },
-  "acala-LOCAL-aUSD": {
+  "acala-LOCAL-aSEED": {
     "originChain": "acala",
-    "slug": "acala-LOCAL-aUSD",
-    "name": "Acala USD",
-    "symbol": "aUSD",
+    "slug": "acala-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": "100000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -322,9 +322,9 @@
         "Token": "AUSD"
       }
     },
-    "multiChainAsset": "aUSD-AcalaDollar",
+    "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
-    "icon": "ausd.png"
+    "icon": "aseed.png"
   },
   "acala-LOCAL-ASTR": {
     "originChain": "acala",
@@ -3677,13 +3677,13 @@
     "hasValue": true,
     "icon": "karura.png"
   },
-  "karura-LOCAL-aUSD": {
+  "karura-LOCAL-aSEED": {
     "originChain": "karura",
-    "slug": "karura-LOCAL-aUSD",
-    "name": "Karura USD",
-    "symbol": "aUSD",
+    "slug": "karura-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3691,9 +3691,9 @@
         "Token": "KUSD"
       }
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
-    "icon": "ausd.png"
+    "icon": "aseed.png"
   },
   "shiden-LOCAL-aUSD": {
     "originChain": "shiden",
