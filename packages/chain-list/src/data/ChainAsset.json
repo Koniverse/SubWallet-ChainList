@@ -6565,7 +6565,7 @@
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe"
-    },0
+    },
     "multiChainAsset": "FTM-Fantom",
     "hasValue": true,
     "icon": "ftm.png"
@@ -6585,5 +6585,66 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "aura-network.png"
+  },
+  "cosmos_hub-NATIVE-ATOM": {
+    "originChain": "cosmos_hub",
+    "slug": "cosmos_hub-NATIVE-ATOM",
+    "name": "Atom",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "priceId": "cosmos",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "coinMinimalDenom": "uatom"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "cosmos-hub.png"
+  },
+  "aura_xstaxy-NATIVE-EAURA": {
+    "originChain": "aura_xstaxy",
+    "slug": "aura_xstaxy-NATIVE-EAURA",
+    "name": "Aura",
+    "symbol": "AURA",
+    "decimals": 6,
+    "priceId": "aura-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "coinMinimalDenom": "ueaura"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "aura-network.png"
+  },
+  "osmosis-NATIVE-OSMO": {
+    "originChain": "osmosis",
+    "slug": "osmosis-NATIVE-OSMO",
+    "name": "Osmosis",
+    "symbol": "OSMO",
+    "decimals": 6,
+    "priceId": "osmosis",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "coinMinimalDenom": "uosmo"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "osmosis.png"
+  },
+  "solana-NATIVE-SOL": {
+    "originChain": "solana",
+    "slug": "solana-NATIVE-SOL",
+    "name": "Solana",
+    "symbol": "SOL",
+    "decimals": 9,
+    "priceId": "solana",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "solana.png"
   }
 }

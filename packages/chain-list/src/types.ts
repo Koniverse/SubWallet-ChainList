@@ -45,7 +45,8 @@ export interface _ChainInfo {
   providers: Record<string, string>,
   substrateInfo?: _SubstrateInfo,
   evmInfo?: _EvmInfo,
-  cosmosInfo?: _CosmosInfo;
+  cosmosInfo?: _CosmosInfo,
+  solanaInfo?: _SolanaInfo,
   icon: string
 }
 
@@ -115,6 +116,12 @@ export enum _CosmosFeature {
   ETH_ADDRESS_GEN = 'eth-address-gen',
   ETH_KEY_SIGN = 'eth-key-sign',
   NO_LEGACY_STDTX = 'no-legacy-stdTx'
+}
+
+export interface _SolanaInfo {
+  symbol: string,
+  decimals: number,
+  blockExplorer: string
 }
 
 export interface _CosmosInfo {

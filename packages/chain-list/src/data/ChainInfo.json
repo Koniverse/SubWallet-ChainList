@@ -4158,5 +4158,166 @@
       ]
     },
     "icon": "aura-network.png"
+  },
+  "cosmos_hub": {
+    "slug": "cosmos_hub",
+    "name": "Cosmos Hub",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "CosmosHub": "https://v1.cosmos.network/rpc/v0.45.1"
+    },
+    "cosmosInfo": {
+      "chainId": "cosmoshub-4",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "rest": "https://lcd-cosmoshub.keplr.app",
+      "blockExplorer": "https://atomscan.com/",
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "cosmos",
+        "bech32PrefixAccPub": "cosmospub",
+        "bech32PrefixConsAddr": "cosmosvalcons",
+        "bech32PrefixConsPub": "cosmosvalconspub",
+        "bech32PrefixValAddr": "cosmosvaloper",
+        "bech32PrefixValPub": "cosmosvaloperpub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "ATOM",
+          "coinMinimalDenom": "uatom",
+          "coinDecimals": 6
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "ATOM",
+          "coinMinimalDenom": "uatom",
+          "coinDecimals": 6
+        }
+      ],
+      "stakeCurrency": {
+        "coinDenom": "ATOM",
+        "coinMinimalDenom": "uatom",
+        "coinDecimals": 6
+      },
+      "features": []
+    },
+    "icon": "cosmos-hub.png"
+  },
+  "aura_xstaxy": {
+    "slug": "aura_xstaxy",
+    "name": "Aura Xstaxy",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "AuraNetwork": "https://rpc.aura.network"
+    },
+    "cosmosInfo": {
+      "chainId": "xstaxy-1",
+      "symbol": "AURA",
+      "decimals": 6,
+      "rest": "https://lcd-cosmoshub.keplr.app",
+      "blockExplorer": "https://lcd.aura.network",
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "aura",
+        "bech32PrefixAccPub": "aurapub",
+        "bech32PrefixValAddr": "auravaloper",
+        "bech32PrefixValPub": "auravaloperpub",
+        "bech32PrefixConsAddr": "auravalcons",
+        "bech32PrefixConsPub": "auravalconspub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "AURA",
+          "coinMinimalDenom": "uaura",
+          "coinDecimals": 6
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "AURA",
+          "coinMinimalDenom": "uaura",
+          "coinDecimals": 6
+        }
+      ],
+      "stakeCurrency": {
+        "coinDenom": "AURA",
+        "coinMinimalDenom": "uaura",
+        "coinDecimals": 6
+      },
+      "features": [
+        "no-legacy-stdTx"
+      ]
+    },
+    "icon": "aura-network.png"
+  },
+  "osmosis": {
+    "slug": "osmosis",
+    "name": "Osmosis",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Osmosis": "https://rpc.osmosis.zone:443"
+    },
+    "cosmosInfo": {
+      "chainId": "osmosis-1",
+      "symbol": "OSMO",
+      "decimals": 6,
+      "rest": "https://lcd.osmosis.zone",
+      "blockExplorer": "https://www.mintscan.io/osmosis",
+      "bip44": {
+        "coinType": 118
+      },
+      "bech32Config": {
+        "bech32PrefixAccAddr": "osmo",
+        "bech32PrefixAccPub": "osmopub",
+        "bech32PrefixValAddr": "osmovaloper",
+        "bech32PrefixValPub": "osmovaloperpub",
+        "bech32PrefixConsAddr": "osmovalcons",
+        "bech32PrefixConsPub": "osmovalconspub"
+      },
+      "currencies": [
+        {
+          "coinDenom": "OSMO",
+          "coinMinimalDenom": "uosmo",
+          "coinDecimals": 6
+        }
+      ],
+      "feeCurrencies": [
+        {
+          "coinDenom": "OSMO",
+          "coinMinimalDenom": "uosmo",
+          "coinDecimals": 6
+        }
+      ],
+      "stakeCurrency": {
+        "coinDenom": "OSMO",
+        "coinMinimalDenom": "uosmo",
+        "coinDecimals": 6
+      },
+      "features": []
+    },
+    "icon": "osmosis.png"
+  },
+  "solana": {
+    "slug": "solana",
+    "name": "Solana",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "BlockDaemon": "https://try-rpc.mainnet.solana.blockdaemon.tech"
+    },
+    "solanaInfo": {
+      "blockExplorer": "https://solscan.io/",
+      "symbol": "SOL",
+      "decimals": 9
+    },
+    "icon": "solana.png"
   }
 }
