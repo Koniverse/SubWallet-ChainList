@@ -1202,7 +1202,7 @@
       "decimals": 18,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "supportStaking": false
+      "supportStaking": true
     },
     "evmInfo": null,
     "icon": "edgeware.png"
@@ -4148,7 +4148,7 @@
       "symbol": "AVL",
       "existentialDeposit": "10000000000000",
       "decimals": 18,
-      "supportStaking": false,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null
@@ -4262,5 +4262,30 @@
       "abiExplorer": "https://testnet.ftmscan.com"
     },
     "icon": "ftm.png"
+  },
+  "krest_network": {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Peaq": "wss://wss-krest.peaq.network/"
+    },
+    "substrateInfo": {
+      "paraId": 2241,
+      "relaySlug": "kusama",
+      "genesisHash": "0xb3dd5ad6a82872b30aabaede8f41dfd4ff6c32ff82f8757d034a45be63cf104c",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "symbol": "KREST",
+      "existentialDeposit": "500",
+      "decimals": 18,
+      "supportStaking": true,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": "https://krest.subscan.io/"
+    },
+    "evmInfo": null,
+    "icon": "krest.png"
   }
 }
