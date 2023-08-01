@@ -4280,7 +4280,7 @@
       "symbol": "KREST",
       "existentialDeposit": "500",
       "decimals": 18,
-      "supportStaking": true,
+      "supportStaking": false,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": "https://krest.subscan.io/"
