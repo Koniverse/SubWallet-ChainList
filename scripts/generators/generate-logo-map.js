@@ -6,7 +6,8 @@ const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 const LOGO_URL = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/${BRANCH_NAME}/packages/chain-list/src/logo`;
 
 const SpecialCustomToken = {
-  cp: 'cp.png'
+  cp: 'cp.png',
+  zpf: 'zpf.png'
 }
 
 try {
