@@ -2894,7 +2894,7 @@
   "snow": {
     "slug": "snow",
     "name": "Snow",
-    "chainStatus": "ACTIVE",
+    "chainStatus": "STOPPED",
     "providers": {
       "snow": "wss://snow-rpc.icenetwork.io"
     },
@@ -2919,7 +2919,7 @@
   "arctic_testnet": {
     "slug": "arctic_testnet",
     "name": "Arctic Testnet",
-    "chainStatus": "ACTIVE",
+    "chainStatus": "STOPPED",
     "providers": {
       "arctic": "wss://arctic-rpc.icenetwork.io:9944"
     },
