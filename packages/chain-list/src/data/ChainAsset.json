@@ -6782,5 +6782,35 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "panx.png"
+  },
+  "deeper_network-NATIVE-DPR": {
+    "originChain": "deeper_network",
+    "slug": "deeper_network-NATIVE-DPR",
+    "name": "Deeper Network",
+    "symbol": "DPR",
+    "decimals": 18,
+    "priceId": "deeper-network",
+    "minAmount": "200000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DPR-DeeperNetwork",
+    "hasValue": true,
+    "icon": "deeper-network.png"
+  },
+  "ethereum-ERC20-DPR-0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-DPR-0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1",
+    "name": "Deeper",
+    "symbol": "DPR",
+    "decimals": 18,
+    "priceId": "deeper-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1"
+    },
+    "multiChainAsset": "DPR-DeeperNetwork",
+    "hasValue": true,
+    "icon": "deeper-network.png"
   }
 }

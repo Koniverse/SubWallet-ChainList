@@ -4287,5 +4287,30 @@
     },
     "evmInfo": null,
     "icon": "krest.png"
+  },
+  "deeper_network": {
+    "slug": "deeper_network",
+    "name": "Deeper Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "DeeperNetwork": "wss://mainnet-full.deeper.network"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x4466b9e982ab141d4115ed226ff4153b1d20e5b64f5401f732e60dec8326149f",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "symbol": "DPR",
+      "existentialDeposit": "200000000000000000",
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null,
+    "icon": "deeper-network.png"
   }
 }

@@ -319,5 +319,13 @@
     "symbol": "aSEED",
     "priceId": "ausd-seed-karura",
     "hasValue": true
+  },
+  "DPR-DeeperNetwork": {
+    "slug": "DPR-DeeperNetwork",
+    "originChainAsset": "ethereum-ERC20-DPR-0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1",
+    "name": "Deeper Network",
+    "symbol": "DPR",
+    "priceId": "deeper-network",
+    "hasValue": true
   }
 }
