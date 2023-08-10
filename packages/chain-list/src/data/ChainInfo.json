@@ -2891,56 +2891,6 @@
     "evmInfo": null,
     "icon": "gear.png"
   },
-  "snow": {
-    "slug": "snow",
-    "name": "Snow",
-    "chainStatus": "STOPPED",
-    "providers": {
-      "snow": "wss://snow-rpc.icenetwork.io"
-    },
-    "isTestnet": false,
-    "substrateInfo": {
-      "paraId": 2129,
-      "relaySlug": "kusama",
-      "genesisHash": "0xb34f6cd03a41f0fab38ba9fd5b11cce5f303633c46f39f0c6fdc7c3c602bafa9",
-      "addressPrefix": 2207,
-      "chainType": "PARACHAIN",
-      "blockExplorer": "https://snow.subscan.io/",
-      "symbol": "ICZ",
-      "existentialDeposit": "10000000000000000",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
-    },
-    "evmInfo": null,
-    "icon": "snow-network.png"
-  },
-  "arctic_testnet": {
-    "slug": "arctic_testnet",
-    "name": "Arctic Testnet",
-    "chainStatus": "STOPPED",
-    "providers": {
-      "arctic": "wss://arctic-rpc.icenetwork.io:9944"
-    },
-    "isTestnet": true,
-    "substrateInfo": {
-      "paraId": null,
-      "relaySlug": null,
-      "genesisHash": "0xd0d9ce714804ff485ae4efcfcfc1bb950257e55db5e0c42ffc9d062839d5a066",
-      "addressPrefix": 2208,
-      "chainType": "RELAYCHAIN",
-      "symbol": "ICZ",
-      "existentialDeposit": "10000000000000000",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
-    },
-    "evmInfo": null,
-    "icon": "arctic.png"
-  },
   "ternoa_alphanet": {
     "slug": "ternoa_alphanet",
     "name": "Ternoa Alphanet",
