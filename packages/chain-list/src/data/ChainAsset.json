@@ -6157,20 +6157,6 @@
     "hasValue": true,
     "icon": "vara.png"
   },
-  "snow_evm-NATIVE-ICZ": {
-    "originChain": "snow_evm",
-    "slug": "snow_evm-NATIVE-ICZ",
-    "name": "Snow",
-    "symbol": "ICZ",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "default.png"
-  },
   "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
     "originChain": "polygon",
     "slug": "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
