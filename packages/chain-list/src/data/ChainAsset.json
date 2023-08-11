@@ -2560,34 +2560,6 @@
     "hasValue": false,
     "icon": "riodefi.png"
   },
-  "snow-NATIVE-ICZ": {
-    "originChain": "snow",
-    "slug": "snow-NATIVE-ICZ",
-    "name": "Snow",
-    "symbol": "ICZ",
-    "decimals": 18,
-    "priceId": "snow",
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "snow-network.png"
-  },
-  "arctic_testnet-NATIVE-ICZ": {
-    "originChain": "arctic_testnet",
-    "slug": "arctic_testnet-NATIVE-ICZ",
-    "name": "Arctic Testnet",
-    "symbol": "ICZ",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "snow-network.png"
-  },
   "ternoa_alphanet-NATIVE-CAPS": {
     "originChain": "ternoa_alphanet",
     "slug": "ternoa_alphanet-NATIVE-CAPS",
@@ -6185,20 +6157,6 @@
     "hasValue": true,
     "icon": "vara.png"
   },
-  "snow_evm-NATIVE-ICZ": {
-    "originChain": "snow_evm",
-    "slug": "snow_evm-NATIVE-ICZ",
-    "name": "Snow",
-    "symbol": "ICZ",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "default.png"
-  },
   "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
     "originChain": "polygon",
     "slug": "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
@@ -6782,5 +6740,35 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "panx.png"
+  },
+  "deeper_network-NATIVE-DPR": {
+    "originChain": "deeper_network",
+    "slug": "deeper_network-NATIVE-DPR",
+    "name": "Deeper Network",
+    "symbol": "DPR",
+    "decimals": 18,
+    "priceId": "deeper-network",
+    "minAmount": "200000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DPR-DeeperNetwork",
+    "hasValue": true,
+    "icon": "deeper-network.png"
+  },
+  "ethereum-ERC20-DPR-0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-DPR-0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1",
+    "name": "Deeper",
+    "symbol": "DPR",
+    "decimals": 18,
+    "priceId": "deeper-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xf3AE5d769e153Ef72b4e3591aC004E89F48107a1"
+    },
+    "multiChainAsset": "DPR-DeeperNetwork",
+    "hasValue": true,
+    "icon": "deeper-network.png"
   }
 }
