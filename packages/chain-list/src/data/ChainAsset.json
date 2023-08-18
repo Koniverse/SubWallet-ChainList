@@ -6784,5 +6784,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "jur-network.png"
+  },
+  "aleph-PSP34-AzeroDomain-5CTQBfBC9SfdrCDBJdfLiyW2pg9z5W6C6Es8sK313BLnFgDf": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP34-AzeroDomain-5CTQBfBC9SfdrCDBJdfLiyW2pg9z5W6C6Es8sK313BLnFgDf",
+    "name": "Azero.ID",
+    "symbol": "AZEROID",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "5CTQBfBC9SfdrCDBJdfLiyW2pg9z5W6C6Es8sK313BLnFgDf"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "azero-domain.png"
   }
 }
