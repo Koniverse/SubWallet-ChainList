@@ -4239,5 +4239,30 @@
     },
     "evmInfo": null,
     "icon": "deeper-network.png"
+  },
+  "jur_network": {
+    "slug": "jur_network",
+    "name": "Jur Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "DeeperNetwork": "wss://jur-archive-mainnet-1.simplystaking.xyz/VX68C07AR4K2/ws"
+    },
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x58d1393b47b11707978fbc07e77d7b6f7d9aa88d207dc008a52385f7dba6156a",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "symbol": "JUR",
+      "existentialDeposit": "500",
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "blockExplorer": null
+    },
+    "evmInfo": null,
+    "icon": "jur-network.png"
   }
 }

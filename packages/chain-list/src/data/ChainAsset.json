@@ -6770,5 +6770,35 @@
     "multiChainAsset": "DPR-DeeperNetwork",
     "hasValue": true,
     "icon": "deeper-network.png"
+  },
+  "jur_network-NATIVE-JUR": {
+    "originChain": "jur_network",
+    "slug": "jur_network-NATIVE-JUR",
+    "name": "Jur",
+    "symbol": "JUR",
+    "decimals": 18,
+    "priceId": "jur",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "jur-network.png"
+  },
+  "aleph-PSP34-AzeroDomain-5CTQBfBC9SfdrCDBJdfLiyW2pg9z5W6C6Es8sK313BLnFgDf": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP34-AzeroDomain-5CTQBfBC9SfdrCDBJdfLiyW2pg9z5W6C6Es8sK313BLnFgDf",
+    "name": "AZERO.ID Domains",
+    "symbol": "AZEROID",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "5CTQBfBC9SfdrCDBJdfLiyW2pg9z5W6C6Es8sK313BLnFgDf"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "azero-domain.png"
   }
 }
