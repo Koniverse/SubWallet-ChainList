@@ -3635,7 +3635,7 @@
     "name": "Creditcoin",
     "chainStatus": "ACTIVE",
     "providers": {
-      "Creditcoin Foundation": "wss://rpc.mainnet.creditcoin.network/ws"
+      "Creditcoin Foundation": "wss://mainnet.creditcoin.network/ws"
     },
     "isTestnet": false,
     "substrateInfo": {
