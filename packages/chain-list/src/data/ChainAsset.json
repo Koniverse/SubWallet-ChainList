@@ -6814,5 +6814,37 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "azero-domain.png"
+  },
+  "ethereum-ERC20-USDD-0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-USDD-0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+    "name": "Decentralized USD",
+    "symbol": "USDD",
+    "decimals": 18,
+    "priceId": "usdd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6"
+    },
+    "multiChainAsset": "USDD-DecentralizedUSD",
+    "hasValue": true,
+    "icon": "arbitrum.png"
+  },
+  "binance-ERC20-USDD-0xd17479997F34dd9156Deef8F95A52D81D265be9c": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-USDD-0xd17479997F34dd9156Deef8F95A52D81D265be9c",
+    "name": "Decentralized USD",
+    "symbol": "USDD",
+    "decimals": 18,
+    "priceId": "usdd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xd17479997F34dd9156Deef8F95A52D81D265be9c"
+    },
+    "multiChainAsset": "USDD-DecentralizedUSD",
+    "hasValue": true,
+    "icon": "arbitrum.png"
   }
 }
