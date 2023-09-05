@@ -4312,5 +4312,28 @@
       "abiExplorer": null
     },
     "icon": "astar-network.png"
+  },
+  "avalanche_c": {
+    "slug": "avalanche_c",
+    "name": "Avalanche C-Chain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "PublicNode": "https://avalanche-c-chain.publicnode.com"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 43114,
+      "blockExplorer": "https://snowtrace.io/",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "icon": "astar-network.png"
   }
 }

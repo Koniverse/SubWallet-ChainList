@@ -6860,5 +6860,19 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "ethereum.png"
+  },
+  "avalanche_c-NATIVE-AVAX": {
+    "originChain": "avalanche_c",
+    "slug": "avalanche_c-NATIVE-AVAX",
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "priceId": "avalanche-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "ethereum.png"
   }
 }
