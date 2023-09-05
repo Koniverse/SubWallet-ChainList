@@ -4289,5 +4289,28 @@
     },
     "evmInfo": null,
     "icon": "jur-network.png"
+  },
+  "base_mainnet": {
+    "slug": "base_mainnet",
+    "name": "Base Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "PublicNode": "https://base.publicnode.com"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 8453,
+      "blockExplorer": "https://basescan.org",
+      "symbol": "ETH",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "icon": "astar-network.png"
   }
 }

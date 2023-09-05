@@ -6846,5 +6846,19 @@
     "multiChainAsset": "USDD-DecentralizedUSD",
     "hasValue": true,
     "icon": "arbitrum.png"
+  },
+  "base_mainnet-NATIVE-ETH": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "ethereum.png"
   }
 }
