@@ -6888,5 +6888,23 @@
     "multiChainAsset": "CRU-Crust",
     "hasValue": true,
     "icon": "crust.png"
+  },
+  "moonbeam-LOCAL-xcASTR": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcASTR",
+    "name": "Astar",
+    "symbol": "xcASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "224077081838586484055667086558292981199",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFfFFFfffA893AD19e540E172C10d78D4d479B5Cf"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "astar-network.png"
   }
 }
