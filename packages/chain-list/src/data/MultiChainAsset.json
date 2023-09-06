@@ -252,7 +252,6 @@
     "originChainAsset": null,
     "name": "Wrapped BTC",
     "symbol": "WBTC",
-    "symbol": "WBTC",
     "priceId": "wrapped-bitcoin",
     "hasValue": true
   },
@@ -326,6 +325,14 @@
     "name": "Deeper Network",
     "symbol": "DPR",
     "priceId": "deeper-network",
+    "hasValue": true
+  },
+  "USDD-DecentralizedUSD": {
+    "slug": "USDD-DecentralizedUSD",
+    "originChainAsset": null,
+    "name": "Decentralized USD",
+    "symbol": "USDD",
+    "priceId": "usdd",
     "hasValue": true
   }
 }

@@ -981,7 +981,7 @@
     "name": "Wrapped Bitcoin",
     "symbol": "WBTC",
     "decimals": 8,
-    "priceId": "bitcoin",
+    "priceId": "wrapped-bitcoin",
     "minAmount": "35",
     "assetType": "LOCAL",
     "metadata": {
@@ -6814,5 +6814,97 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "azero-domain.png"
+  },
+  "ethereum-ERC20-USDD-0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-USDD-0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+    "name": "Decentralized USD",
+    "symbol": "USDD",
+    "decimals": 18,
+    "priceId": "usdd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6"
+    },
+    "multiChainAsset": "USDD-DecentralizedUSD",
+    "hasValue": true,
+    "icon": "usdd.png"
+  },
+  "binance-ERC20-USDD-0xd17479997F34dd9156Deef8F95A52D81D265be9c": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-USDD-0xd17479997F34dd9156Deef8F95A52D81D265be9c",
+    "name": "Decentralized USD",
+    "symbol": "USDD",
+    "decimals": 18,
+    "priceId": "usdd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xd17479997F34dd9156Deef8F95A52D81D265be9c"
+    },
+    "multiChainAsset": "USDD-DecentralizedUSD",
+    "hasValue": true,
+    "icon": "usdd.png"
+  },
+  "base_mainnet-NATIVE-ETH": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "ethereum.png"
+  },
+  "avalanche_c-NATIVE-AVAX": {
+    "originChain": "avalanche_c",
+    "slug": "avalanche_c-NATIVE-AVAX",
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "priceId": "avalanche-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "avalanche.png"
+  },
+  "crust_mainnet-NATIVE-CRU": {
+    "originChain": "crust_mainnet",
+    "slug": "crust_mainnet-NATIVE-CRU",
+    "name": "Crust",
+    "symbol": "CRU",
+    "decimals": 12,
+    "priceId": "crust-network",
+    "minAmount": "100000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "CRU-Crust",
+    "hasValue": true,
+    "icon": "crust.png"
+  },
+  "moonbeam-LOCAL-xcASTR": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcASTR",
+    "name": "Astar",
+    "symbol": "xcASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "224077081838586484055667086558292981199",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFfFFFfffA893AD19e540E172C10d78D4d479B5Cf"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "astar-network.png"
   }
 }
