@@ -981,7 +981,7 @@
     "name": "Wrapped Bitcoin",
     "symbol": "WBTC",
     "decimals": 8,
-    "priceId": "bitcoin",
+    "priceId": "wrapped-bitcoin",
     "minAmount": "35",
     "assetType": "LOCAL",
     "metadata": {
@@ -6874,5 +6874,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "ethereum.png"
+  },
+  "crust_mainnet-NATIVE-CRU": {
+    "originChain": "crust_mainnet",
+    "slug": "crust_mainnet-NATIVE-CRU",
+    "name": "Crust",
+    "symbol": "CRU",
+    "decimals": 12,
+    "priceId": "crust-network",
+    "minAmount": "100000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "CRU-Crust",
+    "hasValue": true,
+    "icon": "crust.png"
   }
 }

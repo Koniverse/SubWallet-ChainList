@@ -1247,7 +1247,7 @@
       "paraId": 2032,
       "relaySlug": "polkadot",
       "genesisHash": "0xed86d448b84db333cdbe07362ddc79530343b907bd88712557c024d7a94296bb",
-      "addressPrefix": 42,
+      "addressPrefix": 2032,
       "crowdloanUrl": "https://crowdloan.interlay.io/",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://interlay.subscan.io/",
@@ -1547,7 +1547,7 @@
       "paraId": 2019,
       "relaySlug": "polkadot",
       "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
-      "addressPrefix": 49,
+      "addressPrefix": 50,
       "crowdloanUrl": "https://crowdloan.composable.finance/",
       "chainType": "PARACHAIN",
       "symbol": "LAYR",
@@ -1593,18 +1593,17 @@
     "name": "Crust",
     "chainStatus": "ACTIVE",
     "providers": {
-      "Crust Network": "wss://rpc.crust.network",
-      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
+      "Crust": "wss://crust-parachain.crustapps.net"
     },
     "isTestnet": false,
     "substrateInfo": {
       "paraId": 2008,
       "relaySlug": "polkadot",
-      "genesisHash": "0x8b404e7ed8789d813982b9cb4c8b664c05b3fbf433309f603af014ec9ce56a8c",
-      "addressPrefix": 66,
+      "genesisHash": "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
+      "addressPrefix": 88,
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "PARACHAIN",
-      "blockExplorer": "https://crust.subscan.io/",
+      "blockExplorer": "https://crust-parachain.subscan.io/",
       "symbol": "CRU",
       "existentialDeposit": "100000000",
       "decimals": 12,
@@ -1853,7 +1852,7 @@
       "paraId": null,
       "relaySlug": null,
       "genesisHash": "0x3a5a5cd27eb15fd26c37315a0f0b938733bb798c897428448efac5e6150cad06",
-      "addressPrefix": 42,
+      "addressPrefix": 2092,
       "chainType": "RELAYCHAIN",
       "symbol": "KINT",
       "decimals": 12,
@@ -1958,7 +1957,7 @@
       "paraId": 2024,
       "relaySlug": "kusama",
       "genesisHash": "0x9b8cefc0eb5c568b527998bdd76c184e2b76ae561be76e4667072230217ea243",
-      "addressPrefix": 68,
+      "addressPrefix": 67,
       "crowdloanUrl": "https://genshiro.equilibrium.io/en",
       "chainType": "PARACHAIN",
       "blockExplorer": "https://genshiro.subscan.io/",
@@ -2391,7 +2390,7 @@
       "paraId": 1001,
       "relaySlug": "kusama",
       "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
-      "addressPrefix": 42,
+      "addressPrefix": 2,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://encointer.subscan.io/",
       "symbol": "KSM",
@@ -3617,7 +3616,7 @@
       "paraId": null,
       "relaySlug": null,
       "genesisHash": "0xc8eda34601b5a48c73f47ee39a3a86a858c34f044185b17dc7d5ad155813dc63",
-      "addressPrefix": 42,
+      "addressPrefix": 2349,
       "chainType": "RELAYCHAIN",
       "symbol": "ATA",
       "existentialDeposit": "1000000000000000000",
@@ -4335,5 +4334,31 @@
       "abiExplorer": null
     },
     "icon": "astar-network.png"
+  },
+  "crust_mainnet": {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainet",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "OnFinality": "wss://crust.api.onfinality.io/public-ws",
+      "Crust Network": "wss://rpc.crust.network"
+    },
+    "isTestnet": false,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x8b404e7ed8789d813982b9cb4c8b664c05b3fbf433309f603af014ec9ce56a8c",
+      "addressPrefix": 66,
+      "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://crust.subscan.io/",
+      "symbol": "CRU",
+      "existentialDeposit": "100000000",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null,
+    "icon": "crust.png"
   }
 }
