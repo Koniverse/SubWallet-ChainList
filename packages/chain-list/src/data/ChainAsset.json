@@ -6990,5 +6990,19 @@
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
     "icon": "polkadot.png"
+  },
+  "u2u_test-NATIVE-U2U": {
+    "originChain": "u2u_test",
+    "slug": "u2u_test-NATIVE-U2U",
+    "name": "U2U",
+    "symbol": "U2U",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "unicorn-ultra.png"
   }
 }
