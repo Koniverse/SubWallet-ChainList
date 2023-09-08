@@ -6906,5 +6906,89 @@
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
     "icon": "astar-network.png"
+  },
+  "bifrost_dot-LOCAL-DOT": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-DOT",
+    "name": "Polkadot DOT",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "0"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "parallel-LOCAL-sDOT": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-sDOT",
+    "name": "sDOT",
+    "symbol": "sDOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1001"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "parallel-LOCAL-DOT": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-DOT",
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "101"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "interlay-LOCAL-DOT": {
+    "originChain": "interlay",
+    "slug": "interlay-LOCAL-DOT",
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "DOT"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
+  },
+  "hydradx_main-LOCAL-DOT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DOT",
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "5"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "polkadot.png"
   }
 }
