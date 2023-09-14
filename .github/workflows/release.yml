@@ -1,0 +1,57 @@
+name: Publish Build
+on:
+  push:
+    branches:
+      - master
+      - dev
+
+jobs:
+  master:
+    if: "startsWith(github.event.head_commit.message, '[Release]')"
+    runs-on: ubuntu-22.04
+    name: Build and publish
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
+
+      - name: Set input data
+        id: input_data
+        run: |
+          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
+            echo "::set-output name=target::latest"
+          else
+            echo "::set-output name=target::beta"
+          fi
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies and build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          yarn install
+          yarn publish:${{ steps.input_data.outputs.target }}
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Github-Bot
+          author_email: scheduler@github.io
+          message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
+
+      - name: Notify to Discord
+        uses: sarisia/actions-status-discord@v1
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: ${{ job.status }}
+          username: Chain List Notifier
+          title: ${{ github.workflow }}
+          description: |
+            The deployment has been completed.
+            Commit message: ${{ github.event.head_commit.message }}
