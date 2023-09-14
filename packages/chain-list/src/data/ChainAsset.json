@@ -7032,5 +7032,21 @@
     "multiChainAsset": "KAR-Karura",
     "hasValue": true,
     "icon": "karura.png"
+  },
+  "statemint-LOCAL-USDC": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1337"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "usdc.png"
   }
 }
