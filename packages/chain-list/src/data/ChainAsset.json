@@ -7004,5 +7004,33 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "unicorn-ultra.png"
+  },
+  "acala_evm-NATIVE-ACA": {
+    "originChain": "acala_evm",
+    "slug": "acala_evm-NATIVE-ACA",
+    "name": "Acala",
+    "symbol": "ACA",
+    "decimals": 18,
+    "priceId": "acala",
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ACA-Acala",
+    "hasValue": true,
+    "icon": "acala.png"
+  },
+  "karura_evm-NATIVE-KAR": {
+    "originChain": "karura_evm",
+    "slug": "karura_evm-NATIVE-KAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "decimals": 18,
+    "priceId": "karura",
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KAR-Karura",
+    "hasValue": true,
+    "icon": "karura.png"
   }
 }

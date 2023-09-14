@@ -2309,7 +2309,7 @@
     "name": "Acala Mandala TC7",
     "chainStatus": "ACTIVE",
     "providers": {
-      "OnFinality": "wss://aca la-mandala.api.onfinality.io/public-ws",
+      "OnFinality": "wss://acala-mandala.api.onfinality.io/public-ws",
       "Polkawallet": "wss://mandala.polkawallet.io"
     },
     "isTestnet": true,
@@ -4383,5 +4383,51 @@
       "abiExplorer": "https://testnet.u2uscan.xyz/"
     },
     "icon": "unicorn-ultra.png"
+  },
+  "acala_evm": {
+    "slug": "acala_evm",
+    "name": "Acala - EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Acala": "https://eth-rpc-acala.aca-api.network"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 787,
+      "blockExplorer": "https://blockscout.acala.network/",
+      "symbol": "ACA",
+      "decimals": 18,
+      "existentialDeposit": "100000000000000000",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://blockscout.acala.network/"
+    },
+    "icon": "acala.png"
+  },
+  "karura_evm": {
+    "slug": "karura_evm",
+    "name": "Karura - EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Acala": "https://eth-rpc-karura.aca-api.network"
+    },
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 686,
+      "blockExplorer": "https://blockscout.karura.network/",
+      "symbol": "KAR",
+      "decimals": 18,
+      "existentialDeposit": "100000000000000000",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://blockscout.karura.network/"
+    },
+    "icon": "karura.png"
   }
 }
