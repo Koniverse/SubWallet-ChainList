@@ -4361,29 +4361,6 @@
     "evmInfo": null,
     "icon": "crust.png"
   },
-  "u2u_test": {
-    "slug": "u2u_test",
-    "name": "Unicorn Ultra Nebulas Testnet",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "U2U": "https://rpc-nebulas-testnet.uniultra.xyz/"
-    },
-    "substrateInfo": null,
-    "evmInfo": {
-      "evmChainId": 2484,
-      "blockExplorer": "https://testnet.u2uscan.xyz/",
-      "symbol": "U2U",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": "https://testnet.u2uscan.xyz/"
-    },
-    "icon": "unicorn-ultra.png"
-  },
   "acala_evm": {
     "slug": "acala_evm",
     "name": "Acala - EVM",
