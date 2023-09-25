@@ -7050,35 +7050,5 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
-  },
-  "bittensor-NATIVE-TAO": {
-    "originChain": "bittensor",
-    "slug": "bittensor-NATIVE-TAO",
-    "name": "Bittensor",
-    "symbol": "TAO",
-    "decimals": 9,
-    "priceId": "bittensor",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "karura.png"
-  },
-  "hydradx_main-LOCAL-USDC": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-USDC",
-    "name": "USDC (Polkadot Asset Hub)",
-    "symbol": "USDC",
-    "decimals": 6,
-    "priceId": "usd-coin",
-    "minAmount": "10000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "22"
-    },
-    "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true,
-    "icon": "usdc.png"
   }
 }
