@@ -7034,5 +7034,21 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "usdc.png"
+  },
+  "astar-PSP34-Neuroguns-aZ9bd2tHeGKrs3FnJv5oe7kgVrP5GQvdJMhC2GxjXA2Yqbd": {
+    "originChain": "astar",
+    "slug": "astar-PSP34-Neuroguns-aZ9bd2tHeGKrs3FnJv5oe7kgVrP5GQvdJMhC2GxjXA2Yqbd",
+    "name": "Neuroguns",
+    "symbol": "NRG",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP34",
+    "metadata": {
+      "contractAddress": "aZ9bd2tHeGKrs3FnJv5oe7kgVrP5GQvdJMhC2GxjXA2Yqbd"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "azero-domain.png"
   }
 }
