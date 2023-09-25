@@ -2489,7 +2489,7 @@
     "name": "Imbue Kusama",
     "chainStatus": "ACTIVE",
     "providers": {
-      "Imbue": "wss://imbue-kusama.imbue.network"
+      "Imbue": "wss://kusama.imbuenetwork.com"
     },
     "isTestnet": false,
     "substrateInfo": {
@@ -3815,7 +3815,7 @@
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
-      "genesisHash": "0x6fbd74e5e1d0a 61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
+      "genesisHash": "0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
       "addressPrefix": 12,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://polymesh.subscan.io/",
@@ -4074,7 +4074,7 @@
       "symbol": "VARA",
       "existentialDeposit": "10000000000000",
       "decimals": 12,
-      "supportStaking": false,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null
