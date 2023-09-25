@@ -4074,7 +4074,7 @@
       "symbol": "VARA",
       "existentialDeposit": "10000000000000",
       "decimals": 12,
-      "supportStaking": false,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
       "blockExplorer": null
