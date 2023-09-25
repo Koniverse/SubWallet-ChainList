@@ -926,7 +926,6 @@
     "hasValue": false,
     "icon": "bifrost.png"
   },
-
   "calamari-NATIVE-KMA": {
     "originChain": "calamari",
     "slug": "calamari-NATIVE-KMA",
@@ -1215,7 +1214,6 @@
     "hasValue": true,
     "icon": "moonriver.png"
   },
-
   "amplitude-NATIVE-AMPE": {
     "originChain": "amplitude",
     "slug": "amplitude-NATIVE-AMPE",
@@ -7050,5 +7048,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "default.png"
+  },
+  "hydradx_main-LOCAL-USDC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDC",
+    "name": "USDC (Polkadot Asset Hub)",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "22"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "usdc.png"
   }
 }
