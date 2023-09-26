@@ -4077,7 +4077,7 @@
       "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": null,
-      "blockExplorer": null
+      "blockExplorer": "https://vara.subscan.io/"
     },
     "evmInfo": null,
     "icon": "vara.png"
@@ -4430,6 +4430,6 @@
       "supportStaking": false
     },
     "evmInfo": null,
-    "icon": "crust.png"
+    "icon": "bittensor.png"
   }
 }
