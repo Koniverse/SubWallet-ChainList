@@ -6,8 +6,8 @@ const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 const LOGO_URL = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/${BRANCH_NAME}/packages/chain-list/src/logo`;
 
 const SpecialCustomToken = {
-  cp: 'cp.png',
-  zpf: 'zpf.png'
+  "custom-moonbeam-ERC20-CP-0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824": 'cp.png',
+  "custom-aleph-PSP22-ZPF-5ESKJbkpVa1ppUCmrkCmaZDHqm9SHihws9Uqqsoi4VrDCDLE": 'zpf.png'
 }
 
 try {
@@ -29,8 +29,8 @@ try {
     default: `${LOGO_URL}/default.png`
   };
   Object.entries(ChainAssetMap).forEach(([slug, item]) => {
-    if (item.symbol && !assetLogoMap[item.symbol.toLowerCase()] && item.icon) {
-      assetLogoMap[item.symbol.toLowerCase()] = `${LOGO_URL}/${item.icon}`;
+    if (item.slug && !assetLogoMap[item.slug.toLowerCase()] && item.icon) {
+      assetLogoMap[item.slug.toLowerCase()] = `${LOGO_URL}/${item.icon}`;
     }
   });
 
