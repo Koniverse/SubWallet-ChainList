@@ -4406,5 +4406,30 @@
       "abiExplorer": "https://blockscout.karura.network/"
     },
     "icon": "karura.png"
+  },
+  "bittensor": {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
+    },
+    "isTestnet": false,
+    "substrateInfo": {
+      "paraId": null,
+      "relaySlug": null,
+      "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://scan.bittensor.com/",
+      "symbol": "TAO",
+      "existentialDeposit": "500",
+      "decimals": 9,
+      "hasNativeNft": false,
+      "supportSmartContract": null,
+      "supportStaking": false
+    },
+    "evmInfo": null,
+    "icon": "crust.png"
   }
 }
