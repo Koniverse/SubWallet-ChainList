@@ -5,7 +5,8 @@
     "name": "Polkadot",
     "symbol": "DOT",
     "priceId": "polkadot",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polkadot.png"
   },
   "KSM-Kusama": {
     "slug": "KSM-Kusama",
@@ -13,7 +14,8 @@
     "name": "Kusama",
     "symbol": "KSM",
     "priceId": "kusama",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kusama.png"
   },
   "GLMR-Moonbeam": {
     "slug": "GLMR-Moonbeam",
@@ -21,7 +23,8 @@
     "name": "Moonbeam",
     "symbol": "GLMR",
     "priceId": "moonbeam",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "moonbeam.png"
   },
   "ACA-Acala": {
     "slug": "ACA-Acala",
@@ -29,7 +32,8 @@
     "name": "Acala",
     "symbol": "ACA",
     "priceId": "acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "acala.png"
   },
   "KAR-Karura": {
     "slug": "KAR-Karura",
@@ -37,7 +41,8 @@
     "name": "Karura",
     "symbol": "KAR",
     "priceId": "karura",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "karura.png"
   },
   "USDT-Tether": {
     "slug": "USDT-Tether",
@@ -45,7 +50,8 @@
     "name": "Tether",
     "symbol": "USDT",
     "priceId": "tether",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdt.png"
   },
   "ETH-Ethereum": {
     "slug": "ETH-Ethereum",
@@ -53,7 +59,8 @@
     "name": "Ethereum",
     "symbol": "ETH",
     "priceId": "ethereum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "ASTR-Astar": {
     "slug": "ASTR-Astar",
@@ -61,7 +68,8 @@
     "name": "Astar",
     "symbol": "ASTR",
     "priceId": "astar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "astar-network.png"
   },
   "aUSD-AcalaDollar": {
     "slug": "aUSD-AcalaDollar",
@@ -69,7 +77,8 @@
     "name": "Acala Dollar",
     "symbol": "aUSD",
     "priceId": "acala-dollar-acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "aUSD-KaruraDollar": {
     "slug": "aUSD-KaruraDollar",
@@ -77,7 +86,8 @@
     "name": "Karura Dollar",
     "symbol": "aUSD",
     "priceId": "acala-dollar",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ausd.png"
   },
   "DEV-MoonbaseDev": {
     "slug": "DEV-MoonbaseDev",
@@ -85,7 +95,8 @@
     "name": "Moonbase Dev",
     "symbol": "DEV",
     "priceId": null,
-    "hasValue": false
+    "hasValue": false,
+    "icon": "moonbase.png"
   },
   "MOVR-Moonriver": {
     "slug": "MOVR-Moonriver",
@@ -93,7 +104,8 @@
     "name": "Moonriver",
     "symbol": "MOVR",
     "priceId": "moonriver",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "moonriver.png"
   },
   "BNC-BifrostKusama": {
     "slug": "BNC-BifrostKusama",
@@ -101,7 +113,8 @@
     "name": "Bifrost Kusama",
     "symbol": "BNC",
     "priceId": "bifrost-native-coin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bifrost.png"
   },
   "NEER-Pioneer": {
     "slug": "NEER-Pioneer",
@@ -109,7 +122,8 @@
     "name": "Pioneer",
     "symbol": "NEER",
     "priceId": "metaverse-network-pioneer",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bit.country-pioneer.png"
   },
   "INTR-Interlay": {
     "slug": "INTR-Interlay",
@@ -117,7 +131,8 @@
     "name": "Interlay",
     "symbol": "INTR",
     "priceId": "interlay",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "interlay.png"
   },
   "iBTC-interBTC": {
     "slug": "iBTC-interBTC",
@@ -125,7 +140,8 @@
     "name": "interBTC",
     "symbol": "iBTC",
     "priceId": "interbtc",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ibtc.png"
   },
   "KINT-Kintsugi": {
     "slug": "KINT-Kintsugi",
@@ -133,7 +149,8 @@
     "name": "Kintsugi",
     "symbol": "KINT",
     "priceId": "kintsugi",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kintsugi.png"
   },
   "kBTC-KintsugiWrappedBTC": {
     "slug": "kBTC-KintsugiWrappedBTC",
@@ -141,7 +158,8 @@
     "name": "Kintsugi Wrapped BTC",
     "symbol": "kBTC",
     "priceId": "kintsugi-btc",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "kbtc.png"
   },
   "USDC-USDCoin": {
     "slug": "USDC-USDCoin",
@@ -149,7 +167,8 @@
     "name": "USDC",
     "symbol": "USDC",
     "priceId": "usd-coin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdc.png"
   },
   "BNB-Binance": {
     "slug": "BNB-Binance",
@@ -157,7 +176,8 @@
     "name": "Binance Smart Chain",
     "symbol": "BNB",
     "priceId": "binancecoin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "bnb.png"
   },
   "BUSD-BinanceUSD": {
     "slug": "BUSD-BinanceUSD",
@@ -165,7 +185,8 @@
     "name": "Binance USD",
     "symbol": "BUSD",
     "priceId": "binance-usd",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "busd.png"
   },
   "DAI-DaiStablecoin": {
     "slug": "DAI-DaiStablecoin",
@@ -173,7 +194,8 @@
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "priceId": "dai",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "dai.png"
   },
   "SDN-Shiden": {
     "slug": "SDN-Shiden",
@@ -181,7 +203,8 @@
     "name": "Shiden",
     "symbol": "SDN",
     "priceId": "shiden",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "shiden.png"
   },
   "PKEX-PolkaEx": {
     "slug": "PKEX-PolkaEx",
@@ -189,7 +212,8 @@
     "name": "PolkaEx",
     "symbol": "PKEX",
     "priceId": "polkaex",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "pkex.png"
   },
   "CRU-Crust": {
     "slug": "CRU-Crust",
@@ -197,7 +221,8 @@
     "name": "Crust",
     "symbol": "CRU",
     "priceId": "crust-network",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "crust.png"
   },
   "PHA-Phala": {
     "slug": "PHA-Phala",
@@ -205,7 +230,8 @@
     "name": "Phala",
     "symbol": "PHA",
     "priceId": "pha",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "khala-network.png"
   },
   "PARA-Parallel": {
     "slug": "PARA-Parallel",
@@ -213,7 +239,8 @@
     "name": "Parallel",
     "symbol": "PARA",
     "priceId": "parallel-finance",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "parallel.png"
   },
   "BOBA-BobaToken": {
     "slug": "BOBA-BobaToken",
@@ -221,7 +248,8 @@
     "name": "Boba Token",
     "symbol": "BOBA",
     "priceId": "boba-network",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "boba-network.png"
   },
   "EQD-EquilibriumUSD": {
     "slug": "EQD-EquilibriumUSD",
@@ -229,7 +257,8 @@
     "name": "Equilibrium USD",
     "symbol": "EQD",
     "priceId": null,
-    "hasValue": true
+    "hasValue": true,
+    "icon": "eqd.png"
   },
   "WETH-WrappedEther": {
     "slug": "WETH-WrappedEther",
@@ -237,7 +266,8 @@
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "priceId": "weth",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ethereum.png"
   },
   "RMRK-RMRKApp": {
     "slug": "RMRK-RMRKApp",
@@ -245,7 +275,8 @@
     "name": "RMRK.app",
     "symbol": "RMRK",
     "priceId": "rmrk",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "rmrk-token.png"
   },
   "WBTC-WrappedBTC": {
     "slug": "WBTC-WrappedBTC",
@@ -253,7 +284,8 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "priceId": "wrapped-bitcoin",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "btc.png"
   },
   "MATIC-Polygon": {
     "slug": "MATIC-Polygon",
@@ -261,7 +293,8 @@
     "name": "Polygon",
     "symbol": "MATIC",
     "priceId": "matic-network",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "polygon.png"
   },
   "ARB-ArbitrumOne": {
     "slug": "ARB-ArbitrumOne",
@@ -269,7 +302,8 @@
     "name": "Arbitrum One",
     "symbol": "ARB",
     "priceId": "arbitrum",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "arbitrum.png"
   },
   "OP-Optimism": {
     "slug": "OP-Optimism",
@@ -277,7 +311,8 @@
     "name": "Optimism",
     "symbol": "OP",
     "priceId": "optimism",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "optimism.png"
   },
   "EQ-Equilibrium": {
     "slug": "EQ-Equilibrium",
@@ -285,7 +320,8 @@
     "name": "Equilibrium",
     "symbol": "EQ",
     "priceId": "equilibrium-token",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "eq.png"
   },
   "KMA-Calamari": {
     "slug": "KMA-Calamari",
@@ -293,7 +329,8 @@
     "name": "Calamari",
     "symbol": "KMA",
     "priceId": "calamari-network",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "calamarinetwork.png"
   },
   "FTM-Fantom": {
     "slug": "FTM-Fantom",
@@ -301,7 +338,8 @@
     "name": "Fantom",
     "symbol": "FTM",
     "priceId": "fantom",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "ftm.png"
   },
   "aSEED-aSEEDAcala": {
     "slug": "aSEED-aSEEDAcala",
@@ -309,7 +347,8 @@
     "name": "aUSD SEED (Acala)",
     "symbol": "aSEED",
     "priceId": "ausd-seed-acala",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "aseed.png"
   },
   "aSEED-aSEEDKarura": {
     "slug": "aSEED-aSEEDKarura",
@@ -317,7 +356,8 @@
     "name": "aUSD SEED (Karura)",
     "symbol": "aSEED",
     "priceId": "ausd-seed-karura",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "aseed.png"
   },
   "DPR-DeeperNetwork": {
     "slug": "DPR-DeeperNetwork",
@@ -325,7 +365,8 @@
     "name": "Deeper Network",
     "symbol": "DPR",
     "priceId": "deeper-network",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "deeper-network.png"
   },
   "USDD-DecentralizedUSD": {
     "slug": "USDD-DecentralizedUSD",
@@ -333,6 +374,7 @@
     "name": "Decentralized USD",
     "symbol": "USDD",
     "priceId": "usdd",
-    "hasValue": true
+    "hasValue": true,
+    "icon": "usdd.png"
   }
 }

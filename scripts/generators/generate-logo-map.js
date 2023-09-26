@@ -1,6 +1,7 @@
 import fs from "fs";
 import ChainInfoMap from '../../packages/chain-list/src/data/ChainInfo.json' assert { type: "json" };
 import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' assert { type: "json" };
+import MultiChainAsset from '../../packages/chain-list/src/data/MultiChainAsset.json' assert { type: "json" };
 
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 const LOGO_URL = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/${BRANCH_NAME}/packages/chain-list/src/logo`;
@@ -29,6 +30,12 @@ try {
     default: `${LOGO_URL}/default.png`
   };
   Object.entries(ChainAssetMap).forEach(([slug, item]) => {
+    if (item.slug && !assetLogoMap[item.slug.toLowerCase()] && item.icon) {
+      assetLogoMap[item.slug.toLowerCase()] = `${LOGO_URL}/${item.icon}`;
+    }
+  });
+
+  Object.entries(MultiChainAsset).forEach(([slug, item]) => {
     if (item.slug && !assetLogoMap[item.slug.toLowerCase()] && item.icon) {
       assetLogoMap[item.slug.toLowerCase()] = `${LOGO_URL}/${item.icon}`;
     }

@@ -23,6 +23,7 @@
     "export-chains": "./scripts/exports/export-chains.js",
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
     "generate-logo-map": "./scripts/generators/generate-logo-map.js",
+    "generate-multi-chain-asset-logo": "./scripts/generators/generate-multi-chain-asset-logo.js",
     "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
     "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
@@ -30,7 +31,7 @@
     "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build": "yarn generate-multi-chain-asset-logo && yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
     "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",
