@@ -20,9 +20,9 @@ jobs:
         id: input_data
         run: |
           if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-            echo "{target}={latest}" >> $GITHUB_OUTPUT
+            echo "target=latest" >> $GITHUB_OUTPUT
           else
-            echo "{target}={beta}" >> $GITHUB_OUTPUT
+            echo "target=beta" >> $GITHUB_OUTPUT
           fi
 
       - uses: actions/setup-node@v3
