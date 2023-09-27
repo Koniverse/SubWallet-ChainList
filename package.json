@@ -11,10 +11,6 @@
   "sideEffects": false,
   "type": "module",
   "version": "0.2.14",
-  "versions": {
-    "git": "0.2.14",
-    "npm": "0.2.14"
-  },
   "workspaces": [
     "packages/*"
   ],
@@ -23,14 +19,14 @@
     "export-chains": "./scripts/exports/export-chains.js",
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
     "generate-logo-map": "./scripts/generators/generate-logo-map.js",
-    "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
-    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
+    "generate-multi-chain-asset-logo": "./scripts/generators/generate-multi-chain-asset-logo.js",
+    "set-version": "./scripts/set-version.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build": "yarn generate-multi-chain-asset-logo && yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
     "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",
