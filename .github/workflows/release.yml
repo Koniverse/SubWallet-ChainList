@@ -34,10 +34,9 @@ jobs:
       - name: Install dependencies and build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          VERSION: ${{ github.event.inputs.version }}
         run: |
           yarn install
-          yarn set-version ${{ VERSION }}
+          yarn set-version ${{ github.event.inputs.version }}
           yarn publish:${{ steps.input_data.outputs.target }}
 
       - name: Commit changes
@@ -45,7 +44,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: 'Release version ${{ VERSION }}'
+          message: 'Release version ${{ github.event.inputs.version }}'
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
@@ -57,4 +56,4 @@ jobs:
           title: ${{ github.workflow }}
           description: |
             The deployment has been completed.
-            Release version ${{ VERSION }}
+            Release version ${{ github.event.inputs.version }}
