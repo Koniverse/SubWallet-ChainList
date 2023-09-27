@@ -1,14 +1,13 @@
-name: Release
+name: Publish Build
 on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version'
-        required: true
-        default: ''
+  push:
+    branches:
+      - master
+      - dev
 
 jobs:
   master:
+    if: "startsWith(github.event.head_commit.message, '[Release]')"
     runs-on: ubuntu-22.04
     name: Build and publish
     steps:
@@ -34,10 +33,8 @@ jobs:
       - name: Install dependencies and build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          VERSION: ${{ github.event.inputs.version }}
         run: |
           yarn install
-          yarn set-version ${{ VERSION }}
           yarn publish:${{ steps.input_data.outputs.target }}
 
       - name: Commit changes
@@ -45,7 +42,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: 'Release version ${{ VERSION }}'
+          message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
@@ -57,4 +54,4 @@ jobs:
           title: ${{ github.workflow }}
           description: |
             The deployment has been completed.
-            Release version ${{ VERSION }}
+            Commit message: ${{ github.event.head_commit.message }}
