@@ -2,7 +2,6 @@
   "polkadot": {
     "slug": "polkadot",
     "name": "Polkadot",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://rpc.polkadot.io",
@@ -13,6 +12,7 @@
       "1RPC": "wss://1rpc.io/dot",
       "PinkNode": "wss://public-rpc.pinknode.io/polkadot"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
@@ -24,17 +24,16 @@
       "symbol": "DOT",
       "existentialDeposit": "10000000000",
       "decimals": 10,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polkadot.png"
+    "icon": "https://media-resources.subwallet.app//2/polkadot_63b5dd41ef.png"
   },
   "kusama": {
     "slug": "kusama",
     "name": "Kusama",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://kusama-rpc.polkadot.io",
@@ -45,6 +44,7 @@
       "RadiumBlock": "wss://kusama.public.curie.radiumblock.xyz/ws",
       "1RPC": "wss://1rpc.io/ksm"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
@@ -56,17 +56,16 @@
       "symbol": "KSM",
       "existentialDeposit": "333333333",
       "decimals": 12,
-      "hasNativeNft": true,
       "supportStaking": true,
+      "hasNativeNft": true,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kusama.png"
+    "icon": "https://media-resources.subwallet.app//2/kusama_3a65d79366.png"
   },
   "ethereum": {
     "slug": "ethereum",
     "name": "Ethereum",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Llamarpc": "https://eth.llamarpc.com",
@@ -75,6 +74,7 @@
       "BlastApi": "https://eth-mainnet.public.blastapi.io",
       "Infura": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 1,
@@ -88,7 +88,7 @@
       ],
       "abiExplorer": "https://etherscan.io"
     },
-    "icon": "ethereum.png"
+    "icon": "https://media-resources.subwallet.app//2/ethereum_39914b7817.png"
   },
   "binance": {
     "slug": "binance",
@@ -111,14 +111,14 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "bnb.png"
+    "icon": "https://media-resources.subwallet.app//2/bnb_d6b4677e85.png"
   },
   "moonbeam": {
     "slug": "moonbeam",
     "name": "Moonbeam",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
@@ -128,6 +128,7 @@
       "PinkNode": "wss://public-rpc.pinknode.io/moonbeam",
       "Blast": "wss://moonbeam.public.blastapi.io"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2004,
       "relaySlug": "polkadot",
@@ -139,8 +140,8 @@
       "symbol": "GLMR",
       "existentialDeposit": "0",
       "decimals": 18,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": {
@@ -155,7 +156,7 @@
       ],
       "abiExplorer": "https://api-moonbeam.moonscan.io/api?module=contract&action=getabi"
     },
-    "icon": "moonbeam.png"
+    "icon": "https://media-resources.subwallet.app//2/moonbeam_4f6ef924fe.png"
   },
   "pioneer": {
     "slug": "pioneer",
@@ -176,12 +177,12 @@
       "symbol": "NEER",
       "existentialDeposit": "100000000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bit.country-pioneer.png"
+    "icon": "https://media-resources.subwallet.app//2/bit_country_pioneer_03e26dad1d.png"
   },
   "aleph": {
     "slug": "aleph",
@@ -198,6 +199,7 @@
       "addressPrefix": 42,
       "crowdloanUrl": "https://contribute.alephzero.org/",
       "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://alephzero.subscan.io/",
       "symbol": "AZERO",
       "existentialDeposit": "500",
       "decimals": 12,
@@ -206,16 +208,14 @@
       "supportSmartContract": [
         "PSP34",
         "PSP22"
-      ],
-      "blockExplorer": "https://alephzero.subscan.io/"
+      ]
     },
     "evmInfo": null,
-    "icon": "aleph-zero.png"
+    "icon": "https://media-resources.subwallet.app//2/aleph_zero_5b98dbe0ae.png"
   },
   "astar": {
     "slug": "astar",
     "name": "Astar",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Astar": "wss://rpc.astar.network",
@@ -226,6 +226,7 @@
       "1RPC": "wss://1rpc.io/astr",
       "Light Client": "light://substrate-connect/polkadot/astar"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2006,
       "relaySlug": "polkadot",
@@ -237,20 +238,19 @@
       "symbol": "ASTR",
       "existentialDeposit": "1000000",
       "decimals": 18,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": [
         "PSP34",
         "PSP22"
-      ],
-      "supportStaking": true
+      ]
     },
     "evmInfo": null,
-    "icon": "astar-network.png"
+    "icon": "https://media-resources.subwallet.app//2/astar_network_8038e86b95.png"
   },
   "astarEvm": {
     "slug": "astarEvm",
     "name": "Astar - EVM",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Astar": "https://evm.astar.network",
@@ -259,6 +259,7 @@
       "Blast": "https://astar.public.blastapi.io",
       "1RPC": "https://1rpc.io/astr"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 592,
@@ -272,7 +273,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "astar-network.png"
+    "icon": "https://media-resources.subwallet.app//2/astar_network_8038e86b95.png"
   },
   "statemint": {
     "slug": "statemint",
@@ -292,22 +293,22 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
       "addressPrefix": 0,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://statemint.subscan.io/",
       "symbol": "DOT",
       "existentialDeposit": "1000000000",
       "decimals": 10,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polkadot-asset-hub.png"
+    "icon": "https://media-resources.subwallet.app//2/polkadot_asset_hub_218e73fad2.png"
   },
   "acala": {
     "slug": "acala",
     "name": "Acala",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
@@ -318,6 +319,7 @@
       "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
       "Dwellir": "wss://acala-rpc.dwellir.com"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2000,
       "relaySlug": "polkadot",
@@ -329,22 +331,23 @@
       "symbol": "ACA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
-      "hasNativeNft": true,
       "supportStaking": false,
+      "hasNativeNft": true,
       "supportSmartContract": null
     },
-    "icon": "acala.png"
+    "evmInfo": null,
+    "icon": "https://media-resources.subwallet.app//2/acala_10b077e14b.png"
   },
   "polygon": {
     "slug": "polygon",
     "name": "Polygon",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Llamarpc": "https://polygon.llamarpc.com",
       "BlastApi": "https://polygon-mainnet.public.blastapi.io",
       "BorPublicNode": "https://polygon-bor.publicnode.com"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 137,
@@ -358,17 +361,17 @@
       ],
       "abiExplorer": "https://polygonscan.com"
     },
-    "icon": "polygon.png"
+    "icon": "https://media-resources.subwallet.app//2/polygon_e12f7d1924.png"
   },
   "arbitrum_one": {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
       "BlastApi": "https://arbitrum-one.public.blastapi.io"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 42161,
@@ -382,17 +385,17 @@
       ],
       "abiExplorer": "https://arbiscan.io"
     },
-    "icon": "arbitrum.png"
+    "icon": "https://media-resources.subwallet.app//2/arbitrum_cb1f0d45ad.png"
   },
   "optimism": {
     "slug": "optimism",
     "name": "Optimism",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Optimism": "https://mainnet.optimism.io",
       "BlastApi": "https://optimism-mainnet.public.blastapi.io"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 10,
@@ -406,16 +409,16 @@
       ],
       "abiExplorer": "https://optimistic.etherscan.io"
     },
-    "icon": "optimism.png"
+    "icon": "https://media-resources.subwallet.app//2/optimism_a6ed6c25a9.png"
   },
   "tomochain": {
     "slug": "tomochain",
     "name": "TomoChain",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "TomoChain": "https://rpc.tomochain.com"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 88,
@@ -429,16 +432,16 @@
       ],
       "abiExplorer": "https://tomoscan.i"
     },
-    "icon": "tomochain.png"
+    "icon": "https://media-resources.subwallet.app//2/tomochain_549225abda.png"
   },
   "alephTest": {
     "slug": "alephTest",
     "name": "Aleph Zero Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Aleph Zero Foundation": "wss://ws.test.azero.dev"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
@@ -450,20 +453,19 @@
       "symbol": "TZERO",
       "existentialDeposit": "500",
       "decimals": 12,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": [
         "PSP34",
         "PSP22"
-      ],
-      "supportStaking": true
+      ]
     },
     "evmInfo": null,
-    "icon": "aleph-zero.png"
+    "icon": "https://media-resources.subwallet.app//2/aleph_zero_5b98dbe0ae.png"
   },
   "shiden": {
     "slug": "shiden",
     "name": "Shiden",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Astar": "wss://rpc.shiden.astar.network",
@@ -471,6 +473,7 @@
       "Dwellir": "wss://shiden-rpc.dwellir.com",
       "Blast": "wss://shiden.public.blastapi.io"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2007,
       "relaySlug": "kusama",
@@ -482,20 +485,19 @@
       "symbol": "SDN",
       "existentialDeposit": "1000000",
       "decimals": 18,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": [
         "PSP34",
         "PSP22"
-      ],
-      "supportStaking": true
+      ]
     },
     "evmInfo": null,
-    "icon": "shiden.png"
+    "icon": "https://media-resources.subwallet.app//2/shiden_080092bcde.png"
   },
   "shidenEvm": {
     "slug": "shidenEvm",
     "name": "Shiden - EVM",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Astar": "https://evm.shiden.astar.network",
@@ -503,6 +505,7 @@
       "Dwellir": "https://shiden-rpc.dwellir.com",
       "Blast": "https://shiden.public.blastapi.io"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 336,
@@ -516,17 +519,17 @@
       ],
       "abiExplorer": null
     },
-    "icon": "shiden.png"
+    "icon": "https://media-resources.subwallet.app//2/shiden_080092bcde.png"
   },
   "shibuya": {
     "slug": "shibuya",
     "name": "Shibuya Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Shibuya": "wss://rpc.shibuya.astar.network",
       "Dwellir": "wss://shibuya-rpc.dwellir.com"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": 1000,
       "relaySlug": null,
@@ -538,26 +541,26 @@
       "symbol": "SBY",
       "existentialDeposit": "1000000",
       "decimals": 18,
+      "supportStaking": true,
       "hasNativeNft": false,
       "supportSmartContract": [
         "PSP34",
         "PSP22"
-      ],
-      "supportStaking": true
+      ]
     },
     "evmInfo": null,
-    "icon": "astar-network.png"
+    "icon": "https://media-resources.subwallet.app//2/astar_network_8038e86b95.png"
   },
   "shibuyaEvm": {
     "slug": "shibuyaEvm",
     "name": "Shibuya Testnet - EVM",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Shibuya": "https://evm.shibuya.astar.network ",
       "Dwellir": "https://shibuya-rpc.dwellir.com",
       "BlastAPI": "https://shibuya.public.blastapi.io"
     },
+    "isTestnet": true,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 81,
@@ -571,7 +574,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "astar-network.png"
+    "icon": "https://media-resources.subwallet.app//2/astar_network_8038e86b95.png"
   },
   "aventus": {
     "slug": "aventus",
@@ -586,22 +589,22 @@
       "relaySlug": null,
       "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://explorer.mainnet.aventus.io/",
       "symbol": "AVT",
       "existentialDeposit": "0",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://explorer.mainnet.aventus.io/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "aventus.png"
+    "icon": "https://media-resources.subwallet.app//2/aventus_5342678346.png"
   },
   "westend": {
     "slug": "westend",
     "name": "Westend",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://westend-rpc.polkadot.io",
@@ -611,6 +614,7 @@
       "DottersNet": "wss://rpc.dotters.network/westend",
       "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
@@ -622,17 +626,16 @@
       "symbol": "WND",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+      "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": true
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "westend.png"
+    "icon": "https://media-resources.subwallet.app//2/westend_cd23291966.png"
   },
   "rococo": {
     "slug": "rococo",
     "name": "Rococo",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://rococo-rpc.polkadot.io",
@@ -641,6 +644,7 @@
       "Ares Protocol": "wss://rococo.aresprotocol.com",
       "Light Client": "light://substrate-connect/rococo"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
@@ -652,24 +656,24 @@
       "symbol": "ROC",
       "existentialDeposit": "33333333",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
       "supportSmartContract": [
         "PSP34",
         "PSP22"
-      ],
-      "supportStaking": false
+      ]
     },
     "evmInfo": null,
-    "icon": "rococo.png"
+    "icon": "https://media-resources.subwallet.app//2/rococo_2354ee585c.png"
   },
   "bitcountry": {
     "slug": "bitcountry",
     "name": "Bit.Country - Alpha Net",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Metaverse Foundation": "wss://alphanet-rpc.bit.country"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
@@ -681,22 +685,22 @@
       "symbol": "NUUM",
       "existentialDeposit": "1",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bit.country-continuum.png"
+    "icon": "https://media-resources.subwallet.app//2/bit_country_continuum_d0a92a8433.png"
   },
   "equilibrium_parachain": {
     "slug": "equilibrium_parachain",
     "name": "Equilibrium",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Equilibrium": "wss://node.pol.equilibrium.io",
       "Dwellir": "wss://equilibrium-rpc.dwellir.com"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2011,
       "relaySlug": "polkadot",
@@ -706,24 +710,25 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://equilibrium.subscan.io",
       "symbol": "EQ",
+      "existentialDeposit": null,
       "decimals": 9,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "equilibrium.png"
+    "icon": "https://media-resources.subwallet.app//2/equilibrium_8c9f18b502.png"
   },
   "moonbase": {
     "slug": "moonbase",
     "name": "Moonbase Alpha",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
       "OnFinality": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
       "Blast": "wss://moonbase-alpha.public.blastapi.io"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": 1000,
       "relaySlug": null,
@@ -735,8 +740,8 @@
       "symbol": "DEV",
       "existentialDeposit": "0",
       "decimals": 18,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": {
@@ -751,12 +756,11 @@
       ],
       "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
     },
-    "icon": "moonbase.png"
+    "icon": "https://media-resources.subwallet.app//2/moonbase_e42c8ad3dc.png"
   },
   "moonriver": {
     "slug": "moonriver",
     "name": "Moonriver",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
@@ -766,6 +770,7 @@
       "Pinknode": "wss://public-rpc.pinknode.io/moonriver",
       "UnitedBloc": "wss://moonriver.unitedbloc.com:2001"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2023,
       "relaySlug": "kusama",
@@ -777,8 +782,8 @@
       "symbol": "MOVR",
       "existentialDeposit": "0",
       "decimals": 18,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": {
@@ -793,16 +798,16 @@
       ],
       "abiExplorer": "https://api-moonriver.moonscan.io/api?module=contract&action=getabi"
     },
-    "icon": "moonriver.png"
+    "icon": "https://media-resources.subwallet.app//2/moonriver_06142a1b4a.png"
   },
   "turingStaging": {
     "slug": "turingStaging",
     "name": "Turing Staging",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": 2114,
       "relaySlug": null,
@@ -814,22 +819,22 @@
       "symbol": "TUR",
       "existentialDeposit": "100000000",
       "decimals": 10,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "turing-network.png"
+    "icon": "https://media-resources.subwallet.app//2/turing_network_c8ce22709f.png"
   },
   "turing": {
     "slug": "turing",
     "name": "Turing",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Turing": "wss://rpc.turing.oak.tech",
       "Dwellir": "wss://turing-rpc.dwellir.com"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2114,
       "relaySlug": "kusama",
@@ -841,23 +846,23 @@
       "symbol": "TUR",
       "existentialDeposit": "100000000",
       "decimals": 10,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "turing-network.png"
+    "icon": "https://media-resources.subwallet.app//2/turing_network_c8ce22709f.png"
   },
   "bifrost": {
     "slug": "bifrost",
     "name": "Bifrost Kusama",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
       "Dwellir": "wss://bifrost-rpc.dwellir.com",
       "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2001,
       "relaySlug": "kusama",
@@ -869,22 +874,22 @@
       "symbol": "BNC",
       "existentialDeposit": "10000000000",
       "decimals": 12,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bifrost-kusama.png"
+    "icon": "https://media-resources.subwallet.app//2/bifrost_kusama_cc2473707c.png"
   },
   "bifrost_dot": {
     "slug": "bifrost_dot",
     "name": "Bifrost Polkadot",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2030,
       "relaySlug": "polkadot",
@@ -896,21 +901,21 @@
       "symbol": "BNC",
       "existentialDeposit": "10000000000",
       "decimals": 12,
-      "hasNativeNft": false,
       "supportStaking": false,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bifrost.png"
+    "icon": "https://media-resources.subwallet.app//2/bifrost_44b3c3fd65.png"
   },
   "bifrost_testnet": {
     "slug": "bifrost_testnet",
     "name": "Bifrost Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Liebi": "wss://bifrost-rpc.rococo.liebi.com/ws"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": 2030,
       "relaySlug": "rococo",
@@ -922,21 +927,21 @@
       "symbol": "BNC",
       "existentialDeposit": "10000000000",
       "decimals": 12,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bifrost.png"
+    "icon": "https://media-resources.subwallet.app//2/bifrost_44b3c3fd65.png"
   },
   "calamari": {
     "slug": "calamari",
     "name": "Calamari",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Manta Network": "wss://calamari.systems"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2084,
       "relaySlug": "kusama",
@@ -948,21 +953,21 @@
       "symbol": "KMA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "calamarinetwork.png"
+    "icon": "https://media-resources.subwallet.app//2/calamarinetwork_ad869dd66b.png"
   },
   "amplitude": {
     "slug": "amplitude",
     "name": "Amplitude",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2124,
       "relaySlug": "kusama",
@@ -974,21 +979,21 @@
       "symbol": "AMPE",
       "existentialDeposit": "1000000000",
       "decimals": 12,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "amplitude.png"
+    "icon": "https://media-resources.subwallet.app//2/amplitude_7704334d11.png"
   },
   "amplitude_test": {
     "slug": "amplitude_test",
     "name": "Amplitude Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": 2124,
       "relaySlug": "rococo",
@@ -1000,22 +1005,22 @@
       "symbol": "AMPE",
       "existentialDeposit": "1000000000",
       "decimals": 12,
-      "hasNativeNft": false,
       "supportStaking": true,
+      "hasNativeNft": false,
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "amplitude.png"
+    "icon": "https://media-resources.subwallet.app//2/amplitude_7704334d11.png"
   },
   "bobabase": {
     "slug": "bobabase",
     "name": "Bobabase Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "RPC": "https://bobabase.boba.network",
       "Replica RPC": "https://replica.bobabase.boba.network"
     },
+    "isTestnet": true,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 1297,
@@ -1029,7 +1034,7 @@
       ],
       "abiExplorer": "https://blockexplorer.bobabase.boba.network/"
     },
-    "icon": "boba-network.png"
+    "icon": "https://media-resources.subwallet.app//2/boba_network_78cd37f0d6.png"
   },
   "ethereum_goerli": {
     "slug": "ethereum_goerli",
@@ -1050,9 +1055,10 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "ethereum.png"
+    "icon": "https://media-resources.subwallet.app//2/ethereum_39914b7817.png"
   },
   "binance_test": {
     "slug": "binance_test",
@@ -1073,9 +1079,10 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "bnb.png"
+    "icon": "https://media-resources.subwallet.app//2/bnb_d6b4677e85.png"
   },
   "parallel": {
     "slug": "parallel",
@@ -1097,12 +1104,12 @@
       "symbol": "PARA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "parallel.png"
+    "icon": "https://media-resources.subwallet.app//2/parallel_208725684a.png"
   },
   "clover": {
     "slug": "clover",
@@ -1124,12 +1131,12 @@
       "symbol": "CLV",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "clover.png"
+    "icon": "https://media-resources.subwallet.app//2/clover_3dd183f2ca.png"
   },
   "cloverEvm": {
     "slug": "cloverEvm",
@@ -1143,15 +1150,17 @@
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 1024,
+      "blockExplorer": null,
       "symbol": "CLV",
       "decimals": 18,
       "existentialDeposit": "0",
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "clover.png"
+    "icon": "https://media-resources.subwallet.app//2/clover_3dd183f2ca.png"
   },
   "hydradx_main": {
     "slug": "hydradx_main",
@@ -1169,16 +1178,16 @@
       "addressPrefix": 63,
       "crowdloanUrl": "https://loan.hydradx.io/",
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://hydradx.subscan.io/",
       "symbol": "HDX",
       "existentialDeposit": "1000000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://hydradx.subscan.io/",
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "hydradx.png"
+    "icon": "https://media-resources.subwallet.app//2/hydradx_721c03c934.png"
   },
   "edgeware": {
     "slug": "edgeware",
@@ -1195,17 +1204,18 @@
       "relaySlug": null,
       "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
       "addressPrefix": 7,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://edgeware.subscan.io/",
       "symbol": "EDG",
       "existentialDeposit": "10000000000000",
       "decimals": 18,
+      "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": true
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "edgeware.png"
+    "icon": "https://media-resources.subwallet.app//2/edgeware_6a0057274c.png"
   },
   "centrifuge": {
     "slug": "centrifuge",
@@ -1227,12 +1237,12 @@
       "symbol": "CFG",
       "existentialDeposit": "1000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "centrifuge.png"
+    "icon": "https://media-resources.subwallet.app//2/centrifuge_1210a93e56.png"
   },
   "interlay": {
     "slug": "interlay",
@@ -1252,13 +1262,14 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://interlay.subscan.io/",
       "symbol": "INTR",
+      "existentialDeposit": null,
       "decimals": 10,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "interlay.png"
+    "icon": "https://media-resources.subwallet.app//2/interlay_53b0045be1.png"
   },
   "nodle": {
     "slug": "nodle",
@@ -1281,12 +1292,12 @@
       "symbol": "NODL",
       "existentialDeposit": "10000",
       "decimals": 11,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "nodle.png"
+    "icon": "https://media-resources.subwallet.app//2/nodle_fba7fd5ae5.png"
   },
   "darwinia2": {
     "slug": "darwinia2",
@@ -1308,9 +1319,9 @@
       "symbol": "RING",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": {
       "evmChainId": 46,
@@ -1324,7 +1335,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "darwinia.png"
+    "icon": "https://media-resources.subwallet.app//2/darwinia_8a711cb162.png"
   },
   "sora_ksm": {
     "slug": "sora_ksm",
@@ -1341,16 +1352,16 @@
       "addressPrefix": 420,
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "XOR",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "sora.png"
+    "icon": "https://media-resources.subwallet.app//2/sora_cd4fcddf6e.png"
   },
   "odyssey": {
     "slug": "odyssey",
@@ -1367,16 +1378,16 @@
       "addressPrefix": 34,
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "ARES",
       "existentialDeposit": "500",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "odyssey.png"
+    "icon": "https://media-resources.subwallet.app//2/odyssey_98d1b94f53.png"
   },
   "polkadex": {
     "slug": "polkadex",
@@ -1403,7 +1414,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polkadex.png"
+    "icon": "https://media-resources.subwallet.app//2/polkadex_dc0b44d234.png"
   },
   "polkadexTest": {
     "slug": "polkadexTest",
@@ -1420,16 +1431,16 @@
       "addressPrefix": 88,
       "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "Unit",
       "existentialDeposit": "1000000000000",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polkadex.png"
+    "icon": "https://media-resources.subwallet.app//2/polkadex_dc0b44d234.png"
   },
   "rmrk": {
     "slug": "rmrk",
@@ -1444,17 +1455,18 @@
       "relaySlug": null,
       "genesisHash": "0x6c7ae90ef70a31fe9f0f2329007ff4b4c4fe62fe71cd2b753ee37c1aa1070fef",
       "addressPrefix": 0,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "UNIT",
       "existentialDeposit": "10000000000",
       "decimals": 10,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "rmrk.png"
+    "icon": "https://media-resources.subwallet.app//2/rmrk_bc2bc4db3a.png"
   },
   "dolphin": {
     "slug": "dolphin",
@@ -1469,16 +1481,18 @@
       "relaySlug": null,
       "genesisHash": "0x79372c8ed25b51c0d3c1f085becb264c93f1ecbc71dcf387fdb5c294fd823a08",
       "addressPrefix": 78,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://dolphin.subscan.io/",
       "symbol": "DOL",
+      "existentialDeposit": null,
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "dolphin.png"
+    "icon": "https://media-resources.subwallet.app//2/dolphin_6730ef6a9e.png"
   },
   "opal": {
     "slug": "opal",
@@ -1496,17 +1510,18 @@
       "relaySlug": null,
       "genesisHash": "0x3fa374fbc8d0a9077356aefe327c88f447ce7f1fda905b1d4b4a2680a7b5cefa",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "OPL",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "opal.png"
+    "icon": "https://media-resources.subwallet.app//2/opal_df48cbfb79.png"
   },
   "efinity": {
     "slug": "efinity",
@@ -1528,12 +1543,12 @@
       "symbol": "EFI",
       "existentialDeposit": "1000000000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "efinity.png"
+    "icon": "https://media-resources.subwallet.app//2/efinity_89a5f65985.png"
   },
   "composableFinance": {
     "slug": "composableFinance",
@@ -1550,16 +1565,16 @@
       "addressPrefix": 50,
       "crowdloanUrl": "https://crowdloan.composable.finance/",
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://composable.subscan.io/",
       "symbol": "LAYR",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://composable.subscan.io/",
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "composable-finance.png"
+    "icon": "https://media-resources.subwallet.app//2/composable_finance_3f20ca49fb.png"
   },
   "phala": {
     "slug": "phala",
@@ -1581,12 +1596,12 @@
       "symbol": "PHA",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "phala-network.png"
+    "icon": "https://media-resources.subwallet.app//2/phala_network_47928dadfd.png"
   },
   "crust": {
     "slug": "crust",
@@ -1607,12 +1622,12 @@
       "symbol": "CRU",
       "existentialDeposit": "100000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "crust.png"
+    "icon": "https://media-resources.subwallet.app//2/crust_6ae326cd51.png"
   },
   "statemine": {
     "slug": "statemine",
@@ -1632,17 +1647,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
       "addressPrefix": 2,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://statemine.subscan.io/",
       "symbol": "KSM",
       "existentialDeposit": "33333333",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kusama-asset-hub.png"
+    "icon": "https://media-resources.subwallet.app//2/kusama_asset_hub_9ae4528303.png"
   },
   "karura": {
     "slug": "karura",
@@ -1669,12 +1685,12 @@
       "symbol": "KAR",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "karura.png"
+    "icon": "https://media-resources.subwallet.app//2/karura_6fcd919064.png"
   },
   "khala": {
     "slug": "khala",
@@ -1698,12 +1714,12 @@
       "symbol": "PHA",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "khala-network.png"
+    "icon": "https://media-resources.subwallet.app//2/khala_network_543481c0c1.png"
   },
   "kilt": {
     "slug": "kilt",
@@ -1722,16 +1738,16 @@
       "addressPrefix": 38,
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://spiritnet.subscan.io/",
       "symbol": "KILT",
       "existentialDeposit": "10000000000000",
       "decimals": 15,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://spiritnet.subscan.io/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kilt.png"
+    "icon": "https://media-resources.subwallet.app//2/kilt_35ce98e3b5.png"
   },
   "basilisk": {
     "slug": "basilisk",
@@ -1753,12 +1769,12 @@
       "symbol": "BSX",
       "existentialDeposit": "1000000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "basilisk.png"
+    "icon": "https://media-resources.subwallet.app//2/basilisk_bebf244e67.png"
   },
   "altair": {
     "slug": "altair",
@@ -1780,12 +1796,12 @@
       "symbol": "AIR",
       "existentialDeposit": "1000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "altair.png"
+    "icon": "https://media-resources.subwallet.app//2/altair_6e0a2d6139.png"
   },
   "heiko": {
     "slug": "heiko",
@@ -1803,16 +1819,16 @@
       "addressPrefix": 110,
       "crowdloanUrl": "https://crowdloan.parallel.fi/#/auction/contribute/kusama/2085",
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://parallel-heiko.subscan.io/",
       "symbol": "HKO",
       "existentialDeposit": "10000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://parallel-heiko.subscan.io/",
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "heiko.png"
+    "icon": "https://media-resources.subwallet.app//2/heiko_b06aba4586.png"
   },
   "kintsugi": {
     "slug": "kintsugi",
@@ -1832,13 +1848,14 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://kintsugi.subscan.io/",
       "symbol": "KINT",
+      "existentialDeposit": null,
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kintsugi.png"
+    "icon": "https://media-resources.subwallet.app//2/kintsugi_dfa1bdb733.png"
   },
   "kintsugi_test": {
     "slug": "kintsugi_test",
@@ -1853,16 +1870,18 @@
       "relaySlug": null,
       "genesisHash": "0x3a5a5cd27eb15fd26c37315a0f0b938733bb798c897428448efac5e6150cad06",
       "addressPrefix": 2092,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
-      "symbol": "KINT",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": false
+      "symbol": "KINT",
+      "existentialDeposit": null,
+      "decimals": 12,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kintsugi.png"
+    "icon": "https://media-resources.subwallet.app//2/kintsugi_dfa1bdb733.png"
   },
   "picasso": {
     "slug": "picasso",
@@ -1883,12 +1902,12 @@
       "symbol": "PICA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "picasso.png"
+    "icon": "https://media-resources.subwallet.app//2/picasso_b491f37486.png"
   },
   "quartz": {
     "slug": "quartz",
@@ -1911,12 +1930,12 @@
       "symbol": "QTZ",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "quartz.png"
+    "icon": "https://media-resources.subwallet.app//2/quartz_4b192e0de5.png"
   },
   "unique_network": {
     "slug": "unique_network",
@@ -1933,17 +1952,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
       "addressPrefix": 7391,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://unique.subscan.io/",
       "symbol": "UNQ",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "blockExplorer": "https://unique.subscan.io/",
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "unique-network.png"
+    "icon": "https://media-resources.subwallet.app//2/unique_network_2e3617d2d1.png"
   },
   "genshiro": {
     "slug": "genshiro",
@@ -1962,13 +1982,14 @@
       "chainType": "PARACHAIN",
       "blockExplorer": "https://genshiro.subscan.io/",
       "symbol": "GENS",
+      "existentialDeposit": null,
       "decimals": 9,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "genshiro.png"
+    "icon": "https://media-resources.subwallet.app//2/genshiro_1734447125.png"
   },
   "genshiro_testnet": {
     "slug": "genshiro_testnet",
@@ -1983,16 +2004,18 @@
       "relaySlug": null,
       "genesisHash": "0xdec164ef73b27c5b7e404114305102018a2b5a4ddda665bb510ce896ad5ba78d",
       "addressPrefix": 68,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
-      "symbol": "TOKEN",
-      "decimals": 9,
-      "hasNativeNft": false,
-      "supportSmartContract": [],
       "blockExplorer": null,
-      "supportStaking": false
+      "symbol": "TOKEN",
+      "existentialDeposit": null,
+      "decimals": 9,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": []
     },
     "evmInfo": null,
-    "icon": "genshiro.png"
+    "icon": "https://media-resources.subwallet.app//2/genshiro_1734447125.png"
   },
   "subsocial_x": {
     "slug": "subsocial_x",
@@ -2009,16 +2032,16 @@
       "addressPrefix": 28,
       "crowdloanUrl": "https://app.subsocial.network/crowdloan",
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "SUB",
       "existentialDeposit": "100000000",
       "decimals": 10,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subsocial.png"
+    "icon": "https://media-resources.subwallet.app//2/subsocial_3e001a3b15.png"
   },
   "zeitgeist": {
     "slug": "zeitgeist",
@@ -2040,12 +2063,12 @@
       "symbol": "ZTG",
       "existentialDeposit": "50000000",
       "decimals": 10,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "zeitgeist.png"
+    "icon": "https://media-resources.subwallet.app//2/zeitgeist_c8bd3e2ac5.png"
   },
   "sakura": {
     "slug": "sakura",
@@ -2066,12 +2089,12 @@
       "symbol": "SKU",
       "existentialDeposit": "500",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "sakura.png"
+    "icon": "https://media-resources.subwallet.app//2/sakura_81c2a3fc75.png"
   },
   "shadow": {
     "slug": "shadow",
@@ -2092,12 +2115,12 @@
       "symbol": "CSM",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "crust-shadow.png"
+    "icon": "https://media-resources.subwallet.app//2/crust_shadow_e58a33c95d.png"
   },
   "uniqueNft": {
     "slug": "uniqueNft",
@@ -2112,17 +2135,18 @@
       "relaySlug": null,
       "genesisHash": "0x7cb0b5ec1431e348b7f531f02e5e6ba6d5983e26ba77b58335957f3d00585cbd",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "UNQ",
       "existentialDeposit": "0",
       "decimals": 15,
+      "supportStaking": false,
       "hasNativeNft": true,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "unique-network.png"
+    "icon": "https://media-resources.subwallet.app//2/unique_network_2e3617d2d1.png"
   },
   "robonomics": {
     "slug": "robonomics",
@@ -2146,12 +2170,12 @@
       "symbol": "XRT",
       "existentialDeposit": "1000",
       "decimals": 9,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "robonomics.png"
+    "icon": "https://media-resources.subwallet.app//2/robonomics_cd3454b4d5.png"
   },
   "integritee": {
     "slug": "integritee",
@@ -2173,12 +2197,12 @@
       "symbol": "TEER",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "integritee-kusama.png"
+    "icon": "https://media-resources.subwallet.app//2/integritee_kusama_70fdf54661.png"
   },
   "integriteePolkadot": {
     "slug": "integriteePolkadot",
@@ -2195,16 +2219,16 @@
       "addressPrefix": 13,
       "crowdloanUrl": "https://crowdloan.integritee.network/",
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "TEER",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "integritee-kusama.png"
+    "icon": "https://media-resources.subwallet.app//2/integritee_kusama_70fdf54661.png"
   },
   "crabParachain": {
     "slug": "crabParachain",
@@ -2223,13 +2247,13 @@
       "addressPrefix": 42,
       "crowdloanUrl": "https://crab.network/plo",
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://crab.subscan.io",
       "symbol": "CRAB",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://crab.subscan.io",
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": {
       "evmChainId": 44,
@@ -2240,9 +2264,10 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "crab-network.png"
+    "icon": "https://media-resources.subwallet.app//2/crab_network_289d65c62b.png"
   },
   "pangolin": {
     "slug": "pangolin",
@@ -2257,14 +2282,15 @@
       "relaySlug": "rococo",
       "genesisHash": "0xb067215e6232ffeed7cede2f92ac6b65f2121523fa221fc76f2e4430086c6b70",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": null,
       "symbol": "PRING",
       "existentialDeposit": "0",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": {
       "evmChainId": 43,
@@ -2275,9 +2301,10 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "pangolin.png"
+    "icon": "https://media-resources.subwallet.app//2/pangolin_e8b77c84bc.png"
   },
   "chainx": {
     "slug": "chainx",
@@ -2292,17 +2319,18 @@
       "relaySlug": null,
       "genesisHash": "0x6ac13efb5b368b97b4934cef6edfdd99c2af51ba5109bfb8dacc116f9c584c10",
       "addressPrefix": 44,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
-      "symbol": "PCX",
-      "decimals": 8,
-      "existentialDeposit": "0",
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": false
+      "symbol": "PCX",
+      "existentialDeposit": "0",
+      "decimals": 8,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "chainx.png"
+    "icon": "https://media-resources.subwallet.app//2/chainx_0d1d5c4700.png"
   },
   "acala_testnet": {
     "slug": "acala_testnet",
@@ -2318,16 +2346,18 @@
       "relaySlug": null,
       "genesisHash": "0x5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
-      "symbol": "ACA",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": "https://acala-testnet.subscan.io/",
-      "supportStaking": false
+      "symbol": "ACA",
+      "existentialDeposit": null,
+      "decimals": 12,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "acala.png"
+    "icon": "https://media-resources.subwallet.app//2/acala_10b077e14b.png"
   },
   "mangatax": {
     "slug": "mangatax",
@@ -2342,16 +2372,18 @@
       "relaySlug": null,
       "genesisHash": "0x797fe0d6ea6917b5a36707961d819dca1826628123510730425c3bafc65ccf59",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": null,
       "symbol": "MGAT",
+      "existentialDeposit": null,
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "mangata-x.png"
+    "icon": "https://media-resources.subwallet.app//2/mangata_x_37c066f37a.png"
   },
   "mangatax_para": {
     "slug": "mangatax_para",
@@ -2367,16 +2399,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
-      "symbol": "MGX",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": "https://mangatax.subscan.io/",
-      "supportStaking": false
+      "symbol": "MGX",
+      "existentialDeposit": null,
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "mangata-x.png"
+    "icon": "https://media-resources.subwallet.app//2/mangata_x_37c066f37a.png"
   },
   "encointer": {
     "slug": "encointer",
@@ -2391,17 +2425,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
       "addressPrefix": 2,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://encointer.subscan.io/",
       "symbol": "KSM",
-      "decimals": 12,
       "existentialDeposit": "3333333",
+      "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "encointer.png"
+    "icon": "https://media-resources.subwallet.app//2/encointer_3ba587ebc9.png"
   },
   "litmus": {
     "slug": "litmus",
@@ -2418,16 +2453,16 @@
       "addressPrefix": 131,
       "crowdloanUrl": "https://kusama-crowdloan.litentry.com/",
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "LIT",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "litmus.png"
+    "icon": "https://media-resources.subwallet.app//2/litmus_2e86f51933.png"
   },
   "litentry": {
     "slug": "litentry",
@@ -2445,16 +2480,16 @@
       "addressPrefix": 31,
       "crowdloanUrl": "https://crowdloan.litentry.com/",
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "LIT",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "litentry.png"
+    "icon": "https://media-resources.subwallet.app//2/litentry_66fd883eb2.png"
   },
   "tinkernet": {
     "slug": "tinkernet",
@@ -2473,16 +2508,16 @@
       "addressPrefix": 117,
       "crowdloanUrl": "https://invarch.network/tinkernet",
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "TNKR",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "tinkernet-parachain.png"
+    "icon": "https://media-resources.subwallet.app//2/tinkernet_parachain_f670b63d3b.png"
   },
   "imbue_network": {
     "slug": "imbue_network",
@@ -2497,17 +2532,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "IMBU",
       "existentialDeposit": "100000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "imbue-network.png"
+    "icon": "https://media-resources.subwallet.app//2/imbue_network_d609852532.png"
   },
   "subspace_test": {
     "slug": "subspace_test",
@@ -2522,16 +2558,18 @@
       "relaySlug": null,
       "genesisHash": "0x332ef6e751e25426e38996c51299dfc53bcd56f40b53dce2b2fc8442ae9c4a74",
       "addressPrefix": 2254,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
-      "symbol": "tSSC",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": false
+      "symbol": "tSSC",
+      "existentialDeposit": null,
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subspace.png"
+    "icon": "https://media-resources.subwallet.app//2/subspace_d693cf5ecd.png"
   },
   "subspace_gemini_2a": {
     "slug": "subspace_gemini_2a",
@@ -2548,17 +2586,18 @@
       "relaySlug": null,
       "genesisHash": "0x43d10ffd50990380ffe6c9392145431d630ae67e89dbc9c014cac2a417759101",
       "addressPrefix": 2254,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://explorer.subspace.network/#/gemini-2a",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subspace.png"
+    "icon": "https://media-resources.subwallet.app//2/subspace_d693cf5ecd.png"
   },
   "subspace_gemini_3c": {
     "slug": "subspace_gemini_3c",
@@ -2575,17 +2614,18 @@
       "relaySlug": null,
       "genesisHash": "0xab946a15b37f59c5f4f27c5de93acde9fe67a28e0b724a43a30e4fe0e87246b7",
       "addressPrefix": 2254,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://explorer.subspace.network/#/gemini-3c",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subspace.png"
+    "icon": "https://media-resources.subwallet.app//2/subspace_d693cf5ecd.png"
   },
   "subspace_gemini_3d": {
     "slug": "subspace_gemini_3d",
@@ -2601,17 +2641,18 @@
       "relaySlug": null,
       "genesisHash": "0x7f489750cfe91e17fc19b42a5acaba41d1975cedd3440075d4a4b4171ad0ac20",
       "addressPrefix": 2254,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://explorer.subspace.network/#/gemini-3d",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subspace.png"
+    "icon": "https://media-resources.subwallet.app//2/subspace_d693cf5ecd.png"
   },
   "subspace_gemini_3e": {
     "slug": "subspace_gemini_3e",
@@ -2626,17 +2667,18 @@
       "relaySlug": null,
       "genesisHash": "0xa3cd4b592d93f79943fbc58fc90ca8f516106699c9cf4d7ada98ca22877bc1ae",
       "addressPrefix": 2254,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://explorer.subspace.network/#/gemini-3e",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subspace.png"
+    "icon": "https://media-resources.subwallet.app//2/subspace_d693cf5ecd.png"
   },
   "subspace_gemini_3f": {
     "slug": "subspace_gemini_3f",
@@ -2651,17 +2693,18 @@
       "relaySlug": null,
       "genesisHash": "0x92e91e657747c41eeabed5129ff51689d2e935b9f6abfbd5dfcb2e1d0d035095",
       "addressPrefix": 2254,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://explorer.subspace.network/#/gemini-3f",
       "symbol": "tSSC",
       "existentialDeposit": "500",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "subspace.png"
+    "icon": "https://media-resources.subwallet.app//2/subspace_d693cf5ecd.png"
   },
   "origintrail": {
     "slug": "origintrail",
@@ -2676,17 +2719,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
       "addressPrefix": 101,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://origintrail.subscan.io/",
       "symbol": "OTP",
       "existentialDeposit": "1000000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "origintrail.png"
+    "icon": "https://media-resources.subwallet.app//2/origintrail_cda66dc997.png"
   },
   "dorafactory": {
     "slug": "dorafactory",
@@ -2701,17 +2745,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
       "addressPrefix": 128,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "DORA",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "dora-factory.png"
+    "icon": "https://media-resources.subwallet.app//2/dora_factory_f4c4f5b340.png"
   },
   "bajun": {
     "slug": "bajun",
@@ -2728,17 +2773,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
       "addressPrefix": 1337,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
       "blockExplorer": "https://bajun.subscan.io/",
       "symbol": "BAJU",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bajun-network.png"
+    "icon": "https://media-resources.subwallet.app//2/bajun_network_fa6d5efe53.png"
   },
   "listen": {
     "slug": "listen",
@@ -2754,16 +2800,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x48eb7f3fff34e702aa2b504674df8f8afbf9889f804e3088c0cb662e433552a0",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
-      "symbol": "LT",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": false
+      "symbol": "LT",
+      "existentialDeposit": null,
+      "decimals": 12,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "listen.png"
+    "icon": "https://media-resources.subwallet.app//2/listen_198a76f476.png"
   },
   "kabocha": {
     "slug": "kabocha",
@@ -2778,17 +2826,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
       "addressPrefix": 27,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "KAB",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kabocha.png"
+    "icon": "https://media-resources.subwallet.app//2/kabocha_94a09c6441.png"
   },
   "gmdie": {
     "slug": "gmdie",
@@ -2805,17 +2854,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
       "addressPrefix": 7013,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "FREN",
       "existentialDeposit": "1000000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "gmdie.png"
+    "icon": "https://media-resources.subwallet.app//2/gmdie_71aba354c9.png"
   },
   "ternoa": {
     "slug": "ternoa",
@@ -2830,17 +2880,18 @@
       "relaySlug": null,
       "genesisHash": "0x6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "CAPS",
       "existentialDeposit": "150000000000000000",
       "decimals": 18,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "ternoa.png"
+    "icon": "https://media-resources.subwallet.app//2/ternoa_3ede8eb2b7.png"
   },
   "tanganika": {
     "slug": "tanganika",
@@ -2853,18 +2904,20 @@
     "substrateInfo": {
       "paraId": 2116,
       "relaySlug": "kusama",
-      "gene sisHash": "0xeacdd2d5b42de9769ccbb6e8d9013ab0d90ab105bf601d4aac53e874c145ec21",
+      "genesisHash": null,
       "addressPrefix": 33,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
-      "symbol": "DHX",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": "https://datahighway.subscan.io",
-      "supportStaking": false
+      "symbol": "DHX",
+      "existentialDeposit": null,
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "tanganika.png"
+    "icon": "https://media-resources.subwallet.app//2/tanganika_22fc543ea4.png"
   },
   "pendulum": {
     "slug": "pendulum",
@@ -2879,16 +2932,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
       "addressPrefix": 56,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
-      "symbol": "PEN",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": true
+      "symbol": "PEN",
+      "existentialDeposit": null,
+      "decimals": 12,
+      "supportStaking": true,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "pendulum.png"
+    "icon": "https://media-resources.subwallet.app//2/pendulum_8b61e1436b.png"
   },
   "gear_testnet": {
     "slug": "gear_testnet",
@@ -2903,17 +2958,18 @@
       "relaySlug": null,
       "genesisHash": "0x6f022bd353c56b3e441507e1173601fd9dc0fb7547e6a95bbaf9b21f311bcab6",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "Unit",
       "existentialDeposit": "500",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "gear.png"
+    "icon": "https://media-resources.subwallet.app//2/gear_6af254c62e.png"
   },
   "ternoa_alphanet": {
     "slug": "ternoa_alphanet",
@@ -2928,17 +2984,18 @@
       "relaySlug": null,
       "genesisHash": "0x18bcdb75a0bba577b084878db2dc2546eb21504eaad4b564bb7d47f9d02b6ace",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "CAPS",
       "existentialDeposit": "150000000000000000",
       "decimals": 18,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "ternoa.png"
+    "icon": "https://media-resources.subwallet.app//2/ternoa_3ede8eb2b7.png"
   },
   "calamari_test": {
     "slug": "calamari_test",
@@ -2953,17 +3010,18 @@
       "relaySlug": null,
       "genesisHash": "0x2ae061f08422b6503b8aa5f401242a209999669c3b8945f814dc096fb1a977bd",
       "addressPrefix": 78,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "KMA",
       "existentialDeposit": "100000000000",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "calamarinetwork.png"
+    "icon": "https://media-resources.subwallet.app//2/calamarinetwork_ad869dd66b.png"
   },
   "boba": {
     "slug": "boba",
@@ -2984,9 +3042,10 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "boba-network.png"
+    "icon": "https://media-resources.subwallet.app//2/boba_network_78cd37f0d6.png"
   },
   "bobabeam": {
     "slug": "bobabeam",
@@ -3007,9 +3066,10 @@
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "boba-network.png"
+    "icon": "https://media-resources.subwallet.app//2/boba_network_78cd37f0d6.png"
   },
   "kilt_peregrine": {
     "slug": "kilt_peregrine",
@@ -3024,17 +3084,18 @@
       "relaySlug": null,
       "genesisHash": "0xa0c6e3bac382b316a68bca7141af1fba507207594c761076847ce358aeedcc21",
       "addressPrefix": 38,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://kilt-testnet.subscan.io/",
       "symbol": "PILT",
       "existentialDeposit": "10000000000000",
       "decimals": 15,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://kilt-testnet.subscan.io/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kilt.png"
+    "icon": "https://media-resources.subwallet.app//2/kilt_35ce98e3b5.png"
   },
   "xx_network": {
     "slug": "xx_network",
@@ -3050,17 +3111,18 @@
       "relaySlug": null,
       "genesisHash": "0x50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
       "addressPrefix": 55,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "xx",
       "existentialDeposit": "1000000000",
       "decimals": 9,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "xxnetwork.png"
+    "icon": "https://media-resources.subwallet.app//2/xxnetwork_328e821418.png"
   },
   "watr_network": {
     "slug": "watr_network",
@@ -3075,17 +3137,18 @@
       "relaySlug": null,
       "genesisHash": "0xb53c620c41860278fa3068a5367c8eedceefce8a7c29237d830bc09a71737b5d",
       "addressPrefix": 19,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "WATRD",
       "existentialDeposit": "10000000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "watr-protocol.png"
+    "icon": "https://media-resources.subwallet.app//2/watr_protocol_a0cd47353a.png"
   },
   "watr_network_evm": {
     "slug": "watr_network_evm",
@@ -3098,15 +3161,17 @@
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 688,
+      "blockExplorer": null,
       "symbol": "WATRD",
       "decimals": 18,
       "existentialDeposit": "0",
       "supportSmartContract": [
         "ERC20",
         "ERC721"
-      ]
+      ],
+      "abiExplorer": null
     },
-    "icon": "watr-protocol.png"
+    "icon": "https://media-resources.subwallet.app//2/watr_protocol_a0cd47353a.png"
   },
   "fusotao": {
     "slug": "fusotao",
@@ -3121,17 +3186,18 @@
       "relaySlug": null,
       "genesisHash": "0xa7113159e275582ee71ee499b24378a2416f34dc5aaf714443f0d11c6c3d99d3",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "TAO",
       "existentialDeposit": "1",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "fusotao.png"
+    "icon": "https://media-resources.subwallet.app//2/fusotao_0e41642ad0.png"
   },
   "discovol": {
     "slug": "discovol",
@@ -3146,17 +3212,18 @@
       "relaySlug": null,
       "genesisHash": "0x2dfbcf7700297bd8ce07a4665ab39e2ed1a3790df783b936988c85eb87e38bee",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "DISC",
       "existentialDeposit": "1000000000000",
       "decimals": 14,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "discovol.png"
+    "icon": "https://media-resources.subwallet.app//2/discovol_09aef428e0.png"
   },
   "discovol_testnet": {
     "slug": "discovol_testnet",
@@ -3171,17 +3238,18 @@
       "relaySlug": null,
       "genesisHash": "0xdc1922b7f60b4925091bbfdd912684c449de7a7cdc5592e9eab11fee55fa53ec",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "DISC",
       "existentialDeposit": "1000000000000",
       "decimals": 14,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "discovol.png"
+    "icon": "https://media-resources.subwallet.app//2/discovol_09aef428e0.png"
   },
   "atocha": {
     "slug": "atocha",
@@ -3196,17 +3264,18 @@
       "relaySlug": null,
       "genesisHash": "0x1f11f745be512a17f39b571a9391b5ee6747b900c1db98176828e4a1346dbe9b",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "ATO",
       "existentialDeposit": "1000000000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "atocha.png"
+    "icon": "https://media-resources.subwallet.app//2/atocha_bef71b71eb.png"
   },
   "myriad": {
     "slug": "myriad",
@@ -3221,17 +3290,18 @@
       "relaySlug": null,
       "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "MYRIA",
       "existentialDeposit": "1000000000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "myriad.png"
+    "icon": "https://media-resources.subwallet.app//2/myriad_d289b632e2.png"
   },
   "deBio": {
     "slug": "deBio",
@@ -3246,17 +3316,18 @@
       "relaySlug": null,
       "genesisHash": "0x996800af345b3109acdada9913e36d1efa98b89e7dcd0b61b70fdbfc13b2fa50",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "DBIO",
       "existentialDeposit": "10000000000000000",
       "decimals": 18,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "dbio.png"
+    "icon": "https://media-resources.subwallet.app//2/dbio_a7296e7986.png"
   },
   "barnacle": {
     "slug": "barnacle",
@@ -3271,36 +3342,18 @@
       "relaySlug": null,
       "genesisHash": "0xb3d6017fd8f67d1d9970a010ee1bbf0bc12c5ff2d2c7b9c311a11332cb7b3a53",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
-      "symbol": "BAR",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "blockExplorer": null,
-      "supportStaking": false
+      "symbol": "BAR",
+      "existentialDeposit": null,
+      "decimals": 18,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "barnacle.png"
-  },
-  "barnacle_evm": {
-    "slug": "barnacle_evm",
-    "name": "Barnacle EVM",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "barnacle_evm": "wss://gateway.testnet.octopus.network/barnacle-evm/wj1hhcverunusc35jifki19otd4od1n5"
-    },
-    "isTestnet": true,
-    "substrateInfo": null,
-    "evmInfo": {
-      "symbol": "EBAR",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ]
-    },
-    "icon": "barnacle.png"
+    "icon": "https://media-resources.subwallet.app//2/barnacle_9a6457db47.png"
   },
   "collectives": {
     "slug": "collectives",
@@ -3315,17 +3368,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
       "addressPrefix": 0,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "DOT",
       "existentialDeposit": "1000000000",
       "decimals": 10,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polkadot-collectives.png"
+    "icon": "https://media-resources.subwallet.app//2/polkadot_collectives_0d4f158ac1.png"
   },
   "ajunaPolkadot": {
     "slug": "ajunaPolkadot",
@@ -3341,17 +3395,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
       "addressPrefix": 1328,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "AJUN",
       "existentialDeposit": "1000000000",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "ajuna-network.png"
+    "icon": "https://media-resources.subwallet.app//2/ajuna_network_98e7999ad4.png"
   },
   "bitgreen": {
     "slug": "bitgreen",
@@ -3366,17 +3421,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0xc14597baeccb232d662770d2d50ae832ca8c3192693d2b0814e6433f2888ddd6",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "BBB",
       "existentialDeposit": "1000000000",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bitgreen.png"
+    "icon": "https://media-resources.subwallet.app//2/bitgreen_cc38478fa6.png"
   },
   "frequency": {
     "slug": "frequency",
@@ -3392,17 +3448,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
       "addressPrefix": 90,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "FRQCY",
       "existentialDeposit": "1000000",
       "decimals": 8,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "frequency.png"
+    "icon": "https://media-resources.subwallet.app//2/frequency_87c25c3315.png"
   },
   "hashedNetwork": {
     "slug": "hashedNetwork",
@@ -3417,17 +3474,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x331645ae3db556c7754a82f79cece12cce3420975d5b0219d51b1cb4f6ddc21c",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "HASH",
       "existentialDeposit": "1000000000",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "hashed.png"
+    "icon": "https://media-resources.subwallet.app//2/hashed_78ed238d01.png"
   },
   "kapex": {
     "slug": "kapex",
@@ -3442,17 +3500,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
       "addressPrefix": 2007,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "KPX",
       "existentialDeposit": "1",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kapex.png"
+    "icon": "https://media-resources.subwallet.app//2/kapex_6b5bc7b8eb.png"
   },
   "kylinNetwork": {
     "slug": "kylinNetwork",
@@ -3467,16 +3526,18 @@
       "relaySlug": "polkadot",
       "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "KYL",
+      "existentialDeposit": null,
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kylin.png"
+    "icon": "https://media-resources.subwallet.app//2/kylin_7a84f69f18.png"
   },
   "ipci": {
     "slug": "ipci",
@@ -3491,17 +3552,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
       "addressPrefix": 32,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "MITO",
       "existentialDeposit": "1000000",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "dao-ipci.png"
+    "icon": "https://media-resources.subwallet.app//2/dao_ipci_93612c0315.png"
   },
   "kico": {
     "slug": "kico",
@@ -3516,17 +3578,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x52149c30c1eb11460dce6c08b73df8d53bb93b4a15d0a2e7fd5dafe86a73c0da",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "KICO",
       "existentialDeposit": "100000000000000",
       "decimals": 14,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kico.png"
+    "icon": "https://media-resources.subwallet.app//2/kico_d1b01fe5e0.png"
   },
   "luhnNetwork": {
     "slug": "luhnNetwork",
@@ -3541,16 +3604,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0xba713fdbf674083c5541c1439b83d8e593e1105f35f11954bcc50d0bf9607873",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "LUHN",
+      "existentialDeposit": null,
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "luhn.png"
+    "icon": "https://media-resources.subwallet.app//2/luhn_91af946734.png"
   },
   "pichiu": {
     "slug": "pichiu",
@@ -3566,17 +3631,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x0e06260459b4f9034aba0a75108c08ed73ea51d2763562749b1d3600986c4ea5",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "PCHU",
       "existentialDeposit": "1000000000000",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "pichiu.png"
+    "icon": "https://media-resources.subwallet.app//2/pichiu_9291f572fd.png"
   },
   "riodefi": {
     "slug": "riodefi",
@@ -3591,17 +3657,18 @@
       "relaySlug": "kusama",
       "genesisHash": "0x70310f31bdb878e9920121807ee46236bda2e00c10eb105a40b386bd7ad16906",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "UNIT",
       "existentialDeposit": "1000000000",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "riodefi.png"
+    "icon": "https://media-resources.subwallet.app//2/riodefi_b59a3a5e1d.png"
   },
   "automata": {
     "slug": "automata",
@@ -3617,17 +3684,18 @@
       "relaySlug": null,
       "genesisHash": "0xc8eda34601b5a48c73f47ee39a3a86a858c34f044185b17dc7d5ad155813dc63",
       "addressPrefix": 2349,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "ATA",
       "existentialDeposit": "1000000000000000000",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "automata-network.png"
+    "icon": "https://media-resources.subwallet.app//2/automata_network_21b619c323.png"
   },
   "creditcoin": {
     "slug": "creditcoin",
@@ -3642,17 +3710,18 @@
       "relaySlug": null,
       "genesisHash": "0xdd954cbf4000542ef1a15bca509cd89684330bee5e23766c527cdb0d7275e9c2",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "CTC",
       "existentialDeposit": "500",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": true,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "creditcoin.png"
+    "icon": "https://media-resources.subwallet.app//2/creditcoin_96595e8993.png"
   },
   "crownSterling": {
     "slug": "crownSterling",
@@ -3667,17 +3736,18 @@
       "relaySlug": null,
       "genesisHash": "0xce24ecf534daea9cd46e425659ef4950a57dd29d07272b423220129c323a64b7",
       "addressPrefix": 0,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "CSOV",
       "existentialDeposit": "1",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "crownsterling.png"
+    "icon": "https://media-resources.subwallet.app//2/crownsterling_17121da1f7.png"
   },
   "dockPosMainnet": {
     "slug": "dockPosMainnet",
@@ -3692,17 +3762,18 @@
       "relaySlug": null,
       "genesisHash": "0x6bfe24dca2a3be10f22212678ac13a6446ec764103c0f3471c71609eac384aae",
       "addressPrefix": 22,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://dock.subscan.io",
       "symbol": "DOCK",
       "existentialDeposit": "500",
       "decimals": 6,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "dockmainnet.png"
+    "icon": "https://media-resources.subwallet.app//2/dockmainnet_571734a814.png"
   },
   "kusari": {
     "slug": "kusari",
@@ -3717,17 +3788,18 @@
       "relaySlug": null,
       "genesisHash": "0x4959f8d87d40d9ef516459ff177111bb03d875e5a7ed69282f6b689a707b69f5",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "KSI",
       "existentialDeposit": "0",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kusari.png"
+    "icon": "https://media-resources.subwallet.app//2/kusari_1e6865b53c.png"
   },
   "logion": {
     "slug": "logion",
@@ -3742,17 +3814,18 @@
       "relaySlug": null,
       "genesisHash": "0xe9d7420a5f73edef005ccb8e043500aa5b2458f173912184ea93c14dc035a203",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "LGNT",
       "existentialDeposit": "500",
       "decimals": 18,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "logion.png"
+    "icon": "https://media-resources.subwallet.app//2/logion_950fffea89.png"
   },
   "neatcoin": {
     "slug": "neatcoin",
@@ -3767,17 +3840,18 @@
       "relaySlug": null,
       "genesisHash": "0xfbb541421d30423c9a753ffa844b64fd44d823f513bf49e3b73b3a656309a595",
       "addressPrefix": 48,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "NEAT",
       "existentialDeposit": "10000000000",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "default.png"
+    "icon": "https://media-resources.subwallet.app//2/default_b9919fc772.png"
   },
   "nftmart": {
     "slug": "nftmart",
@@ -3792,17 +3866,18 @@
       "relaySlug": null,
       "genesisHash": "0xfcf9074303d8f319ad1bf0195b145871977e7c375883b834247cb01ff22f51f9",
       "addressPrefix": 12191,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "NMT",
       "existentialDeposit": "1000000000000",
       "decimals": 12,
-      "hasNativeNft": false,
-      "supportSmartContract": null,
       "supportStaking": false,
-      "blockExplorer": null
+      "hasNativeNft": false,
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "nftmart.png"
+    "icon": "https://media-resources.subwallet.app//2/nftmart_0353c61648.png"
   },
   "polymesh": {
     "slug": "polymesh",
@@ -3817,17 +3892,18 @@
       "relaySlug": null,
       "genesisHash": "0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
       "addressPrefix": 12,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://polymesh.subscan.io/",
       "symbol": "POLYX",
       "existentialDeposit": "0",
       "decimals": 6,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polymesh.png"
+    "icon": "https://media-resources.subwallet.app//2/polymesh_c842245ac2.png"
   },
   "riochain": {
     "slug": "riochain",
@@ -3842,17 +3918,18 @@
       "relaySlug": null,
       "genesisHash": "0xd8c6dc2e057b94d05c870a7b39bfb30ae10202ed9cf7731d28dafcfe9458e307",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "RFUEL",
       "existentialDeposit": "0",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "riochain.png"
+    "icon": "https://media-resources.subwallet.app//2/riochain_409ac35c68.png"
   },
   "sherpax": {
     "slug": "sherpax",
@@ -3867,17 +3944,18 @@
       "relaySlug": null,
       "genesisHash": "0xe195ef16d0c628b5cab1486a233865def6e71f8b7814dd058a6b93a85118b796",
       "addressPrefix": 44,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "KSX",
       "existentialDeposit": "10000000000",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "sherpax.png"
+    "icon": "https://media-resources.subwallet.app//2/sherpax_3ab3244b98.png"
   },
   "sora_substrate": {
     "slug": "sora_substrate",
@@ -3895,6 +3973,7 @@
       "relaySlug": null,
       "genesisHash": "0x7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
       "addressPrefix": 69,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://sora.subscan.io",
       "symbol": "XOR",
@@ -3905,7 +3984,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "sora.png"
+    "icon": "https://media-resources.subwallet.app//2/sora_cd4fcddf6e.png"
   },
   "swapdex": {
     "slug": "swapdex",
@@ -3920,17 +3999,18 @@
       "relaySlug": null,
       "genesisHash": "0x15bac4f0a9aad3f46c5fc067fdb59b3ff29738dcd491fe5e37b4b76121163471",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "SDX",
       "existentialDeposit": "0",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "swapdex.png"
+    "icon": "https://media-resources.subwallet.app//2/swapdex_6b2a38d123.png"
   },
   "3dpass": {
     "slug": "3dpass",
@@ -3945,17 +4025,18 @@
       "relaySlug": null,
       "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
       "addressPrefix": 71,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "P3D",
       "existentialDeposit": "1",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "3dpass.png"
+    "icon": "https://media-resources.subwallet.app//2/3dpass_4c12535d4e.png"
   },
   "alephSmartNet": {
     "slug": "alephSmartNet",
@@ -3970,17 +4051,18 @@
       "relaySlug": null,
       "genesisHash": "0x6153e2745a56d188365372b5cce283dfddbb96b17e9bb396cceb4630103ff92b",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "SZERO",
       "existentialDeposit": "500",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "aleph-zero.png"
+    "icon": "https://media-resources.subwallet.app//2/aleph_zero_5b98dbe0ae.png"
   },
   "kulupu": {
     "slug": "kulupu",
@@ -3995,6 +4077,7 @@
       "relaySlug": null,
       "genesisHash": "0xf7a99d3cb92853d00d5275c971c132c074636256583fee53b3bbe60d7b8769ba",
       "addressPrefix": 16,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": null,
       "symbol": "KLP",
@@ -4005,7 +4088,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kulupu-network.png"
+    "icon": "https://media-resources.subwallet.app//2/kulupu_network_2f214b0894.png"
   },
   "joystream": {
     "slug": "joystream",
@@ -4020,17 +4103,18 @@
       "relaySlug": null,
       "genesisHash": "0x6b5e488e0fa8f9821110d5c13f4c468abcd43ce5e297e62b34c53c3346465956",
       "addressPrefix": 126,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "JOY",
       "existentialDeposit": "266666560",
       "decimals": 10,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "joystream.png"
+    "icon": "https://media-resources.subwallet.app//2/joystream_fe4b9f5208.png"
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
@@ -4045,17 +4129,18 @@
       "relaySlug": null,
       "genesisHash": "0xa6ffcef7fb8caadf7f6c5ad8ada65e3eaa90d1604f3eabda546ff1d486865a0c",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://explorer.testnet.aventus.io/",
       "symbol": "AVT",
       "existentialDeposit": "0",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://explorer.testnet.aventus.io/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "aventus.png"
+    "icon": "https://media-resources.subwallet.app//2/aventus_5342678346.png"
   },
   "vara_network": {
     "slug": "vara_network",
@@ -4070,73 +4155,75 @@
       "relaySlug": null,
       "genesisHash": "0xfe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
       "addressPrefix": 137,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://vara.subscan.io/",
       "symbol": "VARA",
       "existentialDeposit": "10000000000000",
       "decimals": 12,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://vara.subscan.io/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "vara.png"
+    "icon": "https://media-resources.subwallet.app//2/vara_be88d00224.png"
   },
   "kate": {
     "slug": "kate",
     "name": "Avail Kate Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "AVAIL": "wss://kate.avail.tools/ws"
     },
+    "isTestnet": true,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
       "genesisHash": "0xd12003ac837853b062aaccca5ce87ac4838c48447e41db4a3dcfb5bf312350c6",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "AVL",
       "existentialDeposit": "10000000000000",
       "decimals": 18,
       "supportStaking": true,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "avail.png"
+    "icon": "https://media-resources.subwallet.app//2/avail_16bb040742.png"
   },
   "bridgeHubPolkadot": {
     "slug": "bridgeHubPolkadot",
     "name": "Polkadot Bridge Hub",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://polkadot-bridge-hub-rpc.polkadot.io",
       "Stakeworld": "wss://dot-rpc.stakeworld.io/bridgehub"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 1002,
       "relaySlug": "polkadot",
       "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
       "addressPrefix": 0,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "DOT",
       "existentialDeposit": "1000000000",
       "decimals": 10,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "polkadot-bridge-hub.png"
+    "icon": "https://media-resources.subwallet.app//2/polkadot_bridge_hub_c3ab010f45.png"
   },
   "bridgeHubKusama": {
     "slug": "bridgeHubKusama",
     "name": "Kusama Bridge Hub",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io",
@@ -4144,27 +4231,28 @@
       "IBP-GeoDNS1": "wss://sys.ibp.network/bridgehub-kusama",
       "IBP-GeoDNS2": "wss://sys.dotters.network/bridgehub-kusama"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 1002,
       "relaySlug": "kusama",
       "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
       "addressPrefix": 2,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": null,
       "symbol": "KSM",
       "existentialDeposit": "33333333",
       "decimals": 12,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "kusama-bridge-hub.png"
+    "icon": "https://media-resources.subwallet.app//2/kusama_bridge_hub_e6daccf32b.png"
   },
   "fantom": {
     "slug": "fantom",
     "name": "Fantom",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Ankr": "https://rpc.ankr.com/fantom",
@@ -4173,6 +4261,7 @@
       "FTM_TOOLS": "https://rpc.ftm.tools",
       "PoktNetwork": "https://fantom-rpc.gateway.pokt.network"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 250,
@@ -4186,12 +4275,11 @@
       ],
       "abiExplorer": "https://ftmscan.com"
     },
-    "icon": "ftm.png"
+    "icon": "https://media-resources.subwallet.app//2/ftm_8ccdce4e96.png"
   },
   "fantom_testnet": {
     "slug": "fantom_testnet",
     "name": "Fantom Testnet",
-    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "providers": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet",
@@ -4199,6 +4287,7 @@
       "FantomNetwork": "https://rpc.testnet.fantom.network/",
       "BlastApi": "https://fantom-testnet.public.blastapi.io/"
     },
+    "isTestnet": true,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 4002,
@@ -4212,91 +4301,94 @@
       ],
       "abiExplorer": "https://testnet.ftmscan.com"
     },
-    "icon": "ftm.png"
+    "icon": "https://media-resources.subwallet.app//2/ftm_8ccdce4e96.png"
   },
   "krest_network": {
     "slug": "krest_network",
     "name": "Krest Network",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Peaq": "wss://wss-krest.peaq.network/"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": 2241,
       "relaySlug": "kusama",
       "genesisHash": "0xb3dd5ad6a82872b30aabaede8f41dfd4ff6c32ff82f8757d034a45be63cf104c",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "PARACHAIN",
+      "blockExplorer": "https://krest.subscan.io/",
       "symbol": "KREST",
       "existentialDeposit": "500",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://krest.subscan.io/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "krest.png"
+    "icon": "https://media-resources.subwallet.app//2/krest_6217afc787.png"
   },
   "deeper_network": {
     "slug": "deeper_network",
     "name": "Deeper Network",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "DeeperNetwork": "wss://mainnet-full.deeper.network"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
       "genesisHash": "0x4466b9e982ab141d4115ed226ff4153b1d20e5b64f5401f732e60dec8326149f",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": "https://deeperscan.io/deeper/",
       "symbol": "DPR",
       "existentialDeposit": "200000000000000000",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": "https://deeperscan.io/deeper/"
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "deeper-network.png"
+    "icon": "https://media-resources.subwallet.app//2/deeper_network_a6407a1aec.png"
   },
   "jur_network": {
     "slug": "jur_network",
     "name": "Jur Network",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "DeeperNetwork": "wss://jur-archive-mainnet-1.simplystaking.xyz/VX68C07AR4K2/ws"
     },
+    "isTestnet": false,
     "substrateInfo": {
       "paraId": null,
       "relaySlug": null,
       "genesisHash": "0x58d1393b47b11707978fbc07e77d7b6f7d9aa88d207dc008a52385f7dba6156a",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
+      "blockExplorer": null,
       "symbol": "JUR",
       "existentialDeposit": "500",
       "decimals": 18,
       "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "blockExplorer": null
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "jur-network.png"
+    "icon": "https://media-resources.subwallet.app//2/jur_network_6aff4974ed.png"
   },
   "base_mainnet": {
     "slug": "base_mainnet",
     "name": "Base Mainnet",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "PublicNode": "https://base.publicnode.com"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 8453,
@@ -4310,16 +4402,16 @@
       ],
       "abiExplorer": null
     },
-    "icon": "base-mainnet.png"
+    "icon": "https://media-resources.subwallet.app//2/base_mainnet_29f463514e.png"
   },
   "avalanche_c": {
     "slug": "avalanche_c",
     "name": "Avalanche C-Chain",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "PublicNode": "https://avalanche-c-chain.publicnode.com"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 43114,
@@ -4333,7 +4425,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "avalanche.png"
+    "icon": "https://media-resources.subwallet.app//2/avalanche_24d7d14bc2.png"
   },
   "crust_mainnet": {
     "slug": "crust_mainnet",
@@ -4349,26 +4441,27 @@
       "relaySlug": null,
       "genesisHash": "0x8b404e7ed8789d813982b9cb4c8b664c05b3fbf433309f603af014ec9ce56a8c",
       "addressPrefix": 66,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://crust.subscan.io/",
       "symbol": "CRU",
       "existentialDeposit": "100000000",
       "decimals": 12,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "crust.png"
+    "icon": "https://media-resources.subwallet.app//2/crust_6ae326cd51.png"
   },
   "acala_evm": {
     "slug": "acala_evm",
     "name": "Acala - EVM",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Acala": "https://eth-rpc-acala.aca-api.network"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 787,
@@ -4382,16 +4475,16 @@
       ],
       "abiExplorer": "https://blockscout.acala.network/"
     },
-    "icon": "acala.png"
+    "icon": "https://media-resources.subwallet.app//2/acala_10b077e14b.png"
   },
   "karura_evm": {
     "slug": "karura_evm",
     "name": "Karura - EVM",
-    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "providers": {
       "Acala": "https://eth-rpc-karura.aca-api.network"
     },
+    "isTestnet": false,
     "substrateInfo": null,
     "evmInfo": {
       "evmChainId": 686,
@@ -4405,7 +4498,7 @@
       ],
       "abiExplorer": "https://blockscout.karura.network/"
     },
-    "icon": "karura.png"
+    "icon": "https://media-resources.subwallet.app//2/karura_6fcd919064.png"
   },
   "bittensor": {
     "slug": "bittensor",
@@ -4420,16 +4513,17 @@
       "relaySlug": null,
       "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
       "addressPrefix": 42,
+      "crowdloanUrl": null,
       "chainType": "RELAYCHAIN",
       "blockExplorer": "https://scan.bittensor.com/",
       "symbol": "TAO",
       "existentialDeposit": "500",
       "decimals": 9,
+      "supportStaking": false,
       "hasNativeNft": false,
-      "supportSmartContract": null,
-      "supportStaking": false
+      "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "bittensor.png"
+    "icon": "https://media-resources.subwallet.app//1/bittensor_f643972064.png"
   }
 }

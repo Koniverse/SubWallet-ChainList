@@ -1,58 +1,4 @@
 {
-  "DOT-Polkadot": {
-    "slug": "DOT-Polkadot",
-    "originChainAsset": "polkadot-NATIVE-DOT",
-    "name": "Polkadot",
-    "symbol": "DOT",
-    "priceId": "polkadot",
-    "hasValue": true,
-    "icon": "polkadot.png"
-  },
-  "KSM-Kusama": {
-    "slug": "KSM-Kusama",
-    "originChainAsset": "kusama-NATIVE-KSM",
-    "name": "Kusama",
-    "symbol": "KSM",
-    "priceId": "kusama",
-    "hasValue": true,
-    "icon": "kusama.png"
-  },
-  "GLMR-Moonbeam": {
-    "slug": "GLMR-Moonbeam",
-    "originChainAsset": "moonbeam-NATIVE-GLMR",
-    "name": "Moonbeam",
-    "symbol": "GLMR",
-    "priceId": "moonbeam",
-    "hasValue": true,
-    "icon": "moonbeam.png"
-  },
-  "ACA-Acala": {
-    "slug": "ACA-Acala",
-    "originChainAsset": "acala-NATIVE-ACA",
-    "name": "Acala",
-    "symbol": "ACA",
-    "priceId": "acala",
-    "hasValue": true,
-    "icon": "acala.png"
-  },
-  "KAR-Karura": {
-    "slug": "KAR-Karura",
-    "originChainAsset": "karura-NATIVE-KAR",
-    "name": "Karura",
-    "symbol": "KAR",
-    "priceId": "karura",
-    "hasValue": true,
-    "icon": "karura.png"
-  },
-  "USDT-Tether": {
-    "slug": "USDT-Tether",
-    "originChainAsset": null,
-    "name": "Tether",
-    "symbol": "USDT",
-    "priceId": "tether",
-    "hasValue": true,
-    "icon": "usdt.png"
-  },
   "ETH-Ethereum": {
     "slug": "ETH-Ethereum",
     "originChainAsset": "ethereum-NATIVE-ETH",
@@ -60,79 +6,7 @@
     "symbol": "ETH",
     "priceId": "ethereum",
     "hasValue": true,
-    "icon": "ethereum.png"
-  },
-  "ASTR-Astar": {
-    "slug": "ASTR-Astar",
-    "originChainAsset": "astar-NATIVE-ASTR",
-    "name": "Astar",
-    "symbol": "ASTR",
-    "priceId": "astar",
-    "hasValue": true,
-    "icon": "astar-network.png"
-  },
-  "aUSD-AcalaDollar": {
-    "slug": "aUSD-AcalaDollar",
-    "originChainAsset": null,
-    "name": "Acala Dollar",
-    "symbol": "aUSD",
-    "priceId": "acala-dollar-acala",
-    "hasValue": true,
-    "icon": "ausd.png"
-  },
-  "aUSD-KaruraDollar": {
-    "slug": "aUSD-KaruraDollar",
-    "originChainAsset": null,
-    "name": "Karura Dollar",
-    "symbol": "aUSD",
-    "priceId": "acala-dollar",
-    "hasValue": true,
-    "icon": "ausd.png"
-  },
-  "DEV-MoonbaseDev": {
-    "slug": "DEV-MoonbaseDev",
-    "originChainAsset": "moonbase-NATIVE-DEV",
-    "name": "Moonbase Dev",
-    "symbol": "DEV",
-    "priceId": null,
-    "hasValue": false,
-    "icon": "moonbase.png"
-  },
-  "MOVR-Moonriver": {
-    "slug": "MOVR-Moonriver",
-    "originChainAsset": "moonriver-NATIVE-MOVR",
-    "name": "Moonriver",
-    "symbol": "MOVR",
-    "priceId": "moonriver",
-    "hasValue": true,
-    "icon": "moonriver.png"
-  },
-  "BNC-BifrostKusama": {
-    "slug": "BNC-BifrostKusama",
-    "originChainAsset": "bifrost-NATIVE-BNC",
-    "name": "Bifrost Kusama",
-    "symbol": "BNC",
-    "priceId": "bifrost-native-coin",
-    "hasValue": true,
-    "icon": "bifrost.png"
-  },
-  "NEER-Pioneer": {
-    "slug": "NEER-Pioneer",
-    "originChainAsset": "pioneer-NATIVE-NEER",
-    "name": "Pioneer",
-    "symbol": "NEER",
-    "priceId": "metaverse-network-pioneer",
-    "hasValue": true,
-    "icon": "bit.country-pioneer.png"
-  },
-  "INTR-Interlay": {
-    "slug": "INTR-Interlay",
-    "originChainAsset": "interlay-NATIVE-INTR",
-    "name": "Interlay",
-    "symbol": "INTR",
-    "priceId": "interlay",
-    "hasValue": true,
-    "icon": "interlay.png"
+    "icon": "https://media-resources.subwallet.app//3/ethereum_02384e1ab0.png"
   },
   "iBTC-interBTC": {
     "slug": "iBTC-interBTC",
@@ -141,223 +15,77 @@
     "symbol": "iBTC",
     "priceId": "interbtc",
     "hasValue": true,
-    "icon": "ibtc.png"
+    "icon": "https://media-resources.subwallet.app//3/ibtc_537a25a650.png"
   },
-  "KINT-Kintsugi": {
-    "slug": "KINT-Kintsugi",
-    "originChainAsset": "kintsugi-NATIVE-KINT",
-    "name": "Kintsugi",
-    "symbol": "KINT",
-    "priceId": "kintsugi",
+  "GLMR-Moonbeam": {
+    "slug": "GLMR-Moonbeam",
+    "originChainAsset": "moonbeam-NATIVE-GLMR",
+    "name": "Moonbeam",
+    "symbol": "GLMR",
+    "priceId": "moonbeam",
     "hasValue": true,
-    "icon": "kintsugi.png"
+    "icon": "https://media-resources.subwallet.app//3/moonbeam_bee7b388c0.png"
   },
-  "kBTC-KintsugiWrappedBTC": {
-    "slug": "kBTC-KintsugiWrappedBTC",
-    "originChainAsset": "kintsugi-LOCAL-kBTC",
-    "name": "Kintsugi Wrapped BTC",
-    "symbol": "kBTC",
-    "priceId": "kintsugi-btc",
+  "DOT-Polkadot": {
+    "slug": "DOT-Polkadot",
+    "originChainAsset": "polkadot-NATIVE-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "priceId": "polkadot",
     "hasValue": true,
-    "icon": "kbtc.png"
+    "icon": "https://media-resources.subwallet.app//3/polkadot_40ee7fbf4e.png"
   },
-  "USDC-USDCoin": {
-    "slug": "USDC-USDCoin",
-    "originChainAsset": null,
-    "name": "USDC",
-    "symbol": "USDC",
-    "priceId": "usd-coin",
+  "ACA-Acala": {
+    "slug": "ACA-Acala",
+    "originChainAsset": "acala-NATIVE-ACA",
+    "name": "Acala",
+    "symbol": "ACA",
+    "priceId": "acala",
     "hasValue": true,
-    "icon": "usdc.png"
+    "icon": "https://media-resources.subwallet.app//3/acala_45dd03b9eb.png"
   },
-  "BNB-Binance": {
-    "slug": "BNB-Binance",
-    "originChainAsset": "binance-NATIVE-BNB",
-    "name": "Binance Smart Chain",
-    "symbol": "BNB",
-    "priceId": "binancecoin",
+  "MOVR-Moonriver": {
+    "slug": "MOVR-Moonriver",
+    "originChainAsset": "moonriver-NATIVE-MOVR",
+    "name": "Moonriver",
+    "symbol": "MOVR",
+    "priceId": "moonriver",
     "hasValue": true,
-    "icon": "bnb.png"
+    "icon": "https://media-resources.subwallet.app//3/moonriver_cbf8e01066.png"
   },
-  "BUSD-BinanceUSD": {
-    "slug": "BUSD-BinanceUSD",
-    "originChainAsset": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
-    "name": "Binance USD",
-    "symbol": "BUSD",
-    "priceId": "binance-usd",
+  "USDT-Tether": {
+    "slug": "USDT-Tether",
+    "name": "Tether",
+    "symbol": "USDT",
+    "priceId": "tether",
     "hasValue": true,
-    "icon": "busd.png"
+    "icon": "https://media-resources.subwallet.app//3/usdt_4cb06afd80.png"
+  },
+  "ASTR-Astar": {
+    "slug": "ASTR-Astar",
+    "originChainAsset": "astar-NATIVE-ASTR",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "priceId": "astar",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/astar_network_9bf214403c.png"
+  },
+  "DEV-MoonbaseDev": {
+    "slug": "DEV-MoonbaseDev",
+    "originChainAsset": "moonbase-NATIVE-DEV",
+    "name": "Moonbase Dev",
+    "symbol": "DEV",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://media-resources.subwallet.app//3/moonbase_242572020d.png"
   },
   "DAI-DaiStablecoin": {
     "slug": "DAI-DaiStablecoin",
-    "originChainAsset": null,
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "priceId": "dai",
     "hasValue": true,
-    "icon": "dai.png"
-  },
-  "SDN-Shiden": {
-    "slug": "SDN-Shiden",
-    "originChainAsset": "shiden-NATIVE-SDN",
-    "name": "Shiden",
-    "symbol": "SDN",
-    "priceId": "shiden",
-    "hasValue": true,
-    "icon": "shiden.png"
-  },
-  "PKEX-PolkaEx": {
-    "slug": "PKEX-PolkaEx",
-    "originChainAsset": null,
-    "name": "PolkaEx",
-    "symbol": "PKEX",
-    "priceId": "polkaex",
-    "hasValue": true,
-    "icon": "pkex.png"
-  },
-  "CRU-Crust": {
-    "slug": "CRU-Crust",
-    "originChainAsset": "crust-NATIVE-CRU",
-    "name": "Crust",
-    "symbol": "CRU",
-    "priceId": "crust-network",
-    "hasValue": true,
-    "icon": "crust.png"
-  },
-  "PHA-Phala": {
-    "slug": "PHA-Phala",
-    "originChainAsset": "phala-NATIVE-PHA",
-    "name": "Phala",
-    "symbol": "PHA",
-    "priceId": "pha",
-    "hasValue": true,
-    "icon": "khala-network.png"
-  },
-  "PARA-Parallel": {
-    "slug": "PARA-Parallel",
-    "originChainAsset": "parallel-NATIVE-PARA",
-    "name": "Parallel",
-    "symbol": "PARA",
-    "priceId": "parallel-finance",
-    "hasValue": true,
-    "icon": "parallel.png"
-  },
-  "BOBA-BobaToken": {
-    "slug": "BOBA-BobaToken",
-    "originChainAsset": "bobabeam-NATIVE-BOBA",
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "priceId": "boba-network",
-    "hasValue": true,
-    "icon": "boba-network.png"
-  },
-  "EQD-EquilibriumUSD": {
-    "slug": "EQD-EquilibriumUSD",
-    "originChainAsset": "equilibrium_parachain-LOCAL-EQD",
-    "name": "Equilibrium USD",
-    "symbol": "EQD",
-    "priceId": null,
-    "hasValue": true,
-    "icon": "eqd.png"
-  },
-  "WETH-WrappedEther": {
-    "slug": "WETH-WrappedEther",
-    "originChainAsset": "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-    "name": "Wrapped Ether",
-    "symbol": "WETH",
-    "priceId": "weth",
-    "hasValue": true,
-    "icon": "ethereum.png"
-  },
-  "RMRK-RMRKApp": {
-    "slug": "RMRK-RMRKApp",
-    "originChainAsset": "statemine-LOCAL-RMRK",
-    "name": "RMRK.app",
-    "symbol": "RMRK",
-    "priceId": "rmrk",
-    "hasValue": true,
-    "icon": "rmrk-token.png"
-  },
-  "WBTC-WrappedBTC": {
-    "slug": "WBTC-WrappedBTC",
-    "originChainAsset": null,
-    "name": "Wrapped BTC",
-    "symbol": "WBTC",
-    "priceId": "wrapped-bitcoin",
-    "hasValue": true,
-    "icon": "btc.png"
-  },
-  "MATIC-Polygon": {
-    "slug": "MATIC-Polygon",
-    "originChainAsset": "polygon-NATIVE-MATIC",
-    "name": "Polygon",
-    "symbol": "MATIC",
-    "priceId": "matic-network",
-    "hasValue": true,
-    "icon": "polygon.png"
-  },
-  "ARB-ArbitrumOne": {
-    "slug": "ARB-ArbitrumOne",
-    "originChainAsset": "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548",
-    "name": "Arbitrum One",
-    "symbol": "ARB",
-    "priceId": "arbitrum",
-    "hasValue": true,
-    "icon": "arbitrum.png"
-  },
-  "OP-Optimism": {
-    "slug": "OP-Optimism",
-    "originChainAsset": "optimism-ERC20-OP-0x4200000000000000000000000000000000000042",
-    "name": "Optimism",
-    "symbol": "OP",
-    "priceId": "optimism",
-    "hasValue": true,
-    "icon": "optimism.png"
-  },
-  "EQ-Equilibrium": {
-    "slug": "EQ-Equilibrium",
-    "originChainAsset": "equilibrium_parachain-NATIVE-EQ",
-    "name": "Equilibrium",
-    "symbol": "EQ",
-    "priceId": "equilibrium-token",
-    "hasValue": true,
-    "icon": "eq.png"
-  },
-  "KMA-Calamari": {
-    "slug": "KMA-Calamari",
-    "originChainAsset": "calamari-NATIVE-KMA",
-    "name": "Calamari",
-    "symbol": "KMA",
-    "priceId": "calamari-network",
-    "hasValue": true,
-    "icon": "calamarinetwork.png"
-  },
-  "FTM-Fantom": {
-    "slug": "FTM-Fantom",
-    "originChainAsset": "fantom-NATIVE-FTM",
-    "name": "Fantom",
-    "symbol": "FTM",
-    "priceId": "fantom",
-    "hasValue": true,
-    "icon": "ftm.png"
-  },
-  "aSEED-aSEEDAcala": {
-    "slug": "aSEED-aSEEDAcala",
-    "originChainAsset": "acala-LOCAL-aSEED",
-    "name": "aUSD SEED (Acala)",
-    "symbol": "aSEED",
-    "priceId": "ausd-seed-acala",
-    "hasValue": true,
-    "icon": "aseed.png"
-  },
-  "aSEED-aSEEDKarura": {
-    "slug": "aSEED-aSEEDKarura",
-    "originChainAsset": "karura-LOCAL-aSEED",
-    "name": "aUSD SEED (Karura)",
-    "symbol": "aSEED",
-    "priceId": "ausd-seed-karura",
-    "hasValue": true,
-    "icon": "aseed.png"
+    "icon": "https://media-resources.subwallet.app//3/dai_de0c0d96e2.png"
   },
   "DPR-DeeperNetwork": {
     "slug": "DPR-DeeperNetwork",
@@ -366,15 +94,279 @@
     "symbol": "DPR",
     "priceId": "deeper-network",
     "hasValue": true,
-    "icon": "deeper-network.png"
+    "icon": "https://media-resources.subwallet.app//3/deeper_network_42d182d92c.png"
+  },
+  "BNC-BifrostKusama": {
+    "slug": "BNC-BifrostKusama",
+    "originChainAsset": "bifrost-NATIVE-BNC",
+    "name": "Bifrost Kusama",
+    "symbol": "BNC",
+    "priceId": "bifrost-native-coin",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/bifrost_7bc34a05fc.png"
+  },
+  "BOBA-BobaToken": {
+    "slug": "BOBA-BobaToken",
+    "originChainAsset": "bobabeam-NATIVE-BOBA",
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "priceId": "boba-network",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/boba_network_6f4acdcfd4.png"
+  },
+  "CRU-Crust": {
+    "slug": "CRU-Crust",
+    "originChainAsset": "crust-NATIVE-CRU",
+    "name": "Crust",
+    "symbol": "CRU",
+    "priceId": "crust-network",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/crust_fafb1c8870.png"
+  },
+  "SDN-Shiden": {
+    "slug": "SDN-Shiden",
+    "originChainAsset": "shiden-NATIVE-SDN",
+    "name": "Shiden",
+    "symbol": "SDN",
+    "priceId": "shiden",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/shiden_07d4fa824e.png"
+  },
+  "ARB-ArbitrumOne": {
+    "slug": "ARB-ArbitrumOne",
+    "originChainAsset": "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "name": "Arbitrum One",
+    "symbol": "ARB",
+    "priceId": "arbitrum",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/arbitrum_09c31bf783.png"
   },
   "USDD-DecentralizedUSD": {
     "slug": "USDD-DecentralizedUSD",
-    "originChainAsset": null,
     "name": "Decentralized USD",
     "symbol": "USDD",
     "priceId": "usdd",
     "hasValue": true,
-    "icon": "usdd.png"
+    "icon": "https://media-resources.subwallet.app//3/usdd_ed7e4a4167.png"
+  },
+  "NEER-Pioneer": {
+    "slug": "NEER-Pioneer",
+    "originChainAsset": "pioneer-NATIVE-NEER",
+    "name": "Pioneer",
+    "symbol": "NEER",
+    "priceId": "metaverse-network-pioneer",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/bit_country_pioneer_6b3dad41bb.png"
+  },
+  "KAR-Karura": {
+    "slug": "KAR-Karura",
+    "originChainAsset": "karura-NATIVE-KAR",
+    "name": "Karura",
+    "symbol": "KAR",
+    "priceId": "karura",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/karura_112a4d2645.png"
+  },
+  "PKEX-PolkaEx": {
+    "slug": "PKEX-PolkaEx",
+    "name": "PolkaEx",
+    "symbol": "PKEX",
+    "priceId": "polkaex",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/pkex_7066e77679.png"
+  },
+  "aSEED-aSEEDAcala": {
+    "slug": "aSEED-aSEEDAcala",
+    "originChainAsset": "acala-LOCAL-aSEED",
+    "name": "aUSD SEED (Acala)",
+    "symbol": "aSEED",
+    "priceId": "ausd-seed-acala",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/aseed_43d91ef3a9.png"
+  },
+  "MATIC-Polygon": {
+    "slug": "MATIC-Polygon",
+    "originChainAsset": "polygon-NATIVE-MATIC",
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "priceId": "matic-network",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/polygon_66024badc0.png"
+  },
+  "kBTC-KintsugiWrappedBTC": {
+    "slug": "kBTC-KintsugiWrappedBTC",
+    "originChainAsset": "kintsugi-LOCAL-kBTC",
+    "name": "Kintsugi Wrapped BTC",
+    "symbol": "kBTC",
+    "priceId": "kintsugi-btc",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/kbtc_e479f7b0f2.png"
+  },
+  "FTM-Fantom": {
+    "slug": "FTM-Fantom",
+    "originChainAsset": "fantom-NATIVE-FTM",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "priceId": "fantom",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/ftm_16069596f6.png"
+  },
+  "aUSD-KaruraDollar": {
+    "slug": "aUSD-KaruraDollar",
+    "name": "Karura Dollar",
+    "symbol": "aUSD",
+    "priceId": "acala-dollar",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/ausd_8c96420071.png"
+  },
+  "PHA-Phala": {
+    "slug": "PHA-Phala",
+    "originChainAsset": "phala-NATIVE-PHA",
+    "name": "Phala",
+    "symbol": "PHA",
+    "priceId": "pha",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/khala_network_6e34ce316f.png"
+  },
+  "WETH-WrappedEther": {
+    "slug": "WETH-WrappedEther",
+    "originChainAsset": "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "priceId": "weth",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/ethereum_02384e1ab0.png"
+  },
+  "BUSD-BinanceUSD": {
+    "slug": "BUSD-BinanceUSD",
+    "originChainAsset": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "priceId": "binance-usd",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/busd_b4005e1fcb.png"
+  },
+  "EQ-Equilibrium": {
+    "slug": "EQ-Equilibrium",
+    "originChainAsset": "equilibrium_parachain-NATIVE-EQ",
+    "name": "Equilibrium",
+    "symbol": "EQ",
+    "priceId": "equilibrium-token",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/eq_46f89bf74f.png"
+  },
+  "BNB-Binance": {
+    "slug": "BNB-Binance",
+    "originChainAsset": "binance-NATIVE-BNB",
+    "name": "Binance Smart Chain",
+    "symbol": "BNB",
+    "priceId": "binancecoin",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/bnb_b1fba6c9cd.png"
+  },
+  "USDC-USDCoin": {
+    "slug": "USDC-USDCoin",
+    "name": "USDC",
+    "symbol": "USDC",
+    "priceId": "usd-coin",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/usdc_9b034b4c48.png"
+  },
+  "RMRK-RMRKApp": {
+    "slug": "RMRK-RMRKApp",
+    "originChainAsset": "statemine-LOCAL-RMRK",
+    "name": "RMRK.app",
+    "symbol": "RMRK",
+    "priceId": "rmrk",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/rmrk_token_a9c5fab4d1.png"
+  },
+  "KINT-Kintsugi": {
+    "slug": "KINT-Kintsugi",
+    "originChainAsset": "kintsugi-NATIVE-KINT",
+    "name": "Kintsugi",
+    "symbol": "KINT",
+    "priceId": "kintsugi",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/kintsugi_974d070433.png"
+  },
+  "WBTC-WrappedBTC": {
+    "slug": "WBTC-WrappedBTC",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "priceId": "wrapped-bitcoin",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/btc_3cd8607524.png"
+  },
+  "aSEED-aSEEDKarura": {
+    "slug": "aSEED-aSEEDKarura",
+    "originChainAsset": "karura-LOCAL-aSEED",
+    "name": "aUSD SEED (Karura)",
+    "symbol": "aSEED",
+    "priceId": "ausd-seed-karura",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/aseed_43d91ef3a9.png"
+  },
+  "aUSD-AcalaDollar": {
+    "slug": "aUSD-AcalaDollar",
+    "name": "Acala Dollar",
+    "symbol": "aUSD",
+    "priceId": "acala-dollar-acala",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/ausd_8c96420071.png"
+  },
+  "EQD-EquilibriumUSD": {
+    "slug": "EQD-EquilibriumUSD",
+    "originChainAsset": "equilibrium_parachain-LOCAL-EQD",
+    "name": "Equilibrium USD",
+    "symbol": "EQD",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/eqd_13d0ba55aa.png"
+  },
+  "KMA-Calamari": {
+    "slug": "KMA-Calamari",
+    "originChainAsset": "calamari-NATIVE-KMA",
+    "name": "Calamari",
+    "symbol": "KMA",
+    "priceId": "calamari-network",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/calamarinetwork_18f99dc098.png"
+  },
+  "OP-Optimism": {
+    "slug": "OP-Optimism",
+    "originChainAsset": "optimism-ERC20-OP-0x4200000000000000000000000000000000000042",
+    "name": "Optimism",
+    "symbol": "OP",
+    "priceId": "optimism",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/optimism_858dfbe0e0.png"
+  },
+  "PARA-Parallel": {
+    "slug": "PARA-Parallel",
+    "originChainAsset": "parallel-NATIVE-PARA",
+    "name": "Parallel",
+    "symbol": "PARA",
+    "priceId": "parallel-finance",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/parallel_0bcb2daed8.png"
+  },
+  "KSM-Kusama": {
+    "slug": "KSM-Kusama",
+    "originChainAsset": "kusama-NATIVE-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "priceId": "kusama",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/kusama_b9766f7606.png"
+  },
+  "INTR-Interlay": {
+    "slug": "INTR-Interlay",
+    "originChainAsset": "interlay-NATIVE-INTR",
+    "name": "Interlay",
+    "symbol": "INTR",
+    "priceId": "interlay",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/interlay_04ffc38b2d.png"
   }
 }
