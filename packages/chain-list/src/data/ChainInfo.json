@@ -4250,6 +4250,32 @@
     "evmInfo": null,
     "icon": "https://media-resources.subwallet.app//2/kusama_bridge_hub_e6daccf32b.png"
   },
+  "fantom_testnet": {
+    "slug": "fantom_testnet",
+    "name": "Fantom Testnet",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Ankr": "https://rpc.ankr.com/fantom_testnet",
+      "X_API": "https://xapi.testnet.fantom.network/lachesis/",
+      "FantomNetwork": "https://rpc.testnet.fantom.network/",
+      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
+    },
+    "isTestnet": true,
+    "substrateInfo": null,
+    "evmInfo": {
+      "evmChainId": 4002,
+      "blockExplorer": "https://testnet.ftmscan.com",
+      "symbol": "FTM",
+      "decimals": 18,
+      "existentialDeposit": "0",
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://testnet.ftmscan.com"
+    },
+    "icon": "https://media-resources.subwallet.app//2/ftm_8ccdce4e96.png"
+  },
   "fantom": {
     "slug": "fantom",
     "name": "Fantom",
@@ -4274,32 +4300,6 @@
         "ERC721"
       ],
       "abiExplorer": "https://ftmscan.com"
-    },
-    "icon": "https://media-resources.subwallet.app//2/ftm_8ccdce4e96.png"
-  },
-  "fantom_testnet": {
-    "slug": "fantom_testnet",
-    "name": "Fantom Testnet",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "Ankr": "https://rpc.ankr.com/fantom_testnet",
-      "X_API": "https://xapi.testnet.fantom.network/lachesis/",
-      "FantomNetwork": "https://rpc.testnet.fantom.network/",
-      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
-    },
-    "isTestnet": true,
-    "substrateInfo": null,
-    "evmInfo": {
-      "evmChainId": 4002,
-      "blockExplorer": "https://testnet.ftmscan.com",
-      "symbol": "FTM",
-      "decimals": 18,
-      "existentialDeposit": "0",
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": "https://testnet.ftmscan.com"
     },
     "icon": "https://media-resources.subwallet.app//2/ftm_8ccdce4e96.png"
   },
