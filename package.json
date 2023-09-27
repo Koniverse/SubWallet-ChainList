@@ -11,10 +11,6 @@
   "sideEffects": false,
   "type": "module",
   "version": "0.2.15-beta.3",
-  "versions": {
-    "git": "0.2.15-beta.3",
-    "npm": "0.2.15-beta.3"
-  },
   "workspaces": [
     "packages/*"
   ],
@@ -24,8 +20,7 @@
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
     "generate-logo-map": "./scripts/generators/generate-logo-map.js",
     "generate-multi-chain-asset-logo": "./scripts/generators/generate-multi-chain-asset-logo.js",
-    "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
-    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
+    "set-version": "./scripts/set-version.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"
