@@ -3329,32 +3329,6 @@
     "evmInfo": null,
     "icon": "https://media-resources.subwallet.app//2/dbio_a7296e7986.png"
   },
-  "barnacle": {
-    "slug": "barnacle",
-    "name": "Barnacle",
-    "chainStatus": "ACTIVE",
-    "providers": {
-      "barnacle": "wss://gateway.testnet.octopus.network/barnacle0928/9mw012zuf27soh7nrrq3a4p0s2ti3cyn"
-    },
-    "isTestnet": true,
-    "substrateInfo": {
-      "paraId": null,
-      "relaySlug": null,
-      "genesisHash": "0xb3d6017fd8f67d1d9970a010ee1bbf0bc12c5ff2d2c7b9c311a11332cb7b3a53",
-      "addressPrefix": 42,
-      "crowdloanUrl": null,
-      "chainType": "RELAYCHAIN",
-      "blockExplorer": null,
-      "symbol": "BAR",
-      "existentialDeposit": null,
-      "decimals": 18,
-      "supportStaking": false,
-      "hasNativeNft": false,
-      "supportSmartContract": null
-    },
-    "evmInfo": null,
-    "icon": "https://media-resources.subwallet.app//2/barnacle_9a6457db47.png"
-  },
   "collectives": {
     "slug": "collectives",
     "name": "Polkadot Collectives",

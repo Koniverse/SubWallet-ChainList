@@ -2768,33 +2768,6 @@
     "hasValue": true,
     "icon": "https://media-resources.subwallet.app//3/dbio_0c35ec9c1d.png"
   },
-  "barnacle-NATIVE-BAR": {
-    "originChain": "barnacle",
-    "slug": "barnacle-NATIVE-BAR",
-    "name": "Barnacle",
-    "symbol": "BAR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://media-resources.subwallet.app//3/barnacle_27ddeccd5b.png"
-  },
-  "barnacle_evm-NATIVE-EBAR": {
-    "slug": "barnacle_evm-NATIVE-EBAR",
-    "name": "Barnacle EVM",
-    "symbol": "EBAR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://media-resources.subwallet.app//3/barnacle_27ddeccd5b.png"
-  },
   "collectives-NATIVE-DOT": {
     "originChain": "collectives",
     "slug": "collectives-NATIVE-DOT",
