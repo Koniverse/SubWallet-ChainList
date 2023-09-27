@@ -1,22 +1,13 @@
-name: Release
+name: Publish Build
 on:
-  workflow_dispatch:
-    inputs:
-      release_type:
-        description: 'Release type'
-        required: true
-        type: choice
-        options:
-          - 'latest'
-          - 'beta'
-        default: 'beta'
-      version:
-        description: 'Version'
-        required: true
-        default: ''
+  push:
+    branches:
+      - master
+      - dev
 
 jobs:
   master:
+    if: "startsWith(github.event.head_commit.message, '[Release]')"
     runs-on: ubuntu-22.04
     name: Build and publish
     steps:
@@ -24,6 +15,15 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
+
+      - name: Set input data
+        id: input_data
+        run: |
+          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
+            echo "{target}={latest}" >> $GITHUB_OUTPUT
+          else
+            echo "{target}={beta}" >> $GITHUB_OUTPUT
+          fi
 
       - uses: actions/setup-node@v3
         with:
@@ -35,15 +35,14 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn install
-          yarn set-version ${{ github.event.inputs.version }}
-          yarn publish:${{ github.event.inputs.release_type }}
+          yarn publish:${{ steps.input_data.outputs.target }}
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: 'Release version ${{ github.event.inputs.version }}'
+          message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
@@ -55,4 +54,4 @@ jobs:
           title: ${{ github.workflow }}
           description: |
             The deployment has been completed.
-            Release ${{ github.event.inputs.release_type }} version ${{ github.event.inputs.version }}
+            Commit message: ${{ github.event.head_commit.message }}
