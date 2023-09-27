@@ -2,6 +2,14 @@ name: Release
 on:
   workflow_dispatch:
     inputs:
+      release_type:
+        description: 'Release type'
+        required: true
+        type: choice
+        options:
+          - 'latest'
+          - 'beta'
+        default: 'beta'
       version:
         description: 'Version'
         required: true
@@ -17,15 +25,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
-      - name: Set input data
-        id: input_data
-        run: |
-          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-            echo "::set-output name=target::latest"
-          else
-            echo "::set-output name=target::beta"
-          fi
-
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
@@ -37,7 +36,7 @@ jobs:
         run: |
           yarn install
           yarn set-version ${{ github.event.inputs.version }}
-          yarn publish:${{ steps.input_data.outputs.target }}
+          yarn publish:${{ github.event.inputs.release_type }}
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
@@ -56,4 +55,4 @@ jobs:
           title: ${{ github.workflow }}
           description: |
             The deployment has been completed.
-            Release version ${{ github.event.inputs.version }}
+            Release ${{ github.event.inputs.release_type }} version ${{ github.event.inputs.version }}
