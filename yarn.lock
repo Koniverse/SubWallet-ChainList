@@ -10625,6 +10625,8 @@ __metadata:
     generate-logo-map: ./scripts/generators/generate-logo-map.js
     generate-multi-chain-asset-logo: ./scripts/generators/generate-multi-chain-asset-logo.js
     set-version: ./scripts/set-version.mjs
+    subwallet-ci-ghact-build: ./scripts/subwallet-ci-ghact-build.mjs
+    subwallet-dev-build-ts: ./scripts/subwallet-dev-build-ts.mjs
     validate-asset-refs: ./scripts/validations/validate-asset-refs.js
     validate-chains: ./scripts/validations/validate-chains.js
     validate-tokens: ./scripts/validations/validate-tokens.js
