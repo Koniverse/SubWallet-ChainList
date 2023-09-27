@@ -33,6 +33,8 @@ jobs:
       - name: Install dependencies and build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
+          STRAPI_URL: ${{ secrets.STRAPI_URL }}
         run: |
           yarn install
           yarn publish:${{ steps.input_data.outputs.target }}
