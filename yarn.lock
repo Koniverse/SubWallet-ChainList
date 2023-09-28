@@ -2618,9 +2618,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@subwallet/app-chain-list@workspace:packages/app-chain-list":
+"@subwallet/chain-list-assets@workspace:packages/chain-list-assets":
   version: 0.0.0-use.local
-  resolution: "@subwallet/app-chain-list@workspace:packages/app-chain-list"
+  resolution: "@subwallet/chain-list-assets@workspace:packages/chain-list-assets"
   languageName: unknown
   linkType: soft
 
