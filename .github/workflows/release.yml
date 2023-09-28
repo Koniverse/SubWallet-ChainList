@@ -20,9 +20,9 @@ jobs:
         id: input_data
         run: |
           if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-            echo "::set-output name=target::latest"
+            echo "target=latest" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=target::beta"
+            echo "target=beta" >> $GITHUB_OUTPUT
           fi
 
       - uses: actions/setup-node@v3
@@ -33,6 +33,8 @@ jobs:
       - name: Install dependencies and build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
+          STRAPI_URL: ${{ secrets.STRAPI_URL }}
         run: |
           yarn install
           yarn publish:${{ steps.input_data.outputs.target }}
@@ -43,6 +45,18 @@ jobs:
           author_name: Github-Bot
           author_email: scheduler@github.io
           message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
+
+      - name: Deploy Assets to Cloudflare Pages
+        id: cloudflare_deployment
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'sw-chain-list-assets'
+          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
+          branch: ${{ github.ref_name }}
+          directory: './packages/chain-list-assets/public'
+          wranglerVersion: '3'
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1

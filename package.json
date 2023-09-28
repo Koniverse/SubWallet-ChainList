@@ -10,11 +10,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.2.14",
-  "versions": {
-    "git": "0.2.14",
-    "npm": "0.2.14"
-  },
+  "version": "0.2.15-beta.10",
   "workspaces": [
     "packages/*"
   ],
@@ -23,6 +19,10 @@
     "export-chains": "./scripts/exports/export-chains.js",
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
     "generate-logo-map": "./scripts/generators/generate-logo-map.js",
+    "set-version": "./scripts/set-version.mjs",
+    "strapi-fetch-chain-assets": "./scripts/strapi/fetch-chain-assets.mjs",
+    "strapi-fetch-chains": "./scripts/strapi/fetch-chains.mjs",
+    "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
     "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
     "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
@@ -30,7 +30,7 @@
     "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build": "yarn strapi-fetch && yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
     "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",
@@ -44,6 +44,7 @@
     "postinstall": "polkadot-dev-yarn-only && patch-package",
     "publish:beta": "yarn build:beta && cd ./packages/chain-list/build && npm publish --target --tag beta",
     "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag latest",
+    "strapi-fetch": "yarn strapi-fetch-chains && yarn strapi-fetch-chain-assets && yarn strapi-multi-chain-assets",
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
     "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit"
   },
@@ -57,9 +58,12 @@
     "@json2csv/plainjs": "^6.1.3",
     "@polkadot/dev": "^0.67.167",
     "@types/jest": "^29.2.4",
+    "axios": "^1.5.1",
     "bignumber.js": "^9.1.1",
     "copyfiles": "^2.4.1",
     "gh-pages": "^5.0.0",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0"
   },
