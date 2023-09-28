@@ -257,5 +257,19 @@
     "srcChain": "moonbeam",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "statemint-LOCAL-USDC___hydradx_main-LOCAL-USDC": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "hydradx_main-LOCAL-USDC",
+    "srcChain": "statemint",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC",
+    "destAsset": "statemint-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
   }
 }

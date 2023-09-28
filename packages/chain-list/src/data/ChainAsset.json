@@ -6999,7 +6999,22 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1337"
+      "assetId": "1337",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -7045,7 +7060,25 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "22"
+      "assetId": "22",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
