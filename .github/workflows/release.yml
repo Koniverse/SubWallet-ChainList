@@ -54,7 +54,7 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-chain-list-assets'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: github.ref_name
+          branch: ${{ github.ref_name }}
           directory: './packages/chain-list-assets/public'
           wranglerVersion: '3'
 
