@@ -1,6 +1,6 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import {graphQLClient} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/MultiChainAsset.json';
 
@@ -37,8 +37,20 @@ query {
 
 const main = async () => {
     const results = await graphQLClient.request(query);
-    const chains = results.multiChainAssets.data.map(mAsset => {
+    const downloadDir = `${DOWNLOAD_DIR}/multi-chain-assets`;
+    const chains = await Promise.all(results.multiChainAssets.data.map(async mAsset => {
         const attributes = mAsset.attributes;
+
+        let iconURL = attributes.icon?.data?.attributes?.url;
+        if (iconURL) {
+            try {
+                const newFileName = await downloadFile(iconURL, downloadDir, attributes.slug.toLowerCase());
+                iconURL = `${DOWNLOAD_LINK}/assets/chains/${newFileName}`;
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
         return {
             slug: attributes.slug,
             originChainAsset: attributes.originChainAsset.data?.attributes.slug,
@@ -46,9 +58,9 @@ const main = async () => {
             symbol: attributes.symbol,
             priceId: attributes.priceId,
             hasValue: attributes.hasValue,
-            icon: attributes.icon.data?.attributes.url,
+            icon: iconURL,
         }
-    });
+    }));
     const mAssetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
 
     // save to json file

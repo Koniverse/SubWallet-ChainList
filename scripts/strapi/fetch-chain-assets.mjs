@@ -1,6 +1,6 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import {graphQLClient} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, writeJSONFile} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const SAVE_REF_PATH = './packages/chain-list/src/data/AssetRef.json';
@@ -58,8 +58,19 @@ query {
 
 const main = async () => {
     const results = await graphQLClient.request(query);
-    const chains = results.chainAssets.data.map(asset => {
+    const downloadDir = `${DOWNLOAD_DIR}/chain-assets`;
+    const chains = await Promise.all(results.chainAssets.data.map(async asset => {
         const attributes = asset.attributes;
+        let iconURL = attributes.icon?.data?.attributes?.url;
+        if (iconURL) {
+            try {
+                const newFileName = await downloadFile(iconURL, downloadDir, attributes.slug.toLowerCase());
+                iconURL = `${DOWNLOAD_LINK}/assets/chains/${newFileName}`;
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
         return {
             originChain: attributes.originChain?.data?.attributes.slug,
             slug: attributes.slug,
@@ -72,9 +83,9 @@ const main = async () => {
             metadata: attributes.metadata,
             multiChainAsset: attributes.multiChainAsset?.data?.attributes.slug || null,
             hasValue: attributes.hasValue,
-            icon: attributes.icon?.data?.attributes.url
+            icon: iconURL
         }
-    });
+    }));
 
     const assetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
 
@@ -96,22 +107,10 @@ const main = async () => {
     });
 
     // save to json file
-    fs.writeFile(SAVE_PATH, JSON.stringify(assetMap, null, 2), function (err) {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log("JSON saved to " + SAVE_PATH);
-        }
-    });
+    await writeJSONFile(SAVE_PATH, assetMap);
 
     // save to json file
-    fs.writeFile(SAVE_REF_PATH, JSON.stringify(refMap, null, 2), function (err) {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log("JSON saved to " + SAVE_REF_PATH);
-        }
-    });
+    await writeJSONFile(SAVE_REF_PATH, refMap);
 }
 
 main().catch((error) => console.error(error));

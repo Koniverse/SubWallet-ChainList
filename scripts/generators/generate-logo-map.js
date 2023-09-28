@@ -2,12 +2,13 @@ import fs from "fs";
 import ChainInfoMap from '../../packages/chain-list/src/data/ChainInfo.json' assert { type: "json" };
 import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' assert { type: "json" };
 import MultiChainAsset from '../../packages/chain-list/src/data/MultiChainAsset.json' assert { type: "json" };
+import {DOWNLOAD_LINK} from "../strapi/strapi-api.mjs";
 
-const DEFAULT_ICON = 'https://media-resources.subwallet.app//4/default_46db278ee6.png';
+const DEFAULT_ICON = `${DOWNLOAD_LINK}/assets/default.png`;
 
 const SpecialCustomToken = {
-  "custom-moonbeam-ERC20-CP-0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824": 'https://media-resources.subwallet.app//3/cp_77d5363018.png',
-  "custom-aleph-PSP22-ZPF-5ESKJbkpVa1ppUCmrkCmaZDHqm9SHihws9Uqqsoi4VrDCDLE": 'https://media-resources.subwallet.app//3/zpf_2f06de3f07.png'
+  "custom-moonbeam-ERC20-CP-0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824": `${DOWNLOAD_LINK}/assets/custom-chain-assets/cp_77d5363018.png`,
+  "custom-aleph-PSP22-ZPF-5ESKJbkpVa1ppUCmrkCmaZDHqm9SHihws9Uqqsoi4VrDCDLE": `${DOWNLOAD_LINK}/assets/custom-chain-assets/zpf_2f06de3f07.png`
 }
 
 try {

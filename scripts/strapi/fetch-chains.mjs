@@ -1,8 +1,9 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import {graphQLClient} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, removeDir, writeJSONFile} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/ChainInfo.json';
+
 
 const query = gql`
 query {
@@ -56,9 +57,21 @@ query {
 
 const main = async () => {
     const results = await graphQLClient.request(query);
-    const chains = results.chains.data.map(chain => {
+    const downloadDir = `${DOWNLOAD_DIR}/chains`;
+    const chains = await Promise.all(results.chains.data.map(async chain => {
         const attributes = chain.attributes;
         const providers = Object.fromEntries(attributes.providers.map(provider => [provider.name, provider.url]));
+
+        let iconURL = attributes.icon?.data?.attributes?.url;
+        if (iconURL) {
+            try {
+                const newFileName = await downloadFile(iconURL, downloadDir, attributes.slug.toLowerCase());
+                iconURL = `${DOWNLOAD_LINK}/assets/chains/${newFileName}`;
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
         return {
             slug: attributes.slug,
             name: attributes.name,
@@ -67,19 +80,15 @@ const main = async () => {
             isTestnet: attributes.isTestnet,
             substrateInfo: attributes.substrateInfo,
             evmInfo: attributes.evmInfo,
-            icon: attributes.icon?.data?.attributes?.url,
+            icon: iconURL,
         }
-    });
+    }));
+
     const chainMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
 
+
     // save to json file
-    fs.writeFile(SAVE_PATH, JSON.stringify(chainMap, null, 2), function (err) {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log("JSON saved to " + SAVE_PATH);
-        }
-    });
+    await writeJSONFile(SAVE_PATH, chainMap);
 }
 
 main().catch((error) => console.error(error));
