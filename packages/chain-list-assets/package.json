@@ -1,0 +1,25 @@
+{
+  "author": "AnhMTV <anhmtv@subwallet.app>",
+  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
+  "contributors": [],
+  "description": "Open-source package to manage chains, tokens and other information",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/Koniverse/SubWallet-Chain/tree/master/packages/chain-list#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@subwallet/chain-list-assets",
+  "repository": {
+    "directory": "packages/chain-list-assets",
+    "type": "git",
+    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+  },
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "type": "module",
+  "version": "0.2.15-beta.8",
+  "main": "index.js"
+}
