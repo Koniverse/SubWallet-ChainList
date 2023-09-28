@@ -2758,6 +2758,32 @@
     "evmInfo": null,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dorafactory.png"
   },
+  "dancebox": {
+    "slug": "dancebox",
+    "name": "Dancebox",
+    "chainStatus": "ACTIVE",
+    "providers": {
+      "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+    },
+    "isTestnet": true,
+    "substrateInfo": {
+      "paraId": 3000,
+      "relaySlug": null,
+      "genesisHash": "0x27aafd88e5921f5d5c6aebcd728dacbbf5c2a37f63e2eda301f8e0def01c43ea",
+      "addressPrefix": 42,
+      "crowdloanUrl": null,
+      "chainType": "PARACHAIN",
+      "blockExplorer": null,
+      "symbol": "DANCE",
+      "existentialDeposit": "1000000000",
+      "decimals": 12,
+      "supportStaking": false,
+      "hasNativeNft": false,
+      "supportSmartContract": null
+    },
+    "evmInfo": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dancebox.png"
+  },
   "bajun": {
     "slug": "bajun",
     "name": "Bajun Kusama",

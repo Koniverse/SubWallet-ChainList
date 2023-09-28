@@ -1626,6 +1626,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
   },
+  "dancebox-NATIVE-DANCE": {
+    "originChain": "dancebox",
+    "slug": "dancebox-NATIVE-DANCE",
+    "name": "Dancebox",
+    "symbol": "DANCE",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
+  },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
     "slug": "polkadex-NATIVE-PDEX",
