@@ -62,6 +62,13 @@
     "destChain": "bifrost",
     "path": "XCM"
   },
+  "kusama-NATIVE-KSM___amplitude-NATIVE-KSM": {
+    "srcAsset": "kusama-NATIVE-KSM",
+    "destAsset": "amplitude-NATIVE-KSM",
+    "srcChain": "kusama",
+    "destChain": "amplitude",
+    "path": "XCM"
+  },
   "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
     "srcAsset": "pioneer-NATIVE-NEER",
     "destAsset": "karura-LOCAL-NEER",

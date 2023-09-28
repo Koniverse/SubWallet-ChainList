@@ -1612,20 +1612,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
-  "odyssey-NATIVE-ARES": {
-    "originChain": "odyssey",
-    "slug": "odyssey-NATIVE-ARES",
-    "name": "Ares Odyssey",
-    "symbol": "ARES",
-    "decimals": 12,
-    "priceId": "ares-protocol",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
-  },
   "dancebox-NATIVE-DANCE": {
     "originChain": "dancebox",
     "slug": "dancebox-NATIVE-DANCE",
@@ -1639,6 +1625,38 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
+  },
+  "amplitude-NATIVE-KSM": {
+    "originChain": "amplitude",
+    "slug": "amplitude-NATIVE-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "0"
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-native-ksm.png"
+  },
+  "odyssey-NATIVE-ARES": {
+    "originChain": "odyssey",
+    "slug": "odyssey-NATIVE-ARES",
+    "name": "Ares Odyssey",
+    "symbol": "ARES",
+    "decimals": 12,
+    "priceId": "ares-protocol",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
