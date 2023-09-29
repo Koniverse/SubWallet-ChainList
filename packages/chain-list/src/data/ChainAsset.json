@@ -1626,9 +1626,9 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
   },
-  "amplitude-NATIVE-KSM": {
+  "amplitude-LOCAL-KSM": {
     "originChain": "amplitude",
-    "slug": "amplitude-NATIVE-KSM",
+    "slug": "amplitude-LOCAL-KSM",
     "name": "Kusama",
     "symbol": "KSM",
     "decimals": 12,
@@ -1642,7 +1642,7 @@
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-native-ksm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png"
   },
   "odyssey-NATIVE-ARES": {
     "originChain": "odyssey",

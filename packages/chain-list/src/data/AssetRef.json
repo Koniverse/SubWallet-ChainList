@@ -62,9 +62,9 @@
     "destChain": "bifrost",
     "path": "XCM"
   },
-  "kusama-NATIVE-KSM___amplitude-NATIVE-KSM": {
+  "kusama-NATIVE-KSM___amplitude-LOCAL-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
-    "destAsset": "amplitude-NATIVE-KSM",
+    "destAsset": "amplitude-LOCAL-KSM",
     "srcChain": "kusama",
     "destChain": "amplitude",
     "path": "XCM"
