@@ -300,7 +300,7 @@
       "existentialDeposit": "1000000000",
       "decimals": 10,
       "supportStaking": false,
-      "hasNativeNft": false,
+      "hasNativeNft": true,
       "supportSmartContract": null
     },
     "evmInfo": null,
