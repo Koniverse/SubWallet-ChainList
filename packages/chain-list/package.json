@@ -24,7 +24,7 @@
   "main": "index.js",
   "dependencies": {
     "@polkadot/dev": "0.67.167",
-    "@polkadot/util": "^10.2.1",
-    "eventemitter3": "^4.0.7"
+    "@polkadot/util": "^12.5.1",
+    "eventemitter3": "^5.0.1"
   }
 }
