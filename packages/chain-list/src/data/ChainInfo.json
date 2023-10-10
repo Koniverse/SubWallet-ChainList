@@ -29,7 +29,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/polkadot.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png"
   },
   "kusama": {
     "slug": "kusama",
@@ -61,7 +61,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kusama.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png"
   },
   "ethereum": {
     "slug": "ethereum",
@@ -88,7 +88,7 @@
       ],
       "abiExplorer": "https://etherscan.io"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/ethereum.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ethereum.png"
   },
   "binance": {
     "slug": "binance",
@@ -114,7 +114,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/binance.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/binance.png"
   },
   "moonbeam": {
     "slug": "moonbeam",
@@ -156,13 +156,14 @@
       ],
       "abiExplorer": "https://api-moonbeam.moonscan.io/api?module=contract&action=getabi"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/moonbeam.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbeam.png"
   },
   "pioneer": {
     "slug": "pioneer",
     "name": "Pioneer Network",
     "chainStatus": "ACTIVE",
     "providers": {
+      "Pioneer": "wss://pioneer-rpc-3.bit.country/wss",
       "OnFinality": "wss://pioneer.api.onfinality.io/public-ws"
     },
     "isTestnet": false,
@@ -182,7 +183,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/pioneer.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pioneer.png"
   },
   "aleph": {
     "slug": "aleph",
@@ -211,7 +212,7 @@
       ]
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/aleph.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aleph.png"
   },
   "astar": {
     "slug": "astar",
@@ -246,7 +247,7 @@
       ]
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/astar.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astar.png"
   },
   "astarEvm": {
     "slug": "astarEvm",
@@ -273,7 +274,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/astarevm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarevm.png"
   },
   "statemint": {
     "slug": "statemint",
@@ -304,7 +305,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/statemint.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png"
   },
   "acala": {
     "slug": "acala",
@@ -336,7 +337,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/acala.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acala.png"
   },
   "polygon": {
     "slug": "polygon",
@@ -361,7 +362,7 @@
       ],
       "abiExplorer": "https://polygonscan.com"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/polygon.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygon.png"
   },
   "arbitrum_one": {
     "slug": "arbitrum_one",
@@ -385,7 +386,7 @@
       ],
       "abiExplorer": "https://arbiscan.io"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/arbitrum_one.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/arbitrum_one.png"
   },
   "optimism": {
     "slug": "optimism",
@@ -409,7 +410,7 @@
       ],
       "abiExplorer": "https://optimistic.etherscan.io"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/optimism.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/optimism.png"
   },
   "tomochain": {
     "slug": "tomochain",
@@ -432,7 +433,7 @@
       ],
       "abiExplorer": "https://tomoscan.i"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/tomochain.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tomochain.png"
   },
   "alephTest": {
     "slug": "alephTest",
@@ -461,7 +462,7 @@
       ]
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/alephtest.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/alephtest.png"
   },
   "shiden": {
     "slug": "shiden",
@@ -493,7 +494,7 @@
       ]
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/shiden.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/shiden.png"
   },
   "shidenEvm": {
     "slug": "shidenEvm",
@@ -519,7 +520,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/shidenevm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/shidenevm.png"
   },
   "shibuya": {
     "slug": "shibuya",
@@ -549,7 +550,7 @@
       ]
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/shibuya.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/shibuya.png"
   },
   "shibuyaEvm": {
     "slug": "shibuyaEvm",
@@ -574,7 +575,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/shibuyaevm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/shibuyaevm.png"
   },
   "aventus": {
     "slug": "aventus",
@@ -600,7 +601,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/aventus.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus.png"
   },
   "westend": {
     "slug": "westend",
@@ -631,7 +632,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/westend.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend.png"
   },
   "rococo": {
     "slug": "rococo",
@@ -664,7 +665,7 @@
       ]
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/rococo.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo.png"
   },
   "bitcountry": {
     "slug": "bitcountry",
@@ -690,7 +691,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bitcountry.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png"
   },
   "equilibrium_parachain": {
     "slug": "equilibrium_parachain",
@@ -717,7 +718,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/equilibrium_parachain.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/equilibrium_parachain.png"
   },
   "moonbase": {
     "slug": "moonbase",
@@ -756,7 +757,7 @@
       ],
       "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/moonbase.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbase.png"
   },
   "moonriver": {
     "slug": "moonriver",
@@ -798,7 +799,7 @@
       ],
       "abiExplorer": "https://api-moonriver.moonscan.io/api?module=contract&action=getabi"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/moonriver.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonriver.png"
   },
   "turingStaging": {
     "slug": "turingStaging",
@@ -824,7 +825,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turingstaging.png"
   },
   "turing": {
     "slug": "turing",
@@ -851,7 +852,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/turing.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turing.png"
   },
   "bifrost": {
     "slug": "bifrost",
@@ -879,7 +880,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrost.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png"
   },
   "bifrost_dot": {
     "slug": "bifrost_dot",
@@ -906,7 +907,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrost_dot.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png"
   },
   "bifrost_testnet": {
     "slug": "bifrost_testnet",
@@ -932,7 +933,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrost_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_testnet.png"
   },
   "calamari": {
     "slug": "calamari",
@@ -958,7 +959,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png"
   },
   "amplitude": {
     "slug": "amplitude",
@@ -984,7 +985,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/amplitude.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/amplitude.png"
   },
   "amplitude_test": {
     "slug": "amplitude_test",
@@ -1010,7 +1011,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/amplitude_test.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/amplitude_test.png"
   },
   "bobabase": {
     "slug": "bobabase",
@@ -1034,7 +1035,7 @@
       ],
       "abiExplorer": "https://blockexplorer.bobabase.boba.network/"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bobabase.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bobabase.png"
   },
   "ethereum_goerli": {
     "slug": "ethereum_goerli",
@@ -1058,7 +1059,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/ethereum_goerli.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ethereum_goerli.png"
   },
   "binance_test": {
     "slug": "binance_test",
@@ -1082,7 +1083,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/binance_test.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/binance_test.png"
   },
   "parallel": {
     "slug": "parallel",
@@ -1109,7 +1110,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/parallel.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/parallel.png"
   },
   "clover": {
     "slug": "clover",
@@ -1136,7 +1137,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/clover.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/clover.png"
   },
   "cloverEvm": {
     "slug": "cloverEvm",
@@ -1160,7 +1161,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/cloverevm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cloverevm.png"
   },
   "hydradx_main": {
     "slug": "hydradx_main",
@@ -1187,7 +1188,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_main.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_main.png"
   },
   "edgeware": {
     "slug": "edgeware",
@@ -1215,7 +1216,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/edgeware.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/edgeware.png"
   },
   "centrifuge": {
     "slug": "centrifuge",
@@ -1242,7 +1243,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/centrifuge.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/centrifuge.png"
   },
   "interlay": {
     "slug": "interlay",
@@ -1269,7 +1270,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/interlay.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/interlay.png"
   },
   "nodle": {
     "slug": "nodle",
@@ -1297,7 +1298,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/nodle.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/nodle.png"
   },
   "darwinia2": {
     "slug": "darwinia2",
@@ -1335,7 +1336,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/darwinia2.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/darwinia2.png"
   },
   "sora_ksm": {
     "slug": "sora_ksm",
@@ -1361,7 +1362,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/sora_ksm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sora_ksm.png"
   },
   "odyssey": {
     "slug": "odyssey",
@@ -1387,7 +1388,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/odyssey.png"
   },
   "polkadex": {
     "slug": "polkadex",
@@ -1414,7 +1415,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/polkadex.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex.png"
   },
   "polkadexTest": {
     "slug": "polkadexTest",
@@ -1440,7 +1441,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/polkadextest.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadextest.png"
   },
   "rmrk": {
     "slug": "rmrk",
@@ -1466,7 +1467,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/rmrk.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rmrk.png"
   },
   "dolphin": {
     "slug": "dolphin",
@@ -1492,7 +1493,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/dolphin.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dolphin.png"
   },
   "opal": {
     "slug": "opal",
@@ -1521,7 +1522,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/opal.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/opal.png"
   },
   "efinity": {
     "slug": "efinity",
@@ -1548,7 +1549,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/efinity.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/efinity.png"
   },
   "composableFinance": {
     "slug": "composableFinance",
@@ -1574,7 +1575,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/composablefinance.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/composablefinance.png"
   },
   "phala": {
     "slug": "phala",
@@ -1601,7 +1602,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/phala.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/phala.png"
   },
   "crust": {
     "slug": "crust",
@@ -1627,7 +1628,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/crust.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crust.png"
   },
   "statemine": {
     "slug": "statemine",
@@ -1658,7 +1659,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/statemine.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemine.png"
   },
   "karura": {
     "slug": "karura",
@@ -1690,7 +1691,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/karura.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/karura.png"
   },
   "khala": {
     "slug": "khala",
@@ -1719,7 +1720,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/khala.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/khala.png"
   },
   "kilt": {
     "slug": "kilt",
@@ -1747,7 +1748,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kilt.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kilt.png"
   },
   "basilisk": {
     "slug": "basilisk",
@@ -1774,7 +1775,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/basilisk.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/basilisk.png"
   },
   "altair": {
     "slug": "altair",
@@ -1801,7 +1802,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/altair.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/altair.png"
   },
   "heiko": {
     "slug": "heiko",
@@ -1828,7 +1829,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/heiko.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/heiko.png"
   },
   "kintsugi": {
     "slug": "kintsugi",
@@ -1855,7 +1856,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kintsugi.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kintsugi.png"
   },
   "kintsugi_test": {
     "slug": "kintsugi_test",
@@ -1881,7 +1882,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kintsugi_test.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kintsugi_test.png"
   },
   "picasso": {
     "slug": "picasso",
@@ -1907,7 +1908,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png"
   },
   "quartz": {
     "slug": "quartz",
@@ -1935,7 +1936,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/quartz.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/quartz.png"
   },
   "unique_network": {
     "slug": "unique_network",
@@ -1963,7 +1964,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/unique_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unique_network.png"
   },
   "genshiro": {
     "slug": "genshiro",
@@ -1989,7 +1990,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/genshiro.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/genshiro.png"
   },
   "genshiro_testnet": {
     "slug": "genshiro_testnet",
@@ -2015,7 +2016,7 @@
       "supportSmartContract": []
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/genshiro_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/genshiro_testnet.png"
   },
   "subsocial_x": {
     "slug": "subsocial_x",
@@ -2041,7 +2042,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subsocial_x.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subsocial_x.png"
   },
   "zeitgeist": {
     "slug": "zeitgeist",
@@ -2068,7 +2069,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/zeitgeist.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zeitgeist.png"
   },
   "sakura": {
     "slug": "sakura",
@@ -2094,7 +2095,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/sakura.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sakura.png"
   },
   "shadow": {
     "slug": "shadow",
@@ -2120,7 +2121,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/shadow.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/shadow.png"
   },
   "uniqueNft": {
     "slug": "uniqueNft",
@@ -2146,7 +2147,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/uniquenft.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/uniquenft.png"
   },
   "robonomics": {
     "slug": "robonomics",
@@ -2175,7 +2176,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/robonomics.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/robonomics.png"
   },
   "integritee": {
     "slug": "integritee",
@@ -2202,7 +2203,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/integritee.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/integritee.png"
   },
   "integriteePolkadot": {
     "slug": "integriteePolkadot",
@@ -2228,7 +2229,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/integriteepolkadot.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/integriteepolkadot.png"
   },
   "crabParachain": {
     "slug": "crabParachain",
@@ -2267,7 +2268,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/crabparachain.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crabparachain.png"
   },
   "pangolin": {
     "slug": "pangolin",
@@ -2304,7 +2305,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/pangolin.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pangolin.png"
   },
   "chainx": {
     "slug": "chainx",
@@ -2330,7 +2331,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/chainx.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainx.png"
   },
   "acala_testnet": {
     "slug": "acala_testnet",
@@ -2357,7 +2358,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/acala_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acala_testnet.png"
   },
   "mangatax": {
     "slug": "mangatax",
@@ -2383,7 +2384,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/mangatax.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mangatax.png"
   },
   "mangatax_para": {
     "slug": "mangatax_para",
@@ -2410,7 +2411,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/mangatax_para.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mangatax_para.png"
   },
   "encointer": {
     "slug": "encointer",
@@ -2436,7 +2437,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/encointer.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/encointer.png"
   },
   "litmus": {
     "slug": "litmus",
@@ -2462,7 +2463,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/litmus.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litmus.png"
   },
   "litentry": {
     "slug": "litentry",
@@ -2489,7 +2490,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/litentry.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litentry.png"
   },
   "tinkernet": {
     "slug": "tinkernet",
@@ -2517,7 +2518,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/tinkernet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tinkernet.png"
   },
   "imbue_network": {
     "slug": "imbue_network",
@@ -2543,7 +2544,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/imbue_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/imbue_network.png"
   },
   "subspace_test": {
     "slug": "subspace_test",
@@ -2569,7 +2570,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_test.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_test.png"
   },
   "subspace_gemini_2a": {
     "slug": "subspace_gemini_2a",
@@ -2597,7 +2598,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_2a.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_2a.png"
   },
   "subspace_gemini_3c": {
     "slug": "subspace_gemini_3c",
@@ -2625,7 +2626,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3c.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3c.png"
   },
   "subspace_gemini_3d": {
     "slug": "subspace_gemini_3d",
@@ -2652,7 +2653,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3d.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3d.png"
   },
   "subspace_gemini_3e": {
     "slug": "subspace_gemini_3e",
@@ -2678,7 +2679,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3e.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3e.png"
   },
   "subspace_gemini_3f": {
     "slug": "subspace_gemini_3f",
@@ -2704,7 +2705,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3f.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3f.png"
   },
   "origintrail": {
     "slug": "origintrail",
@@ -2730,7 +2731,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/origintrail.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/origintrail.png"
   },
   "dorafactory": {
     "slug": "dorafactory",
@@ -2756,7 +2757,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/dorafactory.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dorafactory.png"
   },
   "dancebox": {
     "slug": "dancebox",
@@ -2810,7 +2811,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bajun.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bajun.png"
   },
   "listen": {
     "slug": "listen",
@@ -2837,7 +2838,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/listen.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/listen.png"
   },
   "kabocha": {
     "slug": "kabocha",
@@ -2863,7 +2864,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kabocha.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kabocha.png"
   },
   "gmdie": {
     "slug": "gmdie",
@@ -2891,7 +2892,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/gmdie.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gmdie.png"
   },
   "ternoa": {
     "slug": "ternoa",
@@ -2917,7 +2918,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/ternoa.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ternoa.png"
   },
   "tanganika": {
     "slug": "tanganika",
@@ -2943,7 +2944,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/tanganika.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tanganika.png"
   },
   "pendulum": {
     "slug": "pendulum",
@@ -2969,7 +2970,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png"
   },
   "gear_testnet": {
     "slug": "gear_testnet",
@@ -2995,7 +2996,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/gear_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gear_testnet.png"
   },
   "ternoa_alphanet": {
     "slug": "ternoa_alphanet",
@@ -3021,7 +3022,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/ternoa_alphanet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ternoa_alphanet.png"
   },
   "calamari_test": {
     "slug": "calamari_test",
@@ -3047,7 +3048,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari_test.png"
   },
   "boba": {
     "slug": "boba",
@@ -3071,7 +3072,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/boba.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/boba.png"
   },
   "bobabeam": {
     "slug": "bobabeam",
@@ -3095,7 +3096,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bobabeam.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bobabeam.png"
   },
   "kilt_peregrine": {
     "slug": "kilt_peregrine",
@@ -3121,7 +3122,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kilt_peregrine.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kilt_peregrine.png"
   },
   "xx_network": {
     "slug": "xx_network",
@@ -3148,7 +3149,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/xx_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xx_network.png"
   },
   "watr_network": {
     "slug": "watr_network",
@@ -3174,7 +3175,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_network.png"
   },
   "watr_network_evm": {
     "slug": "watr_network_evm",
@@ -3197,7 +3198,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/watr_network_evm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_network_evm.png"
   },
   "fusotao": {
     "slug": "fusotao",
@@ -3223,7 +3224,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/fusotao.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fusotao.png"
   },
   "discovol": {
     "slug": "discovol",
@@ -3249,7 +3250,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/discovol.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/discovol.png"
   },
   "discovol_testnet": {
     "slug": "discovol_testnet",
@@ -3275,7 +3276,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/discovol_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/discovol_testnet.png"
   },
   "atocha": {
     "slug": "atocha",
@@ -3301,7 +3302,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/atocha.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/atocha.png"
   },
   "myriad": {
     "slug": "myriad",
@@ -3327,7 +3328,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/myriad.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/myriad.png"
   },
   "deBio": {
     "slug": "deBio",
@@ -3353,7 +3354,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/debio.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/debio.png"
   },
   "collectives": {
     "slug": "collectives",
@@ -3379,7 +3380,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/collectives.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/collectives.png"
   },
   "ajunaPolkadot": {
     "slug": "ajunaPolkadot",
@@ -3406,7 +3407,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/ajunapolkadot.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ajunapolkadot.png"
   },
   "bitgreen": {
     "slug": "bitgreen",
@@ -3432,7 +3433,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitgreen.png"
   },
   "frequency": {
     "slug": "frequency",
@@ -3459,7 +3460,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/frequency.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/frequency.png"
   },
   "hashedNetwork": {
     "slug": "hashedNetwork",
@@ -3485,7 +3486,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hashednetwork.png"
   },
   "kapex": {
     "slug": "kapex",
@@ -3511,7 +3512,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kapex.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kapex.png"
   },
   "kylinNetwork": {
     "slug": "kylinNetwork",
@@ -3537,7 +3538,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kylinnetwork.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kylinnetwork.png"
   },
   "ipci": {
     "slug": "ipci",
@@ -3563,7 +3564,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/ipci.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ipci.png"
   },
   "kico": {
     "slug": "kico",
@@ -3589,7 +3590,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kico.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kico.png"
   },
   "luhnNetwork": {
     "slug": "luhnNetwork",
@@ -3615,7 +3616,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/luhnnetwork.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/luhnnetwork.png"
   },
   "pichiu": {
     "slug": "pichiu",
@@ -3642,7 +3643,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/pichiu.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pichiu.png"
   },
   "riodefi": {
     "slug": "riodefi",
@@ -3668,7 +3669,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/riodefi.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/riodefi.png"
   },
   "automata": {
     "slug": "automata",
@@ -3695,7 +3696,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/automata.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/automata.png"
   },
   "creditcoin": {
     "slug": "creditcoin",
@@ -3721,7 +3722,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/creditcoin.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png"
   },
   "crownSterling": {
     "slug": "crownSterling",
@@ -3747,7 +3748,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/crownsterling.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crownsterling.png"
   },
   "dockPosMainnet": {
     "slug": "dockPosMainnet",
@@ -3773,7 +3774,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/dockposmainnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dockposmainnet.png"
   },
   "kusari": {
     "slug": "kusari",
@@ -3799,7 +3800,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kusari.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusari.png"
   },
   "logion": {
     "slug": "logion",
@@ -3825,7 +3826,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/logion.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/logion.png"
   },
   "neatcoin": {
     "slug": "neatcoin",
@@ -3851,7 +3852,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/neatcoin.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/neatcoin.png"
   },
   "nftmart": {
     "slug": "nftmart",
@@ -3877,7 +3878,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/nftmart.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/nftmart.png"
   },
   "polymesh": {
     "slug": "polymesh",
@@ -3903,7 +3904,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/polymesh.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polymesh.png"
   },
   "riochain": {
     "slug": "riochain",
@@ -3929,7 +3930,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/riochain.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/riochain.png"
   },
   "sherpax": {
     "slug": "sherpax",
@@ -3955,7 +3956,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/sherpax.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sherpax.png"
   },
   "sora_substrate": {
     "slug": "sora_substrate",
@@ -3984,7 +3985,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/sora_substrate.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sora_substrate.png"
   },
   "swapdex": {
     "slug": "swapdex",
@@ -4010,7 +4011,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/swapdex.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/swapdex.png"
   },
   "3dpass": {
     "slug": "3dpass",
@@ -4036,7 +4037,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/3dpass.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/3dpass.png"
   },
   "alephSmartNet": {
     "slug": "alephSmartNet",
@@ -4062,7 +4063,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/alephsmartnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/alephsmartnet.png"
   },
   "kulupu": {
     "slug": "kulupu",
@@ -4088,7 +4089,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kulupu.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kulupu.png"
   },
   "joystream": {
     "slug": "joystream",
@@ -4114,7 +4115,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/joystream.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/joystream.png"
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
@@ -4140,7 +4141,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/aventus_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus_testnet.png"
   },
   "vara_network": {
     "slug": "vara_network",
@@ -4166,7 +4167,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/vara_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png"
   },
   "kate": {
     "slug": "kate",
@@ -4192,7 +4193,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/kate.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kate.png"
   },
   "bridgeHubPolkadot": {
     "slug": "bridgeHubPolkadot",
@@ -4219,7 +4220,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bridgehubpolkadot.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bridgehubpolkadot.png"
   },
   "bridgeHubKusama": {
     "slug": "bridgeHubKusama",
@@ -4248,7 +4249,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bridgehubkusama.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bridgehubkusama.png"
   },
   "fantom_testnet": {
     "slug": "fantom_testnet",
@@ -4274,7 +4275,7 @@
       ],
       "abiExplorer": "https://testnet.ftmscan.com"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/fantom_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fantom_testnet.png"
   },
   "fantom": {
     "slug": "fantom",
@@ -4301,7 +4302,7 @@
       ],
       "abiExplorer": "https://ftmscan.com"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/fantom.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fantom.png"
   },
   "krest_network": {
     "slug": "krest_network",
@@ -4327,7 +4328,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/krest_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/krest_network.png"
   },
   "deeper_network": {
     "slug": "deeper_network",
@@ -4353,7 +4354,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/deeper_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/deeper_network.png"
   },
   "jur_network": {
     "slug": "jur_network",
@@ -4379,7 +4380,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/jur_network.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jur_network.png"
   },
   "base_mainnet": {
     "slug": "base_mainnet",
@@ -4402,7 +4403,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/base_mainnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/base_mainnet.png"
   },
   "avalanche_c": {
     "slug": "avalanche_c",
@@ -4425,7 +4426,7 @@
       ],
       "abiExplorer": null
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/avalanche_c.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png"
   },
   "crust_mainnet": {
     "slug": "crust_mainnet",
@@ -4452,7 +4453,7 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/crust_mainnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crust_mainnet.png"
   },
   "acala_evm": {
     "slug": "acala_evm",
@@ -4475,7 +4476,7 @@
       ],
       "abiExplorer": "https://blockscout.acala.network/"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/acala_evm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acala_evm.png"
   },
   "karura_evm": {
     "slug": "karura_evm",
@@ -4498,7 +4499,7 @@
       ],
       "abiExplorer": "https://blockscout.karura.network/"
     },
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/karura_evm.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/karura_evm.png"
   },
   "bittensor": {
     "slug": "bittensor",
@@ -4524,6 +4525,6 @@
       "supportSmartContract": null
     },
     "evmInfo": null,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/bittensor.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor.png"
   }
 }
