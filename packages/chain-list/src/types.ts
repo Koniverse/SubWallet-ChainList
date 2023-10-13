@@ -76,12 +76,33 @@ export interface _EvmInfo {
   abiExplorer: string | null
 }
 
+export interface _FundStatus {
+  IN_AUCTION: 'in_auction',
+  WON: 'won',
+  WITHDRAW: 'withdraw',
+  FAILED: 'failed',
+}
+
+export interface _CrowdloanFund {
+  relayChain: 'polkadot' | 'kusama'
+  fundId: string
+  paraId: number
+  status: _FundStatus
+  startTime: Date
+  endTime: Date
+  auctionIndex: number
+  firstPeriod: number
+  lastPeriod: number
+}
+
 export interface _SubstrateInfo {
   relaySlug: string | null,
   paraId: number | null,
   genesisHash: string,
   addressPrefix: number,
+  crowdloanParaId: number | null,
   crowdloanUrl: string | null,
+  crowdloanFunds: _CrowdloanFund[] | null,
   chainType: _SubstrateChainType,
   blockExplorer: string | null,
 
