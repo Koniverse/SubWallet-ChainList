@@ -14,6 +14,7 @@ const main = async () => {
             try {
                 const newFileName = await downloadFile(iconURL, downloadDir, chain.slug.toLowerCase());
                 iconURL = `${DOWNLOAD_LINK}/assets/chains/${newFileName}`;
+                chain.icon = iconURL;
             } catch (e) {
                 console.error(e);
             }
