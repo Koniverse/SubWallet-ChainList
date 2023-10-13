@@ -7115,5 +7115,21 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc.png"
+  },
+  "moonbeam-ERC20-CP": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-CP",
+    "name": "Cypress",
+    "symbol": "CP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
   }
 }
