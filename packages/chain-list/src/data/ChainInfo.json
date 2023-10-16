@@ -4593,7 +4593,7 @@
           "status": "in_auction",
           "startTime": "2023-10-24T01:48:00.000Z",
           "endTime": "2025-08-26T01:48:00.000Z",
-          "auctionIndex": 51,
+          "auctionIndex": 52,
           "firstPeriod": 14,
           "lastPeriod": 21
         }
@@ -4972,7 +4972,7 @@
       "existentialDeposit": "10000000000000",
       "symbol": "VARA",
       "decimals": 12,
-      "hasNativeNft": false,
+      "hasNativeNft": true,
       "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
