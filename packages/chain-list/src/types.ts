@@ -76,11 +76,11 @@ export interface _EvmInfo {
   abiExplorer: string | null
 }
 
-export interface _FundStatus {
-  IN_AUCTION: 'in_auction',
-  WON: 'won',
-  WITHDRAW: 'withdraw',
-  FAILED: 'failed',
+export enum _FundStatus {
+  IN_AUCTION = 'in_auction',
+  WON = 'won',
+  WITHDRAW = 'withdraw',
+  FAILED = 'failed',
 }
 
 export interface _CrowdloanFund {
