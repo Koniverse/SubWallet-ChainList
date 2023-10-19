@@ -1299,8 +1299,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/parallel.png",
     "providers": {
-      "Parallel": "wss://rpc.parallel.fi",
-      "OnFinality": "wss://parallel.api.onfinality.io/public-ws"
+      "Parallel": "wss://rpc.parallel.fi"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1351,8 +1350,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/clover.png",
     "providers": {
-      "Clover": "wss://rpc-para.clover.finance",
-      "OnFinality": "wss://clover.api.onfinality.io/public-ws"
+      "Clover": "wss://rpc-para.clover.finance"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1528,8 +1526,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/interlay.png",
     "providers": {
-      "Kintsugi Labs": "wss://api.interlay.io/parachain",
-      "OnFinality": "wss://interlay.api.onfinality.io/public-ws"
+      "Kintsugi Labs": "wss://api.interlay.io/parachain"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3780,8 +3777,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xx_network.png",
     "providers": {
-      "XX Foundation": "wss://rpc.xx.network",
-      "OnFinality": "wss://xx.api.onfinality.io/public-ws"
+      "XX Foundation": "wss://rpc.xx.network"
     },
     "evmInfo": null,
     "substrateInfo": {
