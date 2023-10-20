@@ -1612,20 +1612,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
-  "dancebox-NATIVE-DANCE": {
-    "originChain": "dancebox",
-    "slug": "dancebox-NATIVE-DANCE",
-    "name": "Dancebox",
-    "symbol": "DANCE",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
-  },
   "amplitude-LOCAL-KSM": {
     "originChain": "amplitude",
     "slug": "amplitude-LOCAL-KSM",
@@ -1657,6 +1643,20 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
+  },
+  "dancebox-NATIVE-DANCE": {
+    "originChain": "dancebox",
+    "slug": "dancebox-NATIVE-DANCE",
+    "name": "Dancebox",
+    "symbol": "DANCE",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -2645,20 +2645,6 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/boba-native-eth.png"
-  },
-  "bobabeam-NATIVE-BOBA": {
-    "originChain": "bobabeam",
-    "slug": "bobabeam-NATIVE-BOBA",
-    "name": "Boba Token",
-    "symbol": "BOBA",
-    "decimals": 18,
-    "priceId": "boba-network",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "BOBA-BobaToken",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobabeam-native-boba.png"
   },
   "kilt_peregrine-NATIVE-PILT": {
     "originChain": "kilt_peregrine",
@@ -5068,22 +5054,6 @@
     "multiChainAsset": "BOBA-BobaToken",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/boba-erc20-boba-0xa18bf3994c0cc6e3b63ac420308e5383f53120d7.png"
-  },
-  "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023": {
-    "originChain": "bobabeam",
-    "slug": "bobabeam-ERC20-GLMR-0x4200000000000000000000000000000000000023",
-    "name": "Moonbeam",
-    "symbol": "GLMR",
-    "decimals": 18,
-    "priceId": "moonbeam",
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x4200000000000000000000000000000000000023"
-    },
-    "multiChainAsset": "GLMR-Moonbeam",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobabeam-erc20-glmr-0x4200000000000000000000000000000000000023.png"
   },
   "aventus-NATIVE-AVT": {
     "originChain": "aventus",
