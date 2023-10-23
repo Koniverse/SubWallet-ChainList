@@ -5373,6 +5373,34 @@
       ]
     }
   },
+  "xcavate": {
+    "slug": "xcavate",
+    "name": "Xcavate",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
+    "providers": {
+      "Tanssi": "wss://fraa-dancebox-3031-rpc.a.dancebox.tanssi.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x8472759fe1cf8ce507282ddea8af43dd08e598c9da2faed66f3e18f51f93080f",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "XCAV",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    }
+  },
   "unorthodox": {
     "slug": "unorthodox",
     "name": "Unorthodox",
