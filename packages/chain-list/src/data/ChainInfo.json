@@ -5141,7 +5141,19 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": []
+      "crowdloanFunds": [
+        {
+          "relayChain": "kusama",
+          "fundId": "2241-97",
+          "paraId": 2241,
+          "status": "won",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
+          "auctionIndex": 72,
+          "firstPeriod": 28,
+          "lastPeriod": 35
+        }
+      ]
     }
   },
   "deeper_network": {
@@ -5392,7 +5404,7 @@
     "name": "Coinversation",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/coinversation.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/coinversation.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5430,7 +5442,7 @@
     "name": "LayerX Network",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/layerx_network.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/layerx_network.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5456,7 +5468,7 @@
     "name": "Moonsama",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonsama.svg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonsama.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5532,7 +5544,7 @@
     "name": "OmniBTC",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/omnibtc.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/omnibtc.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5570,7 +5582,7 @@
     "name": "peaq",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5608,7 +5620,7 @@
     "name": "Quantum Portal",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/quantum_portal.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/quantum_portal.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5698,7 +5710,7 @@
     "name": "InvArch",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/invarch.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/invarch.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5727,44 +5739,6 @@
           "auctionIndex": 47,
           "firstPeriod": 14,
           "lastPeriod": 21
-        }
-      ]
-    }
-  },
-  " krest": {
-    "slug": " krest",
-    "name": " krest",
-    "isTestnet": false,
-    "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ krest.png",
-    "providers": {},
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": "kusama",
-      "paraId": 2241,
-      "genesisHash": null,
-      "addressPrefix": null,
-      "chainType": null,
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": null,
-      "symbol": null,
-      "decimals": null,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": [
-        {
-          "relayChain": "kusama",
-          "fundId": "2241-97",
-          "paraId": 2241,
-          "status": "won",
-          "startTime": "2023-03-08T04:27:00.000Z",
-          "endTime": "2024-02-07T04:27:00.000Z",
-          "auctionIndex": 72,
-          "firstPeriod": 28,
-          "lastPeriod": 35
         }
       ]
     }
@@ -5928,7 +5902,7 @@
     "name": "Acurast Canary",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acurast_canary.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acurast_canary.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -6006,7 +5980,7 @@
     "name": "SubGame Gamma",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subgame_gamma.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subgame_gamma.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -6032,7 +6006,7 @@
     "name": "TrustBase",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/trustbase.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/trustbase.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -6174,7 +6148,7 @@
     "name": "SubDAO",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subdao.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subdao.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -6200,7 +6174,7 @@
     "name": "SubGame Network",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subgame_network.jpg",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subgame_network.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -6220,5 +6194,25 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     }
+  },
+  "zeta_test": {
+    "slug": "zeta_test",
+    "name": "ZetaChain Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zeta_test.png",
+    "providers": {
+      "Athens": "https://zetachain-athens-evm.blockpi.network/v1/rpc/public"
+    },
+    "evmInfo": {
+      "evmChainId": 7001,
+      "blockExplorer": "https://zetachain-athens-3.blockscout.com/",
+      "existentialDeposit": "0",
+      "symbol": "aZETA",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": null
+    },
+    "substrateInfo": null
   }
 }
