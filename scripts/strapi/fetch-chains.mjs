@@ -1,11 +1,11 @@
-import {gql} from "graphql-request";
-import * as fs from "fs";
-import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, removeDir, writeJSONFile} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, writeJSONFile} from "./strapi-api.mjs";
 
+const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 const SAVE_PATH = './packages/chain-list/src/data/ChainInfo.json';
 
 const main = async () => {
-    const results = await fetch('https://content.subwallet.app/api/list/chain');
+    const apiUrl = BRANCH_NAME === 'master' ? 'https://content.subwallet.app/api/list/chain' : 'https://content.subwallet.app/api/list/chain?preview=true';
+    const results = await fetch(apiUrl);
     const data = await results.json();
     const downloadDir = `${DOWNLOAD_DIR}/chains`;
     const chains = await Promise.all(data.map(async chain => {
