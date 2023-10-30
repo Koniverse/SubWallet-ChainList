@@ -4,6 +4,7 @@ import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, writeJSONFile}
 
 const SAVE_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const SAVE_REF_PATH = './packages/chain-list/src/data/AssetRef.json';
+const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 
 const query = gql`
 query {
@@ -57,14 +58,15 @@ query {
 `;
 
 const main = async () => {
-    const results = await graphQLClient.request(query);
     const downloadDir = `${DOWNLOAD_DIR}/chain-assets`;
-    const chains = await Promise.all(results.chainAssets.data.map(async asset => {
-        const attributes = asset.attributes;
-        let iconURL = attributes.icon?.data?.attributes?.url;
+    const apiUrl = BRANCH_NAME === 'master' ? 'https://content.subwallet.app/api/list/chain-asset' : 'https://content.subwallet.app/api/list/chain-asset?preview=true';
+    const results = await fetch(apiUrl);
+    const data = await results.json();
+    const chains = await Promise.all(data.map(async asset => {
+        let iconURL = asset.icon;
         if (iconURL) {
             try {
-                const newFileName = await downloadFile(iconURL, downloadDir, attributes.slug.toLowerCase());
+                const newFileName = await downloadFile(iconURL, downloadDir, asset.slug.toLowerCase());
                 iconURL = `${DOWNLOAD_LINK}/assets/chain-assets/${newFileName}`;
             } catch (e) {
                 console.error(e);
@@ -72,17 +74,17 @@ const main = async () => {
         }
 
         return {
-            originChain: attributes.originChain?.data?.attributes.slug,
-            slug: attributes.slug,
-            name: attributes.name,
-            symbol: attributes.symbol,
-            decimals: attributes.decimals,
-            priceId: attributes.priceId,
-            minAmount: attributes.minAmount,
-            assetType: attributes.assetType,
-            metadata: attributes.metadata,
-            multiChainAsset: attributes.multiChainAsset?.data?.attributes.slug || null,
-            hasValue: attributes.hasValue,
+            originChain: asset.originChain,
+            slug: asset.slug,
+            name: asset.name,
+            symbol: asset.symbol,
+            decimals: asset.decimals,
+            priceId: asset.priceId,
+            minAmount: asset.minAmount,
+            assetType: asset.assetType,
+            metadata: asset.metadata,
+            multiChainAsset: asset.multiChainAsset || null,
+            hasValue: asset.hasValue,
             icon: iconURL
         }
     }));
@@ -90,14 +92,14 @@ const main = async () => {
     const assetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
 
     const refMap = {}
-    results.chainAssets.data.forEach((item)=> {
-      const refs = item.attributes.assetRefs;
+    data.forEach((item)=> {
+      const refs = item.assetRefs;
       refs.forEach((ref)=> {
-        const srcAsset = assetMap[item.attributes.slug];
-        const destSlug = ref.destAsset.data.attributes.slug
+        const srcAsset = assetMap[item.slug];
+        const destSlug = ref.destAsset;
         const destAsset = assetMap[destSlug];
-        refMap[`${item.attributes.slug}___${destSlug}`] = {
-          srcAsset: item.attributes.slug,
+        refMap[`${item.slug}___${destSlug}`] = {
+          srcAsset: item.slug,
           destAsset: destAsset.slug,
           srcChain: srcAsset.originChain,
           destChain: destAsset.originChain,
