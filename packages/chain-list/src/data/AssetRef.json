@@ -27,6 +27,27 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "polkadot-NATIVE-DOT___interlay-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "interlay-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "polkadot-NATIVE-DOT___parallel-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "parallel-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "parallel",
+    "path": "XCM"
+  },
+  "polkadot-NATIVE-DOT___bifrost_dot-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "bifrost_dot-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
