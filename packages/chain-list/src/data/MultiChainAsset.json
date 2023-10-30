@@ -55,6 +55,7 @@
   },
   "USDT-Tether": {
     "slug": "USDT-Tether",
+    "originChainAsset": null,
     "name": "Tether",
     "symbol": "USDT",
     "priceId": "tether",
@@ -81,6 +82,7 @@
   },
   "DAI-DaiStablecoin": {
     "slug": "DAI-DaiStablecoin",
+    "originChainAsset": null,
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "priceId": "dai",
@@ -107,7 +109,7 @@
   },
   "BOBA-BobaToken": {
     "slug": "BOBA-BobaToken",
-    "originChainAsset": "bobabeam-NATIVE-BOBA",
+    "originChainAsset": null,
     "name": "Boba Token",
     "symbol": "BOBA",
     "priceId": "boba-network",
@@ -143,6 +145,7 @@
   },
   "USDD-DecentralizedUSD": {
     "slug": "USDD-DecentralizedUSD",
+    "originChainAsset": null,
     "name": "Decentralized USD",
     "symbol": "USDD",
     "priceId": "usdd",
@@ -169,6 +172,7 @@
   },
   "PKEX-PolkaEx": {
     "slug": "PKEX-PolkaEx",
+    "originChainAsset": null,
     "name": "PolkaEx",
     "symbol": "PKEX",
     "priceId": "polkaex",
@@ -213,6 +217,7 @@
   },
   "aUSD-KaruraDollar": {
     "slug": "aUSD-KaruraDollar",
+    "originChainAsset": null,
     "name": "Karura Dollar",
     "symbol": "aUSD",
     "priceId": "acala-dollar",
@@ -266,6 +271,7 @@
   },
   "USDC-USDCoin": {
     "slug": "USDC-USDCoin",
+    "originChainAsset": null,
     "name": "USDC",
     "symbol": "USDC",
     "priceId": "usd-coin",
@@ -292,6 +298,7 @@
   },
   "WBTC-WrappedBTC": {
     "slug": "WBTC-WrappedBTC",
+    "originChainAsset": null,
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "priceId": "wrapped-bitcoin",
@@ -309,6 +316,7 @@
   },
   "aUSD-AcalaDollar": {
     "slug": "aUSD-AcalaDollar",
+    "originChainAsset": null,
     "name": "Acala Dollar",
     "symbol": "aUSD",
     "priceId": "acala-dollar-acala",
