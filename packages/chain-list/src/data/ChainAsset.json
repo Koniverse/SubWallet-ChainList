@@ -6251,9 +6251,9 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-usdc-0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
   },
-  "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
     "originChain": "arbitrum_one",
-    "slug": "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "slug": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
     "name": "USD Coin",
     "symbol": "USDC",
     "decimals": 6,
@@ -6261,7 +6261,23 @@
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
-      "contractAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+      "contractAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/arbitrum_one-erc20-usdc-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
+  },
+  "arbitrum_one-ERC20-USDC-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USDC-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "name": "Bridged USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
