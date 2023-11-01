@@ -1612,19 +1612,19 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
-  "odyssey-NATIVE-ARES": {
-    "originChain": "odyssey",
-    "slug": "odyssey-NATIVE-ARES",
-    "name": "Ares Odyssey",
-    "symbol": "ARES",
+  "dancebox-NATIVE-DANCE": {
+    "originChain": "dancebox",
+    "slug": "dancebox-NATIVE-DANCE",
+    "name": "Dancebox",
+    "symbol": "DANCE",
     "decimals": 12,
-    "priceId": "ares-protocol",
-    "minAmount": "500",
+    "priceId": null,
+    "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
   },
   "amplitude-LOCAL-KSM": {
     "originChain": "amplitude",
@@ -1644,19 +1644,19 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png"
   },
-  "dancebox-NATIVE-DANCE": {
-    "originChain": "dancebox",
-    "slug": "dancebox-NATIVE-DANCE",
-    "name": "Dancebox",
-    "symbol": "DANCE",
+  "odyssey-NATIVE-ARES": {
+    "originChain": "odyssey",
+    "slug": "odyssey-NATIVE-ARES",
+    "name": "Ares Odyssey",
+    "symbol": "ARES",
     "decimals": 12,
-    "priceId": null,
-    "minAmount": "1000000000",
+    "priceId": "ares-protocol",
+    "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -2674,20 +2674,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xx_network-native-xx.png"
   },
-  "watr_mainnet_evm-NATIVE-WATR": {
-    "originChain": "watr_mainnet_evm",
-    "slug": "watr_mainnet_evm-NATIVE-WATR",
-    "name": "WATR",
-    "symbol": "WATR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet_evm-native-watr.png"
-  },
   "watr_network-NATIVE-WATRD": {
     "originChain": "watr_network",
     "slug": "watr_network-NATIVE-WATRD",
@@ -2701,6 +2687,20 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_network-native-watrd.png"
+  },
+  "watr_mainnet_evm-NATIVE-WATR": {
+    "originChain": "watr_mainnet_evm",
+    "slug": "watr_mainnet_evm-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet_evm-native-watr.png"
   },
   "watr_mainnet-NATIVE-WATR": {
     "originChain": "watr_mainnet",
@@ -6265,23 +6265,7 @@
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/arbitrum_one-erc20-usdc-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
-  },
-  "arbitrum_one-ERC20-USDC-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": {
-    "originChain": "arbitrum_one",
-    "slug": "arbitrum_one-ERC20-USDC-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
-    "name": "Bridged USDC",
-    "symbol": "USDC",
-    "decimals": 6,
-    "priceId": "usd-coin",
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
-    },
-    "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc-0xaf88d065e77c8cc2239327c5edb3a432268e5831.png"
   },
   "optimism-ERC20-USDC-0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
     "originChain": "optimism",
@@ -7144,6 +7128,20 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
   },
+  "xcavate-NATIVE-XCAV": {
+    "originChain": "xcavate",
+    "slug": "xcavate-NATIVE-XCAV",
+    "name": "XCAV",
+    "symbol": "XCAV",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xcavate-native-xcav.png"
+  },
   "moonbeam-ERC20-CP": {
     "originChain": "moonbeam",
     "slug": "moonbeam-ERC20-CP",
@@ -7160,18 +7158,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
   },
-  "xcavate-NATIVE-XCAV": {
-    "originChain": "xcavate",
-    "slug": "xcavate-NATIVE-XCAV",
-    "name": "XCAV",
-    "symbol": "XCAV",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xcavate-native-xcav.png"
+  "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "name": "Bridged USDC",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc.e-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
   }
 }
