@@ -7,12 +7,10 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
       "Parity": "wss://rpc.polkadot.io",
-      "OnFinality": "wss://polkadot.api.onfinality.io/public-ws",
       "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "Light Client": "light://substrate-connect/polkadot",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.io/ws",
-      "1RPC": "wss://1rpc.io/dot",
-      "PinkNode": "wss://public-rpc.pinknode.io/polkadot"
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
+      "1RPC": "wss://1rpc.io/dot"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -41,11 +39,9 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png",
     "providers": {
       "Parity": "wss://kusama-rpc.polkadot.io",
-      "OnFinality": "wss://kusama.api.onfinality.io/public-ws",
       "Dwellir": "wss://kusama-rpc.dwellir.com",
       "Light Client": "light://substrate-connect/kusama",
-      "PinkNode": "wss://public-rpc.pinknode.io/kusama",
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.xyz/ws",
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "1RPC": "wss://1rpc.io/ksm"
     },
     "evmInfo": null,
@@ -131,7 +127,6 @@
       "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "1rpc": "wss://1rpc.io/glmr",
-      "PinkNode": "wss://public-rpc.pinknode.io/moonbeam",
       "Blast": "wss://moonbeam.public.blastapi.io"
     },
     "evmInfo": {
@@ -183,8 +178,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pioneer.png",
     "providers": {
-      "Pioneer": "wss://pioneer-rpc-3.bit.country/wss",
-      "OnFinality": "wss://pioneer.api.onfinality.io/public-ws"
+      "Pioneer": "wss://pioneer-rpc-3.bit.country/wss"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -258,7 +252,6 @@
       "Astar": "wss://rpc.astar.network",
       "OnFinality": "wss://astar.api.onfinality.io/public-ws",
       "Dwellir": "wss://astar-rpc.dwellir.com",
-      "PinkNode": "wss://public-rpc.pinknode.io/astar",
       "Blast": "wss://astar.public.blastapi.io",
       "1RPC": "wss://1rpc.io/astr",
       "Light Client": "light://substrate-connect/polkadot/astar"
@@ -332,10 +325,8 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
     "providers": {
       "Parity": "wss://statemint-rpc.polkadot.io",
-      "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
       "Dwellir": "wss://statemint-rpc.dwellir .com",
-      "PinkNode": "wss://public-rpc.pinknode.io/statemint",
-      "RadiumBlock": "wss://statemint.public.curie.radiumblock.xyz/ws",
+      "RadiumBlock": "wss://statemint.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
     },
     "evmInfo": null,
@@ -368,7 +359,6 @@
       "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
       "Acala Foundation 2": "wss://acala-rpc-2.aca-api.network/ws",
       "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
-      "Polkawallet 0": "wss://acala.polkawallet.io",
       "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
       "Dwellir": "wss://acala-rpc.dwellir.com"
     },
@@ -729,7 +719,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend.png",
     "providers": {
       "Parity": "wss://westend-rpc.polkadot.io",
-      "Pinknode": "wss://rpc.pinknode.io/westend/explorer",
       "Dwellir": "wss://westend-rpc.dwellir.com",
       "Light Client": "light://substrate-connect/westend",
       "DottersNet": "wss://rpc.dotters.network/westend",
@@ -762,9 +751,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo.png",
     "providers": {
       "Parity": "wss://rococo-rpc.polkadot.io",
-      "OnFinality": "wss://rococo.api.onfinality.io/public-ws",
-      "Pinknode": "wss://rpc.pinknode.io/rococo/explorer",
-      "Ares Protocol": "wss://rococo.aresprotocol.com",
       "Light Client": "light://substrate-connect/rococo"
     },
     "evmInfo": null,
@@ -796,7 +782,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
     "providers": {
-      "Metaverse Foundation": "wss://alphanet-rpc.bit.country"
+      "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -907,10 +893,8 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonriver.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
-      "OnFinality": "wss://moonriver.api.onfinality.io/public-ws",
       "Blast": "wss://moonriver.public.blastapi.io",
       "Dwellir": "wss://moonriver-rpc.dwellir.com",
-      "Pinknode": "wss://public-rpc.pinknode.io/moonriver",
       "UnitedBloc": "wss://moonriver.unitedbloc.com:2001"
     },
     "evmInfo": {
@@ -1269,12 +1253,9 @@
     "slug": "bobabase",
     "name": "Bobabase Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bobabase.png",
-    "providers": {
-      "RPC": "https://bobabase.boba.network",
-      "Replica RPC": "https://replica.bobabase.boba.network"
-    },
+    "providers": {},
     "evmInfo": {
       "evmChainId": 1297,
       "blockExplorer": "https://blockexplorer.bobabase.boba.network/",
@@ -1435,8 +1416,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cloverevm.png",
     "providers": {
-      "Clover": "wss://rpc-para.clover.finance",
-      "OnFinality": "wss://clover.api.onfinality.io/public-ws"
+      "Clover": "wss://rpc-para.clover.finance"
     },
     "evmInfo": {
       "evmChainId": 1024,
@@ -1501,8 +1481,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/edgeware.png",
     "providers": {
       "JelliedOwl": "wss://edgeware.jelliedowl.net",
-      "Commonwealth Labs": "wss://mainnet2.edgewa.re",
-      "Dwellir": "wss://edgeware-rpc.dwellir.com"
+      "Commonwealth Labs": "wss://mainnet2.edgewa.re"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1612,8 +1591,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/nodle.png",
     "providers": {
       "OnFinality": "wss://nodle-parachain.api.onfinality.io/public-ws",
-      "Dwellir": "wss://eden-rpc.dwellir.com",
-      "PinkNode": "wss://public-rpc.pinknode.io/nodle"
+      "Dwellir": "wss://eden-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1653,8 +1631,10 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/darwinia2.png",
     "providers": {
-      "Darwinia Network": "wss://parachain-rpc.darwinia.network",
-      "Darwinia EVM": "https://rpc.darwinia.network"
+      "Darwinia Network": "wss://rpc.darwinia.network",
+      "Darwinia EVM": "https://rpc.darwinia.network",
+      "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz",
+      "Dwellir": "wss://darwinia-rpc.dwellir.com"
     },
     "evmInfo": {
       "evmChainId": 46,
@@ -1772,8 +1752,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex.png",
     "providers": {
-      "Polkadex Team": "wss://mainnet.polkadex.trade/",
-      "OnFinality": "wss:// polkadex.api.onfinality.io/public-ws"
+      "Polkadex Team": "wss://mainnet.polkadex.trade/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1810,7 +1789,7 @@
     "slug": "polkadexTest",
     "name": "Polkadex - Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "STOPPED",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadextest.png",
     "providers": {
       "Polkadex Team": "wss://blockchain.polkadex.trade"
@@ -1866,11 +1845,9 @@
     "slug": "dolphin",
     "name": "Dolphin Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dolphin.png",
-    "providers": {
-      "dolphin": "wss://ws.rococo.dolphin.engineering"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -1925,7 +1902,7 @@
     "slug": "efinity",
     "name": "Efinity",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/efinity.png",
     "providers": {
       "Efinity": "wss://rpc.efinity.io",
@@ -2091,10 +2068,8 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemine.png",
     "providers": {
       "Parity": "wss://statemine-rpc.polkadot.io",
-      "OnFinality": "wss://statemine.api.onfinality.io/public-ws",
       "Dwellir": "wss://statemine-rpc.dwellir.com",
-      "RadiumBlock": "wss://statemine.public.curie.radiumblock.xyz/ws",
-      "PinkNode": "wss://public-rpc.pin knode.io/statemine",
+      "RadiumBlock": "wss://statemine.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
     },
     "evmInfo": null,
@@ -2127,9 +2102,7 @@
       "Acala Foundation 1": "wss://karura-rpc-1.aca-api.network",
       "Acala Foundation 2": "wss://karura-rpc-2.aca-api.network/ws",
       "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws",
-      "Polkawallet 0": "wss://karura.polkawallet.io",
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws",
-      "Dwellir": "wss://karura-rpc.dwellir.com"
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2159,8 +2132,7 @@
     "providers": {
       "Phala": "wss://khala-api.phala.network/ws",
       "OnFinality": "wss://khala.api.onfinality.io/public-ws",
-      "Dwellir": "wss://khala-rpc.dwellir.com",
-      "PinkNode": "wss://public-rpc.pinknode.io/khala"
+      "Dwellir": "wss://khala-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2312,7 +2284,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/heiko.png",
     "providers": {
-      "OnFinality": "wss://parallel-heiko.api.onfinality.io/public-ws",
       "Parallel": "wss://heiko-rpc.parallel.fi"
     },
     "evmInfo": null,
@@ -2365,7 +2336,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kintsugi.png",
     "providers": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain",
-      "OnFinality": "wss://kintsugi. api.onfinality.io/public-ws"
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2627,11 +2598,9 @@
     "slug": "genshiro_testnet",
     "name": "Genshiro Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/genshiro_testnet.png",
-    "providers": {
-      "testnet": "wss://testnet.genshiro.io"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -2847,8 +2816,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/robonomics.png",
     "providers": {
       "Airalab": "wss://kusama.rpc.robonomics.network/",
-      "Leemo": "wss://robonomics.leemo.me",
-      "OnFinality": "wss://robonomics.api.onfinality.io/public-ws",
       "Samsara": "wss://robonomics.0xsamsara.com"
     },
     "evmInfo": null,
@@ -2982,8 +2949,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crabparachain.png",
     "providers": {
       "Crab": "wss://crab-rpc.darwinia.network/",
-      "Dwellir": "wss://darwiniacrab-rpc.dwellir.com",
-      "OnFinality": "wss://crab.api.onfinality.io/public-ws"
+      "Dwellir": "wss://darwiniacrab-rpc.dwellir.com"
     },
     "evmInfo": {
       "evmChainId": 44,
@@ -3101,8 +3067,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acala_testnet.png",
     "providers": {
-      "OnFinality": "wss://acala-mandala.api.onfinality.io/public-ws",
-      "Polkawallet": "wss://mandala.polkawallet.io"
+      "OnFinality": "wss://mandala-tc9-rpc.aca-staging.network",
+      "Polkawallet": "wss://mandala-tc9-rpc.aca-staging.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3130,7 +3096,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mangatax.png",
     "providers": {
-      "mangatax": "wss://roccoco-testnet-collator-01.mangatafinance.cloud"
+      "mangatax": "wss://collator-01-ws-rococo.mangata.online"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3319,9 +3285,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tinkernet.png",
     "providers": {
-      "Invarch": "wss://tinker.invarch.network",
-      "Light Client": "light://substrate-connect/kusama/tinkernet",
-      "OnFinality": "wss://invarch-tinkernet.api.onfinality.io/public-ws"
+      "Light Client": "light://substrate-connect/kusama/tinkernet"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3398,11 +3362,9 @@
     "slug": "subspace_test",
     "name": "Subspace Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_test.png",
-    "providers": {
-      "testnet": "wss://test-rpc.subspace.network/ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -3429,9 +3391,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_2a.png",
     "providers": {
-      "Europe 0": "wss://eu-0.gemini-2a.subspace.network/ws",
-      "Europe 1": "wss://eu-1.gemini-2a.subspace.network/ws",
-      "Europe  2": "wss://eu-2.gemini-2a.subspace.network/ws"
+      "Europe 0": "wss://eu-0.gemini-2a.subspace.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3456,13 +3416,9 @@
     "slug": "subspace_gemini_3c",
     "name": "Subspace Gemini 3c",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3c.png",
-    "providers": {
-      "Europe 0": "wss://eu-0.gemini-3c.subspace.network/ws",
-      "Europe 1": "wss://eu-1.gemini-3c.subspace.network/ws",
-      "Europe 2": "wss://eu-2.gemini-3c.subspace.network/ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -3486,12 +3442,9 @@
     "slug": "subspace_gemini_3d",
     "name": "Subspace Gemini 3d",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3d.png",
-    "providers": {
-      "Europe 0": "wss://eu-0.gemini-3d.subspace.network/ws",
-      "Europe 1": "wss://eu-1.gemini-3d.subspace.network/ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -3515,11 +3468,9 @@
     "slug": "subspace_gemini_3e",
     "name": "Subspace Gemini 3e",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3e.png",
-    "providers": {
-      "Gemini 3e": "wss://rpc.gemini-3e.subspace.network/ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -3611,11 +3562,9 @@
     "slug": "dorafactory",
     "name": "Dorafactory",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dorafactory.png",
-    "providers": {
-      "DORA": "wss://kusama.dorafactory.org"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -3655,8 +3604,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bajun.png",
     "providers": {
       "AjunaNetwork": "wss://rpc-parachain.bajun.network",
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws",
-      "Dwellir": "wss://bajun-rpc.dwellir.com"
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3721,12 +3669,9 @@
     "slug": "listen",
     "name": "Listen Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/listen.png",
-    "providers": {
-      "Listen Foundation 1": "wss://rpc.mainnet.listen.io",
-      "Listen Foundation 2": "wss://wss.mainnet.listen.io"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -3790,13 +3735,9 @@
     "slug": "gmdie",
     "name": "GM Parachain",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gmdie.png",
-    "providers": {
-      "gmDie": "wss://kusama.gmordie.com",
-      "bLdNodes": "wss://ws.gm.bldnodes.org",
-      "TerraBioDAO": "wss://ws-node-gm.terrabiodao.org"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -3860,11 +3801,9 @@
     "slug": "tanganika",
     "name": "DataHighway Tanganika",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tanganika.png",
-    "providers": {
-      "tanganika": "wss://tanganika.datahighway.com"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -3940,7 +3879,7 @@
     "slug": "gear_testnet",
     "name": "Gear Staging Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gear_testnet.png",
     "providers": {
       "gear": "wss://rpc-node.gear-tech.io"
@@ -4476,7 +4415,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hashednetwork.png",
     "providers": {
-      "Hashed Systems": "wss://c1.hashed.network"
+      "Hashed Systems": "wss://c1.hashed.network",
+      "Hashed Systems 2": "wss://c2.hashed.network",
+      "Hashed Systems 3": "wss://c3.hashed.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -4527,7 +4468,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kapex.png",
     "providers": {
-      "viaTotem": "wss://k-ui.kapex.network"
+      "viaTotem": "wss://kapex-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -4632,11 +4573,9 @@
     "slug": "kico",
     "name": "KICO",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kico.png",
-    "providers": {
-      "DICO Foundation": "wss://rpc.kico.dico.io"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -4672,11 +4611,9 @@
     "slug": "luhnNetwork",
     "name": "Luhn Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/luhnnetwork.png",
-    "providers": {
-      "Hashed Systems": "wss://c1.luhn.network"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -4700,12 +4637,9 @@
     "slug": "pichiu",
     "name": "Pichiu Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pichiu.png",
-    "providers": {
-      "Kylin Network": "wss://kusama.kylin-node.co.uk",
-      "OnFinality": "wss://pichiu.api.onfinality.io/public-ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -4741,11 +4675,9 @@
     "slug": "riodefi",
     "name": "RioDeFi",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/riodefi.png",
-    "providers": {
-      "RioProtocol": "wss://rio-kusama.riocorenetwork.com"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
@@ -4882,11 +4814,9 @@
     "slug": "kusari",
     "name": "Kusari",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusari.png",
-    "providers": {
-      "Swapdex": "wss://ws.kusari.network"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -5034,11 +4964,9 @@
     "slug": "riochain",
     "name": "RioChain",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/riochain.png",
-    "providers": {
-      "RioChain": "wss://node.v1.riochain.io"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -5062,11 +4990,9 @@
     "slug": "sherpax",
     "name": "SherpaX",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sherpax.png",
-    "providers": {
-      "ChainX": "wss://mainnet.sherpax.io"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -5189,11 +5115,9 @@
     "slug": "alephSmartNet",
     "name": "Aleph Zero Smartnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/alephsmartnet.png",
-    "providers": {
-      "alephSmartNet": "wss://ws-smartnet.test.azero.dev"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
