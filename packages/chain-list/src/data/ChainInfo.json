@@ -449,7 +449,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/optimism.png",
     "providers": {
-      "Optimism": "https://optimism-mainnet.public.blastapi.io",
       "BlastApi": "https://optimism-mainnet.public.blastapi.io"
     },
     "evmInfo": {
@@ -3283,8 +3282,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tinkernet.png",
     "providers": {
-      "Light Client": "light://substrate-connect/kusama/tinkernet",
-      "Dwellir": "wss://tinkernet-rpc.dwellir.com"
+      "Dwellir": "wss://tinkernet-rpc.dwellir.com",
+      "Light Client": "light://substrate-connect/kusama/tinkernet"
     },
     "evmInfo": null,
     "substrateInfo": {
