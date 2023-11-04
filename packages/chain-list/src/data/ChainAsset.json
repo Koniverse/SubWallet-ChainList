@@ -1612,6 +1612,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
+  "odyssey-NATIVE-ARES": {
+    "originChain": "odyssey",
+    "slug": "odyssey-NATIVE-ARES",
+    "name": "Ares Odyssey",
+    "symbol": "ARES",
+    "decimals": 12,
+    "priceId": "ares-protocol",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
+  },
   "dancebox-NATIVE-DANCE": {
     "originChain": "dancebox",
     "slug": "dancebox-NATIVE-DANCE",
@@ -1643,20 +1657,6 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png"
-  },
-  "odyssey-NATIVE-ARES": {
-    "originChain": "odyssey",
-    "slug": "odyssey-NATIVE-ARES",
-    "name": "Ares Odyssey",
-    "symbol": "ARES",
-    "decimals": 12,
-    "priceId": "ares-protocol",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -2674,6 +2674,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xx_network-native-xx.png"
   },
+  "watr_mainnet-NATIVE-WATR": {
+    "originChain": "watr_mainnet",
+    "slug": "watr_mainnet-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet-native-watr.png"
+  },
   "watr_network-NATIVE-WATRD": {
     "originChain": "watr_network",
     "slug": "watr_network-NATIVE-WATRD",
@@ -2701,20 +2715,6 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet_evm-native-watr.png"
-  },
-  "watr_mainnet-NATIVE-WATR": {
-    "originChain": "watr_mainnet",
-    "slug": "watr_mainnet-NATIVE-WATR",
-    "name": "WATR",
-    "symbol": "WATR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet-native-watr.png"
   },
   "watr_network_evm-NATIVE-WATRD": {
     "originChain": "watr_network_evm",
@@ -7114,6 +7114,38 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc.png"
   },
+  "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4",
+    "name": "Stella stDOT",
+    "symbol": "stDOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "moonbeam-ERC20-CP": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-CP",
+    "name": "Cypress",
+    "symbol": "CP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
+  },
   "zeta_test-NATIVE-aZETA": {
     "originChain": "zeta_test",
     "slug": "zeta_test-NATIVE-aZETA",
@@ -7141,22 +7173,6 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xcavate-native-xcav.png"
-  },
-  "moonbeam-ERC20-CP": {
-    "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-CP",
-    "name": "Cypress",
-    "symbol": "CP",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
   },
   "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
     "originChain": "arbitrum_one",

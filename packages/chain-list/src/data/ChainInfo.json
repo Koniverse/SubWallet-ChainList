@@ -325,7 +325,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
     "providers": {
       "Parity": "wss://statemint-rpc.polkadot.io",
-      "Dwellir": "wss://statemint-rpc.dwellir .com",
+      "Dwellir": "wss://statemint-rpc.dwellir.com",
       "RadiumBlock": "wss://statemint.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
     },
@@ -449,7 +449,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/optimism.png",
     "providers": {
-      "Optimism": "https://mainnet.optimism.io",
+      "Optimism": "https://optimism-mainnet.public.blastapi.io",
       "BlastApi": "https://optimism-mainnet.public.blastapi.io"
     },
     "evmInfo": {
@@ -1632,7 +1632,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/darwinia2.png",
     "providers": {
       "Darwinia Network": "wss://rpc.darwinia.network",
-      "Darwinia EVM": "https://rpc.darwinia.network",
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz",
       "Dwellir": "wss://darwinia-rpc.dwellir.com"
     },
@@ -1877,7 +1876,7 @@
       "Unique": "wss://ws-opal.unique.network",
       "Europe": "wss://eu-ws-opal.unique.network",
       "NA": "wss://us-ws-opal.unique.network",
-      "Asia": "wss://asia-ws-opal.unique.ne twork"
+      "Asia": "wss://asia-ws-opal.unique.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3067,8 +3066,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acala_testnet.png",
     "providers": {
-      "OnFinality": "wss://mandala-tc9-rpc.aca-staging.network",
-      "Polkawallet": "wss://mandala-tc9-rpc.aca-staging.network"
+      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3285,7 +3283,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tinkernet.png",
     "providers": {
-      "Light Client": "light://substrate-connect/kusama/tinkernet"
+      "Light Client": "light://substrate-connect/kusama/tinkernet",
+      "Dwellir": "wss://tinkernet-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -4415,9 +4414,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hashednetwork.png",
     "providers": {
-      "Hashed Systems": "wss://c1.hashed.network",
+      "Hashed Systems": "wss://c1.hashed.live",
       "Hashed Systems 2": "wss://c2.hashed.network",
-      "Hashed Systems 3": "wss://c3.hashed.network"
+      "Hashed Systems 3": "wss://c3.hashed.live"
     },
     "evmInfo": null,
     "substrateInfo": {
