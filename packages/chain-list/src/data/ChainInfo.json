@@ -226,7 +226,7 @@
       "paraId": null,
       "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
       "addressPrefix": 42,
-      "chainType": "PARACHAIN",
+      "chainType": "RELAYCHAIN",
       "crowdloanUrl": "https://contribute.alephzero.org/",
       "blockExplorer": "https://alephzero.subscan.io/",
       "existentialDeposit": "500",
@@ -6562,5 +6562,90 @@
       "abiExplorer": null
     },
     "substrateInfo": null
+  },
+  "enjin_relaychain": {
+    "slug": "enjin_relaychain",
+    "name": "Enjin Relaychain",
+    "isTestnet": false,
+    "chainStatus": "INACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/enjin_relaychain.png",
+    "providers": {
+      "Enjin": "wss://rpc.relay.blockchain.enjin.io/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xd8761d3c88f26dc12875c00d3165f7d67243d56fc85b4cf19937601a7916e5a9",
+      "addressPrefix": 2135,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://console.enjin.io/#/explorer",
+      "existentialDeposit": "100000000000000000",
+      "symbol": "ENJ",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    }
+  },
+  "enjin_matrixchain": {
+    "slug": "enjin_matrixchain",
+    "name": "Enjin Matrixchain",
+    "isTestnet": false,
+    "chainStatus": "INACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/enjin_matrixchain.png",
+    "providers": {
+      "MatrixChain": "wss://rpc.matrix.blockchain.enjin.io/",
+      "Dwellir": "wss://enjin-matrix-rpc-1.dwellir.com/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "enjin",
+      "paraId": 1000,
+      "genesisHash": "0x3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
+      "addressPrefix": 1110,
+      "chainType": null,
+      "crowdloanUrl": null,
+      "blockExplorer": "https://console.enjin.io/#/explorer",
+      "existentialDeposit": "100000000000000000",
+      "symbol": "ENJ",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    }
+  },
+  "vara_testnet": {
+    "slug": "vara_testnet",
+    "name": "Vara Network Testnet",
+    "isTestnet": true,
+    "chainStatus": "INACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_testnet.png",
+    "providers": {
+      "Vara": "wss://testnet.vara-network.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x525639f713f397dcf839bd022cd821f367ebcf179de7b9253531f8adbe5436d6",
+      "addressPrefix": 137,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000000",
+      "symbol": "TVARA",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    }
   }
 }
