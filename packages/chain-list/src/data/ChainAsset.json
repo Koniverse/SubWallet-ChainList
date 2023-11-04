@@ -1630,20 +1630,6 @@
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/amplitude-local-ksm.png"
   },
-  "odyssey-NATIVE-ARES": {
-    "originChain": "odyssey",
-    "slug": "odyssey-NATIVE-ARES",
-    "name": "Ares Odyssey",
-    "symbol": "ARES",
-    "decimals": 12,
-    "priceId": "ares-protocol",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/odyssey-native-ares.png"
-  },
   "dancebox-NATIVE-DANCE": {
     "originChain": "dancebox",
     "slug": "dancebox-NATIVE-DANCE",
@@ -1657,6 +1643,20 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/dancebox-native-dance.png"
+  },
+  "odyssey-NATIVE-ARES": {
+    "originChain": "odyssey",
+    "slug": "odyssey-NATIVE-ARES",
+    "name": "Ares Odyssey",
+    "symbol": "ARES",
+    "decimals": 12,
+    "priceId": "ares-protocol",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/odyssey-native-ares.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -2687,6 +2687,34 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/watr_network-native-watrd.png"
+  },
+  "watr_mainnet-NATIVE-WATR": {
+    "originChain": "watr_mainnet",
+    "slug": "watr_mainnet-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/watr_mainnet-native-watr.png"
+  },
+  "watr_mainnet_evm-NATIVE-WATR": {
+    "originChain": "watr_mainnet_evm",
+    "slug": "watr_mainnet_evm-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/watr_mainnet_evm-native-watr.png"
   },
   "watr_network_evm-NATIVE-WATRD": {
     "originChain": "watr_network_evm",
@@ -6443,7 +6471,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://media-resources.subwallet.app//3/lp_ksm_kbtc_3422e07cfb.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/kintsugi-local-lp_ksm_kbtc.png"
   },
   "kintsugi-LOCAL-LP_kBTC_USDT": {
     "originChain": "kintsugi",
@@ -7102,21 +7130,19 @@
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/arbitrum_one-erc20-usdc.e-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
   },
-  "moonbeam-ERC20-CP": {
-    "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-CP",
-    "name": "Cypress",
-    "symbol": "CP",
-    "decimals": 18,
+  "xcavate-NATIVE-XCAV": {
+    "originChain": "xcavate",
+    "slug": "xcavate-NATIVE-XCAV",
+    "name": "XCAV",
+    "symbol": "XCAV",
+    "decimals": 12,
     "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
-    },
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
     "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cp.jpg"
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/xcavate-native-xcav.png"
   },
   "zeta_test-NATIVE-aZETA": {
     "originChain": "zeta_test",
@@ -7132,18 +7158,20 @@
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/zeta_test-native-azeta.png"
   },
-  "xcavate-NATIVE-XCAV": {
-    "originChain": "xcavate",
-    "slug": "xcavate-NATIVE-XCAV",
-    "name": "XCAV",
-    "symbol": "XCAV",
-    "decimals": 12,
+  "moonbeam-ERC20-CP": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-CP",
+    "name": "Cypress",
+    "symbol": "CP",
+    "decimals": 18,
     "priceId": null,
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
+    },
     "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/xcavate-native-xcav.png"
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cp.jpg"
   }
 }
