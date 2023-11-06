@@ -2674,6 +2674,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xx_network-native-xx.png"
   },
+  "watr_mainnet-NATIVE-WATR": {
+    "originChain": "watr_mainnet",
+    "slug": "watr_mainnet-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet-native-watr.png"
+  },
   "watr_mainnet_evm-NATIVE-WATR": {
     "originChain": "watr_mainnet_evm",
     "slug": "watr_mainnet_evm-NATIVE-WATR",
@@ -2701,20 +2715,6 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_network-native-watrd.png"
-  },
-  "watr_mainnet-NATIVE-WATR": {
-    "originChain": "watr_mainnet",
-    "slug": "watr_mainnet-NATIVE-WATR",
-    "name": "WATR",
-    "symbol": "WATR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet-native-watr.png"
   },
   "watr_network_evm-NATIVE-WATRD": {
     "originChain": "watr_network_evm",
@@ -7114,20 +7114,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc.png"
   },
-  "zeta_test-NATIVE-aZETA": {
-    "originChain": "zeta_test",
-    "slug": "zeta_test-NATIVE-aZETA",
-    "name": "aZETA",
-    "symbol": "aZETA",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
-  },
   "xcavate-NATIVE-XCAV": {
     "originChain": "xcavate",
     "slug": "xcavate-NATIVE-XCAV",
@@ -7174,6 +7160,20 @@
     "hasValue": true,
     "icon": null
   },
+  "zeta_test-NATIVE-aZETA": {
+    "originChain": "zeta_test",
+    "slug": "zeta_test-NATIVE-aZETA",
+    "name": "aZETA",
+    "symbol": "aZETA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
+  },
   "moonbeam-ERC20-CP": {
     "originChain": "moonbeam",
     "slug": "moonbeam-ERC20-CP",
@@ -7189,5 +7189,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
+  },
+  "enjin_matrixchain-NATIVE-ENJJ": {
+    "originChain": "enjin_matrixchain",
+    "slug": "enjin_matrixchain-NATIVE-ENJJ",
+    "name": "Enjin Matrixchain",
+    "symbol": "ENJ",
+    "decimals": 18,
+    "priceId": "enjincoin",
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ENJ-Enjin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/enjin_matrixchain-native-enjj.png"
+  },
+  "enjin_relaychain-NATIVE-ENJJ": {
+    "originChain": "enjin_relaychain",
+    "slug": "enjin_relaychain-NATIVE-ENJJ",
+    "name": "Enjin Relaychain",
+    "symbol": "ENJ",
+    "decimals": 18,
+    "priceId": "enjincoin",
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ENJ-Enjin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/enjin_relaychain-native-enjj.png"
   }
 }

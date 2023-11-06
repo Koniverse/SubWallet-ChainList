@@ -376,5 +376,14 @@
     "priceId": "interlay",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/intr-interlay.png"
+  },
+  "ENJ-Enjin": {
+    "slug": "ENJ-Enjin",
+    "originChainAsset": "enjin_relaychain-NATIVE-ENJJ",
+    "name": "Enjin Relaychain",
+    "symbol": "ENJ",
+    "priceId": "enjincoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/enj-enjin.png"
   }
 }
