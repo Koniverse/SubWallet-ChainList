@@ -45,6 +45,7 @@ export interface _ChainInfo {
   providers: Record<string, string>,
   substrateInfo: _SubstrateInfo | null,
   evmInfo: _EvmInfo | null,
+  extraInfo: _ExtraInfo | null,
   icon: string
 }
 
@@ -74,6 +75,10 @@ export interface _EvmInfo {
 
   supportSmartContract: _AssetType[] | null,
   abiExplorer: string | null
+}
+
+export interface _ExtraInfo {
+  subscanSlug: string | null,
 }
 
 export enum _FundStatus {
