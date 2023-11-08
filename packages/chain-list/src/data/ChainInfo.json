@@ -30,7 +30,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "polkadot"
+    }
   },
   "kusama": {
     "slug": "kusama",
@@ -63,7 +65,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "kusama"
+    }
   },
   "ethereum": {
     "slug": "ethereum",
@@ -174,7 +178,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "moonbeam"
+    }
   },
   "pioneer": {
     "slug": "pioneer",
@@ -215,7 +221,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "pioneer"
+    }
   },
   "aleph": {
     "slug": "aleph",
@@ -247,7 +255,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "alephzero"
+    }
   },
   "astar": {
     "slug": "astar",
@@ -296,7 +306,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "astar"
+    }
   },
   "astarEvm": {
     "slug": "astarEvm",
@@ -346,7 +358,7 @@
       "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://statemint.subscan.io/",
+      "blockExplorer": "https://assethub-polkadot.subscan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "DOT",
       "decimals": 10,
@@ -356,7 +368,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "assethub-polkadot"
+    }
   },
   "acala": {
     "slug": "acala",
@@ -402,7 +416,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "acala"
+    }
   },
   "polygon": {
     "slug": "polygon",
@@ -602,7 +618,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "shiden"
+    }
   },
   "shidenEvm": {
     "slug": "shidenEvm",
@@ -662,7 +680,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "shibuya"
+    }
   },
   "shibuyaEvm": {
     "slug": "shibuyaEvm",
@@ -762,7 +782,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "westend"
+    }
   },
   "rococo": {
     "slug": "rococo",
@@ -795,7 +817,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "rococo"
+    }
   },
   "bitcountry": {
     "slug": "bitcountry",
@@ -908,7 +932,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "moonbase"
+    }
   },
   "moonriver": {
     "slug": "moonriver",
@@ -974,7 +1000,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "moonriver"
+    }
   },
   "turingStaging": {
     "slug": "turingStaging",
@@ -1045,7 +1073,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "turing"
+    }
   },
   "bifrost": {
     "slug": "bifrost",
@@ -1066,7 +1096,7 @@
       "addressPrefix": 6,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://bifrost.app/vcrowdloan",
-      "blockExplorer": "https://bifrost-kusama.subscan.io",
+      "blockExplorer": "https://bifrost-kusama.subscan.io/",
       "existentialDeposit": "10000000000",
       "symbol": "BNC",
       "decimals": 12,
@@ -1099,7 +1129,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "bifrost-kusama"
+    }
   },
   "bifrost_dot": {
     "slug": "bifrost_dot",
@@ -1141,7 +1173,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "bifrost"
+    }
   },
   "bifrost_testnet": {
     "slug": "bifrost_testnet",
@@ -1211,7 +1245,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "calamari"
+    }
   },
   "amplitude": {
     "slug": "amplitude",
@@ -1405,7 +1441,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "parallel"
+    }
   },
   "clover": {
     "slug": "clover",
@@ -1424,7 +1462,7 @@
       "addressPrefix": 128,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://lucky.clover.finance/?type=support",
-      "blockExplorer": "https://clover.subscan.io/",
+      "blockExplorer": "https://clv.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "CLV",
       "decimals": 18,
@@ -1446,7 +1484,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "clv"
+    }
   },
   "cloverEvm": {
     "slug": "cloverEvm",
@@ -1512,7 +1552,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "hydradx"
+    }
   },
   "edgeware": {
     "slug": "edgeware",
@@ -1584,7 +1626,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "centrifuge"
+    }
   },
   "interlay": {
     "slug": "interlay",
@@ -1625,7 +1669,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "interlay"
+    }
   },
   "nodle": {
     "slug": "nodle",
@@ -1667,7 +1713,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "nodle"
+    }
   },
   "darwinia2": {
     "slug": "darwinia2",
@@ -1709,7 +1757,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "darwinia"
+    }
   },
   "sora_ksm": {
     "slug": "sora_ksm",
@@ -1809,7 +1859,7 @@
       "addressPrefix": 89,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
-      "blockExplorer": "https://polkadex.subscan.io/",
+      "blockExplorer": "https://polkadex-parachain.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "PDEX",
       "decimals": 12,
@@ -1831,7 +1881,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "polkadex-parachain"
+    }
   },
   "polkadexTest": {
     "slug": "polkadexTest",
@@ -2031,7 +2083,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "composable"
+    }
   },
   "phala": {
     "slug": "phala",
@@ -2073,7 +2127,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "phala"
+    }
   },
   "crust": {
     "slug": "crust",
@@ -2114,7 +2170,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "crust-parachain"
+    }
   },
   "statemine": {
     "slug": "statemine",
@@ -2136,7 +2194,7 @@
       "addressPrefix": 2,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://statemine.subscan.io/",
+      "blockExplorer": "https://assethub-kusama.subscan.io/",
       "existentialDeposit": "33333333",
       "symbol": "KSM",
       "decimals": 12,
@@ -2146,7 +2204,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "assethub-kusama"
+    }
   },
   "karura": {
     "slug": "karura",
@@ -2179,7 +2239,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "karura"
+    }
   },
   "khala": {
     "slug": "khala",
@@ -2222,7 +2284,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "khala"
+    }
   },
   "kilt": {
     "slug": "kilt",
@@ -2253,7 +2317,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "spiritnet"
+    }
   },
   "basilisk": {
     "slug": "basilisk",
@@ -2295,7 +2361,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "basilisk"
+    }
   },
   "altair": {
     "slug": "altair",
@@ -2337,7 +2405,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "altair"
+    }
   },
   "heiko": {
     "slug": "heiko",
@@ -2389,7 +2459,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "parallel-heiko"
+    }
   },
   "kintsugi": {
     "slug": "kintsugi",
@@ -2431,7 +2503,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "kintsugi"
+    }
   },
   "kintsugi_test": {
     "slug": "kintsugi_test",
@@ -2523,7 +2597,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "picasso"
+    }
   },
   "quartz": {
     "slug": "quartz",
@@ -2609,7 +2685,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "unique"
+    }
   },
   "genshiro": {
     "slug": "genshiro",
@@ -2759,7 +2837,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "zeitgeist"
+    }
   },
   "sakura": {
     "slug": "sakura",
@@ -2800,7 +2880,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "sakura"
+    }
   },
   "shadow": {
     "slug": "shadow",
@@ -2852,7 +2934,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "shadow"
+    }
   },
   "uniqueNft": {
     "slug": "uniqueNft",
@@ -2934,7 +3018,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "robonomics"
+    }
   },
   "integritee": {
     "slug": "integritee",
@@ -2976,7 +3062,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "integritee"
+    }
   },
   "integriteePolkadot": {
     "slug": "integriteePolkadot",
@@ -3048,7 +3136,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://crab.network/plo",
-      "blockExplorer": "https://crab.subscan.io",
+      "blockExplorer": "https://crab.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "CRAB",
       "decimals": 18,
@@ -3070,7 +3158,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "crab"
+    }
   },
   "pangolin": {
     "slug": "pangolin",
@@ -3168,7 +3258,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "acala-testnet"
+    }
   },
   "mangatax": {
     "slug": "mangatax",
@@ -3250,7 +3342,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "mangatax"
+    }
   },
   "encointer": {
     "slug": "encointer",
@@ -3652,7 +3746,40 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "origintrail"
+    }
+  },
+  "subspace_gemini_3g": {
+    "slug": "subspace_gemini_3g",
+    "name": "Subspace Gemini 3g",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3g.png",
+    "providers": {
+      "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x418040fc282f5e5ddd432c46d05297636f6f75ce68d66499ff4cbda69ccd180b",
+      "addressPrefix": 2254,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://subspace.subscan.io/",
+      "existentialDeposit": "500",
+      "symbol": "tSSC",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "subspace"
+    }
   },
   "dorafactory": {
     "slug": "dorafactory",
@@ -3733,7 +3860,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "bajun"
+    }
   },
   "dancebox": {
     "slug": "dancebox",
@@ -3915,7 +4044,7 @@
       "addressPrefix": 33,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://datahighway.subscan.io",
+      "blockExplorer": "https://datahighway.subscan.io/",
       "existentialDeposit": null,
       "symbol": "DHX",
       "decimals": 18,
@@ -3937,7 +4066,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "datahighway"
+    }
   },
   "pendulum": {
     "slug": "pendulum",
@@ -4144,7 +4275,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "kilt-testnet"
+    }
   },
   "xx_network": {
     "slug": "xx_network",
@@ -4934,7 +5067,7 @@
       "addressPrefix": 22,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://dock.subscan.io",
+      "blockExplorer": "https://dock.subscan.io/",
       "existentialDeposit": "500",
       "symbol": "DOCK",
       "decimals": 6,
@@ -4944,7 +5077,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "dock"
+    }
   },
   "kusari": {
     "slug": "kusari",
@@ -5099,7 +5234,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "polymesh"
+    }
   },
   "riochain": {
     "slug": "riochain",
@@ -5175,7 +5312,7 @@
       "addressPrefix": 69,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://sora.subscan.io",
+      "blockExplorer": "https://sora.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "XOR",
       "decimals": 18,
@@ -5197,7 +5334,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "sora"
+    }
   },
   "swapdex": {
     "slug": "swapdex",
@@ -5330,7 +5469,7 @@
       "addressPrefix": 126,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://joystream.subscan.io/",
       "existentialDeposit": "266666560",
       "symbol": "JOY",
       "decimals": 10,
@@ -5340,7 +5479,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "joystream"
+    }
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
@@ -5398,7 +5539,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "vara"
+    }
   },
   "kate": {
     "slug": "kate",
@@ -5585,7 +5728,9 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "krest"
+    }
   },
   "deeper_network": {
     "slug": "deeper_network",
@@ -5721,7 +5866,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "crust"
+    }
   },
   "acala_evm": {
     "slug": "acala_evm",
@@ -6531,7 +6678,7 @@
       "addressPrefix": null,
       "chainType": null,
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://manta.subscan.io/",
       "existentialDeposit": null,
       "symbol": null,
       "decimals": null,
@@ -6541,7 +6688,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "manta"
+    }
   },
   "t3rn": {
     "slug": "t3rn",
@@ -6765,7 +6914,7 @@
     "slug": "enjin_relaychain",
     "name": "Enjin Relaychain",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/enjin_relaychain.png",
     "providers": {
       "Enjin": "wss://rpc.relay.blockchain.enjin.io/"
@@ -6794,7 +6943,7 @@
     "slug": "enjin_matrixchain",
     "name": "Enjin Matrixchain",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/enjin_matrixchain.png",
     "providers": {
       "MatrixChain": "wss://rpc.matrix.blockchain.enjin.io/",
