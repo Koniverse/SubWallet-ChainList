@@ -1612,6 +1612,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
+  "dancebox-NATIVE-DANCE": {
+    "originChain": "dancebox",
+    "slug": "dancebox-NATIVE-DANCE",
+    "name": "Dancebox",
+    "symbol": "DANCE",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
+  },
   "amplitude-LOCAL-KSM": {
     "originChain": "amplitude",
     "slug": "amplitude-LOCAL-KSM",
@@ -1643,20 +1657,6 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
-  },
-  "dancebox-NATIVE-DANCE": {
-    "originChain": "dancebox",
-    "slug": "dancebox-NATIVE-DANCE",
-    "name": "Dancebox",
-    "symbol": "DANCE",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -2674,20 +2674,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xx_network-native-xx.png"
   },
-  "watr_mainnet-NATIVE-WATR": {
-    "originChain": "watr_mainnet",
-    "slug": "watr_mainnet-NATIVE-WATR",
-    "name": "WATR",
-    "symbol": "WATR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet-native-watr.png"
-  },
   "watr_mainnet_evm-NATIVE-WATR": {
     "originChain": "watr_mainnet_evm",
     "slug": "watr_mainnet_evm-NATIVE-WATR",
@@ -2715,6 +2701,20 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_network-native-watrd.png"
+  },
+  "watr_mainnet-NATIVE-WATR": {
+    "originChain": "watr_mainnet",
+    "slug": "watr_mainnet-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet-native-watr.png"
   },
   "watr_network_evm-NATIVE-WATRD": {
     "originChain": "watr_network_evm",
@@ -7217,5 +7217,19 @@
     "multiChainAsset": "ENJ-Enjin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/enjin_relaychain-native-enjj.png"
+  },
+  "subspace_gemini_3g-NATIVE-tSSC": {
+    "originChain": "subspace_gemini_3g",
+    "slug": "subspace_gemini_3g-NATIVE-tSSC",
+    "name": "Subspace Gemini 3g",
+    "symbol": "tSSC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/subspace_gemini_3g-native-tssc.png"
   }
 }

@@ -2301,7 +2301,7 @@
     },
     "evmInfo": null,
     "substrateInfo": {
-      "relaySlug": "kusama",
+      "relaySlug": "polkadot",
       "paraId": 2086,
       "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
       "addressPrefix": 38,
@@ -3685,7 +3685,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3f.png",
     "providers": {
-      "Gemini 3e": "wss://rpc-0.gemini-3f.subspace.network/ws"
+      "Gemini 3f": "wss://rpc-0.gemini-3f.subspace.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
