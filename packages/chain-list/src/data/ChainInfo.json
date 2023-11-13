@@ -6927,7 +6927,7 @@
       "addressPrefix": 2135,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://console.enjin.io/#/explorer",
+      "blockExplorer": null,
       "existentialDeposit": "100000000000000000",
       "symbol": "ENJ",
       "decimals": 18,
@@ -6957,7 +6957,7 @@
       "addressPrefix": 1110,
       "chainType": null,
       "crowdloanUrl": null,
-      "blockExplorer": "https://console.enjin.io/#/explorer",
+      "blockExplorer": null,
       "existentialDeposit": "100000000000000000",
       "symbol": "ENJ",
       "decimals": 18,
@@ -6992,6 +6992,35 @@
       "decimals": 12,
       "hasNativeNft": null,
       "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "goldberg_testnet": {
+    "slug": "goldberg_testnet",
+    "name": "Goldberg Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
+    "providers": {
+      "Avail Goldberg Testnet": "wss://goldberg.avail.tools/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000000",
+      "symbol": "AVL",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []

@@ -1612,20 +1612,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
-  "dancebox-NATIVE-DANCE": {
-    "originChain": "dancebox",
-    "slug": "dancebox-NATIVE-DANCE",
-    "name": "Dancebox",
-    "symbol": "DANCE",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
-  },
   "amplitude-LOCAL-KSM": {
     "originChain": "amplitude",
     "slug": "amplitude-LOCAL-KSM",
@@ -1643,6 +1629,20 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png"
+  },
+  "dancebox-NATIVE-DANCE": {
+    "originChain": "dancebox",
+    "slug": "dancebox-NATIVE-DANCE",
+    "name": "Dancebox",
+    "symbol": "DANCE",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
   },
   "odyssey-NATIVE-ARES": {
     "originChain": "odyssey",
@@ -2674,20 +2674,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xx_network-native-xx.png"
   },
-  "watr_mainnet_evm-NATIVE-WATR": {
-    "originChain": "watr_mainnet_evm",
-    "slug": "watr_mainnet_evm-NATIVE-WATR",
-    "name": "WATR",
-    "symbol": "WATR",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet_evm-native-watr.png"
-  },
   "watr_network-NATIVE-WATRD": {
     "originChain": "watr_network",
     "slug": "watr_network-NATIVE-WATRD",
@@ -2701,6 +2687,20 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_network-native-watrd.png"
+  },
+  "watr_mainnet_evm-NATIVE-WATR": {
+    "originChain": "watr_mainnet_evm",
+    "slug": "watr_mainnet_evm-NATIVE-WATR",
+    "name": "WATR",
+    "symbol": "WATR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet_evm-native-watr.png"
   },
   "watr_mainnet-NATIVE-WATR": {
     "originChain": "watr_mainnet",
@@ -7160,20 +7160,6 @@
     "hasValue": true,
     "icon": null
   },
-  "zeta_test-NATIVE-aZETA": {
-    "originChain": "zeta_test",
-    "slug": "zeta_test-NATIVE-aZETA",
-    "name": "aZETA",
-    "symbol": "aZETA",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
-  },
   "moonbeam-ERC20-CP": {
     "originChain": "moonbeam",
     "slug": "moonbeam-ERC20-CP",
@@ -7231,5 +7217,33 @@
     "multiChainAsset": "ENJ-Enjin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/enjin_relaychain-native-enj.png"
+  },
+  "goldberg_testnet-NATIVE-AVL": {
+    "originChain": "goldberg_testnet",
+    "slug": "goldberg_testnet-NATIVE-AVL",
+    "name": "Goldberg Testnet",
+    "symbol": "AVL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/goldberg_testnet-native-avl.png"
+  },
+  "zeta_test-NATIVE-aZETA": {
+    "originChain": "zeta_test",
+    "slug": "zeta_test-NATIVE-aZETA",
+    "name": "aZETA",
+    "symbol": "aZETA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
   }
 }
