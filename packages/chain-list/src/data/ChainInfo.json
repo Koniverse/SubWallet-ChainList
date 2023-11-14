@@ -1415,7 +1415,7 @@
       "hasNativeNft": false,
       "supportStaking": false,
       "supportSmartContract": null,
-      "crowdloanParaId": null,
+      "crowdloanParaId": 3350,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1438,6 +1438,17 @@
           "auctionIndex": 0,
           "firstPeriod": 14,
           "lastPeriod": 21
+        },
+        {
+          "relayChain": "polkadot",
+          "fundId": "3350-78",
+          "paraId": 3350,
+          "status": "won",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
+          "auctionIndex": 54,
+          "firstPeriod": 15,
+          "lastPeriod": 22
         }
       ]
     },
@@ -1611,7 +1622,7 @@
       "hasNativeNft": false,
       "supportStaking": false,
       "supportSmartContract": null,
-      "crowdloanParaId": null,
+      "crowdloanParaId": 3353,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1698,7 +1709,7 @@
       "hasNativeNft": false,
       "supportStaking": false,
       "supportSmartContract": null,
-      "crowdloanParaId": null,
+      "crowdloanParaId": 2012,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -5144,6 +5155,17 @@
           "auctionIndex": 52,
           "firstPeriod": 14,
           "lastPeriod": 21
+        },
+        {
+          "relayChain": "polkadot",
+          "fundId": "3354-77",
+          "paraId": 3354,
+          "status": "in_auction",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
+          "auctionIndex": 53,
+          "firstPeriod": 15,
+          "lastPeriod": 22
         }
       ]
     },
