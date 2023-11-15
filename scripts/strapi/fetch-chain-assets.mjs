@@ -98,12 +98,14 @@ const main = async () => {
         const srcAsset = assetMap[item.slug];
         const destSlug = ref.destAsset;
         const destAsset = assetMap[destSlug];
-        refMap[`${item.slug}___${destSlug}`] = {
-          srcAsset: item.slug,
-          destAsset: destAsset.slug,
-          srcChain: srcAsset.originChain,
-          destChain: destAsset.originChain,
-          path: ref.type
+        if (destAsset) {
+          refMap[`${item.slug}___${destSlug}`] = {
+            srcAsset: item.slug,
+            destAsset: destAsset.slug,
+            srcChain: srcAsset.originChain,
+            destChain: destAsset.originChain,
+            path: ref.type
+          }
         }
       });
     });
