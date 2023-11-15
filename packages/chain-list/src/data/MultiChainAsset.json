@@ -6,7 +6,7 @@
     "symbol": "ETH",
     "priceId": "ethereum",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eth-ethereum.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/eth-ethereum.png"
   },
   "iBTC-interBTC": {
     "slug": "iBTC-interBTC",
@@ -15,7 +15,7 @@
     "symbol": "iBTC",
     "priceId": "interbtc",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ibtc-interbtc.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ibtc-interbtc.png"
   },
   "GLMR-Moonbeam": {
     "slug": "GLMR-Moonbeam",
@@ -24,7 +24,7 @@
     "symbol": "GLMR",
     "priceId": "moonbeam",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/glmr-moonbeam.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/glmr-moonbeam.png"
   },
   "DOT-Polkadot": {
     "slug": "DOT-Polkadot",
@@ -33,7 +33,7 @@
     "symbol": "DOT",
     "priceId": "polkadot",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dot-polkadot.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/dot-polkadot.png"
   },
   "ACA-Acala": {
     "slug": "ACA-Acala",
@@ -42,7 +42,7 @@
     "symbol": "ACA",
     "priceId": "acala",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/aca-acala.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/aca-acala.png"
   },
   "MOVR-Moonriver": {
     "slug": "MOVR-Moonriver",
@@ -51,7 +51,7 @@
     "symbol": "MOVR",
     "priceId": "moonriver",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/movr-moonriver.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/movr-moonriver.png"
   },
   "USDT-Tether": {
     "slug": "USDT-Tether",
@@ -60,7 +60,7 @@
     "symbol": "USDT",
     "priceId": "tether",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/usdt-tether.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/usdt-tether.png"
   },
   "ASTR-Astar": {
     "slug": "ASTR-Astar",
@@ -69,7 +69,7 @@
     "symbol": "ASTR",
     "priceId": "astar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/astr-astar.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/astr-astar.png"
   },
   "DEV-MoonbaseDev": {
     "slug": "DEV-MoonbaseDev",
@@ -78,7 +78,7 @@
     "symbol": "DEV",
     "priceId": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dev-moonbasedev.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/dev-moonbasedev.png"
   },
   "DAI-DaiStablecoin": {
     "slug": "DAI-DaiStablecoin",
@@ -87,7 +87,7 @@
     "symbol": "DAI",
     "priceId": "dai",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dai-daistablecoin.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/dai-daistablecoin.png"
   },
   "DPR-DeeperNetwork": {
     "slug": "DPR-DeeperNetwork",
@@ -96,7 +96,7 @@
     "symbol": "DPR",
     "priceId": "deeper-network",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dpr-deepernetwork.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/dpr-deepernetwork.png"
   },
   "BNC-BifrostKusama": {
     "slug": "BNC-BifrostKusama",
@@ -105,7 +105,7 @@
     "symbol": "BNC",
     "priceId": "bifrost-native-coin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bnc-bifrostkusama.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/bnc-bifrostkusama.png"
   },
   "BOBA-BobaToken": {
     "slug": "BOBA-BobaToken",
@@ -114,7 +114,7 @@
     "symbol": "BOBA",
     "priceId": "boba-network",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/boba-bobatoken.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/boba-bobatoken.png"
   },
   "CRU-Crust": {
     "slug": "CRU-Crust",
@@ -123,7 +123,7 @@
     "symbol": "CRU",
     "priceId": "crust-network",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/cru-crust.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/cru-crust.png"
   },
   "SDN-Shiden": {
     "slug": "SDN-Shiden",
@@ -132,7 +132,7 @@
     "symbol": "SDN",
     "priceId": "shiden",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/sdn-shiden.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/sdn-shiden.png"
   },
   "ARB-ArbitrumOne": {
     "slug": "ARB-ArbitrumOne",
@@ -141,7 +141,7 @@
     "symbol": "ARB",
     "priceId": "arbitrum",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/arb-arbitrumone.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/arb-arbitrumone.png"
   },
   "USDD-DecentralizedUSD": {
     "slug": "USDD-DecentralizedUSD",
@@ -150,7 +150,7 @@
     "symbol": "USDD",
     "priceId": "usdd",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/usdd-decentralizedusd.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/usdd-decentralizedusd.png"
   },
   "NEER-Pioneer": {
     "slug": "NEER-Pioneer",
@@ -159,7 +159,7 @@
     "symbol": "NEER",
     "priceId": "metaverse-network-pioneer",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/neer-pioneer.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/neer-pioneer.png"
   },
   "KAR-Karura": {
     "slug": "KAR-Karura",
@@ -168,7 +168,7 @@
     "symbol": "KAR",
     "priceId": "karura",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kar-karura.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/kar-karura.png"
   },
   "PKEX-PolkaEx": {
     "slug": "PKEX-PolkaEx",
@@ -177,7 +177,7 @@
     "symbol": "PKEX",
     "priceId": "polkaex",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/pkex-polkaex.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/pkex-polkaex.png"
   },
   "aSEED-aSEEDAcala": {
     "slug": "aSEED-aSEEDAcala",
@@ -186,7 +186,7 @@
     "symbol": "aSEED",
     "priceId": "ausd-seed-acala",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/aseed-aseedacala.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/aseed-aseedacala.png"
   },
   "MATIC-Polygon": {
     "slug": "MATIC-Polygon",
@@ -195,7 +195,7 @@
     "symbol": "MATIC",
     "priceId": "matic-network",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/matic-polygon.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/matic-polygon.png"
   },
   "kBTC-KintsugiWrappedBTC": {
     "slug": "kBTC-KintsugiWrappedBTC",
@@ -204,7 +204,7 @@
     "symbol": "kBTC",
     "priceId": "kintsugi-btc",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kbtc-kintsugiwrappedbtc.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/kbtc-kintsugiwrappedbtc.png"
   },
   "FTM-Fantom": {
     "slug": "FTM-Fantom",
@@ -213,7 +213,7 @@
     "symbol": "FTM",
     "priceId": "fantom",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ftm-fantom.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ftm-fantom.png"
   },
   "aUSD-KaruraDollar": {
     "slug": "aUSD-KaruraDollar",
@@ -222,7 +222,7 @@
     "symbol": "aUSD",
     "priceId": "acala-dollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ausd-karuradollar.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ausd-karuradollar.png"
   },
   "PHA-Phala": {
     "slug": "PHA-Phala",
@@ -231,7 +231,7 @@
     "symbol": "PHA",
     "priceId": "pha",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/pha-phala.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/pha-phala.png"
   },
   "WETH-WrappedEther": {
     "slug": "WETH-WrappedEther",
@@ -240,7 +240,7 @@
     "symbol": "WETH",
     "priceId": "weth",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/weth-wrappedether.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/weth-wrappedether.png"
   },
   "BUSD-BinanceUSD": {
     "slug": "BUSD-BinanceUSD",
@@ -249,7 +249,7 @@
     "symbol": "BUSD",
     "priceId": "binance-usd",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/busd-binanceusd.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/busd-binanceusd.png"
   },
   "EQ-Equilibrium": {
     "slug": "EQ-Equilibrium",
@@ -258,7 +258,7 @@
     "symbol": "EQ",
     "priceId": "equilibrium-token",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eq-equilibrium.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/eq-equilibrium.png"
   },
   "BNB-Binance": {
     "slug": "BNB-Binance",
@@ -267,7 +267,7 @@
     "symbol": "BNB",
     "priceId": "binancecoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bnb-binance.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/bnb-binance.png"
   },
   "USDC-USDCoin": {
     "slug": "USDC-USDCoin",
@@ -276,7 +276,7 @@
     "symbol": "USDC",
     "priceId": "usd-coin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/usdc-usdcoin.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/usdc-usdcoin.png"
   },
   "RMRK-RMRKApp": {
     "slug": "RMRK-RMRKApp",
@@ -285,7 +285,7 @@
     "symbol": "RMRK",
     "priceId": "rmrk",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/rmrk-rmrkapp.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/rmrk-rmrkapp.png"
   },
   "KINT-Kintsugi": {
     "slug": "KINT-Kintsugi",
@@ -294,7 +294,7 @@
     "symbol": "KINT",
     "priceId": "kintsugi",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kint-kintsugi.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/kint-kintsugi.png"
   },
   "WBTC-WrappedBTC": {
     "slug": "WBTC-WrappedBTC",
@@ -303,7 +303,7 @@
     "symbol": "WBTC",
     "priceId": "wrapped-bitcoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/wbtc-wrappedbtc.png"
   },
   "aSEED-aSEEDKarura": {
     "slug": "aSEED-aSEEDKarura",
@@ -312,7 +312,7 @@
     "symbol": "aSEED",
     "priceId": "ausd-seed-karura",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/aseed-aseedkarura.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/aseed-aseedkarura.png"
   },
   "aUSD-AcalaDollar": {
     "slug": "aUSD-AcalaDollar",
@@ -321,7 +321,7 @@
     "symbol": "aUSD",
     "priceId": "acala-dollar-acala",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ausd-acaladollar.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ausd-acaladollar.png"
   },
   "EQD-EquilibriumUSD": {
     "slug": "EQD-EquilibriumUSD",
@@ -330,7 +330,7 @@
     "symbol": "EQD",
     "priceId": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eqd-equilibriumusd.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/eqd-equilibriumusd.png"
   },
   "KMA-Calamari": {
     "slug": "KMA-Calamari",
@@ -339,7 +339,7 @@
     "symbol": "KMA",
     "priceId": "calamari-network",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kma-calamari.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/kma-calamari.png"
   },
   "OP-Optimism": {
     "slug": "OP-Optimism",
@@ -348,7 +348,7 @@
     "symbol": "OP",
     "priceId": "optimism",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/op-optimism.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/op-optimism.png"
   },
   "PARA-Parallel": {
     "slug": "PARA-Parallel",
@@ -357,7 +357,7 @@
     "symbol": "PARA",
     "priceId": "parallel-finance",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/para-parallel.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/para-parallel.png"
   },
   "KSM-Kusama": {
     "slug": "KSM-Kusama",
@@ -366,7 +366,7 @@
     "symbol": "KSM",
     "priceId": "kusama",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ksm-kusama.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ksm-kusama.png"
   },
   "INTR-Interlay": {
     "slug": "INTR-Interlay",
@@ -375,7 +375,7 @@
     "symbol": "INTR",
     "priceId": "interlay",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/intr-interlay.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/intr-interlay.png"
   },
   "ENJ-Enjin": {
     "slug": "ENJ-Enjin",
@@ -384,6 +384,6 @@
     "symbol": "ENJ",
     "priceId": "enjincoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/enj-enjin.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/enj-enjin.png"
   }
 }
