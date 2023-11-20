@@ -6731,7 +6731,7 @@
     "name": "Krest",
     "symbol": "KREST",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "krest",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
