@@ -1612,6 +1612,34 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sora_ksm-native-xor.png"
   },
+  "odyssey-NATIVE-ARES": {
+    "originChain": "odyssey",
+    "slug": "odyssey-NATIVE-ARES",
+    "name": "Ares Odyssey",
+    "symbol": "ARES",
+    "decimals": 12,
+    "priceId": "ares-protocol",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
+  },
+  "dancebox-NATIVE-DANCE": {
+    "originChain": "dancebox",
+    "slug": "dancebox-NATIVE-DANCE",
+    "name": "Dancebox",
+    "symbol": "DANCE",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
+  },
   "amplitude-LOCAL-KSM": {
     "originChain": "amplitude",
     "slug": "amplitude-LOCAL-KSM",
@@ -1629,34 +1657,6 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png"
-  },
-  "dancebox-NATIVE-DANCE": {
-    "originChain": "dancebox",
-    "slug": "dancebox-NATIVE-DANCE",
-    "name": "Dancebox",
-    "symbol": "DANCE",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "1000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancebox-native-dance.png"
-  },
-  "odyssey-NATIVE-ARES": {
-    "originChain": "odyssey",
-    "slug": "odyssey-NATIVE-ARES",
-    "name": "Ares Odyssey",
-    "symbol": "ARES",
-    "decimals": 12,
-    "priceId": "ares-protocol",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/odyssey-native-ares.png"
   },
   "polkadex-NATIVE-PDEX": {
     "originChain": "polkadex",
@@ -2674,20 +2674,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xx_network-native-xx.png"
   },
-  "watr_network-NATIVE-WATRD": {
-    "originChain": "watr_network",
-    "slug": "watr_network-NATIVE-WATRD",
-    "name": "Watr Network",
-    "symbol": "WATRD",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "10000000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_network-native-watrd.png"
-  },
   "watr_mainnet_evm-NATIVE-WATR": {
     "originChain": "watr_mainnet_evm",
     "slug": "watr_mainnet_evm-NATIVE-WATR",
@@ -2701,6 +2687,20 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_mainnet_evm-native-watr.png"
+  },
+  "watr_network-NATIVE-WATRD": {
+    "originChain": "watr_network",
+    "slug": "watr_network-NATIVE-WATRD",
+    "name": "Watr Network",
+    "symbol": "WATRD",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/watr_network-native-watrd.png"
   },
   "watr_mainnet-NATIVE-WATR": {
     "originChain": "watr_mainnet",
@@ -7114,6 +7114,54 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc.png"
   },
+  "acala-LOCAL-USDCet": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-USDCet",
+    "name": "USD Coin (Portal from Ethereum)",
+    "symbol": "USDCet",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Erc20": "0x07df96d1341a7d16ba1ad431e2c847d978bc2bce"
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdcet.png"
+  },
+  "moonbeam-ERC20-CP": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-CP",
+    "name": "Cypress",
+    "symbol": "CP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
+  },
+  "zeta_test-NATIVE-aZETA": {
+    "originChain": "zeta_test",
+    "slug": "zeta_test-NATIVE-aZETA",
+    "name": "aZETA",
+    "symbol": "aZETA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
+  },
   "xcavate-NATIVE-XCAV": {
     "originChain": "xcavate",
     "slug": "xcavate-NATIVE-XCAV",
@@ -7143,36 +7191,6 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc.e-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
-  },
-  "zeta_test-NATIVE-aZETA": {
-    "originChain": "zeta_test",
-    "slug": "zeta_test-NATIVE-aZETA",
-    "name": "aZETA",
-    "symbol": "aZETA",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
-  },
-  "moonbeam-ERC20-CP": {
-    "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-CP",
-    "name": "Cypress",
-    "symbol": "CP",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
   },
   "centrifuge-LOCAL-USDC": {
     "originChain": "centrifuge",
@@ -7206,24 +7224,6 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/subspace_gemini_3g-native-tssc.png"
   },
-  "moonbeam-LOCAL-xcUSDC": {
-    "originChain": "moonbeam",
-    "slug": "moonbeam-LOCAL-xcUSDC",
-    "name": "USD Coin",
-    "symbol": "xcUSDC",
-    "decimals": 6,
-    "priceId": "usd-coin",
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "166377000701797186346254371275954761085",
-      "assetType": "ForeignAsset",
-      "contractAddress": "0xFFfffffF7D2B0B761Af01Ca8e25242976ac0aD7D"
-    },
-    "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcusdc.png"
-  },
   "interlay-LOCAL-USDC.wh": {
     "originChain": "interlay",
     "slug": "interlay-LOCAL-USDC.wh",
@@ -7241,6 +7241,24 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/interlay-local-usdc.wh.png"
+  },
+  "moonbeam-LOCAL-xcUSDC": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcUSDC",
+    "name": "USD Coin",
+    "symbol": "xcUSDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "166377000701797186346254371275954761085",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFfffffF7D2B0B761Af01Ca8e25242976ac0aD7D"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcusdc.png"
   },
   "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
     "originChain": "moonbeam",
@@ -7313,23 +7331,5 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/goldberg_testnet-native-avl.png"
-  },
-  "acala-LOCAL-USDCet": {
-    "originChain": "acala",
-    "slug": "acala-LOCAL-USDCet",
-    "name": "USD Coin (Portal from Ethereum)",
-    "symbol": "USDCet",
-    "decimals": 6,
-    "priceId": "usd-coin",
-    "minAmount": "10000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "onChainInfo": {
-        "Erc20": "0x07df96d1341a7d16ba1ad431e2c847d978bc2bce"
-      }
-    },
-    "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdcet.png"
   }
 }

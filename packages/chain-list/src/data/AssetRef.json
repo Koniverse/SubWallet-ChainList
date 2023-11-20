@@ -300,13 +300,6 @@
     "destChain": "moonbeam",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDC___interlay-LOCAL-USDC.wh": {
-    "srcAsset": "statemint-LOCAL-USDC",
-    "destAsset": "interlay-LOCAL-USDC.wh",
-    "srcChain": "statemint",
-    "destChain": "interlay",
-    "path": "XCM"
-  },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
     "srcAsset": "hydradx_main-LOCAL-USDC",
     "destAsset": "statemint-LOCAL-USDC",
@@ -318,13 +311,6 @@
     "srcAsset": "moonbeam-LOCAL-xcUSDC",
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "moonbeam",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "interlay-LOCAL-USDC.wh___statemint-LOCAL-USDC": {
-    "srcAsset": "interlay-LOCAL-USDC.wh",
-    "destAsset": "statemint-LOCAL-USDC",
-    "srcChain": "interlay",
     "destChain": "statemint",
     "path": "XCM"
   }
