@@ -8,7 +8,14 @@ const DEFAULT_ICON = `${DOWNLOAD_LINK}/assets/default.png`;
 
 const SpecialCustomToken = {
   "custom-moonbeam-ERC20-CP-0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824": `${DOWNLOAD_LINK}/assets/custom-chain-assets/cp_77d5363018.png`,
-  "custom-aleph-PSP22-ZPF-5ESKJbkpVa1ppUCmrkCmaZDHqm9SHihws9Uqqsoi4VrDCDLE": `${DOWNLOAD_LINK}/assets/custom-chain-assets/zpf_2f06de3f07.png`
+  "custom-aleph-PSP22-ZPF-5ESKJbkpVa1ppUCmrkCmaZDHqm9SHihws9Uqqsoi4VrDCDLE": `${DOWNLOAD_LINK}/assets/custom-chain-assets/zpf_2f06de3f07.png`,
+  "custom-custom-Substrate-gosnetwork-NATIVE-GOS": `${DOWNLOAD_LINK}/assets/custom-chain-assets/gos_a4d1a9cf7a.png`,
+  "custom-custom-Substrate-gosspectral-NATIVE-GOST": `${DOWNLOAD_LINK}/assets/custom-chain-assets/gos_a4d1a9cf7a.png`
+}
+
+const SpecialCustomNetwork = {
+  "custom-Substrate-gosnetwork": `${DOWNLOAD_LINK}/assets/custom-chains/gos_37cd7c233c.png`,
+  "custom-Substrate-gosspectral": `${DOWNLOAD_LINK}/assets/custom-chains/gos_37cd7c233c.png`,
 }
 
 try {
@@ -18,6 +25,13 @@ try {
 
   Object.entries(ChainInfoMap).forEach(([slug, item]) => {
     chainLogoMap[slug] = item.icon || DEFAULT_ICON;
+  });
+
+  // For special custom network
+  Object.entries(SpecialCustomNetwork).forEach(([network, logo]) => {
+    if (!chainLogoMap[network] && logo) {
+      chainLogoMap[network] = logo;
+    }
   });
 
   const fileName = `packages/chain-list/src/data/ChainLogoMap.json`;
