@@ -581,7 +581,7 @@
         "PSP34",
         "PSP22"
       ],
-      "crowdloanParaId": null,
+      "crowdloanParaId": 3335,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -5884,7 +5884,7 @@
   },
   "crust_mainnet": {
     "slug": "crust_mainnet",
-    "name": "Crust Mainet",
+    "name": "Crust Mainnet",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crust_mainnet.png",
