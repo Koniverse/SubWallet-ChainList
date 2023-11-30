@@ -5031,7 +5031,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://creditcoin.subscan.io/",
       "existentialDeposit": "500",
       "symbol": "CTC",
       "decimals": 18,
@@ -5041,7 +5041,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "creditcoin"
+    }
   },
   "crownSterling": {
     "slug": "crownSterling",
