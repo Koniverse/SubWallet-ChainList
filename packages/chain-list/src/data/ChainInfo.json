@@ -6,11 +6,17 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
-      "Parity": "wss://rpc.polkadot.io",
       "Dwellir": "wss://polkadot-rpc.dwellir.com",
-      "Light Client": "light://substrate-connect/polkadot",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
-      "1RPC": "wss://1rpc.io/dot"
+      "1RPC": "wss://1rpc.io/dot",
+      "Stakeworld": "wss://dot-rpc.stakeworld.io",
+      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
+      "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
+      "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
+      "Automata 1RPC": "wss://1rpc.io/dot",
+      "Parity": "wss://rpc.polkadot.io",
+      "Light Client": "light://substrate-connect/polkadot"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -41,11 +47,17 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png",
     "providers": {
-      "Parity": "wss://kusama-rpc.polkadot.io",
       "Dwellir": "wss://kusama-rpc.dwellir.com",
-      "Light Client": "light://substrate-connect/kusama",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
-      "1RPC": "wss://1rpc.io/ksm"
+      "1RPC": "wss://1rpc.io/ksm",
+      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
+      "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io",
+      "Automata 1RPC": "wss://1rpc.io/ksm",
+      "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
+      "IBP-GeoDNS2": "wss://rpc.dotters.network/kusama",
+      "Parity": "wss://kusama-rpc.polkadot.io",
+      "Light Client": "light://substrate-connect/kusama"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -132,10 +144,10 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbeam.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
-      "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "1rpc": "wss://1rpc.io/glmr",
-      "Blast": "wss://moonbeam.public.blastapi.io"
+      "Blast": "wss://moonbeam.public.blastapi.io",
+      "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws"
     },
     "evmInfo": {
       "evmChainId": 1284,
@@ -345,7 +357,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
     "providers": {
-      "Parity": "wss://statemint-rpc.polkadot.io",
       "Dwellir": "wss://statemint-rpc.dwellir.com",
       "RadiumBlock": "wss://statemint.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
@@ -900,8 +911,8 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbase.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
-      "OnFinality": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
-      "Blast": "wss://moonbase-alpha.public.blastapi.io"
+      "Blast": "wss://moonbase-alpha.public.blastapi.io",
+      "OnFinality": "wss://moonbeam-alpha.api.onfinality.io/public-ws"
     },
     "evmInfo": {
       "evmChainId": 1287,
@@ -1348,11 +1359,10 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ethereum_goerli.png",
     "providers": {
-      "Infura": "https://goerli.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8",
-      "Optimism": "https://goerli.optimism.io"
+      "Infura": "https://goerli.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8"
     },
     "evmInfo": {
-      "evmChainId": 1,
+      "evmChainId": 5,
       "blockExplorer": "https://goerli.etherscan.io",
       "existentialDeposit": "0",
       "symbol": "GoerliETH",
@@ -1940,7 +1950,7 @@
     "slug": "rmrk",
     "name": "RMRK Devnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rmrk.png",
     "providers": {
       "rmrk": "wss://staging.node.rmrk.app"
@@ -2203,7 +2213,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemine.png",
     "providers": {
-      "Parity": "wss://statemine-rpc.polkadot.io",
       "Dwellir": "wss://statemine-rpc.dwellir.com",
       "RadiumBlock": "wss://statemine.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
@@ -2964,7 +2973,7 @@
     "slug": "uniqueNft",
     "name": "Unique TestNet 2.0",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/uniquenft.png",
     "providers": {
       "Unique": "wss://testnet2.unique.network"
@@ -3288,7 +3297,7 @@
     "slug": "mangatax",
     "name": "MangataX Public Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mangatax.png",
     "providers": {
       "mangatax": "wss://collator-01-ws-rococo.mangata.online"
@@ -4786,7 +4795,7 @@
     "slug": "kylinNetwork",
     "name": "Kylin Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kylinnetwork.png",
     "providers": {
       "Kylin Network": "wss://polkadot.kylin-node.co.uk"
@@ -5718,7 +5727,7 @@
       "RPC_API": "https://rpcapi.fantom.network",
       "BlastApi": "https://fantom-mainnet.public.blastapi.io",
       "FTM_TOOLS": "https://rpc.ftm.tools",
-      "PoktNetwork": "https://fantom-rpc.gateway.pokt.network"
+      "PoktNetwork": "https://fantom-pokt.nodies.app/"
     },
     "evmInfo": {
       "evmChainId": 250,
