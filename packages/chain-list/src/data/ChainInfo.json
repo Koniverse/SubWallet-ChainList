@@ -332,8 +332,7 @@
       "Astar": "https://evm.astar.network",
       "OnFinality": "https://astar.api.onfinality.io/public",
       "Dwellir": "https://astar-rpc.dwellir.com",
-      "Blast": "https://astar.public.blastapi.io",
-      "1RPC": "https://1rpc.io/astr"
+      "Blast": "https://astar.public.blastapi.io"
     },
     "evmInfo": {
       "evmChainId": 592,
@@ -5397,7 +5396,7 @@
     "slug": "swapdex",
     "name": "Swapdex",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/swapdex.png",
     "providers": {
       "Swapdex": "wss://ws.swapdex.network"
