@@ -14,7 +14,6 @@
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
-      "Automata 1RPC": "wss://1rpc.io/dot",
       "Parity": "wss://rpc.polkadot.io",
       "Light Client": "light://substrate-connect/polkadot"
     },
@@ -53,7 +52,6 @@
       "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
-      "Automata 1RPC": "wss://1rpc.io/ksm",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/kusama",
       "Parity": "wss://kusama-rpc.polkadot.io",
