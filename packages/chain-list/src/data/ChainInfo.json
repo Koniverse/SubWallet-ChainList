@@ -7107,5 +7107,26 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "ewc": {
+    "slug": "ewc",
+    "name": "Energy Web Chain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ewc.png",
+    "providers": {
+      "Energy Web Chain": "https://rpc.energyweb.org"
+    },
+    "evmInfo": {
+      "evmChainId": 246,
+      "blockExplorer": "http://explorer.energyweb.org/",
+      "existentialDeposit": "0",
+      "symbol": "EWT",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null
   }
 }
