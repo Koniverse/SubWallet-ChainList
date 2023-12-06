@@ -7332,9 +7332,9 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/vara_testnet-native-tvara.png"
   },
-  "ewx_testnet-NATIVE-VT": {
-    "originChain": "ewx_testnet",
-    "slug": "ewx_testnet-NATIVE-VT",
+  "energy_web_x_testnet-NATIVE-VT": {
+    "originChain": "energy_web_x_testnet",
+    "slug": "energy_web_x_testnet-NATIVE-VT",
     "name": "VT",
     "symbol": "VT",
     "decimals": 18,
@@ -7344,11 +7344,11 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ewx_testnet-native-vt.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/energy_web_x_testnet-native-vt.png"
   },
-  "ewc-NATIVE-EWT": {
-    "originChain": "ewc",
-    "slug": "ewc-NATIVE-EWT",
+  "energy_web_chain-NATIVE-EWT": {
+    "originChain": "energy_web_chain",
+    "slug": "energy_web_chain-NATIVE-EWT",
     "name": "EWT",
     "symbol": "EWT",
     "decimals": 18,
@@ -7358,6 +7358,6 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ewc-native-ewt.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/energy_web_chain-native-ewt.png"
   }
 }

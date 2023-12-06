@@ -7079,12 +7079,12 @@
     },
     "extraInfo": null
   },
-  "ewx_testnet": {
-    "slug": "ewx_testnet",
+  "energy_web_x_testnet": {
+    "slug": "energy_web_x_testnet",
     "name": "EWX Staging Parachain",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ewx_testnet.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/energy_web_x_testnet.png",
     "providers": {
       "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     },
@@ -7108,12 +7108,12 @@
     },
     "extraInfo": null
   },
-  "ewc": {
-    "slug": "ewc",
+  "energy_web_chain": {
+    "slug": "energy_web_chain",
     "name": "Energy Web Chain",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ewc.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/energy_web_chain.png",
     "providers": {
       "Energy Web Chain": "https://rpc.energyweb.org"
     },
@@ -7123,8 +7123,11 @@
       "existentialDeposit": "0",
       "symbol": "EWT",
       "decimals": 18,
-      "supportSmartContract": null,
-      "abiExplorer": null
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://explorer.energyweb.org/api?module=contract&action=getabi"
     },
     "substrateInfo": null,
     "extraInfo": null
