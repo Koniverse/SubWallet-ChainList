@@ -5599,7 +5599,7 @@
     "slug": "kate",
     "name": "Avail Kate Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kate.png",
     "providers": {
       "AVAIL": "wss://kate.avail.tools/ws"
@@ -7052,7 +7052,7 @@
   },
   "goldberg_testnet": {
     "slug": "goldberg_testnet",
-    "name": "Goldberg Testnet",
+    "name": "Avail Goldberg Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
