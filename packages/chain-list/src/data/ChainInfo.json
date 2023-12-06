@@ -7078,5 +7078,34 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "ewx_testnet": {
+    "slug": "ewx_testnet",
+    "name": "EWX Staging Parachain",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ewx_testnet.png",
+    "providers": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 2000,
+      "genesisHash": "0x89cac7a3b10e408ad81c92013900023f4378713bef4e82c3e3efaf818f009ba4",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "VT",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
