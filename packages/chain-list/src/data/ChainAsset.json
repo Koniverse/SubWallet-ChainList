@@ -7359,5 +7359,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/energy_web_chain-native-ewt.png"
+  },
+  "energy_web_x_rococo-NATIVE-VT": {
+    "originChain": "energy_web_x_rococo",
+    "slug": "energy_web_x_rococo-NATIVE-VT",
+    "name": "VT",
+    "symbol": "VT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/energy_web_x_rococo-native-vt.png"
   }
 }

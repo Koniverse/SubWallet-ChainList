@@ -7131,5 +7131,34 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "energy_web_x_rococo": {
+    "slug": "energy_web_x_rococo",
+    "name": "Energy Web X Rococo",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/energy_web_x_rococo.png",
+    "providers": {
+      "EWX": "wss://public-rpc.testnet.energywebx.com/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 3345,
+      "genesisHash": "0xac123be800b7c9a3e3449bb70edd8e3d9008d27826381451eebf94bce1db1fbe",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "VT",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
