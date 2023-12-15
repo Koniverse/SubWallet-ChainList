@@ -1459,8 +1459,12 @@
     "priceId": "centrifuge",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
+    "metadata": {
+      "onChainInfo": {
+        "Native": null
+      }
+    },
+    "multiChainAsset": "CFG-Centrifuge",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/centrifuge-native-cfg.png"
   },
@@ -7403,5 +7407,55 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/energy_web_x-native-ewt.png"
+  },
+  "acala-LOCAL-INTR": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-INTR",
+    "name": "Interlay",
+    "symbol": "INTR",
+    "decimals": 10,
+    "priceId": "interlay",
+    "minAmount": "1000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 4
+      }
+    },
+    "multiChainAsset": "INTR-Interlay",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-intr.png"
+  },
+  "parallel-LOCAL-ACA": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-ACA",
+    "name": "ACA",
+    "symbol": "ACA",
+    "decimals": 12,
+    "priceId": "acala",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "108"
+    },
+    "multiChainAsset": "ACA-Acala",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/parallel-local-aca.png"
+  },
+  "hydradx_main-LOCAL-CFG": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-CFG",
+    "name": "CFG",
+    "symbol": "CFG",
+    "decimals": 18,
+    "priceId": "centrifuge",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "13"
+    },
+    "multiChainAsset": "CFG-Centrifuge",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-cfg.png"
   }
 }

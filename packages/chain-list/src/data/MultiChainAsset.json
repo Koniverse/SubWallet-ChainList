@@ -385,5 +385,14 @@
     "priceId": "enjincoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/enj-enjin.png"
+  },
+  "CFG-Centrifuge": {
+    "slug": "CFG-Centrifuge",
+    "originChainAsset": "centrifuge-NATIVE-CFG",
+    "name": "Centrifuge",
+    "symbol": "CFG",
+    "priceId": "centrifuge",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/cfg-centrifuge.png"
   }
 }
