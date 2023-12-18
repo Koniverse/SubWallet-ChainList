@@ -5426,7 +5426,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/3dpass.png",
     "providers": {
-      "3dpass": "wss://rpc2.3dpass.org"
+      "3dpass": "wss://rpc2.3dpass.org",
+      "3dpass2": "wss://rpc.3dpass.org",
+      "3dpscan": "wss://rpc.3dpscan.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5436,7 +5438,7 @@
       "addressPrefix": 71,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://3dpscan.io/",
       "existentialDeposit": "1",
       "symbol": "P3D",
       "decimals": 12,
