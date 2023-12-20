@@ -6349,7 +6349,7 @@
     "slug": "energy_web_x",
     "name": "Energy Web X",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/energy_web_x.png",
     "providers": {
       "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
@@ -6358,7 +6358,7 @@
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 3345,
-      "genesisHash": null,
+      "genesisHash": "0x5a51e04b88a4784d205091aa7bada002f3e5da3045e5b05655ee4db2589c33b5",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
