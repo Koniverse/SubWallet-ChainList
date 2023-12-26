@@ -6429,14 +6429,16 @@
     "slug": "zero",
     "name": "Zero",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/zero.png",
-    "providers": {},
+    "providers": {
+      "ZERO.IO": "wss://rpc-1.kusama.node.zero.io"
+    },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "kusama",
       "paraId": 2236,
-      "genesisHash": null,
+      "genesisHash": "0x2991d4125ac465d64c4c0b915fedd7168b5961b7676480636e3747f1ad64cfb9",
       "addressPrefix": null,
       "chainType": null,
       "crowdloanUrl": null,
