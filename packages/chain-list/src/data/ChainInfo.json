@@ -14,7 +14,6 @@
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
-      "Parity": "wss://rpc.polkadot.io",
       "Light Client": "light://substrate-connect/polkadot"
     },
     "evmInfo": null,
@@ -54,7 +53,6 @@
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/kusama",
-      "Parity": "wss://kusama-rpc.polkadot.io",
       "Light Client": "light://substrate-connect/kusama"
     },
     "evmInfo": null,
