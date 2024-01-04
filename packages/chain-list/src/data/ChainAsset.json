@@ -7485,5 +7485,21 @@
     "multiChainAsset": null,
     "hasValue": null,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/invarch-native-varch.png"
+  },
+  "parallel-LOCAL-cdot714": {
+    "originChain": "parallel",
+    "slug": "parallel-LOCAL-cdot714",
+    "name": "cDOT-7/14",
+    "symbol": "cDOT-7/14",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "200070014"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/parallel-local-cdot714.png"
   }
 }
