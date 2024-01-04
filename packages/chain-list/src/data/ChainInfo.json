@@ -1403,6 +1403,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/parallel.png",
     "providers": {
+      "Dwellir": "wss://parallel-rpc.dwellir.com",
       "Parallel": "wss://rpc.parallel.fi"
     },
     "evmInfo": null,
