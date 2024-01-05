@@ -11,7 +11,7 @@
     "metadata": null,
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot-native-dot.png"
   },
   "kusama-NATIVE-KSM": {
     "originChain": "kusama",
@@ -141,7 +141,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-native-dot.png"
   },
   "acala-NATIVE-ACA": {
     "originChain": "acala",
@@ -270,7 +270,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-dot.png"
   },
   "acala-LOCAL-GLMR": {
     "originChain": "acala",
@@ -360,7 +360,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-ldot.png"
   },
   "acala-LOCAL-LcDOT": {
     "originChain": "acala",
@@ -378,7 +378,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-lcdot.png"
   },
   "acala-LOCAL-tDOT": {
     "originChain": "acala",
@@ -428,7 +428,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcdot.png"
   },
   "moonbeam-LOCAL-xcINTR": {
     "originChain": "moonbeam",
@@ -554,7 +554,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-dot.png"
   },
   "astar-LOCAL-USDT": {
     "originChain": "astar",
@@ -754,7 +754,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/equilibrium_parachain-local-dot.png"
   },
   "moonbase-NATIVE-DEV": {
     "originChain": "moonbase",
@@ -1502,7 +1502,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/interlay-local-ldot.png"
   },
   "interlay-LOCAL-USDT": {
     "originChain": "interlay",
@@ -2028,7 +2028,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/genshiro-local-dot.png"
   },
   "genshiro_testnet-NATIVE-TOKEN": {
     "originChain": "genshiro_testnet",
@@ -2574,7 +2574,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-dot.png"
   },
   "pendulum-LOCAL-USDT": {
     "originChain": "pendulum",
@@ -2830,7 +2830,7 @@
     "metadata": null,
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/collectives-native-dot.png"
   },
   "ajunaPolkadot-NATIVE-AJUN": {
     "originChain": "ajunaPolkadot",
@@ -3631,7 +3631,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-ldot.png"
   },
   "astar-LOCAL-ACA": {
     "originChain": "astar",
@@ -4315,7 +4315,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarevm-erc20-dot-0xffffffffffffffffffffffffffffffffffffffff.png"
   },
   "astarEvm-ERC20-ARSW-0xde2578edec4669ba7f41c5d5d2386300bcea4678": {
     "originChain": "astarEvm",
@@ -5327,7 +5327,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-dot-0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
   },
   "binance-ERC20-USDT-0x55d398326f99059fF775485246999027B3197955": {
     "originChain": "binance",
@@ -6393,7 +6393,7 @@
     "metadata": null,
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bridgehubpolkadot-native-dot.png"
   },
   "bridgeHubKusama-NATIVE-KSM": {
     "originChain": "bridgeHubKusama",
@@ -6943,7 +6943,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-dot.png"
   },
   "parallel-LOCAL-sDOT": {
     "originChain": "parallel",
@@ -6959,7 +6959,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/parallel-local-sdot.png"
   },
   "parallel-LOCAL-DOT": {
     "originChain": "parallel",
@@ -6975,7 +6975,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/parallel-local-dot.png"
   },
   "interlay-LOCAL-DOT": {
     "originChain": "interlay",
@@ -6993,7 +6993,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/interlay-local-dot.png"
   },
   "hydradx_main-LOCAL-DOT": {
     "originChain": "hydradx_main",
@@ -7009,7 +7009,7 @@
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-dot.png"
   },
   "acala_evm-NATIVE-ACA": {
     "originChain": "acala_evm",
