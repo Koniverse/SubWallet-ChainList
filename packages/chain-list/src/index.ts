@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/chain-list authors & contributors
+// Copyright 2019-2024 @subwallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import _AssetLogoMap from './data/AssetLogoMap.json';
