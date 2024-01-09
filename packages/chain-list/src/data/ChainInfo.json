@@ -1900,7 +1900,7 @@
       "symbol": "PDEX",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [
