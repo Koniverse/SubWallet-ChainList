@@ -1404,7 +1404,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/parallel.png",
     "providers": {
       "Dwellir": "wss://parallel-rpc.dwellir.com",
-      "Parallel": "wss://rpc.parallel.fi"
+      "Parallel": "wss://polkadot-parallel-rpc.parallel.fi"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1877,7 +1877,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex.png",
     "providers": {
-      "Polkadex Team": "wss://mainnet.polkadex.trade/"
+      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
+      "Dwellir": "wss://polkadex-rpc.dwellir.com",
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5368,7 +5370,7 @@
           "status": "in_auction",
           "startTime": "2024-01-16T01:48:00.000Z",
           "endTime": "2025-11-18T01:48:00.000Z",
-          "auctionIndex": 0,
+          "auctionIndex": 59,
           "firstPeriod": 15,
           "lastPeriod": 22
         },
