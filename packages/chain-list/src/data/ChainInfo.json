@@ -143,7 +143,8 @@
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "1rpc": "wss://1rpc.io/glmr",
       "Blast": "wss://moonbeam.public.blastapi.io",
-      "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws"
+      "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
+      "UnitedBloc": "wss://moonbeam.unitedbloc.com"
     },
     "evmInfo": {
       "evmChainId": 1284,
@@ -390,7 +391,8 @@
       "Acala Foundation 2": "wss://acala-rpc-2.aca-api.network/ws",
       "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
       "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
-      "Dwellir": "wss://acala-rpc.dwellir.com"
+      "Dwellir": "wss://acala-rpc.dwellir.com",
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1146,7 +1148,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
     "providers": {
+      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com",
       "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+      "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -1665,7 +1669,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/interlay.png",
     "providers": {
-      "Kintsugi Labs": "wss://api.interlay.io/parachain"
+      "Kintsugi Labs": "wss://api.interlay.io/parachain",
+      "Dwellir": "wss://interlay-rpc.dwellir.com",
+      "LuckyFriday": "wss://rpc-interlay.luckyfriday.io/"
     },
     "evmInfo": null,
     "substrateInfo": {
