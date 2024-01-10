@@ -7501,5 +7501,19 @@
     "multiChainAsset": null,
     "hasValue": null,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/parallel-local-cdot714.png"
+  },
+  "manta_network_evm-NATIVE-ETH": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-NATIVE-ETH",
+    "name": "Manta Pacific",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": null,
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/manta_network_evm-native-eth.png"
   }
 }

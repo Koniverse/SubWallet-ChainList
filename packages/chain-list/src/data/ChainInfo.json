@@ -7175,5 +7175,29 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "manta_network_evm": {
+    "slug": "manta_network_evm",
+    "name": "Manta Pacific",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/manta_network_evm.png",
+    "providers": {
+      "Manta Pacific": "https://pacific-rpc.manta.network/http"
+    },
+    "evmInfo": {
+      "evmChainId": 169,
+      "blockExplorer": "https://pacific-explorer.manta.network/",
+      "existentialDeposit": null,
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://pacific-explorer.manta.network"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
   }
 }
