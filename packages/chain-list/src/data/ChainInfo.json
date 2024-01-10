@@ -1883,42 +1883,29 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex.png",
     "providers": {
-      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
-      "Dwellir": "wss://polkadex-rpc.dwellir.com",
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
-      "relaySlug": "polkadot",
-      "paraId": 2040,
-      "genesisHash": "0x72f3bba34b1ecd532bccbed46701ad37c4ef329bfe86b7cf014ac06cb92ed47d",
-      "addressPrefix": 89,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
-      "blockExplorer": "https://polkadex-parachain.subscan.io/",
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+      "addressPrefix": 88,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://polkadex.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "PDEX",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": [
-        {
-          "relayChain": "polkadot",
-          "fundId": "2040-36",
-          "paraId": 2040,
-          "status": "won",
-          "startTime": "2022-06-07T01:48:00.000Z",
-          "endTime": "2024-04-09T01:48:00.000Z",
-          "auctionIndex": 16,
-          "firstPeriod": 8,
-          "lastPeriod": 15
-        }
-      ]
+      "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polkadex-parachain"
+      "subscanSlug": "polkadex"
     }
   },
   "polkadexTest": {
@@ -7199,5 +7186,50 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "polkadex_dot": {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex_dot.png",
+    "providers": {
+      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
+      "Dwellir": "wss://polkadex-rpc.dwellir.com",
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 2040,
+      "genesisHash": "0x72f3bba34b1ecd532bccbed46701ad37c4ef329bfe86b7cf014ac06cb92ed47d",
+      "addressPrefix": 89,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
+      "blockExplorer": "https://polkadex-parachain.subscan.io/",
+      "existentialDeposit": "1000000000000",
+      "symbol": "PDEX",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": [
+        {
+          "relayChain": "polkadot",
+          "fundId": "2040-36",
+          "paraId": 2040,
+          "status": "won",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
+          "auctionIndex": 16,
+          "firstPeriod": 8,
+          "lastPeriod": 15
+        }
+      ]
+    },
+    "extraInfo": {
+      "subscanSlug": "polkadex-parachain"
+    }
   }
 }
