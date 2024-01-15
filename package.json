@@ -46,7 +46,7 @@
     "lint": "polkadot-dev-run-lint",
     "postinstall": "polkadot-dev-yarn-only && patch-package",
     "publish:beta": "yarn build:beta && cd ./packages/chain-list/build && npm publish --target --tag beta",
-    "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag lastest",
+    "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag latest",
     "strapi-fetch": "yarn strapi-fetch-chains && yarn strapi-fetch-chain-assets && yarn strapi-multi-chain-assets",
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
     "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit"
