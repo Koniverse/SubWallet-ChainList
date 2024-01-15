@@ -7529,5 +7529,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex_dot-native-pdex.png"
+  },
+  "bifrost-LOCAL-BNCS": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost-LOCAL-BNCS",
+    "name": "Bifrost Polkadot",
+    "symbol": "BNCS",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": null,
+    "icon": null
   }
 }
