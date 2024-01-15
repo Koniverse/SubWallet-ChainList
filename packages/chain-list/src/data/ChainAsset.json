@@ -7539,7 +7539,11 @@
     "priceId": null,
     "minAmount": "10000000000",
     "assetType": "LOCAL",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "9"
+      }
+    },
     "multiChainAsset": null,
     "hasValue": null,
     "icon": null
