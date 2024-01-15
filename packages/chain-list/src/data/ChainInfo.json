@@ -5816,8 +5816,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jur_network.png",
     "providers": {
-      "Jur Archive": "wss://jur-mainnet-archive-rpc-1.icebergnodes.io",
-      "Jur Mainnet": "wss://jur-mainnet-explorer-api.icebergnodes.io/graphql-ws"
+      "Jur Archive": "wss://jur-mainnet-archive-rpc-1.icebergnodes.io"
     },
     "evmInfo": null,
     "substrateInfo": {
