@@ -7530,10 +7530,10 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex_dot-native-pdex.png"
   },
-  "bifrost-LOCAL-BNCS": {
+  "bifrost_dot-LOCAL-BNCS": {
     "originChain": "bifrost_dot",
-    "slug": "bifrost-LOCAL-BNCS",
-    "name": "Bifrost Polkadot",
+    "slug": "bifrost_dot-LOCAL-BNCS",
+    "name": "BNCS Inscription Token",
     "symbol": "BNCS",
     "decimals": 12,
     "priceId": null,
@@ -7546,7 +7546,7 @@
     },
     "multiChainAsset": null,
     "hasValue": null,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-bncs.png"
   },
   "manta_network-NATIVE-MANTA": {
     "originChain": "manta_network",
