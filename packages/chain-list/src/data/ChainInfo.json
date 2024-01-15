@@ -5360,7 +5360,7 @@
           "relayChain": "polkadot",
           "fundId": "2025-75",
           "paraId": 2025,
-          "status": "in_auction",
+          "status": "won",
           "startTime": "2024-01-16T01:48:00.000Z",
           "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 59,
@@ -5816,7 +5816,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jur_network.png",
     "providers": {
-      "DeeperNetwork": "wss://jur-archive-mainnet-1.simplystaking.xyz/VX68C07AR4K2/ws"
+      "Jur Archive": "wss://jur-mainnet-archive-rpc-1.icebergnodes.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6717,25 +6717,27 @@
   },
   "manta_network": {
     "slug": "manta_network",
-    "name": "Manta Network",
+    "name": "Manta Atlantic",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/manta_network.png",
-    "providers": {},
+    "providers": {
+      "Manta Network": "wss://ws.manta.systems"
+    },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 2104,
-      "genesisHash": null,
-      "addressPrefix": null,
+      "genesisHash": "0xf3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
+      "addressPrefix": 77,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://manta.subscan.io/",
-      "existentialDeposit": null,
-      "symbol": null,
-      "decimals": null,
+      "existentialDeposit": "100000000000000000",
+      "symbol": "MANTA",
+      "decimals": 18,
       "hasNativeNft": null,
-      "supportStaking": null,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
