@@ -5744,7 +5744,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/krest_network.png",
     "providers": {
-      "Peaq": "wss://wss-krest.peaq.network/"
+      "Peaq": "wss://wss-krest.peaq.network/",
+      "UnitedBloc": "wss://krest.unitedbloc.com/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5759,7 +5760,7 @@
       "symbol": "KREST",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [
