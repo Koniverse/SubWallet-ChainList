@@ -7554,7 +7554,7 @@
     "name": "Manta Atlantic",
     "symbol": "MANTA",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "manta_network",
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
@@ -7592,6 +7592,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "assetId": "8",
       "onChainInfo": {
         "MantaCurrency": "8"
       }
