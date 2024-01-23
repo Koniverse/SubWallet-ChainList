@@ -7554,7 +7554,7 @@
     "name": "Manta Atlantic",
     "symbol": "MANTA",
     "decimals": 18,
-    "priceId": "manta_network",
+    "priceId": "manta-network",
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
@@ -7607,7 +7607,7 @@
     "name": "Manta Atlantic",
     "symbol": "xcMANTA",
     "decimals": 18,
-    "priceId": "manta_network",
+    "priceId": "manta-network",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
