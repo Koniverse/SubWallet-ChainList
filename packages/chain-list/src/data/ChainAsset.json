@@ -419,7 +419,7 @@
     "symbol": "xcDOT",
     "decimals": 10,
     "priceId": "polkadot",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "42259045809535163221576417993425387648",
@@ -7557,9 +7557,65 @@
     "priceId": null,
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "onChainInfo": {
+        "MantaCurrency": "1"
+      }
+    },
     "multiChainAsset": null,
     "hasValue": null,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network-native-manta.png"
+  },
+  "manta_network_evm-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+    "name": "Manta Pacific",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "priceId": "manta-network",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5"
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-manta-0x95cef13441be50d20ca4558cc0a27b601ac544e5.png"
+  },
+  "manta_network-LOCAL-DOT": {
+    "originChain": "manta_network",
+    "slug": "manta_network-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "MantaCurrency": "8"
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network-local-dot.png"
+  },
+  "moonbeam-LOCAL-xcMANTA": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcMANTA",
+    "name": "Manta Atlantic",
+    "symbol": "xcMANTA",
+    "decimals": 18,
+    "priceId": "manta_network",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "166446646689194205559791995948102903873",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfFFffFFf7D3875460d4509eb8d0362c611B4E841"
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcmanta.png"
   }
 }

@@ -55,6 +55,13 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
+  "polkadot-NATIVE-DOT___manta_network-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "manta_network-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "manta_network",
+    "path": "XCM"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -158,6 +165,13 @@
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "moonbeam",
     "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "moonbeam-LOCAL-xcDOT___manta_network-LOCAL-DOT": {
+    "srcAsset": "moonbeam-LOCAL-xcDOT",
+    "destAsset": "manta_network-LOCAL-DOT",
+    "srcChain": "moonbeam",
+    "destChain": "manta_network",
     "path": "XCM"
   },
   "moonbeam-LOCAL-xcINTR___interlay-NATIVE-INTR": {
@@ -375,6 +389,34 @@
     "destAsset": "centrifuge-NATIVE-CFG",
     "srcChain": "hydradx_main",
     "destChain": "centrifuge",
+    "path": "XCM"
+  },
+  "manta_network-NATIVE-MANTA___moonbeam-LOCAL-xcMANTA": {
+    "srcAsset": "manta_network-NATIVE-MANTA",
+    "destAsset": "moonbeam-LOCAL-xcMANTA",
+    "srcChain": "manta_network",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "manta_network-LOCAL-DOT___polkadot-NATIVE-DOT": {
+    "srcAsset": "manta_network-LOCAL-DOT",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "manta_network",
+    "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "manta_network-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
+    "srcAsset": "manta_network-LOCAL-DOT",
+    "destAsset": "moonbeam-LOCAL-xcDOT",
+    "srcChain": "manta_network",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "moonbeam-LOCAL-xcMANTA___manta_network-NATIVE-MANTA": {
+    "srcAsset": "moonbeam-LOCAL-xcMANTA",
+    "destAsset": "manta_network-NATIVE-MANTA",
+    "srcChain": "moonbeam",
+    "destChain": "manta_network",
     "path": "XCM"
   }
 }

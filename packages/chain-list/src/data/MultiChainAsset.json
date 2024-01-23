@@ -394,5 +394,14 @@
     "priceId": "centrifuge",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/cfg-centrifuge.png"
+  },
+  "MANTA-MantaAtlantic": {
+    "slug": "MANTA-MantaAtlantic",
+    "originChainAsset": "manta_network-NATIVE-MANTA",
+    "name": "Manta Atlantic",
+    "symbol": "MANTA",
+    "priceId": "manta-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/manta-mantaatlantic.png"
   }
 }
