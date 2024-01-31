@@ -5,7 +5,7 @@
     "name": "Polkadot",
     "symbol": "DOT",
     "decimals": 10,
-    "priceId": "bitcoin",
+    "priceId": "polkadot",
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -7632,5 +7632,39 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor_testnet-native-tao.png"
+  },
+  "statemint-LOCAL-PINK": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-PINK",
+    "name": "Statemint",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "23"
+    },
+    "multiChainAsset": "PINK-Statemint",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-pink.png"
+  },
+  "moonbeam-LOCAL-xcPINK": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcPINK",
+    "name": "Moonbeam",
+    "symbol": "xcPINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "42259045809535163221576417993425387648",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfFfFFfFf30478fAFBE935e466da114E14fB3563d"
+    },
+    "multiChainAsset": "PINK-Statemint",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcpink.png"
   }
 }

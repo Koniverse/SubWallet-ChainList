@@ -12,9 +12,7 @@
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "Sắp qua nịt": "wss://polkadot-rpc.subwallet.app",
-      "SubWallet": "wss://magical-bitter-arm.dot-mainnet.quiknode.pro/e7fb380b4b7338e7321b44eb6dda2d8faf8f2800/"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
