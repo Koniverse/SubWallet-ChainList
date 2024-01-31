@@ -6,15 +6,15 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
-      "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
-      "1RPC": "wss://1rpc.io/dot",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
-      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
-      "Light Client": "light://substrate-connect/polkadot"
+      "Light Client": "light://substrate-connect/polkadot",
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+      "Sắp qua nịt": "wss://polkadot-rpc.subwallet.app",
+      "SubWallet": "wss://magical-bitter-arm.dot-mainnet.quiknode.pro/e7fb380b4b7338e7321b44eb6dda2d8faf8f2800/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2728,7 +2728,7 @@
       "addressPrefix": 67,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://genshiro.equilibrium.io/en",
-      "blockExplorer": "https://genshiro.subscan.io/",
+      "blockExplorer": null,
       "existentialDeposit": null,
       "symbol": "GENS",
       "decimals": 9,
@@ -5989,7 +5989,7 @@
       "symbol": "TAO",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [
@@ -7234,5 +7234,34 @@
     "extraInfo": {
       "subscanSlug": "polkadex-parachain"
     }
+  },
+  "bittensor_testnet": {
+    "slug": "bittensor_testnet",
+    "name": "Bittensor Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor_testnet.png",
+    "providers": {
+      "Testnet": "wss://test.finney.opentensor.ai:443"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x8f9cf856bf558a14440e75569c9e58594757048d7b3a84b5d25f6bd978263105",
+      "addressPrefix": 42,
+      "chainType": null,
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "500",
+      "symbol": "TAO",
+      "decimals": 9,
+      "hasNativeNft": null,
+      "supportStaking": true,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
