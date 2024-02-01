@@ -7640,7 +7640,7 @@
     "symbol": "PINK",
     "decimals": 10,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "23"
@@ -7666,5 +7666,41 @@
     "multiChainAsset": "PINK-Statemint",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcpink.png"
+  },
+  "bifrost_dot-LOCAL-vMANTA": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vMANTA",
+    "name": "Voucher MANTA",
+    "symbol": "vMANTA",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-manta",
+    "minAmount": "10000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken2": "8"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vmanta.png"
+  },
+  "bifrost_dot-LOCAL-MANTA": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-MANTA",
+    "name": "Manta Network",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "priceId": "manta-network",
+    "minAmount": "10000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "8"
+      }
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-manta.png"
   }
 }

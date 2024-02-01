@@ -398,6 +398,13 @@
     "destChain": "moonbeam",
     "path": "XCM"
   },
+  "manta_network-NATIVE-MANTA___bifrost_dot-LOCAL-MANTA": {
+    "srcAsset": "manta_network-NATIVE-MANTA",
+    "destAsset": "bifrost_dot-LOCAL-MANTA",
+    "srcChain": "manta_network",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
   "manta_network-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "manta_network-LOCAL-DOT",
     "destAsset": "polkadot-NATIVE-DOT",
@@ -416,6 +423,13 @@
     "srcAsset": "moonbeam-LOCAL-xcMANTA",
     "destAsset": "manta_network-NATIVE-MANTA",
     "srcChain": "moonbeam",
+    "destChain": "manta_network",
+    "path": "XCM"
+  },
+  "bifrost_dot-LOCAL-MANTA___manta_network-NATIVE-MANTA": {
+    "srcAsset": "bifrost_dot-LOCAL-MANTA",
+    "destAsset": "manta_network-NATIVE-MANTA",
+    "srcChain": "bifrost_dot",
     "destChain": "manta_network",
     "path": "XCM"
   }
