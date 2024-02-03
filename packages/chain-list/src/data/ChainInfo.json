@@ -6,6 +6,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
+      "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "1RPC": "wss://1rpc.io/dot",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
@@ -143,7 +144,6 @@
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "1rpc": "wss://1rpc.io/glmr",
       "Blast": "wss://moonbeam.public.blastapi.io",
-      "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
       "UnitedBloc": "wss://moonbeam.unitedbloc.com"
     },
     "evmInfo": {
@@ -2205,7 +2205,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemine.png",
     "providers": {
       "Dwellir": "wss://statemine-rpc.dwellir.com",
-      "RadiumBlock": "wss://statemine.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
     },
     "evmInfo": null,
@@ -3594,7 +3593,7 @@
     "slug": "subspace_gemini_2a",
     "name": "Subspace Gemini 2a",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_2a.png",
     "providers": {
       "Europe 0": "wss://eu-0.gemini-2a.subspace.network/ws"
@@ -3704,7 +3703,7 @@
     "slug": "subspace_gemini_3f",
     "name": "Subspace Gemini 3f",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3f.png",
     "providers": {
       "Gemini 3f": "wss://rpc-0.gemini-3f.subspace.network/ws"
@@ -5989,7 +5988,7 @@
       "symbol": "TAO",
       "decimals": 9,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [
@@ -7198,7 +7197,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex_dot.png",
     "providers": {
       "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
-      "Dwellir": "wss://polkadex-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -7239,7 +7237,7 @@
     "slug": "bittensor_testnet",
     "name": "Bittensor Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor_testnet.png",
     "providers": {
       "Testnet": "wss://test.finney.opentensor.ai:443"
@@ -7258,6 +7256,35 @@
       "decimals": 9,
       "hasNativeNft": null,
       "supportStaking": true,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "subspace_gemini_3h": {
+    "slug": "subspace_gemini_3h",
+    "name": "Subspace Gemini 3h",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3h.png",
+    "providers": {
+      "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x0c121c75f4ef450f40619e1fca9d1e8e7fbabc42c895bc4790801e85d5a91c34",
+      "addressPrefix": 2254,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "500",
+      "symbol": "tSSC",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
