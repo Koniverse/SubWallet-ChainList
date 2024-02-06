@@ -7618,5 +7618,83 @@
     "multiChainAsset": "MANTA-MantaAtlantic",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcmanta.png"
+  },
+  "bittensor_testnet-NATIVE-TAO": {
+    "originChain": "bittensor_testnet",
+    "slug": "bittensor_testnet-NATIVE-TAO",
+    "name": "Bittensor Testnet",
+    "symbol": "TAO",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor_testnet-native-tao.png"
+  },
+  "bifrost_dot-LOCAL-vMANTA": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vMANTA",
+    "name": "Voucher MANTA",
+    "symbol": "vMANTA",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-manta",
+    "minAmount": "10000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken2": "8"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vmanta.png"
+  },
+  "bifrost_dot-LOCAL-MANTA": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-MANTA",
+    "name": "Manta Network",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "priceId": "manta-network",
+    "minAmount": "10000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "8"
+      }
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-manta.png"
+  },
+  "subspace_gemini_3h-NATIVE-tSSC": {
+    "originChain": "subspace_gemini_3h",
+    "slug": "subspace_gemini_3h-NATIVE-tSSC",
+    "name": "Subspace Gemini 3h",
+    "symbol": "tSSC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/subspace_gemini_3h-native-tssc.png"
+  },
+  "continuum_network-NATIVE-NUUM": {
+    "originChain": "continuum_network",
+    "slug": "continuum_network-NATIVE-NUUM",
+    "name": "Continuum Network",
+    "symbol": "NUUM",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/continuum_network-native-nuum.png"
   }
 }
