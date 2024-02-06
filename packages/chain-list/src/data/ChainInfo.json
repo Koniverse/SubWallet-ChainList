@@ -7290,5 +7290,34 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "continuum_network": {
+    "slug": "continuum_network",
+    "name": "Continuum Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Continuum RPC Node": "wss://continuum-rpc-1.metaverse.network/wss"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 3346,
+      "genesisHash": "0xae1ca86c936aa252cdc45f4f436220567b2bbbcc4834f5b8f4191462baf19dfb",
+      "addressPrefix": 268,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "100000000000000000",
+      "symbol": "NUUM",
+      "decimals": 18,
+      "hasNativeNft": true,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
