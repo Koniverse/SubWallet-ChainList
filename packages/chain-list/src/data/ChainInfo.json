@@ -7296,7 +7296,7 @@
     "name": "Continuum Network",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/continuum_network.png",
     "providers": {
       "Continuum RPC Node": "wss://continuum-rpc-1.metaverse.network/wss"
     },
