@@ -7,7 +7,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
       "Dwellir": "wss://polkadot-rpc.dwellir.com",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "1RPC": "wss://1rpc.io/dot",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
@@ -47,7 +46,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png",
     "providers": {
       "Dwellir": "wss://kusama-rpc.dwellir.com",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "1RPC": "wss://1rpc.io/ksm",
       "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
@@ -354,8 +352,11 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
     "providers": {
       "Dwellir": "wss://statemint-rpc.dwellir.com",
-      "RadiumBlock": "wss://statemint.public.curie.radiumblock.co/ws",
-      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
+      "IBP-GeoDNS1": "wss://sys.ibp.network/statemint",
+      "IBP-GeoDNS2": "wss://sys.dotters.network/statemint",
+      "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
+      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2205,7 +2206,11 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemine.png",
     "providers": {
       "Dwellir": "wss://statemine-rpc.dwellir.com",
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
+      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
+      "IBP-GeoDNS1": "wss://sys.ibp.network/statemine",
+      "IBP-GeoDNS2": "wss://sys.dotters.network/statemine",
+      "Lucky Friday": "wss://rpc-asset-hub-kusama.luckyfriday.io",
+      "Stake World": "wss://ksm-rpc.stakeworld.io/assethub"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3788,7 +3793,7 @@
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://subspace.subscan.io/",
+      "blockExplorer": null,
       "existentialDeposit": "500",
       "symbol": "tSSC",
       "decimals": 18,
@@ -3798,9 +3803,7 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": {
-      "subscanSlug": "subspace"
-    }
+    "extraInfo": null
   },
   "dorafactory": {
     "slug": "dorafactory",
@@ -5566,7 +5569,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png",
     "providers": {
-      "Vara": "wss://rpc.vara-network.io"
+      "Vara": "wss://rpc.vara-network.io",
+      "Vara Network": "wss://rpc.vara.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7279,7 +7283,7 @@
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://subspace.subscan.io/",
       "existentialDeposit": "500",
       "symbol": "tSSC",
       "decimals": 18,
@@ -7289,7 +7293,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "subspace"
+    }
   },
   "continuum_network": {
     "slug": "continuum_network",

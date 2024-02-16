@@ -7633,6 +7633,40 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor_testnet-native-tao.png"
   },
+  "statemint-LOCAL-PINK": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-PINK",
+    "name": "Statemint",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "23"
+    },
+    "multiChainAsset": "PINK-Statemint",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-pink.png"
+  },
+  "moonbeam-LOCAL-xcPINK": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcPINK",
+    "name": "Moonbeam",
+    "symbol": "xcPINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "42259045809535163221576417993425387648",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfFfFFfFf30478fAFBE935e466da114E14fB3563d"
+    },
+    "multiChainAsset": "PINK-Statemint",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcpink.png"
+  },
   "bifrost_dot-LOCAL-vMANTA": {
     "originChain": "bifrost_dot",
     "slug": "bifrost_dot-LOCAL-vMANTA",
@@ -7696,5 +7730,21 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/continuum_network-native-nuum.png"
+  },
+  "hydradx_main-LOCAL-INTR": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-INTR",
+    "name": "Interlay",
+    "symbol": "INTR",
+    "decimals": 10,
+    "priceId": "interlay",
+    "minAmount": "6164274209",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "17"
+    },
+    "multiChainAsset": "INTR-Interlay",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-intr.png"
   }
 }
