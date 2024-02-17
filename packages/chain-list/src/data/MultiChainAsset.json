@@ -404,13 +404,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/manta-mantaatlantic.png"
   },
-  "PINK-Statemint": {
-    "slug": "PINK-Statemint",
-    "originChainAsset": null,
-    "name": "PINK",
+  "PINK-StatemintPink": {
+    "slug": "PINK-StatemintPink",
+    "originChainAsset": "statemint-LOCAL-PINK",
+    "name": "Statemint Pink",
     "symbol": "PINK",
     "priceId": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/pink-statemint.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/pink-statemintpink.png"
   }
 }

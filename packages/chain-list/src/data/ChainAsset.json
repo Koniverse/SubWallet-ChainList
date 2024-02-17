@@ -7636,7 +7636,7 @@
   "statemint-LOCAL-PINK": {
     "originChain": "statemint",
     "slug": "statemint-LOCAL-PINK",
-    "name": "Statemint",
+    "name": "Statemint Pink",
     "symbol": "PINK",
     "decimals": 10,
     "priceId": null,
@@ -7645,25 +7645,25 @@
     "metadata": {
       "assetId": "23"
     },
-    "multiChainAsset": "PINK-Statemint",
+    "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-pink.png"
   },
   "moonbeam-LOCAL-xcPINK": {
     "originChain": "moonbeam",
     "slug": "moonbeam-LOCAL-xcPINK",
-    "name": "Moonbeam",
+    "name": "Pink",
     "symbol": "xcPINK",
     "decimals": 10,
     "priceId": null,
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "42259045809535163221576417993425387648",
+      "assetId": "64174511183114006009298114091987195453",
       "assetType": "ForeignAsset",
       "contractAddress": "0xfFfFFfFf30478fAFBE935e466da114E14fB3563d"
     },
-    "multiChainAsset": "PINK-Statemint",
+    "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcpink.png"
   },
