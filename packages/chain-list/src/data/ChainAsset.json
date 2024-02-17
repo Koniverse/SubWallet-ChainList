@@ -437,7 +437,7 @@
     "symbol": "xcINTR",
     "decimals": 10,
     "priceId": "interlay",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "101170542313601871197860408087030232491",
@@ -455,7 +455,7 @@
     "symbol": "xciBTC",
     "decimals": 8,
     "priceId": "interbtc",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "120637696315203257380661607956669368914",
@@ -473,7 +473,7 @@
     "symbol": "xcACA",
     "decimals": 12,
     "priceId": "acala",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "224821240862170613278369189818311486111",
@@ -491,7 +491,7 @@
     "symbol": "xcaUSD",
     "decimals": 12,
     "priceId": "acala-dollar-acala",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "110021739665376159354538090254163045594",
@@ -1795,7 +1795,7 @@
     "symbol": "KSM",
     "decimals": 12,
     "priceId": "kusama",
-    "minAmount": "33333333",
+    "minAmount": "3333333",
     "assetType": "NATIVE",
     "metadata": {
       "multilocation": {
@@ -3672,7 +3672,7 @@
     "symbol": "xcKAR",
     "decimals": 12,
     "priceId": "karura",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "10810581592933651521121702237638664357",
@@ -3777,7 +3777,7 @@
     "symbol": "USDt",
     "decimals": 6,
     "priceId": "tether",
-    "minAmount": "1000",
+    "minAmount": "100",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1984"
@@ -3793,7 +3793,7 @@
     "symbol": "RMRK",
     "decimals": 10,
     "priceId": "rmrk",
-    "minAmount": "100000",
+    "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "8"
@@ -6916,7 +6916,7 @@
     "symbol": "xcASTR",
     "decimals": 18,
     "priceId": "astar",
-    "minAmount": "0",
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "224077081838586484055667086558292981199",
@@ -7046,7 +7046,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "priceId": "usd-coin",
-    "minAmount": "1000",
+    "minAmount": "700000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1337",
