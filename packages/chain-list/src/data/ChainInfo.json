@@ -7325,5 +7325,35 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "rococo_assethub": {
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo_assethub.png",
+    "providers": {
+      "Dwellir": "wss://rococo-asset-hub-rpc.dwellir.com",
+      "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "rococo",
+      "paraId": 1000,
+      "genesisHash": "0x7c34d42fc815d392057c78b49f2755c753440ccd38bcb0405b3bcfb601d08734",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "3333333",
+      "symbol": "ROC",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
