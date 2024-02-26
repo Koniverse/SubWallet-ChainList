@@ -7771,6 +7771,7 @@
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
+      "isBridged": true,
       "multilocation": {
         "parents": 2,
         "interior": {
