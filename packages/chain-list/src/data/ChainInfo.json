@@ -7,7 +7,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
       "Dwellir": "wss://polkadot-rpc.dwellir.com",
-      "1RPC": "wss://1rpc.io/dot",
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
@@ -46,7 +46,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png",
     "providers": {
       "Dwellir": "wss://kusama-rpc.dwellir.com",
-      "1RPC": "wss://1rpc.io/ksm",
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
@@ -4186,7 +4186,7 @@
       "symbol": "CAPS",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
