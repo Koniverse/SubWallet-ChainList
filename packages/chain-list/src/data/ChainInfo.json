@@ -7380,5 +7380,63 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "liberlandTest": {
+    "slug": "liberlandTest",
+    "name": "Liberland Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/liberlandtest.png",
+    "providers": {
+      "Liberland": "wss://testchain.liberland.org"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x131a8f81116a6ee880aa5f84b16115499a50f5f8dccfed80d87e204ec9203f3c",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "LDN",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "liberland": {
+    "slug": "liberland",
+    "name": "Liberland",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/liberland.png",
+    "providers": {
+      "Liberland": "wss://mainnet.liberland.org"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x6bd89e052d67a45bb60a9a23e8581053d5e0d619f15cb9865946937e690c42d6",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "LLD",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
