@@ -7355,5 +7355,30 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "okxTest": {
+    "slug": "okxTest",
+    "name": "OKX X1 testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/okxtest.png",
+    "providers": {
+      "Testrpc": "https://testrpc.x1.tech/",
+      "X1testrpc": "https://x1testrpc.okx.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 195,
+      "blockExplorer": "https://www.okx.com/nl/explorer/x1-test",
+      "existentialDeposit": "0",
+      "symbol": "OKB",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://www.okx.com/nl/explorer/x1-test"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
   }
 }
