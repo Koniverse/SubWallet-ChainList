@@ -7854,5 +7854,35 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/liberland-local-llm.png"
+  },
+  "chainflip_dot-NATIVE-pDOT": {
+    "originChain": "chainflip_dot",
+    "slug": "chainflip_dot-NATIVE-pDOT",
+    "name": "pDot (Chainflip-Polkadot)",
+    "symbol": "pDOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
+  "ethereum_goerli-ERC20-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
+    "originChain": "ethereum_goerli",
+    "slug": "ethereum_goerli-ERC20-0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+    "name": "USDC Goerli",
+    "symbol": "USDC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-erc20-0x07865c6e87b9f70255377e024ace6630c1eaa37f.png"
   }
 }

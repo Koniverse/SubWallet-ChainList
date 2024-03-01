@@ -7438,5 +7438,34 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "chainflip_dot": {
+    "slug": "chainflip_dot",
+    "name": "Chainflip-Polkadot",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Chainflip": "wss://rpc-pdot.chainflip.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xe566d149729892a803c3c4b1e652f09445926234d956a0f166be4d4dea91f536",
+      "addressPrefix": 0,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000",
+      "symbol": "pDOT",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
