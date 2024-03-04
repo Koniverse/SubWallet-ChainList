@@ -7884,5 +7884,53 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-erc20-0x07865c6e87b9f70255377e024ace6630c1eaa37f.png"
+  },
+  "hydradx_main-LOCAL-ASTR": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-ASTR",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "147058823529412000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "9"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png"
+  },
+  "hydradx_main-LOCAL-BNC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-BNC",
+    "name": "Bifrost Native Coin",
+    "symbol": "BNC",
+    "decimals": 12,
+    "priceId": "bifrost-native-coin",
+    "minAmount": "68795189840",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "14"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-bnc.png"
+  },
+  "hydradx_main-LOCAL-GLMR": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-GLMR",
+    "name": "Moonbeam",
+    "symbol": "GLMR",
+    "decimals": 18,
+    "priceId": "moonbeam",
+    "minAmount": "34854864344868000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "16"
+    },
+    "multiChainAsset": "GLMR-Moonbeam",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-glmr.png"
   }
 }
