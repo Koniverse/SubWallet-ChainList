@@ -1010,7 +1010,7 @@
     "originChain": "calamari",
     "slug": "calamari-LOCAL-AUSD",
     "name": "Acala Dollar",
-    "symbol": "aUSD",
+    "symbol": "AUSD",
     "decimals": 12,
     "priceId": "acala-dollar",
     "minAmount": "10000000000",
@@ -1302,11 +1302,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pioneer-local-bit.png"
   },
-  "ethereum_goerli-NATIVE-GoerliETH": {
+  "ethereum_goerli-NATIVE-ETH": {
     "originChain": "ethereum_goerli",
-    "slug": "ethereum_goerli-NATIVE-GoerliETH",
+    "slug": "ethereum_goerli-NATIVE-ETH",
     "name": "Ethereum Testnet (Goerli)",
-    "symbol": "GoerliETH",
+    "symbol": "ETH",
     "decimals": 18,
     "priceId": null,
     "minAmount": "0",
@@ -1314,13 +1314,13 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-native-goerlieth.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-native-eth.png"
   },
-  "binance_test-NATIVE-BNB": {
+  "binance_test-NATIVE-tBNB": {
     "originChain": "binance_test",
-    "slug": "binance_test-NATIVE-BNB",
+    "slug": "binance_test-NATIVE-tBNB",
     "name": "Binance Smart Chain (Testnet)",
-    "symbol": "BNB",
+    "symbol": "tBNB",
     "decimals": 18,
     "priceId": null,
     "minAmount": "0",
@@ -1328,7 +1328,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance_test-native-bnb.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance_test-native-tbnb.png"
   },
   "parallel-NATIVE-PARA": {
     "originChain": "parallel",
@@ -1607,9 +1607,9 @@
     "slug": "sora_ksm-NATIVE-XOR",
     "name": "SORA Kusama",
     "symbol": "XOR",
-    "decimals": 12,
+    "decimals": 18,
     "priceId": "sora",
-    "minAmount": "1000000000",
+    "minAmount": "1000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -2202,11 +2202,11 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pangolin-native-pring.png"
   },
-  "pangolin-LOCAL-CKTON": {
+  "pangolin-LOCAL-PKTON": {
     "originChain": "pangolin",
-    "slug": "pangolin-LOCAL-CKTON",
+    "slug": "pangolin-LOCAL-PKTON",
     "name": "Crab Commitment Token",
-    "symbol": "CKTON",
+    "symbol": "PKTON",
     "decimals": 18,
     "priceId": null,
     "minAmount": "1",
@@ -2216,7 +2216,7 @@
     },
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pangolin-local-ckton.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pangolin-local-pkton.png"
   },
   "chainx-NATIVE-PCX": {
     "originChain": "chainx",
@@ -2239,7 +2239,7 @@
     "symbol": "ACA",
     "decimals": 12,
     "priceId": null,
-    "minAmount": "0",
+    "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -3514,11 +3514,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xceqd.png"
   },
-  "moonriver-LOCAL-xcaUSD": {
+  "moonriver-LOCAL-xcaSeed": {
     "originChain": "moonriver",
-    "slug": "moonriver-LOCAL-xcaUSD",
+    "slug": "moonriver-LOCAL-xcaSeed",
     "name": "Karura USD",
-    "symbol": "xcaUSD",
+    "symbol": "xcaSeed",
     "decimals": 12,
     "priceId": "acala-dollar",
     "minAmount": "1",
@@ -3530,7 +3530,7 @@
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonriver-local-xcausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonriver-local-xcaseed.png"
   },
   "moonriver-LOCAL-xcKINT": {
     "originChain": "moonriver",
@@ -3550,11 +3550,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonriver-local-xckint.png"
   },
-  "moonriver-LOCAL-xckBTC": {
+  "moonriver-LOCAL-xcKBTC": {
     "originChain": "moonriver",
-    "slug": "moonriver-LOCAL-xckBTC",
+    "slug": "moonriver-LOCAL-xcKBTC",
     "name": "Kintsugi Wrapped BTC",
-    "symbol": "xckBTC",
+    "symbol": "xcKBTC",
     "decimals": 8,
     "priceId": "kintsugi-btc",
     "minAmount": "1",
@@ -3586,14 +3586,14 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonriver-local-xcbnc.png"
   },
-  "astar-LOCAL-aUSD": {
+  "astar-LOCAL-aSEED": {
     "originChain": "astar",
-    "slug": "astar-LOCAL-aUSD",
+    "slug": "astar-LOCAL-aSEED",
     "name": "Acala USD",
-    "symbol": "aUSD",
+    "symbol": "aSEED",
     "decimals": 12,
     "priceId": "acala-dollar-acala",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "18446744073709551617",
@@ -3615,7 +3615,7 @@
     },
     "multiChainAsset": "aUSD-AcalaDollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-ausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-aseed.png"
   },
   "astar-LOCAL-LDOT": {
     "originChain": "astar",
@@ -3649,11 +3649,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-aca.png"
   },
-  "astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001": {
+  "astarEvm-ERC20-aSEED-0xfFFFFfFF00000000000000010000000000000001": {
     "originChain": "astarEvm",
-    "slug": "astarEvm-ERC20-aUSD-0xfFFFFfFF00000000000000010000000000000001",
+    "slug": "astarEvm-ERC20-aSEED-0xfFFFFfFF00000000000000010000000000000001",
     "name": "Acala Dollar",
-    "symbol": "aUSD",
+    "symbol": "aSEED",
     "decimals": 12,
     "priceId": "acala-dollar-acala",
     "minAmount": null,
@@ -3663,7 +3663,7 @@
     },
     "multiChainAsset": "aUSD-AcalaDollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarevm-erc20-ausd-0xffffffff00000000000000010000000000000001.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarevm-erc20-aseed-0xffffffff00000000000000010000000000000001.png"
   },
   "moonriver-LOCAL-xcKAR": {
     "originChain": "moonriver",
@@ -3701,14 +3701,14 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/karura-local-aseed.png"
   },
-  "shiden-LOCAL-aUSD": {
+  "shiden-LOCAL-aSEED": {
     "originChain": "shiden",
-    "slug": "shiden-LOCAL-aUSD",
+    "slug": "shiden-LOCAL-aSEED",
     "name": "Karura USD",
-    "symbol": "aUSD",
+    "symbol": "aSEED",
     "decimals": 12,
     "priceId": "acala-dollar",
-    "minAmount": null,
+    "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "18446744073709551616",
@@ -3716,13 +3716,13 @@
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-ausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-aseed.png"
   },
-  "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000": {
+  "shidenEvm-ERC20-aSEED-0xfFFfFFfF00000000000000010000000000000000": {
     "originChain": "shidenEvm",
-    "slug": "shidenEvm-ERC20-aUSD-0xfFFfFFfF00000000000000010000000000000000",
+    "slug": "shidenEvm-ERC20-aSEED-0xfFFfFFfF00000000000000010000000000000000",
     "name": "Karura USD",
-    "symbol": "aUSD",
+    "symbol": "aSEED",
     "decimals": 12,
     "priceId": "acala-dollar",
     "minAmount": null,
@@ -3732,13 +3732,13 @@
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-ausd-0xffffffff00000000000000010000000000000000.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-aseed-0xffffffff00000000000000010000000000000000.png"
   },
-  "bifrost-LOCAL-aUSD": {
+  "bifrost-LOCAL-KUSD": {
     "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-aUSD",
+    "slug": "bifrost-LOCAL-KUSD",
     "name": "Karura USD",
-    "symbol": "aUSD",
+    "symbol": "KUSD",
     "decimals": 12,
     "priceId": "acala-dollar",
     "minAmount": "100000000",
@@ -3750,7 +3750,7 @@
     },
     "multiChainAsset": "aUSD-KaruraDollar",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-ausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-kusd.png"
   },
   "bifrost-LOCAL-KAR": {
     "originChain": "bifrost",
@@ -4058,11 +4058,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-flare-0xe3e43888fa7803cdc7bea478ab327cf1a0dc11a7.png"
   },
-  "moonbeam-ERC20-CSG-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": {
+  "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": {
     "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-CSG-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F",
+    "slug": "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F",
     "name": "Cougar",
-    "symbol": "CSG",
+    "symbol": "CGS",
     "decimals": 18,
     "priceId": null,
     "minAmount": null,
@@ -4072,7 +4072,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-csg-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png"
   },
   "moonbeam-ERC20-WELL-0x511ab53f793683763e5a8829738301368a2411e3": {
     "originChain": "moonbeam",
@@ -5681,13 +5681,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-1inch-0x111111111117dc0aa78b770fa6a738034120c302.png"
   },
-  "ethereum-ERC20-WFTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
+  "ethereum-ERC20-FTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
     "originChain": "ethereum",
-    "slug": "ethereum-ERC20-WFTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
-    "name": "Wrapped Fantom",
-    "symbol": "WFTM",
+    "slug": "ethereum-ERC20-FTM-0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+    "name": "Fantom Token",
+    "symbol": "FTM",
     "decimals": 18,
-    "priceId": "wrapped-fantom",
+    "priceId": "fantom",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -5695,7 +5695,7 @@
     },
     "multiChainAsset": "FTM-Fantom",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-wftm-0x4e15361fd6b4bb609fa63c81a2be19d873717870.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ftm-0x4e15361fd6b4bb609fa63c81a2be19d873717870.png"
   },
   "ethereum-ERC20-MKR-0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
     "originChain": "ethereum",
@@ -7150,11 +7150,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
   },
-  "zeta_test-NATIVE-aZETA": {
+  "zeta_test-NATIVE-ZETA": {
     "originChain": "zeta_test",
-    "slug": "zeta_test-NATIVE-aZETA",
-    "name": "aZETA",
-    "symbol": "aZETA",
+    "slug": "zeta_test-NATIVE-ZETA",
+    "name": "ZETA",
+    "symbol": "ZETA",
     "decimals": 18,
     "priceId": null,
     "minAmount": "0",
@@ -7162,7 +7162,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-azeta.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeta_test-native-zeta.png"
   },
   "xcavate-NATIVE-XCAV": {
     "originChain": "xcavate",
@@ -7869,9 +7869,9 @@
     "hasValue": false,
     "icon": null
   },
-  "ethereum_goerli-ERC20-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
+  "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
     "originChain": "ethereum_goerli",
-    "slug": "ethereum_goerli-ERC20-0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+    "slug": "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
     "name": "USDC Goerli",
     "symbol": "USDC",
     "decimals": 18,
@@ -7883,7 +7883,7 @@
     },
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-erc20-0x07865c6e87b9f70255377e024ace6630c1eaa37f.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-erc20-usdc-0x07865c6e87b9f70255377e024ace6630c1eaa37f.png"
   },
   "hydradx_main-LOCAL-ASTR": {
     "originChain": "hydradx_main",

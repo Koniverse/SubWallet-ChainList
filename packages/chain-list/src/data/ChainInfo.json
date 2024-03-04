@@ -1365,7 +1365,7 @@
       "evmChainId": 5,
       "blockExplorer": "https://goerli.etherscan.io",
       "existentialDeposit": "0",
-      "symbol": "GoerliETH",
+      "symbol": "ETH",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",
@@ -1390,7 +1390,7 @@
       "evmChainId": 97,
       "blockExplorer": "https://testnet.bscscan.com",
       "existentialDeposit": "0",
-      "symbol": "BNB",
+      "symbol": "tBNB",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",
@@ -1814,9 +1814,9 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "blockExplorer": null,
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "1000000000000000",
       "symbol": "XOR",
-      "decimals": 12,
+      "decimals": 18,
       "hasNativeNft": false,
       "supportStaking": false,
       "supportSmartContract": null,
@@ -6912,7 +6912,7 @@
       "evmChainId": 7001,
       "blockExplorer": "https://zetachain-athens-3.blockscout.com/",
       "existentialDeposit": "0",
-      "symbol": "aZETA",
+      "symbol": "ZETA",
       "decimals": 18,
       "supportSmartContract": null,
       "abiExplorer": null
