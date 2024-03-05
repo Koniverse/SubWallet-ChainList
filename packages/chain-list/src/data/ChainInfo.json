@@ -7444,7 +7444,7 @@
     "name": "Chainflip-Polkadot",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_dot.png",
     "providers": {
       "Chainflip": "wss://rpc-pdot.chainflip.io"
     },
