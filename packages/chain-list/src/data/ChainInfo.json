@@ -83,7 +83,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ethereum.png",
     "providers": {
-      "Llamarpc": "https://eth.llamarpc.com",
       "PublicNode": "https://ethereum.publicnode.com",
       "Cloudflare": "https://cloudflare-eth.com",
       "BlastApi": "https://eth-mainnet.public.blastapi.io",
@@ -436,6 +435,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygon.png",
     "providers": {
+      "Polygon Scan": "https://polygon-rpc.com/",
       "Llamarpc": "https://polygon.llamarpc.com",
       "BlastApi": "https://polygon-mainnet.public.blastapi.io",
       "BorPublicNode": "https://polygon-bor.publicnode.com"
@@ -487,6 +487,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/optimism.png",
     "providers": {
+      "Kyber Engineering": "https://optimism.kyberengineering.io",
       "BlastApi": "https://optimism-mainnet.public.blastapi.io"
     },
     "evmInfo": {
@@ -909,8 +910,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbase.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
-      "Blast": "wss://moonbase-alpha.public.blastapi.io",
-      "OnFinality": "wss://moonbeam-alpha.api.onfinality.io/public-ws"
+      "Blast": "wss://moonbase-alpha.public.blastapi.io"
     },
     "evmInfo": {
       "evmChainId": 1287,
@@ -1408,8 +1408,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/parallel.png",
     "providers": {
-      "Dwellir": "wss://parallel-rpc.dwellir.com",
-      "Parallel": "wss://polkadot-parallel-rpc.parallel.fi"
+      "Dwellir": "wss://parallel-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1803,7 +1802,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sora_ksm.png",
     "providers": {
-      "Soramitsu": "wss://ws.parachain-collator-1.c1.sora2.soramitsu.co.jp"
+      "Soramitsu": "wss://ws.parachain-collator-2.c2.sora2.soramitsu.co.jp"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2009,10 +2008,10 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 2037,
       "genesisHash": "0xc87870ef90a438d574b8e320f17db372c50f62beb52e479c8ff6ee5b460670b9",
       "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
@@ -2545,7 +2544,7 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 2092,
       "genesisHash": "0xe3a1cf3db108e3e45c63a4841fe89ba95108b1db14fdec10c2e8a078ff322a67",
       "addressPrefix": 2092,
       "chainType": "RELAYCHAIN",
@@ -3269,13 +3268,13 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 2000,
       "genesisHash": "0x3035b88c212be330a1a724c675d56d53a5016ec32af1790738832db0227ac54c",
       "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://acala-testnet.subscan.io/",
-      "existentialDeposit": null,
+      "existentialDeposit": "100000000000",
       "symbol": "ACA",
       "decimals": 12,
       "hasNativeNft": false,
@@ -4205,10 +4204,10 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 2084,
       "genesisHash": "0x53a6ab000c8c3c1015747a1e3ea237a327c77df3e59d142801a23b25163d4f45",
       "addressPrefix": 78,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "100000000000",
@@ -4284,10 +4283,10 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 2000,
       "genesisHash": "0xa0c6e3bac382b316a68bca7141af1fba507207594c761076847ce358aeedcc21",
       "addressPrefix": 38,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://kilt-testnet.subscan.io/",
       "existentialDeposit": "10000000000000",
@@ -4595,7 +4594,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ajunapolkadot.png",
     "providers": {
-      "viaAjunaNetwork": "wss://rpc-parachain.ajuna.network",
       "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -4993,7 +4991,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/automata.png",
     "providers": {
-      "Automata Network": "wss://api.ata.network",
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -5545,7 +5542,7 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 2056,
       "genesisHash": "0xa6ffcef7fb8caadf7f6c5ad8ada65e3eaa90d1604f3eabda546ff1d486865a0c",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
@@ -5873,6 +5870,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png",
     "providers": {
+      "Avax Network": "https://api.avax.network/ext/bc/C/rpc",
       "PublicNode": "https://avalanche-c-chain.publicnode.com"
     },
     "evmInfo": {
@@ -7441,7 +7439,7 @@
   },
   "chainflip_dot": {
     "slug": "chainflip_dot",
-    "name": "Chainflip-Polkadot",
+    "name": "Polkadot Chainflip Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_dot.png",
@@ -7460,6 +7458,93 @@
       "existentialDeposit": "10000000000",
       "symbol": "pDOT",
       "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "tangleTest": {
+    "slug": "tangleTest",
+    "name": "Tangle Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tangletest.png",
+    "providers": {
+      "Webb": "wss://testnet-rpc.tangle.tools"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x3d22af97d919611e03bbcbda96f65988758865423e89b2d99547a6bb61452db3",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000000",
+      "symbol": "tTNT",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "dentnet": {
+    "slug": "dentnet",
+    "name": "DENTNet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dentnet.png",
+    "providers": {
+      "Dentnet": "wss://rpc.dentnet.io/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x0313f6a011d128d22f996703cbab05162e2fdc9e031493314fe6db79979c5ca7",
+      "addressPrefix": 9807,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000",
+      "symbol": "DENTX",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "phykenTest": {
+    "slug": "phykenTest",
+    "name": "Phyken Network Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/phykentest.png",
+    "providers": {
+      "null": null
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x1072ec50040d7d42226e34d1ce90d9401ed9506a0ae16390ce6e18df99a1c4e4",
+      "addressPrefix": 666,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000",
+      "symbol": "KEN",
+      "decimals": 18,
       "hasNativeNft": null,
       "supportStaking": null,
       "supportSmartContract": null,
