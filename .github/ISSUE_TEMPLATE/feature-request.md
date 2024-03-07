@@ -3,8 +3,8 @@ name: Feature request
 about: Suggest an idea for this project
 title: "[Blockchain] [Your project name (optional)] [Asset symbol (optional)] A short
   description of your issue"
-labels: integration, requested-by-partner
-assignees: NamPhamc99, Sokol142196
+labels: ''
+assignees: nampc1
 
 ---
 
@@ -21,8 +21,6 @@ assignees: NamPhamc99, Sokol142196
 - Github
 - Any grant information you can provide (W3F Grants, Substrate Builders Program,...) (optional)
 
-Please tag @RyanDinh8 or @Mabel-Nguyen if you want to discuss business
-
 **If you want to integrate a chain, you would need to provide**
 - Name of the blockchain
 - Type of the blockchain (can be Substrate, EVM or both)
@@ -38,6 +36,7 @@ Please tag @RyanDinh8 or @Mabel-Nguyen if you want to discuss business
 - Metadata of the asset (symbol, decimals, smart contract address, on-chain metadata like assetId,...)
 - Logo of the token
 - Is your asset transferable?
+- Is your asset listed on any exchange? Can you provide a price key? (we use price service from Coingecko)
 
 Note:
 - If you want to add a smart contract asset, then you would need to provide proof that your project is active and there are users/holders
