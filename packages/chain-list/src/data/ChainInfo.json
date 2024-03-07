@@ -4745,7 +4745,7 @@
     "slug": "kapex",
     "name": "Kapex",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kapex.png",
     "providers": {
       "viaTotem": "wss://kapex-rpc.dwellir.com"

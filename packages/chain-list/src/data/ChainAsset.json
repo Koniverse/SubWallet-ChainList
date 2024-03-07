@@ -836,7 +836,7 @@
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BNC-BifrostPolkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-native-bnc.png"
   },
@@ -3528,7 +3528,7 @@
       "assetType": "ForeignAsset",
       "contractAddress": "0xFfFffFFfa1B026a00FbAA67c86D5d1d5BF8D8228"
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonriver-local-xcaseed.png"
   },
@@ -3613,7 +3613,7 @@
         }
       }
     },
-    "multiChainAsset": "aUSD-AcalaDollar",
+    "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-aseed.png"
   },
@@ -3661,7 +3661,7 @@
     "metadata": {
       "contractAddress": "0xfFFFFfFF00000000000000010000000000000001"
     },
-    "multiChainAsset": "aUSD-AcalaDollar",
+    "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarevm-erc20-aseed-0xffffffff00000000000000010000000000000001.png"
   },
@@ -3714,7 +3714,7 @@
       "assetId": "18446744073709551616",
       "assetType": "ForeignAsset"
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-aseed.png"
   },
@@ -3730,7 +3730,7 @@
     "metadata": {
       "contractAddress": "0xfFFfFFfF00000000000000010000000000000000"
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-aseed-0xffffffff00000000000000010000000000000000.png"
   },
@@ -7858,7 +7858,7 @@
   "chainflip_dot-NATIVE-pDOT": {
     "originChain": "chainflip_dot",
     "slug": "chainflip_dot-NATIVE-pDOT",
-    "name": "pDot (Chainflip-Polkadot)",
+    "name": "Polkadot Chainflip Testnet",
     "symbol": "pDOT",
     "decimals": 10,
     "priceId": null,
@@ -7913,7 +7913,7 @@
     "metadata": {
       "assetId": "14"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "BNC-BifrostPolkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-bnc.png"
   },
