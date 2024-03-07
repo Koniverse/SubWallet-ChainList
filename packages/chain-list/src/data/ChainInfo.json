@@ -7531,7 +7531,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/phykentest.png",
     "providers": {
-      "null": null
+      "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
     },
     "evmInfo": null,
     "substrateInfo": {
