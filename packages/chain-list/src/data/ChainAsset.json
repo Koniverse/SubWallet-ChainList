@@ -498,7 +498,7 @@
       "assetType": "ForeignAsset",
       "contractAddress": "0xfFfFFFFF52C56A9257bB97f4B2b6F7B2D624ecda"
     },
-    "multiChainAsset": "aUSD-AcalaDollar",
+    "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcausd.png"
   },
@@ -1018,7 +1018,7 @@
     "metadata": {
       "assetId": "9"
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-ausd.png"
   },
@@ -3748,7 +3748,7 @@
         "Stable": "KUSD"
       }
     },
-    "multiChainAsset": "aUSD-KaruraDollar",
+    "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-kusd.png"
   },
