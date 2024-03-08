@@ -133,7 +133,8 @@ export interface _MultiChainAsset {
 
 export enum _AssetRefPath {
   XCM = 'XCM',
-  MANTA_ZK = 'MANTA_ZK'
+  MANTA_ZK = 'MANTA_ZK',
+  SWAP = 'SWAP'
 }
 
 export interface _AssetRef {
