@@ -1354,7 +1354,7 @@
   },
   "ethereum_goerli": {
     "slug": "ethereum_goerli",
-    "name": "Ethereum Testnet (Goerli)",
+    "name": "Ethereum",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ethereum_goerli.png",
@@ -7439,7 +7439,7 @@
   },
   "chainflip_dot": {
     "slug": "chainflip_dot",
-    "name": "Polkadot Chainflip Testnet",
+    "name": "Polkadot",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_dot.png",
@@ -7456,7 +7456,7 @@
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "10000000000",
-      "symbol": "pDOT",
+      "symbol": "DOT",
       "decimals": 10,
       "hasNativeNft": null,
       "supportStaking": null,

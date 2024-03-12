@@ -1305,7 +1305,7 @@
   "ethereum_goerli-NATIVE-ETH": {
     "originChain": "ethereum_goerli",
     "slug": "ethereum_goerli-NATIVE-ETH",
-    "name": "Ethereum Testnet (Goerli)",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
     "priceId": null,
@@ -7855,11 +7855,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/liberland-local-llm.png"
   },
-  "chainflip_dot-NATIVE-pDOT": {
+  "chainflip_dot-NATIVE-DOT": {
     "originChain": "chainflip_dot",
-    "slug": "chainflip_dot-NATIVE-pDOT",
-    "name": "Polkadot Chainflip Testnet",
-    "symbol": "pDOT",
+    "slug": "chainflip_dot-NATIVE-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
     "decimals": 10,
     "priceId": null,
     "minAmount": "10000000000",
@@ -7867,7 +7867,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_dot-native-pdot.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_dot-native-dot.png"
   },
   "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
     "originChain": "ethereum_goerli",

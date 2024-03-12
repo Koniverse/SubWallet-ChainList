@@ -209,9 +209,9 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "ethereum_goerli-NATIVE-ETH___chainflip_dot-NATIVE-pDOT": {
+  "ethereum_goerli-NATIVE-ETH___chainflip_dot-NATIVE-DOT": {
     "srcAsset": "ethereum_goerli-NATIVE-ETH",
-    "destAsset": "chainflip_dot-NATIVE-pDOT",
+    "destAsset": "chainflip_dot-NATIVE-DOT",
     "srcChain": "ethereum_goerli",
     "destChain": "chainflip_dot",
     "path": "SWAP"
@@ -447,23 +447,23 @@
     "destChain": "manta_network",
     "path": "XCM"
   },
-  "chainflip_dot-NATIVE-pDOT___ethereum_goerli-NATIVE-ETH": {
-    "srcAsset": "chainflip_dot-NATIVE-pDOT",
+  "chainflip_dot-NATIVE-DOT___ethereum_goerli-NATIVE-ETH": {
+    "srcAsset": "chainflip_dot-NATIVE-DOT",
     "destAsset": "ethereum_goerli-NATIVE-ETH",
     "srcChain": "chainflip_dot",
     "destChain": "ethereum_goerli",
     "path": "SWAP"
   },
-  "chainflip_dot-NATIVE-pDOT___ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
-    "srcAsset": "chainflip_dot-NATIVE-pDOT",
+  "chainflip_dot-NATIVE-DOT___ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
+    "srcAsset": "chainflip_dot-NATIVE-DOT",
     "destAsset": "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
     "srcChain": "chainflip_dot",
     "destChain": "ethereum_goerli",
     "path": "SWAP"
   },
-  "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F___chainflip_dot-NATIVE-pDOT": {
+  "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F___chainflip_dot-NATIVE-DOT": {
     "srcAsset": "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
-    "destAsset": "chainflip_dot-NATIVE-pDOT",
+    "destAsset": "chainflip_dot-NATIVE-DOT",
     "srcChain": "ethereum_goerli",
     "destChain": "chainflip_dot",
     "path": "SWAP"
