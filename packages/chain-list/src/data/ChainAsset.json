@@ -1308,7 +1308,7 @@
     "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
@@ -2432,11 +2432,11 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/subspace_gemini_3f-native-tssc.png"
   },
-  "origintrail-NATIVE-OTP": {
+  "origintrail-NATIVE-NEURO": {
     "originChain": "origintrail",
-    "slug": "origintrail-NATIVE-OTP",
+    "slug": "origintrail-NATIVE-NEURO",
     "name": "OriginTrail",
-    "symbol": "OTP",
+    "symbol": "NEURO",
     "decimals": 12,
     "priceId": null,
     "minAmount": "1000000000000",
@@ -2444,7 +2444,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-otp.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-neuro.png"
   },
   "dorafactory-NATIVE-DORA": {
     "originChain": "dorafactory",
@@ -4685,22 +4685,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-bnb-0x332730a4f6e03d9c55829435f10360e13cfa41ff.png"
   },
-  "shidenEvm-ERC20-BUSD-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98": {
-    "originChain": "shidenEvm",
-    "slug": "shidenEvm-ERC20-BUSD-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98",
-    "name": "Binance-Peg BUSD Token",
-    "symbol": "BUSD",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-busd-0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98.png"
-  },
   "shidenEvm-ERC20-JPYC-0x735abe48e8782948a37c7765ecb76b98cde97b0f": {
     "originChain": "shidenEvm",
     "slug": "shidenEvm-ERC20-JPYC-0x735abe48e8782948a37c7765ecb76b98cde97b0f",
@@ -6239,11 +6223,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tomochain-erc20-usdt-0x381b31409e4d220919b2cff012ed94d70135a59e.png"
   },
-  "polygon-ERC20-USDC.e-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+  "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
     "originChain": "polygon",
-    "slug": "polygon-ERC20-USDC.e-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "slug": "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
     "name": "USD Coin (PoS)",
-    "symbol": "USDC.e",
+    "symbol": "USDC",
     "decimals": 6,
     "priceId": "usd-coin",
     "minAmount": null,
@@ -6253,7 +6237,7 @@
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-usdc.e-0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-usdc-0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
   },
   "polygon-ERC20-USDC-0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359": {
     "originChain": "polygon",
@@ -7178,11 +7162,11 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xcavate-native-xcav.png"
   },
-  "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+  "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
     "originChain": "arbitrum_one",
-    "slug": "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "slug": "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
     "name": "Bridged USDC",
-    "symbol": "USDC.e",
+    "symbol": "USDC",
     "decimals": 6,
     "priceId": "usd-coin",
     "minAmount": null,
@@ -7192,7 +7176,7 @@
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc.e-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
   },
   "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
     "originChain": "moonbeam",
@@ -7861,7 +7845,7 @@
     "name": "Polkadot",
     "symbol": "DOT",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "polkadot",
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
