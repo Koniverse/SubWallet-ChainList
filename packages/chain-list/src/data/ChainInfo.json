@@ -238,7 +238,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aleph.png",
     "providers": {
-      "Aleph Zero Foundation": "wss://ws.azero.dev"
+      "Aleph Zero Foundation": "wss://ws.azero.dev",
+      "Dwellir": "wss://aleph-zero-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7583,7 +7584,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
     "providers": {
-      "Startale": "https://rpc.startale.com/astar-zkevm"
+      "Startale": "https://rpc.startale.com/astar-zkevm",
+      "Gelato": "https://rpc.astar-zkevm.gelato.digital",
+      "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
     },
     "evmInfo": {
       "evmChainId": 3776,
