@@ -78,7 +78,8 @@ export interface _EvmInfo {
 }
 
 export interface _ExtraInfo {
-  subscanSlug: string | null,
+  subscanSlug: string | null;
+  chainBalanceSlug: string | null;
 }
 
 export enum _FundStatus {
