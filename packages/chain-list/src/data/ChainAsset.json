@@ -1305,10 +1305,10 @@
   "ethereum_goerli-NATIVE-ETH": {
     "originChain": "ethereum_goerli",
     "slug": "ethereum_goerli-NATIVE-ETH",
-    "name": "Ethereum",
+    "name": "Ethereum Goerli",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": "ethereum",
+    "priceId": null,
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,

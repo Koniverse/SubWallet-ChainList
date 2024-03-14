@@ -69,6 +69,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "polkadot-NATIVE-DOT___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "polkadot",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -355,6 +362,13 @@
     "srcChain": "moonbeam",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___polkadot-NATIVE-DOT": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "ethereum",
+    "destChain": "polkadot",
+    "path": "SWAP"
   },
   "bifrost_dot-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "bifrost_dot-LOCAL-DOT",
