@@ -7674,8 +7674,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
     "providers": {
-      "Startale": "https://rpc.startale.com/astar-zkevm",
-      "Gelato": "https://rpc.astar-zkevm.gelato.digital",
       "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
     },
     "evmInfo": {
