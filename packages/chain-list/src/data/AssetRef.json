@@ -202,8 +202,8 @@
     "destChain": "interlay",
     "path": "XCM"
   },
-  "moonbeam-LOCAL-xciBTC___interlay-LOCAL-iBTC": {
-    "srcAsset": "moonbeam-LOCAL-xciBTC",
+  "moonbeam-LOCAL-xcIBTC___interlay-LOCAL-iBTC": {
+    "srcAsset": "moonbeam-LOCAL-xcIBTC",
     "destAsset": "interlay-LOCAL-iBTC",
     "srcChain": "moonbeam",
     "destChain": "interlay",
@@ -286,9 +286,9 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "interlay-LOCAL-iBTC___moonbeam-LOCAL-xciBTC": {
+  "interlay-LOCAL-iBTC___moonbeam-LOCAL-xcIBTC": {
     "srcAsset": "interlay-LOCAL-iBTC",
-    "destAsset": "moonbeam-LOCAL-xciBTC",
+    "destAsset": "moonbeam-LOCAL-xcIBTC",
     "srcChain": "interlay",
     "destChain": "moonbeam",
     "path": "XCM"

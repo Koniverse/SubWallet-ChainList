@@ -86,7 +86,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ethereum.png",
     "providers": {
       "PublicNode": "https://ethereum.publicnode.com",
-      "Cloudflare": "https://cloudflare-eth.com",
       "BlastApi": "https://eth-mainnet.public.blastapi.io",
       "Infura": "https://mainnet.infura.io/v3/b6bf7d3508c941499b10025c0776eaf8"
     },
@@ -103,7 +102,10 @@
       "abiExplorer": "https://etherscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "ethereum"
+    }
   },
   "binance": {
     "slug": "binance",
@@ -130,7 +132,10 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "bsc"
+    }
   },
   "moonbeam": {
     "slug": "moonbeam",
@@ -462,7 +467,10 @@
       "abiExplorer": "https://polygonscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "polygon"
+    }
   },
   "arbitrum_one": {
     "slug": "arbitrum_one",
@@ -487,7 +495,10 @@
       "abiExplorer": "https://arbiscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "arbitrum"
+    }
   },
   "optimism": {
     "slug": "optimism",
@@ -512,7 +523,10 @@
       "abiExplorer": "https://optimistic.etherscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "optimism"
+    }
   },
   "tomochain": {
     "slug": "tomochain",
@@ -713,7 +727,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/shibuyaevm.png",
     "providers": {
       "Shibuya": "https://evm.shibuya.astar.network ",
-      "Dwellir": "https://shibuya-rpc.dwellir.com",
       "BlastAPI": "https://shibuya.public.blastapi.io"
     },
     "evmInfo": {
@@ -2936,13 +2949,13 @@
     },
     "evmInfo": null,
     "substrateInfo": {
-      "relaySlug": "kusama",
-      "paraId": 2016,
+      "relaySlug": null,
+      "paraId": null,
       "genesisHash": "0x7b0f142a9299b0886595992f8cac58814c8956de6a31c77caca95db01370fc2c",
       "addressPrefix": 42,
-      "chainType": "PARACHAIN",
+      "chainType": "RELAYCHAIN",
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
-      "blockExplorer": "https://sakura.subscan.io/",
+      "blockExplorer": null,
       "existentialDeposit": "500",
       "symbol": "SKU",
       "decimals": 18,
@@ -2965,7 +2978,7 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "sakura",
+      "subscanSlug": null,
       "chainBalanceSlug": "sakura"
     }
   },
@@ -4522,7 +4535,7 @@
     "slug": "discovol_testnet",
     "name": "Discovol Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/discovol_testnet.png",
     "providers": {
       "discovol_testnet": "wss://gateway.testnet.octopus.network/discovol/o4urcey87y4n1qimhfrad92gzs315z9h"
@@ -5969,7 +5982,10 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "avalanche"
+    }
   },
   "crust_mainnet": {
     "slug": "crust_mainnet",
@@ -6097,7 +6113,7 @@
     "slug": "xcavate",
     "name": "Xcavate",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
     "providers": {
       "Tanssi": "wss://fraa-dancebox-3031-rpc.a.dancebox.tanssi.network"
@@ -6908,7 +6924,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
-      "existentialDeposit": "10000000",
+      "existentialDeposit": "100000000",
       "symbol": "PLMC",
       "decimals": 10,
       "hasNativeNft": false,
@@ -7017,11 +7033,11 @@
     },
     "evmInfo": null,
     "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
+      "relaySlug": "polkadot",
+      "paraId": 2058,
       "genesisHash": "0x161db6cdc5896fe55ef12b4778fe78dd65d7af43f65c601786b88d7a93ebc58a",
       "addressPrefix": 19,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "10000000000000000",
@@ -7606,7 +7622,7 @@
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
-      "existentialDeposit": "1000000000000000",
+      "existentialDeposit": "10000000000000000",
       "symbol": "DENTX",
       "decimals": 18,
       "hasNativeNft": null,
