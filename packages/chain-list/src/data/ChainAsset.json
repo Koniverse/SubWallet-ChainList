@@ -7960,5 +7960,33 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/phykentest-native-ken.png"
+  },
+  "creditcoinTestEvm-NATIVE-CTC": {
+    "originChain": "creditcoinTestEvm",
+    "slug": "creditcoinTestEvm-NATIVE-CTC",
+    "name": "Creditcoin3 Testnet",
+    "symbol": "CTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/creditcointestevm-native-ctc.png"
+  },
+  "astarZkEvm-NATIVE-ETH": {
+    "originChain": "astarZkEvm",
+    "slug": "astarZkEvm-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/astarzkevm-native-eth.png"
   }
 }

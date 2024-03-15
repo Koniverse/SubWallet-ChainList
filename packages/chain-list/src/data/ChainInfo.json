@@ -7632,5 +7632,47 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "creditcoinTestEvm": {
+    "slug": "creditcoinTestEvm",
+    "name": "Creditcoin Testnet - EVM",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/creditcointestevm.png",
+    "providers": {
+      "Creditcoin Testnet EVM": "https://rpc.cc3-testnet.creditcoin.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 102031,
+      "blockExplorer": null,
+      "existentialDeposit": null,
+      "symbol": "CTC",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "astarZkEvm": {
+    "slug": "astarZkEvm",
+    "name": "Astar zkEVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png",
+    "providers": {
+      "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
+    },
+    "evmInfo": {
+      "evmChainId": 3776,
+      "blockExplorer": "https://astar-zkevm.explorer.startale.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": "https://astar-zkevm.explorer.startale.com/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
   }
 }
