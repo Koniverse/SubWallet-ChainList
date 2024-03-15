@@ -6223,11 +6223,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tomochain-erc20-usdt-0x381b31409e4d220919b2cff012ed94d70135a59e.png"
   },
-  "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+  "polygon-ERC20-USDC.e-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
     "originChain": "polygon",
-    "slug": "polygon-ERC20-USDC-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "slug": "polygon-ERC20-USDC.e-0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
     "name": "USD Coin (PoS)",
-    "symbol": "USDC",
+    "symbol": "USDC.e",
     "decimals": 6,
     "priceId": "usd-coin",
     "minAmount": null,
@@ -6237,7 +6237,7 @@
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-usdc-0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-usdc.e-0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
   },
   "polygon-ERC20-USDC-0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359": {
     "originChain": "polygon",
@@ -7162,11 +7162,11 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xcavate-native-xcav.png"
   },
-  "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+  "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
     "originChain": "arbitrum_one",
-    "slug": "arbitrum_one-ERC20-USDC-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "slug": "arbitrum_one-ERC20-USDC.e-0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
     "name": "Bridged USDC",
-    "symbol": "USDC",
+    "symbol": "USDC.e",
     "decimals": 6,
     "priceId": "usd-coin",
     "minAmount": null,
@@ -7176,7 +7176,7 @@
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-usdc.e-0xff970a61a04b1ca14834a43f5de4533ebddb5cc8.png"
   },
   "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
     "originChain": "moonbeam",
