@@ -66,8 +66,8 @@ const main = async () => {
         let iconURL = asset.icon;
         if (iconURL) {
             try {
-                const newFileName = await downloadFile(iconURL, downloadDir, asset.slug.toLowerCase());
-                iconURL = `${DOWNLOAD_LINK}/assets/chain-assets/${newFileName}`;
+                const newFileName = await downloadFile(iconURL, downloadDir);
+                iconURL = `${DOWNLOAD_LINK}/media/chain-assets/${newFileName}`;
             } catch (e) {
                 console.error(e);
             }
