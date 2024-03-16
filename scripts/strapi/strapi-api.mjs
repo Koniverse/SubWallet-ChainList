@@ -8,8 +8,8 @@ const STRAPI_TOKEN = process.env.STRAPI_TOKEN;
 const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 
-export const DOWNLOAD_DIR = './packages/chain-list-assets/public/assets';
-export const DOWNLOAD_LINK = BRANCH_NAME === 'dev' ? 'https://dev.sw-chain-list-assets.pages.dev' : 'https://chain-list-assets.subwallet.app';
+export const DOWNLOAD_DIR = './packages/chain-list-assets/public/media';
+export const DOWNLOAD_LINK = BRANCH_NAME !== 'master' ? 'https://dev.sw-chain-list-assets.pages.dev' : 'https://chain-list-assets.subwallet.app';
 
 export const graphQLClient = new GraphQLClient(`${STRAPI_URL}/graphql`, {
     headers: {

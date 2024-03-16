@@ -45,8 +45,8 @@ const main = async () => {
         let iconURL = mAsset.icon;
         if (iconURL) {
             try {
-                const newFileName = await downloadFile(iconURL, downloadDir, mAsset.slug.toLowerCase());
-                iconURL = `${DOWNLOAD_LINK}/assets/multi-chain-assets/${newFileName}`;
+                const newFileName = await downloadFile(iconURL, downloadDir);
+                iconURL = `${DOWNLOAD_LINK}/media/multi-chain-assets/${newFileName}`;
             } catch (e) {
                 console.error(e);
             }
