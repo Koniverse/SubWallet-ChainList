@@ -7177,7 +7177,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://avail-testnet.subscan.io/",
       "existentialDeposit": "10000000000000",
       "symbol": "AVL",
       "decimals": 18,

@@ -836,7 +836,7 @@
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BNC-BifrostPolkadot",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrost_dot-native-bnc.png"
   },
@@ -7883,7 +7883,7 @@
     "metadata": {
       "assetId": "14"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "BNC-BifrostPolkadot",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-bnc.png"
   },
