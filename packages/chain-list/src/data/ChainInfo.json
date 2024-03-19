@@ -7706,5 +7706,34 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "sepolia_ethereum": {
+    "slug": "sepolia_ethereum",
+    "name": "Ethereum Sepolia",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sepolia_ethereum.png",
+    "providers": {
+      "Asia RPC": "https://rpc.sepolia.org",
+      "Europe RPC 2": "https://rpc2.sepolia.org",
+      "Status RPC": "https://status.sepolia.org",
+      "Space": "https://www.sepoliarpc.space",
+      "RockX": "https://rpc-sepolia.rockx.com/",
+      "Bordel": "https://rpc.bordel.wtf/sepolia"
+    },
+    "evmInfo": {
+      "evmChainId": 11155111,
+      "blockExplorer": "https://sepolia.etherscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null
   }
 }
