@@ -1208,7 +1208,7 @@
           "status": "won",
           "startTime": "2022-06-07T01:48:00.000Z",
           "endTime": "2024-04-09T01:48:00.000Z",
-          "auctionIndex": 18,
+          "auctionIndex": 65,
           "firstPeriod": 8,
           "lastPeriod": 15
         }
@@ -7177,7 +7177,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://avail-testnet.subscan.io/",
       "existentialDeposit": "10000000000000",
       "symbol": "AVL",
       "decimals": 18,
@@ -7187,7 +7187,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "avail-testnet",
+      "chainBalanceSlug": null
+    }
   },
   "energy_web_x_testnet": {
     "slug": "energy_web_x_testnet",
