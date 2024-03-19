@@ -8017,9 +8017,9 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-native-eth.png"
   },
-  "sepolia_ethereum-NATIVE-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
     "originChain": "sepolia_ethereum",
-    "slug": "sepolia_ethereum-NATIVE-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "slug": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "name": "USDC Sepolia",
     "symbol": "USDC",
     "decimals": 18,
@@ -8031,6 +8031,6 @@
     },
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-native-usdc-0x1c7d4b196cb0c7b01d743fbc6116a902379c7238.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-usdc-0x1c7d4b196cb0c7b01d743fbc6116a902379c7238.png"
   }
 }
