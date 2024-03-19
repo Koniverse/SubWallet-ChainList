@@ -6913,7 +6913,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polimec.png",
     "providers": {
-      "Polimec": "wss://rpc.polimec.org"
+      "Polimec": "wss://rpc.polimec.org",
+      "Amforc": "wss://polimec.rpc.amforc.com"
     },
     "evmInfo": null,
     "substrateInfo": {
