@@ -530,7 +530,7 @@
   },
   "tomochain": {
     "slug": "tomochain",
-    "name": "TomoChain",
+    "name": "Viction",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tomochain.png",
@@ -541,13 +541,13 @@
       "evmChainId": 88,
       "blockExplorer": "https://tomoscan.io",
       "existentialDeposit": "0",
-      "symbol": "TOMO",
+      "symbol": "VIC",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",
         "ERC721"
       ],
-      "abiExplorer": "https://tomoscan.i"
+      "abiExplorer": "https://tomoscan.io"
     },
     "substrateInfo": null,
     "extraInfo": null
@@ -3819,7 +3819,7 @@
   },
   "origintrail": {
     "slug": "origintrail",
-    "name": "OriginTrail",
+    "name": "NeuroWeb Mainnet",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/origintrail.png",
@@ -6928,7 +6928,7 @@
       "symbol": "PLMC",
       "decimals": 10,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [

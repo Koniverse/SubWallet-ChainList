@@ -240,11 +240,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-op-0x4200000000000000000000000000000000000042.png"
   },
-  "tomochain-NATIVE-TOMO": {
+  "tomochain-NATIVE-VIC": {
     "originChain": "tomochain",
-    "slug": "tomochain-NATIVE-TOMO",
-    "name": "TomoChain",
-    "symbol": "TOMO",
+    "slug": "tomochain-NATIVE-VIC",
+    "name": "Viction",
+    "symbol": "VIC",
     "decimals": 18,
     "priceId": "tomochain",
     "minAmount": "0",
@@ -252,7 +252,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tomochain-native-tomo.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tomochain-native-vic.png"
   },
   "acala-LOCAL-DOT": {
     "originChain": "acala",
