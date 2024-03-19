@@ -8048,5 +8048,51 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ded.png"
+  },
+  "hydradx_rococo-NATIVE-HDX": {
+    "originChain": "hydradx_rococo",
+    "slug": "hydradx_rococo-NATIVE-HDX",
+    "name": "HydraDX Rococo",
+    "symbol": "HDX",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_rococo-native-hdx.png"
+  },
+  "hydradx_rococo-LOCAL-DOT": {
+    "originChain": "hydradx_rococo",
+    "slug": "hydradx_rococo-LOCAL-DOT",
+    "name": "Polkadot Testnet",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "5"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_rococo-local-dot.png"
+  },
+  "hydradx_rococo-LOCAL-USDT": {
+    "originChain": "hydradx_rococo",
+    "slug": "hydradx_rococo-LOCAL-USDT",
+    "name": "Statemint USDT (testnet)",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "10"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_rococo-local-usdt.png"
   }
 }

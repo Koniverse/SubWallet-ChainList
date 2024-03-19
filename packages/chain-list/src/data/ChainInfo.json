@@ -7736,5 +7736,34 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "hydradx_rococo": {
+    "slug": "hydradx_rococo",
+    "name": "HydraDX Rococo",
+    "isTestnet": null,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
+    "providers": {
+      "Hydration Nice": "wss://rpc.nice.hydration.cloud"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "rococo",
+      "paraId": 2032,
+      "genesisHash": "0x06111acb32100bf87c88d28b1386f33136939b363cd86eb086626bc7d2a0022c",
+      "addressPrefix": 63,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "HDX",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
