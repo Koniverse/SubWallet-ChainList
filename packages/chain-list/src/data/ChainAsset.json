@@ -8140,7 +8140,13 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "18446744073709551633"
+      "assetId": "18446744073709551633",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": "Here"
+        }
+      }
     },
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,

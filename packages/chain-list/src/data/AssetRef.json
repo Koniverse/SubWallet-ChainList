@@ -475,6 +475,27 @@
     "destChain": "moonbeam",
     "path": "XCM"
   },
+  "statemint-LOCAL-PINK___astar-LOCAL-PINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "astar-LOCAL-PINK",
+    "srcChain": "statemint",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-PINK___bifrost_dot-LOCAL-PINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "bifrost_dot-LOCAL-PINK",
+    "srcChain": "statemint",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-PINK___acala-LOCAL-PINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "acala-LOCAL-PINK",
+    "srcChain": "statemint",
+    "destChain": "acala",
+    "path": "XCM"
+  },
   "moonbeam-LOCAL-xcPINK___statemint-LOCAL-PINK": {
     "srcAsset": "moonbeam-LOCAL-xcPINK",
     "destAsset": "statemint-LOCAL-PINK",
@@ -572,5 +593,26 @@
     "srcChain": "hydradx_rococo",
     "destChain": "hydradx_rococo",
     "path": "SWAP"
+  },
+  "bifrost_dot-LOCAL-PINK___statemint-LOCAL-PINK": {
+    "srcAsset": "bifrost_dot-LOCAL-PINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "bifrost_dot",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "astar-LOCAL-PINK___statemint-LOCAL-PINK": {
+    "srcAsset": "astar-LOCAL-PINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "astar",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "acala-LOCAL-PINK___statemint-LOCAL-PINK": {
+    "srcAsset": "acala-LOCAL-PINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "acala",
+    "destChain": "statemint",
+    "path": "XCM"
   }
 }
