@@ -559,11 +559,11 @@
     "destChain": "hydradx_rococo",
     "path": "SWAP"
   },
-  "hydradx_rococo-LOCAL-USDT___hydradx_main-NATIVE-HDX": {
+  "hydradx_rococo-LOCAL-USDT___hydradx_rococo-NATIVE-HDX": {
     "srcAsset": "hydradx_rococo-LOCAL-USDT",
-    "destAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_rococo-NATIVE-HDX",
     "srcChain": "hydradx_rococo",
-    "destChain": "hydradx_main",
+    "destChain": "hydradx_rococo",
     "path": "SWAP"
   },
   "hydradx_rococo-LOCAL-USDT___hydradx_rococo-LOCAL-DOT": {
