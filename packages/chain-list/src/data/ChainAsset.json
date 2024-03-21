@@ -7627,7 +7627,22 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "23"
+      "assetId": "23",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 23
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,

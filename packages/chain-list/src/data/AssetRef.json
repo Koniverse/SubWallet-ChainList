@@ -468,6 +468,20 @@
     "destChain": "manta_network",
     "path": "XCM"
   },
+  "statemint-LOCAL-PINK___moonbeam-LOCAL-xcPINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "moonbeam-LOCAL-xcPINK",
+    "srcChain": "statemint",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "moonbeam-LOCAL-xcPINK___statemint-LOCAL-PINK": {
+    "srcAsset": "moonbeam-LOCAL-xcPINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "moonbeam",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
   "bifrost_dot-LOCAL-MANTA___manta_network-NATIVE-MANTA": {
     "srcAsset": "bifrost_dot-LOCAL-MANTA",
     "destAsset": "manta_network-NATIVE-MANTA",
