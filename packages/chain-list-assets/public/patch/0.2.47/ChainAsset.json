@@ -1,0 +1,20 @@
+{
+  "bifrost_dot-LOCAL-PINK": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "10"
+      }
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-pink.png"
+  }
+}
