@@ -8144,7 +8144,19 @@
       "multilocation": {
         "Concrete": {
           "parents": 1,
-          "interior": "Here"
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 23
+              }
+            ]
+          }
         }
       }
     },
@@ -8162,7 +8174,25 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "12"
+      "assetId": "12",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X2": [
+              {
+                "Parachain": 2000
+              },
+              {
+                "GeneralKey": {
+                  "data": "0x0001000000000000000000000000000000000000000000000000000000000000",
+                  "length": 2
+                }
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,

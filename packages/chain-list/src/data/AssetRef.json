@@ -496,6 +496,27 @@
     "destChain": "acala",
     "path": "XCM"
   },
+  "statemint-LOCAL-PINK___phala-LOCAL-PINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "phala-LOCAL-PINK",
+    "srcChain": "statemint",
+    "destChain": "phala",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-PINK___darwinia2-LOCAL-PINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "darwinia2-LOCAL-PINK",
+    "srcChain": "statemint",
+    "destChain": "darwinia2",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-PINK___crust-LOCAL-PINK": {
+    "srcAsset": "statemint-LOCAL-PINK",
+    "destAsset": "crust-LOCAL-PINK",
+    "srcChain": "statemint",
+    "destChain": "crust",
+    "path": "XCM"
+  },
   "moonbeam-LOCAL-xcPINK___statemint-LOCAL-PINK": {
     "srcAsset": "moonbeam-LOCAL-xcPINK",
     "destAsset": "statemint-LOCAL-PINK",
@@ -608,10 +629,31 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "phala-LOCAL-PINK___statemint-LOCAL-PINK": {
+    "srcAsset": "phala-LOCAL-PINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "phala",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
   "acala-LOCAL-PINK___statemint-LOCAL-PINK": {
     "srcAsset": "acala-LOCAL-PINK",
     "destAsset": "statemint-LOCAL-PINK",
     "srcChain": "acala",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "crust-LOCAL-PINK___statemint-LOCAL-PINK": {
+    "srcAsset": "crust-LOCAL-PINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "crust",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "darwinia2-LOCAL-PINK___statemint-LOCAL-PINK": {
+    "srcAsset": "darwinia2-LOCAL-PINK",
+    "destAsset": "statemint-LOCAL-PINK",
+    "srcChain": "darwinia2",
     "destChain": "statemint",
     "path": "XCM"
   }

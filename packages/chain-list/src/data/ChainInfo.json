@@ -9,7 +9,6 @@
       "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
-      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
@@ -146,7 +145,6 @@
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
-      "1rpc": "wss://1rpc.io/glmr",
       "Blast": "wss://moonbeam.public.blastapi.io",
       "UnitedBloc": "wss://moonbeam.unitedbloc.com"
     },
@@ -366,7 +364,6 @@
       "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://sys.ibp.network/statemint",
       "IBP-GeoDNS2": "wss://sys.dotters.network/statemint",
-      "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
       "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub"
     },
     "evmInfo": null,
