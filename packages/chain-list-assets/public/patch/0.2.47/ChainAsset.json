@@ -1,4 +1,35 @@
 {
+  "statemint-LOCAL-PINK": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-PINK",
+    "name": "Statemint Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "23",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 23
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-pink.png"
+  },
   "bifrost_dot-LOCAL-PINK": {
     "originChain": "bifrost_dot",
     "slug": "bifrost_dot-LOCAL-PINK",
@@ -16,5 +47,123 @@
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-pink.png"
+  },
+  "astar-LOCAL-PINK": {
+    "originChain": "astar",
+    "slug": "astar-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551633",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 23
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-pink.png"
+  },
+  "phala-LOCAL-PINK": {
+    "originChain": "phala",
+    "slug": "phala-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "12",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X2": [
+              {
+                "Parachain": 2000
+              },
+              {
+                "GeneralKey": {
+                  "data": "0x0001000000000000000000000000000000000000000000000000000000000000",
+                  "length": 2
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/phala-local-pink.png"
+  },
+  "acala-LOCAL-PINK": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 13
+      }
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-pink.png"
+  },
+  "crust-LOCAL-PINK": {
+    "originChain": "crust",
+    "slug": "crust-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "64174511183114006009298114091987195453"
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/crust-local-pink.png"
+  },
+  "darwinia2-LOCAL-PINK": {
+    "originChain": "darwinia2",
+    "slug": "darwinia2-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1028"
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-pink.png"
   }
 }
