@@ -143,7 +143,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbeam.png",
     "providers": {
-      "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "Blast": "wss://moonbeam.public.blastapi.io",
       "UnitedBloc": "wss://moonbeam.unitedbloc.com"
