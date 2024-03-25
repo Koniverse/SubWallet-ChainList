@@ -1671,7 +1671,9 @@
     "priceId": "polkadex",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex-native-pdex.png"
@@ -7465,7 +7467,9 @@
     "priceId": null,
     "minAmount": "1000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/invarch-native-varch.png"
@@ -7509,7 +7513,9 @@
     "priceId": "polkadex",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex_dot-native-pdex.png"
