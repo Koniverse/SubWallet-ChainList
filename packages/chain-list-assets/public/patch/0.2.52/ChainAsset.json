@@ -1,52 +1,50 @@
 {
-  "astar-LOCAL-PINK": {
-    "originChain": "astar",
-    "slug": "astar-LOCAL-PINK",
-    "name": "Pink",
-    "symbol": "PINK",
-    "decimals": 10,
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "18446744073709551633",
-      "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 23
-              }
-            ]
-          }
-        }
-      }
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-local-pink.png"
-  },
-  "westend-NATIVE-WND": {
-    "originChain": "westend",
-    "slug": "westend-NATIVE-WND",
-    "name": "Westend",
-    "symbol": "WND",
+  "polkadex-NATIVE-PDEX": {
+    "originChain": "polkadex",
+    "slug": "polkadex-NATIVE-PDEX",
+    "name": "Polkadex",
+    "symbol": "PDEX",
     "decimals": 12,
-    "priceId": null,
-    "minAmount": "10000000000",
+    "priceId": "polkadex",
+    "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": {
       "autoEnable": true
     },
     "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png"
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex-native-pdex.png"
+  },
+  "invarch-NATIVE-VARCH": {
+    "originChain": "invarch",
+    "slug": "invarch-NATIVE-VARCH",
+    "name": "InvArch Network",
+    "symbol": "VARCH",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/invarch-native-varch.png"
+  },
+  "polkadex_dot-NATIVE-PDEX": {
+    "originChain": "polkadex_dot",
+    "slug": "polkadex_dot-NATIVE-PDEX",
+    "name": "Polkadex Polkadot",
+    "symbol": "PDEX",
+    "decimals": 12,
+    "priceId": "polkadex",
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex_dot-native-pdex.png"
   }
 }
