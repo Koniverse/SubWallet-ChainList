@@ -8253,5 +8253,51 @@
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-pink.png"
+  },
+  "creditcoinTest-NATIVE-CTC": {
+    "originChain": "creditcoinTest",
+    "slug": "creditcoinTest-NATIVE-CTC",
+    "name": "Creditcoin testnet",
+    "symbol": "CTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/creditcointest-native-ctc.png"
+  },
+  "moonbeam-ERC20-RMRK-0x524d524B4c9366be706D3A90dcf70076ca037aE3": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-RMRK-0x524d524B4c9366be706D3A90dcf70076ca037aE3",
+    "name": "RMRK",
+    "symbol": "RMRK",
+    "decimals": 18,
+    "priceId": "rmrk",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x524d524B4c9366be706D3A90dcf70076ca037aE3"
+    },
+    "multiChainAsset": "RMRK-RMRKApp",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-rmrk-0x524d524b4c9366be706d3a90dcf70076ca037ae3.png"
+  },
+  "astarEvm-ERC20-RMRK-0x524d524B4c9366be706D3A90dcf70076ca037aE3": {
+    "originChain": "astarEvm",
+    "slug": "astarEvm-ERC20-RMRK-0x524d524B4c9366be706D3A90dcf70076ca037aE3",
+    "name": "RMRK",
+    "symbol": "RMRK",
+    "decimals": 18,
+    "priceId": "rmrk",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x524d524B4c9366be706D3A90dcf70076ca037aE3"
+    },
+    "multiChainAsset": "RMRK-RMRKApp",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarevm-erc20-rmrk-0x524d524b4c9366be706d3a90dcf70076ca037ae3.png"
   }
 }
