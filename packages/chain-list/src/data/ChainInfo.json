@@ -7787,6 +7787,9 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "creditcoin3-testnet",
+      "chainBalanceSlug": null
+    }
   }
 }
