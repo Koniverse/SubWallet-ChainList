@@ -1,1 +1,16 @@
-{}
+{
+  "astar-NATIVE-ASTR___equilibrium_parachain-LOCAL-ASTR": {
+    "srcAsset": "astar-NATIVE-ASTR",
+    "destAsset": "equilibrium_parachain-LOCAL-ASTR",
+    "srcChain": "astar",
+    "destChain": "equilibrium_parachain",
+    "path": "XCM"
+  },
+  "moonbeam-NATIVE-GLMR___acala-LOCAL-GLMR": {
+    "srcAsset": "moonbeam-NATIVE-GLMR",
+    "destAsset": "acala-LOCAL-GLMR",
+    "srcChain": "moonbeam",
+    "destChain": "acala",
+    "path": "XCM"
+  }
+}

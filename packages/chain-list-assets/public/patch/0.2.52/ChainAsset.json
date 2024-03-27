@@ -1,1 +1,170 @@
-{}
+{
+  "polkadex-NATIVE-PDEX": {
+    "originChain": "polkadex",
+    "slug": "polkadex-NATIVE-PDEX",
+    "name": "Polkadex",
+    "symbol": "PDEX",
+    "decimals": 12,
+    "priceId": "polkadex",
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex-native-pdex.png"
+  },
+  "invarch-NATIVE-VARCH": {
+    "originChain": "invarch",
+    "slug": "invarch-NATIVE-VARCH",
+    "name": "InvArch Network",
+    "symbol": "VARCH",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/invarch-native-varch.png"
+  },
+  "polkadex_dot-NATIVE-PDEX": {
+    "originChain": "polkadex_dot",
+    "slug": "polkadex_dot-NATIVE-PDEX",
+    "name": "Polkadex Polkadot",
+    "symbol": "PDEX",
+    "decimals": 12,
+    "priceId": "polkadex",
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadex_dot-native-pdex.png"
+  },
+  "moonbase-ERC20-MFR-0xd7d798825f4e0bc340f6ee38282f2a0455226a87": {
+    "originChain": "moonbase",
+    "slug": "moonbase-ERC20-MFR-0xd7d798825f4e0bc340f6ee38282f2a0455226a87",
+    "name": "MFR Token",
+    "symbol": "MFR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xd7d798825f4e0bc340f6ee38282f2a0455226a87",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfr-0xc2bfd8e028b342f0537adc2bf310821c807c1312.png"
+  },
+  "moonbase-ERC20-MFG-0xb161b2da48de283ec22bafbc36e5551c892629a2": {
+    "originChain": "moonbase",
+    "slug": "moonbase-ERC20-MFG-0xb161b2da48de283ec22bafbc36e5551c892629a2",
+    "name": "MFG Token",
+    "symbol": "MFG",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb161b2da48de283ec22bafbc36e5551c892629a2",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0x3ef88816ebe8f50019e931bdffb0e428a44a29b1.png"
+  },
+  "moonbeam-ERC721-BADGES-0xb3e38e845fF46792fb5FE4d3717D79D9e642deB4": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC721-BADGES-0xb3e38e845fF46792fb5FE4d3717D79D9e642deB4",
+    "name": "Jungle Badges",
+    "symbol": "BADGES",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xb3e38e845fF46792fb5FE4d3717D79D9e642deB4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc721-exrp-0x515e20e6275ceefe19221fc53e77e38cc32b80fb.png"
+  },
+  "moonbeam-ERC20-mbXEN-0xb564A5767A00Ee9075cAC561c427643286F8F4E1": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-mbXEN-0xb564A5767A00Ee9075cAC561c427643286F8F4E1",
+    "name": "XEN Crypto",
+    "symbol": "mbXEN",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb564A5767A00Ee9075cAC561c427643286F8F4E1",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png"
+  },
+  "acala-LOCAL-PARA": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-PARA",
+    "name": "Parallel",
+    "symbol": "PARA",
+    "decimals": 12,
+    "priceId": "parallel-finance",
+    "minAmount": null,
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 1
+      },
+      "autoEnable": true
+    },
+    "multiChainAsset": "PARA-Parallel",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/equilibrium_parachain-local-para.png"
+  },
+  "shibuya-LOCAL-vASTR": {
+    "originChain": "shibuya",
+    "slug": "shibuya-LOCAL-vASTR",
+    "name": "Voucher ASTR",
+    "symbol": "vASTR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18446744073709551632",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astar-native-astr.png"
+  },
+  "moonbeam-NATIVE-GLMR": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-NATIVE-GLMR",
+    "name": "Moonbeam",
+    "symbol": "GLMR",
+    "decimals": 18,
+    "priceId": "moonbeam",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "assetId": null,
+      "assetType": "SelfReserve"
+    },
+    "multiChainAsset": "GLMR-Moonbeam",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-native-glmr.png"
+  }
+}
