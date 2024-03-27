@@ -45,6 +45,7 @@ export interface _ChainInfo {
   providers: Record<string, string>,
   substrateInfo: _SubstrateInfo | null,
   evmInfo: _EvmInfo | null,
+  bitcoinInfo: _BitcoinInfo | null;
   extraInfo: _ExtraInfo | null,
   icon: string
 }
@@ -75,6 +76,13 @@ export interface _EvmInfo {
 
   supportSmartContract: _AssetType[] | null,
   abiExplorer: string | null
+}
+
+export interface _BitcoinInfo {
+  blockExplorer: string | null;
+  existentialDeposit: string;
+  decimals: number;
+  symbol: string;
 }
 
 export interface _ExtraInfo {
