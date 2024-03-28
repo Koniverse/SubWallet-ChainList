@@ -9,7 +9,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1000019"
+      "assetId": "1000019",
+      "autoEnable": true
     },
     "multiChainAsset": null,
     "hasValue": true,
