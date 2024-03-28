@@ -1,0 +1,18 @@
+{
+  "hydradx_main-LOCAL-DED": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DED",
+    "name": "DED",
+    "symbol": "DED",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000019"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ded.png"
+  }
+}
