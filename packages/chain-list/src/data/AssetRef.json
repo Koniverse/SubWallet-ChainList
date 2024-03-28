@@ -223,6 +223,13 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "rococo-NATIVE-ROC___hydradx_rococo-NATIVE-HDX": {
+    "srcAsset": "rococo-NATIVE-ROC",
+    "destAsset": "hydradx_rococo-NATIVE-HDX",
+    "srcChain": "rococo",
+    "destChain": "hydradx_rococo",
+    "path": "XCM"
+  },
   "bifrost_dot-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "bifrost_dot-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -578,7 +585,10 @@
     "destAsset": "hydradx_rococo-LOCAL-DOT",
     "srcChain": "hydradx_rococo",
     "destChain": "hydradx_rococo",
-    "path": "SWAP"
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "rococo-NATIVE-ROC"
+    }
   },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-USDT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
