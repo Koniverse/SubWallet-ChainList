@@ -145,5 +145,7 @@ export interface _AssetRef {
   srcChain: string,
   destChain: string,
 
+  metadata?: Record<string, any>,
+
   path: _AssetRefPath
 }
