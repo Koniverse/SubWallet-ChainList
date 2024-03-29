@@ -580,13 +580,6 @@
     "destChain": "chainflip_dot",
     "path": "SWAP"
   },
-  "statemint-LOCAL-DED___hydradx_main-LOCAL-DED": {
-    "srcAsset": "statemint-LOCAL-DED",
-    "destAsset": "hydradx_main-LOCAL-DED",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
     "destAsset": "hydradx_rococo-LOCAL-DOT",
@@ -671,13 +664,6 @@
     "srcAsset": "darwinia2-LOCAL-PINK",
     "destAsset": "statemint-LOCAL-PINK",
     "srcChain": "darwinia2",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DED___statemint-LOCAL-DED": {
-    "srcAsset": "hydradx_main-LOCAL-DED",
-    "destAsset": "statemint-LOCAL-DED",
-    "srcChain": "hydradx_main",
     "destChain": "statemint",
     "path": "XCM"
   }
