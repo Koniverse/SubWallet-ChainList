@@ -10,60 +10,10 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1000019",
-      "autoEnable": true,
-      "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 30
-              }
-            ]
-          }
-        }
-      }
+      "autoEnable": true
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc.png"
-  },
-  "statemint-LOCAL-DED": {
-    "originChain": "statemint",
-    "slug": "statemint-LOCAL-DED",
-    "name": "DED",
-    "symbol": "DED",
-    "decimals": 10,
-    "priceId": null,
-    "minAmount": "1",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "30",
-      "autoEnable": true,
-      "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 30
-              }
-            ]
-          }
-        }
-      }
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ded.png"
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ded.png"
   }
 }

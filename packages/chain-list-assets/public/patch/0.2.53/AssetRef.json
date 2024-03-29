@@ -1,16 +1,1 @@
-{
-  "statemint-LOCAL-DED___hydradx_main-LOCAL-DED": {
-    "srcAsset": "statemint-LOCAL-DED",
-    "destAsset": "hydradx_main-LOCAL-DED",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DED___statemint-LOCAL-DED": {
-    "srcAsset": "hydradx_main-LOCAL-DED",
-    "destAsset": "statemint-LOCAL-DED",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  }
-}
+{}
