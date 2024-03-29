@@ -8064,7 +8064,23 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "30"
+      "assetId": "30",
+      "autoEnable": true,
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 30
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -8310,7 +8326,26 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1000019"
+      "assetId": "1000019",
+      "autoEnable": true,
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 30
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": null,
     "hasValue": true,
