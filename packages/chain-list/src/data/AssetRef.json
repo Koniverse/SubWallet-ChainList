@@ -258,12 +258,29 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "hydradx_main-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "hydradx_main-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
     "srcChain": "hydradx_main",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "statemint-LOCAL-USDt"
+    }
   },
   "centrifuge-NATIVE-CFG___hydradx_main-LOCAL-CFG": {
     "srcAsset": "centrifuge-NATIVE-CFG",
@@ -404,6 +421,36 @@
     "srcChain": "hydradx_main",
     "destChain": "polkadot",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
   },
   "statemint-LOCAL-USDC___hydradx_main-LOCAL-USDC": {
     "srcAsset": "statemint-LOCAL-USDC",
@@ -666,5 +713,12 @@
     "srcChain": "darwinia2",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   }
 }
