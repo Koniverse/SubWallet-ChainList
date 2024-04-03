@@ -8366,5 +8366,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xlayer-native-okb.png"
+  },
+  "astarZkEvm-ERC20-ASTR-0xdf41220C7e322bFEF933D85D01821ad277f90172": {
+    "originChain": "astarZkEvm",
+    "slug": "astarZkEvm-ERC20-ASTR-0xdf41220C7e322bFEF933D85D01821ad277f90172",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xdf41220C7e322bFEF933D85D01821ad277f90172"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarzkevm-erc20-astr-0xdf41220c7e322bfef933d85d01821ad277f90172.png"
   }
 }
