@@ -5657,8 +5657,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png",
     "providers": {
-      "Vara": "wss://rpc.vara-network.io",
-      "Vara Network": "wss://rpc.vara.network"
+      "Vara Network": "wss://rpc.vara.network",
+      "DRPC": "wss://vara.drpc.org",
+      "BlastApi": "wss://vara-mainnet.public.blastapi.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7791,5 +7792,27 @@
       "subscanSlug": "creditcoin3-testnet",
       "chainBalanceSlug": null
     }
+  },
+  "xlayer": {
+    "slug": "xlayer",
+    "name": "X Layer",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xlayer.png",
+    "providers": {
+      "X Layer": "https://rpc.xlayer.tech",
+      "X Layer OKX": "https://xlayerrpc.okx.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 196,
+      "blockExplorer": "https://www.okx.com/explorer/xlayer",
+      "existentialDeposit": "0",
+      "symbol": "OKB",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": "https://www.okx.com/explorer/xlayer"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
   }
 }
