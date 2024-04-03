@@ -7536,7 +7536,7 @@
         "Token2": "9"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "BNCS-InscriptionToken",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-bncs.png"
   },
@@ -8398,5 +8398,23 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-dota.png"
+  },
+  "moonbeam-LOCAL-xcBNCS": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcBNCS",
+    "name": "BNCS Inscription Token",
+    "symbol": "xcBNCS",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "142155548796783636521833385094843759961",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfFfffffF6aF229AE7f0F4e0188157e189a487D59"
+    },
+    "multiChainAsset": "BNCS-InscriptionToken",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcbncs.png"
   }
 }

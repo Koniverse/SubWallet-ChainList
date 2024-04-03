@@ -421,5 +421,14 @@
     "priceId": "bifrost-native-coin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bnc-bifrostpolkadot.png"
+  },
+  "BNCS-InscriptionToken": {
+    "slug": "BNCS-InscriptionToken",
+    "originChainAsset": "bifrost_dot-LOCAL-BNCS",
+    "name": "Inscription Token",
+    "symbol": "BNCS",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bncs-inscriptiontoken.png"
   }
 }
