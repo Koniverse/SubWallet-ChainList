@@ -5658,7 +5658,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png",
     "providers": {
       "Vara Network": "wss://rpc.vara.network",
-      "DRPC": "wss://vara.drpc.org",
       "BlastApi": "wss://vara-mainnet.public.blastapi.io"
     },
     "evmInfo": null,
@@ -7166,7 +7165,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
     "providers": {
-      "Avail Goldberg Testnet": "wss://goldberg.avail.tools/ws"
+      "Avail Goldberg Testnet": "wss://goldberg.avail.tools/ws",
+      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
