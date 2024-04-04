@@ -432,16 +432,6 @@
       "alternativeAsset": "polkadot-NATIVE-DOT"
     }
   },
-  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-DED": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "hydradx_main-LOCAL-DED",
-    "srcChain": "hydradx_main",
-    "destChain": "hydradx_main",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "polkadot-NATIVE-DOT"
-    }
-  },
   "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-USDT": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "hydradx_main-LOCAL-USDT",
@@ -713,12 +703,5 @@
     "srcChain": "darwinia2",
     "destChain": "statemint",
     "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DED",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "hydradx_main",
-    "path": "SWAP"
   }
 }
