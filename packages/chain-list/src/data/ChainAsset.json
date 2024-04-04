@@ -8416,5 +8416,213 @@
     "multiChainAsset": "BNCS-InscriptionToken",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcbncs.png"
+  },
+  "hydradx_main-LOCAL-DAI": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DAI",
+    "name": "DAI Stablecoin (via Wormhole)",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "2"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-dai.png"
+  },
+  "hydradx_main-LOCAL-APE": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-APE",
+    "name": "ApeCoin (via Wormhole)",
+    "symbol": "APE",
+    "decimals": 18,
+    "priceId": "apecoin",
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ape.png"
+  },
+  "hydradx_main-LOCAL-SUB": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-SUB",
+    "name": "Subsocial",
+    "symbol": "SUB",
+    "decimals": 10,
+    "priceId": "subsocial",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "24"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sub.png"
+  },
+  "hydradx_main-LOCAL-4Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-4Pool",
+    "name": "USDT, DAI, USDC, USDT",
+    "symbol": "4-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "100"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "hydradx_main-LOCAL-WETH": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-WETH",
+    "name": "Ethereum (via Moonbeam)",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "20"
+    },
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-weth.png"
+  },
+  "hydradx_main-LOCAL-2Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2Pool",
+    "name": "WBTC, iBTC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "101"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "hydradx_main-LOCAL-vDOT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-vDOT",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "15"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-vdot.png"
+  },
+  "hydradx_main-LOCAL-LRNA": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LRNA",
+    "name": "Lerna",
+    "symbol": "LRNA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "hydradx_main-LOCAL-DAI-18": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DAI-18",
+    "name": "Random token 1 (via Wormhole)",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-dai-18.png"
+  },
+  "hydradx_main-LOCAL-USDC-21": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDC-21",
+    "name": "USDC (Moonbeam Wormhole)",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "21"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc-21.png"
+  },
+  "hydradx_main-LOCAL-USDT-23": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDT-23",
+    "name": "USDT (Moonbeam Wormhole)",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "23"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdt-23.png"
+  },
+  "hydradx_main-LOCAL-WBTC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-WBTC",
+    "name": "Wrapped Bitcoin (via Wormhole)",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "3"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wbtc.png"
+  },
+  "hydradx_main-LOCAL-iBTC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-iBTC",
+    "name": "interBTC",
+    "symbol": "iBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "11"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ibtc.png"
   }
 }
