@@ -422,6 +422,15 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bnc-bifrostpolkadot.png"
   },
+  "DED-DED": {
+    "slug": "DED-DED",
+    "originChainAsset": "statemint-LOCAL-DED",
+    "name": "DED",
+    "symbol": "DED",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ded-ded.png"
+  },
   "BNCS-InscriptionToken": {
     "slug": "BNCS-InscriptionToken",
     "originChainAsset": "bifrost_dot-LOCAL-BNCS",
