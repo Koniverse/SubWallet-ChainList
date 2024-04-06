@@ -1,0 +1,18 @@
+{
+  "goldberg_testnet-NATIVE-AVL": {
+    "originChain": "goldberg_testnet",
+    "slug": "goldberg_testnet-NATIVE-AVL",
+    "name": "Goldberg Testnet",
+    "symbol": "AVL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/goldberg_testnet-native-avl.png"
+  }
+}
