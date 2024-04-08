@@ -448,5 +448,14 @@
     "priceId": "apecoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ape-apecoin.png"
+  },
+  "vDOT-VoucherDot": {
+    "slug": "vDOT-VoucherDot",
+    "originChainAsset": "bifrost_dot-LOCAL-vDOT",
+    "name": "Voucher Dot",
+    "symbol": "vDOT",
+    "priceId": "voucher-dot",
+    "hasValue": true,
+    "icon": "https://media-resources.subwallet.app//3/vdot_fdab8d59c8.png"
   }
 }

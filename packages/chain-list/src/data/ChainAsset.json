@@ -872,7 +872,7 @@
         "VToken2": "0"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "vDOT-VoucherDot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vdot.png"
   },
@@ -6993,7 +6993,8 @@
     "minAmount": "17540000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "5"
+      "assetId": "5",
+      "alternativeSwapAsset": "polkadot-NATIVE-DOT"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -7902,7 +7903,8 @@
     "minAmount": "147058823529412000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "9"
+      "assetId": "9",
+      "alternativeSwapAsset": "astar-NATIVE-ASTR"
     },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
@@ -7934,7 +7936,8 @@
     "minAmount": "34854864344868000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "16"
+      "assetId": "16",
+      "alternativeSwapAsset": "moonbeam-NATIVE-GLMR"
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
@@ -8479,7 +8482,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-4pool.png"
   },
   "hydradx_main-LOCAL-WETH": {
     "originChain": "hydradx_main",
@@ -8511,7 +8514,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2pool.png"
   },
   "hydradx_main-LOCAL-vDOT": {
     "originChain": "hydradx_main",
@@ -8519,13 +8522,14 @@
     "name": "Bifrost Voucher DOT",
     "symbol": "vDOT",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "voucher-dot",
     "minAmount": "18761726",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "15"
+      "assetId": "15",
+      "alternativeSwapAsset": "bifrost_dot-LOCAL-vDOT"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "vDOT-VoucherDot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-vdot.png"
   },
@@ -8543,7 +8547,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lrna.png"
   },
   "hydradx_main-LOCAL-DAI-18": {
     "originChain": "hydradx_main",
@@ -8583,13 +8587,13 @@
     "name": "USDT (Moonbeam Wormhole)",
     "symbol": "USDT",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "tether",
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "23"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdt-23.png"
   },
@@ -8599,13 +8603,13 @@
     "name": "Wrapped Bitcoin (via Wormhole)",
     "symbol": "WBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "wrapped-bitcoin",
     "minAmount": "44",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "3"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "WBTC-WrappedBTC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wbtc.png"
   },
@@ -8615,13 +8619,13 @@
     "name": "interBTC",
     "symbol": "iBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "interbtc",
     "minAmount": "36",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "11"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "iBTC-interBTC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ibtc.png"
   },

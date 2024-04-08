@@ -391,11 +391,11 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
-  "hydradx_main-LOCAL-USDT___acala-LOCAL-ASTR": {
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-ASTR": {
     "srcAsset": "hydradx_main-LOCAL-USDT",
-    "destAsset": "acala-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
     "srcChain": "hydradx_main",
-    "destChain": "acala",
+    "destChain": "hydradx_main",
     "path": "SWAP"
   },
   "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-GLMR": {
