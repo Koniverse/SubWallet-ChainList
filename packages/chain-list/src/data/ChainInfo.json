@@ -106,6 +106,50 @@
       "chainBalanceSlug": "ethereum"
     }
   },
+  "bitcoin": {
+    "slug": "bitcoin",
+    "name": "Bitcoin",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
+    "providers": {
+      "Blockstream": "https://blockstream.info/api"
+    },
+    "bitcoinInfo": {
+      "blockExplorer": "https://mempool.space",
+      "existentialDeposit": "0",
+      "decimals": 8,
+      "symbol": "BTC",
+      "bitcoinNetwork": "mainnet"
+    },
+    "substrateInfo": null,
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": null
+    }
+  },
+  "bitcoinTestnet": {
+    "slug": "bitcoinTestnet",
+    "name": "Bitcoin Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
+    "providers": {
+      "Blockstream": "https://blockstream.info/testnet/api"
+    },
+    "bitcoinInfo": {
+      "blockExplorer": "https://mempool.space/testnet",
+      "existentialDeposit": "0",
+      "decimals": 8,
+      "symbol": "BTC",
+      "bitcoinNetwork": "testnet"
+    },
+    "substrateInfo": null,
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": null
+    }
+  },
   "binance": {
     "slug": "binance",
     "name": "Binance Smart Chain",

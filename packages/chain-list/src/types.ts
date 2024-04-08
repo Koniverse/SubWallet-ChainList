@@ -78,11 +78,14 @@ export interface _EvmInfo {
   abiExplorer: string | null
 }
 
+export type BitcoinNetworkMode = 'mainnet' | 'testnet' | 'regtest' | 'signet';
+
 export interface _BitcoinInfo {
   blockExplorer: string | null;
   existentialDeposit: string;
   decimals: number;
   symbol: string;
+  bitcoinNetwork: BitcoinNetworkMode
 }
 
 export interface _ExtraInfo {
