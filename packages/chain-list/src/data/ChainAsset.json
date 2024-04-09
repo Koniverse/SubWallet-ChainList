@@ -7250,7 +7250,9 @@
     "priceId": null,
     "minAmount": "10000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/goldberg_testnet-native-avl.png"
@@ -8396,7 +8398,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "18"
+      "assetId": "18",
+      "autoEnable": true
     },
     "multiChainAsset": null,
     "hasValue": true,
