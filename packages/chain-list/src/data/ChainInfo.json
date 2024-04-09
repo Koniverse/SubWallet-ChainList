@@ -7856,7 +7856,18 @@
     "providers": {
       "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
     },
-    "evmInfo": null,
+    "evmInfo": {
+      "evmChainId": 201804,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "MYTH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 3369,

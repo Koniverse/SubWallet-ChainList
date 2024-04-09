@@ -6994,6 +6994,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "5",
+      "canPayTxFee": true,
       "alternativeSwapAsset": "polkadot-NATIVE-DOT"
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -8387,6 +8388,24 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarzkevm-erc20-astr-0xdf41220c7e322bfef933d85d01821ad277f90172.png"
   },
+  "moonbeam-LOCAL-xcDED": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcDED",
+    "name": "DED",
+    "symbol": "xcDED",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "124463719055550872076363892993240202694",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFFFFFFF5DA2D7214D268375CF8FB1715705FDC6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcded.png"
+  },
   "statemint-LOCAL-DOTA": {
     "originChain": "statemint",
     "slug": "statemint-LOCAL-DOTA",
@@ -8667,7 +8686,7 @@
     "name": "Mythos",
     "symbol": "MYTH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "mythos",
     "minAmount": "1000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -8683,7 +8702,7 @@
     "decimals": 2,
     "priceId": null,
     "minAmount": "1",
-    "assetType": "NATIVE",
+    "assetType": "LOCAL",
     "metadata": {
       "assetId": "420"
     },
@@ -8739,7 +8758,7 @@
     "originChain": "humanodeEvm",
     "slug": "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802",
     "name": "Wrapped Humanode",
-    "symbol": "eHMND",
+    "symbol": "WeHMND",
     "decimals": 18,
     "priceId": "wrapped-ehmnd",
     "minAmount": "0",
