@@ -8646,5 +8646,109 @@
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-pink.png"
+  },
+  "acurast-NATIVE-cACU": {
+    "originChain": "acurast",
+    "slug": "acurast-NATIVE-cACU",
+    "name": "Acurast Canary",
+    "symbol": "cACU",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acurast-native-cacu.png"
+  },
+  "mythos-NATIVE-MYTH": {
+    "originChain": "mythos",
+    "slug": "mythos-NATIVE-MYTH",
+    "name": "Mythos",
+    "symbol": "MYTH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mythos-native-myth.png"
+  },
+  "statemint-LOCAL-BEEFY": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-BEEFY",
+    "name": "BEEFY",
+    "symbol": "BEEFY",
+    "decimals": 2,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "NATIVE",
+    "metadata": {
+      "assetId": "420"
+    },
+    "multiChainAsset": "BEEFY-BEEFY",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-beefy.png"
+  },
+  "hydradx_main-LOCAL-BEEFY": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-BEEFY",
+    "name": "BEEFY",
+    "symbol": "BEEFY",
+    "decimals": 2,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000036"
+    },
+    "multiChainAsset": "BEEFY-BEEFY",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-beefy.png"
+  },
+  "humanode-NATIVE-HMND": {
+    "originChain": "humanode",
+    "slug": "humanode-NATIVE-HMND",
+    "name": "Humanode",
+    "symbol": "HMND",
+    "decimals": 18,
+    "priceId": "humanode",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "HMND-Humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanode-native-hmnd.png"
+  },
+  "humanodeEvm-NATIVE-eHMND": {
+    "originChain": "humanodeEvm",
+    "slug": "humanodeEvm-NATIVE-eHMND",
+    "name": "Humanode",
+    "symbol": "eHMND",
+    "decimals": 18,
+    "priceId": "humanode",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "HMND-Humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-native-ehmnd.png"
+  },
+  "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": {
+    "originChain": "humanodeEvm",
+    "slug": "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802",
+    "name": "Wrapped Humanode",
+    "symbol": "eHMND",
+    "decimals": 18,
+    "priceId": "wrapped-ehmnd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0000000000000000000000000000000000000802"
+    },
+    "multiChainAsset": "HMND-Humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
   }
 }

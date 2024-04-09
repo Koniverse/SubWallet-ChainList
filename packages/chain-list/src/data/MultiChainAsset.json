@@ -456,6 +456,24 @@
     "symbol": "vDOT",
     "priceId": "voucher-dot",
     "hasValue": true,
-    "icon": "https://media-resources.subwallet.app//3/vdot_fdab8d59c8.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/vdot-voucherdot.png"
+  },
+  "BEEFY-BEEFY": {
+    "slug": "BEEFY-BEEFY",
+    "originChainAsset": "statemint-LOCAL-BEEFY",
+    "name": "BEEFY",
+    "symbol": "BEEFY",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/beefy-beefy.png"
+  },
+  "HMND-Humanode": {
+    "slug": "HMND-Humanode",
+    "originChainAsset": "humanode-NATIVE-HMND",
+    "name": "Humanode",
+    "symbol": "HMND",
+    "priceId": "humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/hmnd-humanode.png"
   }
 }

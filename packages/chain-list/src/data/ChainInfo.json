@@ -7700,7 +7700,10 @@
       "existentialDeposit": "0",
       "symbol": "ETH",
       "decimals": 18,
-      "supportSmartContract": null,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
       "abiExplorer": "https://astar-zkevm.explorer.startale.com/"
     },
     "substrateInfo": null,
@@ -7811,6 +7814,120 @@
       "decimals": 18,
       "supportSmartContract": null,
       "abiExplorer": "https://www.okx.com/explorer/xlayer"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "acurast": {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acurast.png",
+    "providers": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 2239,
+      "genesisHash": "0xce7681fb12aa8f7265d229a9074be0ea1d5e99b53eedcec2deade43857901808",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "cACU",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "mythos": {
+    "slug": "mythos",
+    "name": "Mythos",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mythos.png",
+    "providers": {
+      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3369,
+      "genesisHash": "0xf6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9",
+      "addressPrefix": 29972,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000",
+      "symbol": "MYTH",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "humanode": {
+    "slug": "humanode",
+    "name": "Humanode",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/humanode.png",
+    "providers": {
+      "Humanode": "wss://explorer-rpc-ws.mainnet.stages.humanode.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xc56fa32442b2dad76f214b3ae07998e4ca09736e4813724bfb0717caae2c8bee",
+      "addressPrefix": 5234,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://humanode.subscan.io/",
+      "existentialDeposit": "500",
+      "symbol": "HMND",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "humanode",
+      "chainBalanceSlug": null
+    }
+  },
+  "humanodeEvm": {
+    "slug": "humanodeEvm",
+    "name": "Humanode - EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/humanodeevm.png",
+    "providers": {
+      "Humanode": "https://explorer-rpc-http.mainnet.stages.humanode.io"
+    },
+    "evmInfo": {
+      "evmChainId": 5234,
+      "blockExplorer": "https://humanode.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "eHMND",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://humanode.subscan.io/"
     },
     "substrateInfo": null,
     "extraInfo": null
