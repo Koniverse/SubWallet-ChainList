@@ -7851,7 +7851,7 @@
     "slug": "mythos",
     "name": "Mythos",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mythos.png",
     "providers": {
       "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
