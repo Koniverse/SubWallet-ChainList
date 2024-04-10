@@ -484,13 +484,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcaca.png"
   },
-  "moonbeam-LOCAL-xcaUSD": {
+  "moonbeam-LOCAL-xcaSEED": {
     "originChain": "moonbeam",
-    "slug": "moonbeam-LOCAL-xcaUSD",
-    "name": "Acala USD",
-    "symbol": "xcaUSD",
+    "slug": "moonbeam-LOCAL-xcaSEED",
+    "name": "aUSD SEED",
+    "symbol": "xcaSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -500,7 +500,7 @@
     },
     "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcaseed.png"
   },
   "moonbeam-ERC721-MFBB-0x02a6dec99b2ca768d638fcd87a96f6069f91287c": {
     "originChain": "moonbeam",
@@ -1006,13 +1006,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-busd.png"
   },
-  "calamari-LOCAL-AUSD": {
+  "calamari-LOCAL-aSEED": {
     "originChain": "calamari",
-    "slug": "calamari-LOCAL-AUSD",
-    "name": "Acala Dollar",
-    "symbol": "AUSD",
+    "slug": "calamari-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -1020,7 +1020,7 @@
     },
     "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-ausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-aseed.png"
   },
   "calamari-LOCAL-USDT": {
     "originChain": "calamari",
@@ -3518,13 +3518,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xceqd.png"
   },
-  "moonriver-LOCAL-xcaSeed": {
+  "moonriver-LOCAL-xcaSEED": {
     "originChain": "moonriver",
-    "slug": "moonriver-LOCAL-xcaSeed",
-    "name": "Karura USD",
+    "slug": "moonriver-LOCAL-xcaSEED",
+    "name": "aUSD SEED",
     "symbol": "xcaSeed",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3593,10 +3593,10 @@
   "astar-LOCAL-aSEED": {
     "originChain": "astar",
     "slug": "astar-LOCAL-aSEED",
-    "name": "Acala USD",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3656,10 +3656,10 @@
   "astarEvm-ERC20-aSEED-0xfFFFFfFF00000000000000010000000000000001": {
     "originChain": "astarEvm",
     "slug": "astarEvm-ERC20-aSEED-0xfFFFFfFF00000000000000010000000000000001",
-    "name": "Acala Dollar",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3708,10 +3708,10 @@
   "shiden-LOCAL-aSEED": {
     "originChain": "shiden",
     "slug": "shiden-LOCAL-aSEED",
-    "name": "Karura USD",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3725,10 +3725,10 @@
   "shidenEvm-ERC20-aSEED-0xfFFfFFfF00000000000000010000000000000000": {
     "originChain": "shidenEvm",
     "slug": "shidenEvm-ERC20-aSEED-0xfFFfFFfF00000000000000010000000000000000",
-    "name": "Karura USD",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3738,13 +3738,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-aseed-0xffffffff00000000000000010000000000000000.png"
   },
-  "bifrost-LOCAL-KUSD": {
+  "bifrost-LOCAL-aSEED": {
     "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-KUSD",
-    "name": "Karura USD",
-    "symbol": "KUSD",
+    "slug": "bifrost-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3754,7 +3754,7 @@
     },
     "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-kusd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-aseed.png"
   },
   "bifrost-LOCAL-KAR": {
     "originChain": "bifrost",
