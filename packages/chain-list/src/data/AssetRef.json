@@ -223,6 +223,13 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "rococo-NATIVE-ROC___hydradx_rococo-NATIVE-HDX": {
+    "srcAsset": "rococo-NATIVE-ROC",
+    "destAsset": "hydradx_rococo-NATIVE-HDX",
+    "srcChain": "rococo",
+    "destChain": "hydradx_rococo",
+    "path": "XCM"
+  },
   "bifrost_dot-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "bifrost_dot-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -251,12 +258,152 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "hydradx_main-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "hydradx_main-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
     "srcChain": "hydradx_main",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-USDT___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   },
   "centrifuge-NATIVE-CFG___hydradx_main-LOCAL-CFG": {
     "srcAsset": "centrifuge-NATIVE-CFG",
@@ -397,6 +544,82 @@
     "srcChain": "hydradx_main",
     "destChain": "polkadot",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   },
   "statemint-LOCAL-USDC___hydradx_main-LOCAL-USDC": {
     "srcAsset": "statemint-LOCAL-USDC",
@@ -559,6 +782,146 @@
     "destChain": "ethereum_goerli",
     "path": "SWAP"
   },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-ASTR___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-ASTR",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-GLMR___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-GLMR",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "sepolia_ethereum-NATIVE-ETH___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "sepolia_ethereum-NATIVE-ETH",
     "destAsset": "chainflip_dot-NATIVE-pDOT",
@@ -571,6 +934,51 @@
     "destAsset": "chainflip_dot-NATIVE-pDOT",
     "srcChain": "sepolia_ethereum",
     "destChain": "chainflip_dot",
+    "path": "SWAP"
+  },
+  "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
+    "srcAsset": "hydradx_rococo-NATIVE-HDX",
+    "destAsset": "hydradx_rococo-LOCAL-DOT",
+    "srcChain": "hydradx_rococo",
+    "destChain": "hydradx_rococo",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "rococo-NATIVE-ROC"
+    }
+  },
+  "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-USDT": {
+    "srcAsset": "hydradx_rococo-NATIVE-HDX",
+    "destAsset": "hydradx_rococo-LOCAL-USDT",
+    "srcChain": "hydradx_rococo",
+    "destChain": "hydradx_rococo",
+    "path": "SWAP"
+  },
+  "hydradx_rococo-LOCAL-DOT___hydradx_rococo-NATIVE-HDX": {
+    "srcAsset": "hydradx_rococo-LOCAL-DOT",
+    "destAsset": "hydradx_rococo-NATIVE-HDX",
+    "srcChain": "hydradx_rococo",
+    "destChain": "hydradx_rococo",
+    "path": "SWAP"
+  },
+  "hydradx_rococo-LOCAL-DOT___hydradx_rococo-LOCAL-USDT": {
+    "srcAsset": "hydradx_rococo-LOCAL-DOT",
+    "destAsset": "hydradx_rococo-LOCAL-USDT",
+    "srcChain": "hydradx_rococo",
+    "destChain": "hydradx_rococo",
+    "path": "SWAP"
+  },
+  "hydradx_rococo-LOCAL-USDT___hydradx_rococo-NATIVE-HDX": {
+    "srcAsset": "hydradx_rococo-LOCAL-USDT",
+    "destAsset": "hydradx_rococo-NATIVE-HDX",
+    "srcChain": "hydradx_rococo",
+    "destChain": "hydradx_rococo",
+    "path": "SWAP"
+  },
+  "hydradx_rococo-LOCAL-USDT___hydradx_rococo-LOCAL-DOT": {
+    "srcAsset": "hydradx_rococo-LOCAL-USDT",
+    "destAsset": "hydradx_rococo-LOCAL-DOT",
+    "srcChain": "hydradx_rococo",
+    "destChain": "hydradx_rococo",
     "path": "SWAP"
   },
   "bifrost_dot-LOCAL-PINK___statemint-LOCAL-PINK": {
@@ -614,5 +1022,425 @@
     "srcChain": "darwinia2",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-DED",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-4Pool___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-4Pool",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WETH___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-WETH",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-2Pool___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-2Pool",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-PINK": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-PINK",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-4Pool": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-4Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-WETH": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-WETH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-DED": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-DED",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-2Pool": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-2Pool",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-GLMR": {
+    "srcAsset": "hydradx_main-LOCAL-PINK",
+    "destAsset": "hydradx_main-LOCAL-GLMR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   }
 }
