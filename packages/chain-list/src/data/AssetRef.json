@@ -125,6 +125,13 @@
     "destChain": "polkadot",
     "path": "SWAP"
   },
+  "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
+    "srcAsset": "moonbeam-NATIVE-GLMR",
+    "destAsset": "moonbeam-LOCAL-xcDOT",
+    "srcChain": "moonbeam",
+    "destChain": "moonbeam",
+    "path": "SWAP"
+  },
   "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
     "srcAsset": "pioneer-NATIVE-NEER",
     "destAsset": "karura-LOCAL-NEER",
@@ -194,6 +201,13 @@
     "srcChain": "moonbeam",
     "destChain": "manta_network",
     "path": "XCM"
+  },
+  "moonbeam-LOCAL-xcDOT___moonbeam-NATIVE-GLMR": {
+    "srcAsset": "moonbeam-LOCAL-xcDOT",
+    "destAsset": "moonbeam-NATIVE-GLMR",
+    "srcChain": "moonbeam",
+    "destChain": "moonbeam",
+    "path": "SWAP"
   },
   "moonbeam-LOCAL-xcINTR___interlay-NATIVE-INTR": {
     "srcAsset": "moonbeam-LOCAL-xcINTR",
