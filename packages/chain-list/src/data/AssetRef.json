@@ -83,6 +83,13 @@
     "destChain": "statemine",
     "path": "XCM"
   },
+  "kusama-NATIVE-KSM___encointer-NATIVE-KSM": {
+    "srcAsset": "kusama-NATIVE-KSM",
+    "destAsset": "encointer-NATIVE-KSM",
+    "srcChain": "kusama",
+    "destChain": "encointer",
+    "path": "XCM"
+  },
   "kusama-NATIVE-KSM___moonriver-LOCAL-xcKSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "moonriver-LOCAL-xcKSM",

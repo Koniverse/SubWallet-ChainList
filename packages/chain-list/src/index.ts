@@ -7,7 +7,6 @@ import _ChainAssetMap from './data/ChainAsset.json';
 import _ChainInfoMap from './data/ChainInfo.json';
 import _ChainLogoMap from './data/ChainLogoMap.json';
 import _MultiChainAssetMap from './data/MultiChainAsset.json';
-
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from './types';
 
 export const ChainInfoMap = _ChainInfoMap as unknown as Record<string, _ChainInfo>;
