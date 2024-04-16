@@ -8768,5 +8768,23 @@
     "multiChainAsset": "HMND-Humanode",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
+  },
+  "moonbeam-LOCAL-xcvDOT": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcvDOT",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "xcvDOT",
+    "decimals": 10,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "29085784439601774464560083082574142143",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFFfffFf15e1b7E3dF971DD813Bc394deB899aBf"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcvdot.png"
   }
 }
