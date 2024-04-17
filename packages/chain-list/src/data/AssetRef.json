@@ -1442,5 +1442,33 @@
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
     "path": "SWAP"
+  },
+  "statemint-LOCAL-BEEFY___hydradx_main-LOCAL-BEEFY": {
+    "srcAsset": "statemint-LOCAL-BEEFY",
+    "destAsset": "hydradx_main-LOCAL-BEEFY",
+    "srcChain": "statemint",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-BEEFY___statemint-LOCAL-BEEFY": {
+    "srcAsset": "hydradx_main-LOCAL-BEEFY",
+    "destAsset": "statemint-LOCAL-BEEFY",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-STINK___hydradx_main-LOCAL-STINK": {
+    "srcAsset": "statemint-LOCAL-STINK",
+    "destAsset": "hydradx_main-LOCAL-STINK",
+    "srcChain": "statemint",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-STINK___statemint-LOCAL-STINK": {
+    "srcAsset": "hydradx_main-LOCAL-STINK",
+    "destAsset": "statemint-LOCAL-STINK",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
   }
 }

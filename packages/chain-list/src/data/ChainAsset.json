@@ -8704,7 +8704,22 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "420"
+      "assetId": "420",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 420
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "BEEFY-BEEFY",
     "hasValue": true,
@@ -8720,7 +8735,25 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1000036"
+      "assetId": "1000036",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 420
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "BEEFY-BEEFY",
     "hasValue": true,
@@ -8769,5 +8802,86 @@
     "multiChainAsset": "HMND-Humanode",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
+  },
+  "statemint-LOCAL-STINK": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-STINK",
+    "name": "STINK",
+    "symbol": "STINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "42069",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 42069
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "STINK-STINK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-stink.png"
+  },
+  "hydradx_main-LOCAL-STINK": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-STINK",
+    "name": "STINK",
+    "symbol": "STINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000034",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 42069
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "STINK-STINK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-stink.png"
+  },
+  "base_mainnet-ERC20-PINK-0x66fc31b3233c7C001bdD21Ff6E5E66fA08EF85D0": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-PINK-0x66fc31b3233c7C001bdD21Ff6E5E66fA08EF85D0",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x66fc31b3233c7C001bdD21Ff6E5E66fA08EF85D0"
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-pink-0x66fc31b3233c7c001bdd21ff6e5e66fa08ef85d0.png"
   }
 }
