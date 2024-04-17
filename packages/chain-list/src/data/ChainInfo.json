@@ -7092,7 +7092,7 @@
       "symbol": "ENJ",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
@@ -7165,8 +7165,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
     "providers": {
-      "Avail Goldberg Testnet": "wss://goldberg.avail.tools/ws",
-      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws"
+      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws",
+      "Goldberg testnet": "wss://goldberg-testnet-rpc.avail.tools/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7526,7 +7526,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/liberland.png",
     "providers": {
-      "Liberland": "wss://mainnet.liberland.org"
+      "Liberland": "wss://mainnet.liberland.org",
+      "Dwellir": "wss://liberland-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7738,7 +7739,7 @@
   "hydradx_rococo": {
     "slug": "hydradx_rococo",
     "name": "HydraDX Rococo",
-    "isTestnet": null,
+    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
     "providers": {
