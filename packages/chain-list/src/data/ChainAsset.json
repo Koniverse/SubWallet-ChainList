@@ -8807,7 +8807,7 @@
     "metadata": {
       "contractAddress": "0x0000000000000000000000000000000000000802"
     },
-    "multiChainAsset": "HMND-Humanode",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
   },
@@ -8934,6 +8934,36 @@
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "dbcchain-NATIVE-DBC": {
+    "originChain": "dbcchain",
+    "slug": "dbcchain-NATIVE-DBC",
+    "name": "DBC Mainnet",
+    "symbol": "DBC",
+    "decimals": 15,
+    "priceId": "deepbrain-chain",
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "dbcchain-LOCAL-DLC": {
+    "originChain": "dbcchain",
+    "slug": "dbcchain-LOCAL-DLC",
+    "name": "DeepLink Coin",
+    "symbol": "DLC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "100000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "88"
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
