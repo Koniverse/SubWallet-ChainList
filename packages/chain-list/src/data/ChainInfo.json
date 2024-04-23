@@ -8068,7 +8068,7 @@
       "symbol": "AVAIL",
       "decimals": 18,
       "hasNativeNft": null,
-      "supportStaking": null,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
