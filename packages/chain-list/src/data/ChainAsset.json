@@ -8801,13 +8801,13 @@
     "name": "Wrapped Humanode",
     "symbol": "WeHMND",
     "decimals": 18,
-    "priceId": "wrapped-ehmnd",
+    "priceId": null,
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0x0000000000000000000000000000000000000802"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "HMND-Humanode",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
   },
