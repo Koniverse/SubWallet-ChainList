@@ -7087,7 +7087,7 @@
       "addressPrefix": 2135,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://enjin.subscan.io/",
       "existentialDeposit": "100000000000000000",
       "symbol": "ENJ",
       "decimals": 18,
@@ -7097,7 +7097,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "enjin",
+      "chainBalanceSlug": null
+    }
   },
   "enjin_matrixchain": {
     "slug": "enjin_matrixchain",
@@ -7117,7 +7120,7 @@
       "addressPrefix": 1110,
       "chainType": null,
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://matrix.subscan.io/",
       "existentialDeposit": "100000000000000000",
       "symbol": "ENJ",
       "decimals": 18,
@@ -7127,7 +7130,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "matrix",
+      "chainBalanceSlug": null
+    }
   },
   "vara_testnet": {
     "slug": "vara_testnet",
