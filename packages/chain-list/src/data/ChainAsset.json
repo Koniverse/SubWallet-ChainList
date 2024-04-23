@@ -8967,5 +8967,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
+  },
+  "availTuringTest-NATIVE-AVAIL": {
+    "originChain": "availTuringTest",
+    "slug": "availTuringTest-NATIVE-AVAIL",
+    "name": "Avail Turing Testnet",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/availturingtest-native-avail.png"
   }
 }
