@@ -7990,7 +7990,7 @@
     "name": "Commune AI",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/commune.png",
     "providers": {
       "Commune Node 1": "wss://commune-api-node-1.communeai.net"
     },
@@ -8019,7 +8019,7 @@
     "name": "DBC Mainnet",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain.png",
     "providers": {
       "DBC Chain": "wss://info1.dbcwallet.io"
     },
