@@ -8031,7 +8031,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://dbc.subscan.io/",
       "existentialDeposit": "10000000000000",
       "symbol": "DBC",
       "decimals": 15,
@@ -8041,7 +8041,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "dbc",
+      "chainBalanceSlug": null
+    }
   },
   "availTuringTest": {
     "slug": "availTuringTest",
