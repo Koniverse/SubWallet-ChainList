@@ -7984,5 +7984,34 @@
       "subscanSlug": "paseo",
       "chainBalanceSlug": null
     }
+  },
+  "commune": {
+    "slug": "commune",
+    "name": "Commune AI",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Commune Node 1": "wss://commune-api-node-1.communeai.net"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xbc6eb9753e2417476601485f9f8ef8474701ec199d456f989bd397682c9425c5",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "500",
+      "symbol": "C",
+      "decimals": 9,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
