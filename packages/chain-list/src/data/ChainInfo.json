@@ -7099,7 +7099,7 @@
     },
     "extraInfo": {
       "subscanSlug": "enjin",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "enjin-relay"
     }
   },
   "enjin_matrixchain": {
@@ -7132,7 +7132,7 @@
     },
     "extraInfo": {
       "subscanSlug": "matrix",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "enjin-matrix"
     }
   },
   "vara_testnet": {
@@ -8043,7 +8043,7 @@
     },
     "extraInfo": {
       "subscanSlug": "dbc",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "deepbrain"
     }
   },
   "availTuringTest": {
