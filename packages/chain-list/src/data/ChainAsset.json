@@ -8924,11 +8924,11 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/paseotest-native-pas.png"
   },
-  "commune-NATIVE-COMAI": {
+  "commune-NATIVE-C": {
     "originChain": "commune",
-    "slug": "commune-NATIVE-COMAI",
-    "name": "Commune AI",
-    "symbol": "COMAI",
+    "slug": "commune-NATIVE-C",
+    "name": "COMAI",
+    "symbol": "C",
     "decimals": 9,
     "priceId": null,
     "minAmount": "500",
@@ -8936,7 +8936,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/commune-native-comai.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/commune-native-c.png"
   },
   "dbcchain-NATIVE-DBC": {
     "originChain": "dbcchain",
