@@ -8697,7 +8697,9 @@
     "priceId": "mythos",
     "minAmount": "1000000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "disableEvmTransfer": true
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mythos-native-myth.png"
