@@ -43,6 +43,7 @@ query {
         }
         assetRefs {
           type
+          metadata
           destAsset {
             data {
               attributes {
@@ -104,7 +105,8 @@ const main = async () => {
             destAsset: destAsset.slug,
             srcChain: srcAsset.originChain,
             destChain: destAsset.originChain,
-            path: ref.type
+            path: ref.type,
+            metadata: ref.metadata ?? undefined
           }
         }
       });

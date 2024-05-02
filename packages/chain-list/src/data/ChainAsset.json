@@ -484,13 +484,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcaca.png"
   },
-  "moonbeam-LOCAL-xcaUSD": {
+  "moonbeam-LOCAL-xcaSEED": {
     "originChain": "moonbeam",
-    "slug": "moonbeam-LOCAL-xcaUSD",
-    "name": "Acala USD",
-    "symbol": "xcaUSD",
+    "slug": "moonbeam-LOCAL-xcaSEED",
+    "name": "aUSD SEED",
+    "symbol": "xcaSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -500,7 +500,7 @@
     },
     "multiChainAsset": "aSEED-aSEEDAcala",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcaseed.png"
   },
   "moonbeam-ERC721-MFBB-0x02a6dec99b2ca768d638fcd87a96f6069f91287c": {
     "originChain": "moonbeam",
@@ -872,7 +872,7 @@
         "VToken2": "0"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "vDOT-VoucherDot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vdot.png"
   },
@@ -1006,13 +1006,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-busd.png"
   },
-  "calamari-LOCAL-AUSD": {
+  "calamari-LOCAL-aSEED": {
     "originChain": "calamari",
-    "slug": "calamari-LOCAL-AUSD",
-    "name": "Acala Dollar",
-    "symbol": "AUSD",
+    "slug": "calamari-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -1020,7 +1020,7 @@
     },
     "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-ausd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/calamari-local-aseed.png"
   },
   "calamari-LOCAL-USDT": {
     "originChain": "calamari",
@@ -1397,7 +1397,10 @@
     "priceId": "hydradx",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "assetId": "0",
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-native-hdx.png"
@@ -1413,6 +1416,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "10",
+      "autoEnable": true,
       "multilocation": {
         "Concrete": {
           "parents": 1,
@@ -3516,13 +3520,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xceqd.png"
   },
-  "moonriver-LOCAL-xcaSeed": {
+  "moonriver-LOCAL-xcaSEED": {
     "originChain": "moonriver",
-    "slug": "moonriver-LOCAL-xcaSeed",
-    "name": "Karura USD",
-    "symbol": "xcaSeed",
+    "slug": "moonriver-LOCAL-xcaSEED",
+    "name": "aUSD SEED",
+    "symbol": "xcaSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3591,10 +3595,10 @@
   "astar-LOCAL-aSEED": {
     "originChain": "astar",
     "slug": "astar-LOCAL-aSEED",
-    "name": "Acala USD",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3654,10 +3658,10 @@
   "astarEvm-ERC20-aSEED-0xfFFFFfFF00000000000000010000000000000001": {
     "originChain": "astarEvm",
     "slug": "astarEvm-ERC20-aSEED-0xfFFFFfFF00000000000000010000000000000001",
-    "name": "Acala Dollar",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar-acala",
+    "priceId": "ausd-seed-acala",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3706,10 +3710,10 @@
   "shiden-LOCAL-aSEED": {
     "originChain": "shiden",
     "slug": "shiden-LOCAL-aSEED",
-    "name": "Karura USD",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -3723,10 +3727,10 @@
   "shidenEvm-ERC20-aSEED-0xfFFfFFfF00000000000000010000000000000000": {
     "originChain": "shidenEvm",
     "slug": "shidenEvm-ERC20-aSEED-0xfFFfFFfF00000000000000010000000000000000",
-    "name": "Karura USD",
+    "name": "aUSD SEED",
     "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -3736,13 +3740,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shidenevm-erc20-aseed-0xffffffff00000000000000010000000000000000.png"
   },
-  "bifrost-LOCAL-KUSD": {
+  "bifrost-LOCAL-aSEED": {
     "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-KUSD",
-    "name": "Karura USD",
-    "symbol": "KUSD",
+    "slug": "bifrost-LOCAL-aSEED",
+    "name": "aUSD SEED",
+    "symbol": "aSEED",
     "decimals": 12,
-    "priceId": "acala-dollar",
+    "priceId": "ausd-seed-karura",
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -3752,7 +3756,7 @@
     },
     "multiChainAsset": "aSEED-aSEEDKarura",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-kusd.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-aseed.png"
   },
   "bifrost-LOCAL-KAR": {
     "originChain": "bifrost",
@@ -5503,7 +5507,7 @@
     "metadata": {
       "contractAddress": "0x4d224452801ACEd8B2F0aebE155379bb5D594381"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "APE-ApeCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ape-0x4d224452801aced8b2f0aebe155379bb5d594381.png"
   },
@@ -6991,7 +6995,10 @@
     "minAmount": "17540000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "5"
+      "assetId": "5",
+      "autoEnable": true,
+      "canPayTxFee": true,
+      "alternativeSwapAsset": "polkadot-NATIVE-DOT"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -7247,7 +7254,9 @@
     "priceId": null,
     "minAmount": "10000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/goldberg_testnet-native-avl.png"
@@ -7534,7 +7543,7 @@
         "Token2": "9"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "BNCS-InscriptionToken",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-bncs.png"
   },
@@ -7900,7 +7909,9 @@
     "minAmount": "147058823529412000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "9"
+      "assetId": "9",
+      "autoEnable": true,
+      "alternativeSwapAsset": "astar-NATIVE-ASTR"
     },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
@@ -7932,7 +7943,8 @@
     "minAmount": "34854864344868000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "16"
+      "assetId": "16",
+      "autoEnable": true
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
@@ -8064,9 +8076,25 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "30"
+      "assetId": "30",
+      "autoEnable": true,
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 30
+              }
+            ]
+          }
+        }
+      }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "DED-DED",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ded.png"
   },
@@ -8299,6 +8327,858 @@
     "multiChainAsset": "RMRK-RMRKApp",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarevm-erc20-rmrk-0x524d524b4c9366be706d3a90dcf70076ca037ae3.png"
+  },
+  "hydradx_main-LOCAL-DED": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DED",
+    "name": "DED",
+    "symbol": "DED",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000019",
+      "autoEnable": true,
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 30
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "DED-DED",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ded.png"
+  },
+  "xlayer-NATIVE-OKB": {
+    "originChain": "xlayer",
+    "slug": "xlayer-NATIVE-OKB",
+    "name": "X Layer",
+    "symbol": "OKB",
+    "decimals": 18,
+    "priceId": "okb",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/xlayer-native-okb.png"
+  },
+  "astarZkEvm-ERC20-ASTR-0xdf41220C7e322bFEF933D85D01821ad277f90172": {
+    "originChain": "astarZkEvm",
+    "slug": "astarZkEvm-ERC20-ASTR-0xdf41220C7e322bFEF933D85D01821ad277f90172",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xdf41220C7e322bFEF933D85D01821ad277f90172"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/astarzkevm-erc20-astr-0xdf41220c7e322bfef933d85d01821ad277f90172.png"
+  },
+  "moonbeam-LOCAL-xcDED": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcDED",
+    "name": "DED",
+    "symbol": "xcDED",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "124463719055550872076363892993240202694",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFFFFFFF5DA2D7214D268375CF8FB1715705FDC6"
+    },
+    "multiChainAsset": "DED-DED",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcded.png"
+  },
+  "statemint-LOCAL-DOTA": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-DOTA",
+    "name": "DOTA",
+    "symbol": "DOTA",
+    "decimals": 4,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-dota.png"
+  },
+  "moonbeam-LOCAL-xcBNCS": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcBNCS",
+    "name": "BNCS Inscription Token",
+    "symbol": "xcBNCS",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "142155548796783636521833385094843759961",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfFfffffF6aF229AE7f0F4e0188157e189a487D59"
+    },
+    "multiChainAsset": "BNCS-InscriptionToken",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcbncs.png"
+  },
+  "hydradx_main-LOCAL-DAI": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DAI",
+    "name": "DAI Stablecoin (via Wormhole)",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "10000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "2"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-dai.png"
+  },
+  "hydradx_main-LOCAL-APE": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-APE",
+    "name": "ApeCoin (via Wormhole)",
+    "symbol": "APE",
+    "decimals": 18,
+    "priceId": "apecoin",
+    "minAmount": "2518891687657430",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "6"
+    },
+    "multiChainAsset": "APE-ApeCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ape.png"
+  },
+  "hydradx_main-LOCAL-SUB": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-SUB",
+    "name": "Subsocial",
+    "symbol": "SUB",
+    "decimals": 10,
+    "priceId": "subsocial",
+    "minAmount": "20000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "24"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sub.png"
+  },
+  "hydradx_main-LOCAL-4Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-4Pool",
+    "name": "USDT, DAI, USDC, USDT",
+    "symbol": "4-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "100",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-4pool.png"
+  },
+  "hydradx_main-LOCAL-WETH": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-WETH",
+    "name": "Ethereum (via Moonbeam)",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "5390835579515",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "20",
+      "autoEnable": true
+    },
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-weth.png"
+  },
+  "hydradx_main-LOCAL-2Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2Pool",
+    "name": "WBTC, iBTC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "101",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2pool.png"
+  },
+  "hydradx_main-LOCAL-vDOT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-vDOT",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 10,
+    "priceId": "voucher-dot",
+    "minAmount": "18761726",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "15",
+      "autoEnable": true
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-vdot.png"
+  },
+  "hydradx_main-LOCAL-LRNA": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LRNA",
+    "name": "Lerna",
+    "symbol": "LRNA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "400000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lrna.png"
+  },
+  "hydradx_main-LOCAL-DAI-18": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-DAI-18",
+    "name": "Random token 1 (via Wormhole)",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "10000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-dai-18.png"
+  },
+  "hydradx_main-LOCAL-USDC-21": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDC-21",
+    "name": "USDC (Moonbeam Wormhole)",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "21"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdc-21.png"
+  },
+  "hydradx_main-LOCAL-USDT-23": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-USDT-23",
+    "name": "USDT (Moonbeam Wormhole)",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "23"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-usdt-23.png"
+  },
+  "hydradx_main-LOCAL-WBTC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-WBTC",
+    "name": "Wrapped Bitcoin (via Wormhole)",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "wrapped-bitcoin",
+    "minAmount": "44",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "3"
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wbtc.png"
+  },
+  "hydradx_main-LOCAL-iBTC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-iBTC",
+    "name": "interBTC",
+    "symbol": "iBTC",
+    "decimals": 8,
+    "priceId": "interbtc",
+    "minAmount": "36",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "11"
+    },
+    "multiChainAsset": "iBTC-interBTC",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ibtc.png"
+  },
+  "hydradx_main-LOCAL-PINK": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-PINK",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000021"
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-pink.png"
+  },
+  "acurast-NATIVE-cACU": {
+    "originChain": "acurast",
+    "slug": "acurast-NATIVE-cACU",
+    "name": "Acurast Canary",
+    "symbol": "cACU",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acurast-native-cacu.png"
+  },
+  "mythos-NATIVE-MYTH": {
+    "originChain": "mythos",
+    "slug": "mythos-NATIVE-MYTH",
+    "name": "Mythos",
+    "symbol": "MYTH",
+    "decimals": 18,
+    "priceId": "mythos",
+    "minAmount": "1000000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "disableEvmTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mythos-native-myth.png"
+  },
+  "statemint-LOCAL-BEEFY": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-BEEFY",
+    "name": "BEEFY",
+    "symbol": "BEEFY",
+    "decimals": 2,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "420",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 420
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "BEEFY-BEEFY",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-beefy.png"
+  },
+  "hydradx_main-LOCAL-BEEFY": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-BEEFY",
+    "name": "BEEFY",
+    "symbol": "BEEFY",
+    "decimals": 2,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000036",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 420
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "BEEFY-BEEFY",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-beefy.png"
+  },
+  "humanode-NATIVE-HMND": {
+    "originChain": "humanode",
+    "slug": "humanode-NATIVE-HMND",
+    "name": "Humanode",
+    "symbol": "HMND",
+    "decimals": 18,
+    "priceId": "humanode",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "HMND-Humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanode-native-hmnd.png"
+  },
+  "humanodeEvm-NATIVE-eHMND": {
+    "originChain": "humanodeEvm",
+    "slug": "humanodeEvm-NATIVE-eHMND",
+    "name": "Humanode",
+    "symbol": "eHMND",
+    "decimals": 18,
+    "priceId": "humanode",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "HMND-Humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-native-ehmnd.png"
+  },
+  "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": {
+    "originChain": "humanodeEvm",
+    "slug": "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802",
+    "name": "Wrapped Humanode",
+    "symbol": "WeHMND",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0000000000000000000000000000000000000802"
+    },
+    "multiChainAsset": "HMND-Humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
+  },
+  "moonbeam-LOCAL-xcvDOT": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcvDOT",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "xcvDOT",
+    "decimals": 10,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "29085784439601774464560083082574142143",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFFFfffFf15e1b7E3dF971DD813Bc394deB899aBf"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcvdot.png"
+  },
+  "statemint-LOCAL-STINK": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-STINK",
+    "name": "STINK",
+    "symbol": "STINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "42069",
+      "multilocation": {
+        "Concrete": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 42069
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "STINK-STINK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-stink.png"
+  },
+  "hydradx_main-LOCAL-STINK": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-STINK",
+    "name": "STINK",
+    "symbol": "STINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000034",
+      "multilocation": {
+        "Concrete": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 42069
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "STINK-STINK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-stink.png"
+  },
+  "base_mainnet-ERC20-PINK-0x66fc31b3233c7C001bdD21Ff6E5E66fA08EF85D0": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-PINK-0x66fc31b3233c7C001bdD21Ff6E5E66fA08EF85D0",
+    "name": "Pink",
+    "symbol": "PINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x66fc31b3233c7C001bdD21Ff6E5E66fA08EF85D0"
+    },
+    "multiChainAsset": "PINK-StatemintPink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-pink-0x66fc31b3233c7c001bdd21ff6e5e66fa08ef85d0.png"
+  },
+  "paseoTest-NATIVE-PAS": {
+    "originChain": "paseoTest",
+    "slug": "paseoTest-NATIVE-PAS",
+    "name": "Paseo Testnet",
+    "symbol": "PAS",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/paseotest-native-pas.png"
+  },
+  "commune-NATIVE-C": {
+    "originChain": "commune",
+    "slug": "commune-NATIVE-C",
+    "name": "COMAI",
+    "symbol": "C",
+    "decimals": 9,
+    "priceId": "commune-ai",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/commune-native-c.png"
+  },
+  "dbcchain-NATIVE-DBC": {
+    "originChain": "dbcchain",
+    "slug": "dbcchain-NATIVE-DBC",
+    "name": "DBC Mainnet",
+    "symbol": "DBC",
+    "decimals": 15,
+    "priceId": "deepbrain-chain",
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-native-dbc.png"
+  },
+  "dbcchain-LOCAL-DLC": {
+    "originChain": "dbcchain",
+    "slug": "dbcchain-LOCAL-DLC",
+    "name": "DeepLink Coin",
+    "symbol": "DLC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "100000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "88"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-local-dlc.png"
+  },
+  "availTuringTest-NATIVE-AVAIL": {
+    "originChain": "availTuringTest",
+    "slug": "availTuringTest-NATIVE-AVAIL",
+    "name": "Avail Turing Testnet",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/availturingtest-native-avail.png"
+  },
+  "bitlayer-NATIVE-BTC": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-native-btc.png"
+  },
+  "bitlayerTest-NATIVE-BTC": {
+    "originChain": "bitlayerTest",
+    "slug": "bitlayerTest-NATIVE-BTC",
+    "name": "Bitcoin testnet",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayertest-native-btc.png"
+  },
+  "bevm-NATIVE-BTC": {
+    "originChain": "bevm",
+    "slug": "bevm-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevm-native-btc.png"
+  },
+  "bevmTest-NATIVE-BTC": {
+    "originChain": "bevmTest",
+    "slug": "bevmTest-NATIVE-BTC",
+    "name": "Bitcoin testnet",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevmtest-native-btc.png"
+  },
+  "b2-NATIVE-BTC": {
+    "originChain": "b2",
+    "slug": "b2-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-native-btc.png"
+  },
+  "bitlayer-ERC20-USDT-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-USDT-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2",
+    "name": "Bitlayer-Peg USDT",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfe9f969faf8ad72a83b761138bf25de87eff9dd2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-usdt-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2.png"
+  },
+  "bitlayer-ERC20-USDC-0x9827431e8b77e87c9894bd50b055d6be56be0030": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-USDC-0x9827431e8b77e87c9894bd50b055d6be56be0030",
+    "name": "Bitlayer-Peg USDC",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9827431e8b77e87c9894bd50b055d6be56be0030"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-usdc-0x9827431e8b77e87c9894bd50b055d6be56be0030.png"
+  },
+  "bitlayer-ERC20-ETH-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-ETH-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2",
+    "name": "Bitlayer-Peg ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-eth-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2.png"
+  },
+  "bevm-ERC20-WBTC-0xB5136FEba197f5fF4B765E5b50c74db717796dcD": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-WBTC-0xB5136FEba197f5fF4B765E5b50c74db717796dcD",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xB5136FEba197f5fF4B765E5b50c74db717796dcD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bevm-ERC20-stBTC-0x26bda683F874e7AE3e3A5d3fad44Bcb82a7c107C": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-stBTC-0x26bda683F874e7AE3e3A5d3fad44Bcb82a7c107C",
+    "name": "Liquid staked BTC",
+    "symbol": "stBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x26bda683F874e7AE3e3A5d3fad44Bcb82a7c107C"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bevm-ERC20-wstBTC-0x2967E7Bb9DaA5711Ac332cAF874BD47ef99B3820": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-wstBTC-0x2967E7Bb9DaA5711Ac332cAF874BD47ef99B3820",
+    "name": "Wrapped liquid staked BTC 2.0",
+    "symbol": "wstBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2967E7Bb9DaA5711Ac332cAF874BD47ef99B3820"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bobMainnet-NATIVE-ETH": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-native-eth.png"
+  },
+  "avail_mainnet-NATIVE-AVAIL": {
+    "originChain": "avail_mainnet",
+    "slug": "avail_mainnet-NATIVE-AVAIL",
+    "name": "Avail",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/avail_mainnet-native-avail.png"
   },
   "bitcoin-NATIVE-BTC": {
     "originChain": "bitcoin",

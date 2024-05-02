@@ -1,0 +1,35 @@
+{
+  "goldberg_testnet-NATIVE-AVL": {
+    "originChain": "goldberg_testnet",
+    "slug": "goldberg_testnet-NATIVE-AVL",
+    "name": "Goldberg Testnet",
+    "symbol": "AVL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/goldberg_testnet-native-avl.png"
+  },
+  "statemint-LOCAL-DOTA": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-DOTA",
+    "name": "DOTA",
+    "symbol": "DOTA",
+    "decimals": 4,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "18",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-dota.png"
+  }
+}

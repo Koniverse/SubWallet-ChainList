@@ -5701,8 +5701,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png",
     "providers": {
-      "Vara": "wss://rpc.vara-network.io",
-      "Vara Network": "wss://rpc.vara.network"
+      "Vara Network": "wss://rpc.vara.network",
+      "BlastApi": "wss://vara-mainnet.public.blastapi.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6890,7 +6890,7 @@
     },
     "extraInfo": {
       "subscanSlug": "manta",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "manta"
     }
   },
   "t3rn": {
@@ -7131,7 +7131,7 @@
       "addressPrefix": 2135,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://enjin.subscan.io/",
       "existentialDeposit": "100000000000000000",
       "symbol": "ENJ",
       "decimals": 18,
@@ -7141,7 +7141,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "enjin",
+      "chainBalanceSlug": "enjin-relay"
+    }
   },
   "enjin_matrixchain": {
     "slug": "enjin_matrixchain",
@@ -7161,7 +7164,7 @@
       "addressPrefix": 1110,
       "chainType": null,
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://matrix.subscan.io/",
       "existentialDeposit": "100000000000000000",
       "symbol": "ENJ",
       "decimals": 18,
@@ -7171,7 +7174,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "matrix",
+      "chainBalanceSlug": "enjin-matrix"
+    }
   },
   "vara_testnet": {
     "slug": "vara_testnet",
@@ -7209,7 +7215,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
     "providers": {
-      "Avail Goldberg Testnet": "wss://goldberg.avail.tools/ws"
+      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws",
+      "Goldberg testnet": "wss://goldberg-testnet-rpc.avail.tools/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7475,7 +7482,7 @@
     },
     "extraInfo": {
       "subscanSlug": "continuum",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "continuum"
     }
   },
   "rococo_assethub": {
@@ -7510,7 +7517,7 @@
   },
   "okxTest": {
     "slug": "okxTest",
-    "name": "OKX X1 testnet",
+    "name": "X Layer testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/okxtest.png",
@@ -7520,7 +7527,7 @@
     },
     "evmInfo": {
       "evmChainId": 195,
-      "blockExplorer": "https://www.okx.com/nl/explorer/x1-test",
+      "blockExplorer": "https://www.okx.com/explorer/xlayer-test/",
       "existentialDeposit": "0",
       "symbol": "OKX",
       "decimals": 18,
@@ -7528,7 +7535,7 @@
         "ERC20",
         "ERC721"
       ],
-      "abiExplorer": "https://www.okx.com/nl/explorer/x1-test"
+      "abiExplorer": "https://www.okx.com/explorer/xlayer-test/"
     },
     "substrateInfo": null,
     "extraInfo": null
@@ -7569,7 +7576,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/liberland.png",
     "providers": {
-      "Liberland": "wss://mainnet.liberland.org"
+      "Liberland": "wss://mainnet.liberland.org",
+      "Dwellir": "wss://liberland-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7743,7 +7751,10 @@
       "existentialDeposit": "0",
       "symbol": "ETH",
       "decimals": 18,
-      "supportSmartContract": null,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
       "abiExplorer": "https://astar-zkevm.explorer.startale.com/"
     },
     "substrateInfo": null,
@@ -7778,7 +7789,7 @@
   "hydradx_rococo": {
     "slug": "hydradx_rococo",
     "name": "HydraDX Rococo",
-    "isTestnet": null,
+    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
     "providers": {
@@ -7835,5 +7846,452 @@
       "subscanSlug": "creditcoin3-testnet",
       "chainBalanceSlug": null
     }
+  },
+  "xlayer": {
+    "slug": "xlayer",
+    "name": "X Layer",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xlayer.png",
+    "providers": {
+      "X Layer": "https://rpc.xlayer.tech",
+      "X Layer OKX": "https://xlayerrpc.okx.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 196,
+      "blockExplorer": "https://www.okx.com/explorer/xlayer",
+      "existentialDeposit": "0",
+      "symbol": "OKB",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": "https://www.okx.com/explorer/xlayer"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "acurast": {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acurast.png",
+    "providers": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 2239,
+      "genesisHash": "0xce7681fb12aa8f7265d229a9074be0ea1d5e99b53eedcec2deade43857901808",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "cACU",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "mythos": {
+    "slug": "mythos",
+    "name": "Mythos",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mythos.png",
+    "providers": {
+      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
+    },
+    "evmInfo": {
+      "evmChainId": -1,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "MYTH",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": null
+    },
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3369,
+      "genesisHash": "0xf6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9",
+      "addressPrefix": 29972,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000",
+      "symbol": "MYTH",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "humanode": {
+    "slug": "humanode",
+    "name": "Humanode",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/humanode.png",
+    "providers": {
+      "Humanode": "wss://explorer-rpc-ws.mainnet.stages.humanode.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xc56fa32442b2dad76f214b3ae07998e4ca09736e4813724bfb0717caae2c8bee",
+      "addressPrefix": 5234,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://humanode.subscan.io/",
+      "existentialDeposit": "500",
+      "symbol": "HMND",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "humanode",
+      "chainBalanceSlug": "humanode"
+    }
+  },
+  "humanodeEvm": {
+    "slug": "humanodeEvm",
+    "name": "Humanode - EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/humanodeevm.png",
+    "providers": {
+      "Humanode": "https://explorer-rpc-http.mainnet.stages.humanode.io"
+    },
+    "evmInfo": {
+      "evmChainId": 5234,
+      "blockExplorer": "https://humanode.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "eHMND",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://humanode.subscan.io/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "paseoTest": {
+    "slug": "paseoTest",
+    "name": "Paseo Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/paseotest.png",
+    "providers": {
+      "Amforc": "wss://paseo.rpc.amforc.com",
+      "Dwellir": "wss://paseo-rpc.dwellir.com",
+      "IBP-GeoDNS1": "wss://rpc.ibp.network/paseo",
+      "IBP-GeoDNS2": "wss://rpc.dotters.network/paseo"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://paseo.subscan.io/",
+      "existentialDeposit": "10000000000",
+      "symbol": "PAS",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "paseo",
+      "chainBalanceSlug": null
+    }
+  },
+  "commune": {
+    "slug": "commune",
+    "name": "Commune AI",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/commune.png",
+    "providers": {
+      "Commune Node 1": "wss://commune-api-node-1.communeai.net"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xbc6eb9753e2417476601485f9f8ef8474701ec199d456f989bd397682c9425c5",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "500",
+      "symbol": "C",
+      "decimals": 9,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "dbcchain": {
+    "slug": "dbcchain",
+    "name": "DBC Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain.png",
+    "providers": {
+      "DBC Chain": "wss://info1.dbcwallet.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xd523fa2e0581f069b4f0c7b5944c21e9abc72305a08067868c91b898d1bf1dff",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://dbc.subscan.io/",
+      "existentialDeposit": "10000000000000",
+      "symbol": "DBC",
+      "decimals": 15,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "dbc",
+      "chainBalanceSlug": "deepbrain"
+    }
+  },
+  "availTuringTest": {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/availturingtest.png",
+    "providers": {
+      "Avail Turing ": "wss://turing-rpc.avail.so/",
+      "Avail Space": "wss://turing-rpc.availspace.app/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xd3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "AVAIL",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": true,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
+  },
+  "bitlayer": {
+    "slug": "bitlayer",
+    "name": "Bitlayer Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitlayer.png",
+    "providers": {
+      "Bitlayer": "https://rpc.bitlayer.org",
+      "Rpc": "https://rpc.bitlayer-rpc.com",
+      "Ankr": "https://rpc.ankr.com/bitlayer"
+    },
+    "evmInfo": {
+      "evmChainId": 200901,
+      "blockExplorer": "https://www.btrscan.com",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://www.btrscan.com"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "bitlayerTest": {
+    "slug": "bitlayerTest",
+    "name": "Bitlayer Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitlayertest.png",
+    "providers": {
+      "Rpc testnet": "https://testnet-rpc.bitlayer.org"
+    },
+    "evmInfo": {
+      "evmChainId": 200810,
+      "blockExplorer": "https://testnet-scan.bitlayer.org",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://testnet-scan.bitlayer.org"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "bevm": {
+    "slug": "bevm",
+    "name": "BEVM Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bevm.png",
+    "providers": {
+      "Mainnet 1": "https://rpc-mainnet-1.bevm.io",
+      "Mainnet 2": "https://rpc-mainnet-2.bevm.io"
+    },
+    "evmInfo": {
+      "evmChainId": 11501,
+      "blockExplorer": "https://scan-mainnet.bevm.io/",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://scan-mainnet.bevm.io/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "bevmTest": {
+    "slug": "bevmTest",
+    "name": "BEVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bevmtest.png",
+    "providers": {
+      "BEVM testnet": "https://testnet.bevm.io"
+    },
+    "evmInfo": {
+      "evmChainId": 11503,
+      "blockExplorer": "https://scan-testnet.bevm.io",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://scan-testnet.bevm.io"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "b2": {
+    "slug": "b2",
+    "name": "B2 Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/b2.png",
+    "providers": {
+      "Bsquared": "https://rpc.bsquared.network",
+      "Alt technology": "https://b2-mainnet.alt.technology"
+    },
+    "evmInfo": {
+      "evmChainId": 223,
+      "blockExplorer": "https://explorer.bsquared.network/",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://explorer.bsquared.network/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "bobMainnet": {
+    "slug": "bobMainnet",
+    "name": "BOB Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bobmainnet.png",
+    "providers": {
+      "Gobob": "https://rpc.gobob.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 60808,
+      "blockExplorer": "https://explorer.gobob.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://explorer.gobob.xyz/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  "avail_mainnet": {
+    "slug": "avail_mainnet",
+    "name": "Avail Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avail_mainnet.png",
+    "providers": {
+      "Avail": "wss://turing-rpc.availspace.app/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x128ea318539862c0a06b745981300d527c1041c6f3388a8c49565559e3ea3d10",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "AVAIL",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": true,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }

@@ -421,5 +421,68 @@
     "priceId": "bifrost-native-coin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bnc-bifrostpolkadot.png"
+  },
+  "DED-DED": {
+    "slug": "DED-DED",
+    "originChainAsset": "statemint-LOCAL-DED",
+    "name": "DED",
+    "symbol": "DED",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ded-ded.png"
+  },
+  "BNCS-InscriptionToken": {
+    "slug": "BNCS-InscriptionToken",
+    "originChainAsset": "bifrost_dot-LOCAL-BNCS",
+    "name": "Inscription Token",
+    "symbol": "BNCS",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bncs-inscriptiontoken.png"
+  },
+  "APE-ApeCoin": {
+    "slug": "APE-ApeCoin",
+    "originChainAsset": "ethereum-ERC20-APE-0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "priceId": "apecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ape-apecoin.png"
+  },
+  "vDOT-VoucherDot": {
+    "slug": "vDOT-VoucherDot",
+    "originChainAsset": "bifrost_dot-LOCAL-vDOT",
+    "name": "Voucher Dot",
+    "symbol": "vDOT",
+    "priceId": "voucher-dot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/vdot-voucherdot.png"
+  },
+  "BEEFY-BEEFY": {
+    "slug": "BEEFY-BEEFY",
+    "originChainAsset": "statemint-LOCAL-BEEFY",
+    "name": "BEEFY",
+    "symbol": "BEEFY",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/beefy-beefy.png"
+  },
+  "HMND-Humanode": {
+    "slug": "HMND-Humanode",
+    "originChainAsset": "humanode-NATIVE-HMND",
+    "name": "Humanode",
+    "symbol": "HMND",
+    "priceId": "humanode",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/hmnd-humanode.png"
+  },
+  "STINK-STINK": {
+    "slug": "STINK-STINK",
+    "originChainAsset": "statemint-LOCAL-STINK",
+    "name": "STINK",
+    "symbol": "STINK",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/stink-stink.png"
   }
 }
