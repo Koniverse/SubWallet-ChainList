@@ -8197,12 +8197,12 @@
     "substrateInfo": null,
     "extraInfo": null
   },
-  "bobMainnet ": {
-    "slug": "bobMainnet ",
+  "bobMainnet": {
+    "slug": "bobMainnet",
     "name": "BOB Mainnet",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bobmainnet .png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bobmainnet.png",
     "providers": {
       "Gobob": "https://rpc.gobob.xyz/"
     },
