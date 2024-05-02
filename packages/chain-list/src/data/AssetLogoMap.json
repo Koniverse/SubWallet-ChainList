@@ -1,5 +1,9 @@
 {
   "default": "https://dev.sw-chain-list-assets.pages.dev/assets/default.png",
+  "bitcoin-native-btc": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
+  "bitcointestnet-native-btc": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
+  "btc-bitcoin": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
+  "btc-bitcointestnet": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
   "polkadot-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot-native-dot.png",
   "kusama-native-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama-native-ksm.png",
   "ethereum-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-native-eth.png",
@@ -616,7 +620,5 @@
   "custom-moonbeam-erc20-cp-0x6021d2c27b6fbd6e7608d1f39b41398caee2f824": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/cp_77d5363018.png",
   "custom-aleph-psp22-zpf-5eskjbkpva1ppucmrkcmazdhqm9shihws9uqqsoi4vrdcdle": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/zpf_2f06de3f07.png",
   "custom-custom-substrate-gosnetwork-native-gos": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/gos_a4d1a9cf7a.png",
-  "custom-custom-substrate-gosspectral-native-gost": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/gos_a4d1a9cf7a.png",
-  "bitcoin-native-btc": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png",
-  "bitcointestnet-native-btc": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png"
+  "custom-custom-substrate-gosspectral-native-gost": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/gos_a4d1a9cf7a.png"
 }

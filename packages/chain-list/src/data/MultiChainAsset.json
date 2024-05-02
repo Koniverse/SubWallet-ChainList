@@ -1,4 +1,22 @@
 {
+  "BTC-Bitcoin": {
+    "slug": "BTC-Bitcoin",
+    "originChainAsset": "bitcoin-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "priceId": "bitcoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png"
+  },
+  "BTC-BitcoinTestnet": {
+    "slug": "BTC-BitcoinTestnet",
+    "originChainAsset": "bitcoinTestnet-NATIVE-BTC",
+    "name": "Bitcoin Testnet",
+    "symbol": "BTC",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wbtc-wrappedbtc.png"
+  },
   "ETH-Ethereum": {
     "slug": "ETH-Ethereum",
     "originChainAsset": "ethereum-NATIVE-ETH",
