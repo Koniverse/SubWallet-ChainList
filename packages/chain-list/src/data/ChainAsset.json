@@ -8932,7 +8932,7 @@
     "name": "COMAI",
     "symbol": "C",
     "decimals": 9,
-    "priceId": null,
+    "priceId": "commune-ai",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
@@ -8985,5 +8985,185 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/availturingtest-native-avail.png"
+  },
+  "bitlayer-NATIVE-BTC": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-native-btc.png"
+  },
+  "bitlayerTest-NATIVE-BTC": {
+    "originChain": "bitlayerTest",
+    "slug": "bitlayerTest-NATIVE-BTC",
+    "name": "Bitcoin testnet",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayertest-native-btc.png"
+  },
+  "bevm-NATIVE-BTC": {
+    "originChain": "bevm",
+    "slug": "bevm-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevm-native-btc.png"
+  },
+  "bevmTest-NATIVE-BTC": {
+    "originChain": "bevmTest",
+    "slug": "bevmTest-NATIVE-BTC",
+    "name": "Bitcoin testnet",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevmtest-native-btc.png"
+  },
+  "b2-NATIVE-BTC": {
+    "originChain": "b2",
+    "slug": "b2-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-native-btc.png"
+  },
+  "bitlayer-ERC20-USDT-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-USDT-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2",
+    "name": "Bitlayer-Peg USDT",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfe9f969faf8ad72a83b761138bf25de87eff9dd2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-usdt-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2.png"
+  },
+  "bitlayer-ERC20-USDC-0x9827431e8b77e87c9894bd50b055d6be56be0030": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-USDC-0x9827431e8b77e87c9894bd50b055d6be56be0030",
+    "name": "Bitlayer-Peg USDC",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9827431e8b77e87c9894bd50b055d6be56be0030"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-usdc-0x9827431e8b77e87c9894bd50b055d6be56be0030.png"
+  },
+  "bitlayer-ERC20-ETH-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-ETH-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2",
+    "name": "Bitlayer-Peg ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-eth-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2.png"
+  },
+  "bevm-ERC20-WBTC-0xB5136FEba197f5fF4B765E5b50c74db717796dcD": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-WBTC-0xB5136FEba197f5fF4B765E5b50c74db717796dcD",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xB5136FEba197f5fF4B765E5b50c74db717796dcD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bevm-ERC20-stBTC-0x26bda683F874e7AE3e3A5d3fad44Bcb82a7c107C": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-stBTC-0x26bda683F874e7AE3e3A5d3fad44Bcb82a7c107C",
+    "name": "Liquid staked BTC",
+    "symbol": "stBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x26bda683F874e7AE3e3A5d3fad44Bcb82a7c107C"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bevm-ERC20-wstBTC-0x2967E7Bb9DaA5711Ac332cAF874BD47ef99B3820": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-wstBTC-0x2967E7Bb9DaA5711Ac332cAF874BD47ef99B3820",
+    "name": "Wrapped liquid staked BTC 2.0",
+    "symbol": "wstBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2967E7Bb9DaA5711Ac332cAF874BD47ef99B3820"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bobMainnet-NATIVE-ETH": {
+    "originChain": "bobMainnet ",
+    "slug": "bobMainnet-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-native-eth.png"
   }
 }
