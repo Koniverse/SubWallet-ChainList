@@ -8220,5 +8220,34 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "avail_mainnet": {
+    "slug": "avail_mainnet",
+    "name": "Avail Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avail_mainnet.png",
+    "providers": {
+      "Avail": "wss://turing-rpc.availspace.app/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x128ea318539862c0a06b745981300d527c1041c6f3388a8c49565559e3ea3d10",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "AVAIL",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": true,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
