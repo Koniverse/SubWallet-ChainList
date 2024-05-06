@@ -9207,5 +9207,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/avail_mainnet-native-avail.png"
+  },
+  "merlinEvm-NATIVE-BTC": {
+    "originChain": "merlinEvm",
+    "slug": "merlinEvm-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/merlinevm-native-btc.png"
+  },
+  "botanixEvmTest-NATIVE-BTC": {
+    "originChain": "botanixEvmTest",
+    "slug": "botanixEvmTest-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/botanixevmtest-native-btc.png"
   }
 }
