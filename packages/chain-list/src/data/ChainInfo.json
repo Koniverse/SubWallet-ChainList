@@ -6487,7 +6487,7 @@
       "addressPrefix": 117,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://invarch.statescan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "VARCH",
       "decimals": 12,
@@ -7870,7 +7870,7 @@
       "addressPrefix": 29972,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://mythos.subscan.io/",
       "existentialDeposit": "1000000000000000",
       "symbol": "MYTH",
       "decimals": 18,
@@ -7880,7 +7880,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "mythos",
+      "chainBalanceSlug": "mythos"
+    }
   },
   "humanode": {
     "slug": "humanode",
@@ -8052,7 +8055,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://avail-turing.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "AVAIL",
       "decimals": 18,
@@ -8062,7 +8065,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "avail-turing",
+      "chainBalanceSlug": "avail"
+    }
   },
   "bitlayer": {
     "slug": "bitlayer",
