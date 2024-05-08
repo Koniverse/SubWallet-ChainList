@@ -6,7 +6,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
-      "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
@@ -45,7 +44,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png",
     "providers": {
-      "Dwellir": "wss://kusama-rpc.dwellir.com",
       "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws",
       "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
@@ -144,7 +142,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbeam.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
-      "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "Blast": "wss://moonbeam.public.blastapi.io",
       "UnitedBloc": "wss://moonbeam.unitedbloc.com"
     },
@@ -283,7 +280,6 @@
     "providers": {
       "Astar": "wss://rpc.astar.network",
       "OnFinality": "wss://astar.api.onfinality.io/public-ws",
-      "Dwellir": "wss://astar-rpc.dwellir.com",
       "Blast": "wss://astar.public.blastapi.io",
       "1RPC": "wss://1rpc.io/astr",
       "Light Client": "light://substrate-connect/polkadot/astar"
@@ -360,7 +356,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
     "providers": {
-      "Dwellir": "wss://statemint-rpc.dwellir.com",
       "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://sys.ibp.network/statemint",
       "IBP-GeoDNS2": "wss://sys.dotters.network/statemint",
@@ -401,7 +396,6 @@
       "Acala Foundation 2": "wss://acala-rpc-2.aca-api.network/ws",
       "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
       "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
-      "Dwellir": "wss://acala-rpc.dwellir.com",
       "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
     },
     "evmInfo": null,
@@ -1120,7 +1114,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
     "providers": {
       "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
-      "Dwellir": "wss://bifrost-rpc.dwellir.com",
       "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -1176,7 +1169,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
     "providers": {
-      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com",
       "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
@@ -5836,8 +5828,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/krest_network.png",
     "providers": {
-      "Peaq": "wss://wss-krest.peaq.network/",
-      "UnitedBloc": "wss://krest.unitedbloc.com/"
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8050,7 +8041,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/availturingtest.png",
     "providers": {
-      "Avail Turing ": "wss://turing-rpc.avail.so/",
+      "Avail Turing ": "wss://turing-rpc.avail.so/ws",
       "Avail Space": "wss://turing-rpc.availspace.app/"
     },
     "evmInfo": null,
