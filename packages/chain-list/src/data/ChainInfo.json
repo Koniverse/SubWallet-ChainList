@@ -8292,5 +8292,34 @@
     },
     "substrateInfo": null,
     "extraInfo": null
+  },
+  "curio": {
+    "slug": "curio",
+    "name": "Curio",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/curio.png",
+    "providers": {
+      "Curio": "wss://parachain.curioinvest.com/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 3339,
+      "genesisHash": "0x1d73b9f5dc392744e0dee00a6d6254fcfa2305386cceba60315894fa4807053a",
+      "addressPrefix": 777,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000000000",
+      "symbol": "CGT",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
