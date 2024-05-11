@@ -30,7 +30,8 @@ export enum _AssetType {
   PSP22 = 'PSP22',
   PSP34 = 'PSP34',
   UNKNOWN = 'UNKNOWN',
-  RUNE = 'RUNE'
+  RUNE = 'RUNE',
+  BRC20 = 'BRC20'
 }
 
 export enum _SubstrateChainType {
