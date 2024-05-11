@@ -9235,5 +9235,53 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/botanixevmtest-native-btc.png"
+  },
+  "bitcoin-RUNE-RUNING*BITCOIN-841052:1863": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-RUNING*BITCOIN-841052:1863",
+    "name": "RUNING BITCOIN",
+    "symbol": "RUNING*BITCOIN",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "841052:1863"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/botanixevmtest-native-btc.png"
+  },
+  "bitcoin-RUNE-RUNES*X*BITCOIN-840000:142": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-RUNES*X*BITCOIN-840000:142",
+    "name": "RUNES X BITCOIN",
+    "symbol": "RUNES*X*BITCOIN",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "840000:142"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/botanixevmtest-native-btc.png"
+  },
+  "bitcoin-RUNE-KERNEL*BITCORN-840015:9": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-KERNEL*BITCORN-840015:9",
+    "name": "KERNEL BITCORN",
+    "symbol": "KERNEL*BITCORN",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "840015:9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kernal_bitcorn.png"
   }
 }
