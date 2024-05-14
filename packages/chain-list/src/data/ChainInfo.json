@@ -2867,7 +2867,7 @@
       "addressPrefix": 28,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://app.subsocial.network/crowdloan",
-      "blockExplorer": null,
+      "blockExplorer": "https://explorer.subsocial.network",
       "existentialDeposit": "100000000",
       "symbol": "SUB",
       "decimals": 10,
