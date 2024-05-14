@@ -8321,5 +8321,34 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "hyperbridge": {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
+    "providers": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3367,
+      "genesisHash": "0x61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "NAND",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
