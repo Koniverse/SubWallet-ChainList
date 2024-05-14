@@ -1442,7 +1442,7 @@
       "addressPrefix": 172,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://crowdloan.parallel.fi/#/auction/contribute/polkadot/2012",
-      "blockExplorer": "https://parallel.subscan.io/",
+      "blockExplorer": null,
       "existentialDeposit": "100000000000",
       "symbol": "PARA",
       "decimals": 12,
@@ -1486,10 +1486,7 @@
         }
       ]
     },
-    "extraInfo": {
-      "subscanSlug": "parallel",
-      "chainBalanceSlug": "parallel"
-    }
+    "extraInfo": null
   },
   "clover": {
     "slug": "clover",
@@ -1826,7 +1823,7 @@
     },
     "extraInfo": {
       "subscanSlug": "darwinia",
-      "chainBalanceSlug": "darwinia"
+      "chainBalanceSlug": "darwinia2"
     }
   },
   "sora_ksm": {
@@ -2238,7 +2235,7 @@
     },
     "extraInfo": {
       "subscanSlug": "crust-parachain",
-      "chainBalanceSlug": "crust"
+      "chainBalanceSlug": "crust-parachain"
     }
   },
   "statemine": {
@@ -3153,7 +3150,7 @@
     },
     "extraInfo": {
       "subscanSlug": "integritee",
-      "chainBalanceSlug": "integritee"
+      "chainBalanceSlug": "integritee-para"
     }
   },
   "integriteePolkadot": {
@@ -3250,7 +3247,7 @@
     },
     "extraInfo": {
       "subscanSlug": "crab",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "darwinia-crab"
     }
   },
   "pangolin": {
@@ -3381,10 +3378,7 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": {
-      "subscanSlug": null,
-      "chainBalanceSlug": "mangatax"
-    }
+    "extraInfo": null
   },
   "mangatax_para": {
     "slug": "mangatax_para",
@@ -3439,7 +3433,7 @@
     },
     "extraInfo": {
       "subscanSlug": "mangatax",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "mangata"
     }
   },
   "encointer": {
@@ -4682,7 +4676,7 @@
       "addressPrefix": 1328,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://ajuna.subscan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "AJUN",
       "decimals": 12,
@@ -4704,7 +4698,10 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "ajuna",
+      "chainBalanceSlug": "ajuna"
+    }
   },
   "bitgreen": {
     "slug": "bitgreen",
@@ -5181,7 +5178,7 @@
     },
     "extraInfo": {
       "subscanSlug": "dock",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "dock-pos"
     }
   },
   "kusari": {
@@ -5462,7 +5459,7 @@
     },
     "extraInfo": {
       "subscanSlug": "sora",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "sora"
     }
   },
   "swapdex": {
@@ -5722,7 +5719,7 @@
       "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://bridgehub-polkadot.subscan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "DOT",
       "decimals": 10,
@@ -5732,7 +5729,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "bridgehub-polkadot",
+      "chainBalanceSlug": "bridgehub-polkadot"
+    }
   },
   "bridgeHubKusama": {
     "slug": "bridgeHubKusama",
@@ -5754,7 +5754,7 @@
       "addressPrefix": 2,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://bridgehub-kusama.subscan.io/",
       "existentialDeposit": "33333333",
       "symbol": "KSM",
       "decimals": 12,
@@ -5764,7 +5764,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": {
+      "subscanSlug": "bridgehub-kusama",
+      "chainBalanceSlug": "bridgehub-kusama"
+    }
   },
   "fantom_testnet": {
     "slug": "fantom_testnet",
@@ -5862,7 +5865,7 @@
     },
     "extraInfo": {
       "subscanSlug": "krest",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "krest"
     }
   },
   "deeper_network": {
@@ -6005,7 +6008,7 @@
     },
     "extraInfo": {
       "subscanSlug": "crust",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "crust-main"
     }
   },
   "acala_evm": {
