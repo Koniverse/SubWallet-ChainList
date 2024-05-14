@@ -8353,5 +8353,34 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  "cess_testnet": {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cess_testnet.png",
+    "providers": {
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x33729cc9053c7d698504a31caf79d39f8fc592fb50a2412717734df2be791b8a",
+      "addressPrefix": 11330,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000000",
+      "symbol": "TCESS",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null
   }
 }
