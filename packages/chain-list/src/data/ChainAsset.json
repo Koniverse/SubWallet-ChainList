@@ -9564,5 +9564,21 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-usdc.s.png"
+  },
+  "vara_testnet-GRC20-TOK-0x886261b17ead11cff4487a9ffefc3dc315ce0856b29ef83a070cc607a26ef034": {
+    "originChain": "vara_testnet",
+    "slug": "vara_testnet-GRC20-TOK-0x886261b17ead11cff4487a9ffefc3dc315ce0856b29ef83a070cc607a26ef034",
+    "name": "VARA_TOKEN",
+    "symbol": "TOK",
+    "decimals": 5,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "GRC20",
+    "metadata": {
+      "contractAddress": "0x886261b17ead11cff4487a9ffefc3dc315ce0856b29ef83a070cc607a26ef034"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/vara_testnet-grc20-tok-0x886261b17ead11cff4487a9ffefc3dc315ce0856b29ef83a070cc607a26ef034.png"
   }
 }

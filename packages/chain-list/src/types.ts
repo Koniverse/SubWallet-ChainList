@@ -29,6 +29,8 @@ export enum _AssetType {
   ERC721 = 'ERC721',
   PSP22 = 'PSP22',
   PSP34 = 'PSP34',
+  GRC20 = 'GRC20',
+  GRC721 = 'GRC721',
   UNKNOWN = 'UNKNOWN'
 }
 
