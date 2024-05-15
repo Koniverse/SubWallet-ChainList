@@ -484,5 +484,59 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/stink-stink.png"
+  },
+  "HDX-HydraDX": {
+    "slug": "HDX-HydraDX",
+    "originChainAsset": "hydradx_main-NATIVE-HDX",
+    "name": "HydraDX",
+    "symbol": "HDX",
+    "priceId": "hydradx",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/hdx-hydradx.png"
+  },
+  "XLM.s-StellarLumen": {
+    "slug": "XLM.s-StellarLumen",
+    "originChainAsset": null,
+    "name": "Stellar Lumen",
+    "symbol": "XLM.s",
+    "priceId": "stellar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/xlm.s-stellarlumen.png"
+  },
+  "AUDD.s-StellarAUDD": {
+    "slug": "AUDD.s-StellarAUDD",
+    "originChainAsset": null,
+    "name": "Stellar AUDD",
+    "symbol": "AUDD.s",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/audd.s-stellaraudd.png"
+  },
+  "EURC.s-StellarEURC": {
+    "slug": "EURC.s-StellarEURC",
+    "originChainAsset": null,
+    "name": "Stellar EURC",
+    "symbol": "EURC.s",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eurc.s-stellareurc.png"
+  },
+  "BRL.s-StellarBRL": {
+    "slug": "BRL.s-StellarBRL",
+    "originChainAsset": null,
+    "name": "Stellar BRL",
+    "symbol": "BRL.s",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/brl.s-stellarbrl.png"
+  },
+  "NGNC.s-StellarNGNC": {
+    "slug": "NGNC.s-StellarNGNC",
+    "originChainAsset": null,
+    "name": "Stellar NGNC",
+    "symbol": "NGNC.s",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ngnc.s-stellarngnc.png"
   }
 }
