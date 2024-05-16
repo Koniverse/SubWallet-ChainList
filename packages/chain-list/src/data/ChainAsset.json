@@ -9628,5 +9628,64 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/vara_testnet-grc20-sub3-0x5fdbe9407c70dd13dc8c95fbe1b6b07dce860d53aa67cf3fb41899c4a61f6eaf.png"
+  },
+  "pendulum-LOCAL-BRZ": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-BRZ",
+    "name": "Brazilian Real",
+    "symbol": "BRZ",
+    "decimals": 18,
+    "priceId": "brz",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "4"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "amplitude-LOCAL-USDT": {
+    "originChain": "amplitude",
+    "slug": "amplitude-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "1"
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-usdt.png"
+  },
+  "pendulum-LOCAL-USDC.s": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-USDC.s",
+    "name": "Stellar USDC",
+    "symbol": "USDC.s",
+    "decimals": 12,
+    "priceId": "usd-coin",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Stellar": {
+          "AlphaNum4": {
+            "code": "USDC",
+            "issuer": "0x3b9911380efe988ba0a8900eb1cfe44f366f7dbe946bed077240f7f624df15c5"
+          }
+        }
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-usdc.s.png"
   }
 }
