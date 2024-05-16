@@ -9158,11 +9158,11 @@
     "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-native-eth.png"
   },
@@ -9687,5 +9687,37 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-usdc.s.png"
+  },
+  "bobMainnet-LOCAL-wBTC-0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-LOCAL-wBTC-0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
+    "name": "Wrapped BTC",
+    "symbol": "wBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-local-wbtc-0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3.png"
+  },
+  "bobMainnet-LOCAL-USDT-0x05D032ac25d322df992303dCa074EE7392C117b9": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-LOCAL-USDT-0x05D032ac25d322df992303dCa074EE7392C117b9",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "contractAddress": "0x05D032ac25d322df992303dCa074EE7392C117b9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-local-usdt-0x05d032ac25d322df992303dca074ee7392c117b9.png"
   }
 }
