@@ -2594,7 +2594,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "1"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -9262,7 +9263,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "7"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": "PINK-StatemintPink",
     "hasValue": true,
@@ -9280,7 +9282,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "6"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
@@ -9298,7 +9301,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "8"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": "HDX-HydraDX",
     "hasValue": true,
@@ -9316,7 +9320,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "2"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -9351,7 +9356,7 @@
     "name": "Stellar AUDD",
     "symbol": "AUDD.s",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "novatti-australian-digital-dollar",
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
@@ -9641,7 +9646,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "4"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -9659,7 +9665,8 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "1"
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
