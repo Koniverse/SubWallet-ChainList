@@ -31,6 +31,8 @@ export enum _AssetType {
   PSP34 = 'PSP34',
   GRC20 = 'GRC20',
   GRC721 = 'GRC721',
+  RUNE = 'RUNE',
+  BRC20 = 'BRC20',
   UNKNOWN = 'UNKNOWN'
 }
 
@@ -47,6 +49,7 @@ export interface _ChainInfo {
   providers: Record<string, string>,
   substrateInfo: _SubstrateInfo | null,
   evmInfo: _EvmInfo | null,
+  bitcoinInfo: _BitcoinInfo | null;
   extraInfo: _ExtraInfo | null,
   icon: string
 }
@@ -77,6 +80,16 @@ export interface _EvmInfo {
 
   supportSmartContract: _AssetType[] | null,
   abiExplorer: string | null
+}
+
+export type BitcoinNetworkMode = 'mainnet' | 'testnet' | 'regtest' | 'signet';
+
+export interface _BitcoinInfo {
+  blockExplorer: string | null;
+  existentialDeposit: string;
+  decimals: number;
+  symbol: string;
+  bitcoinNetwork: BitcoinNetworkMode
 }
 
 export interface _ExtraInfo {

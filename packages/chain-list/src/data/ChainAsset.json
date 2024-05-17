@@ -9726,5 +9726,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-local-usdt-0x05d032ac25d322df992303dca074ee7392c117b9.png"
+  },
+  "bitcoin-NATIVE-BTC": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 8,
+    "priceId": "bitcoin",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-native-btc.png"
+  },
+  "bitcoinTestnet-NATIVE-BTC": {
+    "originChain": "bitcoinTestnet",
+    "slug": "bitcoinTestnet-NATIVE-BTC",
+    "name": "Bitcoin Testnet",
+    "symbol": "BTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcointestnet-native-btc.png"
   }
 }
