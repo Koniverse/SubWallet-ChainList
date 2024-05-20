@@ -8468,7 +8468,9 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avail_mainnet.png",
-    "providers": {},
+    "providers": {
+      "Avail": "wss://turing-rpc.availspace.app/"
+    },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
