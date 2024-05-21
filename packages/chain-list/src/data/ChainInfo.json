@@ -5816,7 +5816,9 @@
       "decimals": 12,
       "hasNativeNft": true,
       "supportStaking": true,
-      "supportSmartContract": null,
+      "supportSmartContract": [
+        "GRC20"
+      ],
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
