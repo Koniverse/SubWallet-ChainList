@@ -9701,7 +9701,7 @@
     "name": "Wrapped BTC",
     "symbol": "wBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "wrapped-bitcoin",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -9717,7 +9717,7 @@
     "name": "Tether USD",
     "symbol": "USDT",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "tether",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
