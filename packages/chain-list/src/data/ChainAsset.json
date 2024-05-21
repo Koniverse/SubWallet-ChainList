@@ -9717,7 +9717,8 @@
     "minAmount": "0",
     "assetType": "PSP22",
     "metadata": {
-      "contractAddress": "5CJ3DZ4RM4j2cPpQ49ywYiAgDYaTqk7hPud6Y1J1WY8qwDfb"
+      "contractAddress": "5CJ3DZ4RM4j2cPpQ49ywYiAgDYaTqk7hPud6Y1J1WY8qwDfb",
+      "isDisableTransfer": true
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -9733,7 +9734,8 @@
     "minAmount": "0",
     "assetType": "PSP22",
     "metadata": {
-      "contractAddress": "5DPzHtsvZHtUaGzzKqrxa2JLgpHtEaSPn9mfyNAjX12Vunts"
+      "contractAddress": "5DPzHtsvZHtUaGzzKqrxa2JLgpHtEaSPn9mfyNAjX12Vunts",
+      "isDisableTransfer": true
     },
     "multiChainAsset": null,
     "hasValue": true,
