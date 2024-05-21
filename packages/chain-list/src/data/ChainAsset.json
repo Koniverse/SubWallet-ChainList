@@ -9754,5 +9754,53 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcointestnet-native-btc.png"
+  },
+  "arbitrum_one-ERC20-SQD-0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-SQD-0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
+    "name": "Subsquid",
+    "symbol": "SQD",
+    "decimals": 18,
+    "priceId": "subsquid",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-sqd-0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1.png"
+  },
+  "aleph-PSP22-CLD-5CJ3DZ4RM4j2cPpQ49ywYiAgDYaTqk7hPud6Y1J1WY8qwDfb": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-CLD-5CJ3DZ4RM4j2cPpQ49ywYiAgDYaTqk7hPud6Y1J1WY8qwDfb",
+    "name": "Common LP Drops",
+    "symbol": "CLD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5CJ3DZ4RM4j2cPpQ49ywYiAgDYaTqk7hPud6Y1J1WY8qwDfb"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-cld-5cj3dz4rm4j2cppq49ywyiagdyatqk7hpud6y1j1wy8qwdfb.png"
+  },
+  "aleph-PSP22-CSD-5DPzHtsvZHtUaGzzKqrxa2JLgpHtEaSPn9mfyNAjX12Vunts": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-CSD-5DPzHtsvZHtUaGzzKqrxa2JLgpHtEaSPn9mfyNAjX12Vunts",
+    "name": "Common Staking Drops",
+    "symbol": "CSD",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5DPzHtsvZHtUaGzzKqrxa2JLgpHtEaSPn9mfyNAjX12Vunts"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-csd-5dpzhtsvzhtuagzzkqrxa2jlgphteaspn9mfynajx12vunts.png"
   }
 }
