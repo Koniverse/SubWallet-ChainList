@@ -6159,7 +6159,7 @@
     "symbol": "VARA",
     "decimals": 12,
     "priceId": "vara-network",
-    "minAmount": "10000000000000",
+    "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -8073,7 +8073,7 @@
     "name": "DED",
     "symbol": "DED",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "dot-is-ded",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -8335,7 +8335,7 @@
     "name": "DED",
     "symbol": "DED",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "dot-is-ded",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -8400,7 +8400,7 @@
     "name": "DED",
     "symbol": "xcDED",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "dot-is-ded",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {

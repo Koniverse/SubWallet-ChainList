@@ -5811,7 +5811,7 @@
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://vara.subscan.io/",
-      "existentialDeposit": "10000000000000",
+      "existentialDeposit": "1000000000000",
       "symbol": "VARA",
       "decimals": 12,
       "hasNativeNft": true,
@@ -8470,7 +8470,9 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avail_mainnet.png",
-    "providers": {},
+    "providers": {
+      "Avail Fake": "wss://turing-rpc.availspace.app1/"
+    },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
