@@ -427,7 +427,7 @@
     "originChainAsset": "statemint-LOCAL-DED",
     "name": "DED",
     "symbol": "DED",
-    "priceId": null,
+    "priceId": "dot-is-ded",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ded-ded.png"
   },
