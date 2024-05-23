@@ -9806,5 +9806,37 @@
     "multiChainAsset": "WUD-GAVUNWUD",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wud.png"
+  },
+  "hydradx_main-LOCAL-WIFD": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-WIFD",
+    "name": "Dog Wif Dots",
+    "symbol": "WIFD",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000082"
+    },
+    "multiChainAsset": "WIFD-DogWifDots",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wifd.png"
+  },
+  "statemint-LOCAL-WIFD": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-WIFD",
+    "name": "Dog Wif Dots",
+    "symbol": "WIFD",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "17"
+    },
+    "multiChainAsset": "WIFD-DogWifDots",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wifd.png"
   }
 }

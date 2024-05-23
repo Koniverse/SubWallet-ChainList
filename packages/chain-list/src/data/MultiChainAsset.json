@@ -547,5 +547,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wud-gavunwud.png"
+  },
+  "WIFD-DogWifDots": {
+    "slug": "WIFD-DogWifDots",
+    "originChainAsset": "statemint-LOCAL-WIFD",
+    "name": "Dog Wif Dots",
+    "symbol": "WIFD",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wifd-dogwifdots.png"
   }
 }
