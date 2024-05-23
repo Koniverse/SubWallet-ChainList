@@ -9742,5 +9742,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-csd-5dpzhtsvzhtuagzzkqrxa2jlgphteaspn9mfynajx12vunts.png"
+  },
+  "peopleKusama-NATIVE-KSM": {
+    "originChain": "peopleKusama",
+    "slug": "peopleKusama-NATIVE-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "33333333",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peoplekusama-native-ksm.png"
   }
 }

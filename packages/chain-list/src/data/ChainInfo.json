@@ -8671,5 +8671,36 @@
       "symbol": "BTC",
       "bitcoinNetwork": "testnet"
     }
+  },
+  "peopleKusama": {
+    "slug": "peopleKusama",
+    "name": "Kusama People",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Parity": "wss://kusama-people-rpc.polkadot.io",
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io/people"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 1004,
+      "genesisHash": "0xc1af4cb4eb3918e5db15086c0cc5ec17fb334f728b7c65dd44bfe1e174ff8b3f",
+      "addressPrefix": 2,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "33333333",
+      "symbol": "KSM",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
