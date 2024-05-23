@@ -9778,7 +9778,7 @@
   "statemint-LOCAL-WUD": {
     "originChain": "statemint",
     "slug": "statemint-LOCAL-WUD",
-    "name": "GAVUN WUD",
+    "name": "Gavun Wud",
     "symbol": "WUD",
     "decimals": 10,
     "priceId": null,
@@ -9787,14 +9787,14 @@
     "metadata": {
       "assetId": "31337"
     },
-    "multiChainAsset": "WUD-GAVUNWUD",
+    "multiChainAsset": "WUD-GavunWud",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wud.png"
   },
   "hydradx_main-LOCAL-WUD": {
     "originChain": "hydradx_main",
     "slug": "hydradx_main-LOCAL-WUD",
-    "name": "GAVUN WUD",
+    "name": "Gavun Wud",
     "symbol": "WUD",
     "decimals": 10,
     "priceId": null,
@@ -9803,7 +9803,7 @@
     "metadata": {
       "assetId": "1000085"
     },
-    "multiChainAsset": "WUD-GAVUNWUD",
+    "multiChainAsset": "WUD-GavunWud",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wud.png"
   },
