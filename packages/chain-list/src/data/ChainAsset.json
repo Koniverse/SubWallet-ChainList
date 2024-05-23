@@ -9756,5 +9756,23 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peoplekusama-native-ksm.png"
+  },
+  "moonbeam-LOCAL-xcSTINK": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcSTINK",
+    "name": "STINK",
+    "symbol": "xcSTINK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "112679793397406599376365943185137098326",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFffFffFf54c556bD1d0F64ec6c78f1B477525E56"
+    },
+    "multiChainAsset": "STINK-STINK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcstink.png"
   }
 }
