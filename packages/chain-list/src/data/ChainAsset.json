@@ -9838,5 +9838,19 @@
     "multiChainAsset": "WIFD-DogWifDots",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wifd.png"
+  },
+  "lineaZkEvm-NATIVE-ETH": {
+    "originChain": "lineaZkEvm",
+    "slug": "lineaZkEvm-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/lineazkevm-native-eth.png"
   }
 }
