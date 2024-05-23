@@ -538,5 +538,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ngnc.s-stellarngnc.png"
+  },
+  "WUD-GAVUNWUD": {
+    "slug": "WUD-GAVUNWUD",
+    "originChainAsset": "statemint-LOCAL-WUD",
+    "name": "GAVUN WUD",
+    "symbol": "WUD",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wud-gavunwud.png"
   }
 }
