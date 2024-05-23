@@ -9852,5 +9852,69 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/lineazkevm-native-eth.png"
+  },
+  "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
+  },
+  "aleph-PSP22-USDT-5Et3dDcXUiThrBCot7g65k3oDSicGy4qC82cq9f911izKNtE": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-USDT-5Et3dDcXUiThrBCot7g65k3oDSicGy4qC82cq9f911izKNtE",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5Et3dDcXUiThrBCot7g65k3oDSicGy4qC82cq9f911izKNtE"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-usdt-5et3ddcxuithrbcot7g65k3odsicgy4qc82cq9f911izknte.png"
+  },
+  "aleph-PSP22-USDC-5FYFojNCJVFR2bBNKfAePZCa72ZcVX5yeTv8K9bzeUo8D83Z": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-USDC-5FYFojNCJVFR2bBNKfAePZCa72ZcVX5yeTv8K9bzeUo8D83Z",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5FYFojNCJVFR2bBNKfAePZCa72ZcVX5yeTv8K9bzeUo8D83Z"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-usdc-5fyfojncjvfr2bbnkfaepzca72zcvx5yetv8k9bzeuo8d83z.png"
+  },
+  "aleph-PSP22-WBTC-5EEtCdKLyyhQnNQWWWPM1fMDx1WdVuiaoR9cA6CWttgyxtuJ": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-WBTC-5EEtCdKLyyhQnNQWWWPM1fMDx1WdVuiaoR9cA6CWttgyxtuJ",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "bitcoin",
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5EEtCdKLyyhQnNQWWWPM1fMDx1WdVuiaoR9cA6CWttgyxtuJ"
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-wbtc-5eetcdklyyhqnnqwwwpm1fmdx1wdvuiaor9ca6cwttgyxtuj.png"
   }
 }
