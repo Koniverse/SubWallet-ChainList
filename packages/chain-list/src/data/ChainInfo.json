@@ -8676,7 +8676,7 @@
     "name": "Kusama People",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peoplekusama.png",
     "providers": {
       "Parity": "wss://kusama-people-rpc.polkadot.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io/people"
