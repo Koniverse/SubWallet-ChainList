@@ -8726,5 +8726,30 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "bounceBitEvm": {
+    "slug": "bounceBitEvm",
+    "name": "BounceBit",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bouncebitevm.png",
+    "providers": {
+      "BounceBit Api": "https://fullnode-mainnet.bouncebitapi.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 6001,
+      "blockExplorer": "https://bbscan.io",
+      "existentialDeposit": "0",
+      "symbol": "BB",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://bbscan.io"
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
