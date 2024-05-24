@@ -10110,5 +10110,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
+  },
+  "bounceBitEvmTest-NATIVE-BB": {
+    "originChain": "bounceBitEvmTest",
+    "slug": "bounceBitEvmTest-NATIVE-BB",
+    "name": "BounceBit Testnet",
+    "symbol": "BB",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevmtest-native-bb.png"
   }
 }
