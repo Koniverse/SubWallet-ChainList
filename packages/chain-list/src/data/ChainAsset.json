@@ -9930,5 +9930,185 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevm-native-bb.png"
+  },
+  "bitcoin-RUNE-RUNE•ALPHA•COOK-840000:188": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-RUNE•ALPHA•COOK-840000:188",
+    "name": "RUNE•ALPHA•COOK",
+    "symbol": "RUNE•ALPHA•COOK",
+    "decimals": 3,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "840000:188"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-BRC20-ordi": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-ordi",
+    "name": "ordi",
+    "symbol": "ordi",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-BRC20-sats": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-sats",
+    "name": "sats",
+    "symbol": "sats",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-BRC20-PUPS": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-PUPS",
+    "name": "PUPS",
+    "symbol": "PUPS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-BRC20-trac": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-trac",
+    "name": "trac",
+    "symbol": "trac",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-BRC20-MUBI": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-MUBI",
+    "name": "MUBI",
+    "symbol": "MUBI",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-BRC20-wzrd": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-wzrd",
+    "name": "wzrd",
+    "symbol": "wzrd",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-RUNE-DOG•GO•TO•THE•MOON-840000:3": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-DOG•GO•TO•THE•MOON-840000:3",
+    "name": "DOG•GO•TO•THE•MOON",
+    "symbol": "DOG•GO•TO•THE•MOON",
+    "decimals": 5,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "840000:3"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-RUNE-EPIC•EPIC•EPIC•EPIC-842166:27": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-EPIC•EPIC•EPIC•EPIC-842166:27",
+    "name": "EPIC•EPIC•EPIC•EPIC",
+    "symbol": "EPIC•EPIC•EPIC•EPIC",
+    "decimals": 2,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "842166:27"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-RUNE-RSIC•GENESIS•RUNE-840000:28": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-RSIC•GENESIS•RUNE-840000:28",
+    "name": "RSIC•GENESIS•RUNE",
+    "symbol": "RSIC•GENESIS•RUNE",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "840000:28"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-RUNE-UNCOMMON•GOODS-1:0": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-UNCOMMON•GOODS-1:0",
+    "name": "UNCOMMON•GOODS",
+    "symbol": "UNCOMMON•GOODS",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "1:0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "bitcoin-RUNE-RUNES•X•BITCOIN-840000:142": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-RUNE-RUNES•X•BITCOIN-840000:142",
+    "name": "RUNES•X•BITCOIN",
+    "symbol": "RUNES•X•BITCOIN",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "RUNE",
+    "metadata": {
+      "runeId": "840000:142"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }
