@@ -2576,6 +2576,12 @@
     "metadata": {
       "onChainInfo": {
         "XCM": "0"
+      },
+      "multilocation": {
+        "V2": {
+          "parents": 1,
+          "interior": "Here"
+        }
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -2595,7 +2601,24 @@
       "onChainInfo": {
         "XCM": "1"
       },
-      "isDisableTransfer": true
+      "multilocation": {
+        "V2": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -9321,7 +9344,24 @@
       "onChainInfo": {
         "XCM": "2"
       },
-      "isDisableTransfer": true
+      "multilocation": {
+        "V2": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -10124,5 +10164,51 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevmtest-native-bb.png"
+  },
+  "statemint-LOCAL-KSM": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "1000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X1": {
+            "GlobalConsensus": "Kusama"
+          }
+        }
+      }
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ksm.png"
+  },
+  "statemine-LOCAL-DOT": {
+    "originChain": "statemine",
+    "slug": "statemine-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "10000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X1": {
+            "GlobalConsensus": "Polkadot"
+          }
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemine-local-dot.png"
   }
 }

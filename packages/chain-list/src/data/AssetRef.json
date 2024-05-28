@@ -76,6 +76,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "polkadot-NATIVE-DOT___pendulum-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "pendulum-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -151,6 +158,20 @@
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "statemint",
     "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "statemint-NATIVE-DOT___pendulum-LOCAL-DOT": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "pendulum-LOCAL-DOT",
+    "srcChain": "statemint",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "statemint-NATIVE-DOT___statemine-LOCAL-DOT": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "statemine-LOCAL-DOT",
+    "srcChain": "statemint",
+    "destChain": "statemine",
     "path": "XCM"
   },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
@@ -489,6 +510,34 @@
     "destChain": "kusama",
     "path": "XCM"
   },
+  "statemine-NATIVE-KSM___statemint-LOCAL-KSM": {
+    "srcAsset": "statemine-NATIVE-KSM",
+    "destAsset": "statemint-LOCAL-KSM",
+    "srcChain": "statemine",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "pendulum-LOCAL-DOT___polkadot-NATIVE-DOT": {
+    "srcAsset": "pendulum-LOCAL-DOT",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "pendulum",
+    "destChain": "polkadot",
+    "path": "XCM"
+  },
+  "pendulum-LOCAL-DOT___statemint-NATIVE-DOT": {
+    "srcAsset": "pendulum-LOCAL-DOT",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "pendulum",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "pendulum-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "pendulum-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "pendulum",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
   "statemint-LOCAL-USDt___moonbeam-LOCAL-xcUSDT": {
     "srcAsset": "statemint-LOCAL-USDt",
     "destAsset": "moonbeam-LOCAL-xcUSDT",
@@ -543,6 +592,13 @@
     "destAsset": "interlay-LOCAL-USDT",
     "srcChain": "statemint",
     "destChain": "interlay",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___pendulum-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "pendulum",
     "path": "XCM"
   },
   "moonbeam-LOCAL-xcUSDT___statemint-LOCAL-USDt": {
@@ -675,6 +731,13 @@
     "destAsset": "hydradx_main-LOCAL-USDC",
     "srcChain": "statemint",
     "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDC___pendulum-LOCAL-USDC": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "pendulum-LOCAL-USDC",
+    "srcChain": "statemint",
+    "destChain": "pendulum",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
@@ -1538,6 +1601,27 @@
     "srcAsset": "hydradx_main-LOCAL-STINK",
     "destAsset": "statemint-LOCAL-STINK",
     "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "pendulum-LOCAL-USDC___statemint-LOCAL-USDC": {
+    "srcAsset": "pendulum-LOCAL-USDC",
+    "destAsset": "statemint-LOCAL-USDC",
+    "srcChain": "pendulum",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-KSM___statemine-NATIVE-KSM": {
+    "srcAsset": "statemint-LOCAL-KSM",
+    "destAsset": "statemine-NATIVE-KSM",
+    "srcChain": "statemint",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
+  "statemine-LOCAL-DOT___statemint-NATIVE-DOT": {
+    "srcAsset": "statemine-LOCAL-DOT",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "statemine",
     "destChain": "statemint",
     "path": "XCM"
   }

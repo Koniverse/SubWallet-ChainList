@@ -146,8 +146,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbeam.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
-      "Blast": "wss://moonbeam.public.blastapi.io",
-      "UnitedBloc": "wss://moonbeam.unitedbloc.com"
+      "Blast": "wss://moonbeam.public.blastapi.io"
     },
     "evmInfo": {
       "evmChainId": 1284,
@@ -998,8 +997,7 @@
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
       "Blast": "wss://moonriver.public.blastapi.io",
-      "Dwellir": "wss://moonriver-rpc.dwellir.com",
-      "UnitedBloc": "wss://moonriver.unitedbloc.com:2001"
+      "Dwellir": "wss://moonriver-rpc.dwellir.com"
     },
     "evmInfo": {
       "evmChainId": 1285,
@@ -1616,7 +1614,8 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_main.png",
     "providers": {
       "Galactic Council": "wss://rpc.hydradx.cloud",
-      "Dwellir": "wss://hydradx-rpc.dwellir.com"
+      "Helikon": "wss://rpc.helikon.io/hydradx",
+      "IBP2": "wss://hydradx.paras.dotters.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8412,7 +8411,7 @@
   },
   "b2": {
     "slug": "b2",
-    "name": "Bsquare Network",
+    "name": "B² Network",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/b2.png",
