@@ -874,7 +874,7 @@
     "slug": "bitcountry",
     "name": "Bit.Country - Alpha Net",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
     "providers": {
       "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
@@ -8466,9 +8466,7 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avail_mainnet.png",
-    "providers": {
-      "Avail Fake": "wss://turing-rpc.availspace.app1/"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -8773,6 +8771,37 @@
       "abiExplorer": "https://testnet.bbscan.io"
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
+  "kreivo": {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Virto": "wss://kreivo.io/",
+      "Kippu": "wss://kreivo.kippu.rocks/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 2281,
+      "genesisHash": "0xc710a5f16adc17bcd212cff0aedcbf1c1212a043cdc0fb2dcba861efe5305b01",
+      "addressPrefix": 2,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "33333333",
+      "symbol": "KSM",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null
   }

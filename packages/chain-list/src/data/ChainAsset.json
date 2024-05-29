@@ -10210,5 +10210,35 @@
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemine-local-dot.png"
+  },
+  "aleph-PSP22-INW2-5EA7h2xCP9TkAwEQ8Km2b7aQChPKVCqcS2BJWqYavoXiEsfx": {
+    "originChain": "aleph",
+    "slug": "aleph-PSP22-INW2-5EA7h2xCP9TkAwEQ8Km2b7aQChPKVCqcS2BJWqYavoXiEsfx",
+    "name": "Ink Whale Token 2",
+    "symbol": "INW2",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5EA7h2xCP9TkAwEQ8Km2b7aQChPKVCqcS2BJWqYavoXiEsfx"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-inw2-5ea7h2xcp9tkaweq8km2b7aqchpkvcqcs2bjwqyavoxiesfx.png"
+  },
+  "kreivo-NATIVE-KSM": {
+    "originChain": "kreivo",
+    "slug": "kreivo-NATIVE-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "33333333",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kreivo-native-ksm.png"
   }
 }
