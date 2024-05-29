@@ -8778,7 +8778,7 @@
     "name": "Kreivo",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kreivo.png",
     "providers": {
       "Virto": "wss://kreivo.io/",
       "Kippu": "wss://kreivo.kippu.rocks/"
