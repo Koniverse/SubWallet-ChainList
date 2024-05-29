@@ -880,6 +880,13 @@
     "destChain": "manta_network",
     "path": "XCM"
   },
+  "rococo_assethub-LOCAL-WETH___sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
+    "srcAsset": "rococo_assethub-LOCAL-WETH",
+    "destAsset": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+    "srcChain": "rococo_assethub",
+    "destChain": "sepolia_ethereum",
+    "path": "XCM"
+  },
   "chainflip_dot-NATIVE-pDOT___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "chainflip_dot-NATIVE-pDOT",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -1623,6 +1630,13 @@
     "destAsset": "statemint-NATIVE-DOT",
     "srcChain": "statemine",
     "destChain": "statemint",
+    "path": "XCM"
+  },
+  "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14___rococo_assethub-LOCAL-WETH": {
+    "srcAsset": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+    "destAsset": "rococo_assethub-LOCAL-WETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "rococo_assethub",
     "path": "XCM"
   }
 }
