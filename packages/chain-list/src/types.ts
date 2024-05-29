@@ -63,7 +63,21 @@ export interface _ChainAsset {
   priceId: string | null,
   minAmount: string | null,
   assetType: _AssetType,
-  metadata: Record<any, any> | null,
+  metadata: {
+    contractAddress?: string,
+    multilocation?: unknown,
+    onChainInfo?: unknown,
+    assetId?: string,
+    isBridged?: boolean,
+    assetType?: string,
+    canPayTxFee?: boolean,
+    runeId?: string,
+
+    alternativeSwapAsset?: string,
+    disableEvmTransfer?: boolean,
+    isDisableTransfer?: boolean,
+    autoEnable?: boolean,
+  },
   multiChainAsset: string | null,
   hasValue: boolean,
   icon: string

@@ -10175,6 +10175,7 @@
     "minAmount": "1000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "isBridged": true,
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10198,6 +10199,7 @@
     "minAmount": "10000000",
     "assetType": "LOCAL",
     "metadata": {
+      "isBridged": true,
       "multilocation": {
         "parents": 2,
         "interior": {
