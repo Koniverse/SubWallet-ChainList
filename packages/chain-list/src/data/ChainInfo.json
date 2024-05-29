@@ -8,11 +8,11 @@
     "providers": {
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
-      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
-      "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
+      "Allnodes": "wss://polkadot-rpc.publicnode.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -46,12 +46,12 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama.png",
     "providers": {
       "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws",
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
-      "IBP-GeoDNS2": "wss://rpc.dotters.network/kusama",
-      "Light Client": "light://substrate-connect/kusama"
+      "Light Client": "light://substrate-connect/kusama",
+      "Allnodes": "wss://kusama-rpc.publicnode.com",
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -364,10 +364,9 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
     "providers": {
-      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://sys.ibp.network/statemint",
-      "IBP-GeoDNS2": "wss://sys.dotters.network/statemint",
-      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub"
+      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub",
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2303,11 +2302,10 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemine.png",
     "providers": {
       "Dwellir": "wss://statemine-rpc.dwellir.com",
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://sys.ibp.network/statemine",
-      "IBP-GeoDNS2": "wss://sys.dotters.network/statemine",
       "Lucky Friday": "wss://rpc-asset-hub-kusama.luckyfriday.io",
-      "Stake World": "wss://ksm-rpc.stakeworld.io/assethub"
+      "Stake World": "wss://ksm-rpc.stakeworld.io/assethub",
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8780,7 +8778,7 @@
     "name": "Kreivo",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kreivo.png",
     "providers": {
       "Virto": "wss://kreivo.io/",
       "Kippu": "wss://kreivo.kippu.rocks/"
