@@ -10175,6 +10175,7 @@
     "minAmount": "1000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "isBridged": true,
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10198,6 +10199,7 @@
     "minAmount": "10000000",
     "assetType": "LOCAL",
     "metadata": {
+      "isBridged": true,
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10240,5 +10242,21 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kreivo-native-ksm.png"
+  },
+  "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
+    "originChain": "sepolia_ethereum",
+    "slug": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-weth-0xfff9976782d46cc05630d1f6ebab18b2324d6b14.png"
   }
 }
