@@ -556,5 +556,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wifd-dogwifdots.png"
+  },
+  "BTC-Bitcoin": {
+    "slug": "BTC-Bitcoin",
+    "originChainAsset": "bitcoin-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "priceId": "bitcoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/btc-bitcoin.png"
   }
 }

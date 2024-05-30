@@ -9016,11 +9016,11 @@
     "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "bitcoin",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-Bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-native-btc.png"
   },
@@ -9072,11 +9072,11 @@
     "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "bitcoin",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-Bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-native-btc.png"
   },
@@ -9086,13 +9086,13 @@
     "name": "Bitlayer-Peg USDT",
     "symbol": "USDT",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "tether",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xfe9f969faf8ad72a83b761138bf25de87eff9dd2"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-usdt-0xfe9f969faf8ad72a83b761138bf25de87eff9dd2.png"
   },
@@ -9102,13 +9102,13 @@
     "name": "Bitlayer-Peg USDC",
     "symbol": "USDC",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "usd-coin",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0x9827431e8b77e87c9894bd50b055d6be56be0030"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-usdc-0x9827431e8b77e87c9894bd50b055d6be56be0030.png"
   },
@@ -9118,13 +9118,13 @@
     "name": "Bitlayer-Peg ETH",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-eth-0xef63d4e178b3180beec9b0e143e0f37f4c93f4c2.png"
   },
@@ -9713,7 +9713,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-Bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-native-btc.png"
   },
@@ -10214,7 +10214,7 @@
   "aleph-PSP22-INW2-5EA7h2xCP9TkAwEQ8Km2b7aQChPKVCqcS2BJWqYavoXiEsfx": {
     "originChain": "aleph",
     "slug": "aleph-PSP22-INW2-5EA7h2xCP9TkAwEQ8Km2b7aQChPKVCqcS2BJWqYavoXiEsfx",
-    "name": "Ink Whale Token 2",
+    "name": "Ink Whale Token V2",
     "symbol": "INW2",
     "decimals": 12,
     "priceId": null,
