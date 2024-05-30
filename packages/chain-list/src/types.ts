@@ -63,7 +63,7 @@ export interface _ChainAsset {
   priceId: string | null,
   minAmount: string | null,
   assetType: _AssetType,
-  metadata: {
+  metadata: null | {
     contractAddress?: string,
     multilocation?: unknown,
     onChainInfo?: unknown,
@@ -76,7 +76,7 @@ export interface _ChainAsset {
     alternativeSwapAsset?: string,
     disableEvmTransfer?: boolean,
     isDisableTransfer?: boolean,
-    autoEnable?: boolean,
+    autoEnable?: boolean
   },
   multiChainAsset: string | null,
   hasValue: boolean,
