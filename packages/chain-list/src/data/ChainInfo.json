@@ -11,7 +11,6 @@
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
       "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
       "Allnodes": "wss://polkadot-rpc.publicnode.com"
     },
     "evmInfo": null,
@@ -50,8 +49,7 @@
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
       "Light Client": "light://substrate-connect/kusama",
-      "Allnodes": "wss://kusama-rpc.publicnode.com",
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+      "Allnodes": "wss://kusama-rpc.publicnode.com"
     },
     "evmInfo": null,
     "substrateInfo": {
