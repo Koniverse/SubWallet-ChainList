@@ -51,10 +51,13 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
     "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit"
   },
-  "dependencies": {
-    "eventemitter3": "^5.0.1"
-  },
   "devDependencies": {
+    "@polkadot/api": "^11.2.1",
+    "@polkadot/rpc-provider": "^11.2.1",
+    "@substrate/connect": "^0.8.11",
+    "bluebird": "^3.7.2",
+    "eventemitter3": "^5.0.1",
+    "web3": "^4.9.0",
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
     "@babel/register": "^7.22.15",
