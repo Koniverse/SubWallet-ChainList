@@ -8631,7 +8631,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcoin.png",
     "providers": {
-      "Blockstream": "https://electrs.openbit.app"
+      "Blockstream": "https://api.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,
