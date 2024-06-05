@@ -1,0 +1,78 @@
+name: Health Check
+on:
+  push:
+    branches:
+      - health-check
+  schedule:
+    - cron: "*/15 * * * *"
+
+jobs:
+  health-check:
+    if: "startsWith(github.event.head_commit.message, '[Release]')"
+    runs-on: ubuntu-22.04
+    name: Health Check
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
+
+      - name: Set input data
+        id: input_data
+        run: |
+          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
+            echo "target=latest" >> $GITHUB_OUTPUT
+          else
+            echo "target=beta" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Run scripts
+        run: |
+          yarn export-error-rpc
+
+      - name: Commit changes
+        id: commit_changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Github-Bot
+          author_email: scheduler@github.io
+          message: 'Update error rpcs:${{ steps.input_data.outputs.target }}'
+
+      - name: Log commit changes
+        run: |
+          echo "pushed: ${{ steps.commit_changes.outputs.pushed }}"
+
+      - name: Deploy Assets to Cloudflare Pages
+        if: steps.commit_changes.outputs.pushed == 'true'
+        id: cloudflare_deployment
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'sw-chain-list-assets'
+          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
+          branch: ${{ github.ref_name }}
+          directory: './packages/chain-list-assets/public'
+          wranglerVersion: '3'
+
+      - name: Notify to Discord
+        uses: sarisia/actions-status-discord@v1
+        if: steps.commit_changes.outputs.pushed == 'true'
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: ${{ job.status }}
+          username: Chain List Notifier
+          title: ${{ github.workflow }}
+          description: |
+            The deployment has been completed.
+            Commit message: ${{ github.event.head_commit.message }}
+

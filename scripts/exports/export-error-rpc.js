@@ -37,7 +37,7 @@ const isValidUrl = (url) => {
   }
 }
 
-const checkHealthEvmRpc = async (url) => {
+const _checkHealthEvmRpc = async (url) => {
   try {
     const web3 = new Web3(url)
     await web3.eth.getBlockNumber()
@@ -47,6 +47,17 @@ const checkHealthEvmRpc = async (url) => {
 
     return STATUS.INACTIVE
   }
+}
+
+const checkHealthEvmRpc = async (url, count = 0) => {
+
+  let status = await _checkHealthEvmRpc(url)
+  if (++count < 3 && status === STATUS.INACTIVE) {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    status = await checkHealthEvmRpc(url, count)
+  }
+
+  return status
 }
 
 const checkHealthSubstrateRpc = async (url) => {
@@ -64,7 +75,6 @@ const checkHealthSubstrateRpc = async (url) => {
     const api = await ApiPromise.create({provider})
     await api.rpc.chain.getFinalizedHead()
     await api.disconnect()
-    console.log("Done check checkHealthSubstrateRpc", url)
 
     return STATUS.ACTIVE
   } catch (err) {
@@ -101,7 +111,7 @@ const _checkHealthRpc = async (type = CHAIN_TYPE.SUBSTRATE, url) => {
 
 const getErrorRpc = async (chainInfo) => {
 
-  if (!chainInfo.substrateInfo && !chainInfo.evmInfo) {
+  if (chainInfo.chainStatus.toLowerCase() !== STATUS.ACTIVE || (!chainInfo.substrateInfo && !chainInfo.evmInfo)) {
     return {}
   }
 
@@ -118,7 +128,9 @@ const getErrorRpc = async (chainInfo) => {
 
   const errorRpcs = {}
   await Bluebird.each(rpcs, async (rpc) => {
-    if (await _checkHealthRpc(chainType, rpc.url) === STATUS.INACTIVE) {
+    const status = await _checkHealthRpc(chainType, rpc.url)
+    console.log("Done check checkHealthSubstrateRpc", rpc.url, status)
+    if (status === STATUS.INACTIVE) {
       errorRpcs[rpc.name] = rpc.url
     }
   }, {concurrency: 10})
@@ -127,8 +139,8 @@ const getErrorRpc = async (chainInfo) => {
 }
 
 const writeFileSync = (data) => {
-  const fileName = `exports/error-rpc.json`
-  fs.mkdirSync('exports', {recursive: true})
+  const fileName = `./packages/chain-list-assets/public/chains/error-rpc.json`
+  fs.mkdirSync('./packages/chain-list-assets/public/chains', {recursive: true})
   const jsonData = JSON.stringify(data, null, 2)
 
   fs.writeFileSync(fileName, jsonData, function (err) {
@@ -163,9 +175,7 @@ setImmediate(async () => {
   try {
 
     await checkHealthRpc()
-
     process.exit()
-
 
   } catch (err) {
     console.error(err)

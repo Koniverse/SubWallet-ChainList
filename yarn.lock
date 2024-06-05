@@ -12037,6 +12037,7 @@ __metadata:
   bin:
     export-assets: ./scripts/exports/export-assets.js
     export-chains: ./scripts/exports/export-chains.js
+    export-error-rpc: ./scripts/exports/export-error-rpc.js
     export-xcm-channels: ./scripts/exports/export-xcm-channels.js
     generate-logo-map: ./scripts/generators/generate-logo-map.js
     set-version: ./scripts/set-version.mjs
