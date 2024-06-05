@@ -112,10 +112,8 @@
     "assetType": "NATIVE",
     "metadata": {
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": "Here"
-        }
+        "parents": 0,
+        "interior": "Here"
       }
     },
     "multiChainAsset": "ASTR-Astar",
@@ -133,10 +131,8 @@
     "assetType": "NATIVE",
     "metadata": {
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": "Here"
-        }
+        "parents": 1,
+        "interior": "Here"
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -546,10 +542,8 @@
     "metadata": {
       "assetId": "340282366920938463463374607431768211455",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": "Here"
-        }
+        "parents": 1,
+        "interior": "Here"
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -568,21 +562,19 @@
     "metadata": {
       "assetId": "4294969280",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
         }
       }
     },
@@ -1418,21 +1410,19 @@
       "assetId": "10",
       "autoEnable": true,
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
         }
       }
     },
@@ -1805,10 +1795,8 @@
     "assetType": "NATIVE",
     "metadata": {
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": "Here"
-        }
+        "parents": 1,
+        "interior": "Here"
       }
     },
     "multiChainAsset": "KSM-Kusama",
@@ -2578,10 +2566,8 @@
         "XCM": "0"
       },
       "multilocation": {
-        "V2": {
-          "parents": 1,
-          "interior": "Here"
-        }
+        "parents": 1,
+        "interior": "Here"
       }
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -2602,21 +2588,19 @@
         "XCM": "1"
       },
       "multilocation": {
-        "V2": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
         }
       }
     },
@@ -3268,18 +3252,16 @@
     "metadata": {
       "assetId": "1984",
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
         }
       }
     },
@@ -3318,10 +3300,8 @@
       "assetId": "340282366920938463463374607431768211455",
       "assetType": "ForeignAsset",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": "Here"
-        }
+        "parents": 1,
+        "interior": "Here"
       }
     },
     "multiChainAsset": "KSM-Kusama",
@@ -3628,18 +3608,16 @@
     "metadata": {
       "assetId": "18446744073709551617",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X2": [
-              {
-                "Parachain": 2000
-              },
-              {
-                "GeneralKey": "0x0001"
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X2": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKey": "0x0001"
+            }
+          ]
         }
       }
     },
@@ -5047,21 +5025,19 @@
     "metadata": {
       "assetId": "1970496628",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1984
+            }
+          ]
         }
       }
     },
@@ -7068,18 +7044,16 @@
     "metadata": {
       "assetId": "1337",
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1337
-              }
-            ]
-          }
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1337
+            }
+          ]
         }
       }
     },
@@ -7129,21 +7103,19 @@
     "metadata": {
       "assetId": "22",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1337
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1337
+            }
+          ]
         }
       }
     },
@@ -7668,18 +7640,16 @@
     "metadata": {
       "assetId": "23",
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 23
-              }
-            ]
-          }
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 23
+            }
+          ]
         }
       }
     },
@@ -8103,18 +8073,16 @@
       "assetId": "30",
       "autoEnable": true,
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 30
-              }
-            ]
-          }
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 30
+            }
+          ]
         }
       }
     },
@@ -8200,21 +8168,19 @@
     "metadata": {
       "assetId": "18446744073709551633",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 23
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 23
+            }
+          ]
         }
       }
     },
@@ -8234,21 +8200,19 @@
     "metadata": {
       "assetId": "12",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X2": [
-              {
-                "Parachain": 2000
-              },
-              {
-                "GeneralKey": {
-                  "data": "0x0001000000000000000000000000000000000000000000000000000000000000",
-                  "length": 2
-                }
+        "parents": 1,
+        "interior": {
+          "X2": [
+            {
+              "Parachain": 2000
+            },
+            {
+              "GeneralKey": {
+                "data": "0x0001000000000000000000000000000000000000000000000000000000000000",
+                "length": 2
               }
-            ]
-          }
+            }
+          ]
         }
       }
     },
@@ -8365,21 +8329,19 @@
       "assetId": "1000019",
       "autoEnable": true,
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 30
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 30
+            }
+          ]
         }
       }
     },
@@ -8740,18 +8702,16 @@
     "metadata": {
       "assetId": "420",
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 420
-              }
-            ]
-          }
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 420
+            }
+          ]
         }
       }
     },
@@ -8771,21 +8731,19 @@
     "metadata": {
       "assetId": "1000036",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 420
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 420
+            }
+          ]
         }
       }
     },
@@ -8867,18 +8825,16 @@
     "metadata": {
       "assetId": "42069",
       "multilocation": {
-        "Concrete": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 42069
-              }
-            ]
-          }
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 42069
+            }
+          ]
         }
       }
     },
@@ -8898,21 +8854,19 @@
     "metadata": {
       "assetId": "1000034",
       "multilocation": {
-        "Concrete": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 42069
-              }
-            ]
-          }
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 42069
+            }
+          ]
         }
       }
     },
