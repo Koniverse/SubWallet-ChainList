@@ -10134,7 +10134,9 @@
         "parents": 2,
         "interior": {
           "X1": {
-            "GlobalConsensus": "Kusama"
+            "GlobalConsensus": {
+              "Kusama": null
+            }
           }
         }
       }
@@ -10158,7 +10160,9 @@
         "parents": 2,
         "interior": {
           "X1": {
-            "GlobalConsensus": "Polkadot"
+            "GlobalConsensus": {
+              "Polkadot": null
+            }
           }
         }
       }
