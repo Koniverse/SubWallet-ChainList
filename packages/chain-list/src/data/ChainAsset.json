@@ -7780,6 +7780,26 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
+      "onChainInfo": {
+        "parents": 2,
+        "interior": {
+          "X2": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 11155111
+                }
+              }
+            },
+            {
+              "AccountKey20": {
+                "key": "0xfff9976782d46cc05630d1f6ebab18b2324d6b14",
+                "network": null
+              }
+            }
+          ]
+        }
+      },
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10130,6 +10150,14 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
+      "onChainInfo": {
+        "parents": 2,
+        "interior": {
+          "X1": {
+            "GlobalConsensus": "Kusama"
+          }
+        }
+      },
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10156,6 +10184,14 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
+      "onChainInfo": {
+        "parents": 2,
+        "interior": {
+          "X1": {
+            "GlobalConsensus": "Polkadot"
+          }
+        }
+      },
       "multilocation": {
         "parents": 2,
         "interior": {
