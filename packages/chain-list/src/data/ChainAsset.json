@@ -10133,9 +10133,11 @@
       "multilocation": {
         "parents": 2,
         "interior": {
-          "X1": {
-            "GlobalConsensus": "Kusama"
-          }
+          "X1": [
+            {
+              "GlobalConsensus": "Kusama"
+            }
+          ]
         }
       }
     },
@@ -10157,9 +10159,11 @@
       "multilocation": {
         "parents": 2,
         "interior": {
-          "X1": {
-            "GlobalConsensus": "Polkadot"
-          }
+          "X1": [
+            {
+              "GlobalConsensus": "Polkadot"
+            }
+          ]
         }
       }
     },
