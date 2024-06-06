@@ -565,5 +565,14 @@
     "priceId": "bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/btc-bitcoin.png"
+  },
+  "BORK-BORK": {
+    "slug": "BORK-BORK",
+    "originChainAsset": "statemint-LOCAL-BORK",
+    "name": "BORK",
+    "symbol": "BORK",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bork-bork.png"
   }
 }

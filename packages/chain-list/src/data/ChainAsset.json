@@ -10246,5 +10246,37 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
+  },
+  "statemint-LOCAL-BORK": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-BORK",
+    "name": "BORK",
+    "symbol": "BORK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "690"
+    },
+    "multiChainAsset": "BORK-BORK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-bork.png"
+  },
+  "hydradx_main-LOCAL-BORK": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-BORK",
+    "name": "BORK",
+    "symbol": "BORK",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000148"
+    },
+    "multiChainAsset": "BORK-BORK",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-bork.png"
   }
 }
