@@ -1620,7 +1620,7 @@
       "addressPrefix": 63,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://loan.hydradx.io/",
-      "blockExplorer": "https://hydradx.subscan.io/",
+      "blockExplorer": "https://hydration.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "HDX",
       "decimals": 12,
@@ -1643,7 +1643,7 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "hydradx",
+      "subscanSlug": "hydration",
       "chainBalanceSlug": "hydradx"
     },
     "bitcoinInfo": null
