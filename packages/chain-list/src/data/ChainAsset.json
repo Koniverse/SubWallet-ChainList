@@ -7358,7 +7358,7 @@
     "symbol": "TVARA",
     "decimals": 12,
     "priceId": null,
-    "minAmount": "10000000000000",
+    "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -8590,11 +8590,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-vdot.png"
   },
-  "hydradx_main-LOCAL-LRNA": {
+  "hydradx_main-LOCAL-H2O": {
     "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-LRNA",
+    "slug": "hydradx_main-LOCAL-H2O",
     "name": "Lerna",
-    "symbol": "LRNA",
+    "symbol": "H2O",
     "decimals": 12,
     "priceId": null,
     "minAmount": "400000000",
@@ -8604,7 +8604,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lrna.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png"
   },
   "hydradx_main-LOCAL-DAI-18": {
     "originChain": "hydradx_main",
@@ -9667,11 +9667,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-usdc.s.png"
   },
-  "bobMainnet-LOCAL-wBTC-0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3": {
+  "bobMainnet-LOCAL-WBTC-0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3": {
     "originChain": "bobMainnet",
-    "slug": "bobMainnet-LOCAL-wBTC-0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
+    "slug": "bobMainnet-LOCAL-WBTC-0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3",
     "name": "Wrapped BTC",
-    "symbol": "wBTC",
+    "symbol": "WBTC",
     "decimals": 8,
     "priceId": "wrapped-bitcoin",
     "minAmount": "0",

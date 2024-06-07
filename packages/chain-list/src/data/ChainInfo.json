@@ -10,8 +10,7 @@
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "Allnodes": "wss://polkadot-rpc.publicnode.com"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -48,8 +47,7 @@
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
-      "Light Client": "light://substrate-connect/kusama",
-      "Allnodes": "wss://kusama-rpc.publicnode.com"
+      "Light Client": "light://substrate-connect/kusama"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -901,7 +899,7 @@
     "slug": "equilibrium_parachain",
     "name": "Equilibrium",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/equilibrium_parachain.png",
     "providers": {
       "Equilibrium": "wss://node.pol.equilibrium.io",
@@ -1612,9 +1610,7 @@
     "providers": {
       "Galactic Council": "wss://rpc.hydradx.cloud",
       "Dwellir": "wss://hydradx-rpc.dwellir.com",
-      "Helikon": "wss://rpc.helikon.io/hydradx",
-      "IBP2": "wss://hydradx.paras.dotters.network",
-      "IBP1": "wss://hydradx.paras.ibp.network"
+      "Helikon": "wss://rpc.helikon.io/hydradx"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1659,8 +1655,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/edgeware.png",
     "providers": {
-      "JelliedOwl": "wss://edgeware.jelliedowl.net",
-      "Commonwealth Labs": "wss://mainnet2.edgewa.re"
+      "JelliedOwl": "wss://edgeware.jelliedowl.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2658,7 +2653,7 @@
       "paraId": 2092,
       "genesisHash": "0xe3a1cf3db108e3e45c63a4841fe89ba95108b1db14fdec10c2e8a078ff322a67",
       "addressPrefix": 2092,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": null,
@@ -2838,7 +2833,7 @@
     "slug": "genshiro",
     "name": "Genshiro",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/genshiro.png",
     "providers": {
       "Equilibrium": "wss://node.genshiro.io"
@@ -7306,7 +7301,7 @@
       "paraId": 1000,
       "genesisHash": "0x3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
       "addressPrefix": 1110,
-      "chainType": null,
+      "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://matrix.subscan.io/",
       "existentialDeposit": "100000000000000000",
@@ -7342,7 +7337,7 @@
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
-      "existentialDeposit": "10000000000000",
+      "existentialDeposit": "1000000000000",
       "symbol": "TVARA",
       "decimals": 12,
       "hasNativeNft": null,
@@ -7363,7 +7358,6 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
     "providers": {
-      "Avail Tool Testnet": "wss://rpc-testnet.avail.tools/ws",
       "Goldberg testnet": "wss://goldberg-testnet-rpc.avail.tools/ws"
     },
     "evmInfo": null,
@@ -7624,7 +7618,7 @@
       "paraId": 3346,
       "genesisHash": "0xae1ca86c936aa252cdc45f4f436220567b2bbbcc4834f5b8f4191462baf19dfb",
       "addressPrefix": 268,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://continuum.subscan.io/",
       "existentialDeposit": "100000000000000000",
@@ -7658,7 +7652,7 @@
       "paraId": 1000,
       "genesisHash": "0x7c34d42fc815d392057c78b49f2755c753440ccd38bcb0405b3bcfb601d08734",
       "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "3333333",
