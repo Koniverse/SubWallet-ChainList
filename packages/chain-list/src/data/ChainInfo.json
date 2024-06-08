@@ -4279,7 +4279,7 @@
       "addressPrefix": 56,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://pendulum.subscan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "PEN",
       "decimals": 12,
@@ -4301,7 +4301,10 @@
         }
       ]
     },
-    "extraInfo": null,
+    "extraInfo": {
+      "subscanSlug": "pendulum",
+      "chainBalanceSlug": "pendulum"
+    },
     "bitcoinInfo": null
   },
   "gear_testnet": {
