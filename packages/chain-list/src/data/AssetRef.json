@@ -132,13 +132,6 @@
     "destChain": "polkadot",
     "path": "SWAP"
   },
-  "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "moonbeam-NATIVE-GLMR",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
   "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
     "srcAsset": "pioneer-NATIVE-NEER",
     "destAsset": "karura-LOCAL-NEER",
@@ -158,20 +151,6 @@
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "statemint",
     "destChain": "polkadot",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___pendulum-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "pendulum-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___statemine-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "statemine-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "statemine",
     "path": "XCM"
   },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
@@ -222,41 +201,6 @@
     "srcChain": "moonbeam",
     "destChain": "manta_network",
     "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___moonbeam-NATIVE-GLMR": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "moonbeam-NATIVE-GLMR",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
-  "moonbeam-LOCAL-xcDOT___moonbeam-LOCAL-xcPINK": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "moonbeam-LOCAL-xcPINK",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
-  "moonbeam-LOCAL-xcDOT___moonbeam-LOCAL-xcUSDT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "moonbeam-LOCAL-xcUSDT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
-  "moonbeam-LOCAL-xcDOT___moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
-  "moonbeam-LOCAL-xcDOT___moonbeam-LOCAL-xcvDOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "moonbeam-LOCAL-xcvDOT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
   },
   "moonbeam-LOCAL-xcINTR___interlay-NATIVE-INTR": {
     "srcAsset": "moonbeam-LOCAL-xcINTR",
@@ -510,25 +454,11 @@
     "destChain": "kusama",
     "path": "XCM"
   },
-  "statemine-NATIVE-KSM___statemint-LOCAL-KSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "statemint-LOCAL-KSM",
-    "srcChain": "statemine",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
   "pendulum-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "pendulum-LOCAL-DOT",
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "pendulum",
     "destChain": "polkadot",
-    "path": "XCM"
-  },
-  "pendulum-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "pendulum-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "pendulum",
-    "destChain": "statemint",
     "path": "XCM"
   },
   "pendulum-LOCAL-USDT___statemint-LOCAL-USDt": {
@@ -607,13 +537,6 @@
     "srcChain": "moonbeam",
     "destChain": "statemint",
     "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcUSDT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "moonbeam-LOCAL-xcUSDT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
   },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___polkadot-NATIVE-DOT": {
     "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -747,13 +670,6 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
   "acala-LOCAL-INTR___interlay-NATIVE-INTR": {
     "srcAsset": "acala-LOCAL-INTR",
     "destAsset": "interlay-NATIVE-INTR",
@@ -866,25 +782,11 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "moonbeam-LOCAL-xcPINK___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "moonbeam-LOCAL-xcPINK",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
   "bifrost_dot-LOCAL-MANTA___manta_network-NATIVE-MANTA": {
     "srcAsset": "bifrost_dot-LOCAL-MANTA",
     "destAsset": "manta_network-NATIVE-MANTA",
     "srcChain": "bifrost_dot",
     "destChain": "manta_network",
-    "path": "XCM"
-  },
-  "rococo_assethub-LOCAL-WETH___sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
-    "srcAsset": "rococo_assethub-LOCAL-WETH",
-    "destAsset": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
-    "srcChain": "rococo_assethub",
-    "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
   "chainflip_dot-NATIVE-pDOT___sepolia_ethereum-NATIVE-ETH": {
@@ -1576,67 +1478,11 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
-  "statemint-LOCAL-BEEFY___hydradx_main-LOCAL-BEEFY": {
-    "srcAsset": "statemint-LOCAL-BEEFY",
-    "destAsset": "hydradx_main-LOCAL-BEEFY",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-BEEFY___statemint-LOCAL-BEEFY": {
-    "srcAsset": "hydradx_main-LOCAL-BEEFY",
-    "destAsset": "statemint-LOCAL-BEEFY",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcvDOT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "moonbeam-LOCAL-xcvDOT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "moonbeam",
-    "destChain": "moonbeam",
-    "path": "SWAP"
-  },
-  "statemint-LOCAL-STINK___hydradx_main-LOCAL-STINK": {
-    "srcAsset": "statemint-LOCAL-STINK",
-    "destAsset": "hydradx_main-LOCAL-STINK",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-STINK___statemint-LOCAL-STINK": {
-    "srcAsset": "hydradx_main-LOCAL-STINK",
-    "destAsset": "statemint-LOCAL-STINK",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
   "pendulum-LOCAL-USDC___statemint-LOCAL-USDC": {
     "srcAsset": "pendulum-LOCAL-USDC",
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "pendulum",
     "destChain": "statemint",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-KSM___statemine-NATIVE-KSM": {
-    "srcAsset": "statemint-LOCAL-KSM",
-    "destAsset": "statemine-NATIVE-KSM",
-    "srcChain": "statemint",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "statemine-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "statemine-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "statemine",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14___rococo_assethub-LOCAL-WETH": {
-    "srcAsset": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
-    "destAsset": "rococo_assethub-LOCAL-WETH",
-    "srcChain": "sepolia_ethereum",
-    "destChain": "rococo_assethub",
     "path": "XCM"
   }
 }
