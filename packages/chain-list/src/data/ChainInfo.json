@@ -8287,7 +8287,7 @@
       "existentialDeposit": "1000000000000",
       "symbol": "AVAIL",
       "decimals": 18,
-      "hasNativeNft": null,
+      "hasNativeNft": true,
       "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
