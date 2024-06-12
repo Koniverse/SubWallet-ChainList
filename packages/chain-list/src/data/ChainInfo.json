@@ -8648,7 +8648,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcointestnet.png",
     "providers": {
-      "Blockstream": "https://blockstream-testnet.openbit.app"
+      "Blockstream": "https://api-testnet.openbit.app/"
     },
     "evmInfo": null,
     "substrateInfo": null,
