@@ -10370,5 +10370,23 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rococo_assethub-local-usdt.png"
+  },
+  "bifrost_dot-LOCAL-vASTR": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vASTR",
+    "name": "Bifrost Voucher ASTR",
+    "symbol": "vASTR",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-astr",
+    "minAmount": "10000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken2": "3"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vastr.png"
   }
 }
