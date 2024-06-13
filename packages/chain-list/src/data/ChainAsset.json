@@ -149,7 +149,8 @@
       "multilocation": {
         "parents": 1,
         "interior": "Here"
-      }
+      },
+      "alternativeSwapAsset": "polkadot-NATIVE-DOT"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -7790,7 +7791,8 @@
       "multilocation": {
         "parents": 1,
         "interior": "Here"
-      }
+      },
+      "alternativeSwapAsset": "rococo-NATIVE-ROC"
     },
     "multiChainAsset": "ROC-Rococo",
     "hasValue": false,
