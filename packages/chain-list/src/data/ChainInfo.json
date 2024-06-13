@@ -6852,34 +6852,6 @@
     "extraInfo": null,
     "bitcoinInfo": null
   },
-  "acurast_canary": {
-    "slug": "acurast_canary",
-    "name": "Acurast Canary",
-    "isTestnet": false,
-    "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acurast_canary.png",
-    "providers": {},
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": "kusama",
-      "paraId": 2239,
-      "genesisHash": null,
-      "addressPrefix": null,
-      "chainType": null,
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": null,
-      "symbol": null,
-      "decimals": null,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": null,
-    "bitcoinInfo": null
-  },
   "alpha_network": {
     "slug": "alpha_network",
     "name": "Alpha Network",
@@ -8046,7 +8018,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acurast.png",
     "providers": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+      "Subwallet": "wss://subwallet-rpc.canary.acurast.com"
     },
     "evmInfo": null,
     "substrateInfo": {
