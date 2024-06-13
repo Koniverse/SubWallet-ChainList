@@ -574,5 +574,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/bork-bork.png"
+  },
+  "ROC-Rococo": {
+    "slug": "ROC-Rococo",
+    "originChainAsset": "rococo-NATIVE-ROC",
+    "name": "Rococo",
+    "symbol": "ROC",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/roc-rococo.png"
   }
 }

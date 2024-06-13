@@ -9,8 +9,7 @@
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
-      "Light Client": "light://substrate-connect/polkadot",
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+      "Light Client": "light://substrate-connect/polkadot"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7657,7 +7656,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://assethub-rococo.subscan.io/",
       "existentialDeposit": "3333333",
       "symbol": "ROC",
       "decimals": 12,
@@ -7667,7 +7666,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null,
+    "extraInfo": {
+      "subscanSlug": "assethub-rococo",
+      "chainBalanceSlug": null
+    },
     "bitcoinInfo": null
   },
   "okxTest": {
@@ -8648,7 +8650,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcointestnet.png",
     "providers": {
-      "Blockstream": "https://api-testnet.openbit.app/"
+      "Blockstream": "https://api-testnet.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,

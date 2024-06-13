@@ -34,7 +34,10 @@ export enum COMMON_CHAIN_SLUGS {
   HYDRADX_TESTNET = 'hydradx_rococo',
   ETHEREUM_SEPOLIA = 'sepolia_ethereum',
   CHAINFLIP_POLKADOT = 'chainflip_dot',
-  MOONBASE = 'moonbase'
+  MOONBASE = 'moonbase',
+  POLKADOT_ASSET_HUB = 'statemint',
+  KUSAMA_ASSET_HUB = 'statemine',
+  ROCOCO_ASSET_HUB = 'rococo_assethub'
 }
 
 export enum COMMON_ASSETS {

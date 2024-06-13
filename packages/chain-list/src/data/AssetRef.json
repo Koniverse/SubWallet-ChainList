@@ -174,6 +174,26 @@
     "destChain": "statemine",
     "path": "XCM"
   },
+  "statemint-NATIVE-DOT___statemint-LOCAL-USDt": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "statemint",
+    "destChain": "statemint",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
+  },
+  "statemint-NATIVE-DOT___statemint-LOCAL-USDC": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "statemint-LOCAL-USDC",
+    "srcChain": "statemint",
+    "destChain": "statemint",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "polkadot-NATIVE-DOT"
+    }
+  },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
     "destAsset": "moonbeam-LOCAL-xcACA",
@@ -291,6 +311,13 @@
     "destAsset": "hydradx_rococo-NATIVE-HDX",
     "srcChain": "rococo",
     "destChain": "hydradx_rococo",
+    "path": "XCM"
+  },
+  "rococo-NATIVE-ROC___rococo_assethub-NATIVE-ROC": {
+    "srcAsset": "rococo-NATIVE-ROC",
+    "destAsset": "rococo_assethub-NATIVE-ROC",
+    "srcChain": "rococo",
+    "destChain": "rococo_assethub",
     "path": "XCM"
   },
   "bifrost_dot-LOCAL-USDT___statemint-LOCAL-USDt": {
@@ -601,6 +628,13 @@
     "destChain": "pendulum",
     "path": "XCM"
   },
+  "statemint-LOCAL-USDt___statemint-NATIVE-DOT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "statemint",
+    "destChain": "statemint",
+    "path": "SWAP"
+  },
   "moonbeam-LOCAL-xcUSDT___statemint-LOCAL-USDt": {
     "srcAsset": "moonbeam-LOCAL-xcUSDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -739,6 +773,13 @@
     "srcChain": "statemint",
     "destChain": "pendulum",
     "path": "XCM"
+  },
+  "statemint-LOCAL-USDC___statemint-NATIVE-DOT": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "statemint",
+    "destChain": "statemint",
+    "path": "SWAP"
   },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
     "srcAsset": "hydradx_main-LOCAL-USDC",
@@ -879,6 +920,23 @@
     "srcChain": "bifrost_dot",
     "destChain": "manta_network",
     "path": "XCM"
+  },
+  "rococo_assethub-NATIVE-ROC___rococo-NATIVE-ROC": {
+    "srcAsset": "rococo_assethub-NATIVE-ROC",
+    "destAsset": "rococo-NATIVE-ROC",
+    "srcChain": "rococo_assethub",
+    "destChain": "rococo",
+    "path": "XCM"
+  },
+  "rococo_assethub-NATIVE-ROC___rococo_assethub-LOCAL-USDt": {
+    "srcAsset": "rococo_assethub-NATIVE-ROC",
+    "destAsset": "rococo_assethub-LOCAL-USDt",
+    "srcChain": "rococo_assethub",
+    "destChain": "rococo_assethub",
+    "path": "SWAP",
+    "metadata": {
+      "alternativeAsset": "rococo-NATIVE-ROC"
+    }
   },
   "rococo_assethub-LOCAL-WETH___sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
     "srcAsset": "rococo_assethub-LOCAL-WETH",
@@ -1638,5 +1696,12 @@
     "srcChain": "sepolia_ethereum",
     "destChain": "rococo_assethub",
     "path": "XCM"
+  },
+  "rococo_assethub-LOCAL-USDt___rococo_assethub-NATIVE-ROC": {
+    "srcAsset": "rococo_assethub-LOCAL-USDt",
+    "destAsset": "rococo_assethub-NATIVE-ROC",
+    "srcChain": "rococo_assethub",
+    "destChain": "rococo_assethub",
+    "path": "SWAP"
   }
 }
