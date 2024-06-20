@@ -646,5 +646,41 @@
     "priceId": "frax",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/frax-frax.png"
+  },
+  "ZTG-Zeitgeist": {
+    "slug": "ZTG-Zeitgeist",
+    "originChainAsset": null,
+    "name": "Zeitgeist",
+    "symbol": "ZTG",
+    "priceId": "zeitgeist",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ztg-zeitgeist.png"
+  },
+  "RING-DarwiniaNetwork": {
+    "slug": "RING-DarwiniaNetwork",
+    "originChainAsset": null,
+    "name": "DarwiniaNetwork",
+    "symbol": "RING",
+    "priceId": "darwinia-network-native-token",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ring-darwinianetwork.png"
+  },
+  "UNQ-UniqueNetwork": {
+    "slug": "UNQ-UniqueNetwork",
+    "originChainAsset": null,
+    "name": "Unique Network",
+    "symbol": "UNQ",
+    "priceId": "unique-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/unq-uniquenetwork.png"
+  },
+  "KILT-KILTProtocol": {
+    "slug": "KILT-KILTProtocol",
+    "originChainAsset": null,
+    "name": "KILT Protocol",
+    "symbol": "KILT",
+    "priceId": "kilt-protocol",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kilt-kiltprotocol.png"
   }
 }

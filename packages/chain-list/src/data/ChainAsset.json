@@ -1592,14 +1592,14 @@
   "darwinia2-NATIVE-RING": {
     "originChain": "darwinia2",
     "slug": "darwinia2-NATIVE-RING",
-    "name": "Darwinia",
+    "name": "Darwinia Network",
     "symbol": "RING",
     "decimals": 18,
     "priceId": "darwinia-network-native-token",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "RING-DarwiniaNetwork",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-native-ring.png"
   },
@@ -1866,14 +1866,14 @@
   "kilt-NATIVE-KILT": {
     "originChain": "kilt",
     "slug": "kilt-NATIVE-KILT",
-    "name": "KILT Spiritnet",
+    "name": "KILT Protocol",
     "symbol": "KILT",
     "decimals": 15,
     "priceId": "kilt-protocol",
     "minAmount": "10000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "KILT-KILTProtocol",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kilt-native-kilt.png"
   },
@@ -2004,14 +2004,14 @@
   "unique_network-NATIVE-UNQ": {
     "originChain": "unique_network",
     "slug": "unique_network-NATIVE-UNQ",
-    "name": "Unique",
+    "name": "Unique Network",
     "symbol": "UNQ",
     "decimals": 18,
     "priceId": "unique-network",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "UNQ-UniqueNetwork",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unique_network-native-unq.png"
   },
@@ -2087,7 +2087,7 @@
     "minAmount": "50000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ZTG-Zeitgeist",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zeitgeist-native-ztg.png"
   },
@@ -2129,7 +2129,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "UNQ-UniqueNetwork",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/uniquenft-native-unq.png"
   },
@@ -10850,5 +10850,101 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_testnet.png"
+  },
+  "hydradx_main-LOCAL-PHA": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-PHA",
+    "name": "Phala",
+    "symbol": "PHA",
+    "decimals": 12,
+    "priceId": "phala",
+    "minAmount": "54945054945",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "8"
+    },
+    "multiChainAsset": "PHA-Phala",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-pha.png"
+  },
+  "hydradx_main-LOCAL-KILT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-KILT",
+    "name": "KILT Protocol",
+    "symbol": "KILT",
+    "decimals": 15,
+    "priceId": "kilt-protocol",
+    "minAmount": "21358393848783",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "28"
+    },
+    "multiChainAsset": "KILT-KILTProtocol",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-kilt.png"
+  },
+  "hydradx_main-LOCAL-ZTG": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-ZTG",
+    "name": "Zeitgeist",
+    "symbol": "ZTG",
+    "decimals": 10,
+    "priceId": "zeitgeist",
+    "minAmount": "1204151916",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "12"
+    },
+    "multiChainAsset": "ZTG-Zeitgeist",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ztg.png"
+  },
+  "hydradx_main-LOCAL-CRU": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-CRU",
+    "name": "Crust Network",
+    "symbol": "CRU",
+    "decimals": 12,
+    "priceId": "crust-network",
+    "minAmount": "7874015748",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "27"
+    },
+    "multiChainAsset": "CRU-Crust",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-cru.png"
+  },
+  "hydradx_main-LOCAL-RING": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-RING",
+    "name": "Darwinia Network",
+    "symbol": "RING",
+    "decimals": 18,
+    "priceId": "darwinia-network-native-token",
+    "minAmount": "1000000000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "31"
+    },
+    "multiChainAsset": "RING-DarwiniaNetwork",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ring.png"
+  },
+  "hydradx_main-LOCAL-UNQ": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-UNQ",
+    "name": "Unique Network",
+    "symbol": "UNQ",
+    "decimals": 18,
+    "priceId": "unique-network",
+    "minAmount": "1224384348939740000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "25"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-unq.png"
   }
 }
