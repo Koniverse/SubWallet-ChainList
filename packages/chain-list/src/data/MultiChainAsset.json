@@ -637,5 +637,14 @@
     "priceId": "tbtc",
     "hasValue": true,
     "icon": null
+  },
+  "FRAX-Frax": {
+    "slug": "FRAX-Frax",
+    "originChainAsset": null,
+    "name": "Frax",
+    "symbol": "FRAX",
+    "priceId": "frax",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/frax-frax.png"
   }
 }
