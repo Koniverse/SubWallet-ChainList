@@ -10837,9 +10837,9 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-frax-0x322e86852e492a7ee17f28a78c663da38fb33bfb.png"
   },
-  "analog_testnet": {
+  "analog_testnet-NATIVE-TANLOG": {
     "originChain": "analog_testnet",
-    "slug": "analog_testnet",
+    "slug": "analog_testnet-NATIVE-TANLOG",
     "name": "Analog Testnet",
     "symbol": "TANLOG",
     "decimals": 12,
@@ -10849,7 +10849,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_testnet.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_testnet-native-tanlog.png"
   },
   "hydradx_main-LOCAL-PHA": {
     "originChain": "hydradx_main",
