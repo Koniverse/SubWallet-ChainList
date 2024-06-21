@@ -9037,7 +9037,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayertest-native-btc.png"
   },
@@ -9047,11 +9047,11 @@
     "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "bitcoin",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-Bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevm-native-btc.png"
   },
@@ -9065,7 +9065,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevmtest-native-btc.png"
   },
@@ -9137,13 +9137,13 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "wrapped-bitcoin",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xB5136FEba197f5fF4B765E5b50c74db717796dcD"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "WBTC-WrappedBTC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevm-erc20-wbtc-0xb5136feba197f5ff4b765e5b50c74db717796dcd.png"
   },
@@ -9153,7 +9153,7 @@
     "name": "Liquid staked BTC",
     "symbol": "stBTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "bido-staked-bitcoin",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -9169,7 +9169,7 @@
     "name": "Wrapped liquid staked BTC 2.0",
     "symbol": "wstBTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "wrapped-stbtc",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -9213,11 +9213,11 @@
     "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "bitcoin",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-Bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/merlinevm-native-btc.png"
   },
@@ -9231,7 +9231,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/botanixevmtest-native-btc.png"
   },
@@ -9700,7 +9700,7 @@
     "metadata": {
       "contractAddress": "0x05D032ac25d322df992303dCa074EE7392C117b9"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-local-usdt-0x05d032ac25d322df992303dca074ee7392c117b9.png"
   },
@@ -9728,7 +9728,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcointestnet-native-btc.png"
   },

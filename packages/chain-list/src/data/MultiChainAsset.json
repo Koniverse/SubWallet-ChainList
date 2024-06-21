@@ -682,5 +682,14 @@
     "priceId": "kilt-protocol",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kilt-kiltprotocol.png"
+  },
+  "BTC-BitcoinTestnet": {
+    "slug": "BTC-BitcoinTestnet",
+    "originChainAsset": "bitcoinTestnet-NATIVE-BTC",
+    "name": "Bitcoin Testnet",
+    "symbol": "BTC",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/btc-bitcointestnet.png"
   }
 }
