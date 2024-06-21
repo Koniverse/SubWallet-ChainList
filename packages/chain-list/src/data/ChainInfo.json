@@ -8772,7 +8772,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
     "providers": {
-      "Onfinality": "https://peaq.api.onfinality.io/public"
+      "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
     },
     "evmInfo": {
       "evmChainId": 3338,
