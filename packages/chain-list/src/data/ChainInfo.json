@@ -8774,18 +8774,7 @@
     "providers": {
       "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
     },
-    "evmInfo": {
-      "evmChainId": 3338,
-      "blockExplorer": "https://peaq.subscan.io/",
-      "existentialDeposit": "0",
-      "symbol": "PEAQ",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
+    "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
