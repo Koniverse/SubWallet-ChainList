@@ -9,8 +9,7 @@
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
-      "Light Client": "light://substrate-connect/polkadot",
-      "SubWallet": "wss://polkadot-rpc.subwallet.app"
+      "Light Client": "light://substrate-connect/polkadot"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -47,8 +46,7 @@
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
-      "Light Client": "light://substrate-connect/kusama",
-      "SubWallet": "wss://kusama-rpc.subwallet.app"
+      "Light Client": "light://substrate-connect/kusama"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1664,7 +1662,7 @@
       "paraId": null,
       "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
       "addressPrefix": 7,
-      "chainType": "PARACHAIN",
+      "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://edgeware.subscan.io/",
       "existentialDeposit": "10000000000000",
@@ -1828,7 +1826,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/darwinia2.png",
     "providers": {
       "Darwinia Network": "wss://rpc.darwinia.network",
-      "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz",
       "Dwellir": "wss://darwinia-rpc.dwellir.com"
     },
     "evmInfo": {
@@ -1934,7 +1931,7 @@
       "paraId": null,
       "genesisHash": "0x0f3665e2e57fb38fd638145b69e567fb05bbadfd457624f90f15e5dbb31320bb",
       "addressPrefix": 34,
-      "chainType": "PARACHAIN",
+      "chainType": "RELAYCHAIN",
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "blockExplorer": null,
       "existentialDeposit": "500",
@@ -5557,11 +5554,11 @@
     },
     "evmInfo": null,
     "substrateInfo": {
-      "relaySlug": "polkadot",
+      "relaySlug": null,
       "paraId": null,
       "genesisHash": "0x7e4e32d0feafd4f9c9414b0be86373f9a1efa904809b683453a9af6856d38ad5",
       "addressPrefix": 69,
-      "chainType": "PARACHAIN",
+      "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://sora.subscan.io/",
       "existentialDeposit": "0",
@@ -7237,7 +7234,7 @@
       "paraId": 1000,
       "genesisHash": "0x3af4ff48ec76d2efc8476730f423ac07e25ad48f5f4c9dc39c778b164d808615",
       "addressPrefix": 1110,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://matrix.subscan.io/",
       "existentialDeposit": "100000000000000000",
