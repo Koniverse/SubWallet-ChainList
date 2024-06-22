@@ -11010,5 +11010,21 @@
     "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/layeredge_testnet-native-btc.png"
+  },
+  "bitlayer-ERC721-LuckyHelmet-0x260ac1a14a89fd24c72b84092629f14964556299": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC721-LuckyHelmet-0x260ac1a14a89fd24c72b84092629f14964556299",
+    "name": "Bitlayer Lucky Helmet NFT",
+    "symbol": "LuckyHelmet",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x260ac1a14a89fd24c72b84092629f14964556299"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }
