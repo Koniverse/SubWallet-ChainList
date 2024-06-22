@@ -2129,7 +2129,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "UNQ-UniqueNetwork",
+    "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/uniquenft-native-unq.png"
   },
@@ -9948,7 +9948,7 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "decimals": 8,
-    "priceId": "bitcoin",
+    "priceId": "wrapped-bitcoin",
     "minAmount": "0",
     "assetType": "PSP22",
     "metadata": {
@@ -10747,7 +10747,7 @@
     "name": "Axelar Wrapped USDC",
     "symbol": "USDC.axl",
     "decimals": 6,
-    "priceId": "axelar-bridged-usdc",
+    "priceId": "axlusdc",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -10763,13 +10763,13 @@
     "name": "Tether USD",
     "symbol": "USDT.wh",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "tether",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xc30E9cA94CF52f3Bf5692aaCF81353a27052c46f"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-usdt.wh-0xc30e9ca94cf52f3bf5692aacf81353a27052c46f.png"
   },
@@ -10779,13 +10779,13 @@
     "name": "USDC (Wormhole)",
     "symbol": "USDC.wh",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "usd-coin",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0x931715fee2d06333043d11f658c8ce934ac61d0c"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-usdc.wh-0x931715fee2d06333043d11f658c8ce934ac61d0c.png"
   },
@@ -10795,13 +10795,13 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC.wh",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "wrapped-bitcoin",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "WBTC-WrappedBTC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-wbtc.wh-0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d.png"
   },
@@ -10811,13 +10811,13 @@
     "name": "Wrapped Ether",
     "symbol": "ETH.wh",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "ethereum",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xab3f0245b83feb11d15aaffefd7ad465a59817ed"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-eth.wh-0xab3f0245b83feb11d15aaffefd7ad465a59817ed.png"
   },
@@ -10857,7 +10857,7 @@
     "name": "Phala",
     "symbol": "PHA",
     "decimals": 12,
-    "priceId": "phala",
+    "priceId": "pha",
     "minAmount": "54945054945",
     "assetType": "LOCAL",
     "metadata": {
@@ -10943,7 +10943,7 @@
     "metadata": {
       "assetId": "25"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "UNQ-UniqueNetwork",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-unq.png"
   },

@@ -609,7 +609,7 @@
     "symbol": "PEPE",
     "priceId": "pepe",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/pepe-pepe.png"
   },
   "TON-TONCoin": {
     "slug": "TON-TONCoin",
@@ -618,7 +618,7 @@
     "symbol": "TON",
     "priceId": "the-open-network",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ton-toncoin.png"
   },
   "wstETH-WrappedLiquidEther": {
     "slug": "wstETH-WrappedLiquidEther",
@@ -636,7 +636,7 @@
     "symbol": "tBTC",
     "priceId": "tbtc",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tbtc-tbtcv2.png"
   },
   "FRAX-Frax": {
     "slug": "FRAX-Frax",
