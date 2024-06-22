@@ -1,18 +1,1 @@
-{
-  "peaq-NATIVE-PEAQ": {
-    "originChain": "peaq",
-    "slug": "peaq-NATIVE-PEAQ",
-    "name": "PEAQ",
-    "symbol": "PEAQ",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": {
-      "autoEnable": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq-native-peaq.png"
-  }
-}
+{}
