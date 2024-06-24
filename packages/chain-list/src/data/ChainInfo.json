@@ -8816,5 +8816,27 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "bevm_testnet": {
+    "slug": "bevm_testnet",
+    "name": "BEVM OP Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bevm_testnet.png",
+    "providers": {
+      "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 11505,
+      "blockExplorer": "https://scan-op-testnet.vercel.app",
+      "existentialDeposit": "0",
+      "symbol": "WBTC",
+      "decimals": 18,
+      "supportSmartContract": null,
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
