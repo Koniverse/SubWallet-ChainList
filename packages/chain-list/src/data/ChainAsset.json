@@ -11040,5 +11040,21 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevm_testnet-native-wbtc.png"
+  },
+  "merlinEvm-ERC20-MERL-0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378": {
+    "originChain": "merlinEvm",
+    "slug": "merlinEvm-ERC20-MERL-0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378",
+    "name": "MERL",
+    "symbol": "MERL",
+    "decimals": 18,
+    "priceId": "merlin-chain",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5c46bFF4B38dc1EAE09C5BAc65872a1D8bc87378"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/merlinevm-erc20-merl-0x5c46bff4b38dc1eae09c5bac65872a1d8bc87378.png"
   }
 }
