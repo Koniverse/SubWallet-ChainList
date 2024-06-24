@@ -8562,7 +8562,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcoin.png",
     "providers": {
-      "Blockstream": "https://api.openbit.app"
+      "Blockstream": "https://apix.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -8582,7 +8582,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcointestnet.png",
     "providers": {
-      "Blockstream": "https://api-testnet.openbit.app"
+      "Blockstream": "https://apix-testnet.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -8769,7 +8769,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
     "providers": {
-      "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
+      "Fake": "wss://peaq-fake.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
