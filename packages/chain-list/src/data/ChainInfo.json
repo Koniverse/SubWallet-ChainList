@@ -8562,7 +8562,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcoin.png",
     "providers": {
-      "Blockstream": "https://apix.openbit.app"
+      "Blockstream": "https://api.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -8582,7 +8582,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcointestnet.png",
     "providers": {
-      "Blockstream": "https://apix-testnet.openbit.app"
+      "Blockstream": "https://api-testnet.openbit.app"
     },
     "evmInfo": null,
     "substrateInfo": null,

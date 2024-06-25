@@ -11084,5 +11084,21 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/atletaolympia_testnet-native-atla.png"
+  },
+  "bevm-ERC20-ORDINALS•RU-0x041bbB9c16fDBa8C805565D0bB34931e37895EC9": {
+    "originChain": "bevm",
+    "slug": "bevm-ERC20-ORDINALS•RU-0x041bbB9c16fDBa8C805565D0bB34931e37895EC9",
+    "name": "ORDINALS•RUNES",
+    "symbol": "ORDINALS•RU",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x041bbB9c16fDBa8C805565D0bB34931e37895EC9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bevm-erc20-ordinals•ru-0x041bbb9c16fdba8c805565d0bb34931e37895ec9.png"
   }
 }
