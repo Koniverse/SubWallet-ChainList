@@ -8768,9 +8768,7 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
-    "providers": {
-      "Fake": "wss://peaq-fake.api.onfinality.io/public-ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "polkadot",
@@ -8873,7 +8871,18 @@
     "providers": {
       "Atleta": "wss://testnet-rpc.atleta.network"
     },
-    "evmInfo": null,
+    "evmInfo": {
+      "evmChainId": 2340,
+      "blockExplorer": "https://blockscout.atleta.network/",
+      "existentialDeposit": "0",
+      "symbol": "ATLA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
