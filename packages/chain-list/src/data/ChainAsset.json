@@ -11056,5 +11056,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/merlinevm-erc20-merl-0x5c46bff4b38dc1eae09c5bac65872a1d8bc87378.png"
+  },
+  "berachain_testnet-NATIVE-BERA": {
+    "originChain": "berachain_testnet",
+    "slug": "berachain_testnet-NATIVE-BERA",
+    "name": "BERA",
+    "symbol": "BERA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/berachain_testnet-native-bera.png"
+  },
+  "atletaOlympia_testnet-NATIVE-ATLA": {
+    "originChain": "atletaOlympia_testnet",
+    "slug": "atletaOlympia_testnet-NATIVE-ATLA",
+    "name": "ATLA",
+    "symbol": "ATLA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/atletaolympia_testnet-native-atla.png"
   }
 }
