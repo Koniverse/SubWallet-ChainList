@@ -139,7 +139,7 @@
   "statemint-NATIVE-DOT": {
     "originChain": "statemint",
     "slug": "statemint-NATIVE-DOT",
-    "name": "Statemint",
+    "name": "Polkadot",
     "symbol": "DOT",
     "decimals": 10,
     "priceId": "polkadot",
@@ -1810,7 +1810,7 @@
   "statemine-NATIVE-KSM": {
     "originChain": "statemine",
     "slug": "statemine-NATIVE-KSM",
-    "name": "Statemine",
+    "name": "Kusama",
     "symbol": "KSM",
     "decimals": 12,
     "priceId": "kusama",
