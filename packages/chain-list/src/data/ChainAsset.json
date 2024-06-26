@@ -3096,11 +3096,11 @@
   "logion-NATIVE-LGNT": {
     "originChain": "logion",
     "slug": "logion-NATIVE-LGNT",
-    "name": "logion Standalone",
+    "name": "Logion",
     "symbol": "LGNT",
     "decimals": 18,
     "priceId": null,
-    "minAmount": "500",
+    "minAmount": "1000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
