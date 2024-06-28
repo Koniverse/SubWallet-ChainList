@@ -11100,5 +11100,69 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
+  },
+  "bounceBitEvm-ERC20-BBTC-0xF5e11df1ebCf78b6b6D26E04FF19cD786a1e81dC": {
+    "originChain": "bounceBitEvm",
+    "slug": "bounceBitEvm-ERC20-BBTC-0xF5e11df1ebCf78b6b6D26E04FF19cD786a1e81dC",
+    "name": "BounceBit BTC",
+    "symbol": "BBTC",
+    "decimals": 18,
+    "priceId": "bouncebit-btc",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xF5e11df1ebCf78b6b6D26E04FF19cD786a1e81dC"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevm-erc20-bbtc-0xf5e11df1ebcf78b6b6d26e04ff19cd786a1e81dc.png"
+  },
+  "bounceBitEvm-ERC20-BBUSD-0x77776b40C3d75cb07ce54dEA4b2Fd1D07F865222": {
+    "originChain": "bounceBitEvm",
+    "slug": "bounceBitEvm-ERC20-BBUSD-0x77776b40C3d75cb07ce54dEA4b2Fd1D07F865222",
+    "name": "BounceBit USD",
+    "symbol": "BBUSD",
+    "decimals": 18,
+    "priceId": "bouncebit-usd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x77776b40C3d75cb07ce54dEA4b2Fd1D07F865222"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevm-erc20-bbusd-0x77776b40c3d75cb07ce54dea4b2fd1d07f865222.png"
+  },
+  "bounceBitEvm-ERC20-stBBTC-0x7F150c293c97172C75983BD8ac084c187107eA19": {
+    "originChain": "bounceBitEvm",
+    "slug": "bounceBitEvm-ERC20-stBBTC-0x7F150c293c97172C75983BD8ac084c187107eA19",
+    "name": "Liquid Staking BBTC",
+    "symbol": "stBBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7F150c293c97172C75983BD8ac084c187107eA19"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevm-erc20-stbbtc-0x7f150c293c97172c75983bd8ac084c187107ea19.png"
+  },
+  "bounceBitEvm-ERC20-stBB-0x22aAC17E571D6651880d057e310703fF4C7c3483": {
+    "originChain": "bounceBitEvm",
+    "slug": "bounceBitEvm-ERC20-stBB-0x22aAC17E571D6651880d057e310703fF4C7c3483",
+    "name": "Liquid Staking BB",
+    "symbol": "stBB",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x22aAC17E571D6651880d057e310703fF4C7c3483"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevm-erc20-stbb-0x22aac17e571d6651880d057e310703ff4c7c3483.png"
   }
 }
