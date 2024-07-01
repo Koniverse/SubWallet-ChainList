@@ -11212,5 +11212,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-rats-0x0d922f10d86243ceff899f15571f51951e8b20f6.png"
+  },
+  "bitcoin-BRC20-tshx": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-tshx",
+    "name": "ToshiPad",
+    "symbol": "tshx",
+    "decimals": 18,
+    "priceId": "toshipad",
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-brc20-tshx.png"
+  },
+  "bitcoin-BRC20-Cncl": {
+    "originChain": "bitcoin",
+    "slug": "bitcoin-BRC20-Cncl",
+    "name": "The Ordinals Council",
+    "symbol": "Cncl",
+    "decimals": 18,
+    "priceId": "cncl",
+    "minAmount": "0",
+    "assetType": "BRC20",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-brc20-cncl.png"
   }
 }
