@@ -11164,5 +11164,53 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bouncebitevm-erc20-stbb-0x22aac17e571d6651880d057e310703ff4c7c3483.png"
+  },
+  "bitlayer-ERC20-ordi-0xde9f57a5b8844ebf607eceffaa2505bb961701a4": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-ordi-0xde9f57a5b8844ebf607eceffaa2505bb961701a4",
+    "name": "Bitlayer-peg ORDI",
+    "symbol": "ordi",
+    "decimals": 18,
+    "priceId": "ordinals",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xde9f57a5b8844ebf607eceffaa2505bb961701a4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-ordi-0xde9f57a5b8844ebf607eceffaa2505bb961701a4.png"
+  },
+  "bitlayer-ERC20-sats-0x8dae8b60f16a10edfac1714394688e006ff369fa": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-sats-0x8dae8b60f16a10edfac1714394688e006ff369fa",
+    "name": "Bitlayer-peg SATS",
+    "symbol": "sats",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8dae8b60f16a10edfac1714394688e006ff369fa"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-sats-0x8dae8b60f16a10edfac1714394688e006ff369fa.png"
+  },
+  "bitlayer-ERC20-rats-0x0d922f10d86243ceff899f15571f51951e8b20f6": {
+    "originChain": "bitlayer",
+    "slug": "bitlayer-ERC20-rats-0x0d922f10d86243ceff899f15571f51951e8b20f6",
+    "name": "Bitlayer-peg RATS",
+    "symbol": "rats",
+    "decimals": 18,
+    "priceId": "rats",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0d922f10d86243ceff899f15571f51951e8b20f6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-rats-0x0d922f10d86243ceff899f15571f51951e8b20f6.png"
   }
 }
