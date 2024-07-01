@@ -9998,7 +9998,7 @@
     "minAmount": "0",
     "assetType": "BRC20",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ordi-ordi",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-brc20-ordi.png"
   },
@@ -10008,11 +10008,11 @@
     "name": "sats",
     "symbol": "sats",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "sats-ordinals",
     "minAmount": "0",
     "assetType": "BRC20",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "sats-sats",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-brc20-sats.png"
   },
@@ -11177,7 +11177,7 @@
     "metadata": {
       "contractAddress": "0xde9f57a5b8844ebf607eceffaa2505bb961701a4"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "ordi-ordi",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-ordi-0xde9f57a5b8844ebf607eceffaa2505bb961701a4.png"
   },
@@ -11187,13 +11187,13 @@
     "name": "Bitlayer-peg SATS",
     "symbol": "sats",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "sats-ordinals",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0x8dae8b60f16a10edfac1714394688e006ff369fa"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "sats-sats",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitlayer-erc20-sats-0x8dae8b60f16a10edfac1714394688e006ff369fa.png"
   },

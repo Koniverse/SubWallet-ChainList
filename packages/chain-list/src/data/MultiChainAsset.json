@@ -691,5 +691,23 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/btc-bitcointestnet.png"
+  },
+  "sats-sats": {
+    "slug": "sats-sats",
+    "originChainAsset": "bitcoin-BRC20-sats",
+    "name": "sats",
+    "symbol": "sats",
+    "priceId": "sats-ordinals",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/sats-sats.png"
+  },
+  "ordi-ordi": {
+    "slug": "ordi-ordi",
+    "originChainAsset": "bitcoin-BRC20-ordi",
+    "name": "ordi",
+    "symbol": "ordi",
+    "priceId": "ordinals",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ordi-ordi.png"
   }
 }
