@@ -755,7 +755,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus.png",
     "providers": {
-      "Aventus": "wss://public-rpc.mainnet.aventus.io"
+      "Aventus": "public-rpc.testnet.aventus.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5758,7 +5758,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus_testnet.png",
     "providers": {
-      "Aventus": "wss://public-rpc.public-testnet.aventus.io"
+      "Aventus": "wss://public-rpc.testnet.aventus.network"
     },
     "evmInfo": null,
     "substrateInfo": {
