@@ -11240,5 +11240,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcoin-brc20-cncl.png"
+  },
+  "hydradx_main-LOCAL-MYTH": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-MYTH",
+    "name": "Mythos",
+    "symbol": "MYTH",
+    "decimals": 18,
+    "priceId": "mythos",
+    "minAmount": "21367521367521400",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "30"
+    },
+    "multiChainAsset": "MYTH-Mythos",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-myth.png"
   }
 }
