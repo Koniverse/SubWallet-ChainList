@@ -11302,5 +11302,69 @@
     "multiChainAsset": "SYS-Syscoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rollux_evm-native-sys.png"
+  },
+  "bobMainnet-ERC20-tBTC-0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-ERC20-tBTC-0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2",
+    "name": "tBTC v2",
+    "symbol": "tBTC",
+    "decimals": 18,
+    "priceId": "tbtc",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2"
+    },
+    "multiChainAsset": "tBTC-tBTCv2",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-erc20-tbtc-0xbba2ef945d523c4e2608c9e1214c2cc64d4fc2e2.png"
+  },
+  "bobMainnet-ERC20-rETH-0xb5686c4f60904ec2bda6277d6fe1f7caa8d1b41a": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-ERC20-rETH-0xb5686c4f60904ec2bda6277d6fe1f7caa8d1b41a",
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "decimals": 18,
+    "priceId": "rocket-pool-eth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb5686c4f60904ec2bda6277d6fe1f7caa8d1b41a"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-erc20-reth-0xb5686c4f60904ec2bda6277d6fe1f7caa8d1b41a.png"
+  },
+  "bobMainnet-ERC20-STONE-0x96147a9ae9a42d7da551fd2322ca15b71032f342": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-ERC20-STONE-0x96147a9ae9a42d7da551fd2322ca15b71032f342",
+    "name": "StakeStone Ether",
+    "symbol": "STONE",
+    "decimals": 18,
+    "priceId": "stakestone-ether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x96147a9ae9a42d7da551fd2322ca15b71032f342"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-erc20-stone-0x96147a9ae9a42d7da551fd2322ca15b71032f342.png"
+  },
+  "bobMainnet-ERC20-DAI-0x6c851f501a3f24e29a8e39a29591cddf09369080": {
+    "originChain": "bobMainnet",
+    "slug": "bobMainnet-ERC20-DAI-0x6c851f501a3f24e29a8e39a29591cddf09369080",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6c851f501a3f24e29a8e39a29591cddf09369080"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-erc20-dai-0x6c851f501a3f24e29a8e39a29591cddf09369080.png"
   }
 }
