@@ -709,5 +709,14 @@
     "priceId": "ordinals",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ordi-ordi.png"
+  },
+  "SYS-Syscoin": {
+    "slug": "SYS-Syscoin",
+    "originChainAsset": null,
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "priceId": "syscoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/sys-syscoin.png"
   }
 }

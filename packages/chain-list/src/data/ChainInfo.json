@@ -8910,5 +8910,55 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "syscoin_evm": {
+    "slug": "syscoin_evm",
+    "name": "Syscoin NEVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/syscoin_evm.png",
+    "providers": {
+      "Syscoin": "https://rpc.syscoin.org"
+    },
+    "evmInfo": {
+      "evmChainId": 57,
+      "blockExplorer": "https://explorer.syscoin.org/",
+      "existentialDeposit": "0",
+      "symbol": "SYS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
+  "rollux_evm": {
+    "slug": "rollux_evm",
+    "name": "Rollux",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rollux_evm.png",
+    "providers": {
+      "Rollux": "https://rpc.rollux.com"
+    },
+    "evmInfo": {
+      "evmChainId": 570,
+      "blockExplorer": "https://explorer.rollux.com",
+      "existentialDeposit": "0",
+      "symbol": "SYS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }

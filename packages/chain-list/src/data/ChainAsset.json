@@ -11274,5 +11274,33 @@
     "multiChainAsset": "WIFD-DogWifDots",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcwifd.png"
+  },
+  "syscoin_evm-NATIVE-SYS": {
+    "originChain": "syscoin_evm",
+    "slug": "syscoin_evm-NATIVE-SYS",
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18,
+    "priceId": "syscoin",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "SYS-Syscoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/syscoin_evm-native-sys.png"
+  },
+  "rollux_evm-NATIVE-SYS": {
+    "originChain": "rollux_evm",
+    "slug": "rollux_evm-NATIVE-SYS",
+    "name": "Syscoin",
+    "symbol": "SYS",
+    "decimals": 18,
+    "priceId": "syscoin",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "SYS-Syscoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rollux_evm-native-sys.png"
   }
 }
