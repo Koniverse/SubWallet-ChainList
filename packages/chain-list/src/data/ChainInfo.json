@@ -6,10 +6,19 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot.png",
     "providers": {
+      "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
+      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
-      "Light Client": "light://substrate-connect/polkadot"
+      "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
+      "Light Client": "light://substrate-connect/polkadot",
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
+      "Allnodes": "wss://polkadot-rpc.publicnode.com",
+      "SubQuery": "wss://polkadot.rpc.subquery.network/public/ws",
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
