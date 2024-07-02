@@ -11256,5 +11256,23 @@
     "multiChainAsset": "MYTH-Mythos",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-myth.png"
+  },
+  "moonbeam-LOCAL-xcWIFD": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcWIFD",
+    "name": "Dog Wif Dots",
+    "symbol": "xcWIFD",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "61295607754960722617854661686514597014",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xfffffffF2e1D1ac9eA1686255bEfe995B31abc96"
+    },
+    "multiChainAsset": "WIFD-DogWifDots",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcwifd.png"
   }
 }
