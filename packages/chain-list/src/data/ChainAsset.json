@@ -11370,5 +11370,19 @@
     "multiChainAsset": "DAI-DaiStablecoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bobmainnet-erc20-dai-0x6c851f501a3f24e29a8e39a29591cddf09369080.png"
+  },
+  "b2_testnet-NATIVE-BTC": {
+    "originChain": "b2_testnet",
+    "slug": "b2_testnet-NATIVE-BTC",
+    "name": "Bitcoin Testnet",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "BTC-BitcoinTestnet",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2_testnet-native-btc.png"
   }
 }

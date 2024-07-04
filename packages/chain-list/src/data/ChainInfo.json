@@ -8956,5 +8956,32 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "b2_testnet": {
+    "slug": "b2_testnet",
+    "name": "B² Network Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/b2_testnet.png",
+    "providers": {
+      "Alt Technology": "https://b2-testnet.alt.technology/",
+      "Ankr": "https://rpc.ankr.com/b2_testnet",
+      "Bsquared": "https://testnet-rpc.bsquared.network"
+    },
+    "evmInfo": {
+      "evmChainId": 1123,
+      "blockExplorer": "https://testnet-explorer.bsquared.network",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
