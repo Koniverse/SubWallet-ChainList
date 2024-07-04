@@ -11384,5 +11384,117 @@
     "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2_testnet-native-btc.png"
+  },
+  "b2-ERC20-USDT-0x681202351a488040Fa4FdCc24188AfB582c9DD62": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-USDT-0x681202351a488040Fa4FdCc24188AfB582c9DD62",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x681202351a488040Fa4FdCc24188AfB582c9DD62"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-usdt-0x681202351a488040fa4fdcc24188afb582c9dd62.png"
+  },
+  "b2-ERC20-USDC-0xE544e8a38aDD9B1ABF21922090445Ba93f74B9E5": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-USDC-0xE544e8a38aDD9B1ABF21922090445Ba93f74B9E5",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE544e8a38aDD9B1ABF21922090445Ba93f74B9E5"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-usdc-0xe544e8a38add9b1abf21922090445ba93f74b9e5.png"
+  },
+  "b2-ERC20-MATIC-0xc3ee2Df14B1Bc526c24ED802f1873d49664a0d5c": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-MATIC-0xc3ee2Df14B1Bc526c24ED802f1873d49664a0d5c",
+    "name": "Matic Token",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "priceId": "matic-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xc3ee2Df14B1Bc526c24ED802f1873d49664a0d5c"
+    },
+    "multiChainAsset": "MATIC-Polygon",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-matic-0xc3ee2df14b1bc526c24ed802f1873d49664a0d5c.png"
+  },
+  "b2-ERC20-uBTC-0x796e4D53067FF374B89b2Ac101ce0c1f72ccaAc2": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-uBTC-0x796e4D53067FF374B89b2Ac101ce0c1f72ccaAc2",
+    "name": "UniRouter BTC",
+    "symbol": "uBTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x796e4D53067FF374B89b2Ac101ce0c1f72ccaAc2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-ubtc-0x796e4d53067ff374b89b2ac101ce0c1f72ccaac2.png"
+  },
+  "b2-ERC20-FDUSD-0xC2Fe4f673455Ef92299770a09CDB5E8756A525D5": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-FDUSD-0xC2Fe4f673455Ef92299770a09CDB5E8756A525D5",
+    "name": "First Digital USD",
+    "symbol": "FDUSD",
+    "decimals": 18,
+    "priceId": "first-digital-usd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xC2Fe4f673455Ef92299770a09CDB5E8756A525D5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-fdusd-0xc2fe4f673455ef92299770a09cdb5e8756a525d5.png"
+  },
+  "b2-ERC20-BSTONE-0x7537C1F80c9E157ED7AFD93a494be3e1f04f1462": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-BSTONE-0x7537C1F80c9E157ED7AFD93a494be3e1f04f1462",
+    "name": "STONE ETH",
+    "symbol": "BSTONE",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7537C1F80c9E157ED7AFD93a494be3e1f04f1462"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-bstone-0x7537c1f80c9e157ed7afd93a494be3e1f04f1462.png"
+  },
+  "b2-ERC20-ETH-0xD48d3A551757ac47655fCe25BDE1B0B6b1Cb2a5A": {
+    "originChain": "b2",
+    "slug": "b2-ERC20-ETH-0xD48d3A551757ac47655fCe25BDE1B0B6b1Cb2a5A",
+    "name": "Wrapped Ether",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xD48d3A551757ac47655fCe25BDE1B0B6b1Cb2a5A"
+    },
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-eth-0xd48d3a551757ac47655fce25bde1b0b6b1cb2a5a.png"
   }
 }
