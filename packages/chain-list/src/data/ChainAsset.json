@@ -10997,9 +10997,9 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/karura-local-usdt.png"
   },
-  "layerEdge_testnet-NATIVE-BTC": {
+  "layerEdge_testnet-NATIVE-LBTC": {
     "originChain": "layerEdge_testnet",
-    "slug": "layerEdge_testnet-NATIVE-BTC",
+    "slug": "layerEdge_testnet-NATIVE-LBTC",
     "name": "Bitcoin Testnet",
     "symbol": "LBTC",
     "decimals": 18,
@@ -11009,7 +11009,7 @@
     "metadata": null,
     "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/layeredge_testnet-native-btc.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/layeredge_testnet-native-lbtc.png"
   },
   "bitlayer-ERC721-LuckyHelmet-0x260ac1a14a89fd24c72b84092629f14964556299": {
     "originChain": "bitlayer",
@@ -11539,9 +11539,9 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rollux_testnet-native-tsys.png"
   },
-  "syscoin_evm_testnet-NATIVE-tSYS": {
+  "syscoin_evm_testnet-NATIVE-TSYS": {
     "originChain": "syscoin_evm_testnet",
-    "slug": "syscoin_evm_testnet-NATIVE-tSYS",
+    "slug": "syscoin_evm_testnet-NATIVE-TSYS",
     "name": "Test Syscoin",
     "symbol": "TSYS",
     "decimals": 18,
