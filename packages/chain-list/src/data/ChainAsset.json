@@ -11496,5 +11496,33 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/b2-erc20-eth-0xd48d3a551757ac47655fce25bde1b0b6b1cb2a5a.png"
+  },
+  "boolAlpha-NATIVE-tBOL": {
+    "originChain": "boolAlpha",
+    "slug": "boolAlpha-NATIVE-tBOL",
+    "name": "tBOL",
+    "symbol": "tBOL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/boolalpha-native-tbol.png"
+  },
+  "boolBeta_testnet-NATIVE-tBOL": {
+    "originChain": "boolBeta_testnet",
+    "slug": "boolBeta_testnet-NATIVE-tBOL",
+    "name": "Bool Beta Testnet",
+    "symbol": "tBOL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/boolbeta_testnet-native-tbol.png"
   }
 }
