@@ -9057,5 +9057,30 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "syscoin_evm_testnet": {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/syscoin_evm_testnet.png",
+    "providers": {
+      "Syscoin": "https://rpc.tanenbaum.io"
+    },
+    "evmInfo": {
+      "evmChainId": 5700,
+      "blockExplorer": "https://tanenbaum.io",
+      "existentialDeposit": "0",
+      "symbol": "tSYS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }

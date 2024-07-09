@@ -718,5 +718,14 @@
     "priceId": "syscoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/sys-syscoin.png"
+  },
+  "tSYS-TestSyscoin": {
+    "slug": "tSYS-TestSyscoin",
+    "originChainAsset": "syscoin_evm_testnet-NATIVE-tSYS",
+    "name": "Test Syscoin",
+    "symbol": "tSYS",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tsys-testsyscoin.png"
   }
 }
