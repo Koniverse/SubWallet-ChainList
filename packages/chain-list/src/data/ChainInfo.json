@@ -9107,5 +9107,35 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "bifrost_local_testnet": {
+    "slug": "bifrost_local_testnet",
+    "name": "Bifrost Polkadot Local Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Bifrost": "wss://bifrost-polkadot-rpc.devnet.liebi.com/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 2001,
+      "genesisHash": "0x1c5fb64bfc67f15ac392a2f24af548d435c6fd5181eea1879dcb8d9735d2d217",
+      "addressPrefix": 6,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000",
+      "symbol": "BNC",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
