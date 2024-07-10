@@ -1662,6 +1662,20 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
+  "mythos-NATIVE-MYTH___hydradx_main-LOCAL-MYTH": {
+    "srcAsset": "mythos-NATIVE-MYTH",
+    "destAsset": "hydradx_main-LOCAL-MYTH",
+    "srcChain": "mythos",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "mythos-NATIVE-MYTH___statemint-LOCAL-MYTH": {
+    "srcAsset": "mythos-NATIVE-MYTH",
+    "destAsset": "statemint-LOCAL-MYTH",
+    "srcChain": "mythos",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
   "statemint-LOCAL-BEEFY___hydradx_main-LOCAL-BEEFY": {
     "srcAsset": "statemint-LOCAL-BEEFY",
     "destAsset": "hydradx_main-LOCAL-BEEFY",
@@ -1746,6 +1760,13 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
+  "statemint-LOCAL-MYTH___mythos-NATIVE-MYTH": {
+    "srcAsset": "statemint-LOCAL-MYTH",
+    "destAsset": "mythos-NATIVE-MYTH",
+    "srcChain": "statemint",
+    "destChain": "mythos",
+    "path": "XCM"
+  },
   "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003___statemint-LOCAL-MYTH": {
     "srcAsset": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003",
     "destAsset": "statemint-LOCAL-MYTH",
@@ -1814,6 +1835,13 @@
     "destAsset": "statemint-LOCAL-tBTC",
     "srcChain": "ethereum",
     "destChain": "statemint",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-MYTH___mythos-NATIVE-MYTH": {
+    "srcAsset": "hydradx_main-LOCAL-MYTH",
+    "destAsset": "mythos-NATIVE-MYTH",
+    "srcChain": "hydradx_main",
+    "destChain": "mythos",
     "path": "XCM"
   }
 }

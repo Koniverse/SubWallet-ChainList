@@ -11255,7 +11255,17 @@
     "minAmount": "21367521367521400",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "30"
+      "assetId": "30",
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X1": [
+            {
+              "Parachain": 3369
+            }
+          ]
+        }
+      }
     },
     "multiChainAsset": "MYTH-Mythos",
     "hasValue": true,
