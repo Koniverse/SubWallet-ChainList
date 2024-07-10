@@ -11590,5 +11590,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": null
+  },
+  "unique_evm-NATIVE-UNQ": {
+    "originChain": "unique_evm",
+    "slug": "unique_evm-NATIVE-UNQ",
+    "name": "Unique Network",
+    "symbol": "UNQ",
+    "decimals": 18,
+    "priceId": "unique-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "UNQ-UniqueNetwork",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unique_evm-native-unq.png"
   }
 }

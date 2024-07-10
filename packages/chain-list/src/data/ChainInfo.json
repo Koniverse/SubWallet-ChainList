@@ -9137,5 +9137,33 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "unique_evm": {
+    "slug": "unique_evm",
+    "name": "Unique - EVM",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unique_evm.png",
+    "providers": {
+      "Unique": "https://rpc.unique.network",
+      "Asia": "https://asia-rpc.unique.network",
+      "EU": "https://eu-rpc.unique.network",
+      "US": "https://us-rpc.unique.network"
+    },
+    "evmInfo": {
+      "evmChainId": 8880,
+      "blockExplorer": "https://uniquescan.io/unique",
+      "existentialDeposit": "0",
+      "symbol": "UNQ",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
