@@ -8733,6 +8733,10 @@
     "minAmount": "10000000000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "multilocation": {
+        "parents": 0,
+        "interior": "Here"
+      },
       "disableEvmTransfer": true
     },
     "multiChainAsset": "MYTH-Mythos",
