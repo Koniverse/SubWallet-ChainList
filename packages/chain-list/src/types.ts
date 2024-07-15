@@ -30,6 +30,7 @@ export enum _AssetType {
   PSP22 = 'PSP22',
   PSP34 = 'PSP34',
   GRC20 = 'GRC20',
+  VFT = 'VFT',
   GRC721 = 'GRC721',
   RUNE = 'RUNE',
   BRC20 = 'BRC20',

@@ -5810,7 +5810,8 @@
       "hasNativeNft": true,
       "supportStaking": true,
       "supportSmartContract": [
-        "GRC20"
+        "GRC20",
+        "VFT"
       ],
       "crowdloanParaId": null,
       "crowdloanFunds": []
@@ -7280,7 +7281,8 @@
       "hasNativeNft": null,
       "supportStaking": null,
       "supportSmartContract": [
-        "GRC20"
+        "GRC20",
+        "VFT"
       ],
       "crowdloanParaId": null,
       "crowdloanFunds": []
