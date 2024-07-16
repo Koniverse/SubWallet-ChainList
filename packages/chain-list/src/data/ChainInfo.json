@@ -7294,7 +7294,7 @@
     "slug": "goldberg_testnet",
     "name": "Avail Goldberg Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/goldberg_testnet.png",
     "providers": {
       "Goldberg testnet": "wss://goldberg-testnet-rpc.avail.tools/ws"
