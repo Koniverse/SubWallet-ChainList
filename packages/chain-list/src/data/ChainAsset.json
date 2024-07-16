@@ -11608,5 +11608,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/core-native-core.png"
+  },
+  "satoshivm-NATIVE-BTC": {
+    "originChain": "satoshivm",
+    "slug": "satoshivm-NATIVE-BTC",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": "bitcoin",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "BTC-Bitcoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-native-btc.png"
   }
 }
