@@ -11696,5 +11696,37 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph_testnet_evm-native-tzero.png"
+  },
+  "statemint-LOCAL-KOL": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-KOL",
+    "name": "Kolkadot",
+    "symbol": "KOL",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "2007900000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "86"
+    },
+    "multiChainAsset": "KOL-Kolkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-kol.png"
+  },
+  "hydradx_main-LOCAL-KOL": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-KOL",
+    "name": "Kolkadot",
+    "symbol": "KOL",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000199"
+    },
+    "multiChainAsset": "KOL-Kolkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-kol.png"
   }
 }
