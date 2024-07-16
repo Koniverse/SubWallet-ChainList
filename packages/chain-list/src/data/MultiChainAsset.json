@@ -727,5 +727,14 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tsys-testsyscoin.png"
+  },
+  "CERE-CereNetwork": {
+    "slug": "CERE-CereNetwork",
+    "originChainAsset": "ethereum-ERC20-CERE-0x2dA719DB753dFA10a62E140f436E1d67F2ddB0d6",
+    "name": "Cere Network",
+    "symbol": "CERE",
+    "priceId": "cere-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/cere-cerenetwork.png"
   }
 }

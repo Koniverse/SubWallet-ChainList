@@ -11652,5 +11652,35 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-erc20-savm-0x0e02765992f946397e6d2e65642eabb9cc674928.png"
+  },
+  "ethereum-ERC20-CERE-0x2dA719DB753dFA10a62E140f436E1d67F2ddB0d6": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CERE-0x2dA719DB753dFA10a62E140f436E1d67F2ddB0d6",
+    "name": "Cere Network",
+    "symbol": "CERE",
+    "decimals": 10,
+    "priceId": "cere-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2dA719DB753dFA10a62E140f436E1d67F2ddB0d6"
+    },
+    "multiChainAsset": "CERE-CereNetwork",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-cere-0x2da719db753dfa10a62e140f436e1d67f2ddb0d6.png"
+  },
+  "cere-NATIVE-CERE": {
+    "originChain": "cere",
+    "slug": "cere-NATIVE-CERE",
+    "name": "Cere Network",
+    "symbol": "CERE",
+    "decimals": 10,
+    "priceId": "cere-network",
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "CERE-CereNetwork",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cere-native-cere.png"
   }
 }
