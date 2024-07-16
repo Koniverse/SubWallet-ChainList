@@ -9187,5 +9187,30 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "satoshivm_testnet": {
+    "slug": "satoshivm_testnet",
+    "name": "SatoshiVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/satoshivm_testnet.png",
+    "providers": {
+      "Test Rpc Node": "https://test-rpc-node-http.svmscan.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 3110,
+      "blockExplorer": "https://testnet.svmscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "BTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }

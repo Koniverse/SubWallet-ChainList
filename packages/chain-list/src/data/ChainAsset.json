@@ -11622,5 +11622,19 @@
     "multiChainAsset": "BTC-Bitcoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-native-btc.png"
+  },
+  "satoshivm_testnet-NATIVE-BTC": {
+    "originChain": "satoshivm_testnet",
+    "slug": "satoshivm_testnet-NATIVE-BTC",
+    "name": "Bitcoin Testnet",
+    "symbol": "BTC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "BTC-BitcoinTestnet",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm_testnet-native-btc.png"
   }
 }
