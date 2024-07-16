@@ -11636,5 +11636,21 @@
     "multiChainAsset": "BTC-BitcoinTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm_testnet-native-btc.png"
+  },
+  "satoshivm-ERC20-SAVM-0x0E02765992f946397E6d2e65642eABb9cc674928": {
+    "originChain": "satoshivm",
+    "slug": "satoshivm-ERC20-SAVM-0x0E02765992f946397E6d2e65642eABb9cc674928",
+    "name": "SatoshiVM",
+    "symbol": "SAVM",
+    "decimals": 18,
+    "priceId": "satoshivm",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0E02765992f946397E6d2e65642eABb9cc674928"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-erc20-savm-0x0e02765992f946397e6d2e65642eabb9cc674928.png"
   }
 }
