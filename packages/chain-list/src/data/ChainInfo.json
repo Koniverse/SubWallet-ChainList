@@ -9242,5 +9242,31 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "aleph_testnet_evm": {
+    "slug": "aleph_testnet_evm",
+    "name": "Aleph Zero Testnet - EVM",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aleph_testnet_evm.png",
+    "providers": {
+      "Sepolia": "https://alephzero-sepolia.drpc.org/",
+      "Gelato": "https://rpc.alephzero-testnet.gelato.digital/"
+    },
+    "evmInfo": {
+      "evmChainId": 2039,
+      "blockExplorer": "https://aleph-zero.blockscout.com/",
+      "existentialDeposit": "0",
+      "symbol": "TZERO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }

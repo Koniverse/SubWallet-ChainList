@@ -11682,5 +11682,19 @@
     "multiChainAsset": "CERE-CereNetwork",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cere-native-cere.png"
+  },
+  "aleph_testnet_evm-NATIVE-TZERO": {
+    "originChain": "aleph_testnet_evm",
+    "slug": "aleph_testnet_evm-NATIVE-TZERO",
+    "name": "Aleph Zero Testnet - EVM",
+    "symbol": "TZERO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph_testnet_evm-native-tzero.png"
   }
 }
