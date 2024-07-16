@@ -9137,5 +9137,30 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "core": {
+    "slug": "core",
+    "name": "Core Blockchain Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/core.png",
+    "providers": {
+      "Core Dao": "https://rpc.coredao.org/"
+    },
+    "evmInfo": {
+      "evmChainId": 1116,
+      "blockExplorer": "https://scan.coredao.org",
+      "existentialDeposit": "0",
+      "symbol": "CORE",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
