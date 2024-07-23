@@ -8398,7 +8398,12 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avail_mainnet.png",
     "providers": {
-      "Avail": "wss://zeref-api.slowops.xyz/ws"
+      "Avail": "wss://zeref-api.slowops.xyz/ws",
+      "SubWallet Avail": "wss://mainnet-rpc.availspace.app",
+      "SubWallet Avail 2": "wss://mainnet-rpc-2.availspace.app",
+      "SubWallet Avail 3": "wss://mainnet-rpc-3.availspace.app",
+      "SubWallet Avail 4": "wss://mainnet-rpc-4.availspace.app",
+      "SubWallet Avail 5": "wss://mainnet-rpc-5.availspace.app"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8774,9 +8779,7 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
-    "providers": {
-      "Fake": "wss://peaq-fake.api.onfinality.io/public-ws"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "polkadot",
