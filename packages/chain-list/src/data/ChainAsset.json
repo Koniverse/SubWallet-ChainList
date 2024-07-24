@@ -9203,11 +9203,11 @@
     "name": "Avail",
     "symbol": "AVAIL",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "avail",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "AVAIL-Avail",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/avail_mainnet-native-avail.png"
   },
@@ -11728,5 +11728,21 @@
     "multiChainAsset": "KOL-Kolkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-kol.png"
+  },
+  "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "name": "Avail",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": "avail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8"
+    },
+    "multiChainAsset": "AVAIL-Avail",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-avail-0xeeb4d8400aeefafc1b2953e0094134a887c76bd8.png"
   }
 }

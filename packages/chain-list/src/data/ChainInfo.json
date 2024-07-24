@@ -8209,10 +8209,7 @@
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/availturingtest.png",
-    "providers": {
-      "Avail Turing ": "wss://turing-rpc.avail.so/ws",
-      "Avail Space": "wss://turing-rpc.availspace.app/"
-    },
+    "providers": {},
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
@@ -8403,7 +8400,8 @@
       "SubWallet Avail 2": "wss://mainnet-rpc-2.availspace.app",
       "SubWallet Avail 3": "wss://mainnet-rpc-3.availspace.app",
       "SubWallet Avail 4": "wss://mainnet-rpc-4.availspace.app",
-      "SubWallet Avail 5": "wss://mainnet-rpc-5.availspace.app"
+      "SubWallet Avail 5": "wss://mainnet-rpc-5.availspace.app",
+      "Blast Api": "wss://avail-mainnet.public.blastapi.io/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8413,17 +8411,20 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://avail.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "AVAIL",
       "decimals": 18,
-      "hasNativeNft": null,
+      "hasNativeNft": true,
       "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null,
+    "extraInfo": {
+      "subscanSlug": "avail",
+      "chainBalanceSlug": "avail"
+    },
     "bitcoinInfo": null
   },
   "merlinEvm": {

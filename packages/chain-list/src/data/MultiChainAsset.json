@@ -745,5 +745,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/kol-kolkadot.png"
+  },
+  "AVAIL-Avail": {
+    "slug": "AVAIL-Avail",
+    "originChainAsset": "avail_mainnet-NATIVE-AVAIL",
+    "name": "Avail",
+    "symbol": "AVAIL",
+    "priceId": "avail",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/avail-avail.png"
   }
 }
