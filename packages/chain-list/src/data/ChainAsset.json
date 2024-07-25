@@ -11767,5 +11767,39 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-eurc.s-0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136.png"
+  },
+  "statemint-LOCAL-NCTR": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-NCTR",
+    "name": "Apillon",
+    "symbol": "NCTR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1024"
+    },
+    "multiChainAsset": "NCTR-Apillon",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-nctr.png"
+  },
+  "moonbeam-LOCAL-xcNCTR": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-LOCAL-xcNCTR",
+    "name": "Apillon",
+    "symbol": "xcNCTR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "184218609779515850660274730699350567246",
+      "assetType": "ForeignAsset",
+      "contractAddress": "0xFfFFfFfF8A9736B44EbF188972725bED67BF694E"
+    },
+    "multiChainAsset": "NCTR-Apillon",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcnctr.png"
   }
 }

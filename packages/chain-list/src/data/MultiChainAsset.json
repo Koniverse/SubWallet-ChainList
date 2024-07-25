@@ -754,5 +754,14 @@
     "priceId": "avail",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/avail-avail.png"
+  },
+  "NCTR-Apillon": {
+    "slug": "NCTR-Apillon",
+    "originChainAsset": null,
+    "name": "Apillon",
+    "symbol": "NCTR",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/nctr-apillon.png"
   }
 }
