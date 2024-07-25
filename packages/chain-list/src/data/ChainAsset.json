@@ -11744,5 +11744,28 @@
     "multiChainAsset": "AVAIL-Avail",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-avail-0xeeb4d8400aeefafc1b2953e0094134a887c76bd8.png"
+  },
+  "pendulum-LOCAL-EURC.s-0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-EURC.s-0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136",
+    "name": "Circle EURC",
+    "symbol": "EURC.s",
+    "decimals": 12,
+    "priceId": "euro-coin",
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Stellar": {
+          "AlphaNum4": {
+            "code": "EURC",
+            "issuer": "0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136"
+          }
+        }
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-eurc.s-0xcf4f5a26e2090bb3adcf02c7a9d73dbfe6659cc690461475b86437fa49c71136.png"
   }
 }
