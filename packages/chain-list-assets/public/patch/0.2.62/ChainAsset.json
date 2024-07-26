@@ -5,7 +5,7 @@
     "name": "Avail",
     "symbol": "AVAIL",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "avail",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": {
