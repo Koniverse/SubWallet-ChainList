@@ -772,5 +772,14 @@
     "priceId": "router-protocol-2",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/route-routeprotocol.png"
+  },
+  "AZERO-AlephZero": {
+    "slug": "AZERO-AlephZero",
+    "originChainAsset": null,
+    "name": "Aleph Zero",
+    "symbol": "AZERO",
+    "priceId": "aleph-zero",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/azero-alephzero.png"
   }
 }
