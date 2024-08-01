@@ -11845,5 +11845,49 @@
     "multiChainAsset": "AZERO-AlephZero",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph_evm-native-azero.png"
+  },
+  "ton-TEP74-USD₮-EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs": {
+    "originChain": "ton",
+    "slug": "ton-TEP74-USD₮-EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+    "name": "Tether USD",
+    "symbol": "USD₮",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "TEP74",
+    "metadata": {
+      "contractAddress": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png"
+  },
+  "ton-NATIVE-TON": {
+    "originChain": "ton",
+    "slug": "ton-NATIVE-TON",
+    "name": "TON",
+    "symbol": "TON",
+    "decimals": 9,
+    "priceId": "the-open-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "ton_testnet-NATIVE-TON": {
+    "originChain": "ton_testnet",
+    "slug": "ton_testnet-NATIVE-TON",
+    "name": "TON Testnet",
+    "symbol": "TON",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
   }
 }

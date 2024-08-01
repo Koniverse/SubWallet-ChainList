@@ -30,6 +30,7 @@ export enum _AssetType {
   PSP22 = 'PSP22',
   PSP34 = 'PSP34',
   GRC20 = 'GRC20',
+  TEP74 = 'TEP74',
   VFT = 'VFT',
   GRC721 = 'GRC721',
   RUNE = 'RUNE',
@@ -52,6 +53,7 @@ export interface _ChainInfo {
   evmInfo: _EvmInfo | null,
   bitcoinInfo: _BitcoinInfo | null;
   extraInfo: _ExtraInfo | null,
+  tonInfo: _TonInfo | null
   icon: string
 }
 
@@ -105,6 +107,13 @@ export interface _BitcoinInfo {
   decimals: number;
   symbol: string;
   bitcoinNetwork: BitcoinNetworkMode
+}
+
+export interface _TonInfo {
+  blockExplorer: string | null;
+  existentialDeposit: string;
+  decimals: number;
+  symbol: string;
 }
 
 export interface _ExtraInfo {
