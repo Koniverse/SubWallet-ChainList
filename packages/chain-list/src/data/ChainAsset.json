@@ -11831,5 +11831,19 @@
     "multiChainAsset": "ROUTE-RouteProtocol",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-route-0x60f67e1015b3f069dd4358a78c38f83fe3a667a9.png"
+  },
+  "aleph_evm-NATIVE-AZERO": {
+    "originChain": "aleph_evm",
+    "slug": "aleph_evm-NATIVE-AZERO",
+    "name": "Aleph Zero - EVM",
+    "symbol": "AZERO",
+    "decimals": 18,
+    "priceId": "aleph-zero",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph_evm-native-azero.png"
   }
 }

@@ -9280,5 +9280,30 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "aleph_evm": {
+    "slug": "aleph_evm",
+    "name": "Aleph Zero - EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aleph_evm.png",
+    "providers": {
+      "Gelato": "https://rpc.alephzero.raas.gelato.cloud"
+    },
+    "evmInfo": {
+      "evmChainId": 41455,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "AZERO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 }
