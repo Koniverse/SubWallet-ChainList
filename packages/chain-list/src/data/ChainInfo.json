@@ -9358,5 +9358,45 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  "ton": {
+    "slug": "ton",
+    "name": "TON Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Ton Center": "https://toncenter.com/api/v2/jsonRPC"
+    },
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": {
+      "blockExplorer": "https://tonviewer.com/",
+      "existentialDeposit": "0",
+      "decimals": 9,
+      "symbol": "TON"
+    }
+  },
+  "ton_testnet": {
+    "slug": "ton_testnet",
+    "name": "TON Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Ton Center": "https://testnet.toncenter.com/api/v2/jsonRPC"
+    },
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": {
+      "blockExplorer": "https://testnet.tonviewer.com/",
+      "existentialDeposit": "0",
+      "decimals": 9,
+      "symbol": "TON"
+    }
   }
 }
