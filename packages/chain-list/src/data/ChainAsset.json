@@ -11799,5 +11799,37 @@
     "multiChainAsset": "NCTR-Apillon",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcnctr.png"
+  },
+  "polygon-ERC20-ROUTE-0x93890f346C5D02C3863a06657bc72555dC72c527": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-ROUTE-0x93890f346C5D02C3863a06657bc72555dC72c527",
+    "name": "Route Protocol",
+    "symbol": "ROUTE",
+    "decimals": 18,
+    "priceId": "router-protocol-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAdress": "0x93890f346C5D02C3863a06657bc72555dC72c527"
+    },
+    "multiChainAsset": "ROUTE-RouteProtocol",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-route-0x93890f346c5d02c3863a06657bc72555dc72c527.png"
+  },
+  "ethereum-ERC20-ROUTE-0x60F67E1015b3f069DD4358a78c38f83fE3a667A9": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-ROUTE-0x60F67E1015b3f069DD4358a78c38f83fE3a667A9",
+    "name": "Route Protocol",
+    "symbol": "ROUTE",
+    "decimals": 18,
+    "priceId": "router-protocol-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAdress": "0x60F67E1015b3f069DD4358a78c38f83fE3a667A9"
+    },
+    "multiChainAsset": "ROUTE-RouteProtocol",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-route-0x60f67e1015b3f069dd4358a78c38f83fe3a667a9.png"
   }
 }
