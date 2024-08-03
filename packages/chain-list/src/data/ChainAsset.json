@@ -10439,21 +10439,11 @@
     "metadata": {
       "isBridged": true,
       "multilocation": {
-        "parents": 2,
+        "parents": 1,
         "interior": {
-          "X2": [
+          "X1": [
             {
-              "GlobalConsensus": {
-                "Ethereum": {
-                  "chainId": 1
-                }
-              }
-            },
-            {
-              "AccountKey20": {
-                "key": "0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003",
-                "network": null
-              }
+              "Parachain": 3369
             }
           ]
         }
