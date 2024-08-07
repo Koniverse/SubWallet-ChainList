@@ -11835,5 +11835,121 @@
     "multiChainAsset": "AZERO-AlephZero",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph_evm-native-azero.png"
+  },
+  "exosama-NATIVE-SAMA": {
+    "originChain": "exosama",
+    "slug": "exosama-NATIVE-SAMA",
+    "name": "SAMA",
+    "symbol": "SAMA",
+    "decimals": 18,
+    "priceId": "exosama-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/exosama-native-sama.png"
+  },
+  "pendulum-LOCAL-BNC": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-BNC",
+    "name": "Bifrost Native Token",
+    "symbol": "BNC",
+    "decimals": 12,
+    "priceId": "bifrost-native-coin",
+    "minAmount": "10,000,000,000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "11"
+      }
+    },
+    "multiChainAsset": "BNC-BifrostKusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-bnc.png"
+  },
+  "pendulum-LOCAL-ASTR": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-ASTR",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "9"
+      }
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-astr.png"
+  },
+  "pendulum-LOCAL-vDOT": {
+    "originChain": "pendulum",
+    "slug": "pendulum-LOCAL-vDOT",
+    "name": "Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 10,
+    "priceId": "voucher-dot",
+    "minAmount": "1,000,000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "XCM": "10"
+      }
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-vdot.png"
+  },
+  "exosama-ERC721-WSLION-0xdd0a0a15efc11930354b3e1eb1a62a87bf9abf30": {
+    "originChain": "exosama",
+    "slug": "exosama-ERC721-WSLION-0xdd0a0a15efc11930354b3e1eb1a62a87bf9abf30",
+    "name": "Wildsama",
+    "symbol": "WSLION",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xdd0a0a15efc11930354b3e1eb1a62a87bf9abf30"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/exosama-erc721-wslion-0xdd0a0a15efc11930354b3e1eb1a62a87bf9abf30.png"
+  },
+  "arbitrum_one-ERC721-SNDWS-0x6cc7c9b2aa5fdcc044f9a51d9d083fd16aeb0a78": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC721-SNDWS-0x6cc7c9b2aa5fdcc044f9a51d9d083fd16aeb0a78",
+    "name": "Soundwaves",
+    "symbol": "SNDWS",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0x6cc7c9b2aa5fdcc044f9a51d9d083fd16aeb0a78"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc721-sndws-0x6cc7c9b2aa5fdcc044f9a51d9d083fd16aeb0a78.png"
+  },
+  "optimism-ERC721-TOKEN-0xf2D96c9CE9c10a0981857887eF1E0355A4fDB4C9": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC721-TOKEN-0xf2D96c9CE9c10a0981857887eF1E0355A4fDB4C9",
+    "name": "ENGIE",
+    "symbol": "TOKEN",
+    "decimals": null,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC721",
+    "metadata": {
+      "contractAddress": "0xf2D96c9CE9c10a0981857887eF1E0355A4fDB4C9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc721-token-0xf2d96c9ce9c10a0981857887ef1e0355a4fdb4c9.png"
   }
 }
