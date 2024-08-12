@@ -11862,6 +11862,22 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png"
   },
+  "ton_testnet-TEP74-AIOTX-kQAiboDEv_qRrcEdrYdwbVLNOXBHwShFbtKGbQVJ2OKxY_Di": {
+    "originChain": "ton_testnet",
+    "slug": "ton_testnet-TEP74-AIOTX-kQAiboDEv_qRrcEdrYdwbVLNOXBHwShFbtKGbQVJ2OKxY_Di",
+    "name": "Aiotx",
+    "symbol": "AIOTX",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "TEP74",
+    "metadata": {
+      "contractAddress": "kQAiboDEv_qRrcEdrYdwbVLNOXBHwShFbtKGbQVJ2OKxY_Di"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
   "ton-NATIVE-TON": {
     "originChain": "ton",
     "slug": "ton-NATIVE-TON",
