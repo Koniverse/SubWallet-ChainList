@@ -11903,5 +11903,21 @@
     "multiChainAsset": "vDOT-VoucherDot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pendulum-local-vdot.png"
+  },
+  "blast_mainnet-ERC20-BLAST-0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad": {
+    "originChain": "blast_mainnet",
+    "slug": "blast_mainnet-ERC20-BLAST-0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad",
+    "name": "Blast",
+    "symbol": "BLAST",
+    "decimals": 18,
+    "priceId": "blast",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb1a5700fA2358173Fe465e6eA4Ff52E36e88E2ad"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }

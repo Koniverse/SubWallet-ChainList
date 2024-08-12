@@ -7782,7 +7782,7 @@
       "symbol": "DENTX",
       "decimals": 18,
       "hasNativeNft": null,
-      "supportStaking": null,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
@@ -9323,6 +9323,31 @@
       "blockExplorer": "https://explorer.exosama.com/",
       "existentialDeposit": "0",
       "symbol": "SAMA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
+  "blast_mainnet": {
+    "slug": "blast_mainnet",
+    "name": "Blast Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Blast": "https://rpc.blast.io"
+    },
+    "evmInfo": {
+      "evmChainId": 81457,
+      "blockExplorer": "https://blastscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",
