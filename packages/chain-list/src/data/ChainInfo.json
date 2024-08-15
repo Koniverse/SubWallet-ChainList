@@ -9339,7 +9339,7 @@
     "name": "Blast Mainnet",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/blast_mainnet.png",
     "providers": {
       "Blast": "https://rpc.blast.io"
     },
