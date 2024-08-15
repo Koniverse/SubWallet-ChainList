@@ -9359,6 +9359,31 @@
     "extraInfo": null,
     "bitcoinInfo": null
   },
+  "storyPartner_testnet": {
+    "slug": "storyPartner_testnet",
+    "name": "Story Partner Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/storypartner_testnet.png",
+    "providers": {
+      "Story Partner": "https://rpc.partner.testnet.storyprotocol.net/"
+    },
+    "evmInfo": {
+      "evmChainId": 1513,
+      "blockExplorer": "https://explorer.testnet.storyprotocol.net/",
+      "existentialDeposit": "0",
+      "symbol": "IP",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC721",
+        "ERC20"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
   "ton": {
     "slug": "ton",
     "name": "TON Network",
