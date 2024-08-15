@@ -11920,6 +11920,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/blast_mainnet-erc20-blast-0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad.png"
   },
+  "blast_mainnet-NATIVE-ETH": {
+    "originChain": "blast_mainnet",
+    "slug": "blast_mainnet-NATIVE-ETH",
+    "name": "Etherum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/blast_mainnet-native-eth.png"
+  },
   "ton-TEP74-USD₮-EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs": {
     "originChain": "ton",
     "slug": "ton-TEP74-USD₮-EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
@@ -11979,19 +11993,5 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": null
-  },
-  "blast_mainnet-NATIVE-ETH": {
-    "originChain": "blast_mainnet",
-    "slug": "blast_mainnet-NATIVE-ETH",
-    "name": "Etherum",
-    "symbol": "ETH",
-    "decimals": 18,
-    "priceId": "ethereum",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/blast_mainnet-native-eth.png"
   }
 }
