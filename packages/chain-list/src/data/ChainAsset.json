@@ -11954,7 +11954,7 @@
     "name": "Tether USD",
     "symbol": "USD₮",
     "decimals": 6,
-    "priceId": null,
+   "priceId": "tether",
     "minAmount": "0",
     "assetType": "TEP74",
     "metadata": {
@@ -11962,21 +11962,21 @@
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ton-tep74-usd₮-eqcxe6mutqjkfngfarotkot1lzbdiix1kcixrv7nw2id_sds.png"
   },
   "ton-NATIVE-TON": {
     "originChain": "ton",
     "slug": "ton-NATIVE-TON",
-    "name": "TON",
+    "name": "TON Coin",
     "symbol": "TON",
     "decimals": 9,
     "priceId": "the-open-network",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "TON-TONCoin",
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ton-native-ton.png"
   },
   "ton_testnet-NATIVE-TON": {
     "originChain": "ton_testnet",
@@ -11990,7 +11990,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ton_testnet-native-ton.png"
   },
   "ton_testnet-TEP74-AIOTX-kQAiboDEv_qRrcEdrYdwbVLNOXBHwShFbtKGbQVJ2OKxY_Di": {
     "originChain": "ton_testnet",
