@@ -12007,5 +12007,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": null
+  },
+  "5irechain_mainnet-NATIVE-5IRE": {
+    "originChain": "5irechain_mainnet",
+    "slug": "5irechain_mainnet-NATIVE-5IRE",
+    "name": "5ire token",
+    "symbol": "5IRE",
+    "decimals": 18,
+    "priceId": "5ire",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/5irechain_mainnet-native-5ire.png"
   }
 }

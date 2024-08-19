@@ -9705,5 +9705,31 @@
         "TEP62"
       ]
     }
+  },
+  "5irechain_mainnet": {
+    "slug": "5irechain_mainnet",
+    "name": "5ireChain Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/5irechain_mainnet.png",
+    "providers": {
+      "5fire": "https://rpc.5ire.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 995,
+      "blockExplorer": "https://5irescan.io/",
+      "existentialDeposit": "0",
+      "symbol": "5IRE",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC721",
+        "ERC20"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
