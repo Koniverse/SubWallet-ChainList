@@ -1711,6 +1711,13 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "avail_mainnet-NATIVE-AVAIL___ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8": {
+    "srcAsset": "avail_mainnet-NATIVE-AVAIL",
+    "destAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "srcChain": "avail_mainnet",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "pendulum-LOCAL-USDC___statemint-LOCAL-USDC": {
     "srcAsset": "pendulum-LOCAL-USDC",
     "destAsset": "statemint-LOCAL-USDC",
@@ -1842,6 +1849,13 @@
     "destAsset": "mythos-NATIVE-MYTH",
     "srcChain": "hydradx_main",
     "destChain": "mythos",
+    "path": "XCM"
+  },
+  "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8___avail_mainnet-NATIVE-AVAIL": {
+    "srcAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "destAsset": "avail_mainnet-NATIVE-AVAIL",
+    "srcChain": "ethereum",
+    "destChain": "avail_mainnet",
     "path": "XCM"
   }
 }
