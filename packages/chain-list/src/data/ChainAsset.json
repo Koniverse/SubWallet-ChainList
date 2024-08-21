@@ -3270,7 +3270,7 @@
     "symbol": "USDt",
     "decimals": 6,
     "priceId": "tether",
-    "minAmount": "10000 ",
+    "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1984",
@@ -7062,7 +7062,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "priceId": "usd-coin",
-    "minAmount": "10000 ",
+    "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1337",
@@ -9841,7 +9841,7 @@
     "symbol": "WUD",
     "decimals": 10,
     "priceId": null,
-    "minAmount": "1",
+    "minAmount": "200000000000000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1000085"
