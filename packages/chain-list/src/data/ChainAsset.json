@@ -12021,5 +12021,33 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/5irechain_mainnet-native-5ire.png"
+  },
+  "polygonZkEvm-NATIVE-ETH": {
+    "originChain": "polygonZkEvm",
+    "slug": "polygonZkEvm-NATIVE-ETH",
+    "name": "Etherum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm-native-eth.png"
+  },
+  "immutableZkEvm-NATIVE-IMX": {
+    "originChain": "immutableZkEvm",
+    "slug": "immutableZkEvm-NATIVE-IMX",
+    "name": "Immutable",
+    "symbol": "IMX ",
+    "decimals": 18,
+    "priceId": "immutable-x",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/immutablezkevm-native-imx.png"
   }
 }

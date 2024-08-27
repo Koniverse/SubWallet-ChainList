@@ -4164,7 +4164,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dancebox.png",
     "providers": {
-      "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+      "Dancebox": "wss://dancebox.tanssi-api.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8642,11 +8642,7 @@
     "providers": {
       "Avail": "wss://zeref-api.slowops.xyz/ws",
       "SubWallet Avail": "wss://mainnet-rpc.availspace.app",
-      "SubWallet Avail 2": "wss://mainnet-rpc-2.availspace.app",
-      "SubWallet Avail 3": "wss://mainnet-rpc-3.availspace.app",
-      "SubWallet Avail 4": "wss://mainnet-rpc-4.availspace.app",
-      "SubWallet Avail 5": "wss://mainnet-rpc-5.availspace.app",
-      "Blast Api": "wss://avail-mainnet.public.blastapi.io/"
+      "SubWallet Avail 2": "wss://mainnet-rpc-2.availspace.app"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9724,6 +9720,58 @@
       "supportSmartContract": [
         "ERC721",
         "ERC20"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "polygonZkEvm": {
+    "slug": "polygonZkEvm",
+    "name": "Polygon zkEVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygonzkevm.png",
+    "providers": {
+      "zkEVM": "https://zkevm-rpc.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 1101,
+      "blockExplorer": "https://zkevm.polygonscan.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "immutableZkEvm": {
+    "slug": "immutableZkEvm",
+    "name": "Immutable zkEVM Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/immutablezkevm.png",
+    "providers": {
+      "Immutable": "https://rpc.immutable.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 13371,
+      "blockExplorer": "https://explorer.immutable.com/",
+      "existentialDeposit": "0",
+      "symbol": "IMX",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
       ],
       "abiExplorer": null
     },
