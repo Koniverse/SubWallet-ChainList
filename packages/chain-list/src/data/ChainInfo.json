@@ -9779,5 +9779,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "storyPublic_testnet": {
+    "slug": "storyPublic_testnet",
+    "name": "Story Public Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/storypublic_testnet.png",
+    "providers": {
+      "Story Testnet": "https://testnet.storyrpc.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 1513,
+      "blockExplorer": "https://testnet.storyscan.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "IP",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }

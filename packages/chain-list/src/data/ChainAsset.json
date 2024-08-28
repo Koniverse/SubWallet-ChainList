@@ -12049,5 +12049,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/immutablezkevm-native-imx.png"
+  },
+  "storyPublic_testnet-NATIVE-IP": {
+    "originChain": "storyPublic_testnet",
+    "slug": "storyPublic_testnet-NATIVE-IP",
+    "name": "Story",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storypublic_testnet-native-ip.png"
   }
 }
