@@ -12063,5 +12063,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storypublic_testnet-native-ip.png"
+  },
+  "soneiumMinato-NATIVE-ETH": {
+    "originChain": "soneiumMinato",
+    "slug": "soneiumMinato-NATIVE-ETH",
+    "name": "Etherum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneiumminato-native-eth.png"
   }
 }
