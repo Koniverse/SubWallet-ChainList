@@ -781,5 +781,14 @@
     "priceId": "aleph-zero",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/azero-alephzero.png"
+  },
+  "ETH-EthereumTestnet": {
+    "slug": "ETH-EthereumTestnet",
+    "originChainAsset": null,
+    "name": "Ethereum Testnet",
+    "symbol": "ETH",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eth-ethereumtestnet.png"
   }
 }

@@ -1327,7 +1327,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-EthereumTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum_goerli-native-eth.png"
   },
@@ -8089,7 +8089,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-EthereumTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-native-eth.png"
   },
@@ -12025,7 +12025,7 @@
   "polygonZkEvm-NATIVE-ETH": {
     "originChain": "polygonZkEvm",
     "slug": "polygonZkEvm-NATIVE-ETH",
-    "name": "Etherum",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
     "priceId": "ethereum",
@@ -12067,14 +12067,14 @@
   "soneiumMinato-NATIVE-ETH": {
     "originChain": "soneiumMinato",
     "slug": "soneiumMinato-NATIVE-ETH",
-    "name": "Etherum",
+    "name": "Ethereum Testnet",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": "ethereum",
+    "priceId": null,
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "ETH-Ethereum",
+    "multiChainAsset": "ETH-EthereumTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneiumminato-native-eth.png"
   }
