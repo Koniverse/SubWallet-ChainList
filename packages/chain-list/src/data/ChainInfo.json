@@ -91,7 +91,6 @@
       "PublicNode": "https://ethereum.publicnode.com",
       "DRPC": "https://eth.drpc.org/",
       "MevBlocker": "https://rpc.mevblocker.io/",
-      "1rpc": "https://1rpc.io/eth",
       "Ethereum": "https://eth-rpc.subwallet.app/ "
     },
     "evmInfo": {
@@ -298,7 +297,6 @@
       "Astar": "wss://rpc.astar.network",
       "OnFinality": "wss://astar.api.onfinality.io/public-ws",
       "Blast": "wss://astar.public.blastapi.io",
-      "1RPC": "wss://1rpc.io/astr",
       "Light Client": "light://substrate-connect/polkadot/astar"
     },
     "evmInfo": null,
@@ -8094,8 +8092,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sepolia_ethereum.png",
     "providers": {
       "Asia RPC": "https://rpc.sepolia.org",
-      "Europe RPC 2": "https://rpc2.sepolia.org",
-      "RockX": "https://rpc-sepolia.rockx.com/"
+      "Europe RPC 2": "https://rpc2.sepolia.org"
     },
     "evmInfo": {
       "evmChainId": 11155111,
@@ -8354,7 +8351,7 @@
       "relaySlug": null,
       "paraId": null,
       "genesisHash": "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f",
-      "addressPrefix": 42,
+      "addressPrefix": 0,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://paseo.subscan.io/",
