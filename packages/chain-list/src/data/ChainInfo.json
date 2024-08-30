@@ -9555,9 +9555,7 @@
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/storypartner_testnet.png",
-    "providers": {
-      "Story Partner": "https://rpc.partner.testnet.storyprotocol.net/"
-    },
+    "providers": {},
     "evmInfo": {
       "evmChainId": 1513,
       "blockExplorer": "https://explorer.testnet.storyprotocol.net/",
@@ -9654,7 +9652,7 @@
     "name": "Polygon zkEVM",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygonzkevm.png",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/polygonzkevm.png",
     "providers": {
       "zkEVM": "https://zkevm-rpc.com/"
     },
@@ -9680,7 +9678,7 @@
     "name": "Immutable zkEVM Mainnet",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/immutablezkevm.png",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/immutablezkevm.png",
     "providers": {
       "Immutable": "https://rpc.immutable.com/"
     },
@@ -9706,7 +9704,7 @@
     "name": "Story Public Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/storypublic_testnet.png",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/storypublic_testnet.png",
     "providers": {
       "Story Testnet": "https://testnet.storyrpc.io/"
     },
@@ -9732,7 +9730,7 @@
     "name": "Soneium Minato",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneiumminato.png",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/soneiumminato.png",
     "providers": {
       "Soneium": "https://rpc.minato.soneium.org/"
     },
