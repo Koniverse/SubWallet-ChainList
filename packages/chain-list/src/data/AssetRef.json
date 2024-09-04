@@ -1155,6 +1155,20 @@
     "destChain": "chainflip_dot",
     "path": "SWAP"
   },
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___base_sepolia-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "destAsset": "base_sepolia-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "base_sepolia",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
     "destAsset": "hydradx_rococo-LOCAL-DOT",
@@ -1857,5 +1871,19 @@
     "srcChain": "ethereum",
     "destChain": "avail_mainnet",
     "path": "XCM"
+  },
+  "base_sepolia-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "base_sepolia-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "base_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "base_sepolia-NATIVE-ETH___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+    "srcAsset": "base_sepolia-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "srcChain": "base_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
   }
 }

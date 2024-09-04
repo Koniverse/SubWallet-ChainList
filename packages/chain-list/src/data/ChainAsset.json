@@ -12077,5 +12077,19 @@
     "multiChainAsset": "ETH-EthereumSepolia",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneiumminato-native-eth.png"
+  },
+  "base_sepolia-NATIVE-ETH": {
+    "originChain": "base_sepolia",
+    "slug": "base_sepolia-NATIVE-ETH",
+    "name": "Ethereum Sepolia",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-EthereumSepolia",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_sepolia-native-eth.png"
   }
 }
