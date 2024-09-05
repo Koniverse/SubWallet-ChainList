@@ -790,5 +790,14 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eth-ethereumsepolia.png"
+  },
+  "USDC-USDCSepolia": {
+    "slug": "USDC-USDCSepolia",
+    "originChainAsset": null,
+    "name": "USDC",
+    "symbol": "USDC",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/usdc-usdcsepolia.png"
   }
 }
