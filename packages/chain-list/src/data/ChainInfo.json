@@ -5357,12 +5357,12 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "creditcoin": {
-    "slug": "creditcoin",
-    "name": "Creditcoin",
+  "cc2_mainnet": {
+    "slug": "cc2_mainnet",
+    "name": "CC Enterprise",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cc2_mainnet.png",
     "providers": {
       "Creditcoin Foundation": "wss://mainnet.creditcoin.network/ws"
     },
@@ -5374,7 +5374,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://creditcoin.subscan.io/",
+      "blockExplorer": "https://creditcoin-classic.subscan.io/",
       "existentialDeposit": "500",
       "symbol": "CTC",
       "decimals": 18,
@@ -8035,12 +8035,12 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "creditcoinTestEvm": {
-    "slug": "creditcoinTestEvm",
-    "name": "Creditcoin Testnet - EVM",
+  "cc3_evm_testnet": {
+    "slug": "cc3_evm_testnet",
+    "name": "Creditcoin EVM Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcointestevm.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cc3_evm_testnet.png",
     "providers": {
       "Creditcoin Testnet EVM": "https://rpc.cc3-testnet.creditcoin.network/"
     },
@@ -8142,12 +8142,12 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "creditcoinTest": {
-    "slug": "creditcoinTest",
-    "name": "Creditcoin testnet",
+  "cc3_substrate_testnet": {
+    "slug": "cc3_substrate_testnet",
+    "name": "Creditcoin Native Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcointest.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cc3_substrate_testnet.png",
     "providers": {
       "Cc3": "wss://rpc.cc3-testnet.creditcoin.network"
     },
@@ -9843,6 +9843,63 @@
       "blockExplorer": "https://sepolia-explorer.base.org",
       "existentialDeposit": "0",
       "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "creditcoin_native": {
+    "slug": "creditcoin_native",
+    "name": "Creditcoin Native",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin_native.png",
+    "providers": {
+      "Creditcoin CC3 mainnnet": "wss://mainnet3.creditcoin.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x4436a7d64e363df85e065a894721002a86643283f9707338bf195d360ba2ee71",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://creditcoin.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "CTC",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "creditcoin_evm": {
+    "slug": "creditcoin_evm",
+    "name": " Creditcoin EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin_evm.png",
+    "providers": {
+      "Creditcoin EVM": "https://mainnet3.creditcoin.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 102030,
+      "blockExplorer": "https://creditcoin.blockscout.com/",
+      "existentialDeposit": "0",
+      "symbol": "CTC",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",

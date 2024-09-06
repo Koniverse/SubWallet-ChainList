@@ -3037,19 +3037,19 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/automata-native-ata.png"
   },
-  "creditcoin-NATIVE-CTC": {
-    "originChain": "creditcoin",
-    "slug": "creditcoin-NATIVE-CTC",
-    "name": "Creditcoin",
+  "cc2_mainnet-NATIVE-CTC": {
+    "originChain": "cc2_mainnet",
+    "slug": "cc2_mainnet-NATIVE-CTC",
+    "name": "CC Enterprise",
     "symbol": "CTC",
     "decimals": 18,
     "priceId": "creditcoin-2",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "CTC-Creditcoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/creditcoin-native-ctc.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cc2_mainnet-native-ctc.png"
   },
   "crownSterling-NATIVE-CSOV": {
     "originChain": "crownSterling",
@@ -8051,10 +8051,10 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/phykentest-native-ken.png"
   },
-  "creditcoinTestEvm-NATIVE-CTC": {
-    "originChain": "creditcoinTestEvm",
-    "slug": "creditcoinTestEvm-NATIVE-CTC",
-    "name": "Creditcoin3 Testnet",
+  "cc3_evm_testnet-NATIVE-CTC": {
+    "originChain": "cc3_evm_testnet",
+    "slug": "cc3_evm_testnet-NATIVE-CTC",
+    "name": "Creditcoin EVM Testnet",
     "symbol": "CTC",
     "decimals": 18,
     "priceId": null,
@@ -8063,7 +8063,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/creditcointestevm-native-ctc.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cc3_evm_testnet-native-ctc.png"
   },
   "astarZkEvm-NATIVE-ETH": {
     "originChain": "astarZkEvm",
@@ -8319,10 +8319,10 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-pink.png"
   },
-  "creditcoinTest-NATIVE-CTC": {
-    "originChain": "creditcoinTest",
-    "slug": "creditcoinTest-NATIVE-CTC",
-    "name": "Creditcoin testnet",
+  "cc3_substrate_testnet-NATIVE-CTC": {
+    "originChain": "cc3_substrate_testnet",
+    "slug": "cc3_substrate_testnet-NATIVE-CTC",
+    "name": "Creditcoin Native Testnet",
     "symbol": "CTC",
     "decimals": 18,
     "priceId": null,
@@ -8331,7 +8331,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/creditcointest-native-ctc.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cc3_substrate_testnet-native-ctc.png"
   },
   "moonbeam-ERC20-RMRK-0x524d524B4c9366be706D3A90dcf70076ca037aE3": {
     "originChain": "moonbeam",
@@ -10387,7 +10387,7 @@
         "VToken2": "3"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "vASTR-BifrostVoucher",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vastr.png"
   },
@@ -12107,5 +12107,113 @@
     "multiChainAsset": "USDC-USDCSepolia",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_sepolia-erc20-usdc-0x036cbd53842c5426634e7929541ec2318f3dcf7e.png"
+  },
+  "creditcoin_native-NATIVE-CTC": {
+    "originChain": "creditcoin_native",
+    "slug": "creditcoin_native-NATIVE-CTC",
+    "name": "Creditcoin",
+    "symbol": "CTC",
+    "decimals": 18,
+    "priceId": "creditcoin-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "CTC-Creditcoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/creditcoin_native-native-ctc.png"
+  },
+  "creditcoin_evm-NATIVE-CTC": {
+    "originChain": "creditcoin_evm",
+    "slug": "creditcoin_evm-NATIVE-CTC",
+    "name": "Creditcoin EVM",
+    "symbol": "CTC",
+    "decimals": 18,
+    "priceId": "creditcoin-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "CTC-Creditcoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/creditcoin_evm-native-ctc.png"
+  },
+  "hydradx_main-LOCAL-vASTR": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-vASTR",
+    "name": "Bifrost Voucher ASTR",
+    "symbol": "vASTR",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-astr",
+    "minAmount": "133689839572193000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "33"
+    },
+    "multiChainAsset": "vASTR-BifrostVoucher",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-vastr.png"
+  },
+  "statemint-LOCAL-CPcoin": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-CPcoin",
+    "name": "Cypress coin",
+    "symbol": "CPcoin",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "2008600000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "64"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-cpcoin.png"
+  },
+  "hydradx_main-LOCAL-CPcoin": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-CPcoin",
+    "name": "Cypress coin",
+    "symbol": "CPcoin",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000250"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-cpcoin.png"
+  },
+  "statemint-LOCAL-Mill": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-Mill",
+    "name": "Million",
+    "symbol": "Mill",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "2007900000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "22222070"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-mill.png"
+  },
+  "hydradx_main-LOCAL-Mill": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-Mill",
+    "name": "Million",
+    "symbol": "Mill",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000453"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-mill.png"
   }
 }

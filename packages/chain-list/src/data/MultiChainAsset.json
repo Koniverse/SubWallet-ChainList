@@ -799,5 +799,23 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/usdc-usdcsepolia.png"
+  },
+  "CTC-Creditcoin": {
+    "slug": "CTC-Creditcoin",
+    "originChainAsset": null,
+    "name": "Creditcoin",
+    "symbol": "CTC",
+    "priceId": "creditcoin-2",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ctc-creditcoin.png"
+  },
+  "vASTR-BifrostVoucher": {
+    "slug": "vASTR-BifrostVoucher",
+    "originChainAsset": null,
+    "name": "Bifrost Voucher",
+    "symbol": "vASTR",
+    "priceId": "bifrost-voucher-astr",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/vastr-bifrostvoucher.png"
   }
 }
