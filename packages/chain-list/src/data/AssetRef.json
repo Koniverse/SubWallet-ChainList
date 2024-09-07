@@ -788,6 +788,13 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-MYTH": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-MYTH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "statemint-LOCAL-USDC___hydradx_main-LOCAL-USDC": {
     "srcAsset": "statemint-LOCAL-USDC",
     "destAsset": "hydradx_main-LOCAL-USDC",
@@ -1174,7 +1181,7 @@
     "destAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
     "srcChain": "sepolia_ethereum",
     "destChain": "base_sepolia",
-    "path": "SWAP"
+    "path": "XCM"
   },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
@@ -1613,6 +1620,13 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
+  "hydradx_main-LOCAL-vDOT___hydradx_main-LOCAL-vASTR": {
+    "srcAsset": "hydradx_main-LOCAL-vDOT",
+    "destAsset": "hydradx_main-LOCAL-vASTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "hydradx_main-LOCAL-PINK___hydradx_main-LOCAL-USDT": {
     "srcAsset": "hydradx_main-LOCAL-PINK",
     "destAsset": "hydradx_main-LOCAL-USDT",
@@ -1746,6 +1760,20 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "hydradx_main-LOCAL-WUD___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-WUD",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-WUD___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "hydradx_main-LOCAL-WUD",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "statemint-LOCAL-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "statemint-LOCAL-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -1865,6 +1893,13 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "hydradx_main-LOCAL-PHA___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-PHA",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "hydradx_main-LOCAL-MYTH___mythos-NATIVE-MYTH": {
     "srcAsset": "hydradx_main-LOCAL-MYTH",
     "destAsset": "mythos-NATIVE-MYTH",
@@ -1906,5 +1941,12 @@
     "srcChain": "base_sepolia",
     "destChain": "sepolia_ethereum",
     "path": "SWAP"
+  },
+  "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "base_sepolia",
+    "destChain": "arbitrum_sepolia",
+    "path": "XCM"
   }
 }

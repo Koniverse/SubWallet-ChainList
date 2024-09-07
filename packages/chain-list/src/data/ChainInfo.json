@@ -5357,12 +5357,12 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "cc2_mainnet": {
-    "slug": "cc2_mainnet",
+  "creditcoin": {
+    "slug": "creditcoin",
     "name": "CC Enterprise",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cc2_mainnet.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png",
     "providers": {
       "Creditcoin Foundation": "wss://mainnet.creditcoin.network/ws"
     },
@@ -8035,12 +8035,12 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "cc3_evm_testnet": {
-    "slug": "cc3_evm_testnet",
+  "creditcoinTestEvm": {
+    "slug": "creditcoinTestEvm",
     "name": "Creditcoin EVM Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cc3_evm_testnet.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcointestevm.png",
     "providers": {
       "Creditcoin Testnet EVM": "https://rpc.cc3-testnet.creditcoin.network/"
     },
@@ -8142,12 +8142,12 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "cc3_substrate_testnet": {
-    "slug": "cc3_substrate_testnet",
+  "creditcoinTest": {
+    "slug": "creditcoinTest",
     "name": "Creditcoin Native Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cc3_substrate_testnet.png",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcointest.png",
     "providers": {
       "Cc3": "wss://rpc.cc3-testnet.creditcoin.network"
     },
@@ -9656,7 +9656,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ton.png",
     "providers": {
-      "Toncenter": "https://toncenter.com/api/v2/jsonRPC"
+      "Toncenter": "https://ton-rpc.subwallet.app/jsonRPC "
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -9680,7 +9680,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ton_testnet.png",
     "providers": {
-      "TonCenter": "https://testnet.toncenter.com/api/v2/jsonRPC"
+      "TonCenter": "https://ton-rpc-testnet.subwallet.app/jsonRPC"
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -9888,7 +9888,7 @@
   },
   "creditcoin_evm": {
     "slug": "creditcoin_evm",
-    "name": " Creditcoin EVM",
+    "name": "Creditcoin EVM",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin_evm.png",
@@ -9900,6 +9900,34 @@
       "blockExplorer": "https://creditcoin.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "CTC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "arbitrum_sepolia": {
+    "slug": "arbitrum_sepolia",
+    "name": "Arbitrum Sepolia",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/arbitrum_sepolia.png",
+    "providers": {
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
+      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public",
+      "Rollup": "https://sepolia-rollup.arbitrum.io/rpc"
+    },
+    "evmInfo": {
+      "evmChainId": 421614,
+      "blockExplorer": "https://sepolia.arbiscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",

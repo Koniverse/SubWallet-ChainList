@@ -809,13 +809,31 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/ctc-creditcoin.png"
   },
-  "vASTR-BifrostVoucher": {
-    "slug": "vASTR-BifrostVoucher",
+  "vASTR-BifrostVoucherASTR": {
+    "slug": "vASTR-BifrostVoucherASTR",
     "originChainAsset": null,
-    "name": "Bifrost Voucher",
+    "name": "Bifrost Voucher ASTR",
     "symbol": "vASTR",
     "priceId": "bifrost-voucher-astr",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/vastr-bifrostvoucher.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/vastr-bifrostvoucherastr.png"
+  },
+  "CPcoin-Cypresscoin": {
+    "slug": "CPcoin-Cypresscoin",
+    "originChainAsset": null,
+    "name": "Cypress coin",
+    "symbol": "CPcoin",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/cpcoin-cypresscoin.png"
+  },
+  "Mill-Million": {
+    "slug": "Mill-Million",
+    "originChainAsset": null,
+    "name": "Million",
+    "symbol": "Mill",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/mill-million.png"
   }
 }
