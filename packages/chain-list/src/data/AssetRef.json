@@ -1183,13 +1183,6 @@
     "destChain": "base_sepolia",
     "path": "XCM"
   },
-  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
-    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-    "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
-    "srcChain": "sepolia_ethereum",
-    "destChain": "sepolia_ethereum",
-    "path": "XCM"
-  },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
     "destAsset": "hydradx_rococo-LOCAL-DOT",
@@ -1947,7 +1940,7 @@
     "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "srcChain": "base_sepolia",
     "destChain": "sepolia_ethereum",
-    "path": "SWAP"
+    "path": "XCM"
   },
   "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
     "srcAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
