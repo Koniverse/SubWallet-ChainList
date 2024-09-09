@@ -180,9 +180,9 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-native-aca.png"
   },
-  "polygon-NATIVE-MATIC": {
+  "polygon-NATIVE-POL": {
     "originChain": "polygon",
-    "slug": "polygon-NATIVE-MATIC",
+    "slug": "polygon-NATIVE-POL",
     "name": "Polygon",
     "symbol": "POL",
     "decimals": 18,
@@ -192,7 +192,7 @@
     "metadata": null,
     "multiChainAsset": "MATIC-Polygon",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-native-matic.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-native-pol.png"
   },
   "arbitrum_one-NATIVE-ETH": {
     "originChain": "arbitrum_one",
@@ -12008,9 +12008,9 @@
     "hasValue": false,
     "icon": null
   },
-  "5irechain_mainnet-NATIVE-5IRE": {
+  "5irechain_mainnet-NATIVE-5ire": {
     "originChain": "5irechain_mainnet",
-    "slug": "5irechain_mainnet-NATIVE-5IRE",
+    "slug": "5irechain_mainnet-NATIVE-5ire",
     "name": "5ireChain Mainnet",
     "symbol": "5ire",
     "decimals": 18,
