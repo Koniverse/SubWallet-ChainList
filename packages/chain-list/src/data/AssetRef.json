@@ -425,6 +425,13 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
+  "hydradx_main-NATIVE-HDX___hydradx_main-LOCAL-WUD": {
+    "srcAsset": "hydradx_main-NATIVE-HDX",
+    "destAsset": "hydradx_main-LOCAL-WUD",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "hydradx_main-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "hydradx_main-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -791,6 +798,20 @@
   "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-MYTH": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "hydradx_main-LOCAL-MYTH",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-WUD": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-WUD",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-PHA": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-PHA",
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
     "path": "SWAP"
@@ -1907,6 +1928,13 @@
     "destChain": "mythos",
     "path": "XCM"
   },
+  "hydradx_main-LOCAL-MYTH___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-MYTH",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8___avail_mainnet-NATIVE-AVAIL": {
     "srcAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
     "destAsset": "avail_mainnet-NATIVE-AVAIL",
@@ -1948,5 +1976,12 @@
     "srcChain": "base_sepolia",
     "destChain": "arbitrum_sepolia",
     "path": "XCM"
+  },
+  "hydradx_main-LOCAL-vASTR___hydradx_main-LOCAL-vDOT": {
+    "srcAsset": "hydradx_main-LOCAL-vASTR",
+    "destAsset": "hydradx_main-LOCAL-vDOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   }
 }
