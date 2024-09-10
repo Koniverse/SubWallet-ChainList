@@ -1204,6 +1204,20 @@
     "destChain": "base_sepolia",
     "path": "XCM"
   },
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
+    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "destAsset": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "destAsset": "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "base_sepolia",
+    "path": "SWAP"
+  },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
     "destAsset": "hydradx_rococo-LOCAL-DOT",
