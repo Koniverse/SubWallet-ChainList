@@ -186,11 +186,11 @@
     "name": "Polygon",
     "symbol": "POL",
     "decimals": 18,
-    "priceId": "matic-network",
+    "priceId": "polygon-ecosystem-token",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "MATIC-Polygon",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-native-pol.png"
   },
