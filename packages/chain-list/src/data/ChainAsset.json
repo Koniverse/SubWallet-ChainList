@@ -12245,5 +12245,21 @@
     "multiChainAsset": "USDC-USDCSepolia",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_sepolia-erc20-usdc-0x75faf114eafb1bdbe2f0316df893fd58ce46aa4d.png"
+  },
+  "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+    "originChain": "base_sepolia",
+    "slug": "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_sepolia-erc20-weth-0x4200000000000000000000000000000000000006.png"
   }
 }
