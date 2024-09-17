@@ -9656,7 +9656,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ton.png",
     "providers": {
-      "Toncenter": "https://ton-rpc.subwallet.app/jsonRPC"
+      "Toncenter": "https://toncenter.com/api/v2/jsonRPC"
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -9680,7 +9680,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ton_testnet.png",
     "providers": {
-      "TonCenter": "https://ton-rpc-testnet.subwallet.app/jsonRPC"
+      "TonCenter": "https://testnet.toncenter.com/api/v2/jsonRPC"
     },
     "evmInfo": null,
     "substrateInfo": null,

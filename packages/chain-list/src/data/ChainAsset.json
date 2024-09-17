@@ -12261,5 +12261,53 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_sepolia-erc20-weth-0x4200000000000000000000000000000000000006.png"
+  },
+  "ethereum-ERC20-XAUt-0x68749665FF8D2d112Fa859AA293F07A622782F38": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-XAUt-0x68749665FF8D2d112Fa859AA293F07A622782F38",
+    "name": "Tether Gold",
+    "symbol": "XAUt",
+    "decimals": 6,
+    "priceId": "tether-gold",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x68749665FF8D2d112Fa859AA293F07A622782F38"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-xaut-0x68749665ff8d2d112fa859aa293f07a622782f38.png"
+  },
+  "statemint-LOCAL-BUNS": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-BUNS",
+    "name": "BUNS",
+    "symbol": "BUNS",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1234"
+    },
+    "multiChainAsset": "BUNS-BUNS",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-buns.png"
+  },
+  "hydradx_main-LOCAL-BUNS": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-BUNS",
+    "name": "BUNS",
+    "symbol": "BUNS",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000177"
+    },
+    "multiChainAsset": "BUNS-BUNS",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-buns.png"
   }
 }
