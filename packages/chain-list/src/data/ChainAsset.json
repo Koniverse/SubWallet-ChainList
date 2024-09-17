@@ -12309,5 +12309,19 @@
     "multiChainAsset": "BUNS-BUNS",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-buns.png"
+  },
+  "ternoaZkEvm_testnet-NATIVE-CAPS": {
+    "originChain": "ternoaZkEvm_testnet",
+    "slug": "ternoaZkEvm_testnet-NATIVE-CAPS",
+    "name": "Testnet CAPS",
+    "symbol": "CAPS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ternoazkevm_testnet-native-caps.png"
   }
 }
