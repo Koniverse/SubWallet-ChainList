@@ -7692,7 +7692,7 @@
     "slug": "bittensor_testnet",
     "name": "Bittensor Testnet",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor_testnet.png",
     "providers": {
       "Testnet": "wss://test.finney.opentensor.ai:443"
@@ -9968,6 +9968,37 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "bittensor_devnet": {
+    "slug": "bittensor_devnet",
+    "name": "Bittensor devnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor_devnet.png",
+    "providers": {
+      "Opentensor": "wss://dev.chain.opentensor.ai:443"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x73bd9219bd97d2937a0ea7916a362656383c8bfa413c6597c8e0ac45a144d082",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "500",
+      "symbol": "TAO",
+      "decimals": 9,
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
