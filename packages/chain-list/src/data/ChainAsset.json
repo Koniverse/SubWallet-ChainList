@@ -12337,5 +12337,37 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor_devnet-native-tao.png"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "name": "Chainflip",
+    "symbol": "FLIP",
+    "decimals": 18,
+    "priceId": "chainflip",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x826180541412D574cf1336d22c0C0a287822678A"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa": {
+    "originChain": "sepolia_ethereum",
+    "slug": "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa",
+    "name": "Chainflip",
+    "symbol": "FLIP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xcD079EAB6B5443b545788Fd210C8800FEADd87fa"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
   }
 }
