@@ -670,6 +670,13 @@
     "destChain": "statemint",
     "path": "SWAP"
   },
+  "bifrost-LOCAL-KSM___kusama-NATIVE-KSM": {
+    "srcAsset": "bifrost-LOCAL-KSM",
+    "destAsset": "kusama-NATIVE-KSM",
+    "srcChain": "bifrost",
+    "destChain": "kusama",
+    "path": "XCM"
+  },
   "moonbeam-LOCAL-xcUSDT___statemint-LOCAL-USDt": {
     "srcAsset": "moonbeam-LOCAL-xcUSDT",
     "destAsset": "statemint-LOCAL-USDt",
