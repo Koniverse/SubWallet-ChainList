@@ -9035,8 +9035,10 @@
     "name": "peaq",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
-    "providers": {},
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/peaq.png",
+    "providers": {
+      "Fake": "wss://peaq-fake.api.onfinality.io/public-ws"
+    },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "polkadot",
