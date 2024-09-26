@@ -37,7 +37,8 @@ export enum COMMON_CHAIN_SLUGS {
   MOONBASE = 'moonbase',
   POLKADOT_ASSET_HUB = 'statemint',
   KUSAMA_ASSET_HUB = 'statemine',
-  ROCOCO_ASSET_HUB = 'rococo_assethub'
+  ROCOCO_ASSET_HUB = 'rococo_assethub',
+  ARBITRUM = 'arbitrum_one'
 }
 
 export enum COMMON_ASSETS {
@@ -51,7 +52,8 @@ export enum COMMON_ASSETS {
   USDC_SEPOLIA = 'sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238',
   HDX_TESTNET = 'hydradx_rococo-NATIVE-HDX',
   USDT_HYDRADX_TESTNET = 'hydradx_rococo-LOCAL-USDT',
-  DOT_HYDRADX_TESTNET = 'hydradx_rococo-LOCAL-DOT'
+  DOT_HYDRADX_TESTNET = 'hydradx_rococo-LOCAL-DOT',
+  USDT_ETHEREUM = 'ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7'
 }
 
 export const _DEFAULT_CHAINS = [

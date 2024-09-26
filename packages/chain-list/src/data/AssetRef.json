@@ -83,6 +83,34 @@
     "destChain": "pendulum",
     "path": "XCM"
   },
+  "polkadot-NATIVE-DOT___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "polkadot",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "polkadot-NATIVE-DOT___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "polkadot",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "polkadot-NATIVE-DOT___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "polkadot",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "polkadot-NATIVE-DOT___ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "srcChain": "polkadot",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -130,6 +158,41 @@
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "ethereum",
     "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "ethereum-NATIVE-ETH___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-NATIVE-ETH___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-NATIVE-ETH___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-NATIVE-ETH___ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
     "path": "SWAP"
   },
   "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
@@ -207,6 +270,48 @@
     "srcChain": "acala",
     "destChain": "parallel",
     "path": "XCM"
+  },
+  "arbitrum_one-NATIVE-ETH___ethereum-NATIVE-ETH": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___polkadot-NATIVE-DOT": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "arbitrum_one",
+    "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
   },
   "acala-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "acala-LOCAL-DOT",
@@ -691,11 +796,88 @@
     "destChain": "moonbeam",
     "path": "SWAP"
   },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___ethereum-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___polkadot-NATIVE-DOT": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "ethereum",
+    "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___polkadot-NATIVE-DOT": {
     "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "ethereum",
     "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___ethereum-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
     "path": "SWAP"
   },
   "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0___statemint-LOCAL-wstETH": {
@@ -718,6 +900,48 @@
     "srcChain": "ethereum",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___ethereum-NATIVE-ETH": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___polkadot-NATIVE-DOT": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "arbitrum_one",
+    "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "srcChain": "arbitrum_one",
+    "destChain": "ethereum",
+    "path": "SWAP"
   },
   "bifrost_dot-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "bifrost_dot-LOCAL-DOT",
@@ -1071,6 +1295,20 @@
     "destChain": "sepolia_ethereum",
     "path": "SWAP"
   },
+  "chainflip_dot-NATIVE-pDOT___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "chainflip_dot-NATIVE-pDOT",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "chainflip_dot",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "chainflip_dot-NATIVE-pDOT___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "chainflip_dot-NATIVE-pDOT",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "chainflip_dot",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
   "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
     "destAsset": "chainflip_dot-NATIVE-pDOT",
@@ -1253,6 +1491,27 @@
     "destChain": "chainflip_dot",
     "path": "SWAP"
   },
+  "sepolia_ethereum-NATIVE-ETH___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-NATIVE-ETH___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-NATIVE-ETH___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
   "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "destAsset": "chainflip_dot-NATIVE-pDOT",
@@ -1293,6 +1552,20 @@
     "destAsset": "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006",
     "srcChain": "sepolia_ethereum",
     "destChain": "base_sepolia",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "arbitrum_sepolia",
     "path": "SWAP"
   },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-DOT": {
@@ -4369,6 +4642,139 @@
     "destAsset": "hydradx_main-LOCAL-INTR",
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-NATIVE-ETH___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+    "srcAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-NATIVE-ETH___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-NATIVE-ETH___chainflip_dot-NATIVE-pDOT": {
+    "srcAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "destAsset": "chainflip_dot-NATIVE-pDOT",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "chainflip_dot",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+    "srcAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d___chainflip_dot-NATIVE-pDOT": {
+    "srcAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "destAsset": "chainflip_dot-NATIVE-pDOT",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "chainflip_dot",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___ethereum-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___polkadot-NATIVE-DOT": {
+    "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "ethereum",
+    "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
+    "srcAsset": "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa",
+    "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "sepolia_ethereum",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "arbitrum_sepolia",
+    "path": "SWAP"
+  },
+  "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa___chainflip_dot-NATIVE-pDOT": {
+    "srcAsset": "sepolia_ethereum-ERC20-FLIP-0xcD079EAB6B5443b545788Fd210C8800FEADd87fa",
+    "destAsset": "chainflip_dot-NATIVE-pDOT",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "chainflip_dot",
     "path": "SWAP"
   }
 }
