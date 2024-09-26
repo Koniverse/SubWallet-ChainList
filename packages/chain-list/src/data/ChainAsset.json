@@ -12369,5 +12369,21 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": null
+  },
+  "hydradx_main-LOCAL-2-Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2-Pool",
+    "name": "USDT- USDC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
   }
 }
