@@ -9978,7 +9978,7 @@
   "bittensor_devnet": {
     "slug": "bittensor_devnet",
     "name": "Bittensor devnet",
-    "isTestnet": false,
+    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor_devnet.png",
     "providers": {
