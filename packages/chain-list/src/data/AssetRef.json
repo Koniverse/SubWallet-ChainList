@@ -880,6 +880,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___base_mainnet-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "base_mainnet-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "base_mainnet",
+    "path": "SWAP"
+  },
   "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0___statemint-LOCAL-wstETH": {
     "srcAsset": "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
     "destAsset": "statemint-LOCAL-wstETH",
@@ -4775,6 +4782,20 @@
     "destAsset": "chainflip_dot-NATIVE-pDOT",
     "srcChain": "sepolia_ethereum",
     "destChain": "chainflip_dot",
+    "path": "SWAP"
+  },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "XCM"
+  },
+  "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
     "path": "SWAP"
   }
 }

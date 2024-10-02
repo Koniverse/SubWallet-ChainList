@@ -12401,5 +12401,21 @@
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
+  },
+  "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png"
   }
 }
