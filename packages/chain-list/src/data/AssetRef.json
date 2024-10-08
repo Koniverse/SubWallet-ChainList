@@ -957,11 +957,11 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
-  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
     "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-    "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
     "srcChain": "arbitrum_one",
-    "destChain": "polygon",
+    "destChain": "optimism",
     "path": "SWAP"
   },
   "base_mainnet-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
@@ -4818,5 +4818,12 @@
     "srcChain": "base_mainnet",
     "destChain": "arbitrum_one",
     "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "srcAsset": "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "srcChain": "arbitrum_one",
+    "destChain": "optimism",
+    "path": "XCM"
   }
 }
