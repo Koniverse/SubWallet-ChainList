@@ -12495,5 +12495,51 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png"
+  },
+  "polygonZkEvm-ERC20-MATIC-0xa2036f0538221a77A3937F1379699f44945018d0": {
+    "originChain": "polygonZkEvm",
+    "slug": "polygonZkEvm-ERC20-MATIC-0xa2036f0538221a77A3937F1379699f44945018d0",
+    "name": "Matic token",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "priceId": "matic-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xa2036f0538221a77A3937F1379699f44945018d0"
+    },
+    "multiChainAsset": "MATIC-Polygon",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm-erc20-matic-0xa2036f0538221a77a3937f1379699f44945018d0.png"
+  },
+  "ethereum-ERC20-POL-0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-POL-0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+    "name": "Polygon",
+    "symbol": "POL",
+    "decimals": 18,
+    "priceId": "polygon-ecosystem-token",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-pol-0x455e53cbb86018ac2b8092fdcd39d8444affc3f6.png"
+  },
+  "zkverify_testnet-NATIVE-ACME": {
+    "originChain": "zkverify_testnet",
+    "slug": "zkverify_testnet-NATIVE-ACME",
+    "name": "zkVerify Testnet",
+    "symbol": "ACME",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zkverify_testnet-native-acme.png"
   }
 }
