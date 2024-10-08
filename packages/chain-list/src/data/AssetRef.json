@@ -950,6 +950,20 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "srcChain": "arbitrum_one",
+    "destChain": "polygon",
+    "path": "SWAP"
+  },
+  "base_mainnet-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "base_mainnet-NATIVE-ETH",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "XCM"
+  },
   "bifrost_dot-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "bifrost_dot-LOCAL-DOT",
     "destAsset": "polkadot-NATIVE-DOT",

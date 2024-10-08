@@ -10003,5 +10003,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "mantle": {
+    "slug": "mantle",
+    "name": "Mantle Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mantle.png",
+    "providers": {
+      "Mantle": "https://rpc.mantle.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 5000,
+      "blockExplorer": "https://mantlescan.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "MNT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
