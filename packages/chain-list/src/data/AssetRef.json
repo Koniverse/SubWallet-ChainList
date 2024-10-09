@@ -4812,6 +4812,13 @@
     "destChain": "arbitrum_one",
     "path": "XCM"
   },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "srcChain": "base_mainnet",
+    "destChain": "optimism",
+    "path": "SWAP"
+  },
   "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
     "srcAsset": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
     "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",

@@ -12601,5 +12601,21 @@
     "multiChainAsset": "DAI-DaiStablecoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+  },
+  "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
   }
 }
