@@ -2875,7 +2875,7 @@
     "name": "Ajuna Network",
     "symbol": "AJUN",
     "decimals": 12,
-    "priceId": "ajuna-network-2",
+    "priceId": null,
     "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -9880,7 +9880,7 @@
     },
     "multiChainAsset": "WIFD-DogWifDots",
     "hasValue": true,
-    "icon": "https://media-resources.subwallet.app/wifd_6a8eda5e39.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wifd.png"
   },
   "lineaZkEvm-NATIVE-ETH": {
     "originChain": "lineaZkEvm",
@@ -12369,6 +12369,22 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-flip-0xcd079eab6b5443b545788fd210c8800feadd87fa.png"
+  },
+  "hydradx_main-LOCAL-2-Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2-Pool",
+    "name": "USDT- USDC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
   },
   "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
     "originChain": "base_mainnet",
