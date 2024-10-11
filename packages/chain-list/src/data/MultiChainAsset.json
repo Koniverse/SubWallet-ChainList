@@ -844,5 +844,23 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/buns-buns.png"
+  },
+  "POL-Polygon": {
+    "slug": "POL-Polygon",
+    "originChainAsset": null,
+    "name": "Polygon",
+    "symbol": "POL",
+    "priceId": "polygon-ecosystem-token",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/pol-polygon.png"
+  },
+  "AVAIL-AvailTuringTestnet": {
+    "slug": "AVAIL-AvailTuringTestnet",
+    "originChainAsset": null,
+    "name": "Avail Turing Testnet",
+    "symbol": "AVAIL",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/avail-availturingtestnet.png"
   }
 }

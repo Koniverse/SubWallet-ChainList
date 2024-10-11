@@ -2159,6 +2159,13 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "availTuringTest-NATIVE-AVAIL___sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
+    "srcAsset": "availTuringTest-NATIVE-AVAIL",
+    "destAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "srcChain": "availTuringTest",
+    "destChain": "sepolia_ethereum",
+    "path": "XCM"
+  },
   "avail_mainnet-NATIVE-AVAIL___ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8": {
     "srcAsset": "avail_mainnet-NATIVE-AVAIL",
     "destAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
@@ -4831,6 +4838,13 @@
     "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
     "srcChain": "arbitrum_one",
     "destChain": "optimism",
+    "path": "XCM"
+  },
+  "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d___availTuringTest-NATIVE-AVAIL": {
+    "srcAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "destAsset": "availTuringTest-NATIVE-AVAIL",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "availTuringTest",
     "path": "XCM"
   }
 }

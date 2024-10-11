@@ -190,7 +190,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "POL-Polygon",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-native-pol.png"
   },
@@ -9011,7 +9011,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "AVAIL-AvailTuringTestnet",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/availturingtest-native-avail.png"
   },
@@ -12524,7 +12524,7 @@
     "metadata": {
       "contractAddress": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "POL-Polygon",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-pol-0x455e53cbb86018ac2b8092fdcd39d8444affc3f6.png"
   },
@@ -12545,28 +12545,28 @@
   "rari-NATIVE-ETH": {
     "originChain": "rari",
     "slug": "rari-NATIVE-ETH",
-    "name": "Etherum",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rari-native-eth.png"
   },
   "scroll-NATIVE-ETH": {
     "originChain": "scroll",
     "slug": "scroll-NATIVE-ETH",
-    "name": "Ether",
+    "name": "Ethereum",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/scroll-native-eth.png"
   },
@@ -12617,5 +12617,21 @@
     "multiChainAsset": "DAI-DaiStablecoin",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+  },
+  "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
+    "originChain": "sepolia_ethereum",
+    "slug": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "name": "Avail Turing Testnet",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d"
+    },
+    "multiChainAsset": "AVAIL-AvailTuringTestnet",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-avail-0xb1c3cb9b5e598d4e95a85870e7812b99f350982d.png"
   }
 }
