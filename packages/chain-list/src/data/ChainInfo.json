@@ -3729,7 +3729,7 @@
     "slug": "tinkernet",
     "name": "Tinkernet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/tinkernet.png",
     "providers": {
       "Dwellir": "wss://tinkernet-rpc.dwellir.com",
