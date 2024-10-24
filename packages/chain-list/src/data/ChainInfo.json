@@ -10128,7 +10128,7 @@
   "unichain_sepolia": {
     "slug": "unichain_sepolia",
     "name": "Unichain Sepolia",
-    "isTestnet": false,
+    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unichain_sepolia.png",
     "providers": {
