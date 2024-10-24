@@ -10124,5 +10124,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "unichain_sepolia": {
+    "slug": "unichain_sepolia",
+    "name": "Unichain Sepolia",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unichain_sepolia.png",
+    "providers": {
+      "Unichain": "https://sepolia.unichain.org/"
+    },
+    "evmInfo": {
+      "evmChainId": 1301,
+      "blockExplorer": "https://sepolia.uniscan.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
