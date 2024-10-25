@@ -12637,10 +12637,10 @@
   "unichain_sepolia-NATIVE-ETH": {
     "originChain": "unichain_sepolia",
     "slug": "unichain_sepolia-NATIVE-ETH",
-    "name": "Ethereum",
+    "name": "Ethereum Sepolia",
     "symbol": "ETH",
     "decimals": 18,
-    "priceId": "ethereum",
+    "priceId": null,
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
