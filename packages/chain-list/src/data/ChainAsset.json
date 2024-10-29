@@ -12647,5 +12647,47 @@
     "multiChainAsset": "ETH-EthereumSepolia",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain_sepolia-native-eth.png"
+  },
+  "world_chain-NATIVE-ETH": {
+    "originChain": "world_chain",
+    "slug": "world_chain-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/world_chain-native-eth.png"
+  },
+  "mode-NATIVE-ETH": {
+    "originChain": "mode",
+    "slug": "mode-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mode-native-eth.png"
+  },
+  "lisk-NATIVE-ETH": {
+    "originChain": "lisk",
+    "slug": "lisk-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/lisk-native-eth.png"
   }
 }

@@ -10150,5 +10150,83 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "world_chain": {
+    "slug": "world_chain",
+    "name": "World Chain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/world_chain.png",
+    "providers": {
+      "World Chain": "https://worldchain-mainnet.g.alchemy.com/public"
+    },
+    "evmInfo": {
+      "evmChainId": 480,
+      "blockExplorer": "https://worldscan.org/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "mode": {
+    "slug": "mode",
+    "name": "Mode Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mode.png",
+    "providers": {
+      "Mode Mainnet": "https://mainnet.mode.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 34443,
+      "blockExplorer": "https://explorer.mode.network/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "lisk": {
+    "slug": "lisk",
+    "name": "Lisk",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/lisk.png",
+    "providers": {
+      "Lisk": "https://rpc.api.lisk.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 1135,
+      "blockExplorer": "https://blockscout.lisk.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
