@@ -10313,5 +10313,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "storyOdyssey_testnet": {
+    "slug": "storyOdyssey_testnet",
+    "name": "Story Odyssey Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/storyodyssey_testnet.png",
+    "providers": {
+      "Story Odyssey": "https://odyssey.storyrpc.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 1516,
+      "blockExplorer": "https://odyssey-testnet-explorer.storyscan.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "IP",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }

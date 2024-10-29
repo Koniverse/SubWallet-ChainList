@@ -12731,5 +12731,19 @@
     "multiChainAsset": "TNT-Tangle",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tangle_evm-native-tnt.png"
+  },
+  "storyOdyssey_testnet-NATIVE-IP": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-NATIVE-IP",
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-native-ip.png"
   }
 }
