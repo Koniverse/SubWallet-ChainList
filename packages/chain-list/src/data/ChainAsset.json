@@ -12689,5 +12689,47 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/lisk-native-eth.png"
+  },
+  "zircuit-NATIVE-ETH": {
+    "originChain": "zircuit",
+    "slug": "zircuit-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zircuit-native-eth.png"
+  },
+  "tangle-NATIVE-TNT": {
+    "originChain": "tangle",
+    "slug": "tangle-NATIVE-TNT",
+    "name": "Tangle",
+    "symbol": "TNT",
+    "decimals": 18,
+    "priceId": "tangle-network",
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "TNT-Tangle",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tangle-native-tnt.png"
+  },
+  "tangle_evm-NATIVE-TNT": {
+    "originChain": "tangle_evm",
+    "slug": "tangle_evm-NATIVE-TNT",
+    "name": "Tangle",
+    "symbol": "TNT",
+    "decimals": 18,
+    "priceId": "tangle-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "TNT-Tangle",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tangle_evm-native-tnt.png"
   }
 }

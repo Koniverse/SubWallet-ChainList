@@ -862,5 +862,14 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/avail-availturingtestnet.png"
+  },
+  "TNT-Tangle": {
+    "slug": "TNT-Tangle",
+    "originChainAsset": null,
+    "name": "Tangle",
+    "symbol": "TNT",
+    "priceId": "tangle-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tnt-tangle.png"
   }
 }

@@ -10228,5 +10228,90 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "zircuit": {
+    "slug": "zircuit",
+    "name": "Zircuit",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zircuit.png",
+    "providers": {
+      "Zircuit1": "https://zircuit1-mainnet.p2pify.com/",
+      "Zircuit": "https://zircuit-mainnet.drpc.org/",
+      "Zircuit Liquify": "https://zircuit1-mainnet.liquify.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 48900,
+      "blockExplorer": "https://explorer.zircuit.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "tangle": {
+    "slug": "tangle",
+    "name": "Tangle Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tangle.png",
+    "providers": {
+      "Tangle": "wss://rpc.tangle.tools"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x44f68476df71ebf765b630bf08dc1e0fedb2bf614a1aa0563b3f74f20e47b3e0",
+      "addressPrefix": 5845,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://tangle.statescan.io/",
+      "existentialDeposit": "10000000000",
+      "symbol": "TNT",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "tangle_evm": {
+    "slug": "tangle_evm",
+    "name": "Tangle EVM Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tangle_evm.png",
+    "providers": {
+      "Tangle": "https://rpc.tangle.tools/"
+    },
+    "evmInfo": {
+      "evmChainId": 5845,
+      "blockExplorer": "https://explorer.tangle.tools/",
+      "existentialDeposit": "0",
+      "symbol": "TNT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
