@@ -1,0 +1,229 @@
+{
+  "patchVersion": "0.2.93-beta.0",
+  "appliedVersion": "0.2.92",
+  "fetchedDate": 1730453380157,
+  "ChainInfo": {
+    "bitcountry": {
+      "slug": "bitcountry",
+      "name": "Bit.Country - Alpha Ne",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
+      "providers": {
+        "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x8ffa3204b182fbda4676f75ea2d6a9bbdbbaf0d78470c62952e918c60e0583b4",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1",
+        "symbol": "NUUM",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "amplitude": {
+      "slug": "amplitude",
+      "name": "Amplitude",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://media-resources.subwallet.app//2/amplitude_7704334d11.png",
+      "providers": {
+        "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2124,
+        "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+        "addressPrefix": 57,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "AMPE",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2124-81",
+            "paraId": 2124,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 42,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "alephSmartNet": {
+      "slug": "alephSmartNet",
+      "name": "Aleph Zero Smartnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/alephsmartnet.png",
+      "providers": {},
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x6153e2745a56d188365372b5cce283dfddbb96b17e9bb396cceb4630103ff92b",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "SZERO",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "bitcountry": "2bfbe0852d73406cbd2ec64a2028f54ed33b14f708095e1f172a7d87f821e3ef",
+    "amplitude": "8574124c707dad2ecbe01d6994883e13f335a9744113c1f11e7b1870e6fef25d",
+    "alephSmartNet": "10597c5c86268ab64943fc97ca6ca2fa"
+  },
+  "ChainAsset": {
+    "alephSmartNet-NATIVE-SZERO": {
+      "originChain": null,
+      "slug": "alephSmartNet-NATIVE-SZERO",
+      "name": "Aleph Zero Smartnet",
+      "symbol": "SZERO",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "500",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/alephsmartnet-native-szero.png"
+    },
+    "astarEvm-ERC20-BUSD-0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E": {
+      "originChain": "astarEvm",
+      "slug": "astarEvm-ERC20-BUSD-0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E",
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "priceId": "binance-usd",
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E"
+      },
+      "multiChainAsset": "BUSD-BinanceUSD",
+      "hasValue": true,
+      "icon": "https://media-resources.subwallet.app//3/busd_b4005e1fcb.png"
+    },
+    "neatcoin-NATIVE-NEAT": {
+      "originChain": "neatcoin",
+      "slug": "neatcoin-NATIVE-NEAT",
+      "name": "Neatcoin",
+      "symbol": "NEAT",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "10000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://media-resources.subwallet.app//3/default_4c2f893c33.png"
+    },
+    "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": {
+      "originChain": "astarEvm",
+      "slug": "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xFFFFFFFF000000000000000000000001000007C0"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://media-resources.subwallet.app//3/usdt_4cb06afd80.png"
+    },
+    "riochain-NATIVE-RFUEL": {
+      "originChain": "riochain",
+      "slug": "riochain-NATIVE-RFUEL",
+      "name": "RioChain",
+      "symbol": "RFUEL",
+      "decimals": 12,
+      "priceId": "rio-defi",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://media-resources.subwallet.app//3/riochain_3aff549bf3.png"
+    },
+    "shidenEvm-ERC20-BNB-0x332730a4f6e03d9c55829435f10360e13cfa41ff": {
+      "originChain": "shidenEvm",
+      "slug": "shidenEvm-ERC20-BNB-0x332730a4f6e03d9c55829435f10360e13cfa41ff",
+      "name": "Binance",
+      "symbol": "BNB",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x332730a4f6e03d9c55829435f10360e13cfa41ff"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://media-resources.subwallet.app//3/bnb_b1fba6c9cd.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "alephSmartNet-NATIVE-SZERO": "4e8055ae573ae5d999bcb676fdfa4ec80a7e7a8e723e607cb8174a94bf86ff4e",
+    "astarEvm-ERC20-BUSD-0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E": "cb0d8db4baaadcb0bd4055a9a79e5fe02c7c3a408d20ed124012a8c82e0a60da",
+    "neatcoin-NATIVE-NEAT": "88f6cf8ef12af8668ed2060ddc19d59b2da79dda1a553c8079ab0523d319be3a",
+    "astarEvm-ERC20-USDT-0xFFFFFFFF000000000000000000000001000007C0": "b05f5220adba23b25c44c3dfebd8f8bc4fd96c566e5c69036fc072e0df1ad4cd",
+    "riochain-NATIVE-RFUEL": "3eebc67322ff312dafb07a58ef79aa842df581ba4c1e73a5677912a63d27b75b",
+    "shidenEvm-ERC20-BNB-0x332730a4f6e03d9c55829435f10360e13cfa41ff": "496126bfa4cc24d42fb719d00ff06080e344d9f03676982b876b08953989e953"
+  },
+  "MultiChainAsset": {
+    "sats-sats": {
+      "slug": "sats-sats",
+      "originChainAsset": "bitcoin-BRC20-sats",
+      "name": "sats heo",
+      "symbol": "sats",
+      "priceId": "sats-ordinals",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/sats-sats.png"
+    }
+  },
+  "MultiChainAssetHashMap": {
+    "sats-sats": "ae2d0f0c746f43e1e4ddabe38a65f03e6d2699279fb979d680a70e03efc14d21"
+  }
+}

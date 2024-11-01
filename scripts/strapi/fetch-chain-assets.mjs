@@ -1,6 +1,15 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, writeJSONFile} from "./strapi-api.mjs";
+import {
+  DOWNLOAD_DIR,
+  DOWNLOAD_LINK,
+  downloadFile,
+  PATCH_SAVE_PATH,
+  readJSONFile,
+  writeChainAssetChange,
+  writeJSONFile
+} from "./strapi-api.mjs";
+import crypto from "crypto";
 
 const SAVE_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const SAVE_REF_PATH = './packages/chain-list/src/data/AssetRef.json';
@@ -59,11 +68,16 @@ query {
 `;
 
 const main = async () => {
+    const oldAssetMap = await readJSONFile(SAVE_PATH);
     const downloadDir = `${DOWNLOAD_DIR}/chain-assets`;
     const apiUrl = BRANCH_NAME === 'master' ? 'https://content.subwallet.app/api/list/chain-asset' : 'https://content.subwallet.app/api/list/chain-asset?preview=true';
     const results = await fetch(apiUrl);
     const data = await results.json();
-    const chains = await Promise.all(data.map(async asset => {
+
+    const patchAssetsMap = {};
+    const patchHashMap = {};
+
+    const assets = await Promise.all(data.map(async asset => {
         let iconURL = asset.icon;
         if (iconURL) {
             try {
@@ -74,7 +88,7 @@ const main = async () => {
             }
         }
 
-        return {
+        const newAsset = {
             originChain: asset.originChain,
             slug: asset.slug,
             name: asset.name,
@@ -88,9 +102,16 @@ const main = async () => {
             hasValue: asset.hasValue,
             icon: iconURL
         }
+
+        if (!oldAssetMap[asset.slug] || JSON.stringify(newAsset) !== JSON.stringify(oldAssetMap[asset.slug])) {
+          patchAssetsMap[asset.slug] = newAsset;
+          patchHashMap[asset.slug] = crypto.createHash('sha256').update(JSON.stringify(newAsset)).digest('hex');
+        }
+
+        return newAsset
     }));
 
-    const assetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
+    const assetMap = Object.fromEntries(assets.map(chain => [chain.slug, chain]));
 
     const refMap = {}
     data.forEach((item)=> {
@@ -112,7 +133,9 @@ const main = async () => {
       });
     });
 
+
     // save to json file
+    await writeChainAssetChange(PATCH_SAVE_PATH, patchAssetsMap, patchHashMap);
     await writeJSONFile(SAVE_PATH, assetMap);
 
     // save to json file

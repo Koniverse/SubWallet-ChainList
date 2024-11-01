@@ -24,7 +24,39 @@ export async function writeJSONFile(filePath, data) {
     } else {
         console.log("JSON saved to " + filePath);
     }
-})
+  })
+}
+
+export async function readJSONFile(filePath) {
+  const data = await fs.promises.readFile(filePath, 'utf-8', );
+
+  return JSON.parse(data);
+}
+
+export async function writeChainInfoChange(filePath, changeMap, hashMap) {
+  const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
+
+  data.ChainInfo = changeMap;
+  data.ChainInfoHashMap = hashMap;
+  await writeJSONFile(filePath, data);
+}
+
+export async function writeChainAssetChange(filePath, changeMap, hashMap) {
+  const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
+
+  data.ChainAsset = changeMap;
+  data.ChainAssetHashMap = hashMap;
+  await writeJSONFile(filePath, data);
+}
+
+export async function writeMultiAssetChange(filePath, changeMap, hashMap) {
+  const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
+  console.log('data', data);
+  console.log('changeMap', changeMap);
+
+  data.MultiChainAsset = changeMap;
+  data.MultiChainAssetHashMap = hashMap;
+  await writeJSONFile(filePath, data);
 }
 
 export async function removeDir(dir) {
@@ -72,3 +104,8 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
     writer.on('error', reject);
   });
 }
+
+export const STABLE_VERSION = '0.2.92';
+export const PATCH_VERSION = '0.2.93-beta.0'
+
+export const PATCH_SAVE_PATH = `./packages/chain-list-assets/public/patch/${STABLE_VERSION}/data.json`;

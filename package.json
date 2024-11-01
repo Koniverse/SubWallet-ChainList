@@ -15,6 +15,7 @@
     "packages/*"
   ],
   "bin": {
+    "create-patch": "./scripts/strapi/create-patch.mjs",
     "export-assets": "./scripts/exports/export-assets.js",
     "export-chains": "./scripts/exports/export-chains.js",
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
@@ -47,7 +48,7 @@
     "postinstall": "polkadot-dev-yarn-only && patch-package",
     "publish:beta": "yarn build:beta && cd ./packages/chain-list/build && npm publish --target --tag beta",
     "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag latest",
-    "strapi-fetch": "yarn strapi-fetch-chains && yarn strapi-fetch-chain-assets && yarn strapi-multi-chain-assets",
+    "strapi-fetch": "yarn create-patch && yarn strapi-fetch-chains && yarn strapi-fetch-chain-assets && yarn strapi-multi-chain-assets",
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
     "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit"
   },

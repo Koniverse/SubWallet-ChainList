@@ -11099,6 +11099,7 @@ __metadata:
     patch-package: ^8.0.0
     postinstall-postinstall: ^2.1.0
   bin:
+    create-patch: ./scripts/strapi/create-patch.mjs
     export-assets: ./scripts/exports/export-assets.js
     export-chains: ./scripts/exports/export-chains.js
     export-xcm-channels: ./scripts/exports/export-xcm-channels.js
