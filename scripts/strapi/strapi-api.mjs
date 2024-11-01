@@ -51,8 +51,6 @@ export async function writeChainAssetChange(filePath, changeMap, hashMap) {
 
 export async function writeMultiAssetChange(filePath, changeMap, hashMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
-  console.log('data', data);
-  console.log('changeMap', changeMap);
 
   data.MultiChainAsset = changeMap;
   data.MultiChainAssetHashMap = hashMap;
