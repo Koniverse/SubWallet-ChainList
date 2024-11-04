@@ -12791,5 +12791,51 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-weth-0x52ef3d68bab452a294342dc3e5f464d7f610f72e.png"
+  },
+  "polygonzkEvm_cardona-NATIVE-ETH": {
+    "originChain": "polygonzkEvm_cardona",
+    "slug": "polygonzkEvm_cardona-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+  },
+  "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03": {
+    "originChain": "polygonzkEvm_cardona",
+    "slug": "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03",
+    "name": "MATIC",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-erc20-matic-0x3cc6055f4e88638c46daa9cf5f5fc54a801e5f03.png"
+  },
+  "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55": {
+    "originChain": "polygonzkEvm_cardona",
+    "slug": "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55",
+    "name": "POL Token",
+    "symbol": "POL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x74bE345339a3D5aA179dbaEAf5B496628F174F55"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-erc20-pol-0x74be345339a3d5aa179dbaeaf5b496628f174f55.png"
   }
 }

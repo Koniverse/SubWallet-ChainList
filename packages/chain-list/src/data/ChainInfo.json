@@ -10365,5 +10365,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "polygonzkEvm_cardona": {
+    "slug": "polygonzkEvm_cardona",
+    "name": "Polygon zkEVM Cardona Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygonzkevm_cardona.png",
+    "providers": {
+      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 2442,
+      "blockExplorer": "https://cardona-zkevm.polygonscan.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
