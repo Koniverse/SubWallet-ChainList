@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.93-beta.0",
   "appliedVersion": "0.2.92",
-  "fetchedDate": 1730461386980,
+  "fetchedDate": "Mon Nov 04 2024 11:39:32 GMT+0700 (Indochina Time)",
   "ChainInfo": {
     "bitcountry": {
       "slug": "bitcountry",
@@ -65,8 +65,8 @@
     }
   },
   "ChainInfoHashMap": {
-    "bitcountry": "2bfbe0852d73406cbd2ec64a2028f54ed33b14f708095e1f172a7d87f821e3ef",
-    "alephSmartNet": "10597c5c86268ab64943fc97ca6ca2fa"
+    "bitcountry": "2325edf9efcd744312698f8aa94586b3",
+    "alephSmartNet": "48e089922b59cfde1e9a61310368fa86"
   },
   "ChainAsset": {
     "alephSmartNet-NATIVE-SZERO": {
@@ -85,7 +85,7 @@
     }
   },
   "ChainAssetHashMap": {
-    "alephSmartNet-NATIVE-SZERO": "4e8055ae573ae5d999bcb676fdfa4ec80a7e7a8e723e607cb8174a94bf86ff4e"
+    "alephSmartNet-NATIVE-SZERO": "f3a5e3319cf71fb252a8b73fe0d47e6f"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {}
