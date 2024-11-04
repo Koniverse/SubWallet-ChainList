@@ -12745,5 +12745,51 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-native-ip.png"
+  },
+  "polygon_amoy-NATIVE-POL": {
+    "originChain": "polygon_amoy",
+    "slug": "polygon_amoy-NATIVE-POL",
+    "name": "Polygon Amoy",
+    "symbol": "POL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-native-pol.png"
+  },
+  "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582": {
+    "originChain": "polygon_amoy",
+    "slug": "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-usdc-0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582.png"
+  },
+  "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E": {
+    "originChain": "polygon_amoy",
+    "slug": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x52eF3d68BaB452a294342DC3e5f464d7f610f72E"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-weth-0x52ef3d68bab452a294342dc3e5f464d7f610f72e.png"
   }
 }
