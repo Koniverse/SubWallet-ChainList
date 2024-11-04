@@ -1,12 +1,4 @@
-import {
-  DOWNLOAD_DIR,
-  DOWNLOAD_LINK,
-  downloadFile,
-  PATCH_SAVE_PATH,
-  readJSONFile,
-  writeChainInfoChange,
-  writeJSONFile
-} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, PATCH_SAVE_PATH, readJSONFile, writeChainInfoChange, writeJSONFile} from "./strapi-api.mjs";
 import crypto from 'crypto'
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 const SAVE_PATH = './packages/chain-list/src/data/ChainInfo.json';
@@ -37,7 +29,10 @@ const main = async () => {
 
         if (!oldChainMap[chain.slug] || JSON.stringify(chain) !== JSON.stringify(oldChainMap[chain.slug])) {
           patchChainsMap[chain.slug] = chain;
-          patchHashMap[chain.slug] = crypto.createHash('sha256').update(JSON.stringify(chain)).digest('hex');
+
+          const { providers, chainStatus, ...chainWithoutProvidersAndStatus } = chain;
+
+          patchHashMap[chain.slug] = crypto.createHash('md5').update(JSON.stringify(chainWithoutProvidersAndStatus)).digest('hex');
         }
 
         return chain;
@@ -49,11 +44,13 @@ const main = async () => {
     const deletedChain = Object.keys(oldChainMap).filter((element) => !Object.keys(chainMap).includes(element));
     if (deletedChain.length) {
       deletedChain.forEach((chainSlug) => {
-        const info = oldChainMap[chainSlug];
-        info.chainStatus = "INACTIVE";
+        const chain = oldChainMap[chainSlug];
+        chain.chainStatus = "INACTIVE";
+        patchChainsMap[chainSlug] = chain;
 
-        patchChainsMap[chainSlug] = info;
-        patchHashMap[chainSlug] = crypto.createHash('md5').update(JSON.stringify(info)).digest('hex');
+        const { providers, chainStatus, ...chainWithoutProvidersAndStatus } = chain;
+
+        patchHashMap[chainSlug] = crypto.createHash('md5').update(JSON.stringify(chainWithoutProvidersAndStatus)).digest('hex');
       })
     }
 

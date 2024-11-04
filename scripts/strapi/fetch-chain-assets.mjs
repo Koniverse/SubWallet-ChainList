@@ -105,7 +105,7 @@ const main = async () => {
 
         if (!oldAssetMap[asset.slug] || JSON.stringify(newAsset) !== JSON.stringify(oldAssetMap[asset.slug])) {
           patchAssetsMap[asset.slug] = newAsset;
-          patchHashMap[asset.slug] = crypto.createHash('sha256').update(JSON.stringify(newAsset)).digest('hex');
+          patchHashMap[asset.slug] = crypto.createHash('md5').update(JSON.stringify(newAsset)).digest('hex');
         }
 
         return newAsset

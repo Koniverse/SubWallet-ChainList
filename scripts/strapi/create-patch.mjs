@@ -5,7 +5,7 @@ const main = async () => {
   const patch = {
     patchVersion: PATCH_VERSION,
     appliedVersion: STABLE_VERSION,
-    fetchedDate: Date.now(),
+    timestamp: Date.now(),
     ChainInfo: {},
     ChainInfoHashMap: {},
     ChainAsset: {},
