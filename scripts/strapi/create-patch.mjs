@@ -11,7 +11,10 @@ const main = async () => {
     ChainAsset: {},
     ChainAssetHashMap: {},
     MultiChainAsset: {},
-    MultiChainAssetHashMap: {}
+    MultiChainAssetHashMap: {},
+    AssetLogoMap: {},
+    ChainLogoMap: {},
+    mAssetLogoMap: {}
   }
 
   const dir = PATCH_SAVE_PATH.replace('/data.json', '');

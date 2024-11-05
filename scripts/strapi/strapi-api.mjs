@@ -11,6 +11,8 @@ const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 export const DOWNLOAD_DIR = './packages/chain-list-assets/public/assets';
 export const DOWNLOAD_LINK = BRANCH_NAME === 'dev' ? 'https://dev.sw-chain-list-assets.pages.dev' : 'https://chain-list-assets.subwallet.app';
 
+export const DEFAULT_ICON = `${DOWNLOAD_LINK}/assets/default.png`;
+
 export const graphQLClient = new GraphQLClient(`${STRAPI_URL}/graphql`, {
     headers: {
         "Authorization": "Bearer " + STRAPI_TOKEN,
@@ -33,27 +35,30 @@ export async function readJSONFile(filePath) {
   return JSON.parse(data);
 }
 
-export async function writeChainInfoChange(filePath, changeMap, hashMap) {
+export async function writeChainInfoChange(filePath, changeMap, hashMap, chainLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
   data.ChainInfo = changeMap;
   data.ChainInfoHashMap = hashMap;
+  data.ChainLogoMap = chainLogoMap
   await writeJSONFile(filePath, data);
 }
 
-export async function writeChainAssetChange(filePath, changeMap, hashMap) {
+export async function writeChainAssetChange(filePath, changeMap, hashMap, assetLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
   data.ChainAsset = changeMap;
   data.ChainAssetHashMap = hashMap;
+  data.AssetLogoMap = assetLogoMap;
   await writeJSONFile(filePath, data);
 }
 
-export async function writeMultiAssetChange(filePath, changeMap, hashMap) {
+export async function writeMultiAssetChange(filePath, changeMap, hashMap, mAssetLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
   data.MultiChainAsset = changeMap;
   data.MultiChainAssetHashMap = hashMap;
+  data.mAssetLogoMap = mAssetLogoMap;
   await writeJSONFile(filePath, data);
 }
 

@@ -12,6 +12,7 @@ const main = async () => {
 
     const patchChainsMap = {};
     const patchHashMap = {};
+    const chainLogoMap = {};
 
     const chains = await Promise.all(data.map(async chain => {
         let iconURL = chain.icon;
@@ -29,6 +30,7 @@ const main = async () => {
 
         if (!oldChainMap[chain.slug] || JSON.stringify(chain) !== JSON.stringify(oldChainMap[chain.slug])) {
           patchChainsMap[chain.slug] = chain;
+          chainLogoMap[chain.slug] = chain.icon;
 
           const { providers, chainStatus, ...chainWithoutProvidersAndStatus } = chain;
 
@@ -47,6 +49,7 @@ const main = async () => {
         const chain = oldChainMap[chainSlug];
         chain.chainStatus = "INACTIVE";
         patchChainsMap[chainSlug] = chain;
+        chainLogoMap[chain.slug] = chain.icon;
 
         const { providers, chainStatus, ...chainWithoutProvidersAndStatus } = chain;
 
@@ -55,7 +58,7 @@ const main = async () => {
     }
 
     // save to json file
-    await writeChainInfoChange(PATCH_SAVE_PATH, patchChainsMap, patchHashMap);
+    await writeChainInfoChange(PATCH_SAVE_PATH, patchChainsMap, patchHashMap, chainLogoMap);
     await writeJSONFile(SAVE_PATH, chainMap);
 }
 

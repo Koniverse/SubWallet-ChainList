@@ -1,13 +1,6 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import {
-  DOWNLOAD_DIR,
-  DOWNLOAD_LINK,
-  downloadFile,
-  PATCH_SAVE_PATH,
-  readJSONFile,
-  writeMultiAssetChange
-} from "./strapi-api.mjs";
+import { DEFAULT_ICON, DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, PATCH_SAVE_PATH, readJSONFile, writeMultiAssetChange } from "./strapi-api.mjs";
 import crypto from "crypto";
 
 const SAVE_PATH = './packages/chain-list/src/data/MultiChainAsset.json';
@@ -53,6 +46,7 @@ const main = async () => {
 
     const patchMultiAssetMap = {};
     const patchHashMap = {};
+    const mAssetLogoMap = {};
 
     const chains = await Promise.all(data.map(async mAsset => {
         let iconURL = mAsset.icon;
@@ -77,6 +71,7 @@ const main = async () => {
 
         if (!oldMultiAssetMap[mAsset.slug] || JSON.stringify(newMultiAsset) !== JSON.stringify(oldMultiAssetMap[newMultiAsset.slug])) {
           patchMultiAssetMap[mAsset.slug] = newMultiAsset;
+          mAssetLogoMap[mAsset.slug.toLowerCase()] = newMultiAsset.icon || DEFAULT_ICON;
           patchHashMap[mAsset.slug] = crypto.createHash('md5').update(JSON.stringify(newMultiAsset)).digest('hex');
         }
 
@@ -85,7 +80,7 @@ const main = async () => {
     const mAssetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
 
     // save to json file
-    await writeMultiAssetChange(PATCH_SAVE_PATH, patchMultiAssetMap, patchHashMap);
+    await writeMultiAssetChange(PATCH_SAVE_PATH, patchMultiAssetMap, patchHashMap, mAssetLogoMap);
     fs.writeFile(SAVE_PATH, JSON.stringify(mAssetMap, null, 2), function (err) {
         if (err) {
             console.log(err);
