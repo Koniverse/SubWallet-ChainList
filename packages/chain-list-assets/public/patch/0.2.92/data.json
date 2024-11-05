@@ -1,8 +1,60 @@
 {
   "patchVersion": "0.2.93-beta.0",
   "appliedVersion": "0.2.92",
-  "fetchedDate": "Mon Nov 04 2024 11:39:32 GMT+0700 (Indochina Time)",
+  "timestamp": 1730776348536,
   "ChainInfo": {
+    "polygonzkEvm_cardona": {
+      "slug": "polygonzkEvm_cardona",
+      "name": "Polygon zkEVM Cardona Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygonzkevm_cardona.png",
+      "providers": {
+        "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 2442,
+        "blockExplorer": "https://cardona-zkevm.polygonscan.com/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "polygon_amoy": {
+      "slug": "polygon_amoy",
+      "name": "Polygon Amoy Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygon_amoy.png",
+      "providers": {
+        "Polygon Amoy": "https://rpc-amoy.polygon.technology/"
+      },
+      "evmInfo": {
+        "evmChainId": 80002,
+        "blockExplorer": "https://amoy.polygonscan.com/",
+        "existentialDeposit": "0",
+        "symbol": "POL",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "bitcountry": {
       "slug": "bitcountry",
       "name": "Bit.Country - Alpha Ne",
@@ -65,6 +117,8 @@
     }
   },
   "ChainInfoHashMap": {
+    "polygonzkEvm_cardona": "f9f3b4a298789e76724472e2f0dc380a",
+    "polygon_amoy": "0dc401f5297cc0465d1b8b920ff73e7d",
     "bitcountry": "2325edf9efcd744312698f8aa94586b3",
     "alephSmartNet": "48e089922b59cfde1e9a61310368fa86"
   },
@@ -82,11 +136,121 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/alephsmartnet-native-szero.png"
+    },
+    "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55": {
+      "originChain": "polygonzkEvm_cardona",
+      "slug": "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55",
+      "name": "POL Token",
+      "symbol": "POL",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x74bE345339a3D5aA179dbaEAf5B496628F174F55"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-erc20-pol-0x74be345339a3d5aa179dbaeaf5b496628f174f55.png"
+    },
+    "polygonzkEvm_cardona-NATIVE-ETH": {
+      "originChain": "polygonzkEvm_cardona",
+      "slug": "polygonzkEvm_cardona-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+    },
+    "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E": {
+      "originChain": "polygon_amoy",
+      "slug": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x52eF3d68BaB452a294342DC3e5f464d7f610f72E"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-weth-0x52ef3d68bab452a294342dc3e5f464d7f610f72e.png"
+    },
+    "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582": {
+      "originChain": "polygon_amoy",
+      "slug": "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-usdc-0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582.png"
+    },
+    "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03": {
+      "originChain": "polygonzkEvm_cardona",
+      "slug": "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03",
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-erc20-matic-0x3cc6055f4e88638c46daa9cf5f5fc54a801e5f03.png"
+    },
+    "polygon_amoy-NATIVE-POL": {
+      "originChain": "polygon_amoy",
+      "slug": "polygon_amoy-NATIVE-POL",
+      "name": "Polygon Amoy",
+      "symbol": "POL",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-native-pol.png"
     }
   },
   "ChainAssetHashMap": {
-    "alephSmartNet-NATIVE-SZERO": "f3a5e3319cf71fb252a8b73fe0d47e6f"
+    "alephSmartNet-NATIVE-SZERO": "f3a5e3319cf71fb252a8b73fe0d47e6f",
+    "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55": "5df4c7e6d889324c572887d2aece00e0",
+    "polygonzkEvm_cardona-NATIVE-ETH": "eae31dad11d908333445a4a0f90eea46",
+    "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E": "259a0afb15684fc5753a32ae99eb39e0",
+    "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582": "5068a0acec4601e107cdac5e57c5391e",
+    "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03": "db4361702c9a49f258f789029dec1959",
+    "polygon_amoy-NATIVE-POL": "9ffcf11d3f036393d1427fe1bdd91861"
   },
-  "MultiChainAsset": {},
-  "MultiChainAssetHashMap": {}
+  "MultiChainAsset": {
+    "ETH-EthereumSepolia": {
+      "slug": "ETH-EthereumSepolia",
+      "originChainAsset": null,
+      "name": "Ethereum Se",
+      "symbol": "ETH",
+      "priceId": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eth-ethereumsepolia.png"
+    }
+  },
+  "MultiChainAssetHashMap": {
+    "ETH-EthereumSepolia": "11d78e1786f5d1a6021c02916308b98e"
+  }
 }
