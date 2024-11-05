@@ -195,6 +195,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "ethereum-NATIVE-ETH___polygonZkEvm-NATIVE-ETH": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygonZkEvm-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "polygonZkEvm",
+    "path": "XCM"
+  },
   "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "moonbeam-NATIVE-GLMR",
     "destAsset": "moonbeam-LOCAL-xcDOT",
@@ -1539,6 +1546,13 @@
     "srcChain": "sepolia_ethereum",
     "destChain": "arbitrum_sepolia",
     "path": "SWAP"
+  },
+  "sepolia_ethereum-NATIVE-ETH___polygonzkEvm_cardona-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "polygonzkEvm_cardona-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "polygonzkEvm_cardona",
+    "path": "XCM"
   },
   "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
