@@ -54,7 +54,7 @@
   "binance-NATIVE-BNB": {
     "originChain": "binance",
     "slug": "binance-NATIVE-BNB",
-    "name": "Binance Smart Chain",
+    "name": "BNB Chain",
     "symbol": "BNB",
     "decimals": 18,
     "priceId": "binancecoin",
@@ -7888,7 +7888,7 @@
     "name": "Liberland",
     "symbol": "LLD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "liberland-lld",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -12880,9 +12880,9 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys_taurus-native-ai3.png"
   },
-  "gnosis-NATIVE-XDAI": {
+  "gnosis-NATIVE-xDAI": {
     "originChain": "gnosis",
-    "slug": "gnosis-NATIVE-XDAI",
+    "slug": "gnosis-NATIVE-xDAI",
     "name": "xDAI",
     "symbol": "xDAI",
     "decimals": 18,
