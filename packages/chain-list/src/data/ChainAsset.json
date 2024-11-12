@@ -12879,5 +12879,33 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys_taurus-native-ai3.png"
+  },
+  "gnosis-NATIVE-XDAI": {
+    "originChain": "gnosis",
+    "slug": "gnosis-NATIVE-XDAI",
+    "name": "xDAI",
+    "symbol": "xDAI",
+    "decimals": 18,
+    "priceId": "xdai",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
+  },
+  "autonomys-NATIVE-AI3": {
+    "originChain": "autonomys",
+    "slug": "autonomys-NATIVE-AI3",
+    "name": "Autonomys",
+    "symbol": "AI3",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "200000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
   }
 }
