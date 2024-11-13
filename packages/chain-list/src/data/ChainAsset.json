@@ -10945,7 +10945,7 @@
     "name": "PEAQ",
     "symbol": "PEAQ",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "peaq-2",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
@@ -12907,5 +12907,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
+  },
+  "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0",
+    "name": "Calamari",
+    "symbol": "KMA",
+    "decimals": 18,
+    "priceId": "calamari-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6745CF7A0aAca457F451a4b8c60c8504320F69d0"
+    },
+    "multiChainAsset": "KMA-Calamari",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0.png"
   }
 }

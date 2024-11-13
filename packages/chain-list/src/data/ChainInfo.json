@@ -896,7 +896,7 @@
   },
   "bitcountry": {
     "slug": "bitcountry",
-    "name": "Bit.Country - Alpha Ne",
+    "name": "Bit.Country - Alpha Net",
     "isTestnet": true,
     "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
@@ -9040,7 +9040,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null,
+    "extraInfo": {
+      "subscanSlug": "peaq",
+      "chainBalanceSlug": "peaq-main"
+    },
     "bitcoinInfo": null,
     "tonInfo": null
   },
