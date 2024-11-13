@@ -896,7 +896,7 @@
   },
   "bitcountry": {
     "slug": "bitcountry",
-    "name": "Bit.Country - Alpha Net",
+    "name": "Bit.Country - Alpha Ne",
     "isTestnet": true,
     "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
@@ -5816,35 +5816,6 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
-  "alephSmartNet": {
-    "slug": "alephSmartNet",
-    "name": "Aleph Zero Smartnet",
-    "isTestnet": true,
-    "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/alephsmartnet.png",
-    "providers": {},
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
-      "genesisHash": "0x6153e2745a56d188365372b5cce283dfddbb96b17e9bb396cceb4630103ff92b",
-      "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": "500",
-      "symbol": "SZERO",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportStaking": false,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null
-  },
   "kulupu": {
     "slug": "kulupu",
     "name": "Kulupu",
@@ -10336,6 +10307,141 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "polygon_amoy": {
+    "slug": "polygon_amoy",
+    "name": "Polygon Amoy Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygon_amoy.png",
+    "providers": {
+      "Polygon Amoy": "https://rpc-amoy.polygon.technology/"
+    },
+    "evmInfo": {
+      "evmChainId": 80002,
+      "blockExplorer": "https://amoy.polygonscan.com/",
+      "existentialDeposit": "0",
+      "symbol": "POL",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "polygonzkEvm_cardona": {
+    "slug": "polygonzkEvm_cardona",
+    "name": "Polygon zkEVM Cardona Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polygonzkevm_cardona.png",
+    "providers": {
+      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 2442,
+      "blockExplorer": "https://cardona-zkevm.polygonscan.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "zksync_era": {
+    "slug": "zksync_era",
+    "name": "ZKsync Era Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zksync_era.png",
+    "providers": {
+      "ZKsync Era": "https://mainnet.era.zksync.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 324,
+      "blockExplorer": "https://explorer.zksync.io/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "apechain": {
+    "slug": "apechain",
+    "name": "ApeChain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/apechain.png",
+    "providers": {
+      "Calderachain": "https://apechain.calderachain.xyz/http"
+    },
+    "evmInfo": {
+      "evmChainId": 33139,
+      "blockExplorer": "https://apechain.calderaexplorer.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "APE",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "autonomys_taurus": {
+    "slug": "autonomys_taurus",
+    "name": "Autonomys Taurus Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys_taurus.png",
+    "providers": {
+      "Taurus": "wss://rpc-0.taurus.subspace.network/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x295aeafca762a304d92ee1505548695091f6082d3f0aa4d092ac3cd6397a6c5e",
+      "addressPrefix": 6094,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "500",
+      "symbol": "AI3",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
