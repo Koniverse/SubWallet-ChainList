@@ -1,0 +1,83 @@
+{
+  "patchVersion": "0.2.94-beta.0",
+  "appliedVersion": "0.2.93",
+  "timestamp": 1731468793014,
+  "ChainInfo": {
+    "bitcountry": {
+      "slug": "bitcountry",
+      "name": "Bit.Country - Alpha Net",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
+      "providers": {
+        "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x8ffa3204b182fbda4676f75ea2d6a9bbdbbaf0d78470c62952e918c60e0583b4",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1",
+        "symbol": "NUUM",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "bitcountry": "5d06f02ea00d421038e6680448cd4f8e"
+  },
+  "ChainAsset": {
+    "polygonzkEvm_cardona-NATIVE-ETH": {
+      "originChain": "polygonzkEvm_cardona",
+      "slug": "polygonzkEvm_cardona-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "polygonzkEvm_cardona-NATIVE-ETH": "eae31dad11d908333445a4a0f90eea46"
+  },
+  "MultiChainAsset": {
+    "TSYS-TestSyscoin": {
+      "slug": "TSYS-TestSyscoin",
+      "originChainAsset": "syscoin_evm_testnet-NATIVE-TSYS",
+      "name": "ABC Test Syscoin",
+      "symbol": "TSYS",
+      "priceId": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tsys-testsyscoin.png"
+    }
+  },
+  "MultiChainAssetHashMap": {
+    "TSYS-TestSyscoin": "9f696d01625532d22e982b2ae78f85a7"
+  },
+  "AssetLogoMap": {
+    "polygonzkevm_cardona-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+  },
+  "ChainLogoMap": {
+    "bitcountry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png"
+  },
+  "mAssetLogoMap": {
+    "tsys-testsyscoin": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tsys-testsyscoin.png"
+  }
+}
