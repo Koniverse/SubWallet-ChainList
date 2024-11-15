@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.93-beta.4",
+  "patchVersion": "0.2.93-beta.5",
   "appliedVersion": "0.2.92",
-  "timestamp": 1731654818173,
+  "timestamp": 1731666450712,
   "ChainInfo": {
     "morder_testnet": {
       "slug": "morder_testnet",
@@ -21,6 +21,63 @@
         "supportSmartContract": [
           "ERC20",
           "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "watr_network": {
+      "slug": "watr_network",
+      "name": "Watr Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_network.png",
+      "providers": {
+        "watr": "wss://rpc.dev.watr.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2058,
+        "genesisHash": "0x25895f66e42429d148d5bdabcf6e16996f7b0d6c171e771e302c291ba94e13f2",
+        "addressPrefix": 19,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "WATRD",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "gnosis": {
+      "slug": "gnosis",
+      "name": "Gnosis",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gnosis.png",
+      "providers": {
+        "Gnosis Chain": "https://rpc.gnosischain.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 100,
+        "blockExplorer": "https://gnosisscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "xDAI",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC721",
+          "ERC20"
         ],
         "abiExplorer": null
       },
@@ -61,125 +118,6 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
-    "bitcountry": {
-      "slug": "bitcountry",
-      "name": "Bit.Country - Alpha Net",
-      "isTestnet": true,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
-      "providers": {
-        "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0x8ffa3204b182fbda4676f75ea2d6a9bbdbbaf0d78470c62952e918c60e0583b4",
-        "addressPrefix": 42,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": null,
-        "existentialDeposit": "1",
-        "symbol": "NUUM",
-        "decimals": 18,
-        "hasNativeNft": true,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "gnosis": {
-      "slug": "gnosis",
-      "name": "Gnosis",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gnosis.png",
-      "providers": {
-        "Gnosis Chain": "https://rpc.gnosischain.com/"
-      },
-      "evmInfo": {
-        "evmChainId": 100,
-        "blockExplorer": "https://gnosisscan.io/",
-        "existentialDeposit": "0",
-        "symbol": "xDAI",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC721",
-          "ERC20"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "autonomys_taurus": {
-      "slug": "autonomys_taurus",
-      "name": "Autonomys Taurus Testnet",
-      "isTestnet": true,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys_taurus.png",
-      "providers": {
-        "Taurus": "wss://rpc-0.taurus.subspace.network/ws"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0x295aeafca762a304d92ee1505548695091f6082d3f0aa4d092ac3cd6397a6c5e",
-        "addressPrefix": 6094,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://astral.autonomys.xyz/taurus/consensus",
-        "existentialDeposit": "500",
-        "symbol": "AI3",
-        "decimals": 18,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "autonomys": {
-      "slug": "autonomys",
-      "name": "Autonomys Mainnet",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys.png",
-      "providers": {
-        "Subspace": "wss://rpc-1.mainnet.subspace.network/ws"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd",
-        "addressPrefix": 6094,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://astral.autonomys.xyz/mainnet/consensus",
-        "existentialDeposit": "200000000000000",
-        "symbol": "AI3",
-        "decimals": 18,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
     "peaq": {
       "slug": "peaq",
       "name": "peaq",
@@ -214,6 +152,68 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
+    "autonomys": {
+      "slug": "autonomys",
+      "name": "Autonomys Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys.png",
+      "providers": {
+        "Subspace": "wss://rpc-1.mainnet.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://astral.autonomys.xyz/mainnet/consensus",
+        "existentialDeposit": "200000000000000",
+        "symbol": "AI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "hyperbridge": {
+      "slug": "hyperbridge",
+      "name": "Hyperbridge",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
+      "providers": {
+        "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3367,
+        "genesisHash": "0x61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "BRIDGE",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "soneiumMinato": {
       "slug": "soneiumMinato",
       "name": "Soneium Minato",
@@ -239,17 +239,81 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "bitcountry": {
+      "slug": "bitcountry",
+      "name": "Bit.Country - Alpha Net",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
+      "providers": {
+        "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x8ffa3204b182fbda4676f75ea2d6a9bbdbbaf0d78470c62952e918c60e0583b4",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1",
+        "symbol": "NUUM",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "autonomys_taurus": {
+      "slug": "autonomys_taurus",
+      "name": "Autonomys Taurus Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys_taurus.png",
+      "providers": {
+        "Taurus": "wss://rpc-0.taurus.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x295aeafca762a304d92ee1505548695091f6082d3f0aa4d092ac3cd6397a6c5e",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://astral.autonomys.xyz/taurus/consensus",
+        "existentialDeposit": "500",
+        "symbol": "AI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
     "morder_testnet": "85846620c86da62d45794e738c0db41c",
-    "binance": "d1e334a8c89784e5e22b0b21a48a521d",
-    "bitcountry": "5d06f02ea00d421038e6680448cd4f8e",
+    "watr_network": "b6419101abad8e08a5cbbd0858c25374",
     "gnosis": "5f2d2ffac2cee3b458e6bd10910ee5c4",
-    "autonomys_taurus": "77a8f4fcf0f9bd2db4885b8baff3aacf",
-    "autonomys": "f48c0a37ca8beb2b888661cc0d44249d",
+    "binance": "d1e334a8c89784e5e22b0b21a48a521d",
     "peaq": "e07ec2acdb0f6c43bb9e73a9526e4af0",
-    "soneiumMinato": "8618bcb4f5ea27311847eced6b943cdc"
+    "autonomys": "f48c0a37ca8beb2b888661cc0d44249d",
+    "hyperbridge": "b71583d7a64db50382637f43b8da35f8",
+    "soneiumMinato": "8618bcb4f5ea27311847eced6b943cdc",
+    "bitcountry": "5d06f02ea00d421038e6680448cd4f8e",
+    "autonomys_taurus": "77a8f4fcf0f9bd2db4885b8baff3aacf"
   },
   "ChainAsset": {
     "morder_testnet-NATIVE-METC": {
@@ -266,19 +330,47 @@
       "hasValue": false,
       "icon": null
     },
-    "autonomys-NATIVE-AI3": {
-      "originChain": "autonomys",
-      "slug": "autonomys-NATIVE-AI3",
-      "name": "Autonomys",
-      "symbol": "AI3",
+    "gnosis-NATIVE-xDAI": {
+      "originChain": "gnosis",
+      "slug": "gnosis-NATIVE-xDAI",
+      "name": "xDAI",
+      "symbol": "xDAI",
       "decimals": 18,
-      "priceId": null,
-      "minAmount": "200000000000000",
+      "priceId": "xdai",
+      "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
+    },
+    "liberland-NATIVE-LLD": {
+      "originChain": "liberland",
+      "slug": "liberland-NATIVE-LLD",
+      "name": "Liberland",
+      "symbol": "LLD",
+      "decimals": 12,
+      "priceId": "liberland-lld",
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/liberland-native-lld.png"
+    },
+    "binance-NATIVE-BNB": {
+      "originChain": "binance",
+      "slug": "binance-NATIVE-BNB",
+      "name": "BNB Chain",
+      "symbol": "BNB",
+      "decimals": 18,
+      "priceId": "binancecoin",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "BNB-Binance",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-native-bnb.png"
     },
     "peaq-NATIVE-PEAQ": {
       "originChain": "peaq",
@@ -310,94 +402,68 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0.png"
     },
-    "binance-NATIVE-BNB": {
-      "originChain": "binance",
-      "slug": "binance-NATIVE-BNB",
-      "name": "BNB Chain",
-      "symbol": "BNB",
-      "decimals": 18,
-      "priceId": "binancecoin",
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": "BNB-Binance",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-native-bnb.png"
-    },
-    "bitcountry-NATIVE-NUUM": {
-      "originChain": "bitcountry",
-      "slug": "bitcountry-NATIVE-NUUM",
-      "name": "Bit.Country - Alpha Net",
-      "symbol": "NUUM",
+    "autonomys-NATIVE-AI3": {
+      "originChain": "autonomys",
+      "slug": "autonomys-NATIVE-AI3",
+      "name": "Autonomys",
+      "symbol": "AI3",
       "decimals": 18,
       "priceId": null,
-      "minAmount": "1",
+      "minAmount": "200000000000000",
       "assetType": "NATIVE",
       "metadata": null,
       "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcountry-native-nuum.png"
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
     },
-    "liberland-NATIVE-LLD": {
-      "originChain": "liberland",
-      "slug": "liberland-NATIVE-LLD",
-      "name": "Liberland",
-      "symbol": "LLD",
+    "hyperbridge-NATIVE-BRIDGE": {
+      "originChain": "hyperbridge",
+      "slug": "hyperbridge-NATIVE-BRIDGE",
+      "name": "BRIDGE",
+      "symbol": "BRIDGE",
       "decimals": 12,
-      "priceId": "liberland-lld",
-      "minAmount": "1000000000000",
+      "priceId": null,
+      "minAmount": "1000000000",
       "assetType": "NATIVE",
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/liberland-native-lld.png"
-    },
-    "gnosis-NATIVE-xDAI": {
-      "originChain": "gnosis",
-      "slug": "gnosis-NATIVE-xDAI",
-      "name": "xDAI",
-      "symbol": "xDAI",
-      "decimals": 18,
-      "priceId": "xdai",
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperbridge-native-bridge.png"
     }
   },
   "ChainAssetHashMap": {
     "morder_testnet-NATIVE-METC": "5116b80c5600319ac4233126b9cf66ab",
-    "autonomys-NATIVE-AI3": "a3ba7158ceae131c3a92c361de9d6d57",
+    "gnosis-NATIVE-xDAI": "0f866e72025ba0ffb468200164d019c5",
+    "liberland-NATIVE-LLD": "3c409400b2cf94fa7686e1f67f7ef297",
+    "binance-NATIVE-BNB": "cc6b7c3869dc349e87f0ef31219f7f1b",
     "peaq-NATIVE-PEAQ": "e0ca5a8ab5d9632b835bc4f0534cdc45",
     "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0": "75e5fe7a4d8c0d1ea8ab2f65e2fb2a34",
-    "binance-NATIVE-BNB": "cc6b7c3869dc349e87f0ef31219f7f1b",
-    "bitcountry-NATIVE-NUUM": "65ded7842950021b4e6dffc4e2ca0055",
-    "liberland-NATIVE-LLD": "3c409400b2cf94fa7686e1f67f7ef297",
-    "gnosis-NATIVE-xDAI": "cd1c62eb5212b63f98f754a38c340020"
+    "autonomys-NATIVE-AI3": "a3ba7158ceae131c3a92c361de9d6d57",
+    "hyperbridge-NATIVE-BRIDGE": "9b877491582be716f218a15eae584e3d"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "morder_testnet-native-metc": null,
-    "autonomys-native-ai3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png",
+    "gnosis-native-xdai": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png",
+    "liberland-native-lld": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/liberland-native-lld.png",
+    "binance-native-bnb": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-native-bnb.png",
     "peaq-native-peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq-native-peaq.png",
     "manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0.png",
-    "binance-native-bnb": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-native-bnb.png",
-    "bitcountry-native-nuum": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcountry-native-nuum.png",
-    "liberland-native-lld": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/liberland-native-lld.png",
-    "gnosis-native-xdai": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
+    "autonomys-native-ai3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png",
+    "hyperbridge-native-bridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperbridge-native-bridge.png"
   },
   "ChainLogoMap": {
     "morder_testnet": null,
-    "binance": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/binance.png",
-    "bitcountry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
+    "watr_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_network.png",
     "gnosis": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gnosis.png",
-    "autonomys_taurus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys_taurus.png",
-    "autonomys": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys.png",
+    "binance": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/binance.png",
     "peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
-    "soneiumMinato": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneiumminato.png"
+    "autonomys": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys.png",
+    "hyperbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
+    "soneiumMinato": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneiumminato.png",
+    "bitcountry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
+    "autonomys_taurus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys_taurus.png"
   },
   "mAssetLogoMap": {}
 }
