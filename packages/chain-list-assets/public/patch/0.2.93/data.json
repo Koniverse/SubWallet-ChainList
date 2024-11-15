@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.93-beta.3",
+  "patchVersion": "0.2.93-beta.4",
   "appliedVersion": "0.2.92",
   "timestamp": 1731654818173,
   "ChainInfo": {
@@ -334,7 +334,7 @@
       "minAmount": "1",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": "ABCCCCC",
+      "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bitcountry-native-nuum.png"
     },
@@ -362,7 +362,7 @@
       "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": "ABCCCCC",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
     }
