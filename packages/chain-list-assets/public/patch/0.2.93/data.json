@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.93-beta.2",
+  "patchVersion": "0.2.93-beta.3",
   "appliedVersion": "0.2.92",
   "timestamp": 1731654818173,
   "ChainInfo": {
@@ -377,30 +377,8 @@
     "liberland-NATIVE-LLD": "3c409400b2cf94fa7686e1f67f7ef297",
     "gnosis-NATIVE-xDAI": "cd1c62eb5212b63f98f754a38c340020"
   },
-  "MultiChainAsset": {
-    "ABCCCCC": {
-      "slug": "ABCCCCC",
-      "originChainAsset": null,
-      "name": "ABCCCC CCCC",
-      "symbol": "TESTER",
-      "priceId": null,
-      "hasValue": false,
-      "icon": null
-    },
-    "ETH-EthereumSepolia": {
-      "slug": "ETH-EthereumSepolia",
-      "originChainAsset": null,
-      "name": "Ethereum Sepolia",
-      "symbol": "ETH",
-      "priceId": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eth-ethereumsepolia.png"
-    }
-  },
-  "MultiChainAssetHashMap": {
-    "ABCCCCC": "c6c5b08e7bca666c78bbfa49d9b861d0",
-    "ETH-EthereumSepolia": "4ce1c8f87d599473c53696aa5ffcba82"
-  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "morder_testnet-native-metc": null,
     "autonomys-native-ai3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png",
@@ -421,8 +399,5 @@
     "peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
     "soneiumMinato": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneiumminato.png"
   },
-  "mAssetLogoMap": {
-    "abccccc": "https://dev.sw-chain-list-assets.pages.dev/assets/default.png",
-    "eth-ethereumsepolia": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/eth-ethereumsepolia.png"
-  }
+  "mAssetLogoMap": {}
 }
