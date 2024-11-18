@@ -4860,5 +4860,12 @@
     "srcChain": "sepolia_ethereum",
     "destChain": "availTuringTest",
     "path": "XCM"
+  },
+  "polygonzkEvm_cardona-NATIVE-ETHsepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "polygonzkEvm_cardona-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "polygonzkEvm_cardona",
+    "destChain": "sepolia_ethereum",
+    "path": "XCM"
   }
 }
