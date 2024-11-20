@@ -10445,5 +10445,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "morder_testnet": {
+    "slug": "morder_testnet",
+    "name": "Mordor Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Modor": "https://rpc.mordor.etccooperative.org"
+    },
+    "evmInfo": {
+      "evmChainId": 63,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "METC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }

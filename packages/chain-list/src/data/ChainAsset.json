@@ -12386,22 +12386,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
   },
-  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
-    "originChain": "base_mainnet",
-    "slug": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "name": "USDC",
-    "symbol": "USDC",
-    "decimals": 6,
-    "priceId": "usd-coin",
-    "minAmount": "0",
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
-    },
-    "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
-  },
   "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
     "originChain": "base_mainnet",
     "slug": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
@@ -12879,5 +12863,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys_taurus-native-ai3.png"
+  },
+  "morder_testnet-NATIVE-METC": {
+    "originChain": "morder_testnet",
+    "slug": "morder_testnet-NATIVE-METC",
+    "name": "Mordor Ether",
+    "symbol": "METC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
   }
 }
