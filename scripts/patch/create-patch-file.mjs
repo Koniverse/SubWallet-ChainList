@@ -1,4 +1,4 @@
-import {PATCH_SAVE_PATH, PATCH_VERSION, STABLE_VERSION, writeJSONFile} from "./strapi-api.mjs";
+import {PATCH_SAVE_PATH, PATCH_VERSION, STABLE_VERSION, writeJSONFile} from "../strapi/strapi-api.mjs";
 import * as fs from "fs";
 
 const main = async () => {
@@ -21,9 +21,9 @@ const main = async () => {
 
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
-
-    await writeJSONFile(PATCH_SAVE_PATH, patch);
   }
+
+  await writeJSONFile(PATCH_SAVE_PATH, patch);
 }
 
 main().catch((error) => console.error(error));

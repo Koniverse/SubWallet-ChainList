@@ -1,7 +1,6 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import { DEFAULT_ICON, DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, PATCH_SAVE_PATH, readJSONFile, writeMultiAssetChange } from "./strapi-api.mjs";
-import crypto from "crypto";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/MultiChainAsset.json';
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
@@ -38,16 +37,10 @@ query {
 `;
 
 const main = async () => {
-    const oldMultiAssetMap = await readJSONFile(SAVE_PATH);
     const downloadDir = `${DOWNLOAD_DIR}/multi-chain-assets`;
     const apiUrl = BRANCH_NAME === 'master' ? 'https://content.subwallet.app/api/list/multi-chain-asset' : 'https://content.subwallet.app/api/list/multi-chain-asset?preview=true';
     const results = await fetch(apiUrl);
     const data = await results.json();
-
-    const patchMultiAssetMap = {};
-    const patchHashMap = {};
-    const mAssetLogoMap = {};
-
     const chains = await Promise.all(data.map(async mAsset => {
         let iconURL = mAsset.icon;
         if (iconURL) {
@@ -59,28 +52,19 @@ const main = async () => {
             }
         }
 
-        const newMultiAsset = {
-            slug: mAsset.slug,
-            originChainAsset: mAsset.originChainAsset,
-            name: mAsset.name,
-            symbol: mAsset.symbol,
-            priceId: mAsset.priceId,
-            hasValue: mAsset.hasValue,
-            icon: iconURL,
+      return {
+          slug: mAsset.slug,
+          originChainAsset: mAsset.originChainAsset,
+          name: mAsset.name,
+          symbol: mAsset.symbol,
+          priceId: mAsset.priceId,
+          hasValue: mAsset.hasValue,
+          icon: iconURL,
         }
-
-        if (!oldMultiAssetMap[mAsset.slug] || JSON.stringify(newMultiAsset) !== JSON.stringify(oldMultiAssetMap[newMultiAsset.slug])) {
-          patchMultiAssetMap[mAsset.slug] = newMultiAsset;
-          mAssetLogoMap[mAsset.slug.toLowerCase()] = newMultiAsset.icon || DEFAULT_ICON;
-          patchHashMap[mAsset.slug] = crypto.createHash('md5').update(JSON.stringify(newMultiAsset)).digest('hex');
-        }
-
-        return newMultiAsset
     }));
     const mAssetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
 
     // save to json file
-    await writeMultiAssetChange(PATCH_SAVE_PATH, patchMultiAssetMap, patchHashMap, mAssetLogoMap);
     fs.writeFile(SAVE_PATH, JSON.stringify(mAssetMap, null, 2), function (err) {
         if (err) {
             console.log(err);

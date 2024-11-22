@@ -11099,11 +11099,12 @@ __metadata:
     patch-package: ^8.0.0
     postinstall-postinstall: ^2.1.0
   bin:
-    create-patch: ./scripts/strapi/create-patch.mjs
+    create-patch-file: scripts/patch/create-patch-file.mjs
     export-assets: ./scripts/exports/export-assets.js
     export-chains: ./scripts/exports/export-chains.js
     export-xcm-channels: ./scripts/exports/export-xcm-channels.js
     generate-logo-map: ./scripts/generators/generate-logo-map.js
+    patch-data: ./scripts/patch/patch-data.mjs
     set-version: ./scripts/set-version.mjs
     strapi-fetch-chain-assets: ./scripts/strapi/fetch-chain-assets.mjs
     strapi-fetch-chains: ./scripts/strapi/fetch-chains.mjs

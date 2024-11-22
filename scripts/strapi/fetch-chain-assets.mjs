@@ -1,7 +1,5 @@
 import {gql} from "graphql-request";
-import * as fs from "fs";
-import { DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, PATCH_SAVE_PATH, readJSONFile, writeChainAssetChange, writeJSONFile } from "./strapi-api.mjs";
-import crypto from "crypto";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, writeJSONFile} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const SAVE_REF_PATH = './packages/chain-list/src/data/AssetRef.json';
@@ -60,16 +58,10 @@ query {
 `;
 
 const main = async () => {
-    const oldAssetMap = await readJSONFile(SAVE_PATH);
     const downloadDir = `${DOWNLOAD_DIR}/chain-assets`;
     const apiUrl = BRANCH_NAME === 'master' ? 'https://content.subwallet.app/api/list/chain-asset' : 'https://content.subwallet.app/api/list/chain-asset?preview=true';
     const results = await fetch(apiUrl);
     const data = await results.json();
-
-    const patchAssetsMap = {};
-    const patchHashMap = {};
-    const assetLogoMap = {};
-
     const assets = await Promise.all(data.map(async asset => {
         let iconURL = asset.icon;
         if (iconURL) {
@@ -81,28 +73,20 @@ const main = async () => {
             }
         }
 
-        const newAsset = {
-            originChain: asset.originChain,
-            slug: asset.slug,
-            name: asset.name,
-            symbol: asset.symbol,
-            decimals: asset.decimals,
-            priceId: asset.priceId,
-            minAmount: asset.minAmount,
-            assetType: asset.assetType,
-            metadata: asset.metadata,
-            multiChainAsset: asset.multiChainAsset || null,
-            hasValue: asset.hasValue,
-            icon: iconURL
+      return {
+          originChain: asset.originChain,
+          slug: asset.slug,
+          name: asset.name,
+          symbol: asset.symbol,
+          decimals: asset.decimals,
+          priceId: asset.priceId,
+          minAmount: asset.minAmount,
+          assetType: asset.assetType,
+          metadata: asset.metadata,
+          multiChainAsset: asset.multiChainAsset || null,
+          hasValue: asset.hasValue,
+          icon: iconURL
         }
-
-        if (!oldAssetMap[asset.slug] || JSON.stringify(newAsset) !== JSON.stringify(oldAssetMap[asset.slug])) {
-          patchAssetsMap[asset.slug] = newAsset;
-          assetLogoMap[asset.slug.toLowerCase()] = newAsset.icon;
-          patchHashMap[asset.slug] = crypto.createHash('md5').update(JSON.stringify(newAsset)).digest('hex');
-        }
-
-        return newAsset
     }));
 
     const assetMap = Object.fromEntries(assets.map(chain => [chain.slug, chain]));
@@ -127,9 +111,7 @@ const main = async () => {
       });
     });
 
-
     // save to json file
-    await writeChainAssetChange(PATCH_SAVE_PATH, patchAssetsMap, patchHashMap, assetLogoMap);
     await writeJSONFile(SAVE_PATH, assetMap);
 
     // save to json file

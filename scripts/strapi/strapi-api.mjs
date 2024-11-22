@@ -38,18 +38,18 @@ export async function readJSONFile(filePath) {
 export async function writeChainInfoChange(filePath, changeMap, hashMap, chainLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
-  data.ChainInfo = {...data.ChainInfo, ...changeMap};
-  data.ChainInfoHashMap = {...data.ChainInfoHashMap, ...hashMap};
-  data.ChainLogoMap = {...data.ChainLogoMap, ...chainLogoMap};
+  data.ChainInfo = changeMap;
+  data.ChainInfoHashMap = hashMap;
+  data.ChainLogoMap = chainLogoMap;
   await writeJSONFile(filePath, data);
 }
 
 export async function writeChainAssetChange(filePath, changeMap, hashMap, assetLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
-  data.ChainAsset = {...data.ChainAsset, ...changeMap};
-  data.ChainAssetHashMap = {...data.ChainAssetHashMap, ...hashMap};
-  data.AssetLogoMap = {...data.AssetLogoMap, ...assetLogoMap};
+  data.ChainAsset = changeMap;
+  data.ChainAssetHashMap = hashMap;
+  data.AssetLogoMap = assetLogoMap;
   await writeJSONFile(filePath, data);
 }
 
@@ -108,7 +108,7 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
   });
 }
 
-export const STABLE_VERSION = '0.2.92';
-export const PATCH_VERSION = '0.2.93-beta.1'
+export const STABLE_VERSION = '0.2.95';
+export const PATCH_VERSION = '0.2.96-beta.0'
 
 export const PATCH_SAVE_PATH = `./packages/chain-list-assets/public/patch/${STABLE_VERSION}/data.json`;
