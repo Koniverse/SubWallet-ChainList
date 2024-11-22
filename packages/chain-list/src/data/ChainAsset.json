@@ -54,7 +54,7 @@
   "binance-NATIVE-BNB": {
     "originChain": "binance",
     "slug": "binance-NATIVE-BNB",
-    "name": "Binance Smart Chain",
+    "name": "BNB Chain",
     "symbol": "BNB",
     "decimals": 18,
     "priceId": "binancecoin",
@@ -7888,7 +7888,7 @@
     "name": "Liberland",
     "symbol": "LLD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "liberland-lld",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -9251,11 +9251,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/curio-native-cgt.png"
   },
-  "hyperbridge-NATIVE-NAND": {
+  "hyperbridge-NATIVE-BRIDGE": {
     "originChain": "hyperbridge",
-    "slug": "hyperbridge-NATIVE-NAND",
-    "name": "NAND",
-    "symbol": "NAND",
+    "slug": "hyperbridge-NATIVE-BRIDGE",
+    "name": "BRIDGE",
+    "symbol": "BRIDGE",
     "decimals": 12,
     "priceId": null,
     "minAmount": "1000000000",
@@ -9263,7 +9263,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperbridge-native-nand.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperbridge-native-bridge.png"
   },
   "cess_testnet-NATIVE-TCESS": {
     "originChain": "cess_testnet",
@@ -10945,7 +10945,7 @@
     "name": "PEAQ",
     "symbol": "PEAQ",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "peaq-2",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
@@ -12370,21 +12370,21 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-flip-0xcd079eab6b5443b545788fd210c8800feadd87fa.png"
   },
-  "hydradx_main-LOCAL-2-Pool": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-2-Pool",
-    "name": "USDT- USDC",
-    "symbol": "2-Pool",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "1000",
-    "assetType": "LOCAL",
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
     "metadata": {
-      "assetId": "102"
+      "contractAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
   },
   "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
     "originChain": "base_mainnet",
@@ -12864,18 +12864,48 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys_taurus-native-ai3.png"
   },
-  "morder_testnet-NATIVE-METC": {
-    "originChain": "morder_testnet",
-    "slug": "morder_testnet-NATIVE-METC",
-    "name": "Mordor Ether",
-    "symbol": "METC",
+  "gnosis-NATIVE-xDAI": {
+    "originChain": "gnosis",
+    "slug": "gnosis-NATIVE-xDAI",
+    "name": "xDAI",
+    "symbol": "xDAI",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "xdai",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
-    "hasValue": false,
-    "icon": null
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
+  },
+  "autonomys-NATIVE-AI3": {
+    "originChain": "autonomys",
+    "slug": "autonomys-NATIVE-AI3",
+    "name": "Autonomys",
+    "symbol": "AI3",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "200000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
+  },
+  "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0",
+    "name": "Calamari",
+    "symbol": "KMA",
+    "decimals": 18,
+    "priceId": "calamari-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6745CF7A0aAca457F451a4b8c60c8504320F69d0"
+    },
+    "multiChainAsset": "KMA-Calamari",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0.png"
   }
 }

@@ -109,6 +109,6 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
 }
 
 export const STABLE_VERSION = '0.2.92';
-export const PATCH_VERSION = '0.2.93-beta.0'
+export const PATCH_VERSION = '0.2.93-beta.1'
 
 export const PATCH_SAVE_PATH = `./packages/chain-list-assets/public/patch/${STABLE_VERSION}/data.json`;
