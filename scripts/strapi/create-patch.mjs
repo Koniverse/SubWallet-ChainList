@@ -10,7 +10,7 @@ const main = async () => {
     ChainInfoHashMap: {},
     ChainAsset: {},
     ChainAssetHashMap: {},
-    MultiChainAsset: {},
+    MultiChainAsset: {}, // currently not use
     MultiChainAssetHashMap: {},
     AssetLogoMap: {},
     ChainLogoMap: {},
@@ -18,6 +18,8 @@ const main = async () => {
   }
 
   const dir = PATCH_SAVE_PATH.replace('/data.json', '');
+
+  // todo: check update data patch beta
 
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
