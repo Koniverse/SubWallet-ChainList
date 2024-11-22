@@ -20,7 +20,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.2.95-beta.0",
+  "version": "0.2.95-beta.1",
   "main": "index.js",
   "dependencies": {
     "@polkadot/dev": "0.67.167",
