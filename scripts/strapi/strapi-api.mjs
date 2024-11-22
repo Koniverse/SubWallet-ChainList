@@ -38,18 +38,18 @@ export async function readJSONFile(filePath) {
 export async function writeChainInfoChange(filePath, changeMap, hashMap, chainLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
-  data.ChainInfo = changeMap;
-  data.ChainInfoHashMap = hashMap;
-  data.ChainLogoMap = chainLogoMap
+  data.ChainInfo = {...data.ChainInfo, ...changeMap};
+  data.ChainInfoHashMap = {...data.ChainInfoHashMap, ...hashMap};
+  data.ChainLogoMap = {...data.ChainLogoMap, ...chainLogoMap};
   await writeJSONFile(filePath, data);
 }
 
 export async function writeChainAssetChange(filePath, changeMap, hashMap, assetLogoMap) {
   const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
 
-  data.ChainAsset = changeMap;
-  data.ChainAssetHashMap = hashMap;
-  data.AssetLogoMap = assetLogoMap;
+  data.ChainAsset = {...data.ChainAsset, ...changeMap};
+  data.ChainAssetHashMap = {...data.ChainAssetHashMap, ...hashMap};
+  data.AssetLogoMap = {...data.AssetLogoMap, ...assetLogoMap};
   await writeJSONFile(filePath, data);
 }
 

@@ -19,13 +19,11 @@ const main = async () => {
 
   const dir = PATCH_SAVE_PATH.replace('/data.json', '');
 
-  // todo: check update data patch beta
-
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
-  }
 
-  await writeJSONFile(PATCH_SAVE_PATH, patch);
+    await writeJSONFile(PATCH_SAVE_PATH, patch);
+  }
 }
 
 main().catch((error) => console.error(error));
