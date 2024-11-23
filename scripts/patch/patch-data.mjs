@@ -1,4 +1,5 @@
-import { md5Hash, PATCH_SAVE_PATH, readJSONFile, STABLE_VERSION, writeChainAssetChange, writeChainInfoChange } from "../strapi/strapi-api.mjs";
+import {readJSONFile} from "../strapi/strapi-api.mjs";
+import {md5Hash, PATCH_SAVE_DEV, STABLE_VERSION, writeChainAssetChange, writeChainInfoChange} from "./patch-api.mjs";
 const CHAIN_PATH = './packages/chain-list/src/data/ChainInfo.json';
 const ASSET_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const STABLE_SOURCE = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/v${STABLE_VERSION}/packages/chain-list/src/data`
@@ -98,8 +99,8 @@ const main = async () => {
   }
 
   // 3. save to file
-  await writeChainInfoChange(PATCH_SAVE_PATH, patchChainMap, patchChainHashMap, patchChainLogoMap);
-  await writeChainAssetChange(PATCH_SAVE_PATH, patchAssetMap, patchAssetHashMap, patchAssetLogoMap);
+  await writeChainInfoChange(PATCH_SAVE_DEV, patchChainMap, patchChainHashMap, patchChainLogoMap);
+  await writeChainAssetChange(PATCH_SAVE_DEV, patchAssetMap, patchAssetHashMap, patchAssetLogoMap);
 }
 
 main().catch((error) => console.error(error));

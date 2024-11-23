@@ -2,7 +2,6 @@ import {GraphQLClient} from "graphql-request";
 import axios from "axios";
 import * as fs from "fs";
 import path from "path";
-import crypto from "crypto";
 
 // Init basic config
 const STRAPI_TOKEN = process.env.STRAPI_TOKEN;
@@ -34,24 +33,6 @@ export async function readJSONFile(filePath) {
   const data = await fs.promises.readFile(filePath, 'utf-8', );
 
   return JSON.parse(data);
-}
-
-export async function writeChainInfoChange(filePath, changeMap, hashMap, chainLogoMap) {
-  const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
-
-  data.ChainInfo = changeMap;
-  data.ChainInfoHashMap = hashMap;
-  data.ChainLogoMap = chainLogoMap;
-  await writeJSONFile(filePath, data);
-}
-
-export async function writeChainAssetChange(filePath, changeMap, hashMap, assetLogoMap) {
-  const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
-
-  data.ChainAsset = changeMap;
-  data.ChainAssetHashMap = hashMap;
-  data.AssetLogoMap = assetLogoMap;
-  await writeJSONFile(filePath, data);
 }
 
 export async function writeMultiAssetChange(filePath, changeMap, hashMap, mAssetLogoMap) {
@@ -109,10 +90,3 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
   });
 }
 
-export const md5Hash = (data) => {
-  return crypto.createHash('md5').update(JSON.stringify(data)).digest('hex');
-}
-
-export const STABLE_VERSION = '0.2.95';
-export const PATCH_VERSION = '0.2.96-beta.0'
-export const PATCH_SAVE_PATH = `./packages/chain-list-assets/public/patch/${STABLE_VERSION}/data.json`;

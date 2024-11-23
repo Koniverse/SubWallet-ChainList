@@ -1,5 +1,6 @@
-import {PATCH_SAVE_PATH, PATCH_VERSION, STABLE_VERSION, writeJSONFile} from "../strapi/strapi-api.mjs";
+import {writeJSONFile} from "../strapi/strapi-api.mjs";
 import * as fs from "fs";
+import {PATCH_SAVE_DEV, PATCH_SAVE_DIR, PATCH_VERSION, STABLE_VERSION} from "./patch-api.mjs";
 
 const main = async () => {
   const patch = {
@@ -17,13 +18,13 @@ const main = async () => {
     mAssetLogoMap: {}
   }
 
-  const dir = PATCH_SAVE_PATH.replace('/data.json', '');
+  const dir = PATCH_SAVE_DIR;
 
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
   }
 
-  await writeJSONFile(PATCH_SAVE_PATH, patch);
+  await writeJSONFile(PATCH_SAVE_DEV, patch);
 }
 
 main().catch((error) => console.error(error));
