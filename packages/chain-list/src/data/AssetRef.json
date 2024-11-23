@@ -195,6 +195,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "ethereum-NATIVE-ETH___polygonZkEvm-NATIVE-ETH": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygonZkEvm-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "polygonZkEvm",
+    "path": "XCM"
+  },
   "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "moonbeam-NATIVE-GLMR",
     "destAsset": "moonbeam-LOCAL-xcDOT",
@@ -1540,6 +1547,13 @@
     "destChain": "arbitrum_sepolia",
     "path": "SWAP"
   },
+  "sepolia_ethereum-NATIVE-ETH___polygonzkEvm_cardona-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "polygonzkEvm_cardona-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "polygonzkEvm_cardona",
+    "path": "XCM"
+  },
   "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "destAsset": "chainflip_dot-NATIVE-pDOT",
@@ -2341,6 +2355,13 @@
     "destChain": "avail_mainnet",
     "path": "XCM"
   },
+  "polygonZkEvm-NATIVE-ETH___ethereum-NATIVE-ETH": {
+    "srcAsset": "polygonZkEvm-NATIVE-ETH",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "polygonZkEvm",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "base_sepolia-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "base_sepolia-NATIVE-ETH",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -2549,6 +2570,13 @@
     "destAsset": "availTuringTest-NATIVE-AVAIL",
     "srcChain": "sepolia_ethereum",
     "destChain": "availTuringTest",
+    "path": "XCM"
+  },
+  "polygonzkEvm_cardona-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "polygonzkEvm_cardona-NATIVE-ETH",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "polygonzkEvm_cardona",
+    "destChain": "sepolia_ethereum",
     "path": "XCM"
   }
 }
