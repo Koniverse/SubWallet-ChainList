@@ -1,0 +1,267 @@
+{
+  "patchVersion": "0.2.95-beta.0",
+  "appliedVersion": "0.2.94",
+  "timestamp": 1732355768050,
+  "ChainInfo": {
+    "bitcountry": {
+      "slug": "bitcountry",
+      "name": "Bit.Country - Alpha Net",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
+      "providers": {
+        "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x8ffa3204b182fbda4676f75ea2d6a9bbdbbaf0d78470c62952e918c60e0583b4",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1",
+        "symbol": "NUUM",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "bitcountry": "592afbdf8affb5c5a0ad0917af96b331"
+  },
+  "ChainAsset": {
+    "statemint-LOCAL-KSM": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-KSM",
+      "name": "Kusama",
+      "symbol": "KSM",
+      "decimals": 12,
+      "priceId": "kusama",
+      "minAmount": "1000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X1": [
+              {
+                "GlobalConsensus": "Kusama"
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ksm.png"
+    },
+    "statemine-LOCAL-DOT": {
+      "originChain": "statemine",
+      "slug": "statemine-LOCAL-DOT",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "10000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X1": [
+              {
+                "GlobalConsensus": "Polkadot"
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemine-local-dot.png"
+    },
+    "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x4200000000000000000000000000000000000006"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png"
+    },
+    "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
+      "originChain": "arbitrum_one",
+      "slug": "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png"
+    },
+    "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+      "originChain": "polygon",
+      "slug": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-weth-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png"
+    },
+    "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0": {
+      "originChain": "mantle",
+      "slug": "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+      "name": "Mantle Staked Ether",
+      "symbol": "mETH",
+      "decimals": 18,
+      "priceId": "mantle-staked-ether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png"
+    },
+    "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+      "originChain": "arbitrum_one",
+      "slug": "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "priceId": "dai",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+      },
+      "multiChainAsset": "DAI-DaiStablecoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+    },
+    "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+      "originChain": "optimism",
+      "slug": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "priceId": "dai",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+      },
+      "multiChainAsset": "DAI-DaiStablecoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+    },
+    "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "priceId": "dai",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+      },
+      "multiChainAsset": "DAI-DaiStablecoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+    },
+    "unichain_sepolia-NATIVE-ETH": {
+      "originChain": "unichain_sepolia",
+      "slug": "unichain_sepolia-NATIVE-ETH",
+      "name": "Ethereum Sepolia",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain_sepolia-native-eth.png"
+    },
+    "polygonzkEvm_cardona-NATIVE-ETH": {
+      "originChain": "polygonzkEvm_cardona",
+      "slug": "polygonzkEvm_cardona-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-EthereumSepolia",
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "statemint-LOCAL-KSM": "d3666da57e10d42c64e100f002308a9e",
+    "statemine-LOCAL-DOT": "ff1b85bf193b9be65a4586cdcd37316b",
+    "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": "5ac2c35b27b691f1bed0e251598c31d9",
+    "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": "79af143c506e10c8540d793264992896",
+    "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": "7ec2099e15c5f0cec36802f6d3ea6223",
+    "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0": "3c50170dca2273e36943f58d65f3591f",
+    "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": "43fbe72eb8cc7fafed759954aadc6162",
+    "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": "6dfa01333269ae6a2375d154b7f9d8de",
+    "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": "e3cf69573b15b6d326cadff4e4921485",
+    "unichain_sepolia-NATIVE-ETH": "514811863d529023f864293d2bae1710",
+    "polygonzkEvm_cardona-NATIVE-ETH": "b24a8ba92fd5226d297aa205fe7392c0"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "statemint-local-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ksm.png",
+    "statemine-local-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemine-local-dot.png",
+    "base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png",
+    "arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png",
+    "polygon-erc20-weth-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-weth-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png",
+    "mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png",
+    "arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png",
+    "optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png",
+    "base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png",
+    "unichain_sepolia-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain_sepolia-native-eth.png",
+    "polygonzkevm_cardona-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+  },
+  "ChainLogoMap": {
+    "bitcountry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png"
+  },
+  "mAssetLogoMap": {}
+}

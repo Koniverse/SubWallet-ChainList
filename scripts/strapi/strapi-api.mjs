@@ -2,6 +2,7 @@ import {GraphQLClient} from "graphql-request";
 import axios from "axios";
 import * as fs from "fs";
 import path from "path";
+import crypto from "crypto";
 
 // Init basic config
 const STRAPI_TOKEN = process.env.STRAPI_TOKEN;
@@ -108,7 +109,10 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
   });
 }
 
+export const md5Hash = (data) => {
+  return crypto.createHash('md5').update(JSON.stringify(data)).digest('hex');
+}
+
 export const STABLE_VERSION = '0.2.95';
 export const PATCH_VERSION = '0.2.96-beta.0'
-
 export const PATCH_SAVE_PATH = `./packages/chain-list-assets/public/patch/${STABLE_VERSION}/data.json`;
