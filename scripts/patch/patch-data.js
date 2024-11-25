@@ -1,8 +1,9 @@
-import {readJSONFile} from "../strapi/strapi-api.mjs";
-import {md5Hash, PATCH_SAVE_DEV, STABLE_VERSION, writeChainAssetChange, writeChainInfoChange} from "./patch-api.mjs";
+import {readJSONFile, writeJSONFile} from "../strapi/strapi-api.mjs";
+import {md5HashJson, PATCH_SAVE_DEV, PATCH_SAVE_DIR, PATCH_VERSION, STABLE_VERSION} from "./patch-api.mjs";
+import fs from "fs";
 const CHAIN_PATH = './packages/chain-list/src/data/ChainInfo.json';
 const ASSET_PATH = './packages/chain-list/src/data/ChainAsset.json';
-const STABLE_SOURCE = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/v${STABLE_VERSION}/packages/chain-list/src/data`
+const STABLE_SOURCE = `https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/v${STABLE_VERSION}/packages/chain-list/src/data`;
 
 
 const main = async () => {
@@ -14,7 +15,27 @@ const main = async () => {
     });
   }
 
-  // 1.1. init chainMap
+  // 1. init
+  const patchInfo = {
+    patchVersion: PATCH_VERSION,
+    appliedVersion: STABLE_VERSION,
+    timestamp: Date.now(),
+    ChainInfo: {},
+    ChainInfoHashMap: {},
+    ChainAsset: {},
+    ChainAssetHashMap: {},
+    MultiChainAsset: {}, // currently not use
+    MultiChainAssetHashMap: {},
+    AssetLogoMap: {},
+    ChainLogoMap: {},
+    mAssetLogoMap: {}
+  }
+
+  if (!fs.existsSync(PATCH_SAVE_DIR)) {
+    fs.mkdirSync(PATCH_SAVE_DIR);
+  }
+
+  // 2. chain
   const fetchOldChainMapPromise = fetch(`${STABLE_SOURCE}/ChainInfo.json`, {
     headers: {
         'Content-Type': 'application/json',
@@ -36,17 +57,15 @@ const main = async () => {
 
     patchChainMap[chainInfo.slug] = chainInfo;
     patchChainLogoMap[chainInfo.slug] = chainInfo.icon;
-    patchChainHashMap[chainInfo.slug] = md5Hash(chainBaseInfo);
+    patchChainHashMap[chainInfo.slug] = md5HashJson(chainBaseInfo);
   }
 
   for (const newChainInfo of Object.values(newChainMap)) {
-    // 1.2. add chain
     if (!oldChainMap[newChainInfo.slug]) {
       addPatchChain(newChainInfo);
       continue;
     }
 
-    // 1.3. edit chain
     const { icon: newChainIcon, ...newChainWithoutLogo } = newChainInfo;
     const { icon: oldChainIcon, ...oldChainWithoutLogo } = oldChainMap[newChainInfo.slug];
     if (JSON.stringify(newChainWithoutLogo) !== JSON.stringify(oldChainWithoutLogo)) {
@@ -54,7 +73,6 @@ const main = async () => {
     }
   }
 
-  // 1.4. delete chain
   const deletedChain = Object.keys(oldChainMap).filter((chain) => !Object.keys(newChainMap).includes(chain));
   if (deletedChain.length) {
     deletedChain.forEach((slug) => {
@@ -62,7 +80,7 @@ const main = async () => {
     });
   }
 
-  // 2.1. init assetMap
+  // 3. asset
   const fetchOldAssetMapPromise = fetch(`${STABLE_SOURCE}/ChainAsset.json`, {
     headers: {
       'Content-Type': 'application/json',
@@ -80,17 +98,15 @@ const main = async () => {
 
     patchAssetMap[assetInfo.slug] = assetInfo;
     patchAssetLogoMap[assetInfo.slug.toLowerCase()] = assetInfo.icon;
-    patchAssetHashMap[assetInfo.slug] = md5Hash(assetBaseInfo);
+    patchAssetHashMap[assetInfo.slug] = md5HashJson(assetBaseInfo);
   }
 
   for (const assetInfo of Object.values(newAssetMap)) {
-    // 2.2. add asset
     if (!oldAssetMap[assetInfo.slug]) {
       addPatchAsset(assetInfo);
       continue;
     }
 
-    // 2.3 edit asset
     const { icon: newAssetIcon, ...newAssetWithoutLogo } = assetInfo;
     const { icon: oldAssetIcon, ...oldAssetWithoutLogo } = oldAssetMap[assetInfo.slug];
     if (JSON.stringify(newAssetWithoutLogo) !== JSON.stringify(oldAssetWithoutLogo)) {
@@ -99,8 +115,14 @@ const main = async () => {
   }
 
   // 3. save to file
-  await writeChainInfoChange(PATCH_SAVE_DEV, patchChainMap, patchChainHashMap, patchChainLogoMap);
-  await writeChainAssetChange(PATCH_SAVE_DEV, patchAssetMap, patchAssetHashMap, patchAssetLogoMap);
+  patchInfo.ChainInfo = patchChainMap;
+  patchInfo.ChainInfoHashMap = patchChainHashMap;
+  patchInfo.ChainLogoMap = patchChainLogoMap;
+  patchInfo.ChainAsset = patchAssetMap;
+  patchInfo.ChainAssetHashMap = patchAssetHashMap;
+  patchInfo.AssetLogoMap = patchAssetLogoMap;
+
+  await writeJSONFile(PATCH_SAVE_DEV, patchInfo);
 }
 
 main().catch((error) => console.error(error));

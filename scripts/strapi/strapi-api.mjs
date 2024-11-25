@@ -30,18 +30,9 @@ export async function writeJSONFile(filePath, data) {
 }
 
 export async function readJSONFile(filePath) {
-  const data = await fs.promises.readFile(filePath, 'utf-8', );
+  const data = await fs.promises.readFile(filePath, 'utf-8');
 
   return JSON.parse(data);
-}
-
-export async function writeMultiAssetChange(filePath, changeMap, hashMap, mAssetLogoMap) {
-  const data = JSON.parse(await fs.promises.readFile(filePath, 'utf-8'));
-
-  data.MultiChainAsset = changeMap;
-  data.MultiChainAssetHashMap = hashMap;
-  data.mAssetLogoMap = mAssetLogoMap;
-  await writeJSONFile(filePath, data);
 }
 
 export async function removeDir(dir) {

@@ -9,6 +9,7 @@ import _ChainLogoMap from './data/ChainLogoMap.json';
 import _MultiChainAssetMap from './data/MultiChainAsset.json';
 
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from './types';
+import crypto from 'crypto';
 
 export const ChainInfoMap = _ChainInfoMap as unknown as Record<string, _ChainInfo>;
 export const ChainAssetMap = _ChainAssetMap as unknown as Record<string, _ChainAsset>;
@@ -61,3 +62,7 @@ export const _DEFAULT_CHAINS = [
   COMMON_CHAIN_SLUGS.KUSAMA as string,
   COMMON_CHAIN_SLUGS.ETHEREUM as string
 ];
+
+export function md5HashJson (data: any) {
+  return crypto.createHash('md5').update(JSON.stringify(data)).digest('hex');
+}
