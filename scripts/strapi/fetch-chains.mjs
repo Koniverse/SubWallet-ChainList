@@ -20,13 +20,12 @@ const main = async () => {
             }
         }
 
-        chain.ordinal&& delete chain.ordinal;
+        chain.ordinal && delete chain.ordinal;
 
-        return chain
+        return chain;
     }));
 
     const chainMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
-
 
     // save to json file
     await writeJSONFile(SAVE_PATH, chainMap);

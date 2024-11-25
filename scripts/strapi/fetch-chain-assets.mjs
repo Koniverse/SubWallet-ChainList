@@ -1,6 +1,5 @@
 import {gql} from "graphql-request";
-import * as fs from "fs";
-import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, writeJSONFile} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, writeJSONFile} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const SAVE_REF_PATH = './packages/chain-list/src/data/AssetRef.json';
@@ -63,7 +62,7 @@ const main = async () => {
     const apiUrl = BRANCH_NAME === 'master' ? 'https://content.subwallet.app/api/list/chain-asset' : 'https://content.subwallet.app/api/list/chain-asset?preview=true';
     const results = await fetch(apiUrl);
     const data = await results.json();
-    const chains = await Promise.all(data.map(async asset => {
+    const assets = await Promise.all(data.map(async asset => {
         let iconURL = asset.icon;
         if (iconURL) {
             try {
@@ -74,23 +73,23 @@ const main = async () => {
             }
         }
 
-        return {
-            originChain: asset.originChain,
-            slug: asset.slug,
-            name: asset.name,
-            symbol: asset.symbol,
-            decimals: asset.decimals,
-            priceId: asset.priceId,
-            minAmount: asset.minAmount,
-            assetType: asset.assetType,
-            metadata: asset.metadata,
-            multiChainAsset: asset.multiChainAsset || null,
-            hasValue: asset.hasValue,
-            icon: iconURL
+      return {
+          originChain: asset.originChain,
+          slug: asset.slug,
+          name: asset.name,
+          symbol: asset.symbol,
+          decimals: asset.decimals,
+          priceId: asset.priceId,
+          minAmount: asset.minAmount,
+          assetType: asset.assetType,
+          metadata: asset.metadata,
+          multiChainAsset: asset.multiChainAsset || null,
+          hasValue: asset.hasValue,
+          icon: iconURL
         }
     }));
 
-    const assetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
+    const assetMap = Object.fromEntries(assets.map(chain => [chain.slug, chain]));
 
     const refMap = {}
     data.forEach((item)=> {

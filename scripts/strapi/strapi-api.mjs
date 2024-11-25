@@ -11,6 +11,8 @@ const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 export const DOWNLOAD_DIR = './packages/chain-list-assets/public/assets';
 export const DOWNLOAD_LINK = BRANCH_NAME === 'dev' ? 'https://dev.sw-chain-list-assets.pages.dev' : 'https://chain-list-assets.subwallet.app';
 
+export const DEFAULT_ICON = `${DOWNLOAD_LINK}/assets/default.png`;
+
 export const graphQLClient = new GraphQLClient(`${STRAPI_URL}/graphql`, {
     headers: {
         "Authorization": "Bearer " + STRAPI_TOKEN,
@@ -24,7 +26,13 @@ export async function writeJSONFile(filePath, data) {
     } else {
         console.log("JSON saved to " + filePath);
     }
-})
+  })
+}
+
+export async function readJSONFile(filePath) {
+  const data = await fs.promises.readFile(filePath, 'utf-8');
+
+  return JSON.parse(data);
 }
 
 export async function removeDir(dir) {
@@ -72,3 +80,4 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
     writer.on('error', reject);
   });
 }
+
