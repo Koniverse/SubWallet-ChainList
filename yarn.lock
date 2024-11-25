@@ -2941,6 +2941,7 @@ __metadata:
     "@polkadot/dev": 0.67.167
     "@polkadot/util": ^12.5.1
     eventemitter3: ^5.0.1
+    ts-md5: ^1.3.1
   languageName: unknown
   linkType: soft
 
@@ -12065,6 +12066,13 @@ __metadata:
   dependencies:
     escape-string-regexp: ^1.0.2
   checksum: e25c235305b82c43f1d64a67a71226c406b00281755e4c2c4f3b1d0b09c687a535dd3c4483327f949f28bb89dc400a0bc5e5b749054f4b99f49ebfe48ba36496
+  languageName: node
+  linkType: hard
+
+"ts-md5@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "ts-md5@npm:1.3.1"
+  checksum: 88fc4df837e17949fef92a8e71a0691b20e2f8b02a002876a162a102e7c9d364f1eb00cbd217f9578fec5fa07bb66ffa14ed054cdfe164486fab2173c8e9ea23
   languageName: node
   linkType: hard
 

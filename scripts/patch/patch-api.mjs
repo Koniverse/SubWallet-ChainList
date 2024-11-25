@@ -1,4 +1,4 @@
-import crypto from "crypto";
+import {Md5} from "ts-md5";
 
 export const DEV_LOGO_PREFIX = "https://dev.sw-chain-list-assets.pages.dev";
 export const PRODUCT_LOGO_PREFIX = "https://chain-list-assets.subwallet.app";
@@ -8,6 +8,14 @@ export const PATCH_SAVE_DIR =  `./packages/chain-list-assets/public/patch/${STAB
 export const PATCH_SAVE_DEV = `${PATCH_SAVE_DIR}/preview.json`;
 export const PATCH_SAVE_STABLE = `${PATCH_SAVE_DIR}/list.json`;
 
-export function md5HashJson (data) {
-  return crypto.createHash('md5').update(JSON.stringify(data)).digest('hex');
+export function md5HashChainInfo (data) {
+  const { chainStatus, icon, providers, ...chainBaseInfo } = data;
+
+  return Md5.hashStr(JSON.stringify(chainBaseInfo));
+}
+
+export function md5HashChainAsset (data) {
+  const { icon, ...assetBaseInfo } = data;
+
+  return Md5.hashStr(JSON.stringify(assetBaseInfo));
 }

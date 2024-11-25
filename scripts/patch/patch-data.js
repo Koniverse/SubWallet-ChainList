@@ -1,5 +1,5 @@
 import {readJSONFile, writeJSONFile} from "../strapi/strapi-api.mjs";
-import {md5HashJson, PATCH_SAVE_DEV, PATCH_SAVE_DIR, PATCH_VERSION, STABLE_VERSION} from "./patch-api.mjs";
+import { md5HashChainAsset, md5HashChainInfo, PATCH_SAVE_DEV, PATCH_SAVE_DIR, PATCH_VERSION, STABLE_VERSION } from "./patch-api.mjs";
 import fs from "fs";
 const CHAIN_PATH = './packages/chain-list/src/data/ChainInfo.json';
 const ASSET_PATH = './packages/chain-list/src/data/ChainAsset.json';
@@ -49,15 +49,13 @@ const main = async () => {
   const patchChainLogoMap = {};
 
   const addPatchChain = (chainInfo, isOld = false) => {
-    const { chainStatus, icon, providers, ...chainBaseInfo } = chainInfo;
-
     if (isOld) {
       chainInfo.chainStatus = "INACTIVE";
     }
 
     patchChainMap[chainInfo.slug] = chainInfo;
     patchChainLogoMap[chainInfo.slug] = chainInfo.icon;
-    patchChainHashMap[chainInfo.slug] = md5HashJson(chainBaseInfo);
+    patchChainHashMap[chainInfo.slug] = md5HashChainInfo(chainInfo);
   }
 
   for (const newChainInfo of Object.values(newChainMap)) {
@@ -94,11 +92,9 @@ const main = async () => {
   const patchAssetLogoMap = {};
 
   const addPatchAsset = (assetInfo) => {
-    const { icon, ...assetBaseInfo } = assetInfo;
-
     patchAssetMap[assetInfo.slug] = assetInfo;
     patchAssetLogoMap[assetInfo.slug.toLowerCase()] = assetInfo.icon;
-    patchAssetHashMap[assetInfo.slug] = md5HashJson(assetBaseInfo);
+    patchAssetHashMap[assetInfo.slug] = md5HashChainAsset(assetInfo);
   }
 
   for (const assetInfo of Object.values(newAssetMap)) {
