@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.96-beta.5",
+  "patchVersion": "0.2.96-beta.6",
   "appliedVersion": "0.2.95",
   "timestamp": 1732619264547,
   "ChainInfo": {
@@ -38,7 +38,7 @@
       "slug": "mordor_testnet",
       "name": "Mordor Testnet",
       "isTestnet": true,
-      "chainStatus": "ACTIVE",
+      "chainStatus": "INACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mordor_testnet.png",
       "providers": {
         "mordor": "https://rpc.mordor.etccooperative.org"
@@ -157,7 +157,7 @@
       "slug": "metadium_testnet-NATIVE-KAL",
       "name": "Metadium Testnet",
       "symbol": "KAL",
-      "decimals": null,
+      "decimals": 18,
       "priceId": null,
       "minAmount": "0",
       "assetType": "NATIVE",
@@ -184,7 +184,7 @@
   "ChainAssetHashMap": {
     "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
     "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d",
-    "metadium_testnet-NATIVE-KAL": "6d7ccab0f7705a91e1a740188717846a",
+    "metadium_testnet-NATIVE-KAL": "d58deb5869731528bd6829c7d52fc770",
     "thundercore-NATIVE-TST": "9e5066751f2bff2d0ab101d0d2ab1926"
   },
   "MultiChainAsset": {},
