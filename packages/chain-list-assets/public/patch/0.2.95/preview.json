@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.96-beta.4",
+  "patchVersion": "0.2.96-beta.5",
   "appliedVersion": "0.2.95",
   "timestamp": 1732619264547,
   "ChainInfo": {
@@ -38,7 +38,7 @@
       "slug": "mordor_testnet",
       "name": "Mordor Testnet",
       "isTestnet": true,
-      "chainStatus": "INACTIVE",
+      "chainStatus": "ACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mordor_testnet.png",
       "providers": {
         "mordor": "https://rpc.mordor.etccooperative.org"
