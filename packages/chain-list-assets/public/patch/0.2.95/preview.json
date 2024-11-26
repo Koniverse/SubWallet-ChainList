@@ -1,11 +1,11 @@
 {
   "patchVersion": "0.2.96-beta.0",
   "appliedVersion": "0.2.95",
-  "timestamp": 1732512795893,
+  "timestamp": 1732594419799,
   "ChainInfo": {
     "bitcountry": {
       "slug": "bitcountry",
-      "name": "Bit.Country - Alpha Netabc",
+      "name": "BitTEST.Country - Alpha Net",
       "isTestnet": true,
       "chainStatus": "ACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
@@ -34,72 +34,20 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
-    "core": {
-      "slug": "core",
-      "name": "Core Blockchain Mainnet",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/core.png",
-      "providers": {
-        "Core Dao": "https://rpc.coredao.org/"
-      },
-      "evmInfo": {
-        "evmChainId": 1116,
-        "blockExplorer": "https://scan.coredao.org",
-        "existentialDeposit": "0",
-        "symbol": "CORE",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "satoshivm": {
-      "slug": "satoshivm",
-      "name": "SatoshiVM Alpha Mainnet",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/satoshivm.png",
-      "providers": {
-        "Alpha Rpc Node": "https://alpha-rpc-node-http.svmscan.io/"
-      },
-      "evmInfo": {
-        "evmChainId": 3109,
-        "blockExplorer": "https://svmscan.io/",
-        "existentialDeposit": "0",
-        "symbol": "BTC",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "satoshivm_testnet": {
-      "slug": "satoshivm_testnet",
-      "name": "SatoshiVM Testnet",
+    "mordor_testnet": {
+      "slug": "mordor_testnet",
+      "name": "Mordor Testnet",
       "isTestnet": true,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/satoshivm_testnet.png",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mordor_testnet.png",
       "providers": {
-        "Test Rpc Node": "https://test-rpc-node-http.svmscan.io/"
+        "mordor": "https://rpc.mordor.etccooperative.org"
       },
       "evmInfo": {
-        "evmChainId": 3110,
-        "blockExplorer": "https://testnet.svmscan.io/",
+        "evmChainId": 63,
+        "blockExplorer": "https://etc-mordor.blockscout.com/",
         "existentialDeposit": "0",
-        "symbol": "BTC",
+        "symbol": "METC",
         "decimals": 18,
         "supportSmartContract": [
           "ERC20",
@@ -114,216 +62,72 @@
     }
   },
   "ChainInfoHashMap": {
-    "bitcountry": "714feb2d54754c38176b355346fd2521",
-    "core": "a30724dbce55497005445f166dc355a3",
-    "satoshivm": "aaeb0933d0f70fb452c80e7c4fe6f7d6",
-    "satoshivm_testnet": "24b7b66dbd28caad0338b270b7f451f7"
+    "bitcountry": "8eab3d6b2d049b2bce62b0b52ae4dd39",
+    "mordor_testnet": "3e02b99c58090e76fdf09dc100802298"
   },
   "ChainAsset": {
-    "core-NATIVE-CORE": {
-      "originChain": "core",
-      "slug": "core-NATIVE-CORE",
-      "name": "Core",
-      "symbol": "CORE",
-      "decimals": 18,
-      "priceId": "coredaoorg",
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/core-native-core.png"
-    },
-    "satoshivm-NATIVE-BTC": {
-      "originChain": "satoshivm",
-      "slug": "satoshivm-NATIVE-BTC",
-      "name": "Bitcoin",
-      "symbol": "BTC",
-      "decimals": 18,
-      "priceId": "bitcoin",
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": "BTC-Bitcoin",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-native-btc.png"
-    },
-    "satoshivm_testnet-NATIVE-BTC": {
-      "originChain": "satoshivm_testnet",
-      "slug": "satoshivm_testnet-NATIVE-BTC",
-      "name": "Bitcoin Testnet",
-      "symbol": "BTC",
+    "mordor_testnet-NATIVE-METC": {
+      "originChain": "mordor_testnet",
+      "slug": "mordor_testnet-NATIVE-METC",
+      "name": "Mordor Testnet",
+      "symbol": "METC",
       "decimals": 18,
       "priceId": null,
       "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": "BTC-BitcoinTestnet",
+      "multiChainAsset": null,
       "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm_testnet-native-btc.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mordor_testnet-native-metc.png"
     },
-    "satoshivm-ERC20-SAVM-0x0E02765992f946397E6d2e65642eABb9cc674928": {
-      "originChain": "satoshivm",
-      "slug": "satoshivm-ERC20-SAVM-0x0E02765992f946397E6d2e65642eABb9cc674928",
-      "name": "SatoshiVM",
-      "symbol": "SAVM",
-      "decimals": 18,
-      "priceId": "satoshivm",
-      "minAmount": "0",
-      "assetType": "ERC20",
+    "statemint-LOCAL-LOVA": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-LOVA",
+      "name": "AIWeb3",
+      "symbol": "LOVA",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1000000000000",
+      "assetType": "LOCAL",
       "metadata": {
-        "contractAddress": "0x0E02765992f946397E6d2e65642eABb9cc674928"
+        "assetId": "50000028"
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-erc20-savm-0x0e02765992f946397e6d2e65642eabb9cc674928.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png"
     },
-    "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
-      "originChain": "base_mainnet",
-      "slug": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "priceId": "weth",
-      "minAmount": "0",
-      "assetType": "ERC20",
+    "hydradx_main-LOCAL-LOVA": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-LOVA",
+      "name": "AIWeb3",
+      "symbol": "LOVA",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1",
+      "assetType": "LOCAL",
       "metadata": {
-        "contractAddress": "0x4200000000000000000000000000000000000006"
-      },
-      "multiChainAsset": "WETH-WrappedEther",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png"
-    },
-    "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
-      "originChain": "arbitrum_one",
-      "slug": "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "priceId": "weth",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
-      },
-      "multiChainAsset": "WETH-WrappedEther",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png"
-    },
-    "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
-      "originChain": "polygon",
-      "slug": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "priceId": "weth",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
-      },
-      "multiChainAsset": "WETH-WrappedEther",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-weth-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png"
-    },
-    "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0": {
-      "originChain": "mantle",
-      "slug": "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
-      "name": "Mantle Staked Ether",
-      "symbol": "mETH",
-      "decimals": 18,
-      "priceId": "mantle-staked-ether",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0"
+        "assetId": "1000639"
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png"
-    },
-    "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
-      "originChain": "arbitrum_one",
-      "slug": "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "priceId": "dai",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
-      },
-      "multiChainAsset": "DAI-DaiStablecoin",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
-    },
-    "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
-      "originChain": "optimism",
-      "slug": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "priceId": "dai",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
-      },
-      "multiChainAsset": "DAI-DaiStablecoin",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
-    },
-    "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": {
-      "originChain": "base_mainnet",
-      "slug": "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "priceId": "dai",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
-      },
-      "multiChainAsset": "DAI-DaiStablecoin",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
     }
   },
   "ChainAssetHashMap": {
-    "core-NATIVE-CORE": "67c4a6a97f26983108cced454539de77",
-    "satoshivm-NATIVE-BTC": "e29f8a98aca3ca80c6506c3a55774ed0",
-    "satoshivm_testnet-NATIVE-BTC": "e2b614d0c3aae0325f2577a8e5f5516c",
-    "satoshivm-ERC20-SAVM-0x0E02765992f946397E6d2e65642eABb9cc674928": "b7bde35daee4d462a57f563d923317d0",
-    "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": "5ac2c35b27b691f1bed0e251598c31d9",
-    "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": "79af143c506e10c8540d793264992896",
-    "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": "7ec2099e15c5f0cec36802f6d3ea6223",
-    "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0": "3c50170dca2273e36943f58d65f3591f",
-    "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": "43fbe72eb8cc7fafed759954aadc6162",
-    "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": "6dfa01333269ae6a2375d154b7f9d8de",
-    "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": "e3cf69573b15b6d326cadff4e4921485"
+    "mordor_testnet-NATIVE-METC": "0dde933fc08ed2e4ea608fae2a7b7035",
+    "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
+    "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "core-native-core": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/core-native-core.png",
-    "satoshivm-native-btc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-native-btc.png",
-    "satoshivm_testnet-native-btc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm_testnet-native-btc.png",
-    "satoshivm-erc20-savm-0x0e02765992f946397e6d2e65642eabb9cc674928": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/satoshivm-erc20-savm-0x0e02765992f946397e6d2e65642eabb9cc674928.png",
-    "base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png",
-    "arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png",
-    "polygon-erc20-weth-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-weth-0x7ceb23fd6bc0add59e62ac25578270cff1b9f619.png",
-    "mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png",
-    "arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png",
-    "optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png",
-    "base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+    "mordor_testnet-native-metc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mordor_testnet-native-metc.png",
+    "statemint-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png",
+    "hydradx_main-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
   },
   "ChainLogoMap": {
     "bitcountry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
-    "core": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/core.png",
-    "satoshivm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/satoshivm.png",
-    "satoshivm_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/satoshivm_testnet.png"
+    "mordor_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mordor_testnet.png"
   },
   "mAssetLogoMap": {}
 }
