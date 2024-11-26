@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.2",
+  "patchVersion": "0.2.96-beta.3",
   "appliedVersion": "0.2.95",
-  "timestamp": 1732609242337,
+  "timestamp": 1732619264547,
   "ChainInfo": {
     "bitcountry": {
       "slug": "bitcountry",
@@ -59,34 +59,74 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "metadium_testnet": {
+      "slug": "metadium_testnet",
+      "name": "Metadium Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "abc": "https://api.metadium.com/dev"
+      },
+      "evmInfo": {
+        "evmChainId": 12,
+        "blockExplorer": null,
+        "existentialDeposit": "0",
+        "symbol": "KAL",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "thundercore": {
+      "slug": "thundercore",
+      "name": "Thundercore",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": null,
+      "providers": {
+        "thhh": "https://thundercore-testnet.drpc.org"
+      },
+      "evmInfo": {
+        "evmChainId": 18,
+        "blockExplorer": null,
+        "existentialDeposit": "0",
+        "symbol": "TST",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
     "bitcountry": "8eab3d6b2d049b2bce62b0b52ae4dd39",
-    "mordor_testnet": "3e02b99c58090e76fdf09dc100802298"
+    "mordor_testnet": "3e02b99c58090e76fdf09dc100802298",
+    "metadium_testnet": "cdcbf6b8ab0ebfd70f15378837239063",
+    "thundercore": "e12da5c4544b867645140511e8d654e3"
   },
   "ChainAsset": {
-    "mordor_testnet-NATIVE-METC": {
-      "originChain": "mordor_testnet",
-      "slug": "mordor_testnet-NATIVE-METC",
-      "name": "Mordor Testnet",
-      "symbol": "METC",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mordor_testnet-native-metc.png"
-    },
     "statemint-LOCAL-LOVA": {
       "originChain": "statemint",
       "slug": "statemint-LOCAL-LOVA",
       "name": "AIWeb3",
       "symbol": "LOVA",
       "decimals": 12,
-      "priceId": "bitcoin",
+      "priceId": null,
       "minAmount": "1000000000000",
       "assetType": "LOCAL",
       "metadata": {
@@ -111,23 +151,54 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
+    },
+    "metadium_testnet-NATIVE-KAL": {
+      "originChain": "metadium_testnet",
+      "slug": "metadium_testnet-NATIVE-KAL",
+      "name": "Metadium Testnet",
+      "symbol": "KAL",
+      "decimals": null,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": null
+    },
+    "thundercore-NATIVE-TST": {
+      "originChain": "thundercore",
+      "slug": "thundercore-NATIVE-TST",
+      "name": "Thunder",
+      "symbol": "TST",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": null
     }
   },
   "ChainAssetHashMap": {
-    "mordor_testnet-NATIVE-METC": "0dde933fc08ed2e4ea608fae2a7b7035",
-    "statemint-LOCAL-LOVA": "4d3970d25043aa804cc44cd8fbcfcf4a",
-    "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d"
+    "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
+    "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d",
+    "metadium_testnet-NATIVE-KAL": "6d7ccab0f7705a91e1a740188717846a",
+    "thundercore-NATIVE-TST": "9e5066751f2bff2d0ab101d0d2ab1926"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "mordor_testnet-native-metc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mordor_testnet-native-metc.png",
     "statemint-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png",
-    "hydradx_main-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
+    "hydradx_main-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png",
+    "metadium_testnet-native-kal": null,
+    "thundercore-native-tst": null
   },
   "ChainLogoMap": {
     "bitcountry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
-    "mordor_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mordor_testnet.png"
+    "metadium_testnet": null,
+    "thundercore": null
   },
   "mAssetLogoMap": {}
 }
