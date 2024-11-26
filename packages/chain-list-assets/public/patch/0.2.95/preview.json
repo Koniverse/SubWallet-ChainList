@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.1",
+  "patchVersion": "0.2.96-beta.2",
   "appliedVersion": "0.2.95",
-  "timestamp": 1732594419799,
+  "timestamp": 1732609242337,
   "ChainInfo": {
     "bitcountry": {
       "slug": "bitcountry",
@@ -86,7 +86,7 @@
       "name": "AIWeb3",
       "symbol": "LOVA",
       "decimals": 12,
-      "priceId": null,
+      "priceId": "bitcoin",
       "minAmount": "1000000000000",
       "assetType": "LOCAL",
       "metadata": {
@@ -115,7 +115,7 @@
   },
   "ChainAssetHashMap": {
     "mordor_testnet-NATIVE-METC": "0dde933fc08ed2e4ea608fae2a7b7035",
-    "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
+    "statemint-LOCAL-LOVA": "4d3970d25043aa804cc44cd8fbcfcf4a",
     "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d"
   },
   "MultiChainAsset": {},

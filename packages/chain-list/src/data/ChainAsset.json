@@ -12912,7 +12912,7 @@
     "name": "AIWeb3",
     "symbol": "LOVA",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "bitcoin",
     "minAmount": "1000000000000",
     "assetType": "LOCAL",
     "metadata": {
