@@ -10533,5 +10533,57 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "fraxtal": {
+    "slug": "fraxtal",
+    "name": "Fraxtal Mainnet L2",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Frax": "https://rpc.frax.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 252,
+      "blockExplorer": "https://fraxscan.com/",
+      "existentialDeposit": "0",
+      "symbol": "frxETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC721",
+        "ERC20"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "cyber": {
+    "slug": "cyber",
+    "name": "Cyber",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Cyber": "https://cyber.alt.technology/"
+    },
+    "evmInfo": {
+      "evmChainId": 7560,
+      "blockExplorer": "https://cyberscan.co/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
