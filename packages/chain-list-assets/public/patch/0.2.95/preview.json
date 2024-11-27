@@ -1,13 +1,13 @@
 {
-  "patchVersion": "0.2.96-beta.6",
+  "patchVersion": "0.2.96-beta.7",
   "appliedVersion": "0.2.95",
-  "timestamp": 1732619264547,
+  "timestamp": 1732679814342,
   "ChainInfo": {
     "bitcountry": {
       "slug": "bitcountry",
-      "name": "BitTEST.Country - Alpha Net",
+      "name": "BitCountry - Alpha Net",
       "isTestnet": true,
-      "chainStatus": "ACTIVE",
+      "chainStatus": "INACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitcountry.png",
       "providers": {
         "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
@@ -64,7 +64,7 @@
       "slug": "metadium_testnet",
       "name": "Metadium Testnet",
       "isTestnet": true,
-      "chainStatus": "ACTIVE",
+      "chainStatus": "INACTIVE",
       "icon": null,
       "providers": {
         "abc": "https://api.metadium.com/dev"
@@ -114,7 +114,7 @@
     }
   },
   "ChainInfoHashMap": {
-    "bitcountry": "8eab3d6b2d049b2bce62b0b52ae4dd39",
+    "bitcountry": "3d32db41d36ad81bb5d51571718ccf95",
     "mordor_testnet": "3e02b99c58090e76fdf09dc100802298",
     "metadium_testnet": "cdcbf6b8ab0ebfd70f15378837239063",
     "thundercore": "e12da5c4544b867645140511e8d654e3"
