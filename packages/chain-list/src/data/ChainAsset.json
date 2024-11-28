@@ -12354,22 +12354,6 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-flip-0xcd079eab6b5443b545788fd210c8800feadd87fa.png"
   },
-  "hydradx_main-LOCAL-2-Pool": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-2-Pool",
-    "name": "USDT- USDC",
-    "symbol": "2-Pool",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "1000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "102"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
-  },
   "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
     "originChain": "base_mainnet",
     "slug": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -12952,7 +12936,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/fraxtal-native-frxeth.png"
   },
   "cyber-NATIVE-ETH": {
     "originChain": "cyber",
@@ -12967,5 +12951,63 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cyber-native-eth.png"
+  },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "name": "PIPERX Token",
+    "symbol": "PIP",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6e990040Fd9b06F98eFb62A147201696941680b5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5.png"
+  },
+  "g6_testnet-NATIVE-GSX": {
+    "originChain": "g6_testnet",
+    "slug": "g6_testnet-NATIVE-GSX",
+    "name": "GSX",
+    "symbol": "GSX",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/g6_testnet-native-gsx.png"
+  },
+  "metadium_testnet-NATIVE-KAL": {
+    "originChain": "metadium_testnet",
+    "slug": "metadium_testnet-NATIVE-KAL",
+    "name": "Metadium Testnet",
+    "symbol": "KAL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
+  "thundercore-NATIVE-TST": {
+    "originChain": "thundercore",
+    "slug": "thundercore-NATIVE-TST",
+    "name": "Thunder",
+    "symbol": "TST",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
   }
 }
