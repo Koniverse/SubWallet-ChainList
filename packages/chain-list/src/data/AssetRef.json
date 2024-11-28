@@ -111,6 +111,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "polkadot-NATIVE-DOT___bittensor-NATIVE-TAO": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "bittensor-NATIVE-TAO",
+    "srcChain": "polkadot",
+    "destChain": "bittensor",
+    "path": "SWAP"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -201,6 +208,13 @@
     "srcChain": "ethereum",
     "destChain": "polygonZkEvm",
     "path": "XCM"
+  },
+  "ethereum-NATIVE-ETH___bittensor-NATIVE-TAO": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "bittensor-NATIVE-TAO",
+    "srcChain": "ethereum",
+    "destChain": "bittensor",
+    "path": "SWAP"
   },
   "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "moonbeam-NATIVE-GLMR",
@@ -845,6 +859,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7___bittensor-NATIVE-TAO": {
+    "srcAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "destAsset": "bittensor-NATIVE-TAO",
+    "srcChain": "ethereum",
+    "destChain": "bittensor",
+    "path": "SWAP"
+  },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___polkadot-NATIVE-DOT": {
     "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "destAsset": "polkadot-NATIVE-DOT",
@@ -892,6 +913,13 @@
     "destAsset": "base_mainnet-NATIVE-ETH",
     "srcChain": "ethereum",
     "destChain": "base_mainnet",
+    "path": "SWAP"
+  },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___bittensor-NATIVE-TAO": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "bittensor-NATIVE-TAO",
+    "srcChain": "ethereum",
+    "destChain": "bittensor",
     "path": "SWAP"
   },
   "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0___statemint-LOCAL-wstETH": {
@@ -1136,6 +1164,34 @@
     "destAsset": "statemint-NATIVE-DOT",
     "srcChain": "statemint",
     "destChain": "statemint",
+    "path": "SWAP"
+  },
+  "bittensor-NATIVE-TAO___polkadot-NATIVE-DOT": {
+    "srcAsset": "bittensor-NATIVE-TAO",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "bittensor",
+    "destChain": "polkadot",
+    "path": "SWAP"
+  },
+  "bittensor-NATIVE-TAO___ethereum-NATIVE-ETH": {
+    "srcAsset": "bittensor-NATIVE-TAO",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "bittensor",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "bittensor-NATIVE-TAO___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "bittensor-NATIVE-TAO",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "bittensor",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "bittensor-NATIVE-TAO___ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+    "srcAsset": "bittensor-NATIVE-TAO",
+    "destAsset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "srcChain": "bittensor",
+    "destChain": "ethereum",
     "path": "SWAP"
   },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {

@@ -12354,6 +12354,22 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-flip-0xcd079eab6b5443b545788fd210c8800feadd87fa.png"
   },
+  "hydradx_main-LOCAL-2-Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2-Pool",
+    "name": "USDT- USDC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
+  },
   "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
     "originChain": "base_mainnet",
     "slug": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -12892,27 +12908,13 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0.png"
   },
-  "mordor_testnet-NATIVE-METC": {
-    "originChain": "mordor_testnet",
-    "slug": "mordor_testnet-NATIVE-METC",
-    "name": "Mordor Testnet",
-    "symbol": "METC",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mordor_testnet-native-metc.png"
-  },
   "statemint-LOCAL-LOVA": {
     "originChain": "statemint",
     "slug": "statemint-LOCAL-LOVA",
     "name": "AIWeb3",
     "symbol": "LOVA",
     "decimals": 12,
-    "priceId": "bitcoin",
+    "priceId": null,
     "minAmount": "1000000000000",
     "assetType": "LOCAL",
     "metadata": {
