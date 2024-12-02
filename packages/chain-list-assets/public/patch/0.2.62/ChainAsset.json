@@ -14,5 +14,21 @@
     "multiChainAsset": "AVAIL-Avail",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/avail_mainnet-native-avail.png"
+  },
+  "turingStaging-NATIVE-TUR": {
+    "originChain": "turingStaging",
+    "slug": "turingStaging-NATIVE-TUR",
+    "name": "Turing",
+    "symbol": "TUR",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "100000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/turingstaging-native-tur.png"
   }
 }
