@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.1",
+  "patchVersion": "0.2.96-beta.0",
   "appliedVersion": "0.2.95",
-  "timestamp": 1732871103174,
+  "timestamp": 1733125614292,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -43,44 +43,6 @@
         ]
       },
       "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "westend": {
-      "slug": "westend",
-      "name": "WestendTEST",
-      "isTestnet": true,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend.png",
-      "providers": {
-        "Parity": "wss://westend-rpc.polkadot.io",
-        "Dwellir": "wss://westend-rpc.dwellir.com",
-        "Light Client": "light://substrate-connect/westend",
-        "DottersNet": "wss://rpc.dotters.network/westend",
-        "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-        "addressPrefix": 42,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://westend.subscan.io/TEST",
-        "existentialDeposit": "10000000000",
-        "symbol": "WND",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": {
-        "subscanSlug": null,
-        "chainBalanceSlug": "westend"
-      },
       "bitcoinInfo": null,
       "tonInfo": null
     },
@@ -248,7 +210,6 @@
   },
   "ChainInfoHashMap": {
     "aventus": "83d2fc3fad3382c8705f96e7ddfa0b42",
-    "westend": "dc92e526553cecdcff33745cf37933a9",
     "storyPublic_testnet": "a0a9c93b33576303c35b3b32b2130e6a",
     "fraxtal": "719f0d3af78b2a1ee291b18c4623c026",
     "cyber": "7f5ea9590fbff4a2a5417e11ce7e1a2f",
@@ -257,35 +218,6 @@
     "thundercore": "e12da5c4544b867645140511e8d654e3"
   },
   "ChainAsset": {
-    "statemint-LOCAL-USDt": {
-      "originChain": "statemint",
-      "slug": "statemint-LOCAL-USDt",
-      "name": "Tether USD TEST",
-      "symbol": "USDt",
-      "decimals": 6,
-      "priceId": "tether",
-      "minAmount": "1000",
-      "assetType": "LOCAL",
-      "metadata": {
-        "assetId": "1984",
-        "multilocation": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
-        }
-      },
-      "multiChainAsset": "USDT-Tether",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdt.png"
-    },
     "statemint-LOCAL-LOVA": {
       "originChain": "statemint",
       "slug": "statemint-LOCAL-LOVA",
@@ -406,7 +338,6 @@
     }
   },
   "ChainAssetHashMap": {
-    "statemint-LOCAL-USDt": "574cc0a8822078e171afb353451bfa6a",
     "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
     "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d",
     "fraxtal-NATIVE-frxETH": "1897b076c7c72bbb1c6ef960ea8ee3f2",
@@ -419,7 +350,6 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "statemint-local-usdt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdt.png",
     "statemint-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png",
     "hydradx_main-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png",
     "fraxtal-native-frxeth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/fraxtal-native-frxeth.png",
@@ -431,7 +361,6 @@
   },
   "ChainLogoMap": {
     "aventus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus.png",
-    "westend": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend.png",
     "storyPublic_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/storypublic_testnet.png",
     "fraxtal": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fraxtal.png",
     "cyber": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cyber.png",
