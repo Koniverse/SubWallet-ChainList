@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.2",
+  "patchVersion": "0.2.96-beta.3",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733307563953,
+  "timestamp": 1733309432091,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -299,6 +299,63 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "laos_network_evm": {
+      "slug": "laos_network_evm",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
+      "providers": {
+        "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 6283,
+        "blockExplorer": "https://explorer.laosnetwork.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "laos_network": {
+      "slug": "laos_network",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png",
+      "providers": {
+        "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3370,
+        "genesisHash": "0xe8aecc950e82f1a375cf650fa72d07e0ad9bef7118f49b92283b63e88b1de88b",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://laos.statescan.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -311,7 +368,9 @@
     "thundercore": "e12da5c4544b867645140511e8d654e3",
     "jamton": "8cd882af51e6c776a988ff8963edd769",
     "etherlink": "b2c9dcc9c26e72f07241618c18224988",
-    "polkadot_people": "2ed901aabe3cf9dec5591d362c25e25a"
+    "polkadot_people": "2ed901aabe3cf9dec5591d362c25e25a",
+    "laos_network_evm": "22328579c395f191c0e83362a3454774",
+    "laos_network": "4331348247e8d48c3724ab768c472534"
   },
   "ChainAsset": {
     "statemint-LOCAL-LOVA": {
@@ -326,7 +385,7 @@
       "metadata": {
         "assetId": "50000028"
       },
-      "multiChainAsset": null,
+      "multiChainAsset": "LOVA-AIWeb3",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png"
     },
@@ -342,7 +401,7 @@
       "metadata": {
         "assetId": "1000639"
       },
-      "multiChainAsset": null,
+      "multiChainAsset": "LOVA-AIWeb3",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
     },
@@ -491,11 +550,39 @@
       "multiChainAsset": "BNC-BifrostPolkadot",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
+    },
+    "laos_network_evm-NATIVE-LAOS": {
+      "originChain": "laos_network_evm",
+      "slug": "laos_network_evm-NATIVE-LAOS",
+      "name": "LAOS",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "LAOS-LAOS",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png"
+    },
+    "laos_network-NATIVE-LAOS": {
+      "originChain": "laos_network",
+      "slug": "laos_network-NATIVE-LAOS",
+      "name": "LAOS",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "LAOS-LAOS",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
     }
   },
   "ChainAssetHashMap": {
-    "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
-    "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d",
+    "statemint-LOCAL-LOVA": "581f10fe4a65fa637e7b7cf02b237856",
+    "hydradx_main-LOCAL-LOVA": "05a259a41f7b4df633b2f8af6eefa987",
     "fraxtal-NATIVE-frxETH": "1897b076c7c72bbb1c6ef960ea8ee3f2",
     "cyber-NATIVE-ETH": "8e4ef649e7da13f2d16c862a809d8117",
     "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": "c78accf76a1a0621018ac070d746637f",
@@ -505,7 +592,9 @@
     "jamton-NATIVE-DOTON": "4e60cb1bd9d380facd8cc8e4a9512c4e",
     "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d",
     "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
-    "bifrost_dot-LOCAL-vBNC": "182578aeda006de59a727055737b0e51"
+    "bifrost_dot-LOCAL-vBNC": "182578aeda006de59a727055737b0e51",
+    "laos_network_evm-NATIVE-LAOS": "8701424901977e3d4f62078ce8ab609e",
+    "laos_network-NATIVE-LAOS": "3f81754b77b19633de2c9430d47d8741"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -521,7 +610,9 @@
     "jamton-native-doton": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-native-doton.png",
     "etherlink-native-xtz": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/etherlink-native-xtz.png",
     "polkadot_people-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png",
-    "bifrost_dot-local-vbnc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
+    "bifrost_dot-local-vbnc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png",
+    "laos_network_evm-native-laos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png",
+    "laos_network-native-laos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
   },
   "ChainLogoMap": {
     "aventus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus.png",
@@ -533,7 +624,9 @@
     "thundercore": null,
     "jamton": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jamton.png",
     "etherlink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/etherlink.png",
-    "polkadot_people": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_people.png"
+    "polkadot_people": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_people.png",
+    "laos_network_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
+    "laos_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png"
   },
   "mAssetLogoMap": {}
 }
