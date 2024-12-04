@@ -12904,7 +12904,7 @@
     "metadata": {
       "assetId": "50000028"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "LOVA-AIWeb3",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png"
   },
@@ -12920,7 +12920,7 @@
     "metadata": {
       "assetId": "1000639"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "LOVA-AIWeb3",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
   },
@@ -13069,5 +13069,33 @@
     "multiChainAsset": "BNC-BifrostPolkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
+  },
+  "laos_network_evm-NATIVE-LAOS": {
+    "originChain": "laos_network_evm",
+    "slug": "laos_network_evm-NATIVE-LAOS",
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18,
+    "priceId": "laos-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "LAOS-LAOS",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png"
+  },
+  "laos_network-NATIVE-LAOS": {
+    "originChain": "laos_network",
+    "slug": "laos_network-NATIVE-LAOS",
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18,
+    "priceId": "laos-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "LAOS-LAOS",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
   }
 }
