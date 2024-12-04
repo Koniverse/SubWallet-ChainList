@@ -13037,5 +13037,37 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/etherlink-native-xtz.png"
+  },
+  "polkadot_people-NATIVE-DOT": {
+    "originChain": "polkadot_people",
+    "slug": "polkadot_people-NATIVE-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png"
+  },
+  "bifrost_dot-LOCAL-vBNC": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vBNC",
+    "name": "Voucher BNC",
+    "symbol": "vBNC",
+    "decimals": 12,
+    "priceId": "bifrost-native-coin",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken": "BNC"
+      }
+    },
+    "multiChainAsset": "BNC-BifrostPolkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
   }
 }
