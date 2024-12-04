@@ -10642,5 +10642,62 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "jamton": {
+    "slug": "jamton",
+    "name": "JAMTON",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jamton.png",
+    "providers": {
+      "Jamton": "wss://rpc.jamton.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3397,
+      "genesisHash": "0xbb9233e202ec014707f82ddb90e84ee9efece8fefee287ad4ad646d869a6c24a",
+      "addressPrefix": 5589,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000",
+      "symbol": "DOTON",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "etherlink": {
+    "slug": "etherlink",
+    "name": "Etherlink Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/etherlink.png",
+    "providers": {
+      "Etherlink": "https://node.mainnet.etherlink.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 42793,
+      "blockExplorer": "https://explorer.etherlink.com/",
+      "existentialDeposit": "0",
+      "symbol": "XTZ",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
