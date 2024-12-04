@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.0",
+  "patchVersion": "0.2.96-beta.1",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733125614292,
+  "timestamp": 1733301518506,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -206,6 +206,63 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "jamton": {
+      "slug": "jamton",
+      "name": "JAMTON",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jamton.png",
+      "providers": {
+        "Jamton": "wss://rpc.jamton.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3397,
+        "genesisHash": "0xbb9233e202ec014707f82ddb90e84ee9efece8fefee287ad4ad646d869a6c24a",
+        "addressPrefix": 5589,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000000",
+        "symbol": "DOTON",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "etherlink": {
+      "slug": "etherlink",
+      "name": "Etherlink Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/etherlink.png",
+      "providers": {
+        "Etherlink": "https://node.mainnet.etherlink.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 42793,
+        "blockExplorer": "https://explorer.etherlink.com/",
+        "existentialDeposit": "0",
+        "symbol": "XTZ",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -215,7 +272,9 @@
     "cyber": "7f5ea9590fbff4a2a5417e11ce7e1a2f",
     "g6_testnet": "96df11e911e370860a1efbe5e2c6c443",
     "metadium_testnet": "cdcbf6b8ab0ebfd70f15378837239063",
-    "thundercore": "e12da5c4544b867645140511e8d654e3"
+    "thundercore": "e12da5c4544b867645140511e8d654e3",
+    "jamton": "8cd882af51e6c776a988ff8963edd769",
+    "etherlink": "b2c9dcc9c26e72f07241618c18224988"
   },
   "ChainAsset": {
     "statemint-LOCAL-LOVA": {
@@ -335,6 +394,34 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": null
+    },
+    "jamton-NATIVE-DOTON": {
+      "originChain": "jamton",
+      "slug": "jamton-NATIVE-DOTON",
+      "name": "DOTON",
+      "symbol": "DOTON",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-native-doton.png"
+    },
+    "etherlink-NATIVE-XTZ": {
+      "originChain": "etherlink",
+      "slug": "etherlink-NATIVE-XTZ",
+      "name": "Tezos",
+      "symbol": "XTZ",
+      "decimals": 18,
+      "priceId": "tezos",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/etherlink-native-xtz.png"
     }
   },
   "ChainAssetHashMap": {
@@ -345,7 +432,9 @@
     "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": "c78accf76a1a0621018ac070d746637f",
     "g6_testnet-NATIVE-GSX": "7594d7344ea112698652cdd41ed0974a",
     "metadium_testnet-NATIVE-KAL": "d58deb5869731528bd6829c7d52fc770",
-    "thundercore-NATIVE-TST": "9e5066751f2bff2d0ab101d0d2ab1926"
+    "thundercore-NATIVE-TST": "9e5066751f2bff2d0ab101d0d2ab1926",
+    "jamton-NATIVE-DOTON": "4e60cb1bd9d380facd8cc8e4a9512c4e",
+    "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -357,7 +446,9 @@
     "storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5.png",
     "g6_testnet-native-gsx": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/g6_testnet-native-gsx.png",
     "metadium_testnet-native-kal": null,
-    "thundercore-native-tst": null
+    "thundercore-native-tst": null,
+    "jamton-native-doton": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-native-doton.png",
+    "etherlink-native-xtz": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/etherlink-native-xtz.png"
   },
   "ChainLogoMap": {
     "aventus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus.png",
@@ -366,7 +457,9 @@
     "cyber": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cyber.png",
     "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "metadium_testnet": null,
-    "thundercore": null
+    "thundercore": null,
+    "jamton": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jamton.png",
+    "etherlink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/etherlink.png"
   },
   "mAssetLogoMap": {}
 }
