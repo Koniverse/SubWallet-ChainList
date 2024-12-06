@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.4",
+  "patchVersion": "0.2.96-beta.5",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733461803605,
+  "timestamp": 1733481556115,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -539,7 +539,7 @@
       "name": "Voucher BNC",
       "symbol": "vBNC",
       "decimals": 12,
-      "priceId": "bifrost-native-coin",
+      "priceId": null,
       "minAmount": "10000000000",
       "assetType": "LOCAL",
       "metadata": {
@@ -547,7 +547,7 @@
           "VToken": "BNC"
         }
       },
-      "multiChainAsset": "BNC-BifrostPolkadot",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
     },
@@ -592,7 +592,7 @@
     "jamton-NATIVE-DOTON": "4e60cb1bd9d380facd8cc8e4a9512c4e",
     "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d",
     "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
-    "bifrost_dot-LOCAL-vBNC": "182578aeda006de59a727055737b0e51",
+    "bifrost_dot-LOCAL-vBNC": "a3a5b2b89d43e07c20dd65a14dae17de",
     "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
     "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530"
   },
