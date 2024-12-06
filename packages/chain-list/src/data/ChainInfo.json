@@ -10740,7 +10740,7 @@
     "slug": "laos_network_evm",
     "name": "LAOS Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
     "providers": {
       "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
@@ -10766,7 +10766,7 @@
     "slug": "laos_network",
     "name": "LAOS Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png",
     "providers": {
       "LaosFoundation": "wss://rpc.laos.laosfoundation.io"

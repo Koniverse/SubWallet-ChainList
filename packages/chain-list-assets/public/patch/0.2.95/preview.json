@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.6",
+  "patchVersion": "0.2.96-beta.7",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733481556115,
+  "timestamp": 1733490123327,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -299,6 +299,63 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "laos_network_evm": {
+      "slug": "laos_network_evm",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
+      "providers": {
+        "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 6283,
+        "blockExplorer": "https://explorer.laosnetwork.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "laos_network": {
+      "slug": "laos_network",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png",
+      "providers": {
+        "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3370,
+        "genesisHash": "0xe8aecc950e82f1a375cf650fa72d07e0ad9bef7118f49b92283b63e88b1de88b",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://laos.statescan.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -311,7 +368,9 @@
     "thundercore": "e12da5c4544b867645140511e8d654e3",
     "jamton": "8cd882af51e6c776a988ff8963edd769",
     "etherlink": "b2c9dcc9c26e72f07241618c18224988",
-    "polkadot_people": "2ed901aabe3cf9dec5591d362c25e25a"
+    "polkadot_people": "2ed901aabe3cf9dec5591d362c25e25a",
+    "laos_network_evm": "22328579c395f191c0e83362a3454774",
+    "laos_network": "4331348247e8d48c3724ab768c472534"
   },
   "ChainAsset": {
     "statemint-LOCAL-LOVA": {
@@ -473,6 +532,34 @@
       "multiChainAsset": "DOT-Polkadot",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png"
+    },
+    "laos_network_evm-NATIVE-LAOS": {
+      "originChain": "laos_network_evm",
+      "slug": "laos_network_evm-NATIVE-LAOS",
+      "name": "LAOS",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png"
+    },
+    "laos_network-NATIVE-LAOS": {
+      "originChain": "laos_network",
+      "slug": "laos_network-NATIVE-LAOS",
+      "name": "LAOS",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
     }
   },
   "ChainAssetHashMap": {
@@ -486,7 +573,9 @@
     "thundercore-NATIVE-TST": "9e5066751f2bff2d0ab101d0d2ab1926",
     "jamton-NATIVE-DOTON": "4e60cb1bd9d380facd8cc8e4a9512c4e",
     "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d",
-    "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f"
+    "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
+    "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
+    "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -501,7 +590,9 @@
     "thundercore-native-tst": null,
     "jamton-native-doton": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-native-doton.png",
     "etherlink-native-xtz": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/etherlink-native-xtz.png",
-    "polkadot_people-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png"
+    "polkadot_people-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png",
+    "laos_network_evm-native-laos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png",
+    "laos_network-native-laos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
   },
   "ChainLogoMap": {
     "aventus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aventus.png",
@@ -513,7 +604,9 @@
     "thundercore": null,
     "jamton": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jamton.png",
     "etherlink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/etherlink.png",
-    "polkadot_people": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_people.png"
+    "polkadot_people": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_people.png",
+    "laos_network_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
+    "laos_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png"
   },
   "mAssetLogoMap": {}
 }
