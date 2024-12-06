@@ -13058,7 +13058,7 @@
     "name": "Voucher BNC",
     "symbol": "vBNC",
     "decimals": 12,
-    "priceId": "bifrost-native-coin",
+    "priceId": null,
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -13066,7 +13066,7 @@
         "VToken": "BNC"
       }
     },
-    "multiChainAsset": "BNC-BifrostPolkadot",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
   },
