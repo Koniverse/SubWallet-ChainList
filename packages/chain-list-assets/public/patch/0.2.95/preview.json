@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.96-beta.4",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733309432091,
+  "timestamp": 1733461803605,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -385,7 +385,7 @@
       "metadata": {
         "assetId": "50000028"
       },
-      "multiChainAsset": "LOVA-AIWeb3",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png"
     },
@@ -401,7 +401,7 @@
       "metadata": {
         "assetId": "1000639"
       },
-      "multiChainAsset": "LOVA-AIWeb3",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
     },
@@ -561,7 +561,7 @@
       "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": "LAOS-LAOS",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png"
     },
@@ -575,14 +575,14 @@
       "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": "LAOS-LAOS",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
     }
   },
   "ChainAssetHashMap": {
-    "statemint-LOCAL-LOVA": "581f10fe4a65fa637e7b7cf02b237856",
-    "hydradx_main-LOCAL-LOVA": "05a259a41f7b4df633b2f8af6eefa987",
+    "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
+    "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d",
     "fraxtal-NATIVE-frxETH": "1897b076c7c72bbb1c6ef960ea8ee3f2",
     "cyber-NATIVE-ETH": "8e4ef649e7da13f2d16c862a809d8117",
     "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": "c78accf76a1a0621018ac070d746637f",
@@ -593,8 +593,8 @@
     "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d",
     "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
     "bifrost_dot-LOCAL-vBNC": "182578aeda006de59a727055737b0e51",
-    "laos_network_evm-NATIVE-LAOS": "8701424901977e3d4f62078ce8ab609e",
-    "laos_network-NATIVE-LAOS": "3f81754b77b19633de2c9430d47d8741"
+    "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
+    "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
