@@ -12680,6 +12680,22 @@
     "hasValue": false,
     "icon": null
   },
+  "cardano_preproduction-CIP26-BLUEDOT": {
+    "originChain": "cardano_preproduction",
+    "slug": "cardano_preproduction-CIP26-BLUEDOT",
+    "name": "Bluedot Cardano",
+    "symbol": "BLUEDOT",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "policyId": "3d64987c567150b011edeed959cd1293432b7f2bc228982e2be395f70014df10426c7565646f742043617264616e6f"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
   "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59": {
     "originChain": "cardano",
     "slug": "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59",
