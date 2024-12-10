@@ -216,6 +216,13 @@
     "destChain": "bittensor",
     "path": "SWAP"
   },
+  "ethereum-NATIVE-ETH___polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "srcChain": "ethereum",
+    "destChain": "polygon",
+    "path": "XCM"
+  },
   "moonbeam-NATIVE-GLMR___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "moonbeam-NATIVE-GLMR",
     "destAsset": "moonbeam-LOCAL-xcDOT",
@@ -1610,6 +1617,13 @@
     "destChain": "polygonzkEvm_cardona",
     "path": "XCM"
   },
+  "sepolia_ethereum-NATIVE-ETH___polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "polygon_amoy",
+    "path": "XCM"
+  },
   "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "destAsset": "chainflip_dot-NATIVE-pDOT",
@@ -2614,6 +2628,13 @@
     "destChain": "arbitrum_one",
     "path": "SWAP"
   },
+  "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619___ethereum-NATIVE-ETH": {
+    "srcAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "polygon",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
     "srcAsset": "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
     "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
@@ -2626,6 +2647,13 @@
     "destAsset": "availTuringTest-NATIVE-AVAIL",
     "srcChain": "sepolia_ethereum",
     "destChain": "availTuringTest",
+    "path": "XCM"
+  },
+  "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "polygon_amoy",
+    "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
   "polygonzkEvm_cardona-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
