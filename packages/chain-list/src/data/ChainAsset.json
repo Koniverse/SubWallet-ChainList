@@ -13097,5 +13097,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
+  },
+  "hydradx_main-LOCAL-AAVE": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-AAVE",
+    "name": "Aave",
+    "symbol": "AAVE",
+    "decimals": 18,
+    "priceId": "aave",
+    "minAmount": "59084194977843",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000624"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-aave.png"
   }
 }
