@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.10",
+  "patchVersion": "0.2.96-beta.11",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733988485770,
+  "timestamp": 1734075676472,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -576,6 +576,22 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-aave.png"
+    },
+    "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": {
+      "originChain": "optimism",
+      "slug": "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c",
+      "name": "Neurolanche",
+      "symbol": "NEROX",
+      "decimals": 18,
+      "priceId": "nerox-ai",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
     }
   },
   "ChainAssetHashMap": {
@@ -592,7 +608,8 @@
     "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
     "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
     "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530",
-    "hydradx_main-LOCAL-AAVE": "1693ffa37caa6a880917c0bfdcff6c40"
+    "hydradx_main-LOCAL-AAVE": "1693ffa37caa6a880917c0bfdcff6c40",
+    "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": "115fcbd15f87e3e2ad79a6ee3774f225"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -611,7 +628,8 @@
     "laos_network_evm-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network_evm-native-laos.png",
     "laos_network-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network-native-laos.png",
     "hydradx_main-local-aave": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-aave.png",
-    "moonbeam-erc20-cp": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cp.png"
+    "moonbeam-erc20-cp": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cp.png",
+    "optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c": "https://chain-list-assets.subwallet.app/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
   },
   "ChainLogoMap": {
     "aventus": "https://chain-list-assets.subwallet.app/assets/chains/aventus.png",
