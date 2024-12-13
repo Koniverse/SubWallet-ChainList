@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.96-beta.8",
+  "patchVersion": "0.2.96-beta.10",
   "appliedVersion": "0.2.95",
-  "timestamp": 1733490123327,
+  "timestamp": 1733988485770,
   "ChainInfo": {
     "aventus": {
       "slug": "aventus",
@@ -560,6 +560,22 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network-native-laos.png"
+    },
+    "hydradx_main-LOCAL-AAVE": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-AAVE",
+      "name": "Aave",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "priceId": "aave",
+      "minAmount": "59084194977843",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000624"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-aave.png"
     }
   },
   "ChainAssetHashMap": {
@@ -575,7 +591,8 @@
     "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d",
     "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
     "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
-    "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530"
+    "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530",
+    "hydradx_main-LOCAL-AAVE": "1693ffa37caa6a880917c0bfdcff6c40"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -592,7 +609,9 @@
     "etherlink-native-xtz": "https://chain-list-assets.subwallet.app/assets/chain-assets/etherlink-native-xtz.png",
     "polkadot_people-native-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/polkadot_people-native-dot.png",
     "laos_network_evm-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network_evm-native-laos.png",
-    "laos_network-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network-native-laos.png"
+    "laos_network-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network-native-laos.png",
+    "hydradx_main-local-aave": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-aave.png",
+    "moonbeam-erc20-cp": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cp.png"
   },
   "ChainLogoMap": {
     "aventus": "https://chain-list-assets.subwallet.app/assets/chains/aventus.png",
