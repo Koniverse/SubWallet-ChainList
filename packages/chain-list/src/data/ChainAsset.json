@@ -13113,5 +13113,21 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-aave.png"
+  },
+  "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c",
+    "name": "Neurolanche",
+    "symbol": "NEROX",
+    "decimals": 18,
+    "priceId": "nerox-ai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
   }
 }
