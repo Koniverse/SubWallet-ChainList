@@ -9019,8 +9019,19 @@
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/peaq.png",
     "providers": {
       "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
+      "OnfinalityEVM": "https://peaq.api.onfinality.io/public"
     },
-    "evmInfo": null,
+    "evmInfo": {
+      "evmChainId": 3338,
+      "blockExplorer": "https://peaq.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"],
+"abiExplorer": null
+    },
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 3338,
