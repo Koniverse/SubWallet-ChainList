@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.97-beta.0",
+  "patchVersion": "0.2.97-beta.1",
   "appliedVersion": "0.2.96",
-  "timestamp": 1735026775327,
+  "timestamp": 1735034447068,
   "ChainInfo": {
     "ithaca": {
       "slug": "ithaca",
@@ -88,7 +88,7 @@
       "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": null,
+      "multiChainAsset": "ETH-EthereumSepolia",
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
     },
@@ -102,7 +102,7 @@
       "minAmount": "0",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": null,
+      "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png"
     }
@@ -110,7 +110,7 @@
   "ChainAssetHashMap": {
     "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": "d58bb8a68c1c18676533f5e45f567b3c",
     "ithaca-NATIVE-ETH": "22274dc3c4bfbcddf40a45ea756b96be",
-    "ink-NATIVE-ETH": "80426f3ef116edc84e56f00ace8c2c62"
+    "ink-NATIVE-ETH": "7933f87dcb9df4b65cf45524ba809f0b"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
