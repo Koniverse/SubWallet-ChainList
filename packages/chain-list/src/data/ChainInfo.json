@@ -10738,5 +10738,58 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "ithaca": {
+    "slug": "ithaca",
+    "name": "Odyssey Ithaca",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
+    "providers": {
+      "Odyssey": "https://odyssey.ithaca.xyz"
+    },
+    "evmInfo": {
+      "evmChainId": 911867,
+      "blockExplorer": "https://odyssey-explorer.ithaca.xyz",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "ink": {
+    "slug": "ink",
+    "name": "Ink",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ink.png",
+    "providers": {
+      "Gel Ink": "https://rpc-gel.inkonchain.com/",
+      "Qnd Ink": "https://rpc-qnd.inkonchain.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 57073,
+      "blockExplorer": "https://explorer.inkonchain.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
