@@ -9646,7 +9646,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ton.png",
     "providers": {
-      "Toncenter": "https://ton-rpc.subwallet.app"
+      "Toncenter": "https://ton-rpc.subwallet.app",
+      "Cdmteck": "https://ton-check.cdmteck.com"
     },
     "evmInfo": null,
     "substrateInfo": null,

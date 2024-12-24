@@ -13144,7 +13144,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-EthereumSepolia",
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
   },
@@ -13158,7 +13158,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png"
   }
