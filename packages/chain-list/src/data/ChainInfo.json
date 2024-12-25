@@ -10766,5 +10766,57 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "celo": {
+    "slug": "celo",
+    "name": "Celo Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo.png",
+    "providers": {
+      "Celo Forno": "https://forno.celo.org/"
+    },
+    "evmInfo": {
+      "evmChainId": 42220,
+      "blockExplorer": "https://explorer.celo.org/",
+      "existentialDeposit": "0",
+      "symbol": "CELO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "celo_alfajores": {
+    "slug": "celo_alfajores",
+    "name": "Celo Alfajores",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo_alfajores.png",
+    "providers": {
+      "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
+    },
+    "evmInfo": {
+      "evmChainId": 44787,
+      "blockExplorer": "https://celo-alfajores.blockscout.com/",
+      "existentialDeposit": "0",
+      "symbol": "CELO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
