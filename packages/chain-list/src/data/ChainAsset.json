@@ -13134,20 +13134,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png"
   },
-  "ithaca-NATIVE-ETH": {
-    "originChain": "ithaca",
-    "slug": "ithaca-NATIVE-ETH",
-    "name": "Ethereum",
-    "symbol": "ETH",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "ETH-EthereumSepolia",
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
-  },
   "ink-NATIVE-ETH": {
     "originChain": "ink",
     "slug": "ink-NATIVE-ETH",
