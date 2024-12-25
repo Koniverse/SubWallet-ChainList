@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.97-beta.2",
+  "patchVersion": "0.2.97-beta.3",
   "appliedVersion": "0.2.96",
-  "timestamp": 1735111841905,
+  "timestamp": 1735125576882,
   "ChainInfo": {
     "ink": {
       "slug": "ink",
@@ -29,12 +29,84 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "celo": {
+      "slug": "celo",
+      "name": "Celo Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo.png",
+      "providers": {
+        "Celo Forno": "https://forno.celo.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 42220,
+        "blockExplorer": "https://explorer.celo.org/",
+        "existentialDeposit": "0",
+        "symbol": "CELO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "celo_alfajores": {
+      "slug": "celo_alfajores",
+      "name": "Celo Alfajores",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo_alfajores.png",
+      "providers": {
+        "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 44787,
+        "blockExplorer": "https://celo-alfajores.blockscout.com/",
+        "existentialDeposit": "0",
+        "symbol": "CELO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "ink": "96b957651b27a7d4e78cccb3a8bfeae5"
+    "ink": "96b957651b27a7d4e78cccb3a8bfeae5",
+    "celo": "4f4104940aed6b19d3434441f072fe51",
+    "celo_alfajores": "3a189bd56e5dbfe3d3ee0b702799f1b6"
   },
   "ChainAsset": {
+    "bifrost_dot-LOCAL-vBNC": {
+      "originChain": "bifrost_dot",
+      "slug": "bifrost_dot-LOCAL-vBNC",
+      "name": "Voucher BNC",
+      "symbol": "vBNC",
+      "decimals": 12,
+      "priceId": "voucher-bnc",
+      "minAmount": "10000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "VToken": "BNC"
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
+    },
     "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": {
       "originChain": "zksync_era",
       "slug": "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
@@ -64,20 +136,56 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png"
+    },
+    "celo-NATIVE-CELO": {
+      "originChain": "celo",
+      "slug": "celo-NATIVE-CELO",
+      "name": "Celo",
+      "symbol": "CELO",
+      "decimals": 18,
+      "priceId": "celo",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo-native-celo.png"
+    },
+    "celo_alfajores-NATIVE-CELO": {
+      "originChain": "celo_alfajores",
+      "slug": "celo_alfajores-NATIVE-CELO",
+      "name": "Celo",
+      "symbol": "CELO",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png"
     }
   },
   "ChainAssetHashMap": {
+    "bifrost_dot-LOCAL-vBNC": "d5a8ce2931310183b94484b56171aa09",
     "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": "d58bb8a68c1c18676533f5e45f567b3c",
-    "ink-NATIVE-ETH": "7933f87dcb9df4b65cf45524ba809f0b"
+    "ink-NATIVE-ETH": "7933f87dcb9df4b65cf45524ba809f0b",
+    "celo-NATIVE-CELO": "18a42a96c754c01f1b44d6d9780d9ccc",
+    "celo_alfajores-NATIVE-CELO": "239c2442f6735c18dbd20444d60ea328"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "bifrost_dot-local-vbnc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png",
     "zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png",
-    "ink-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png"
+    "ink-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png",
+    "celo-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo-native-celo.png",
+    "celo_alfajores-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png"
   },
   "ChainLogoMap": {
-    "ink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ink.png"
+    "ink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ink.png",
+    "celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo.png",
+    "celo_alfajores": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo_alfajores.png"
   },
   "mAssetLogoMap": {}
 }
