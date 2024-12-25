@@ -1,34 +1,8 @@
 {
-  "patchVersion": "0.2.97-beta.1",
+  "patchVersion": "0.2.97-beta.2",
   "appliedVersion": "0.2.96",
-  "timestamp": 1735034447068,
+  "timestamp": 1735111841905,
   "ChainInfo": {
-    "ithaca": {
-      "slug": "ithaca",
-      "name": "Odyssey Ithaca",
-      "isTestnet": true,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
-      "providers": {
-        "Odyssey": "https://odyssey.ithaca.xyz"
-      },
-      "evmInfo": {
-        "evmChainId": 911867,
-        "blockExplorer": "https://odyssey-explorer.ithaca.xyz",
-        "existentialDeposit": "0",
-        "symbol": "ETH",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
     "ink": {
       "slug": "ink",
       "name": "Ink",
@@ -58,7 +32,6 @@
     }
   },
   "ChainInfoHashMap": {
-    "ithaca": "dad334e734eb2d339af249bf1bfa577d",
     "ink": "96b957651b27a7d4e78cccb3a8bfeae5"
   },
   "ChainAsset": {
@@ -78,20 +51,6 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png"
     },
-    "ithaca-NATIVE-ETH": {
-      "originChain": "ithaca",
-      "slug": "ithaca-NATIVE-ETH",
-      "name": "Ethereum",
-      "symbol": "ETH",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": "ETH-EthereumSepolia",
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
-    },
     "ink-NATIVE-ETH": {
       "originChain": "ink",
       "slug": "ink-NATIVE-ETH",
@@ -109,18 +68,15 @@
   },
   "ChainAssetHashMap": {
     "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": "d58bb8a68c1c18676533f5e45f567b3c",
-    "ithaca-NATIVE-ETH": "22274dc3c4bfbcddf40a45ea756b96be",
     "ink-NATIVE-ETH": "7933f87dcb9df4b65cf45524ba809f0b"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png",
-    "ithaca-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png",
     "ink-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png"
   },
   "ChainLogoMap": {
-    "ithaca": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
     "ink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ink.png"
   },
   "mAssetLogoMap": {}
