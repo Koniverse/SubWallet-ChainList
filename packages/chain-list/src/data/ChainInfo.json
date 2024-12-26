@@ -10818,5 +10818,83 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "lens_network_sepolia": {
+    "slug": "lens_network_sepolia",
+    "name": "Lens Network Sepolia Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/lens_network_sepolia.png",
+    "providers": {
+      "Lens": "https://rpc.testnet.lens.dev/"
+    },
+    "evmInfo": {
+      "evmChainId": 37111,
+      "blockExplorer": "https://block-explorer.testnet.lens.dev/",
+      "existentialDeposit": "0",
+      "symbol": "GRASS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "sophon_testnet": {
+    "slug": "sophon_testnet",
+    "name": "Sophon Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sophon_testnet.png",
+    "providers": {
+      "Sophon": "https://rpc.testnet.sophon.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 531050104,
+      "blockExplorer": "https://explorer.testnet.sophon.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "SOPH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "abstract_testnet": {
+    "slug": "abstract_testnet",
+    "name": "Abstract Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/abstract_testnet.png",
+    "providers": {
+      "Abs": "https://api.testnet.abs.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 11124,
+      "blockExplorer": "https://explorer.testnet.abs.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
