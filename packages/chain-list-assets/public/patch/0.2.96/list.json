@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.97-beta.3",
+  "patchVersion": "0.2.97-beta.4",
   "appliedVersion": "0.2.96",
-  "timestamp": 1735125576882,
+  "timestamp": 1735203762230,
   "ChainInfo": {
     "ink": {
       "slug": "ink",
@@ -81,12 +81,93 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "lens_network_sepolia": {
+      "slug": "lens_network_sepolia",
+      "name": "Lens Network Sepolia Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/lens_network_sepolia.png",
+      "providers": {
+        "Lens": "https://rpc.testnet.lens.dev/"
+      },
+      "evmInfo": {
+        "evmChainId": 37111,
+        "blockExplorer": "https://block-explorer.testnet.lens.dev/",
+        "existentialDeposit": "0",
+        "symbol": "GRASS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "sophon_testnet": {
+      "slug": "sophon_testnet",
+      "name": "Sophon Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/sophon_testnet.png",
+      "providers": {
+        "Sophon": "https://rpc.testnet.sophon.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 531050104,
+        "blockExplorer": "https://explorer.testnet.sophon.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "SOPH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "abstract_testnet": {
+      "slug": "abstract_testnet",
+      "name": "Abstract Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/abstract_testnet.png",
+      "providers": {
+        "Abs": "https://api.testnet.abs.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 11124,
+        "blockExplorer": "https://explorer.testnet.abs.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
     "ink": "96b957651b27a7d4e78cccb3a8bfeae5",
     "celo": "4f4104940aed6b19d3434441f072fe51",
-    "celo_alfajores": "3a189bd56e5dbfe3d3ee0b702799f1b6"
+    "celo_alfajores": "3a189bd56e5dbfe3d3ee0b702799f1b6",
+    "lens_network_sepolia": "98ca852560f1baa57ddddf4d414fcc38",
+    "sophon_testnet": "db9ed0a09912cd39e9fcd558cca32c98",
+    "abstract_testnet": "b55674ce20a2a8d4f67b25d57976a57b"
   },
   "ChainAsset": {
     "bifrost_dot-LOCAL-vBNC": {
@@ -164,6 +245,48 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo_alfajores-native-celo.png"
+    },
+    "lens_network_sepolia-NATIVE-GRASS": {
+      "originChain": "lens_network_sepolia",
+      "slug": "lens_network_sepolia-NATIVE-GRASS",
+      "name": "GRASS",
+      "symbol": "GRASS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/lens_network_sepolia-native-grass.png"
+    },
+    "sophon_testnet-NATIVE-SOPH": {
+      "originChain": "sophon_testnet",
+      "slug": "sophon_testnet-NATIVE-SOPH",
+      "name": "Sophon",
+      "symbol": "SOPH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/sophon_testnet-native-soph.png"
+    },
+    "abstract_testnet-NATIVE-ETH": {
+      "originChain": "abstract_testnet",
+      "slug": "abstract_testnet-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/abstract_testnet-native-eth.png"
     }
   },
   "ChainAssetHashMap": {
@@ -171,7 +294,10 @@
     "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": "d58bb8a68c1c18676533f5e45f567b3c",
     "ink-NATIVE-ETH": "7933f87dcb9df4b65cf45524ba809f0b",
     "celo-NATIVE-CELO": "18a42a96c754c01f1b44d6d9780d9ccc",
-    "celo_alfajores-NATIVE-CELO": "239c2442f6735c18dbd20444d60ea328"
+    "celo_alfajores-NATIVE-CELO": "239c2442f6735c18dbd20444d60ea328",
+    "lens_network_sepolia-NATIVE-GRASS": "16f91d233a34cb92c389c4c47a5e5d6a",
+    "sophon_testnet-NATIVE-SOPH": "2ac9de4cdbb0733c2a8d1e2eaa6928ce",
+    "abstract_testnet-NATIVE-ETH": "fa1602ae8d860037af5531d7004e5ae8"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -180,12 +306,18 @@
     "zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e": "https://chain-list-assets.subwallet.app/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png",
     "ink-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/ink-native-eth.png",
     "celo-native-celo": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo-native-celo.png",
-    "celo_alfajores-native-celo": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo_alfajores-native-celo.png"
+    "celo_alfajores-native-celo": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo_alfajores-native-celo.png",
+    "lens_network_sepolia-native-grass": "https://chain-list-assets.subwallet.app/assets/chain-assets/lens_network_sepolia-native-grass.png",
+    "sophon_testnet-native-soph": "https://chain-list-assets.subwallet.app/assets/chain-assets/sophon_testnet-native-soph.png",
+    "abstract_testnet-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/abstract_testnet-native-eth.png"
   },
   "ChainLogoMap": {
     "ink": "https://chain-list-assets.subwallet.app/assets/chains/ink.png",
     "celo": "https://chain-list-assets.subwallet.app/assets/chains/celo.png",
-    "celo_alfajores": "https://chain-list-assets.subwallet.app/assets/chains/celo_alfajores.png"
+    "celo_alfajores": "https://chain-list-assets.subwallet.app/assets/chains/celo_alfajores.png",
+    "lens_network_sepolia": "https://chain-list-assets.subwallet.app/assets/chains/lens_network_sepolia.png",
+    "sophon_testnet": "https://chain-list-assets.subwallet.app/assets/chains/sophon_testnet.png",
+    "abstract_testnet": "https://chain-list-assets.subwallet.app/assets/chains/abstract_testnet.png"
   },
   "mAssetLogoMap": {}
 }
