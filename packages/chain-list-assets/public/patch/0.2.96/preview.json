@@ -1,8 +1,148 @@
 {
-  "patchVersion": "0.2.97-beta.4",
+  "patchVersion": "0.2.97-beta.5",
   "appliedVersion": "0.2.96",
-  "timestamp": 1735203762230,
+  "timestamp": 1735544407674,
   "ChainInfo": {
+    "bifrost": {
+      "slug": "bifrost",
+      "name": "Bifrost Kusama",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
+      "providers": {
+        "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
+        "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2001,
+        "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
+        "blockExplorer": "https://bifrost-kusama.subscan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2262-95",
+            "paraId": 2262,
+            "status": "won",
+            "startTime": "2023-03-08T04:27:00.000Z",
+            "endTime": "2024-02-07T04:27:00.000Z",
+            "auctionIndex": 71,
+            "firstPeriod": 28,
+            "lastPeriod": 35
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2001-9",
+            "paraId": 2001,
+            "status": "won",
+            "startTime": "2021-06-16T04:27:00.000Z",
+            "endTime": "2022-05-18T04:27:00.000Z",
+            "auctionIndex": 5,
+            "firstPeriod": 13,
+            "lastPeriod": 20
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "bifrost-kusama",
+        "chainBalanceSlug": "bifrost"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "bifrost_dot": {
+      "slug": "bifrost_dot",
+      "name": "Bifrost Polkadot",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
+      "providers": {
+        "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+        "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
+        "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2030,
+        "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
+        "blockExplorer": "https://bifrost.subscan.io",
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2030-37",
+            "paraId": 2030,
+            "status": "won",
+            "startTime": "2022-06-07T01:48:00.000Z",
+            "endTime": "2024-04-09T01:48:00.000Z",
+            "auctionIndex": 65,
+            "firstPeriod": 8,
+            "lastPeriod": 15
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "bifrost",
+        "chainBalanceSlug": "bifrost-p"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "bifrost_testnet": {
+      "slug": "bifrost_testnet",
+      "name": "Bifrost Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_testnet.png",
+      "providers": {
+        "Liebi": "wss://bifrost-rpc.rococo.liebi.com/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "rococo",
+        "paraId": 2030,
+        "genesisHash": "0x0c003b98abbedae774f5e13cd6146781317016725ab4db34312ea2681e9901f3",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://bifrost-testnet.subscan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": null,
+        "chainBalanceSlug": "bifrost-testnet"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "ink": {
       "slug": "ink",
       "name": "Ink",
@@ -162,6 +302,9 @@
     }
   },
   "ChainInfoHashMap": {
+    "bifrost": "5bde9444b0264d6725d38eaf0d27f47c",
+    "bifrost_dot": "49eb0782c40bef812fb127c30fdbc0e3",
+    "bifrost_testnet": "ac34e75353aeac89f400389f86ccc465",
     "ink": "96b957651b27a7d4e78cccb3a8bfeae5",
     "celo": "4f4104940aed6b19d3434441f072fe51",
     "celo_alfajores": "3a189bd56e5dbfe3d3ee0b702799f1b6",
@@ -312,6 +455,9 @@
     "abstract_testnet-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/abstract_testnet-native-eth.png"
   },
   "ChainLogoMap": {
+    "bifrost": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
+    "bifrost_dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
+    "bifrost_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_testnet.png",
     "ink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ink.png",
     "celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo.png",
     "celo_alfajores": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo_alfajores.png",
