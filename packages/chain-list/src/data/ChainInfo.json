@@ -8388,12 +8388,12 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0xd523fa2e0581f069b4f0c7b5944c21e9abc72305a08067868c91b898d1bf1dff",
+      "genesisHash": "0x03aa6b475a03f8baf7f83e448513b00eaab03aefa4ed64bd1d31160dce028add",
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://dbc.subscan.io/",
-      "existentialDeposit": "10000000000000",
+      "existentialDeposit": "0",
       "symbol": "DBC",
       "decimals": 15,
       "hasNativeNft": null,
@@ -10687,7 +10687,7 @@
     "slug": "laos_network_evm",
     "name": "LAOS Network",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
     "providers": {
       "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
@@ -10713,7 +10713,7 @@
     "slug": "laos_network",
     "name": "LAOS Network",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png",
     "providers": {
       "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
@@ -10885,6 +10885,32 @@
       "blockExplorer": "https://explorer.testnet.abs.xyz/",
       "existentialDeposit": "0",
       "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "dia_lasernet_testnet": {
+    "slug": "dia_lasernet_testnet",
+    "name": "DIA Lasernet Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dia_lasernet_testnet.png",
+    "providers": {
+      "DiaData": "https://testnet-rpc.diadata.org/"
+    },
+    "evmInfo": {
+      "evmChainId": 10640,
+      "blockExplorer": "https://testnet-explorer.diadata.org/",
+      "existentialDeposit": "0",
+      "symbol": "DIA",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",

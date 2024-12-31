@@ -8978,7 +8978,7 @@
     "symbol": "DBC",
     "decimals": 15,
     "priceId": "deepbrain-chain",
-    "minAmount": "10000000000000",
+    "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -13118,6 +13118,22 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
   },
+  "optimism-ERC20-WCT-0xeF4461891DfB3AC8572cCf7C794664A8DD927945": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-WCT-0xeF4461891DfB3AC8572cCf7C794664A8DD927945",
+    "name": "WalletConnect",
+    "symbol": "WCT",
+    "decimals": 18,
+    "priceId": "connect-token-wct",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-wct-0xef4461891dfb3ac8572ccf7c794664a8dd927945.png"
+  },
   "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": {
     "originChain": "zksync_era",
     "slug": "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
@@ -13217,5 +13233,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/abstract_testnet-native-eth.png"
+  },
+  "dia_lasernet_testnet-NATIVE-DIA": {
+    "originChain": "dia_lasernet_testnet",
+    "slug": "dia_lasernet_testnet-NATIVE-DIA",
+    "name": "DIA",
+    "symbol": "DIA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dia_lasernet_testnet-native-dia.png"
   }
 }
