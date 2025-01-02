@@ -3475,24 +3475,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-vmovr.png"
   },
-  "bifrost-LOCAL-vBNC": {
-    "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-vBNC",
-    "name": "Voucher BNC",
-    "symbol": "vBNC",
-    "decimals": 12,
-    "priceId": "bifrost-native-coin",
-    "minAmount": "10000000000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "onChainInfo": {
-        "VToken": "BNC"
-      }
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-vbnc.png"
-  },
   "moonbeam-LOCAL-xcUSDT": {
     "originChain": "moonbeam",
     "slug": "moonbeam-LOCAL-xcUSDT",

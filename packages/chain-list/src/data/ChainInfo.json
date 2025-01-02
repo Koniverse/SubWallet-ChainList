@@ -10687,7 +10687,7 @@
     "slug": "laos_network_evm",
     "name": "LAOS Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
     "providers": {
       "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
@@ -10718,7 +10718,18 @@
     "providers": {
       "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
     },
-    "evmInfo": null,
+    "evmInfo": {
+      "evmChainId": 6283,
+      "blockExplorer": "https://laos.statescan.io/",
+      "existentialDeposit": "0",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 3370,
