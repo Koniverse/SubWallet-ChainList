@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.97-beta.6",
+  "patchVersion": "0.2.97-beta.7",
   "appliedVersion": "0.2.96",
-  "timestamp": 1735634402719,
+  "timestamp": 1735805060930,
   "ChainInfo": {
     "bifrost": {
       "slug": "bifrost",
@@ -177,32 +177,6 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
-    "laos_network_evm": {
-      "slug": "laos_network_evm",
-      "name": "LAOS Network",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
-      "providers": {
-        "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
-      },
-      "evmInfo": {
-        "evmChainId": 6283,
-        "blockExplorer": "https://explorer.laosnetwork.io/",
-        "existentialDeposit": "0",
-        "symbol": "LAOS",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
     "laos_network": {
       "slug": "laos_network",
       "name": "LAOS Network",
@@ -212,7 +186,18 @@
       "providers": {
         "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
       },
-      "evmInfo": null,
+      "evmInfo": {
+        "evmChainId": 6283,
+        "blockExplorer": "https://laos.statescan.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
       "substrateInfo": {
         "relaySlug": "polkadot",
         "paraId": 3370,
@@ -423,8 +408,7 @@
     "bifrost_dot": "49eb0782c40bef812fb127c30fdbc0e3",
     "bifrost_testnet": "ac34e75353aeac89f400389f86ccc465",
     "dbcchain": "21da5c9a5905dc2583dd54ae63fb9184",
-    "laos_network_evm": "22328579c395f191c0e83362a3454774",
-    "laos_network": "4331348247e8d48c3724ab768c472534",
+    "laos_network": "7abda46729064735df7412687700fb8a",
     "ink": "96b957651b27a7d4e78cccb3a8bfeae5",
     "celo": "4f4104940aed6b19d3434441f072fe51",
     "celo_alfajores": "3a189bd56e5dbfe3d3ee0b702799f1b6",
@@ -465,20 +449,6 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
-    },
-    "laos_network_evm-NATIVE-LAOS": {
-      "originChain": "laos_network_evm",
-      "slug": "laos_network_evm-NATIVE-LAOS",
-      "name": "LAOS",
-      "symbol": "LAOS",
-      "decimals": 18,
-      "priceId": "laos-network",
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png"
     },
     "laos_network-NATIVE-LAOS": {
       "originChain": "laos_network",
@@ -628,7 +598,6 @@
   "ChainAssetHashMap": {
     "dbcchain-NATIVE-DBC": "d56b22ce4be918d387cfa8278f2a1afa",
     "bifrost_dot-LOCAL-vBNC": "d5a8ce2931310183b94484b56171aa09",
-    "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
     "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530",
     "optimism-ERC20-WCT-0xeF4461891DfB3AC8572cCf7C794664A8DD927945": "5409ab79fbb05e11a2c8bbb2d0caced6",
     "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": "d58bb8a68c1c18676533f5e45f567b3c",
@@ -645,7 +614,6 @@
   "AssetLogoMap": {
     "dbcchain-native-dbc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-native-dbc.png",
     "bifrost_dot-local-vbnc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png",
-    "laos_network_evm-native-laos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network_evm-native-laos.png",
     "laos_network-native-laos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png",
     "optimism-erc20-wct-0xef4461891dfb3ac8572ccf7c794664a8dd927945": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-wct-0xef4461891dfb3ac8572ccf7c794664a8dd927945.png",
     "zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png",
@@ -662,7 +630,6 @@
     "bifrost_dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
     "bifrost_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_testnet.png",
     "dbcchain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain.png",
-    "laos_network_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network_evm.png",
     "laos_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/laos_network.png",
     "ink": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ink.png",
     "celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/celo.png",
