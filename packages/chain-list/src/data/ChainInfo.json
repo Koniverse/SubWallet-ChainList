@@ -10824,5 +10824,37 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+    "torus": {
+    "slug": "torus",
+    "name": "Torus",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/torus-native-torus.png",
+    "providers": {
+      "mainnet": "wss://api.torus.network",
+      "testnet": "wss://api.testnet.torus.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x0e00b212768e28b176d069890c106e37c331ea9b16b207f4e9baf67b3f3f3021",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "100000000000000000",
+      "symbol": "TORUS",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
