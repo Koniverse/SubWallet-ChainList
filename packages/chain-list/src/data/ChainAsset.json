@@ -10179,14 +10179,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
-      "onChainInfo": {
-        "parents": 2,
-        "interior": {
-          "X1": {
-            "GlobalConsensus": "Kusama"
-          }
-        }
-      },
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10213,14 +10205,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
-      "onChainInfo": {
-        "parents": 2,
-        "interior": {
-          "X1": {
-            "GlobalConsensus": "Polkadot"
-          }
-        }
-      },
       "multilocation": {
         "parents": 2,
         "interior": {
