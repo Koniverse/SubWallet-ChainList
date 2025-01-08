@@ -12658,7 +12658,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
-      "policyId": "lovelace"
+      "cardanoId": "lovelace"
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -12674,7 +12674,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
-      "policyId": "lovelace"
+      "cardanoId": "lovelace"
     },
     "multiChainAsset": null,
     "hasValue": false,
@@ -12690,7 +12690,7 @@
     "minAmount": "0",
     "assetType": "CIP26",
     "metadata": {
-      "policyId": "3d64987c567150b011edeed959cd1293432b7f2bc228982e2be395f70014df10426c7565646f742043617264616e6f"
+      "cardanoId": "3d64987c567150b011edeed959cd1293432b7f2bc228982e2be395f70014df10426c7565646f742043617264616e6f"
     },
     "multiChainAsset": null,
     "hasValue": false,
@@ -12706,7 +12706,7 @@
     "minAmount": "0",
     "assetType": "CIP26",
     "metadata": {
-      "policyId": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59"
+      "cardanoId": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59"
     },
     "multiChainAsset": null,
     "hasValue": true,
