@@ -1,0 +1,73 @@
+{
+  "patchVersion": "0.2.98-beta.1",
+  "appliedVersion": "0.2.97",
+  "timestamp": 1736399492180,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "statemint-LOCAL-WUD": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WUD",
+      "name": "Gavun Wud",
+      "symbol": "WUD",
+      "decimals": 10,
+      "priceId": "gavun-wud",
+      "minAmount": "10000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "31337"
+      },
+      "multiChainAsset": "WUD-GavunWud",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-wud.png"
+    },
+    "hydradx_main-LOCAL-WUD": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-WUD",
+      "name": "Gavun Wud",
+      "symbol": "WUD",
+      "decimals": 10,
+      "priceId": "gavun-wud",
+      "minAmount": "200000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000085"
+      },
+      "multiChainAsset": "WUD-GavunWud",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-wud.png"
+    },
+    "acala-LOCAL-NEMO": {
+      "originChain": "acala",
+      "slug": "acala-LOCAL-NEMO",
+      "name": "NEMO",
+      "symbol": "NEMO",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "Erc20": "0xfa904c86b73fd041d6cc2aeed9e6ec0148fd51da"
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-nemo.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "statemint-LOCAL-WUD": "e43a69bd8d278bceaa05a7e6a0b106c9",
+    "hydradx_main-LOCAL-WUD": "9f3c6b916f85ffc39b4050daaf09b883",
+    "acala-LOCAL-NEMO": "1e922f34b39b063cf1e38c3cc0078706"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "statemint-local-wud": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-wud.png",
+    "hydradx_main-local-wud": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-wud.png",
+    "acala-local-nemo": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-nemo.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
