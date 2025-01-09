@@ -10166,7 +10166,7 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": {
-      "blockExplorer": "",
+      "blockExplorer": "https://cardanoscan.io",
       "existentialDeposit": "0",
       "decimals": 6,
       "symbol": "ADA"
@@ -10187,7 +10187,7 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": {
-      "blockExplorer": "",
+      "blockExplorer": "https://preprod.cardanoscan.io",
       "existentialDeposit": "0",
       "decimals": 6,
       "symbol": "tADA"
