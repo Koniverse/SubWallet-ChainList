@@ -1,0 +1,53 @@
+{
+  "patchVersion": "0.2.98-beta.0",
+  "appliedVersion": "0.2.97",
+  "timestamp": 1736396645803,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "statemint-LOCAL-WUD": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WUD",
+      "name": "Gavun Wud",
+      "symbol": "WUD",
+      "decimals": 10,
+      "priceId": "gavun-wud",
+      "minAmount": "10000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "31337"
+      },
+      "multiChainAsset": "WUD-GavunWud",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wud.png"
+    },
+    "hydradx_main-LOCAL-WUD": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-WUD",
+      "name": "Gavun Wud",
+      "symbol": "WUD",
+      "decimals": 10,
+      "priceId": "gavun-wud",
+      "minAmount": "200000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000085"
+      },
+      "multiChainAsset": "WUD-GavunWud",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wud.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "statemint-LOCAL-WUD": "e43a69bd8d278bceaa05a7e6a0b106c9",
+    "hydradx_main-LOCAL-WUD": "9f3c6b916f85ffc39b4050daaf09b883"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "statemint-local-wud": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wud.png",
+    "hydradx_main-local-wud": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wud.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
