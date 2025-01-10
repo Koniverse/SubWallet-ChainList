@@ -12297,5 +12297,63 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-2-pool.png"
+  },
+  "celo-NATIVE-CELO": {
+    "originChain": "celo",
+    "slug": "celo-NATIVE-CELO",
+    "name": "Celo",
+    "symbol": "CELO",
+    "decimals": 18,
+    "priceId": "celo",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo-native-celo.png"
+  },
+  "celo_alfajores-NATIVE-CELO": {
+    "originChain": "celo_alfajores",
+    "slug": "celo_alfajores-NATIVE-CELO",
+    "name": "Celo",
+    "symbol": "CELO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo_alfajores-native-celo.png"
+  },
+  "storyOdyssey_testnet-NATIVE-IP": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-NATIVE-IP",
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-native-ip.png"
+  },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "name": "PIPERX Token",
+    "symbol": "PIP",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6e990040Fd9b06F98eFb62A147201696941680b5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5.png"
   }
 }
