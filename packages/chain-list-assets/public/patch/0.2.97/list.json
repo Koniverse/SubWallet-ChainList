@@ -1,9 +1,38 @@
 {
-  "patchVersion": "0.2.98-beta.1",
+  "patchVersion": "0.2.98-beta.3",
   "appliedVersion": "0.2.97",
-  "timestamp": 1736399492180,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
+  "timestamp": 1736911326057,
+  "ChainInfo": {
+    "soneium": {
+      "slug": "soneium",
+      "name": "Soneium",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/soneium.png",
+      "providers": {
+        "Soneium": "https://rpc.soneium.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 1868,
+        "blockExplorer": "https://soneium.blockscout.com/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "soneium": "17585e8a4007891ce772d84d566f6537"
+  },
   "ChainAsset": {
     "statemint-LOCAL-WUD": {
       "originChain": "statemint",
@@ -54,20 +83,38 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-nemo.png"
+    },
+    "soneium-NATIVE-ETH": {
+      "originChain": "soneium",
+      "slug": "soneium-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-native-eth.png"
     }
   },
   "ChainAssetHashMap": {
     "statemint-LOCAL-WUD": "e43a69bd8d278bceaa05a7e6a0b106c9",
     "hydradx_main-LOCAL-WUD": "9f3c6b916f85ffc39b4050daaf09b883",
-    "acala-LOCAL-NEMO": "1e922f34b39b063cf1e38c3cc0078706"
+    "acala-LOCAL-NEMO": "1e922f34b39b063cf1e38c3cc0078706",
+    "soneium-NATIVE-ETH": "55f5f1b2e2c929cb8f1c596da202dadc"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "statemint-local-wud": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-wud.png",
     "hydradx_main-local-wud": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-wud.png",
-    "acala-local-nemo": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-nemo.png"
+    "acala-local-nemo": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-nemo.png",
+    "soneium-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-native-eth.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "soneium": "https://chain-list-assets.subwallet.app/assets/chains/soneium.png"
+  },
   "mAssetLogoMap": {}
 }
