@@ -51,6 +51,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-native-eth.png"
   },
+  "rootstock-NATIVE-RBTC": {
+    "originChain": "rootstock",
+    "slug": "rootstock-NATIVE-ETH",
+    "name": "Rootstock",
+    "symbol": "RBTC",
+    "decimals": 18,
+    "priceId": "rootstock",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "RBTC-Rootstock",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
+  },
   "binance-NATIVE-BNB": {
     "originChain": "binance",
     "slug": "binance-NATIVE-BNB",
