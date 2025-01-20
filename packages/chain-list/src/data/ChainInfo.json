@@ -2428,7 +2428,7 @@
     "slug": "khala",
     "name": "Khala",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/khala.png",
     "providers": {
       "Phala": "wss://khala-api.phala.network/ws",
@@ -10489,7 +10489,7 @@
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://astral.autonomys.xyz/mainnet/consensus",
-      "existentialDeposit": "200000000000000",
+      "existentialDeposit": "10000000000000",
       "symbol": "AI3",
       "decimals": 18,
       "hasNativeNft": null,
@@ -10720,6 +10720,32 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
+  "ithaca": {
+    "slug": "ithaca",
+    "name": "Odyssey Ithaca",
+    "isTestnet": true,
+    "chainStatus": "INACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
+    "providers": {
+      "Odyssey": "https://odyssey.ithaca.xyz"
+    },
+    "evmInfo": {
+      "evmChainId": 911867,
+      "blockExplorer": "https://odyssey-explorer.ithaca.xyz",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
   "ink": {
     "slug": "ink",
     "name": "Ink",
@@ -10903,6 +10929,37 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
+  "muse_testnet": {
+    "slug": "muse_testnet",
+    "name": "Muse Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Parity": "wss://paseo-muse-rpc.polkadot.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 3369,
+      "genesisHash": "0x15f6788bcf1d1a3b7e1c36074584e1a3f3d07e0a46e362a102c3c3df1a93669f",
+      "addressPrefix": 29972,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000000000",
+      "symbol": "MUSE",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
   "soneium": {
     "slug": "soneium",
     "name": "Soneium",
@@ -10917,6 +10974,91 @@
       "blockExplorer": "https://soneium.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "dbcchain_evm": {
+    "slug": "dbcchain_evm",
+    "name": "DeepBrainChain Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain_evm.png",
+    "providers": {
+      "DBCwallet": "https://rpc.dbcwallet.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 19880818,
+      "blockExplorer": "http://www.dbcscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "DBC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "analog_timechain": {
+    "slug": "analog_timechain",
+    "name": "Analog Timechain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
+    "providers": {
+      "Analog": "wss://rpc.timechain.analog.one"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x1459b0204b92719ffc978c5da3d6a2057973916bd548f8076df2064bc1cb4cfc",
+      "addressPrefix": 12850,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "ANLOG",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "rootstock": {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rootstock.png",
+    "providers": {
+      "Blast": "https://rootstock-mainnet.public.blastapi.io",
+      "PublicNode": "https://public-node.rsk.co",
+      "DRPC": "https://rootstock.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 30,
+      "blockExplorer": "https://explorer.rootstock.io",
+      "existentialDeposit": "0",
+      "symbol": "RBTC",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",

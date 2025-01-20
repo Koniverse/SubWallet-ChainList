@@ -12867,7 +12867,7 @@
     "symbol": "AI3",
     "decimals": 18,
     "priceId": null,
-    "minAmount": "200000000000000",
+    "minAmount": "10000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -13118,6 +13118,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png"
   },
+  "ithaca-NATIVE-ETH": {
+    "originChain": "ithaca",
+    "slug": "ithaca-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-EthereumSepolia",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
+  },
   "ink-NATIVE-ETH": {
     "originChain": "ink",
     "slug": "ink-NATIVE-ETH",
@@ -13216,6 +13230,38 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dia_lasernet_testnet-native-dia.png"
   },
+  "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695": {
+    "originChain": "ithaca",
+    "slug": "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695"
+    },
+    "multiChainAsset": "USDC-USDCSepolia",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-usdc-0xae83ad7a59ee18cfe97b79a5cf5cdf2df18d0695.png"
+  },
+  "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5": {
+    "originChain": "ithaca",
+    "slug": "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5",
+    "name": "Avail",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5"
+    },
+    "multiChainAsset": "AVAIL-AvailTuringTestnet",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-avail-0x6f59a38564b51c628db66d2a2d0a36a7d14fe3e5.png"
+  },
   "acala-LOCAL-NEMO": {
     "originChain": "acala",
     "slug": "acala-LOCAL-NEMO",
@@ -13234,6 +13280,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-nemo.png"
   },
+  "muse_testnet-NATIVE-MUSE": {
+    "originChain": "muse_testnet",
+    "slug": "muse_testnet-NATIVE-MUSE",
+    "name": "Muse Testnet",
+    "symbol": "MUSE",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
   "soneium-NATIVE-ETH": {
     "originChain": "soneium",
     "slug": "soneium-NATIVE-ETH",
@@ -13247,5 +13307,47 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-native-eth.png"
+  },
+  "dbcchain_evm-NATIVE-DBC": {
+    "originChain": "dbcchain_evm",
+    "slug": "dbcchain_evm-NATIVE-DBC",
+    "name": "DBC",
+    "symbol": "DBC",
+    "decimals": 18,
+    "priceId": "deepbrain-chain",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain_evm-native-dbc.png"
+  },
+  "analog_timechain-NATIVE-ANLOG": {
+    "originChain": "analog_timechain",
+    "slug": "analog_timechain-NATIVE-ANLOG",
+    "name": "Analog Timechain",
+    "symbol": "ANLOG",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_timechain-native-anlog.png"
+  },
+  "rootstock-NATIVE-RBTC": {
+    "originChain": "rootstock",
+    "slug": "rootstock-NATIVE-RBTC",
+    "name": "Rootstock",
+    "symbol": "RBTC",
+    "decimals": 18,
+    "priceId": "rootstock",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
   }
 }
