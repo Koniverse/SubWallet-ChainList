@@ -1,8 +1,175 @@
 {
-  "patchVersion": "0.2.98-beta.3",
+  "patchVersion": "0.2.98-beta.5",
   "appliedVersion": "0.2.97",
-  "timestamp": 1736911326057,
+  "timestamp": 1737349879112,
   "ChainInfo": {
+    "khala": {
+      "slug": "khala",
+      "name": "Khala",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/khala.png",
+      "providers": {
+        "Phala": "wss://khala-api.phala.network/ws",
+        "OnFinality": "wss://khala.api.onfinality.io/public-ws",
+        "Dwellir": "wss://khala-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2004,
+        "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "addressPrefix": 30,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
+        "blockExplorer": "https://khala.subscan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "PHA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2004-6",
+            "paraId": 2004,
+            "status": "won",
+            "startTime": "2021-06-16T04:27:00.000Z",
+            "endTime": "2022-05-18T04:27:00.000Z",
+            "auctionIndex": 4,
+            "firstPeriod": 13,
+            "lastPeriod": 20
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "khala",
+        "chainBalanceSlug": "khala"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "cere": {
+      "slug": "cere",
+      "name": "Cere Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cere.png",
+      "providers": {
+        "Cere Network": "wss://rpc.mainnet.cere.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x81443836a9a24caaa23f1241897d1235717535711d1d3fe24eae4fdc942c092c",
+        "addressPrefix": 54,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000",
+        "symbol": "CERE",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "autonomys": {
+      "slug": "autonomys",
+      "name": "Autonomys Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys.png",
+      "providers": {
+        "Subspace": "wss://rpc-1.mainnet.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://astral.autonomys.xyz/mainnet/consensus",
+        "existentialDeposit": "10000000000000",
+        "symbol": "AI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "ithaca": {
+      "slug": "ithaca",
+      "name": "Odyssey Ithaca",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
+      "providers": {
+        "Odyssey": "https://odyssey.ithaca.xyz"
+      },
+      "evmInfo": {
+        "evmChainId": 911867,
+        "blockExplorer": "https://odyssey-explorer.ithaca.xyz",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "muse_testnet": {
+      "slug": "muse_testnet",
+      "name": "Muse Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Parity": "wss://paseo-muse-rpc.polkadot.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3369,
+        "genesisHash": "0x15f6788bcf1d1a3b7e1c36074584e1a3f3d07e0a46e362a102c3c3df1a93669f",
+        "addressPrefix": 29972,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "MUSE",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "soneium": {
       "slug": "soneium",
       "name": "Soneium",
@@ -28,10 +195,103 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "dbcchain_evm": {
+      "slug": "dbcchain_evm",
+      "name": "DeepBrainChain Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain_evm.png",
+      "providers": {
+        "DBCwallet": "https://rpc.dbcwallet.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 19880818,
+        "blockExplorer": "http://www.dbcscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "DBC",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "analog_timechain": {
+      "slug": "analog_timechain",
+      "name": "Analog Timechain",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
+      "providers": {
+        "Analog": "wss://rpc.timechain.analog.one"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x1459b0204b92719ffc978c5da3d6a2057973916bd548f8076df2064bc1cb4cfc",
+        "addressPrefix": 12850,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "ANLOG",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "rootstock": {
+      "slug": "rootstock",
+      "name": "Rootstock",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rootstock.png",
+      "providers": {
+        "Blast": "https://rootstock-mainnet.public.blastapi.io",
+        "PublicNode": "https://public-node.rsk.co",
+        "DRPC": "https://rootstock.drpc.org"
+      },
+      "evmInfo": {
+        "evmChainId": 30,
+        "blockExplorer": "https://explorer.rootstock.io",
+        "existentialDeposit": "0",
+        "symbol": "RBTC",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "soneium": "17585e8a4007891ce772d84d566f6537"
+    "khala": "ca2ee0334e1677d0e740c8657c443372",
+    "cere": "a78442361cad473dd5481525b42a4b96",
+    "autonomys": "b378886eb762b3d2594eb03a2b7900f1",
+    "ithaca": "dad334e734eb2d339af249bf1bfa577d",
+    "muse_testnet": "340ca9a10058fde35b4040d0477a1ce6",
+    "soneium": "17585e8a4007891ce772d84d566f6537",
+    "dbcchain_evm": "9a387ed52cbe71853e46fa84d0523e4f",
+    "analog_timechain": "26cae38e16ec05f9523d39aba62d1577",
+    "rootstock": "3967eafb756c4e1c35d6951e9937fa28"
   },
   "ChainAsset": {
     "statemint-LOCAL-WUD": {
@@ -66,6 +326,66 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wud.png"
     },
+    "autonomys-NATIVE-AI3": {
+      "originChain": "autonomys",
+      "slug": "autonomys-NATIVE-AI3",
+      "name": "Autonomys",
+      "symbol": "AI3",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "10000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
+    },
+    "ithaca-NATIVE-ETH": {
+      "originChain": "ithaca",
+      "slug": "ithaca-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-EthereumSepolia",
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
+    },
+    "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695": {
+      "originChain": "ithaca",
+      "slug": "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695"
+      },
+      "multiChainAsset": "USDC-USDCSepolia",
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-usdc-0xae83ad7a59ee18cfe97b79a5cf5cdf2df18d0695.png"
+    },
+    "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5": {
+      "originChain": "ithaca",
+      "slug": "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5",
+      "name": "Avail",
+      "symbol": "AVAIL",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5"
+      },
+      "multiChainAsset": "AVAIL-AvailTuringTestnet",
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-avail-0x6f59a38564b51c628db66d2a2d0a36a7d14fe3e5.png"
+    },
     "acala-LOCAL-NEMO": {
       "originChain": "acala",
       "slug": "acala-LOCAL-NEMO",
@@ -84,6 +404,20 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-nemo.png"
     },
+    "muse_testnet-NATIVE-MUSE": {
+      "originChain": "muse_testnet",
+      "slug": "muse_testnet-NATIVE-MUSE",
+      "name": "Muse Testnet",
+      "symbol": "MUSE",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "10000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": null
+    },
     "soneium-NATIVE-ETH": {
       "originChain": "soneium",
       "slug": "soneium-NATIVE-ETH",
@@ -97,24 +431,90 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-native-eth.png"
+    },
+    "dbcchain_evm-NATIVE-DBC": {
+      "originChain": "dbcchain_evm",
+      "slug": "dbcchain_evm-NATIVE-DBC",
+      "name": "DBC",
+      "symbol": "DBC",
+      "decimals": 18,
+      "priceId": "deepbrain-chain",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain_evm-native-dbc.png"
+    },
+    "analog_timechain-NATIVE-ANLOG": {
+      "originChain": "analog_timechain",
+      "slug": "analog_timechain-NATIVE-ANLOG",
+      "name": "Analog Timechain",
+      "symbol": "ANLOG",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_timechain-native-anlog.png"
+    },
+    "rootstock-NATIVE-RBTC": {
+      "originChain": "rootstock",
+      "slug": "rootstock-NATIVE-RBTC",
+      "name": "Rootstock",
+      "symbol": "RBTC",
+      "decimals": 18,
+      "priceId": "rootstock",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
     }
   },
   "ChainAssetHashMap": {
     "statemint-LOCAL-WUD": "e43a69bd8d278bceaa05a7e6a0b106c9",
     "hydradx_main-LOCAL-WUD": "9f3c6b916f85ffc39b4050daaf09b883",
+    "autonomys-NATIVE-AI3": "c5973210856dd5e4125ca19db33a0c57",
+    "ithaca-NATIVE-ETH": "22274dc3c4bfbcddf40a45ea756b96be",
+    "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695": "b4fbb68c71b95b6b9d4f6cef233ad425",
+    "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5": "e6a9730f1a9366738abdfd6718c73386",
     "acala-LOCAL-NEMO": "1e922f34b39b063cf1e38c3cc0078706",
-    "soneium-NATIVE-ETH": "55f5f1b2e2c929cb8f1c596da202dadc"
+    "muse_testnet-NATIVE-MUSE": "b4a17b56eba3d5b038eea23486447171",
+    "soneium-NATIVE-ETH": "55f5f1b2e2c929cb8f1c596da202dadc",
+    "dbcchain_evm-NATIVE-DBC": "12442f67b4e5f6541bfb2d4edd7eff1c",
+    "analog_timechain-NATIVE-ANLOG": "a3be5fdb5f9060c40220681f3b4f3108",
+    "rootstock-NATIVE-RBTC": "9c81422fb472e289512862cacd8f47f5"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "statemint-local-wud": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wud.png",
     "hydradx_main-local-wud": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-wud.png",
+    "autonomys-native-ai3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png",
+    "ithaca-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png",
+    "ithaca-erc20-usdc-0xae83ad7a59ee18cfe97b79a5cf5cdf2df18d0695": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-usdc-0xae83ad7a59ee18cfe97b79a5cf5cdf2df18d0695.png",
+    "ithaca-erc20-avail-0x6f59a38564b51c628db66d2a2d0a36a7d14fe3e5": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-avail-0x6f59a38564b51c628db66d2a2d0a36a7d14fe3e5.png",
     "acala-local-nemo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-nemo.png",
-    "soneium-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-native-eth.png"
+    "muse_testnet-native-muse": null,
+    "soneium-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-native-eth.png",
+    "dbcchain_evm-native-dbc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain_evm-native-dbc.png",
+    "analog_timechain-native-anlog": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_timechain-native-anlog.png",
+    "rootstock-native-rbtc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
   },
   "ChainLogoMap": {
-    "soneium": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneium.png"
+    "khala": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/khala.png",
+    "cere": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cere.png",
+    "autonomys": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/autonomys.png",
+    "ithaca": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
+    "muse_testnet": null,
+    "soneium": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneium.png",
+    "dbcchain_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain_evm.png",
+    "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
+    "rootstock": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rootstock.png"
   },
   "mAssetLogoMap": {}
 }
