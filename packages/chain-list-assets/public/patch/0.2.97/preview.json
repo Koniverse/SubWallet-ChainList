@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.98-beta.5",
+  "patchVersion": "0.2.98-beta.6",
   "appliedVersion": "0.2.97",
-  "timestamp": 1737349879113,
+  "timestamp": 1737437144091,
   "ChainInfo": {
     "khala": {
       "slug": "khala",
@@ -143,7 +143,7 @@
       "slug": "muse_testnet",
       "name": "Muse Testnet",
       "isTestnet": true,
-      "chainStatus": "ACTIVE",
+      "chainStatus": "INACTIVE",
       "icon": null,
       "providers": {
         "Parity": "wss://paseo-muse-rpc.polkadot.io"
@@ -473,6 +473,54 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
+    },
+    "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369",
+      "name": "Bridged USDC (Soneium)",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-usdc.e-0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369.png"
+    },
+    "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x4200000000000000000000000000000000000006"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-weth-0x4200000000000000000000000000000000000006.png"
+    },
+    "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441",
+      "name": "Astar",
+      "symbol": "ASTR",
+      "decimals": 18,
+      "priceId": "astar",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441"
+      },
+      "multiChainAsset": "ASTR-Astar",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-astr-0x2cae934a1e84f693fbb78ca5ed3b0a6893259441.png"
     }
   },
   "ChainAssetHashMap": {
@@ -487,7 +535,10 @@
     "soneium-NATIVE-ETH": "55f5f1b2e2c929cb8f1c596da202dadc",
     "dbcchain_evm-NATIVE-DBC": "12442f67b4e5f6541bfb2d4edd7eff1c",
     "analog_timechain-NATIVE-ANLOG": "a3be5fdb5f9060c40220681f3b4f3108",
-    "rootstock-NATIVE-RBTC": "9c81422fb472e289512862cacd8f47f5"
+    "rootstock-NATIVE-RBTC": "9c81422fb472e289512862cacd8f47f5",
+    "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369": "19874e053c60163944039d74dfde5b33",
+    "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006": "236551fb21fe8c50bb4d7d5840ca644e",
+    "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441": "a1f2cbab38990cb788704b98d41442c1"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -503,7 +554,10 @@
     "soneium-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-native-eth.png",
     "dbcchain_evm-native-dbc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain_evm-native-dbc.png",
     "analog_timechain-native-anlog": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_timechain-native-anlog.png",
-    "rootstock-native-rbtc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
+    "rootstock-native-rbtc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png",
+    "soneium-erc20-usdc.e-0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-usdc.e-0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369.png",
+    "soneium-erc20-weth-0x4200000000000000000000000000000000000006": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-weth-0x4200000000000000000000000000000000000006.png",
+    "soneium-erc20-astr-0x2cae934a1e84f693fbb78ca5ed3b0a6893259441": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-astr-0x2cae934a1e84f693fbb78ca5ed3b0a6893259441.png"
   },
   "ChainLogoMap": {
     "khala": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/khala.png",
