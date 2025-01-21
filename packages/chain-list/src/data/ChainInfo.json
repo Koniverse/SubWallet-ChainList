@@ -10933,7 +10933,7 @@
     "slug": "muse_testnet",
     "name": "Muse Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": null,
     "providers": {
       "Parity": "wss://paseo-muse-rpc.polkadot.io"

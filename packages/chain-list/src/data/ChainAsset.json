@@ -8963,7 +8963,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "DBC-DBC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-native-dbc.png"
   },
@@ -13318,7 +13318,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "DBC-DBC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain_evm-native-dbc.png"
   },
@@ -13349,5 +13349,53 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
+  },
+  "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369",
+    "name": "Bridged USDC (Soneium)",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-usdc.e-0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369.png"
+  },
+  "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-weth-0x4200000000000000000000000000000000000006.png"
+  },
+  "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-astr-0x2cae934a1e84f693fbb78ca5ed3b0a6893259441.png"
   }
 }

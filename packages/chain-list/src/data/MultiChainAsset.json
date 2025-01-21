@@ -880,5 +880,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/lova-aiweb3.png"
+  },
+  "DBC-DBC": {
+    "slug": "DBC-DBC",
+    "originChainAsset": null,
+    "name": "DBC",
+    "symbol": "DBC",
+    "priceId": "deepbrain-chain",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dbc-dbc.png"
   }
 }
