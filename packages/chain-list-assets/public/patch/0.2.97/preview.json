@@ -258,9 +258,6 @@
   },
   "ChainInfoHashMap": {
     "khala": "ca2ee0334e1677d0e740c8657c443372",
-    "core": "a30724dbce55497005445f166dc355a3",
-    "satoshivm": "aaeb0933d0f70fb452c80e7c4fe6f7d6",
-    "satoshivm_testnet": "24b7b66dbd28caad0338b270b7f451f7",
     "cere": "a78442361cad473dd5481525b42a4b96",
     "autonomys": "b378886eb762b3d2594eb03a2b7900f1",
     "ithaca": "dad334e734eb2d339af249bf1bfa577d",
@@ -526,7 +523,6 @@
     "ithaca": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ithaca.png",
     "muse_testnet": null,
     "soneium": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/soneium.png",
-    "dbcchain_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dbcchain_evm.png",
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
     "rootstock": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rootstock.png"
   },
