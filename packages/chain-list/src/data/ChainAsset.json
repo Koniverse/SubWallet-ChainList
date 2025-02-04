@@ -13301,5 +13301,67 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-weth-0x582fcdaec1d2b61c1f71fc5e3d2791b8c76e44ae.png"
+  },
+  "hydradx_main-LOCAL-2-Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2-Pool",
+    "name": "USDT- USDC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
+  },
+  "hydradx_main-LOCAL-SOL": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-SOL",
+    "name": "Solana",
+    "symbol": "SOL",
+    "decimals": 9,
+    "priceId": "solana",
+    "minAmount": "46339",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000752"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png"
+  },
+  "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0",
+    "name": "Phala Vault",
+    "symbol": "vPHA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "gravity_alpha-NATIVE-G": {
+    "originChain": "gravity_alpha",
+    "slug": "gravity_alpha-NATIVE-G",
+    "name": "Gravity",
+    "symbol": "G",
+    "decimals": 18,
+    "priceId": "g-token",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }

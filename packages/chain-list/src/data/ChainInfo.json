@@ -11069,5 +11069,31 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "gravity_alpha": {
+    "slug": "gravity_alpha",
+    "name": "Gravity Alpha Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Gravity": "https://rpc.gravity.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 1625,
+      "blockExplorer": "https://explorer.gravity.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "G",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
