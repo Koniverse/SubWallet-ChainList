@@ -12352,6 +12352,38 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
   },
+  "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png"
+  },
+  "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png"
+  },
   "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
     "originChain": "polygon",
     "slug": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
@@ -12397,6 +12429,22 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-native-mnt.png"
+  },
+  "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0": {
+    "originChain": "mantle",
+    "slug": "mantle-ERC20-mETH-0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "name": "Mantle Staked Ether",
+    "symbol": "mETH",
+    "decimals": 18,
+    "priceId": "mantle-staked-ether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png"
   },
   "polygonZkEvm-ERC20-MATIC-0xa2036f0538221a77A3937F1379699f44945018d0": {
     "originChain": "polygonZkEvm",
@@ -12471,6 +12519,54 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/scroll-native-eth.png"
+  },
+  "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+  },
+  "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-dai-0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+  },
+  "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-DAI-0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "priceId": "dai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+    },
+    "multiChainAsset": "DAI-DaiStablecoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-dai-0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
   },
   "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
     "originChain": "sepolia_ethereum",
