@@ -90,7 +90,7 @@
     "name": "Pioneer Network",
     "symbol": "NEER",
     "decimals": 18,
-    "priceId": "metaverse-network-pioneer",
+    "priceId": null,
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
@@ -3926,6 +3926,22 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0x3ef88816ebe8f50019e931bdffb0e428a44a29b1.png"
+  },
+  "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2": {
+    "originChain": "moonbase",
+    "slug": "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2",
+    "name": "MFG Token",
+    "symbol": "MFG",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb161B2DA48DE283ec22BaFbC36E5551c892629A2"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2.png"
   },
   "moonbeam-ERC20-USDC-0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b": {
     "originChain": "moonbeam",
@@ -7938,7 +7954,7 @@
       "autoEnable": true,
       "alternativeSwapAsset": "astar-NATIVE-ASTR"
     },
-    "multiChainAsset": "ASTR-Astar",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png"
   },
@@ -13459,5 +13475,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png"
+  },
+  "westend_assethub-NATIVE-WND": {
+    "originChain": "westend_assethub",
+    "slug": "westend_assethub-NATIVE-WND",
+    "name": "Westend",
+    "symbol": "WND",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png"
   }
 }

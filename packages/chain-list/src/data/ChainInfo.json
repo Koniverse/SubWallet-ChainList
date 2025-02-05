@@ -1167,7 +1167,8 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
     "providers": {
       "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws",
+      "Dwellir": "wss://bifrost-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1226,7 +1227,8 @@
     "providers": {
       "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws",
+      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -11093,6 +11095,40 @@
     },
     "substrateInfo": null,
     "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "westend_assethub": {
+    "slug": "westend_assethub",
+    "name": "Westend Asset Hub",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
+    "providers": {
+      "Parity": "wss://westend-asset-hub-rpc.polkadot.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "westend",
+      "paraId": 1000,
+      "genesisHash": "0x67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
+      "addressPrefix": 42,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://assethub-westend.subscan.io/",
+      "existentialDeposit": "1000000000",
+      "symbol": "WND",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "assethub-westend",
+      "chainBalanceSlug": null
+    },
     "bitcoinInfo": null,
     "tonInfo": null
   }
