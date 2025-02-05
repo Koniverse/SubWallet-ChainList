@@ -667,7 +667,12 @@
     "priceId": null,
     "minAmount": "10000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "multilocation": {
+        "parents": 0,
+        "interior": "Here"
+      }
+    },
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png"
@@ -13469,9 +13474,31 @@
     "priceId": null,
     "minAmount": "1000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "multilocation": {
+        "parents": 1,
+        "interior": "Here"
+      },
+      "alternativeSwapAsset": "westend-NATIVE-WND"
+    },
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png"
+  },
+  "westend_assethub-LOCAL-PRIM": {
+    "originChain": "westend_assethub",
+    "slug": "westend_assethub-LOCAL-PRIM",
+    "name": "Primordial Coin",
+    "symbol": "PRIM",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "333333333"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
   }
 }
