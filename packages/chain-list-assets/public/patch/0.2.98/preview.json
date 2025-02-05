@@ -1,39 +1,8 @@
 {
-  "patchVersion": "0.2.99-beta.5",
+  "patchVersion": "0.2.99-beta.6",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738751711452,
+  "timestamp": 1738758842488,
   "ChainInfo": {
-    "g6_testnet": {
-      "slug": "g6_testnet",
-      "name": "G6 Testnet",
-      "isTestnet": true,
-      "chainStatus": "INACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
-      "providers": {
-        "G6 Testnet": "wss://testnet.g6.network/node"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0xbfac5d00971d829620ee7c653de232d3b052b663dc0f6277c352b6c96f9ca15c",
-        "addressPrefix": 611,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": null,
-        "existentialDeposit": "500",
-        "symbol": "GSX",
-        "decimals": 18,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
     "gravity_alpha": {
       "slug": "gravity_alpha",
       "name": "Gravity Alpha Mainnet",
@@ -64,7 +33,7 @@
       "slug": "westend_assethub",
       "name": "Westend Asset Hub",
       "isTestnet": true,
-      "chainStatus": "INACTIVE",
+      "chainStatus": "ACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
       "providers": {
         "Parity": "wss://westend-asset-hub-rpc.polkadot.io"
@@ -96,11 +65,29 @@
     }
   },
   "ChainInfoHashMap": {
-    "g6_testnet": "96df11e911e370860a1efbe5e2c6c443",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b"
   },
   "ChainAsset": {
+    "westend-NATIVE-WND": {
+      "originChain": "westend",
+      "slug": "westend-NATIVE-WND",
+      "name": "Westend",
+      "symbol": "WND",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "10000000000",
+      "assetType": "NATIVE",
+      "metadata": {
+        "multilocation": {
+          "parents": 0,
+          "interior": "Here"
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png"
+    },
     "celo_alfajores-NATIVE-CELO": {
       "originChain": "celo_alfajores",
       "slug": "celo_alfajores-NATIVE-CELO",
@@ -170,30 +157,55 @@
       "priceId": null,
       "minAmount": "1000000000",
       "assetType": "NATIVE",
-      "metadata": null,
+      "metadata": {
+        "multilocation": {
+          "parents": 1,
+          "interior": "Here"
+        },
+        "alternativeSwapAsset": "westend-NATIVE-WND"
+      },
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png"
+    },
+    "westend_assethub-LOCAL-PRIM": {
+      "originChain": "westend_assethub",
+      "slug": "westend_assethub-LOCAL-PRIM",
+      "name": "Primordial Coin",
+      "symbol": "PRIM",
+      "decimals": 10,
+      "priceId": null,
+      "minAmount": "10000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "333333333"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
     }
   },
   "ChainAssetHashMap": {
+    "westend-NATIVE-WND": "42ef87d31df7c32c554f660313ca3851",
     "celo_alfajores-NATIVE-CELO": "a6e542daf5b5ca9bc92a2218e3957c89",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
-    "westend_assethub-NATIVE-WND": "812799ee3d7469ffb5b6eb64a23881b2"
+    "westend_assethub-NATIVE-WND": "a951647a5e5503f2953c1727ae631f89",
+    "westend_assethub-LOCAL-PRIM": "6288bef81e5e654d534959371a121f7c"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "westend-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png",
     "celo_alfajores-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png",
     "hydradx_main-local-sol": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
     "gravity_alpha-native-g": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png",
-    "westend_assethub-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png"
+    "westend_assethub-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png",
+    "westend_assethub-local-prim": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
   },
   "ChainLogoMap": {
-    "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png"
   },
