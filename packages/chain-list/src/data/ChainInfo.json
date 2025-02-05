@@ -10559,7 +10559,7 @@
     "slug": "g6_testnet",
     "name": "G6 Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "providers": {
       "G6 Testnet": "wss://testnet.g6.network/node"
