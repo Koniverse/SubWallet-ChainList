@@ -1,116 +1,8 @@
 {
-  "patchVersion": "0.2.99-beta.4",
+  "patchVersion": "0.2.99-beta.5",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738750501004,
+  "timestamp": 1738751711452,
   "ChainInfo": {
-    "bifrost": {
-      "slug": "bifrost",
-      "name": "Bifrost Kusama",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
-      "providers": {
-        "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
-        "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "Dwellir": "wss://bifrost-rpc.dwellir.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2001,
-        "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-        "addressPrefix": 0,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
-        "blockExplorer": "https://bifrost-kusama.subscan.io/",
-        "existentialDeposit": "10000000000",
-        "symbol": "BNC",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "kusama",
-            "fundId": "2262-95",
-            "paraId": 2262,
-            "status": "won",
-            "startTime": "2023-03-08T04:27:00.000Z",
-            "endTime": "2024-02-07T04:27:00.000Z",
-            "auctionIndex": 71,
-            "firstPeriod": 28,
-            "lastPeriod": 35
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2001-9",
-            "paraId": 2001,
-            "status": "won",
-            "startTime": "2021-06-16T04:27:00.000Z",
-            "endTime": "2022-05-18T04:27:00.000Z",
-            "auctionIndex": 5,
-            "firstPeriod": 13,
-            "lastPeriod": 20
-          }
-        ]
-      },
-      "extraInfo": {
-        "subscanSlug": "bifrost-kusama",
-        "chainBalanceSlug": "bifrost"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "bifrost_dot": {
-      "slug": "bifrost_dot",
-      "name": "Bifrost Polkadot",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
-      "providers": {
-        "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
-        "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws",
-        "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "polkadot",
-        "paraId": 2030,
-        "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-        "addressPrefix": 0,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
-        "blockExplorer": "https://bifrost.subscan.io",
-        "existentialDeposit": "10000000000",
-        "symbol": "BNC",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "polkadot",
-            "fundId": "2030-37",
-            "paraId": 2030,
-            "status": "won",
-            "startTime": "2022-06-07T01:48:00.000Z",
-            "endTime": "2024-04-09T01:48:00.000Z",
-            "auctionIndex": 65,
-            "firstPeriod": 8,
-            "lastPeriod": 15
-          }
-        ]
-      },
-      "extraInfo": {
-        "subscanSlug": "bifrost",
-        "chainBalanceSlug": "bifrost-p"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
     "g6_testnet": {
       "slug": "g6_testnet",
       "name": "G6 Testnet",
@@ -172,7 +64,7 @@
       "slug": "westend_assethub",
       "name": "Westend Asset Hub",
       "isTestnet": true,
-      "chainStatus": "ACTIVE",
+      "chainStatus": "INACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
       "providers": {
         "Parity": "wss://westend-asset-hub-rpc.polkadot.io"
@@ -204,66 +96,11 @@
     }
   },
   "ChainInfoHashMap": {
-    "bifrost": "5bde9444b0264d6725d38eaf0d27f47c",
-    "bifrost_dot": "49eb0782c40bef812fb127c30fdbc0e3",
     "g6_testnet": "96df11e911e370860a1efbe5e2c6c443",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b"
   },
   "ChainAsset": {
-    "pioneer-NATIVE-NEER": {
-      "originChain": "pioneer",
-      "slug": "pioneer-NATIVE-NEER",
-      "name": "Pioneer Network",
-      "symbol": "NEER",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "100000000000000000",
-      "assetType": "NATIVE",
-      "metadata": {
-        "multilocation": {
-          "parents": 0,
-          "interior": "Here"
-        }
-      },
-      "multiChainAsset": "NEER-Pioneer",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pioneer-native-neer.png"
-    },
-    "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2": {
-      "originChain": "moonbase",
-      "slug": "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2",
-      "name": "MFG Token",
-      "symbol": "MFG",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": null,
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0xb161B2DA48DE283ec22BaFbC36E5551c892629A2"
-      },
-      "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2.png"
-    },
-    "hydradx_main-LOCAL-ASTR": {
-      "originChain": "hydradx_main",
-      "slug": "hydradx_main-LOCAL-ASTR",
-      "name": "Astar",
-      "symbol": "ASTR",
-      "decimals": 18,
-      "priceId": "astar",
-      "minAmount": "147058823529412000",
-      "assetType": "LOCAL",
-      "metadata": {
-        "assetId": "9",
-        "autoEnable": true,
-        "alternativeSwapAsset": "astar-NATIVE-ASTR"
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png"
-    },
     "celo_alfajores-NATIVE-CELO": {
       "originChain": "celo_alfajores",
       "slug": "celo_alfajores-NATIVE-CELO",
@@ -340,9 +177,6 @@
     }
   },
   "ChainAssetHashMap": {
-    "pioneer-NATIVE-NEER": "efcd3beed33683e592fefa222d596623",
-    "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2": "89a982bed25b2b06152f8d157ca0724c",
-    "hydradx_main-LOCAL-ASTR": "76b8879e1d38a5464f093ae87e702f6e",
     "celo_alfajores-NATIVE-CELO": "a6e542daf5b5ca9bc92a2218e3957c89",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
@@ -352,9 +186,6 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "pioneer-native-neer": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pioneer-native-neer.png",
-    "moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2.png",
-    "hydradx_main-local-astr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png",
     "celo_alfajores-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png",
     "hydradx_main-local-sol": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
@@ -362,8 +193,6 @@
     "westend_assethub-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png"
   },
   "ChainLogoMap": {
-    "bifrost": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
-    "bifrost_dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
     "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png"
