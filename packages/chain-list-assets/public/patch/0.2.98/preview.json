@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.2",
+  "patchVersion": "0.2.99-beta.3",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738747213479,
+  "timestamp": 1738750142352,
   "ChainInfo": {
     "bifrost": {
       "slug": "bifrost",
@@ -111,6 +111,37 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
+    "g6_testnet": {
+      "slug": "g6_testnet",
+      "name": "G6 Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
+      "providers": {
+        "G6 Testnet": "wss://testnet.g6.network/node"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xbfac5d00971d829620ee7c653de232d3b052b663dc0f6277c352b6c96f9ca15c",
+        "addressPrefix": 611,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "GSX",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "gravity_alpha": {
       "slug": "gravity_alpha",
       "name": "Gravity Alpha Mainnet",
@@ -175,6 +206,7 @@
   "ChainInfoHashMap": {
     "bifrost": "5bde9444b0264d6725d38eaf0d27f47c",
     "bifrost_dot": "49eb0782c40bef812fb127c30fdbc0e3",
+    "g6_testnet": "96df11e911e370860a1efbe5e2c6c443",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b"
   },
@@ -231,6 +263,20 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png"
+    },
+    "celo_alfajores-NATIVE-CELO": {
+      "originChain": "celo_alfajores",
+      "slug": "celo_alfajores-NATIVE-CELO",
+      "name": "Celo",
+      "symbol": "CELO",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "100000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png"
     },
     "hydradx_main-LOCAL-SOL": {
       "originChain": "hydradx_main",
@@ -297,6 +343,7 @@
     "pioneer-NATIVE-NEER": "efcd3beed33683e592fefa222d596623",
     "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2": "89a982bed25b2b06152f8d157ca0724c",
     "hydradx_main-LOCAL-ASTR": "76b8879e1d38a5464f093ae87e702f6e",
+    "celo_alfajores-NATIVE-CELO": "a8c102f8995996be31db8b5d71ea968a",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
@@ -308,6 +355,7 @@
     "pioneer-native-neer": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/pioneer-native-neer.png",
     "moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2.png",
     "hydradx_main-local-astr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png",
+    "celo_alfajores-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png",
     "hydradx_main-local-sol": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
     "gravity_alpha-native-g": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png",
@@ -316,6 +364,7 @@
   "ChainLogoMap": {
     "bifrost": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
     "bifrost_dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
+    "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png"
   },
