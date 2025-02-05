@@ -90,7 +90,7 @@
     "name": "Pioneer Network",
     "symbol": "NEER",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "metaverse-network-pioneer",
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
@@ -3926,22 +3926,6 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0x3ef88816ebe8f50019e931bdffb0e428a44a29b1.png"
-  },
-  "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2": {
-    "originChain": "moonbase",
-    "slug": "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2",
-    "name": "MFG Token",
-    "symbol": "MFG",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xb161B2DA48DE283ec22BaFbC36E5551c892629A2"
-    },
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbase-erc20-mfg-0xb161b2da48de283ec22bafbc36e5551c892629a2.png"
   },
   "moonbeam-ERC20-USDC-0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b": {
     "originChain": "moonbeam",
@@ -7954,7 +7938,7 @@
       "autoEnable": true,
       "alternativeSwapAsset": "astar-NATIVE-ASTR"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-astr.png"
   },

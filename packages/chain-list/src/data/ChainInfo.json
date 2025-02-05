@@ -1167,8 +1167,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
     "providers": {
       "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-      "Dwellir": "wss://bifrost-rpc.dwellir.com"
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1227,8 +1226,7 @@
     "providers": {
       "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws",
-      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -11102,7 +11100,7 @@
     "slug": "westend_assethub",
     "name": "Westend Asset Hub",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
     "providers": {
       "Parity": "wss://westend-asset-hub-rpc.polkadot.io"
