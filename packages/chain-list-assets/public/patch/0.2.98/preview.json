@@ -1,14 +1,14 @@
 {
-  "patchVersion": "0.2.99-beta.0",
+  "patchVersion": "0.2.99-beta.1",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738665513565,
+  "timestamp": 1738724242023,
   "ChainInfo": {
     "gravity_alpha": {
       "slug": "gravity_alpha",
       "name": "Gravity Alpha Mainnet",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": null,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
       "providers": {
         "Gravity": "https://rpc.gravity.xyz/"
       },
@@ -64,7 +64,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": null
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png"
     },
     "gravity_alpha-NATIVE-G": {
       "originChain": "gravity_alpha",
@@ -78,7 +78,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": null
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png"
     }
   },
   "ChainAssetHashMap": {
@@ -90,11 +90,11 @@
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "hydradx_main-local-sol": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png",
-    "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": null,
-    "gravity_alpha-native-g": null
+    "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
+    "gravity_alpha-native-g": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png"
   },
   "ChainLogoMap": {
-    "gravity_alpha": null
+    "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png"
   },
   "mAssetLogoMap": {}
 }
