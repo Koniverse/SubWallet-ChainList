@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.3",
+  "patchVersion": "0.2.99-beta.4",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738750142352,
+  "timestamp": 1738750501004,
   "ChainInfo": {
     "bifrost": {
       "slug": "bifrost",
@@ -271,7 +271,7 @@
       "symbol": "CELO",
       "decimals": 18,
       "priceId": null,
-      "minAmount": "100000000",
+      "minAmount": "100000000000000000",
       "assetType": "NATIVE",
       "metadata": null,
       "multiChainAsset": null,
@@ -343,7 +343,7 @@
     "pioneer-NATIVE-NEER": "efcd3beed33683e592fefa222d596623",
     "moonbase-ERC20-MFG-0xb161B2DA48DE283ec22BaFbC36E5551c892629A2": "89a982bed25b2b06152f8d157ca0724c",
     "hydradx_main-LOCAL-ASTR": "76b8879e1d38a5464f093ae87e702f6e",
-    "celo_alfajores-NATIVE-CELO": "a8c102f8995996be31db8b5d71ea968a",
+    "celo_alfajores-NATIVE-CELO": "a6e542daf5b5ca9bc92a2218e3957c89",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
