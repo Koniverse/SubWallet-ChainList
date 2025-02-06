@@ -404,6 +404,13 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "westend-NATIVE-WND___westend_assethub-NATIVE-WND": {
+    "srcAsset": "westend-NATIVE-WND",
+    "destAsset": "westend_assethub-NATIVE-WND",
+    "srcChain": "westend",
+    "destChain": "westend_assethub",
+    "path": "XCM"
+  },
   "rococo-NATIVE-ROC___hydradx_rococo-NATIVE-HDX": {
     "srcAsset": "rococo-NATIVE-ROC",
     "destAsset": "hydradx_rococo-NATIVE-HDX",
@@ -4887,6 +4894,20 @@
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
     "srcChain": "polygonzkEvm_cardona",
     "destChain": "sepolia_ethereum",
+    "path": "XCM"
+  },
+  "westend_assethub-NATIVE-WND___westend_assethub-LOCAL-PRIM": {
+    "srcAsset": "westend_assethub-NATIVE-WND",
+    "destAsset": "westend_assethub-LOCAL-PRIM",
+    "srcChain": "westend_assethub",
+    "destChain": "westend_assethub",
+    "path": "SWAP"
+  },
+  "westend_assethub-NATIVE-WND___westend-NATIVE-WND": {
+    "srcAsset": "westend_assethub-NATIVE-WND",
+    "destAsset": "westend-NATIVE-WND",
+    "srcChain": "westend_assethub",
+    "destChain": "westend",
     "path": "XCM"
   }
 }

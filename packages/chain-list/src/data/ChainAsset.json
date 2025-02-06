@@ -13495,7 +13495,20 @@
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "333333333"
+      "assetId": "333333333",
+      "multilocation": {
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 333333333
+            }
+          ]
+        }
+      }
     },
     "multiChainAsset": null,
     "hasValue": false,
