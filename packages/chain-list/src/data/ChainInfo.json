@@ -1166,6 +1166,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
     "providers": {
+      "Liebi": "wss://us.bifrost-rpc.liebi.com/ws",
+      "Dwellir": "wss://bifrost-rpc.dwellir.com",
       "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
       "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     },
@@ -1224,6 +1226,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
     "providers": {
+      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com",
       "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
