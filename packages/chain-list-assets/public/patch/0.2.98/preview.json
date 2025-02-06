@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.7",
+  "patchVersion": "0.2.99-beta.8",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738812877851,
+  "timestamp": 1738815419810,
   "ChainInfo": {
     "bifrost": {
       "slug": "bifrost",
@@ -199,20 +199,6 @@
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png"
     },
-    "celo_alfajores-NATIVE-CELO": {
-      "originChain": "celo_alfajores",
-      "slug": "celo_alfajores-NATIVE-CELO",
-      "name": "Celo",
-      "symbol": "CELO",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "100000000000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png"
-    },
     "hydradx_main-LOCAL-SOL": {
       "originChain": "hydradx_main",
       "slug": "hydradx_main-LOCAL-SOL",
@@ -294,27 +280,43 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
+    },
+    "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": {
+      "originChain": "polygon",
+      "slug": "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7",
+      "name": "GSX",
+      "symbol": "GSX",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
     }
   },
   "ChainAssetHashMap": {
     "westend-NATIVE-WND": "42ef87d31df7c32c554f660313ca3851",
-    "celo_alfajores-NATIVE-CELO": "a6e542daf5b5ca9bc92a2218e3957c89",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
     "westend_assethub-NATIVE-WND": "a951647a5e5503f2953c1727ae631f89",
-    "westend_assethub-LOCAL-PRIM": "6288bef81e5e654d534959371a121f7c"
+    "westend_assethub-LOCAL-PRIM": "6288bef81e5e654d534959371a121f7c",
+    "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "westend-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png",
-    "celo_alfajores-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png",
     "hydradx_main-local-sol": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
     "gravity_alpha-native-g": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png",
     "westend_assethub-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png",
-    "westend_assethub-local-prim": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
+    "westend_assethub-local-prim": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png",
+    "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
   },
   "ChainLogoMap": {
     "bifrost": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
