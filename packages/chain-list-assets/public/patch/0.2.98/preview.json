@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.99-beta.9",
+  "patchVersion": "0.2.99-beta.10",
   "appliedVersion": "0.2.98",
   "timestamp": 1738815419810,
   "ChainInfo": {
@@ -72,7 +72,6 @@
       "providers": {
         "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com",
         "Liebi1": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
         "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
       },
       "evmInfo": null,
