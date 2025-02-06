@@ -13156,7 +13156,7 @@
     "symbol": "CELO",
     "decimals": 18,
     "priceId": null,
-    "minAmount": "100000000000000000",
+    "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -13500,5 +13500,21 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
+  },
+  "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7",
+    "name": "GSX",
+    "symbol": "GSX",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
   }
 }
