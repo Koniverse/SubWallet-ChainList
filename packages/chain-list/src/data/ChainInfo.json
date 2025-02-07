@@ -11130,11 +11130,42 @@
     "bitcoinInfo": null,
     "tonInfo": null
   },
+  "torus": {
+    "slug": "torus",
+    "name": "Torus",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/torus.png",
+    "providers": {
+      "Torus": "wss://api.torus.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x0e00b212768e28b176d069890c106e37c331ea9b16b207f4e9baf67b3f3f3021",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "100000000000000000",
+      "symbol": "TORUS",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
   "sonic": {
     "slug": "sonic",
     "name": "Sonic Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
     "providers": {
       "SonicLab": "https://rpc.soniclabs.com",
