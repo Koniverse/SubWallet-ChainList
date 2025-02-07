@@ -9034,8 +9034,8 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "peaq_dev",
-      "chainBalanceSlug": "peaq-dev"
+      "subscanSlug": "peaq",
+      "chainBalanceSlug": "peaq-main"
     },
     "bitcoinInfo": null,
     "tonInfo": null
@@ -10557,7 +10557,7 @@
     "slug": "g6_testnet",
     "name": "G6 Testnet",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "providers": {
       "G6 Testnet": "wss://testnet.g6.network/node"
@@ -11033,7 +11033,7 @@
       "symbol": "ANLOG",
       "decimals": 12,
       "hasNativeNft": null,
-      "supportStaking": null,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
