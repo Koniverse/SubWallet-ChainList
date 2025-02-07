@@ -1,39 +1,36 @@
 {
-  "patchVersion": "0.2.99-beta.13",
+  "patchVersion": "0.2.99-beta.15",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738917625914,
+  "timestamp": 1738926065153,
   "ChainInfo": {
-    "peaq": {
-      "slug": "peaq",
-      "name": "peaq",
+    "analog_timechain": {
+      "slug": "analog_timechain",
+      "name": "Analog Timechain",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
       "providers": {
-        "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
+        "Analog": "wss://rpc.timechain.analog.one"
       },
       "evmInfo": null,
       "substrateInfo": {
-        "relaySlug": "polkadot",
-        "paraId": 3338,
-        "genesisHash": "0xd2a5d385932d1f650dae03ef8e2748983779ee342c614f80854d32b8cd8fa48c",
-        "addressPrefix": 42,
-        "chainType": "PARACHAIN",
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x1459b0204b92719ffc978c5da3d6a2057973916bd548f8076df2064bc1cb4cfc",
+        "addressPrefix": 12850,
+        "chainType": "RELAYCHAIN",
         "crowdloanUrl": null,
-        "blockExplorer": "https://peaq.subscan.io/",
-        "existentialDeposit": "500",
-        "symbol": "PEAQ",
-        "decimals": 18,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "ANLOG",
+        "decimals": 12,
         "hasNativeNft": null,
-        "supportStaking": null,
+        "supportStaking": true,
         "supportSmartContract": null,
         "crowdloanParaId": null,
         "crowdloanFunds": []
       },
-      "extraInfo": {
-        "subscanSlug": "peaq_dev",
-        "chainBalanceSlug": "peaq-dev"
-      },
+      "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
     },
@@ -97,11 +94,42 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
+    "torus": {
+      "slug": "torus",
+      "name": "Torus",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/torus.png",
+      "providers": {
+        "Torus": "wss://api.torus.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x0e00b212768e28b176d069890c106e37c331ea9b16b207f4e9baf67b3f3f3021",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000000000",
+        "symbol": "TORUS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "sonic": {
       "slug": "sonic",
       "name": "Sonic Mainnet",
       "isTestnet": false,
-      "chainStatus": "ACTIVE",
+      "chainStatus": "INACTIVE",
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
       "providers": {
         "SonicLab": "https://rpc.soniclabs.com",
@@ -126,9 +154,10 @@
     }
   },
   "ChainInfoHashMap": {
-    "peaq": "ad84cd355653cad4d509bea2101e8dbb",
+    "analog_timechain": "598fb13a9e989f2473f6284a940d433e",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b",
+    "torus": "b745ff0d9e3decd35a93865a72db7a87",
     "sonic": "6c7d89ca7b6b8377d058caf33d577894"
   },
   "ChainAsset": {
@@ -150,34 +179,6 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png"
-    },
-    "peaq-NATIVE-PEAQ": {
-      "originChain": "peaq",
-      "slug": "peaq-NATIVE-PEAQ",
-      "name": "PEAQ",
-      "symbol": "PEAQ",
-      "decimals": 18,
-      "priceId": "peaq-26",
-      "minAmount": "500",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq-native-peaq.png"
-    },
-    "celo_alfajores-NATIVE-CELO": {
-      "originChain": "celo_alfajores",
-      "slug": "celo_alfajores-NATIVE-CELO",
-      "name": "Celo",
-      "symbol": "CELO",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "1000000000000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png"
     },
     "hydradx_main-LOCAL-SOL": {
       "originChain": "hydradx_main",
@@ -290,6 +291,20 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
     },
+    "torus-NATIVE-TORUS": {
+      "originChain": "torus",
+      "slug": "torus-NATIVE-TORUS",
+      "name": "Torus",
+      "symbol": "TORUS",
+      "decimals": 18,
+      "priceId": "torus",
+      "minAmount": "100000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png"
+    },
     "sonic-NATIVE-S": {
       "originChain": "sonic",
       "slug": "sonic-NATIVE-S",
@@ -304,53 +319,36 @@
       "hasValue": true,
       "icon": null
     },
-    "statemint-LOCAL-BEAST": {
-      "originChain": "statemint",
-      "slug": "statemint-LOCAL-BEAST",
-      "name": "Mr. Beast Coin",
-      "symbol": "BEAST",
-      "decimals": 8,
-      "priceId": null,
-      "minAmount": "10000000",
-      "assetType": "LOCAL",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": null
-    }
   },
   "ChainAssetHashMap": {
     "westend-NATIVE-WND": "42ef87d31df7c32c554f660313ca3851",
-    "peaq-NATIVE-PEAQ": "480d13c5949efa96c864081e151da9a3",
-    "celo_alfajores-NATIVE-CELO": "a51eae383238fa4cb544d5ba84f36f00",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
     "westend_assethub-NATIVE-WND": "a951647a5e5503f2953c1727ae631f89",
     "westend_assethub-LOCAL-PRIM": "f2913933578a11fc6377f7793604b7b8",
     "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4",
+    "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd",
     "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5",
-    "statemint-LOCAL-BEAST": "c5ceac738ddbdbeda59d0dd99c485f04"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "westend-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png",
-    "peaq-native-peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq-native-peaq.png",
-    "celo_alfajores-native-celo": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png",
     "hydradx_main-local-sol": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
     "gravity_alpha-native-g": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png",
     "westend_assethub-native-wnd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png",
     "westend_assethub-local-prim": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png",
     "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png",
+    "torus-native-torus": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png",
     "sonic-native-s": null,
-    "statemint-local-beast": null
   },
   "ChainLogoMap": {
-    "peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq.png",
+    "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
+    "torus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/torus.png",
     "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png"
   },
   "mAssetLogoMap": {}
