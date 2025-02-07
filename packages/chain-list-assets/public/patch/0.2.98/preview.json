@@ -318,7 +318,7 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": null
-    },
+    }
   },
   "ChainAssetHashMap": {
     "westend-NATIVE-WND": "42ef87d31df7c32c554f660313ca3851",
@@ -329,7 +329,7 @@
     "westend_assethub-LOCAL-PRIM": "f2913933578a11fc6377f7793604b7b8",
     "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4",
     "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd",
-    "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5",
+    "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -342,7 +342,7 @@
     "westend_assethub-local-prim": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png",
     "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png",
     "torus-native-torus": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png",
-    "sonic-native-s": null,
+    "sonic-native-s": null
   },
   "ChainLogoMap": {
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
