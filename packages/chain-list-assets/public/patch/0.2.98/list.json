@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.11",
+  "patchVersion": "0.2.99-beta.15",
   "appliedVersion": "0.2.98",
-  "timestamp": 1738818759712,
+  "timestamp": 1738926065153,
   "ChainInfo": {
     "gravity_alpha": {
       "slug": "gravity_alpha",
@@ -28,10 +28,42 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "torus": {
+      "slug": "torus",
+      "name": "Torus",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/torus.png",
+      "providers": {
+        "Torus": "wss://api.torus.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x0e00b212768e28b176d069890c106e37c331ea9b16b207f4e9baf67b3f3f3021",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000000000",
+        "symbol": "TORUS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db"
+    "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
+    "torus": "b745ff0d9e3decd35a93865a72db7a87"
   },
   "ChainAsset": {
     "hydradx_main-LOCAL-SOL": {
@@ -95,13 +127,28 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
+    },
+    "torus-NATIVE-TORUS": {
+      "originChain": "torus",
+      "slug": "torus-NATIVE-TORUS",
+      "name": "Torus",
+      "symbol": "TORUS",
+      "decimals": 18,
+      "priceId": "torus",
+      "minAmount": "100000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/torus-native-torus.png"
     }
   },
   "ChainAssetHashMap": {
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
-    "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4"
+    "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4",
+    "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -109,10 +156,12 @@
     "hydradx_main-local-sol": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
     "gravity_alpha-native-g": "https://chain-list-assets.subwallet.app/assets/chain-assets/gravity_alpha-native-g.png",
-    "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://chain-list-assets.subwallet.app/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
+    "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://chain-list-assets.subwallet.app/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png",
+    "torus-native-torus": "https://chain-list-assets.subwallet.app/assets/chain-assets/torus-native-torus.png"
   },
   "ChainLogoMap": {
-    "gravity_alpha": "https://chain-list-assets.subwallet.app/assets/chains/gravity_alpha.png"
+    "gravity_alpha": "https://chain-list-assets.subwallet.app/assets/chains/gravity_alpha.png",
+    "torus": "https://chain-list-assets.subwallet.app/assets/chains/torus.png"
   },
   "mAssetLogoMap": {}
 }
