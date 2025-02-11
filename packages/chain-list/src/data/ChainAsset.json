@@ -13571,5 +13571,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
+  },
+  "story_protocol-NATIVE-IP": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-NATIVE-IP",
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": "story-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }
