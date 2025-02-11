@@ -13570,7 +13570,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-native-ip.png"
   },
   "sophon-NATIVE-SOPH": {
     "originChain": "sophon",
@@ -13614,6 +13614,38 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_aeneid-native-ip.png"
+  },
+  "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png"
+  },
+  "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
   }
 }
