@@ -11213,5 +11213,58 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "sophon": {
+    "slug": "sophon",
+    "name": "Sophon",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sophon.png",
+    "providers": {
+      "Sophon": "https://rpc.sophon.xyz/",
+      "Unifra": "https://sophon-mainnet-public.unifra.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 50104,
+      "blockExplorer": "https://explorer.sophon.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "SOPH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "story_aeneid": {
+    "slug": "story_aeneid",
+    "name": "Story Aeneid Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png",
+    "providers": {
+      "Aeneid": "https://aeneid.storyrpc.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 1315,
+      "blockExplorer": "https://aeneid.storyscan.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "IP",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
   }
 }
