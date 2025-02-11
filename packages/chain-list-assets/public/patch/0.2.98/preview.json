@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.16",
+  "patchVersion": "0.2.99-beta.17",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739190967428,
+  "timestamp": 1739242472408,
   "ChainInfo": {
     "analog_timechain": {
       "slug": "analog_timechain",
@@ -151,6 +151,32 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "story_protocol": {
+      "slug": "story_protocol",
+      "name": "Story Protocol",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
+      "providers": {
+        "Story": "https://mainnet.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1514,
+        "blockExplorer": "https://kmnzxolweu42.blockscout.com/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -158,7 +184,8 @@
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b",
     "torus": "b745ff0d9e3decd35a93865a72db7a87",
-    "sonic": "6c7d89ca7b6b8377d058caf33d577894"
+    "sonic": "6c7d89ca7b6b8377d058caf33d577894",
+    "story_protocol": "92f4cab65d9c7e01b366f24b43b28289"
   },
   "ChainAsset": {
     "westend-NATIVE-WND": {
@@ -332,6 +359,20 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": null
+    },
+    "story_protocol-NATIVE-IP": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-NATIVE-IP",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "priceId": "story-2",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
     }
   },
   "ChainAssetHashMap": {
@@ -344,7 +385,8 @@
     "westend_assethub-LOCAL-PRIM": "f2913933578a11fc6377f7793604b7b8",
     "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4",
     "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd",
-    "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5"
+    "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5",
+    "story_protocol-NATIVE-IP": "a1f89e8518fe440cc20d5e7be674f50d"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -358,14 +400,16 @@
     "westend_assethub-local-prim": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png",
     "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png",
     "torus-native-torus": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png",
-    "sonic-native-s": null
+    "sonic-native-s": null,
+    "story_protocol-native-ip": null
   },
   "ChainLogoMap": {
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
     "torus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/torus.png",
-    "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png"
+    "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
+    "story_protocol": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png"
   },
   "mAssetLogoMap": {}
 }
