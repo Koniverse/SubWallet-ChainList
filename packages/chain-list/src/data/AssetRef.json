@@ -4882,6 +4882,20 @@
     "destChain": "availTuringTest",
     "path": "XCM"
   },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
   "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
