@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.18",
+  "patchVersion": "0.2.99-beta.19",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739246124789,
+  "timestamp": 1739264712866,
   "ChainInfo": {
     "analog_timechain": {
       "slug": "analog_timechain",
@@ -427,7 +427,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": null
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-native-ip.png"
     },
     "sophon-NATIVE-SOPH": {
       "originChain": "sophon",
@@ -471,7 +471,39 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": null
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_aeneid-native-ip.png"
+    },
+    "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png"
+    },
+    "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
     }
   },
   "ChainAssetHashMap": {
@@ -488,7 +520,9 @@
     "story_protocol-NATIVE-IP": "a1f89e8518fe440cc20d5e7be674f50d",
     "sophon-NATIVE-SOPH": "f382c75769004a0c30a7395256aa33ac",
     "hydradx_main-LOCAL-tBTC": "707dd8070164dc505fc7705420c6f6b4",
-    "story_aeneid-NATIVE-IP": "c5b6b1b8a2820d7c3ee086fad9604eca"
+    "story_aeneid-NATIVE-IP": "c5b6b1b8a2820d7c3ee086fad9604eca",
+    "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": "18f7091fc0d8b8e676b8f41cba92c283",
+    "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": "71af5945cc97e051c980f9a71b8c76a0"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -503,10 +537,12 @@
     "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png",
     "torus-native-torus": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png",
     "sonic-native-s": null,
-    "story_protocol-native-ip": null,
+    "story_protocol-native-ip": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-native-ip.png",
     "sophon-native-soph": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sophon-native-soph.png",
     "hydradx_main-local-tbtc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-tbtc.png",
-    "story_aeneid-native-ip": null
+    "story_aeneid-native-ip": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_aeneid-native-ip.png",
+    "story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png",
+    "story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
   },
   "ChainLogoMap": {
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
