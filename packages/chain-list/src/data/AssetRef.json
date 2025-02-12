@@ -4917,11 +4917,11 @@
     "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
-  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5___storyPartner_testnet-NATIVE-IP": {
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5___storyOdyssey_testnet-NATIVE-IP": {
     "srcAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
-    "destAsset": "storyPartner_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
     "srcChain": "storyOdyssey_testnet",
-    "destChain": "storyPartner_testnet",
+    "destChain": "storyOdyssey_testnet",
     "path": "SWAP"
   },
   "westend_assethub-NATIVE-WND___westend_assethub-LOCAL-PRIM": {
