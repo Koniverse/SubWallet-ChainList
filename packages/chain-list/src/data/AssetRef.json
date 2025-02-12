@@ -4882,6 +4882,27 @@
     "destChain": "availTuringTest",
     "path": "XCM"
   },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
   "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -4896,6 +4917,13 @@
     "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5___storyPartner_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "destAsset": "storyPartner_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyPartner_testnet",
+    "path": "SWAP"
+  },
   "westend_assethub-NATIVE-WND___westend_assethub-LOCAL-PRIM": {
     "srcAsset": "westend_assethub-NATIVE-WND",
     "destAsset": "westend_assethub-LOCAL-PRIM",
@@ -4909,5 +4937,47 @@
     "srcChain": "westend_assethub",
     "destChain": "westend",
     "path": "XCM"
+  },
+  "story_protocol-NATIVE-IP___story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": {
+    "srcAsset": "story_protocol-NATIVE-IP",
+    "destAsset": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+    "srcChain": "story_protocol",
+    "destChain": "story_protocol",
+    "path": "SWAP"
+  },
+  "story_protocol-NATIVE-IP___story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+    "srcAsset": "story_protocol-NATIVE-IP",
+    "destAsset": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "srcChain": "story_protocol",
+    "destChain": "story_protocol",
+    "path": "SWAP"
+  },
+  "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14___story_protocol-NATIVE-IP": {
+    "srcAsset": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "destAsset": "story_protocol-NATIVE-IP",
+    "srcChain": "story_protocol",
+    "destChain": "story_protocol",
+    "path": "SWAP"
+  },
+  "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8___story_protocol-NATIVE-IP": {
+    "srcAsset": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+    "destAsset": "story_protocol-NATIVE-IP",
+    "srcChain": "story_protocol",
+    "destChain": "story_protocol",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
   }
 }
