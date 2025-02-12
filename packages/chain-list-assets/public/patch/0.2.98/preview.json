@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.19",
+  "patchVersion": "0.2.99-beta.20",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739264712866,
+  "timestamp": 1739361611368,
   "ChainInfo": {
     "analog_timechain": {
       "slug": "analog_timechain",
@@ -230,6 +230,32 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "unichain": {
+      "slug": "unichain",
+      "name": "Unichain Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unichain.png",
+      "providers": {
+        "Unichain": "https://mainnet.unichain.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 130,
+        "blockExplorer": "https://uniscan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -240,7 +266,8 @@
     "sonic": "6c7d89ca7b6b8377d058caf33d577894",
     "story_protocol": "92f4cab65d9c7e01b366f24b43b28289",
     "sophon": "3c0a502f54bb92433f75b85f40292daf",
-    "story_aeneid": "36e6bd1d2d69b18862e2cf40cb42af7a"
+    "story_aeneid": "36e6bd1d2d69b18862e2cf40cb42af7a",
+    "unichain": "40fe5216911f12b4e11a329becc1cdaa"
   },
   "ChainAsset": {
     "westend-NATIVE-WND": {
@@ -455,7 +482,7 @@
       "metadata": {
         "assetId": "1000765"
       },
-      "multiChainAsset": null,
+      "multiChainAsset": "tBTC-tBTCv2",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-tbtc.png"
     },
@@ -504,6 +531,68 @@
       "multiChainAsset": "USDT-Tether",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
+    },
+    "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": {
+      "originChain": "storyOdyssey_testnet",
+      "slug": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D"
+      },
+      "multiChainAsset": "USDC-USDCSepolia",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d.png"
+    },
+    "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500.png"
+    },
+    "unichain-NATIVE-ETH": {
+      "originChain": "unichain",
+      "slug": "unichain-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-native-eth.png"
+    },
+    "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": {
+      "originChain": "storyOdyssey_testnet",
+      "slug": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 18,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
     }
   },
   "ChainAssetHashMap": {
@@ -519,10 +608,14 @@
     "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5",
     "story_protocol-NATIVE-IP": "a1f89e8518fe440cc20d5e7be674f50d",
     "sophon-NATIVE-SOPH": "f382c75769004a0c30a7395256aa33ac",
-    "hydradx_main-LOCAL-tBTC": "707dd8070164dc505fc7705420c6f6b4",
+    "hydradx_main-LOCAL-tBTC": "caac9d3bda7a611bc75f0c9fd8d9025f",
     "story_aeneid-NATIVE-IP": "c5b6b1b8a2820d7c3ee086fad9604eca",
     "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": "18f7091fc0d8b8e676b8f41cba92c283",
-    "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": "71af5945cc97e051c980f9a71b8c76a0"
+    "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": "71af5945cc97e051c980f9a71b8c76a0",
+    "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": "99a20a839e95cc6fac67a2ec09b84d08",
+    "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500": "8a8026113cba8b332138b0c4027f71c6",
+    "unichain-NATIVE-ETH": "439d7b3ab4c6c4bc43596683af38ef44",
+    "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": "7a20a2f8f77070aba9e4a7899a3d68eb"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -542,7 +635,11 @@
     "hydradx_main-local-tbtc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-tbtc.png",
     "story_aeneid-native-ip": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_aeneid-native-ip.png",
     "story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png",
-    "story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
+    "story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png",
+    "storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d.png",
+    "story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500.png",
+    "unichain-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-native-eth.png",
+    "storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
   },
   "ChainLogoMap": {
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
@@ -552,7 +649,8 @@
     "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
     "story_protocol": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
     "sophon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sophon.png",
-    "story_aeneid": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png"
+    "story_aeneid": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png",
+    "unichain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unichain.png"
   },
   "mAssetLogoMap": {}
 }
