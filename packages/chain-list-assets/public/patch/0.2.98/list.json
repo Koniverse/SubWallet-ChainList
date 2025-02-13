@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.16",
+  "patchVersion": "0.2.99-beta.22",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739190967428,
+  "timestamp": 1739434732534,
   "ChainInfo": {
     "gravity_alpha": {
       "slug": "gravity_alpha",
@@ -59,11 +59,120 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "story_protocol": {
+      "slug": "story_protocol",
+      "name": "Story Protocol",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/story_protocol.png",
+      "providers": {
+        "Story": "https://mainnet.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1514,
+        "blockExplorer": "https://www.storyscan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "sophon": {
+      "slug": "sophon",
+      "name": "Sophon",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/sophon.png",
+      "providers": {
+        "Sophon": "https://rpc.sophon.xyz/",
+        "Unifra": "https://sophon-mainnet-public.unifra.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 50104,
+        "blockExplorer": "https://explorer.sophon.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "SOPH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "story_aeneid": {
+      "slug": "story_aeneid",
+      "name": "Story Aeneid Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/story_aeneid.png",
+      "providers": {
+        "Aeneid": "https://aeneid.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1315,
+        "blockExplorer": "https://aeneid.storyscan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "unichain": {
+      "slug": "unichain",
+      "name": "Unichain Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/unichain.png",
+      "providers": {
+        "Unichain": "https://mainnet.unichain.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 130,
+        "blockExplorer": "https://uniscan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
-    "torus": "b745ff0d9e3decd35a93865a72db7a87"
+    "torus": "b745ff0d9e3decd35a93865a72db7a87",
+    "story_protocol": "61c8082762f9adc2e45c739df3113d5b",
+    "sophon": "3c0a502f54bb92433f75b85f40292daf",
+    "story_aeneid": "36e6bd1d2d69b18862e2cf40cb42af7a",
+    "unichain": "40fe5216911f12b4e11a329becc1cdaa"
   },
   "ChainAsset": {
     "analog_timechain-NATIVE-ANLOG": {
@@ -155,6 +264,160 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/torus-native-torus.png"
+    },
+    "story_protocol-NATIVE-IP": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-NATIVE-IP",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "priceId": "story-2",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": {
+        "autoEnable": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-native-ip.png"
+    },
+    "sophon-NATIVE-SOPH": {
+      "originChain": "sophon",
+      "slug": "sophon-NATIVE-SOPH",
+      "name": "Sophon",
+      "symbol": "SOPH",
+      "decimals": 18,
+      "priceId": "sophon",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/sophon-native-soph.png"
+    },
+    "hydradx_main-LOCAL-tBTC": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-tBTC",
+      "name": "tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "priceId": "tbtc",
+      "minAmount": "106803374987",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000765"
+      },
+      "multiChainAsset": "tBTC-tBTCv2",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-tbtc.png"
+    },
+    "story_aeneid-NATIVE-IP": {
+      "originChain": "story_aeneid",
+      "slug": "story_aeneid-NATIVE-IP",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_aeneid-native-ip.png"
+    },
+    "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png"
+    },
+    "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
+    },
+    "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": {
+      "originChain": "storyOdyssey_testnet",
+      "slug": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D"
+      },
+      "multiChainAsset": "USDC-USDCSepolia",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d.png"
+    },
+    "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500.png"
+    },
+    "unichain-NATIVE-ETH": {
+      "originChain": "unichain",
+      "slug": "unichain-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-native-eth.png"
+    },
+    "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": {
+      "originChain": "storyOdyssey_testnet",
+      "slug": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 18,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
     }
   },
   "ChainAssetHashMap": {
@@ -163,7 +426,17 @@
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
     "gravity_alpha-NATIVE-G": "9e9ab7d9cd52fd4509b831f94ddb2fa4",
     "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4",
-    "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd"
+    "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd",
+    "story_protocol-NATIVE-IP": "72b5610342c785b1c670fbde5be370c3",
+    "sophon-NATIVE-SOPH": "f382c75769004a0c30a7395256aa33ac",
+    "hydradx_main-LOCAL-tBTC": "caac9d3bda7a611bc75f0c9fd8d9025f",
+    "story_aeneid-NATIVE-IP": "c5b6b1b8a2820d7c3ee086fad9604eca",
+    "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": "18f7091fc0d8b8e676b8f41cba92c283",
+    "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": "71af5945cc97e051c980f9a71b8c76a0",
+    "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": "99a20a839e95cc6fac67a2ec09b84d08",
+    "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500": "8a8026113cba8b332138b0c4027f71c6",
+    "unichain-NATIVE-ETH": "439d7b3ab4c6c4bc43596683af38ef44",
+    "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": "7a20a2f8f77070aba9e4a7899a3d68eb"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -173,11 +446,25 @@
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
     "gravity_alpha-native-g": "https://chain-list-assets.subwallet.app/assets/chain-assets/gravity_alpha-native-g.png",
     "polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7": "https://chain-list-assets.subwallet.app/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png",
-    "torus-native-torus": "https://chain-list-assets.subwallet.app/assets/chain-assets/torus-native-torus.png"
+    "torus-native-torus": "https://chain-list-assets.subwallet.app/assets/chain-assets/torus-native-torus.png",
+    "story_protocol-native-ip": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-native-ip.png",
+    "sophon-native-soph": "https://chain-list-assets.subwallet.app/assets/chain-assets/sophon-native-soph.png",
+    "hydradx_main-local-tbtc": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-tbtc.png",
+    "story_aeneid-native-ip": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_aeneid-native-ip.png",
+    "story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png",
+    "story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png",
+    "storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d.png",
+    "story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500.png",
+    "unichain-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-native-eth.png",
+    "storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
   },
   "ChainLogoMap": {
     "gravity_alpha": "https://chain-list-assets.subwallet.app/assets/chains/gravity_alpha.png",
-    "torus": "https://chain-list-assets.subwallet.app/assets/chains/torus.png"
+    "torus": "https://chain-list-assets.subwallet.app/assets/chains/torus.png",
+    "story_protocol": "https://chain-list-assets.subwallet.app/assets/chains/story_protocol.png",
+    "sophon": "https://chain-list-assets.subwallet.app/assets/chains/sophon.png",
+    "story_aeneid": "https://chain-list-assets.subwallet.app/assets/chains/story_aeneid.png",
+    "unichain": "https://chain-list-assets.subwallet.app/assets/chains/unichain.png"
   },
   "mAssetLogoMap": {}
 }
