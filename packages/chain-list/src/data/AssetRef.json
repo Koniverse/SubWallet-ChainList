@@ -4938,13 +4938,6 @@
     "destChain": "westend",
     "path": "XCM"
   },
-  "story_protocol-NATIVE-IP___story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": {
-    "srcAsset": "story_protocol-NATIVE-IP",
-    "destAsset": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
-    "srcChain": "story_protocol",
-    "destChain": "story_protocol",
-    "path": "SWAP"
-  },
   "story_protocol-NATIVE-IP___story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
     "srcAsset": "story_protocol-NATIVE-IP",
     "destAsset": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
@@ -4954,13 +4947,6 @@
   },
   "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14___story_protocol-NATIVE-IP": {
     "srcAsset": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
-    "destAsset": "story_protocol-NATIVE-IP",
-    "srcChain": "story_protocol",
-    "destChain": "story_protocol",
-    "path": "SWAP"
-  },
-  "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8___story_protocol-NATIVE-IP": {
-    "srcAsset": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
     "destAsset": "story_protocol-NATIVE-IP",
     "srcChain": "story_protocol",
     "destChain": "story_protocol",
