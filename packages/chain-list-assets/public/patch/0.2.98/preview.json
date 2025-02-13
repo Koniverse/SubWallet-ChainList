@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.20",
+  "patchVersion": "0.2.99-beta.22",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739361611368,
+  "timestamp": 1739434732534,
   "ChainInfo": {
     "analog_timechain": {
       "slug": "analog_timechain",
@@ -163,7 +163,7 @@
       },
       "evmInfo": {
         "evmChainId": 1514,
-        "blockExplorer": "https://kmnzxolweu42.blockscout.com/",
+        "blockExplorer": "https://www.storyscan.xyz/",
         "existentialDeposit": "0",
         "symbol": "IP",
         "decimals": 18,
@@ -264,7 +264,7 @@
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b",
     "torus": "b745ff0d9e3decd35a93865a72db7a87",
     "sonic": "6c7d89ca7b6b8377d058caf33d577894",
-    "story_protocol": "92f4cab65d9c7e01b366f24b43b28289",
+    "story_protocol": "61c8082762f9adc2e45c739df3113d5b",
     "sophon": "3c0a502f54bb92433f75b85f40292daf",
     "story_aeneid": "36e6bd1d2d69b18862e2cf40cb42af7a",
     "unichain": "40fe5216911f12b4e11a329becc1cdaa"
@@ -451,7 +451,9 @@
       "priceId": "story-2",
       "minAmount": "0",
       "assetType": "NATIVE",
-      "metadata": null,
+      "metadata": {
+        "autoEnable": true
+      },
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-native-ip.png"
@@ -606,7 +608,7 @@
     "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": "3e7d4ffc7b3b75681f1e10b77f2648e4",
     "torus-NATIVE-TORUS": "ee8abc3bfd0e382903bbb4f738244dbd",
     "sonic-NATIVE-S": "f3a3c346a9ceb747d9562ac63de4d1e5",
-    "story_protocol-NATIVE-IP": "a1f89e8518fe440cc20d5e7be674f50d",
+    "story_protocol-NATIVE-IP": "72b5610342c785b1c670fbde5be370c3",
     "sophon-NATIVE-SOPH": "f382c75769004a0c30a7395256aa33ac",
     "hydradx_main-LOCAL-tBTC": "caac9d3bda7a611bc75f0c9fd8d9025f",
     "story_aeneid-NATIVE-IP": "c5b6b1b8a2820d7c3ee086fad9604eca",
