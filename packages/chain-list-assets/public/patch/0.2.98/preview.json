@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.99-beta.22",
+  "patchVersion": "0.2.99-beta.24",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739434732534,
+  "timestamp": 1739855319582,
   "ChainInfo": {
     "analog_timechain": {
       "slug": "analog_timechain",
@@ -595,6 +595,38 @@
       "multiChainAsset": "USDT-Tether",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
+    },
+    "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD",
+      "name": "VerioIP",
+      "symbol": "vIP",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5267F7eE069CEB3D8F1c760c215569b79d0685aD"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad.png"
+    },
+    "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043",
+      "name": "WhatTheFreg",
+      "symbol": "WTF",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5a212776066b81e449fE74396cCe368Dc4b14043"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png"
     }
   },
   "ChainAssetHashMap": {
@@ -617,7 +649,9 @@
     "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": "99a20a839e95cc6fac67a2ec09b84d08",
     "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500": "8a8026113cba8b332138b0c4027f71c6",
     "unichain-NATIVE-ETH": "439d7b3ab4c6c4bc43596683af38ef44",
-    "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": "7a20a2f8f77070aba9e4a7899a3d68eb"
+    "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": "7a20a2f8f77070aba9e4a7899a3d68eb",
+    "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD": "e9572fcd1f656c9f2b92cbcc66925820",
+    "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": "3fa3d4d96d024d6a329c639d45a0b49a"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -641,7 +675,9 @@
     "storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d.png",
     "story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500.png",
     "unichain-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-native-eth.png",
-    "storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
+    "storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png",
+    "story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad.png",
+    "story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png"
   },
   "ChainLogoMap": {
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
