@@ -13711,5 +13711,37 @@
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
+  },
+  "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD",
+    "name": "VerioIP",
+    "symbol": "vIP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5267F7eE069CEB3D8F1c760c215569b79d0685aD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad.png"
+  },
+  "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043",
+    "name": "WhatTheFreg",
+    "symbol": "WTF",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5a212776066b81e449fE74396cCe368Dc4b14043"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png"
   }
 }
