@@ -1,8 +1,42 @@
 {
-  "patchVersion": "0.2.99-beta.24",
+  "patchVersion": "0.2.99-beta.26",
   "appliedVersion": "0.2.98",
-  "timestamp": 1739855319582,
+  "timestamp": 1739957054183,
   "ChainInfo": {
+    "creditcoin": {
+      "slug": "creditcoin",
+      "name": "CC Enterprise",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png",
+      "providers": {
+        "Creditcoin Foundation": "wss://mainnet.creditcoin.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xdd954cbf4000542ef1a15bca509cd89684330bee5e23766c527cdb0d7275e9c2",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://creditcoin-classic.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "CTC",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "creditcoin",
+        "chainBalanceSlug": "creditcoin"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "analog_timechain": {
       "slug": "analog_timechain",
       "name": "Analog Timechain",
@@ -256,9 +290,94 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "siliconZkEvm": {
+      "slug": "siliconZkEvm",
+      "name": "Silicon zkEVM",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/siliconzkevm.png",
+      "providers": {
+        "Silicon": "https://rpc.silicon.network/",
+        "Nodeinfra": "https://silicon-mainnet.nodeinfra.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 2355,
+        "blockExplorer": "https://scope.silicon.network/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "ternoaZkEvm": {
+      "slug": "ternoaZkEvm",
+      "name": "Ternoa zkEVM+",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ternoazkevm.png",
+      "providers": {
+        "Ternoa": "https://rpc-mainnet.zkevm.ternoa.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 752025,
+        "blockExplorer": "https://explorer-mainnet.zkevm.ternoa.network/",
+        "existentialDeposit": "0",
+        "symbol": "CAPS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "gen6_public": {
+      "slug": "gen6_public",
+      "name": "Gen6 Public Chain",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gen6_public.png",
+      "providers": {
+        "Gen6": "wss://gen6.app:443/node"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x9226d527cd7fb37ea0f466e06182c3c5f330f3f522799cb8cc17e0a080b49a2d",
+        "addressPrefix": 355,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000000000",
+        "symbol": "GSX",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
+    "creditcoin": "adc78db9ae3dc0fcaecf784d8a52b9ca",
     "analog_timechain": "598fb13a9e989f2473f6284a940d433e",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b",
@@ -267,7 +386,10 @@
     "story_protocol": "61c8082762f9adc2e45c739df3113d5b",
     "sophon": "3c0a502f54bb92433f75b85f40292daf",
     "story_aeneid": "36e6bd1d2d69b18862e2cf40cb42af7a",
-    "unichain": "40fe5216911f12b4e11a329becc1cdaa"
+    "unichain": "40fe5216911f12b4e11a329becc1cdaa",
+    "siliconZkEvm": "8f40990dda4e243b13deedce9cada302",
+    "ternoaZkEvm": "d5401c03c3f265581ebaa311ebde375d",
+    "gen6_public": "f8a385d4c8a52bccd12276be463ee5e2"
   },
   "ChainAsset": {
     "westend-NATIVE-WND": {
@@ -627,6 +749,48 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png"
+    },
+    "siliconZkEvm-NATIVE-ETH": {
+      "originChain": "siliconZkEvm",
+      "slug": "siliconZkEvm-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/siliconzkevm-native-eth.png"
+    },
+    "ternoaZkEvm-NATIVE-CAPS": {
+      "originChain": "ternoaZkEvm",
+      "slug": "ternoaZkEvm-NATIVE-CAPS",
+      "name": "Ternoa",
+      "symbol": "CAPS",
+      "decimals": 18,
+      "priceId": "coin-capsule",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ternoazkevm-native-caps.png"
+    },
+    "gen6_public-NATIVE-GSX": {
+      "originChain": "gen6_public",
+      "slug": "gen6_public-NATIVE-GSX",
+      "name": "GSX",
+      "symbol": "GSX",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "100000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gen6_public-native-gsx.png"
     }
   },
   "ChainAssetHashMap": {
@@ -651,7 +815,10 @@
     "unichain-NATIVE-ETH": "439d7b3ab4c6c4bc43596683af38ef44",
     "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": "7a20a2f8f77070aba9e4a7899a3d68eb",
     "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD": "e9572fcd1f656c9f2b92cbcc66925820",
-    "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": "3fa3d4d96d024d6a329c639d45a0b49a"
+    "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": "3fa3d4d96d024d6a329c639d45a0b49a",
+    "siliconZkEvm-NATIVE-ETH": "8f458b9d12242cc9657fa0513ab3bcd8",
+    "ternoaZkEvm-NATIVE-CAPS": "72238f0516313d1b66a3c7b37ad49afd",
+    "gen6_public-NATIVE-GSX": "01716df049b4aeb833c5698a2bc9b317"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -677,9 +844,13 @@
     "unichain-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-native-eth.png",
     "storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png",
     "story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad.png",
-    "story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png"
+    "story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png",
+    "siliconzkevm-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/siliconzkevm-native-eth.png",
+    "ternoazkevm-native-caps": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ternoazkevm-native-caps.png",
+    "gen6_public-native-gsx": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gen6_public-native-gsx.png"
   },
   "ChainLogoMap": {
+    "creditcoin": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png",
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
@@ -688,7 +859,10 @@
     "story_protocol": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
     "sophon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sophon.png",
     "story_aeneid": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png",
-    "unichain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unichain.png"
+    "unichain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/unichain.png",
+    "siliconZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/siliconzkevm.png",
+    "ternoaZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ternoazkevm.png",
+    "gen6_public": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gen6_public.png"
   },
   "mAssetLogoMap": {}
 }
