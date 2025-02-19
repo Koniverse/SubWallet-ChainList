@@ -5357,7 +5357,7 @@
     "slug": "creditcoin",
     "name": "CC Enterprise",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png",
     "providers": {
       "Creditcoin Foundation": "wss://mainnet.creditcoin.network/ws"
@@ -11289,6 +11289,90 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "siliconZkEvm": {
+    "slug": "siliconZkEvm",
+    "name": "Silicon zkEVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/siliconzkevm.png",
+    "providers": {
+      "Silicon": "https://rpc.silicon.network/",
+      "Nodeinfra": "https://silicon-mainnet.nodeinfra.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 2355,
+      "blockExplorer": "https://scope.silicon.network/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "ternoaZkEvm": {
+    "slug": "ternoaZkEvm",
+    "name": "Ternoa zkEVM+",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ternoazkevm.png",
+    "providers": {
+      "Ternoa": "https://rpc-mainnet.zkevm.ternoa.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 752025,
+      "blockExplorer": "https://explorer-mainnet.zkevm.ternoa.network/",
+      "existentialDeposit": "0",
+      "symbol": "CAPS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null
+  },
+  "gen6_public": {
+    "slug": "gen6_public",
+    "name": "Gen6 Public Chain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gen6_public.png",
+    "providers": {
+      "Gen6": "wss://gen6.app:443/node"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x9226d527cd7fb37ea0f466e06182c3c5f330f3f522799cb8cc17e0a080b49a2d",
+      "addressPrefix": 355,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "100000000000000000",
+      "symbol": "GSX",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
