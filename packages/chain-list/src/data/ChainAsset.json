@@ -13278,7 +13278,13 @@
     "priceId": null,
     "minAmount": "10000000000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "multilocation": {
+        "parents": 0,
+        "interior": "Here"
+      },
+      "disableEvmTransfer": true
+    },
     "multiChainAsset": null,
     "hasValue": false,
     "icon": null
