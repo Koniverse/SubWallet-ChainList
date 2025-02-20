@@ -3,116 +3,6 @@
   "appliedVersion": "0.2.98",
   "timestamp": 1740025149577,
   "ChainInfo": {
-    "bifrost": {
-      "slug": "bifrost",
-      "name": "Bifrost Kusama",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
-      "providers": {
-        "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
-        "Dwellir": "wss://bifrost-rpc.dwellir.com",
-        "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "LiebiUS": "wss://us.bifrost-rpc.liebi.com/ws",
-        "RadiumBlock": "wss://bifrost.public.curie.radiumblock.co/ws"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2001,
-        "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-        "addressPrefix": 0,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
-        "blockExplorer": "https://bifrost-kusama.subscan.io/",
-        "existentialDeposit": "10000000000",
-        "symbol": "BNC",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "kusama",
-            "fundId": "2262-95",
-            "paraId": 2262,
-            "status": "won",
-            "startTime": "2023-03-08T04:27:00.000Z",
-            "endTime": "2024-02-07T04:27:00.000Z",
-            "auctionIndex": 71,
-            "firstPeriod": 28,
-            "lastPeriod": 35
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2001-9",
-            "paraId": 2001,
-            "status": "won",
-            "startTime": "2021-06-16T04:27:00.000Z",
-            "endTime": "2022-05-18T04:27:00.000Z",
-            "auctionIndex": 5,
-            "firstPeriod": 13,
-            "lastPeriod": 20
-          }
-        ]
-      },
-      "extraInfo": {
-        "subscanSlug": "bifrost-kusama",
-        "chainBalanceSlug": "bifrost"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "bifrost_dot": {
-      "slug": "bifrost_dot",
-      "name": "Bifrost Polkadot",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
-      "providers": {
-        "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com",
-        "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
-        "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "polkadot",
-        "paraId": 2030,
-        "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-        "addressPrefix": 0,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
-        "blockExplorer": "https://bifrost.subscan.io",
-        "existentialDeposit": "10000000000",
-        "symbol": "BNC",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "polkadot",
-            "fundId": "2030-37",
-            "paraId": 2030,
-            "status": "won",
-            "startTime": "2022-06-07T01:48:00.000Z",
-            "endTime": "2024-04-09T01:48:00.000Z",
-            "auctionIndex": 65,
-            "firstPeriod": 8,
-            "lastPeriod": 15
-          }
-        ]
-      },
-      "extraInfo": {
-        "subscanSlug": "bifrost",
-        "chainBalanceSlug": "bifrost-p"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
     "creditcoin": {
       "slug": "creditcoin",
       "name": "CC Enterprise",
@@ -144,50 +34,6 @@
         "subscanSlug": "creditcoin",
         "chainBalanceSlug": "creditcoin"
       },
-      "bitcoinInfo": null,
-      "tonInfo": null
-    },
-    "bittensor": {
-      "slug": "bittensor",
-      "name": "Bittensor",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor.png",
-      "providers": {
-        "Opentensor": "wss://entrypoint-finney.opentensor.ai:443",
-        "Latent": "wss://lite.sub.latent.to:443"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-        "addressPrefix": 42,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://scan.bittensor.com/",
-        "existentialDeposit": "500",
-        "symbol": "TAO",
-        "decimals": 9,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "polkadot",
-            "fundId": "2097-57",
-            "paraId": 2097,
-            "status": "won",
-            "startTime": "2023-02-14T01:48:00.000Z",
-            "endTime": "2024-12-17T01:48:00.000Z",
-            "auctionIndex": 36,
-            "firstPeriod": 11,
-            "lastPeriod": 18
-          }
-        ]
-      },
-      "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
     },
@@ -531,10 +377,7 @@
     }
   },
   "ChainInfoHashMap": {
-    "bifrost": "5bde9444b0264d6725d38eaf0d27f47c",
-    "bifrost_dot": "49eb0782c40bef812fb127c30fdbc0e3",
     "creditcoin": "adc78db9ae3dc0fcaecf784d8a52b9ca",
-    "bittensor": "1b5387bf03936b6c6984049fd7281983",
     "analog_timechain": "598fb13a9e989f2473f6284a940d433e",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "westend_assethub": "8f06edcfdf213d35e2a3823c448b2e7b",
@@ -1007,10 +850,7 @@
     "gen6_public-native-gsx": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gen6_public-native-gsx.png"
   },
   "ChainLogoMap": {
-    "bifrost": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
-    "bifrost_dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost_dot.png",
     "creditcoin": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/creditcoin.png",
-    "bittensor": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor.png",
     "analog_timechain": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/analog_timechain.png",
     "gravity_alpha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gravity_alpha.png",
     "westend_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/westend_assethub.png",
