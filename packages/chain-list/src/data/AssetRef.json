@@ -223,6 +223,13 @@
     "destChain": "polygon",
     "path": "XCM"
   },
+  "ethereum-NATIVE-ETH___ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
   "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
     "srcAsset": "pioneer-NATIVE-NEER",
     "destAsset": "karura-LOCAL-NEER",
@@ -332,6 +339,27 @@
     "destAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
     "srcChain": "arbitrum_one",
     "destChain": "ethereum",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "arbitrum_one-NATIVE-ETH___arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
     "path": "SWAP"
   },
   "acala-LOCAL-DOT___polkadot-NATIVE-DOT": {
@@ -1034,12 +1062,26 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599___ethereum-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "ethereum",
+    "path": "SWAP"
+  },
   "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE___statemint-LOCAL-SHIB": {
     "srcAsset": "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
     "destAsset": "statemint-LOCAL-SHIB",
     "srcChain": "ethereum",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
   },
   "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___ethereum-NATIVE-ETH": {
     "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
