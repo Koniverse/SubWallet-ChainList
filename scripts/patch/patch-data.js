@@ -64,8 +64,8 @@ const main = async () => {
       continue;
     }
 
-    const { icon: newChainIcon, ...newChainWithoutLogo } = newChainInfo;
-    const { icon: oldChainIcon, ...oldChainWithoutLogo } = oldChainMap[newChainInfo.slug];
+    const { icon: newChainIcon, providers: newChainProviders, ...newChainWithoutLogo } = newChainInfo;
+    const { icon: oldChainIcon, providers: oldChainProviders,...oldChainWithoutLogo } = oldChainMap[newChainInfo.slug];
     if (JSON.stringify(newChainWithoutLogo) !== JSON.stringify(oldChainWithoutLogo)) {
       addPatchChain(newChainInfo);
     }
