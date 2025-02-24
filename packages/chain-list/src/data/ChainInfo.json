@@ -10938,7 +10938,7 @@
     "name": "Muse Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/muse_testnet.png",
     "providers": {
       "Parity": "wss://paseo-muse-rpc.polkadot.io"
     },
