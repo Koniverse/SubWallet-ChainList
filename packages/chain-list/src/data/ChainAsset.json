@@ -13777,5 +13777,49 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gen6_public-native-gsx.png"
+  },
+  "monad_testnet-NATIVE-MON": {
+    "originChain": "monad_testnet",
+    "slug": "monad_testnet-NATIVE-MON",
+    "name": "Monad",
+    "symbol": "MON",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/monad_testnet-native-mon.png"
+  },
+  "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2",
+    "name": "CAPS",
+    "symbol": "CAPS",
+    "decimals": 18,
+    "priceId": "coin-capsule",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2.png"
+  },
+  "melodie_testnet-NATIVE-MEL": {
+    "originChain": "melodie_testnet",
+    "slug": "melodie_testnet-NATIVE-MEL",
+    "name": "Allfeat Testnet",
+    "symbol": "MEL",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "100000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/melodie_testnet-native-mel.png"
   }
 }
