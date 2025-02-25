@@ -1,8 +1,55 @@
 {
-  "patchVersion": "0.2.99-beta.27",
+  "patchVersion": "0.2.99-beta.32",
   "appliedVersion": "0.2.98",
-  "timestamp": 1740025149577,
+  "timestamp": 1740467952732,
   "ChainInfo": {
+    "bajun": {
+      "slug": "bajun",
+      "name": "Bajun Kusama",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bajun.png",
+      "providers": {
+        "AjunaNetwork": "wss://rpc-parachain.bajun.network",
+        "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2119,
+        "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
+        "addressPrefix": 1337,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://bajun.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "BAJU",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2119-76",
+            "paraId": 2119,
+            "status": "won",
+            "startTime": "2022-06-29T04:27:00.000Z",
+            "endTime": "2023-05-31T04:27:00.000Z",
+            "auctionIndex": 37,
+            "firstPeriod": 22,
+            "lastPeriod": 29
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "bajun",
+        "chainBalanceSlug": "bajun"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "creditcoin": {
       "slug": "creditcoin",
       "name": "CC Enterprise",
@@ -282,9 +329,67 @@
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
+    },
+    "monad_testnet": {
+      "slug": "monad_testnet",
+      "name": "Monad Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/monad_testnet.png",
+      "providers": {
+        "Monad": "https://testnet-rpc.monad.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 10143,
+        "blockExplorer": "https://testnet.monadexplorer.com/",
+        "existentialDeposit": "0",
+        "symbol": "MON",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "melodie_testnet": {
+      "slug": "melodie_testnet",
+      "name": "Melodie Testnet Live",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/melodie_testnet.png",
+      "providers": {
+        "Allfeat": "wss://melodie-rpc.allfeat.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xb2b98482cdadce88e03feb60dfb1122630326b404b599938ec997aa819e31983",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000",
+        "symbol": "MEL",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
     }
   },
   "ChainInfoHashMap": {
+    "bajun": "9d2ba8b81b3336e453e0d77ea8091032",
     "creditcoin": "adc78db9ae3dc0fcaecf784d8a52b9ca",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "torus": "b745ff0d9e3decd35a93865a72db7a87",
@@ -294,7 +399,9 @@
     "unichain": "40fe5216911f12b4e11a329becc1cdaa",
     "siliconZkEvm": "8f40990dda4e243b13deedce9cada302",
     "ternoaZkEvm": "d5401c03c3f265581ebaa311ebde375d",
-    "gen6_public": "f8a385d4c8a52bccd12276be463ee5e2"
+    "gen6_public": "f8a385d4c8a52bccd12276be463ee5e2",
+    "monad_testnet": "1d9bd5a4c26cca50e0b4bfd6f9d17e6a",
+    "melodie_testnet": "4097494acebefa846018826804945c08"
   },
   "ChainAsset": {
     "analog_timechain-NATIVE-ANLOG": {
@@ -614,6 +721,50 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/gen6_public-native-gsx.png"
+    },
+    "monad_testnet-NATIVE-MON": {
+      "originChain": "monad_testnet",
+      "slug": "monad_testnet-NATIVE-MON",
+      "name": "Monad",
+      "symbol": "MON",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/monad_testnet-native-mon.png"
+    },
+    "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2",
+      "name": "CAPS",
+      "symbol": "CAPS",
+      "decimals": 18,
+      "priceId": "coin-capsule",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2.png"
+    },
+    "melodie_testnet-NATIVE-MEL": {
+      "originChain": "melodie_testnet",
+      "slug": "melodie_testnet-NATIVE-MEL",
+      "name": "Allfeat Testnet",
+      "symbol": "MEL",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "100000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/melodie_testnet-native-mel.png"
     }
   },
   "ChainAssetHashMap": {
@@ -637,7 +788,10 @@
     "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": "3fa3d4d96d024d6a329c639d45a0b49a",
     "siliconZkEvm-NATIVE-ETH": "8f458b9d12242cc9657fa0513ab3bcd8",
     "ternoaZkEvm-NATIVE-CAPS": "72238f0516313d1b66a3c7b37ad49afd",
-    "gen6_public-NATIVE-GSX": "01716df049b4aeb833c5698a2bc9b317"
+    "gen6_public-NATIVE-GSX": "01716df049b4aeb833c5698a2bc9b317",
+    "monad_testnet-NATIVE-MON": "5ba4535e5b9d6a28cde971a151042794",
+    "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2": "c08b26b82cd65c7e009ce7fad011d501",
+    "melodie_testnet-NATIVE-MEL": "b1c1ddd30918605b6bd363dcafd01ead"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -662,9 +816,13 @@
     "story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png",
     "siliconzkevm-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/siliconzkevm-native-eth.png",
     "ternoazkevm-native-caps": "https://chain-list-assets.subwallet.app/assets/chain-assets/ternoazkevm-native-caps.png",
-    "gen6_public-native-gsx": "https://chain-list-assets.subwallet.app/assets/chain-assets/gen6_public-native-gsx.png"
+    "gen6_public-native-gsx": "https://chain-list-assets.subwallet.app/assets/chain-assets/gen6_public-native-gsx.png",
+    "monad_testnet-native-mon": "https://chain-list-assets.subwallet.app/assets/chain-assets/monad_testnet-native-mon.png",
+    "ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2.png",
+    "melodie_testnet-native-mel": "https://chain-list-assets.subwallet.app/assets/chain-assets/melodie_testnet-native-mel.png"
   },
   "ChainLogoMap": {
+    "bajun": "https://chain-list-assets.subwallet.app/assets/chains/bajun.png",
     "creditcoin": "https://chain-list-assets.subwallet.app/assets/chains/creditcoin.png",
     "gravity_alpha": "https://chain-list-assets.subwallet.app/assets/chains/gravity_alpha.png",
     "torus": "https://chain-list-assets.subwallet.app/assets/chains/torus.png",
@@ -674,7 +832,9 @@
     "unichain": "https://chain-list-assets.subwallet.app/assets/chains/unichain.png",
     "siliconZkEvm": "https://chain-list-assets.subwallet.app/assets/chains/siliconzkevm.png",
     "ternoaZkEvm": "https://chain-list-assets.subwallet.app/assets/chains/ternoazkevm.png",
-    "gen6_public": "https://chain-list-assets.subwallet.app/assets/chains/gen6_public.png"
+    "gen6_public": "https://chain-list-assets.subwallet.app/assets/chains/gen6_public.png",
+    "monad_testnet": "https://chain-list-assets.subwallet.app/assets/chains/monad_testnet.png",
+    "melodie_testnet": "https://chain-list-assets.subwallet.app/assets/chains/melodie_testnet.png"
   },
   "mAssetLogoMap": {}
 }
