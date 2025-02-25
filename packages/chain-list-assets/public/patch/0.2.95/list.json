@@ -1,0 +1,649 @@
+{
+  "patchVersion": "0.2.96-beta.11",
+  "appliedVersion": "0.2.95",
+  "timestamp": 1734075676472,
+  "ChainInfo": {
+    "aventus": {
+      "slug": "aventus",
+      "name": "Aventus Polkadot",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/aventus.png",
+      "providers": {
+        "Aventus": "wss://public-rpc.mainnet.aventus.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2056,
+        "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "http://explorer.mainnet.aventus.network/",
+        "existentialDeposit": "0",
+        "symbol": "AVT",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2056-45",
+            "paraId": 2056,
+            "status": "won",
+            "startTime": "2022-08-30T01:48:00.000Z",
+            "endTime": "2024-07-02T01:48:00.000Z",
+            "auctionIndex": 26,
+            "firstPeriod": 9,
+            "lastPeriod": 16
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "storyPublic_testnet": {
+      "slug": "storyPublic_testnet",
+      "name": "Story Public Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/storypublic_testnet.png",
+      "providers": {
+        "Story Testnet": "https://testnet.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1513,
+        "blockExplorer": "https://testnet.storyscan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "fraxtal": {
+      "slug": "fraxtal",
+      "name": "Fraxtal Mainnet L2",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/fraxtal.png",
+      "providers": {
+        "Frax": "https://rpc.frax.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 252,
+        "blockExplorer": "https://fraxscan.com/",
+        "existentialDeposit": "0",
+        "symbol": "frxETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC721",
+          "ERC20"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "cyber": {
+      "slug": "cyber",
+      "name": "Cyber",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/cyber.png",
+      "providers": {
+        "Cyber": "https://cyber.alt.technology/"
+      },
+      "evmInfo": {
+        "evmChainId": 7560,
+        "blockExplorer": "https://cyberscan.co/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "g6_testnet": {
+      "slug": "g6_testnet",
+      "name": "G6 Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png",
+      "providers": {
+        "G6 Testnet": "wss://testnet.g6.network/node"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xbfac5d00971d829620ee7c653de232d3b052b663dc0f6277c352b6c96f9ca15c",
+        "addressPrefix": 611,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "GSX",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "metadium_testnet": {
+      "slug": "metadium_testnet",
+      "name": "Metadium Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": null,
+      "providers": {
+        "abc": "https://api.metadium.com/dev"
+      },
+      "evmInfo": {
+        "evmChainId": 12,
+        "blockExplorer": null,
+        "existentialDeposit": "0",
+        "symbol": "KAL",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "thundercore": {
+      "slug": "thundercore",
+      "name": "Thundercore",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": null,
+      "providers": {
+        "thhh": "https://thundercore-testnet.drpc.org"
+      },
+      "evmInfo": {
+        "evmChainId": 18,
+        "blockExplorer": null,
+        "existentialDeposit": "0",
+        "symbol": "TST",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "jamton": {
+      "slug": "jamton",
+      "name": "JAMTON",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/jamton.png",
+      "providers": {
+        "Jamton": "wss://rpc.jamton.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3397,
+        "genesisHash": "0xbb9233e202ec014707f82ddb90e84ee9efece8fefee287ad4ad646d869a6c24a",
+        "addressPrefix": 5589,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000000",
+        "symbol": "DOTON",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "etherlink": {
+      "slug": "etherlink",
+      "name": "Etherlink Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/etherlink.png",
+      "providers": {
+        "Etherlink": "https://node.mainnet.etherlink.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 42793,
+        "blockExplorer": "https://explorer.etherlink.com/",
+        "existentialDeposit": "0",
+        "symbol": "XTZ",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "polkadot_people": {
+      "slug": "polkadot_people",
+      "name": "Polkadot People",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/polkadot_people.png",
+      "providers": {
+        "PolkadotPeople": "wss://polkadot-people-rpc.polkadot.io",
+        "LuckyFriday": "wss://rpc-people-polkadot.luckyfriday.io",
+        "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws",
+        "Sys Ibp": "wss://sys.ibp.network/people-polkadot",
+        "Sys Dotters": "wss://sys.dotters.network/people-polkadot",
+        "Dotters": "wss://people-polkadot.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 1004,
+        "genesisHash": "0x67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "DOT",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "laos_network_evm": {
+      "slug": "laos_network_evm",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/laos_network_evm.png",
+      "providers": {
+        "LaosFoundation": "https://rpc.laos.laosfoundation.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 6283,
+        "blockExplorer": "https://explorer.laosnetwork.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "laos_network": {
+      "slug": "laos_network",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/laos_network.png",
+      "providers": {
+        "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3370,
+        "genesisHash": "0xe8aecc950e82f1a375cf650fa72d07e0ad9bef7118f49b92283b63e88b1de88b",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://laos.statescan.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "aventus": "83d2fc3fad3382c8705f96e7ddfa0b42",
+    "storyPublic_testnet": "a0a9c93b33576303c35b3b32b2130e6a",
+    "fraxtal": "719f0d3af78b2a1ee291b18c4623c026",
+    "cyber": "7f5ea9590fbff4a2a5417e11ce7e1a2f",
+    "g6_testnet": "96df11e911e370860a1efbe5e2c6c443",
+    "metadium_testnet": "cdcbf6b8ab0ebfd70f15378837239063",
+    "thundercore": "e12da5c4544b867645140511e8d654e3",
+    "jamton": "8cd882af51e6c776a988ff8963edd769",
+    "etherlink": "b2c9dcc9c26e72f07241618c18224988",
+    "polkadot_people": "2ed901aabe3cf9dec5591d362c25e25a",
+    "laos_network_evm": "22328579c395f191c0e83362a3454774",
+    "laos_network": "4331348247e8d48c3724ab768c472534"
+  },
+  "ChainAsset": {
+    "statemint-LOCAL-LOVA": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-LOVA",
+      "name": "AIWeb3",
+      "symbol": "LOVA",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "50000028"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-lova.png"
+    },
+    "hydradx_main-LOCAL-LOVA": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-LOVA",
+      "name": "AIWeb3",
+      "symbol": "LOVA",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000639"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-lova.png"
+    },
+    "fraxtal-NATIVE-frxETH": {
+      "originChain": "fraxtal",
+      "slug": "fraxtal-NATIVE-frxETH",
+      "name": "Frax Ether",
+      "symbol": "frxETH",
+      "decimals": 18,
+      "priceId": "frax-ether",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/fraxtal-native-frxeth.png"
+    },
+    "cyber-NATIVE-ETH": {
+      "originChain": "cyber",
+      "slug": "cyber-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/cyber-native-eth.png"
+    },
+    "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+      "originChain": "storyOdyssey_testnet",
+      "slug": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+      "name": "PIPERX Token",
+      "symbol": "PIP",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x6e990040Fd9b06F98eFb62A147201696941680b5"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5.png"
+    },
+    "g6_testnet-NATIVE-GSX": {
+      "originChain": "g6_testnet",
+      "slug": "g6_testnet-NATIVE-GSX",
+      "name": "GSX",
+      "symbol": "GSX",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "500",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/g6_testnet-native-gsx.png"
+    },
+    "metadium_testnet-NATIVE-KAL": {
+      "originChain": "metadium_testnet",
+      "slug": "metadium_testnet-NATIVE-KAL",
+      "name": "Metadium Testnet",
+      "symbol": "KAL",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": null
+    },
+    "thundercore-NATIVE-TST": {
+      "originChain": "thundercore",
+      "slug": "thundercore-NATIVE-TST",
+      "name": "Thunder",
+      "symbol": "TST",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": null
+    },
+    "jamton-NATIVE-DOTON": {
+      "originChain": "jamton",
+      "slug": "jamton-NATIVE-DOTON",
+      "name": "DOTON",
+      "symbol": "DOTON",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/jamton-native-doton.png"
+    },
+    "etherlink-NATIVE-XTZ": {
+      "originChain": "etherlink",
+      "slug": "etherlink-NATIVE-XTZ",
+      "name": "Tezos",
+      "symbol": "XTZ",
+      "decimals": 18,
+      "priceId": "tezos",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/etherlink-native-xtz.png"
+    },
+    "polkadot_people-NATIVE-DOT": {
+      "originChain": "polkadot_people",
+      "slug": "polkadot_people-NATIVE-DOT",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/polkadot_people-native-dot.png"
+    },
+    "laos_network_evm-NATIVE-LAOS": {
+      "originChain": "laos_network_evm",
+      "slug": "laos_network_evm-NATIVE-LAOS",
+      "name": "LAOS",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network_evm-native-laos.png"
+    },
+    "laos_network-NATIVE-LAOS": {
+      "originChain": "laos_network",
+      "slug": "laos_network-NATIVE-LAOS",
+      "name": "LAOS",
+      "symbol": "LAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network-native-laos.png"
+    },
+    "hydradx_main-LOCAL-AAVE": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-AAVE",
+      "name": "Aave",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "priceId": "aave",
+      "minAmount": "59084194977843",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000624"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-aave.png"
+    },
+    "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": {
+      "originChain": "optimism",
+      "slug": "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c",
+      "name": "Neurolanche",
+      "symbol": "NEROX",
+      "decimals": 18,
+      "priceId": "nerox-ai",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "statemint-LOCAL-LOVA": "3df76e19a271c583dc495204fb22865a",
+    "hydradx_main-LOCAL-LOVA": "1834bf2ae796c2254dcf9fd970dfba4d",
+    "fraxtal-NATIVE-frxETH": "1897b076c7c72bbb1c6ef960ea8ee3f2",
+    "cyber-NATIVE-ETH": "8e4ef649e7da13f2d16c862a809d8117",
+    "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": "c78accf76a1a0621018ac070d746637f",
+    "g6_testnet-NATIVE-GSX": "7594d7344ea112698652cdd41ed0974a",
+    "metadium_testnet-NATIVE-KAL": "d58deb5869731528bd6829c7d52fc770",
+    "thundercore-NATIVE-TST": "9e5066751f2bff2d0ab101d0d2ab1926",
+    "jamton-NATIVE-DOTON": "4e60cb1bd9d380facd8cc8e4a9512c4e",
+    "etherlink-NATIVE-XTZ": "18970720b8186b25ca87841712f0167d",
+    "polkadot_people-NATIVE-DOT": "5dd0749cef620b254da3668d9b25cb7f",
+    "laos_network_evm-NATIVE-LAOS": "828a26128bf6fbdd305878956188c2f4",
+    "laos_network-NATIVE-LAOS": "438449470e0a51a858017f3f7c210530",
+    "hydradx_main-LOCAL-AAVE": "1693ffa37caa6a880917c0bfdcff6c40",
+    "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": "115fcbd15f87e3e2ad79a6ee3774f225"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "statemint-local-lova": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-lova.png",
+    "hydradx_main-local-lova": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-lova.png",
+    "fraxtal-native-frxeth": "https://chain-list-assets.subwallet.app/assets/chain-assets/fraxtal-native-frxeth.png",
+    "cyber-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/cyber-native-eth.png",
+    "storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5": "https://chain-list-assets.subwallet.app/assets/chain-assets/storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5.png",
+    "g6_testnet-native-gsx": "https://chain-list-assets.subwallet.app/assets/chain-assets/g6_testnet-native-gsx.png",
+    "metadium_testnet-native-kal": null,
+    "thundercore-native-tst": null,
+    "jamton-native-doton": "https://chain-list-assets.subwallet.app/assets/chain-assets/jamton-native-doton.png",
+    "etherlink-native-xtz": "https://chain-list-assets.subwallet.app/assets/chain-assets/etherlink-native-xtz.png",
+    "polkadot_people-native-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/polkadot_people-native-dot.png",
+    "laos_network_evm-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network_evm-native-laos.png",
+    "laos_network-native-laos": "https://chain-list-assets.subwallet.app/assets/chain-assets/laos_network-native-laos.png",
+    "hydradx_main-local-aave": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-aave.png",
+    "moonbeam-erc20-cp": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cp.png",
+    "optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c": "https://chain-list-assets.subwallet.app/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
+  },
+  "ChainLogoMap": {
+    "aventus": "https://chain-list-assets.subwallet.app/assets/chains/aventus.png",
+    "storyPublic_testnet": "https://chain-list-assets.subwallet.app/assets/chains/storypublic_testnet.png",
+    "fraxtal": "https://chain-list-assets.subwallet.app/assets/chains/fraxtal.png",
+    "cyber": "https://chain-list-assets.subwallet.app/assets/chains/cyber.png",
+    "g6_testnet": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png",
+    "metadium_testnet": null,
+    "thundercore": null,
+    "jamton": "https://chain-list-assets.subwallet.app/assets/chains/jamton.png",
+    "etherlink": "https://chain-list-assets.subwallet.app/assets/chains/etherlink.png",
+    "polkadot_people": "https://chain-list-assets.subwallet.app/assets/chains/polkadot_people.png",
+    "laos_network_evm": "https://chain-list-assets.subwallet.app/assets/chains/laos_network_evm.png",
+    "laos_network": "https://chain-list-assets.subwallet.app/assets/chains/laos_network.png"
+  },
+  "mAssetLogoMap": {}
+}

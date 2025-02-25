@@ -1,13 +1,14 @@
 // Copyright 2019-2024 @subwallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import { Md5 } from 'ts-md5';
+
 import _AssetLogoMap from './data/AssetLogoMap.json';
 import _AssetRefMap from './data/AssetRef.json';
 import _ChainAssetMap from './data/ChainAsset.json';
 import _ChainInfoMap from './data/ChainInfo.json';
 import _ChainLogoMap from './data/ChainLogoMap.json';
 import _MultiChainAssetMap from './data/MultiChainAsset.json';
-
 import { _AssetRef, _ChainAsset, _ChainInfo, _MultiChainAsset } from './types';
 
 export const ChainInfoMap = _ChainInfoMap as unknown as Record<string, _ChainInfo>;
@@ -61,3 +62,15 @@ export const _DEFAULT_CHAINS = [
   COMMON_CHAIN_SLUGS.KUSAMA as string,
   COMMON_CHAIN_SLUGS.ETHEREUM as string
 ];
+
+export function md5HashChainInfo (data: _ChainInfo) {
+  const { chainStatus, icon, providers, ...chainBaseInfo } = data;
+
+  return Md5.hashStr(JSON.stringify(chainBaseInfo));
+}
+
+export function md5HashChainAsset (data: _ChainAsset) {
+  const { icon, ...assetBaseInfo } = data;
+
+  return Md5.hashStr(JSON.stringify(assetBaseInfo));
+}

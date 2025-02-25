@@ -1,6 +1,6 @@
 import {gql} from "graphql-request";
 import * as fs from "fs";
-import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient} from "./strapi-api.mjs";
+import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile} from "./strapi-api.mjs";
 
 const SAVE_PATH = './packages/chain-list/src/data/MultiChainAsset.json';
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
@@ -52,14 +52,14 @@ const main = async () => {
             }
         }
 
-        return {
-            slug: mAsset.slug,
-            originChainAsset: mAsset.originChainAsset,
-            name: mAsset.name,
-            symbol: mAsset.symbol,
-            priceId: mAsset.priceId,
-            hasValue: mAsset.hasValue,
-            icon: iconURL,
+      return {
+          slug: mAsset.slug,
+          originChainAsset: mAsset.originChainAsset,
+          name: mAsset.name,
+          symbol: mAsset.symbol,
+          priceId: mAsset.priceId,
+          hasValue: mAsset.hasValue,
+          icon: iconURL,
         }
     }));
     const mAssetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));

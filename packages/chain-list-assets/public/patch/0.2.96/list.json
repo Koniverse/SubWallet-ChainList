@@ -1,0 +1,469 @@
+{
+  "patchVersion": "0.2.97-beta.5",
+  "appliedVersion": "0.2.96",
+  "timestamp": 1735544407674,
+  "ChainInfo": {
+    "bifrost": {
+      "slug": "bifrost",
+      "name": "Bifrost Kusama",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrost.png",
+      "providers": {
+        "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
+        "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2001,
+        "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
+        "blockExplorer": "https://bifrost-kusama.subscan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2262-95",
+            "paraId": 2262,
+            "status": "won",
+            "startTime": "2023-03-08T04:27:00.000Z",
+            "endTime": "2024-02-07T04:27:00.000Z",
+            "auctionIndex": 71,
+            "firstPeriod": 28,
+            "lastPeriod": 35
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2001-9",
+            "paraId": 2001,
+            "status": "won",
+            "startTime": "2021-06-16T04:27:00.000Z",
+            "endTime": "2022-05-18T04:27:00.000Z",
+            "auctionIndex": 5,
+            "firstPeriod": 13,
+            "lastPeriod": 20
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "bifrost-kusama",
+        "chainBalanceSlug": "bifrost"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "bifrost_dot": {
+      "slug": "bifrost_dot",
+      "name": "Bifrost Polkadot",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrost_dot.png",
+      "providers": {
+        "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+        "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
+        "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2030,
+        "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://bifrost.app/vcrowdloan",
+        "blockExplorer": "https://bifrost.subscan.io",
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2030-37",
+            "paraId": 2030,
+            "status": "won",
+            "startTime": "2022-06-07T01:48:00.000Z",
+            "endTime": "2024-04-09T01:48:00.000Z",
+            "auctionIndex": 65,
+            "firstPeriod": 8,
+            "lastPeriod": 15
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "bifrost",
+        "chainBalanceSlug": "bifrost-p"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "bifrost_testnet": {
+      "slug": "bifrost_testnet",
+      "name": "Bifrost Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrost_testnet.png",
+      "providers": {
+        "Liebi": "wss://bifrost-rpc.rococo.liebi.com/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "rococo",
+        "paraId": 2030,
+        "genesisHash": "0x0c003b98abbedae774f5e13cd6146781317016725ab4db34312ea2681e9901f3",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://bifrost-testnet.subscan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": null,
+        "chainBalanceSlug": "bifrost-testnet"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "ink": {
+      "slug": "ink",
+      "name": "Ink",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/ink.png",
+      "providers": {
+        "Gel Ink": "https://rpc-gel.inkonchain.com/",
+        "Qnd Ink": "https://rpc-qnd.inkonchain.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 57073,
+        "blockExplorer": "https://explorer.inkonchain.com/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "celo": {
+      "slug": "celo",
+      "name": "Celo Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/celo.png",
+      "providers": {
+        "Celo Forno": "https://forno.celo.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 42220,
+        "blockExplorer": "https://explorer.celo.org/",
+        "existentialDeposit": "0",
+        "symbol": "CELO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "celo_alfajores": {
+      "slug": "celo_alfajores",
+      "name": "Celo Alfajores",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/celo_alfajores.png",
+      "providers": {
+        "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
+      },
+      "evmInfo": {
+        "evmChainId": 44787,
+        "blockExplorer": "https://celo-alfajores.blockscout.com/",
+        "existentialDeposit": "0",
+        "symbol": "CELO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "lens_network_sepolia": {
+      "slug": "lens_network_sepolia",
+      "name": "Lens Network Sepolia Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/lens_network_sepolia.png",
+      "providers": {
+        "Lens": "https://rpc.testnet.lens.dev/"
+      },
+      "evmInfo": {
+        "evmChainId": 37111,
+        "blockExplorer": "https://block-explorer.testnet.lens.dev/",
+        "existentialDeposit": "0",
+        "symbol": "GRASS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "sophon_testnet": {
+      "slug": "sophon_testnet",
+      "name": "Sophon Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/sophon_testnet.png",
+      "providers": {
+        "Sophon": "https://rpc.testnet.sophon.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 531050104,
+        "blockExplorer": "https://explorer.testnet.sophon.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "SOPH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "abstract_testnet": {
+      "slug": "abstract_testnet",
+      "name": "Abstract Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/abstract_testnet.png",
+      "providers": {
+        "Abs": "https://api.testnet.abs.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 11124,
+        "blockExplorer": "https://explorer.testnet.abs.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "bifrost": "5bde9444b0264d6725d38eaf0d27f47c",
+    "bifrost_dot": "49eb0782c40bef812fb127c30fdbc0e3",
+    "bifrost_testnet": "ac34e75353aeac89f400389f86ccc465",
+    "ink": "96b957651b27a7d4e78cccb3a8bfeae5",
+    "celo": "4f4104940aed6b19d3434441f072fe51",
+    "celo_alfajores": "3a189bd56e5dbfe3d3ee0b702799f1b6",
+    "lens_network_sepolia": "98ca852560f1baa57ddddf4d414fcc38",
+    "sophon_testnet": "db9ed0a09912cd39e9fcd558cca32c98",
+    "abstract_testnet": "b55674ce20a2a8d4f67b25d57976a57b"
+  },
+  "ChainAsset": {
+    "bifrost_dot-LOCAL-vBNC": {
+      "originChain": "bifrost_dot",
+      "slug": "bifrost_dot-LOCAL-vBNC",
+      "name": "Voucher BNC",
+      "symbol": "vBNC",
+      "decimals": 12,
+      "priceId": "voucher-bnc",
+      "minAmount": "10000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "VToken": "BNC"
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrost_dot-local-vbnc.png"
+    },
+    "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": {
+      "originChain": "zksync_era",
+      "slug": "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+      "name": "zkSync",
+      "symbol": "ZK",
+      "decimals": 18,
+      "priceId": "zksync",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png"
+    },
+    "ink-NATIVE-ETH": {
+      "originChain": "ink",
+      "slug": "ink-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ink-native-eth.png"
+    },
+    "celo-NATIVE-CELO": {
+      "originChain": "celo",
+      "slug": "celo-NATIVE-CELO",
+      "name": "Celo",
+      "symbol": "CELO",
+      "decimals": 18,
+      "priceId": "celo",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo-native-celo.png"
+    },
+    "celo_alfajores-NATIVE-CELO": {
+      "originChain": "celo_alfajores",
+      "slug": "celo_alfajores-NATIVE-CELO",
+      "name": "Celo",
+      "symbol": "CELO",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo_alfajores-native-celo.png"
+    },
+    "lens_network_sepolia-NATIVE-GRASS": {
+      "originChain": "lens_network_sepolia",
+      "slug": "lens_network_sepolia-NATIVE-GRASS",
+      "name": "GRASS",
+      "symbol": "GRASS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/lens_network_sepolia-native-grass.png"
+    },
+    "sophon_testnet-NATIVE-SOPH": {
+      "originChain": "sophon_testnet",
+      "slug": "sophon_testnet-NATIVE-SOPH",
+      "name": "Sophon",
+      "symbol": "SOPH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/sophon_testnet-native-soph.png"
+    },
+    "abstract_testnet-NATIVE-ETH": {
+      "originChain": "abstract_testnet",
+      "slug": "abstract_testnet-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/abstract_testnet-native-eth.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "bifrost_dot-LOCAL-vBNC": "d5a8ce2931310183b94484b56171aa09",
+    "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": "d58bb8a68c1c18676533f5e45f567b3c",
+    "ink-NATIVE-ETH": "7933f87dcb9df4b65cf45524ba809f0b",
+    "celo-NATIVE-CELO": "18a42a96c754c01f1b44d6d9780d9ccc",
+    "celo_alfajores-NATIVE-CELO": "239c2442f6735c18dbd20444d60ea328",
+    "lens_network_sepolia-NATIVE-GRASS": "16f91d233a34cb92c389c4c47a5e5d6a",
+    "sophon_testnet-NATIVE-SOPH": "2ac9de4cdbb0733c2a8d1e2eaa6928ce",
+    "abstract_testnet-NATIVE-ETH": "fa1602ae8d860037af5531d7004e5ae8"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "bifrost_dot-local-vbnc": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrost_dot-local-vbnc.png",
+    "zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e": "https://chain-list-assets.subwallet.app/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png",
+    "ink-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/ink-native-eth.png",
+    "celo-native-celo": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo-native-celo.png",
+    "celo_alfajores-native-celo": "https://chain-list-assets.subwallet.app/assets/chain-assets/celo_alfajores-native-celo.png",
+    "lens_network_sepolia-native-grass": "https://chain-list-assets.subwallet.app/assets/chain-assets/lens_network_sepolia-native-grass.png",
+    "sophon_testnet-native-soph": "https://chain-list-assets.subwallet.app/assets/chain-assets/sophon_testnet-native-soph.png",
+    "abstract_testnet-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/abstract_testnet-native-eth.png"
+  },
+  "ChainLogoMap": {
+    "bifrost": "https://chain-list-assets.subwallet.app/assets/chains/bifrost.png",
+    "bifrost_dot": "https://chain-list-assets.subwallet.app/assets/chains/bifrost_dot.png",
+    "bifrost_testnet": "https://chain-list-assets.subwallet.app/assets/chains/bifrost_testnet.png",
+    "ink": "https://chain-list-assets.subwallet.app/assets/chains/ink.png",
+    "celo": "https://chain-list-assets.subwallet.app/assets/chains/celo.png",
+    "celo_alfajores": "https://chain-list-assets.subwallet.app/assets/chains/celo_alfajores.png",
+    "lens_network_sepolia": "https://chain-list-assets.subwallet.app/assets/chains/lens_network_sepolia.png",
+    "sophon_testnet": "https://chain-list-assets.subwallet.app/assets/chains/sophon_testnet.png",
+    "abstract_testnet": "https://chain-list-assets.subwallet.app/assets/chains/abstract_testnet.png"
+  },
+  "mAssetLogoMap": {}
+}

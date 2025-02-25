@@ -54,7 +54,7 @@
   "binance-NATIVE-BNB": {
     "originChain": "binance",
     "slug": "binance-NATIVE-BNB",
-    "name": "Binance Smart Chain",
+    "name": "BNB Chain",
     "symbol": "BNB",
     "decimals": 18,
     "priceId": "binancecoin",
@@ -667,7 +667,12 @@
     "priceId": null,
     "minAmount": "10000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "multilocation": {
+        "parents": 0,
+        "interior": "Here"
+      }
+    },
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend-native-wnd.png"
@@ -3221,20 +3226,6 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/3dpass-native-p3d.png"
   },
-  "alephSmartNet-NATIVE-SZERO": {
-    "originChain": "alephSmartNet",
-    "slug": "alephSmartNet-NATIVE-SZERO",
-    "name": "Aleph Zero Smartnet",
-    "symbol": "SZERO",
-    "decimals": 12,
-    "priceId": null,
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/alephsmartnet-native-szero.png"
-  },
   "kulupu-NATIVE-KLP": {
     "originChain": "kulupu",
     "slug": "kulupu-NATIVE-KLP",
@@ -3474,24 +3465,6 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-vmovr.png"
-  },
-  "bifrost-LOCAL-vBNC": {
-    "originChain": "bifrost",
-    "slug": "bifrost-LOCAL-vBNC",
-    "name": "Voucher BNC",
-    "symbol": "vBNC",
-    "decimals": 12,
-    "priceId": "bifrost-native-coin",
-    "minAmount": "10000000000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "onChainInfo": {
-        "VToken": "BNC"
-      }
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost-local-vbnc.png"
   },
   "moonbeam-LOCAL-xcUSDT": {
     "originChain": "moonbeam",
@@ -7160,7 +7133,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.jpg"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cp.png"
   },
   "zeta_test-NATIVE-ZETA": {
     "originChain": "zeta_test",
@@ -7888,7 +7861,7 @@
     "name": "Liberland",
     "symbol": "LLD",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "liberland-lld",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -8978,10 +8951,10 @@
     "symbol": "DBC",
     "decimals": 15,
     "priceId": "deepbrain-chain",
-    "minAmount": "10000000000000",
+    "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "DBC-DBC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-native-dbc.png"
   },
@@ -9251,11 +9224,11 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/curio-native-cgt.png"
   },
-  "hyperbridge-NATIVE-NAND": {
+  "hyperbridge-NATIVE-BRIDGE": {
     "originChain": "hyperbridge",
-    "slug": "hyperbridge-NATIVE-NAND",
-    "name": "NAND",
-    "symbol": "NAND",
+    "slug": "hyperbridge-NATIVE-BRIDGE",
+    "name": "BRIDGE",
+    "symbol": "BRIDGE",
     "decimals": 12,
     "priceId": null,
     "minAmount": "1000000000",
@@ -9263,7 +9236,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperbridge-native-nand.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperbridge-native-bridge.png"
   },
   "cess_testnet-NATIVE-TCESS": {
     "originChain": "cess_testnet",
@@ -9824,7 +9797,7 @@
     "name": "Gavun Wud",
     "symbol": "WUD",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "gavun-wud",
     "minAmount": "10000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -9840,7 +9813,7 @@
     "name": "Gavun Wud",
     "symbol": "WUD",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "gavun-wud",
     "minAmount": "200000000000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -10179,14 +10152,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
-      "onChainInfo": {
-        "parents": 2,
-        "interior": {
-          "X1": {
-            "GlobalConsensus": "Kusama"
-          }
-        }
-      },
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10213,14 +10178,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "isBridged": true,
-      "onChainInfo": {
-        "parents": 2,
-        "interior": {
-          "X1": {
-            "GlobalConsensus": "Polkadot"
-          }
-        }
-      },
       "multilocation": {
         "parents": 2,
         "interior": {
@@ -10945,7 +10902,7 @@
     "name": "PEAQ",
     "symbol": "PEAQ",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "peaq-2",
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
@@ -12370,22 +12327,6 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sepolia_ethereum-erc20-flip-0xcd079eab6b5443b545788fd210c8800feadd87fa.png"
   },
-  "hydradx_main-LOCAL-2-Pool": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-2-Pool",
-    "name": "USDT- USDC",
-    "symbol": "2-Pool",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "1000",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "102"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
-  },
   "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
     "originChain": "base_mainnet",
     "slug": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -12644,9 +12585,1242 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "ETH-EthereumSepolia",
+    "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain_sepolia-native-eth.png"
+  },
+  "world_chain-NATIVE-ETH": {
+    "originChain": "world_chain",
+    "slug": "world_chain-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/world_chain-native-eth.png"
+  },
+  "mode-NATIVE-ETH": {
+    "originChain": "mode",
+    "slug": "mode-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mode-native-eth.png"
+  },
+  "lisk-NATIVE-ETH": {
+    "originChain": "lisk",
+    "slug": "lisk-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/lisk-native-eth.png"
+  },
+  "zircuit-NATIVE-ETH": {
+    "originChain": "zircuit",
+    "slug": "zircuit-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zircuit-native-eth.png"
+  },
+  "tangle-NATIVE-TNT": {
+    "originChain": "tangle",
+    "slug": "tangle-NATIVE-TNT",
+    "name": "Tangle",
+    "symbol": "TNT",
+    "decimals": 18,
+    "priceId": "tangle-network",
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "TNT-Tangle",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tangle-native-tnt.png"
+  },
+  "tangle_evm-NATIVE-TNT": {
+    "originChain": "tangle_evm",
+    "slug": "tangle_evm-NATIVE-TNT",
+    "name": "Tangle",
+    "symbol": "TNT",
+    "decimals": 18,
+    "priceId": "tangle-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "TNT-Tangle",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tangle_evm-native-tnt.png"
+  },
+  "storyOdyssey_testnet-NATIVE-IP": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-NATIVE-IP",
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-native-ip.png"
+  },
+  "polygon_amoy-NATIVE-POL": {
+    "originChain": "polygon_amoy",
+    "slug": "polygon_amoy-NATIVE-POL",
+    "name": "Polygon Amoy",
+    "symbol": "POL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-native-pol.png"
+  },
+  "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582": {
+    "originChain": "polygon_amoy",
+    "slug": "polygon_amoy-ERC20-USDC-0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-usdc-0x41e94eb019c0762f9bfcf9fb1e58725bfb0e7582.png"
+  },
+  "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E": {
+    "originChain": "polygon_amoy",
+    "slug": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x52eF3d68BaB452a294342DC3e5f464d7f610f72E"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon_amoy-erc20-weth-0x52ef3d68bab452a294342dc3e5f464d7f610f72e.png"
+  },
+  "polygonzkEvm_cardona-NATIVE-ETH": {
+    "originChain": "polygonzkEvm_cardona",
+    "slug": "polygonzkEvm_cardona-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-EthereumSepolia",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-native-eth.png"
+  },
+  "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03": {
+    "originChain": "polygonzkEvm_cardona",
+    "slug": "polygonzkEvm_cardona-ERC20-MATIC-0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03",
+    "name": "MATIC",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3CC6055f4E88638C46dAA9Cf5F5fc54A801E5F03"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-erc20-matic-0x3cc6055f4e88638c46daa9cf5f5fc54a801e5f03.png"
+  },
+  "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55": {
+    "originChain": "polygonzkEvm_cardona",
+    "slug": "polygonzkEvm_cardona-ERC20-POL-0x74bE345339a3D5aA179dbaEAf5B496628F174F55",
+    "name": "POL Token",
+    "symbol": "POL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x74bE345339a3D5aA179dbaEAf5B496628F174F55"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygonzkevm_cardona-erc20-pol-0x74be345339a3d5aa179dbaeaf5b496628f174f55.png"
+  },
+  "zksync_era-NATIVE-ETH": {
+    "originChain": "zksync_era",
+    "slug": "zksync_era-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-native-eth.png"
+  },
+  "apechain-NATIVE-APE": {
+    "originChain": "apechain",
+    "slug": "apechain-NATIVE-APE",
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18,
+    "priceId": "apecoin",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "APE-ApeCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/apechain-native-ape.png"
+  },
+  "autonomys_taurus-NATIVE-AI3": {
+    "originChain": "autonomys_taurus",
+    "slug": "autonomys_taurus-NATIVE-AI3",
+    "name": "Autonomys Taurus",
+    "symbol": "AI3",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys_taurus-native-ai3.png"
+  },
+  "gnosis-NATIVE-xDAI": {
+    "originChain": "gnosis",
+    "slug": "gnosis-NATIVE-xDAI",
+    "name": "xDAI",
+    "symbol": "xDAI",
+    "decimals": 18,
+    "priceId": "xdai",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gnosis-native-xdai.png"
+  },
+  "autonomys-NATIVE-AI3": {
+    "originChain": "autonomys",
+    "slug": "autonomys-NATIVE-AI3",
+    "name": "Autonomys",
+    "symbol": "AI3",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
+  },
+  "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-ERC20-KMA-0x6745CF7A0aAca457F451a4b8c60c8504320F69d0",
+    "name": "Calamari",
+    "symbol": "KMA",
+    "decimals": 18,
+    "priceId": "calamari-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6745CF7A0aAca457F451a4b8c60c8504320F69d0"
+    },
+    "multiChainAsset": "KMA-Calamari",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/manta_network_evm-erc20-kma-0x6745cf7a0aaca457f451a4b8c60c8504320f69d0.png"
+  },
+  "statemint-LOCAL-LOVA": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-LOVA",
+    "name": "AIWeb3",
+    "symbol": "LOVA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "50000028"
+    },
+    "multiChainAsset": "LOVA-AIWeb3",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-lova.png"
+  },
+  "hydradx_main-LOCAL-LOVA": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LOVA",
+    "name": "AIWeb3",
+    "symbol": "LOVA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000639"
+    },
+    "multiChainAsset": "LOVA-AIWeb3",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-lova.png"
+  },
+  "fraxtal-NATIVE-frxETH": {
+    "originChain": "fraxtal",
+    "slug": "fraxtal-NATIVE-frxETH",
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18,
+    "priceId": "frax-ether",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/fraxtal-native-frxeth.png"
+  },
+  "cyber-NATIVE-ETH": {
+    "originChain": "cyber",
+    "slug": "cyber-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cyber-native-eth.png"
+  },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "name": "PIPERX Token",
+    "symbol": "PIP",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6e990040Fd9b06F98eFb62A147201696941680b5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-pip-0x6e990040fd9b06f98efb62a147201696941680b5.png"
+  },
+  "g6_testnet-NATIVE-GSX": {
+    "originChain": "g6_testnet",
+    "slug": "g6_testnet-NATIVE-GSX",
+    "name": "GSX",
+    "symbol": "GSX",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/g6_testnet-native-gsx.png"
+  },
+  "jamton-NATIVE-DOTON": {
+    "originChain": "jamton",
+    "slug": "jamton-NATIVE-DOTON",
+    "name": "DOTON",
+    "symbol": "DOTON",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-native-doton.png"
+  },
+  "etherlink-NATIVE-XTZ": {
+    "originChain": "etherlink",
+    "slug": "etherlink-NATIVE-XTZ",
+    "name": "Tezos",
+    "symbol": "XTZ",
+    "decimals": 18,
+    "priceId": "tezos",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/etherlink-native-xtz.png"
+  },
+  "polkadot_people-NATIVE-DOT": {
+    "originChain": "polkadot_people",
+    "slug": "polkadot_people-NATIVE-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png"
+  },
+  "bifrost_dot-LOCAL-vBNC": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-vBNC",
+    "name": "Voucher BNC",
+    "symbol": "vBNC",
+    "decimals": 12,
+    "priceId": "voucher-bnc",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "VToken": "BNC"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrost_dot-local-vbnc.png"
+  },
+  "laos_network-NATIVE-LAOS": {
+    "originChain": "laos_network",
+    "slug": "laos_network-NATIVE-LAOS",
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "decimals": 18,
+    "priceId": "laos-network",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/laos_network-native-laos.png"
+  },
+  "hydradx_main-LOCAL-AAVE": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-AAVE",
+    "name": "Aave",
+    "symbol": "AAVE",
+    "decimals": 18,
+    "priceId": "aave",
+    "minAmount": "59084194977843",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000624"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-aave.png"
+  },
+  "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-NEROX-0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c",
+    "name": "Neurolanche",
+    "symbol": "NEROX",
+    "decimals": 18,
+    "priceId": "nerox-ai",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-nerox-0xd42fe55e8a43b546aa75fda6483073be1d7ef74c.png"
+  },
+  "optimism-ERC20-WCT-0xeF4461891DfB3AC8572cCf7C794664A8DD927945": {
+    "originChain": "optimism",
+    "slug": "optimism-ERC20-WCT-0xeF4461891DfB3AC8572cCf7C794664A8DD927945",
+    "name": "WalletConnect",
+    "symbol": "WCT",
+    "decimals": 18,
+    "priceId": "connect-token-wct",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xeF4461891DfB3AC8572cCf7C794664A8DD927945"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-wct-0xef4461891dfb3ac8572ccf7c794664a8dd927945.png"
+  },
+  "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E": {
+    "originChain": "zksync_era",
+    "slug": "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+    "name": "zkSync",
+    "symbol": "ZK",
+    "decimals": 18,
+    "priceId": "zksync",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zksync_era-erc20-zk-0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e.png"
+  },
+  "ithaca-NATIVE-ETH": {
+    "originChain": "ithaca",
+    "slug": "ithaca-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-EthereumSepolia",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-native-eth.png"
+  },
+  "ink-NATIVE-ETH": {
+    "originChain": "ink",
+    "slug": "ink-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ink-native-eth.png"
+  },
+  "celo-NATIVE-CELO": {
+    "originChain": "celo",
+    "slug": "celo-NATIVE-CELO",
+    "name": "Celo",
+    "symbol": "CELO",
+    "decimals": 18,
+    "priceId": "celo",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo-native-celo.png"
+  },
+  "celo_alfajores-NATIVE-CELO": {
+    "originChain": "celo_alfajores",
+    "slug": "celo_alfajores-NATIVE-CELO",
+    "name": "Celo",
+    "symbol": "CELO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/celo_alfajores-native-celo.png"
+  },
+  "lens_network_sepolia-NATIVE-GRASS": {
+    "originChain": "lens_network_sepolia",
+    "slug": "lens_network_sepolia-NATIVE-GRASS",
+    "name": "GRASS",
+    "symbol": "GRASS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/lens_network_sepolia-native-grass.png"
+  },
+  "sophon_testnet-NATIVE-SOPH": {
+    "originChain": "sophon_testnet",
+    "slug": "sophon_testnet-NATIVE-SOPH",
+    "name": "Sophon",
+    "symbol": "SOPH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sophon_testnet-native-soph.png"
+  },
+  "abstract_testnet-NATIVE-ETH": {
+    "originChain": "abstract_testnet",
+    "slug": "abstract_testnet-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/abstract_testnet-native-eth.png"
+  },
+  "dia_lasernet_testnet-NATIVE-DIA": {
+    "originChain": "dia_lasernet_testnet",
+    "slug": "dia_lasernet_testnet-NATIVE-DIA",
+    "name": "DIA",
+    "symbol": "DIA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dia_lasernet_testnet-native-dia.png"
+  },
+  "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695": {
+    "originChain": "ithaca",
+    "slug": "ithaca-ERC20-USDC-0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xaE83AD7A59ee18CFE97b79a5cf5Cdf2dF18d0695"
+    },
+    "multiChainAsset": "USDC-USDCSepolia",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-usdc-0xae83ad7a59ee18cfe97b79a5cf5cdf2df18d0695.png"
+  },
+  "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5": {
+    "originChain": "ithaca",
+    "slug": "ithaca-ERC20-AVAIL-0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5",
+    "name": "Avail",
+    "symbol": "AVAIL",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6f59A38564B51c628db66D2a2D0A36A7D14Fe3E5"
+    },
+    "multiChainAsset": "AVAIL-AvailTuringTestnet",
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-avail-0x6f59a38564b51c628db66d2a2d0a36a7d14fe3e5.png"
+  },
+  "acala-LOCAL-NEMO": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-NEMO",
+    "name": "NEMO",
+    "symbol": "NEMO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Erc20": "0xfa904c86b73fd041d6cc2aeed9e6ec0148fd51da"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-nemo.png"
+  },
+  "muse_testnet-NATIVE-MUSE": {
+    "originChain": "muse_testnet",
+    "slug": "muse_testnet-NATIVE-MUSE",
+    "name": "Muse Testnet",
+    "symbol": "MUSE",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "multilocation": {
+        "parents": 0,
+        "interior": "Here"
+      },
+      "disableEvmTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/muse_testnet-native-muse.png"
+  },
+  "soneium-NATIVE-ETH": {
+    "originChain": "soneium",
+    "slug": "soneium-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-native-eth.png"
+  },
+  "dbcchain_evm-NATIVE-DBC": {
+    "originChain": "dbcchain_evm",
+    "slug": "dbcchain_evm-NATIVE-DBC",
+    "name": "DBC",
+    "symbol": "DBC",
+    "decimals": 18,
+    "priceId": "deepbrain-chain",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DBC-DBC",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain_evm-native-dbc.png"
+  },
+  "analog_timechain-NATIVE-ANLOG": {
+    "originChain": "analog_timechain",
+    "slug": "analog_timechain-NATIVE-ANLOG",
+    "name": "Analog Timechain",
+    "symbol": "ANLOG",
+    "decimals": 12,
+    "priceId": "analog",
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/analog_timechain-native-anlog.png"
+  },
+  "rootstock-NATIVE-RBTC": {
+    "originChain": "rootstock",
+    "slug": "rootstock-NATIVE-RBTC",
+    "name": "Rootstock",
+    "symbol": "RBTC",
+    "decimals": 18,
+    "priceId": "rootstock",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/rootstock-native-rbtc.png"
+  },
+  "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-USDC.e-0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369",
+    "name": "Bridged USDC (Soneium)",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-usdc.e-0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369.png"
+  },
+  "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x4200000000000000000000000000000000000006"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-weth-0x4200000000000000000000000000000000000006.png"
+  },
+  "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-ASTR-0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441",
+    "name": "Astar",
+    "symbol": "ASTR",
+    "decimals": 18,
+    "priceId": "astar",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441"
+    },
+    "multiChainAsset": "ASTR-Astar",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-astr-0x2cae934a1e84f693fbb78ca5ed3b0a6893259441.png"
+  },
+  "ithaca-ERC20-WETH-0x582fCdAEc1D2B61c1F71FC5e3D2791B8c76E44AE": {
+    "originChain": "ithaca",
+    "slug": "ithaca-ERC20-WETH-0x582fCdAEc1D2B61c1F71FC5e3D2791B8c76E44AE",
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x582fCdAEc1D2B61c1F71FC5e3D2791B8c76E44AE"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ithaca-erc20-weth-0x582fcdaec1d2b61c1f71fc5e3d2791b8c76e44ae.png"
+  },
+  "hydradx_main-LOCAL-2-Pool": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-2-Pool",
+    "name": "USDT- USDC",
+    "symbol": "2-Pool",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "102"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-2-pool.png"
+  },
+  "hydradx_main-LOCAL-SOL": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-SOL",
+    "name": "Solana",
+    "symbol": "SOL",
+    "decimals": 9,
+    "priceId": "solana",
+    "minAmount": "46339",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000752"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sol.png"
+  },
+  "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0",
+    "name": "Phala Vault",
+    "symbol": "vPHA",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png"
+  },
+  "gravity_alpha-NATIVE-G": {
+    "originChain": "gravity_alpha",
+    "slug": "gravity_alpha-NATIVE-G",
+    "name": "Gravity",
+    "symbol": "G",
+    "decimals": 18,
+    "priceId": "g-token",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gravity_alpha-native-g.png"
+  },
+  "westend_assethub-NATIVE-WND": {
+    "originChain": "westend_assethub",
+    "slug": "westend_assethub-NATIVE-WND",
+    "name": "Westend",
+    "symbol": "WND",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "multilocation": {
+        "parents": 1,
+        "interior": "Here"
+      },
+      "alternativeSwapAsset": "westend-NATIVE-WND"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-native-wnd.png"
+  },
+  "westend_assethub-LOCAL-PRIM": {
+    "originChain": "westend_assethub",
+    "slug": "westend_assethub-LOCAL-PRIM",
+    "name": "Primordial Coin",
+    "symbol": "PRIM",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "333333333",
+      "multilocation": {
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 333333333
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/westend_assethub-local-prim.png"
+  },
+  "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-GSX-0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7",
+    "name": "GSX",
+    "symbol": "GSX",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb92190E31c9d5CC334cEF0a156979CB9Beed90C7"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polygon-erc20-gsx-0xb92190e31c9d5cc334cef0a156979cb9beed90c7.png"
+  },
+  "torus-NATIVE-TORUS": {
+    "originChain": "torus",
+    "slug": "torus-NATIVE-TORUS",
+    "name": "Torus",
+    "symbol": "TORUS",
+    "decimals": 18,
+    "priceId": "torus",
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png"
+  },
+  "sonic-NATIVE-S": {
+    "originChain": "sonic",
+    "slug": "sonic-NATIVE-S",
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "story_protocol-NATIVE-IP": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-NATIVE-IP",
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": "story-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-native-ip.png"
+  },
+  "sophon-NATIVE-SOPH": {
+    "originChain": "sophon",
+    "slug": "sophon-NATIVE-SOPH",
+    "name": "Sophon",
+    "symbol": "SOPH",
+    "decimals": 18,
+    "priceId": "sophon",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sophon-native-soph.png"
+  },
+  "hydradx_main-LOCAL-tBTC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-tBTC",
+    "name": "tBTC v2",
+    "symbol": "tBTC",
+    "decimals": 18,
+    "priceId": "tbtc",
+    "minAmount": "106803374987",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000765"
+    },
+    "multiChainAsset": "tBTC-tBTCv2",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-tbtc.png"
+  },
+  "story_aeneid-NATIVE-IP": {
+    "originChain": "story_aeneid",
+    "slug": "story_aeneid-NATIVE-IP",
+    "name": "IP",
+    "symbol": "IP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_aeneid-native-ip.png"
+  },
+  "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png"
+  },
+  "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-USDT-0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdt-0x674843c06ff83502ddb4d37c2e09c01cda38cbc8.png"
+  },
+  "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D"
+    },
+    "multiChainAsset": "USDC-USDCSepolia",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdc-0x40fca9cb1ab15ed9b5bda19a52ac00a78ae08e1d.png"
+  },
+  "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-WETH-0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500"
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-weth-0xbab93b7ad7fe8692a878b95a8e689423437cc500.png"
+  },
+  "unichain-NATIVE-ETH": {
+    "originChain": "unichain",
+    "slug": "unichain-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-native-eth.png"
+  },
+  "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": {
+    "originChain": "storyOdyssey_testnet",
+    "slug": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+    "name": "Tether",
+    "symbol": "USDT",
+    "decimals": 18,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/storyodyssey_testnet-erc20-usdt-0x62a0e5ced3064e64db5f02f0838c7e822a0a50b3.png"
+  },
+  "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-vIP-0x5267F7eE069CEB3D8F1c760c215569b79d0685aD",
+    "name": "VerioIP",
+    "symbol": "vIP",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5267F7eE069CEB3D8F1c760c215569b79d0685aD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-vip-0x5267f7ee069ceb3d8f1c760c215569b79d0685ad.png"
+  },
+  "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-WTF-0x5a212776066b81e449fE74396cCe368Dc4b14043",
+    "name": "WhatTheFreg",
+    "symbol": "WTF",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5a212776066b81e449fE74396cCe368Dc4b14043"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-wtf-0x5a212776066b81e449fe74396cce368dc4b14043.png"
+  },
+  "siliconZkEvm-NATIVE-ETH": {
+    "originChain": "siliconZkEvm",
+    "slug": "siliconZkEvm-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/siliconzkevm-native-eth.png"
+  },
+  "ternoaZkEvm-NATIVE-CAPS": {
+    "originChain": "ternoaZkEvm",
+    "slug": "ternoaZkEvm-NATIVE-CAPS",
+    "name": "Ternoa",
+    "symbol": "CAPS",
+    "decimals": 18,
+    "priceId": "coin-capsule",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ternoazkevm-native-caps.png"
+  },
+  "gen6_public-NATIVE-GSX": {
+    "originChain": "gen6_public",
+    "slug": "gen6_public-NATIVE-GSX",
+    "name": "GSX",
+    "symbol": "GSX",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "100000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/gen6_public-native-gsx.png"
+  },
+  "monad_testnet-NATIVE-MON": {
+    "originChain": "monad_testnet",
+    "slug": "monad_testnet-NATIVE-MON",
+    "name": "Monad",
+    "symbol": "MON",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/monad_testnet-native-mon.png"
+  },
+  "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2",
+    "name": "CAPS",
+    "symbol": "CAPS",
+    "decimals": 18,
+    "priceId": "coin-capsule",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2.png"
+  },
+  "melodie_testnet-NATIVE-MEL": {
+    "originChain": "melodie_testnet",
+    "slug": "melodie_testnet-NATIVE-MEL",
+    "name": "Allfeat Testnet",
+    "symbol": "MEL",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "100000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/melodie_testnet-native-mel.png"
   },
   "cardano-NATIVE-ADA": {
     "originChain": "cardano",

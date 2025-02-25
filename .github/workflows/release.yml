@@ -58,6 +58,19 @@ jobs:
           directory: './packages/chain-list-assets/public'
           wranglerVersion: '3'
 
+      - name: Get current version
+        id: get_version
+        run: echo "VERSION=$(node -p -e "require('./package.json').version")" >> $GITHUB_ENV
+
+      - name: Create tag
+        id: create_tag
+        if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[Stable]')
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git tag -a "v${{ env.VERSION }}" -m "Release stable version ${{ env.VERSION }}"
+          git push origin "v${{ env.VERSION }}"
+
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
         if: always()

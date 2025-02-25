@@ -544,7 +544,7 @@
     "originChainAsset": "statemint-LOCAL-WUD",
     "name": "Gavun Wud",
     "symbol": "WUD",
-    "priceId": null,
+    "priceId": "gavun-wud",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/wud-gavunwud.png"
   },
@@ -862,5 +862,32 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/avail-availturingtestnet.png"
+  },
+  "TNT-Tangle": {
+    "slug": "TNT-Tangle",
+    "originChainAsset": null,
+    "name": "Tangle",
+    "symbol": "TNT",
+    "priceId": "tangle-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/tnt-tangle.png"
+  },
+  "LOVA-AIWeb3": {
+    "slug": "LOVA-AIWeb3",
+    "originChainAsset": null,
+    "name": "AIWeb3",
+    "symbol": "LOVA",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/lova-aiweb3.png"
+  },
+  "DBC-DBC": {
+    "slug": "DBC-DBC",
+    "originChainAsset": null,
+    "name": "DBC",
+    "symbol": "DBC",
+    "priceId": "deepbrain-chain",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dbc-dbc.png"
   }
 }

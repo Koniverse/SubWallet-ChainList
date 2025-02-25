@@ -10,7 +10,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.2.91",
+  "version": "0.2.99-beta.32",
   "workspaces": [
     "packages/*"
   ],
@@ -19,6 +19,8 @@
     "export-chains": "./scripts/exports/export-chains.js",
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
     "generate-logo-map": "./scripts/generators/generate-logo-map.js",
+    "migration-patch-logo": "./scripts/patch/migration-patch-logo.mjs",
+    "patch-data": "scripts/patch/patch-data.js",
     "set-version": "./scripts/set-version.mjs",
     "strapi-fetch-chain-assets": "./scripts/strapi/fetch-chain-assets.mjs",
     "strapi-fetch-chains": "./scripts/strapi/fetch-chains.mjs",
@@ -44,6 +46,8 @@
     "fetch:beta": "BRANCH_NAME=dev yarn fetch",
     "fetch:latest": "BRANCH_NAME=master yarn fetch",
     "lint": "polkadot-dev-run-lint",
+    "patch:beta": "yarn patch-data",
+    "patch:latest": "yarn migration-patch-logo",
     "postinstall": "polkadot-dev-yarn-only && patch-package",
     "publish:beta": "yarn build:beta && cd ./packages/chain-list/build && npm publish --target --tag beta",
     "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag latest",
