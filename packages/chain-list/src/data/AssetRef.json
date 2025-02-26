@@ -355,6 +355,13 @@
     "destChain": "arbitrum_one",
     "path": "SWAP"
   },
+  "arbitrum_one-NATIVE-ETH___arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": {
+    "srcAsset": "arbitrum_one-NATIVE-ETH",
+    "destAsset": "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
   "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548___arbitrum_one-NATIVE-ETH": {
     "srcAsset": "arbitrum_one-ERC20-ARB-0x912CE59144191C1204E64559FE8253a0e49E6548",
     "destAsset": "arbitrum_one-NATIVE-ETH",
@@ -4950,6 +4957,13 @@
     "destAsset": "storyOdyssey_testnet-NATIVE-IP",
     "srcChain": "storyOdyssey_testnet",
     "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "arbitrum_one",
+    "destChain": "arbitrum_one",
     "path": "SWAP"
   }
 }

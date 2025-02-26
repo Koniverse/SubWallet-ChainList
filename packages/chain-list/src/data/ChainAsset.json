@@ -13821,5 +13821,21 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/melodie_testnet-native-mel.png"
+  },
+  "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-wbtc-0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f.png"
   }
 }
