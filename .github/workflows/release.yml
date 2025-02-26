@@ -4,7 +4,6 @@ on:
     branches:
       - master
       - dev
-      - koni/dev/cardano
 
 jobs:
   master:
