@@ -30,11 +30,12 @@ export enum _AssetType {
   PSP22 = 'PSP22',
   PSP34 = 'PSP34',
   GRC20 = 'GRC20',
-  TEP74 = 'TEP74',
   VFT = 'VFT',
   GRC721 = 'GRC721',
   RUNE = 'RUNE',
   BRC20 = 'BRC20',
+  TEP74 = 'TEP74',
+  CIP26 = 'CIP26',
   UNKNOWN = 'UNKNOWN'
 }
 
@@ -53,7 +54,8 @@ export interface _ChainInfo {
   evmInfo: _EvmInfo | null,
   bitcoinInfo: _BitcoinInfo | null;
   extraInfo: _ExtraInfo | null,
-  tonInfo: _TonInfo | null
+  tonInfo: _TonInfo | null,
+  cardanoInfo: _CardanoInfo | null,
   icon: string
 }
 
@@ -75,6 +77,7 @@ export interface _ChainAsset {
     assetType?: string,
     canPayTxFee?: boolean,
     runeId?: string,
+    cardanoId?: string,
 
     alternativeSwapAsset?: string,
     disableEvmTransfer?: boolean,
@@ -110,6 +113,13 @@ export interface _BitcoinInfo {
 }
 
 export interface _TonInfo {
+  blockExplorer: string | null;
+  existentialDeposit: string;
+  decimals: number;
+  symbol: string;
+}
+
+export interface _CardanoInfo {
   blockExplorer: string | null;
   existentialDeposit: string;
   decimals: number;

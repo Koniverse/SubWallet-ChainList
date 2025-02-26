@@ -13837,5 +13837,69 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/arbitrum_one-erc20-wbtc-0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f.png"
+  },
+  "cardano-NATIVE-ADA": {
+    "originChain": "cardano",
+    "slug": "cardano-NATIVE-ADA",
+    "name": "Cardano",
+    "symbol": "ADA",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "cardanoId": "lovelace"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "cardano_preproduction-NATIVE-tADA": {
+    "originChain": "cardano_preproduction",
+    "slug": "cardano_preproduction-NATIVE-tADA",
+    "name": "Cardano Testnet",
+    "symbol": "tADA",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": {
+      "cardanoId": "lovelace"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
+  "cardano_preproduction-CIP26-BLUEDOT": {
+    "originChain": "cardano_preproduction",
+    "slug": "cardano_preproduction-CIP26-BLUEDOT",
+    "name": "Bluedot Cardano",
+    "symbol": "BLUEDOT",
+    "decimals": 8,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "3d64987c567150b011edeed959cd1293432b7f2bc228982e2be395f70014df10426c7565646f742043617264616e6f"
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": null
+  },
+  "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59",
+    "name": "HOSKY",
+    "symbol": "HOSKY",
+    "decimals": 0,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }

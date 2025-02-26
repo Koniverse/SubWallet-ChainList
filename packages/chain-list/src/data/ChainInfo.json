@@ -11448,5 +11448,47 @@
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null
+  },
+  "cardano": {
+    "slug": "cardano",
+    "name": "Cardano",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Blockfrost": "FAKE"
+    },
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": {
+      "blockExplorer": "https://cardanoscan.io",
+      "existentialDeposit": "0",
+      "decimals": 6,
+      "symbol": "ADA"
+    }
+  },
+  "cardano_preproduction": {
+    "slug": "cardano_preproduction",
+    "name": "Cardano Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Blockfrost": "FAKE"
+    },
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": {
+      "blockExplorer": "https://preprod.cardanoscan.io",
+      "existentialDeposit": "0",
+      "decimals": 6,
+      "symbol": "tADA"
+    }
   }
 }
