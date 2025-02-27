@@ -4749,6 +4749,13 @@
     "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
   "hydradx_main-LOCAL-2-Pool___hydradx_main-LOCAL-4Pool": {
     "srcAsset": "hydradx_main-LOCAL-2-Pool",
     "destAsset": "hydradx_main-LOCAL-4Pool",
