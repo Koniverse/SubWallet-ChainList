@@ -13828,7 +13828,7 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "arbitrum-bridged-wbtc-arbitrum-one",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {

@@ -4913,7 +4913,10 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/ajunapolkadot.png",
     "providers": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws",
+      "Para": "wss://rpc-para.ajuna.network",
+      "Ibp": "wss://ajuna.ibp.network",
+      "Dotters": "wss://ajuna.dotters.network"
     },
     "evmInfo": null,
     "substrateInfo": {
