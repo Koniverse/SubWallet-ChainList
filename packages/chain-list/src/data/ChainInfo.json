@@ -38,7 +38,8 @@
       "chainBalanceSlug": "polkadot"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kusama": {
     "slug": "kusama",
@@ -76,7 +77,8 @@
       "chainBalanceSlug": "kusama"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ethereum": {
     "slug": "ethereum",
@@ -108,7 +110,8 @@
       "chainBalanceSlug": "ethereum"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "binance": {
     "slug": "binance",
@@ -140,7 +143,8 @@
       "chainBalanceSlug": "bsc"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "moonbeam": {
     "slug": "moonbeam",
@@ -198,7 +202,8 @@
       "chainBalanceSlug": "moonbeam"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "pioneer": {
     "slug": "pioneer",
@@ -244,7 +249,8 @@
       "chainBalanceSlug": "pioneer"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aleph": {
     "slug": "aleph",
@@ -282,7 +288,8 @@
       "chainBalanceSlug": "alephzero"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "astar": {
     "slug": "astar",
@@ -334,7 +341,8 @@
       "chainBalanceSlug": "astar"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "astarEvm": {
     "slug": "astarEvm",
@@ -363,7 +371,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "statemint": {
     "slug": "statemint",
@@ -399,7 +408,8 @@
       "chainBalanceSlug": "statemint"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "acala": {
     "slug": "acala",
@@ -449,7 +459,8 @@
       "chainBalanceSlug": "acala"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polygon": {
     "slug": "polygon",
@@ -481,7 +492,8 @@
       "chainBalanceSlug": "polygon"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "arbitrum_one": {
     "slug": "arbitrum_one",
@@ -511,7 +523,8 @@
       "chainBalanceSlug": "arbitrum"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "optimism": {
     "slug": "optimism",
@@ -541,7 +554,8 @@
       "chainBalanceSlug": "optimism"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "tomochain": {
     "slug": "tomochain",
@@ -567,7 +581,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "alephTest": {
     "slug": "alephTest",
@@ -601,7 +616,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "shiden": {
     "slug": "shiden",
@@ -675,7 +691,8 @@
       "chainBalanceSlug": "shiden"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "shidenEvm": {
     "slug": "shidenEvm",
@@ -704,7 +721,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "shibuya": {
     "slug": "shibuya",
@@ -742,7 +760,8 @@
       "chainBalanceSlug": "shibuya"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "shibuyaEvm": {
     "slug": "shibuyaEvm",
@@ -769,7 +788,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aventus": {
     "slug": "aventus",
@@ -812,7 +832,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "westend": {
     "slug": "westend",
@@ -850,7 +871,8 @@
       "chainBalanceSlug": "westend"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rococo": {
     "slug": "rococo",
@@ -888,7 +910,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bitcountry": {
     "slug": "bitcountry",
@@ -919,7 +942,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "equilibrium_parachain": {
     "slug": "equilibrium_parachain",
@@ -963,7 +987,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "moonbase": {
     "slug": "moonbase",
@@ -1009,7 +1034,8 @@
       "chainBalanceSlug": "moonbase"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "moonriver": {
     "slug": "moonriver",
@@ -1079,7 +1105,8 @@
       "chainBalanceSlug": "moonriver"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "turingStaging": {
     "slug": "turingStaging",
@@ -1110,7 +1137,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "turing": {
     "slug": "turing",
@@ -1157,7 +1185,8 @@
       "chainBalanceSlug": "turing"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bifrost": {
     "slug": "bifrost",
@@ -1218,7 +1247,8 @@
       "chainBalanceSlug": "bifrost"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bifrost_dot": {
     "slug": "bifrost_dot",
@@ -1267,7 +1297,8 @@
       "chainBalanceSlug": "bifrost-p"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bifrost_testnet": {
     "slug": "bifrost_testnet",
@@ -1301,7 +1332,8 @@
       "chainBalanceSlug": "bifrost-testnet"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "calamari": {
     "slug": "calamari",
@@ -1347,7 +1379,8 @@
       "chainBalanceSlug": "calamari"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "amplitude": {
     "slug": "amplitude",
@@ -1390,7 +1423,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "amplitude_test": {
     "slug": "amplitude_test",
@@ -1421,7 +1455,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bobabase": {
     "slug": "bobabase",
@@ -1445,7 +1480,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ethereum_goerli": {
     "slug": "ethereum_goerli",
@@ -1471,7 +1507,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "binance_test": {
     "slug": "binance_test",
@@ -1498,7 +1535,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "parallel": {
     "slug": "parallel",
@@ -1563,7 +1601,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "clover": {
     "slug": "clover",
@@ -1620,7 +1659,8 @@
       "chainBalanceSlug": "clover"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "cloverEvm": {
     "slug": "cloverEvm",
@@ -1646,7 +1686,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "hydradx_main": {
     "slug": "hydradx_main",
@@ -1694,7 +1735,8 @@
       "chainBalanceSlug": "hydradx"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "edgeware": {
     "slug": "edgeware",
@@ -1728,7 +1770,8 @@
       "chainBalanceSlug": "edgeware"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "centrifuge": {
     "slug": "centrifuge",
@@ -1775,7 +1818,8 @@
       "chainBalanceSlug": "centrifuge-parachain"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "interlay": {
     "slug": "interlay",
@@ -1823,7 +1867,8 @@
       "chainBalanceSlug": "interlay"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "nodle": {
     "slug": "nodle",
@@ -1869,7 +1914,8 @@
       "chainBalanceSlug": "nodle"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "darwinia2": {
     "slug": "darwinia2",
@@ -1915,7 +1961,8 @@
       "chainBalanceSlug": "darwinia2"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sora_ksm": {
     "slug": "sora_ksm",
@@ -1969,7 +2016,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "odyssey": {
     "slug": "odyssey",
@@ -2000,7 +2048,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polkadex": {
     "slug": "polkadex",
@@ -2035,7 +2084,8 @@
       "chainBalanceSlug": "polkadex"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polkadexTest": {
     "slug": "polkadexTest",
@@ -2066,7 +2116,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rmrk": {
     "slug": "rmrk",
@@ -2097,7 +2148,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dolphin": {
     "slug": "dolphin",
@@ -2129,7 +2181,8 @@
       "chainBalanceSlug": "dolphin"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "opal": {
     "slug": "opal",
@@ -2163,7 +2216,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "efinity": {
     "slug": "efinity",
@@ -2210,7 +2264,8 @@
       "chainBalanceSlug": "efinity"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "composableFinance": {
     "slug": "composableFinance",
@@ -2256,7 +2311,8 @@
       "chainBalanceSlug": "composable"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "phala": {
     "slug": "phala",
@@ -2303,7 +2359,8 @@
       "chainBalanceSlug": "phala"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "crust": {
     "slug": "crust",
@@ -2349,7 +2406,8 @@
       "chainBalanceSlug": "crust-parachain"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "statemine": {
     "slug": "statemine",
@@ -2387,7 +2445,8 @@
       "chainBalanceSlug": "statemine"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "karura": {
     "slug": "karura",
@@ -2425,7 +2484,8 @@
       "chainBalanceSlug": "karura"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "khala": {
     "slug": "khala",
@@ -2473,7 +2533,8 @@
       "chainBalanceSlug": "khala"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kilt": {
     "slug": "kilt",
@@ -2509,7 +2570,8 @@
       "chainBalanceSlug": "spiritnet"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "basilisk": {
     "slug": "basilisk",
@@ -2556,7 +2618,8 @@
       "chainBalanceSlug": "basilisk"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "altair": {
     "slug": "altair",
@@ -2603,7 +2666,8 @@
       "chainBalanceSlug": "altair"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "heiko": {
     "slug": "heiko",
@@ -2660,7 +2724,8 @@
       "chainBalanceSlug": "parallel-heiko"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kintsugi": {
     "slug": "kintsugi",
@@ -2707,7 +2772,8 @@
       "chainBalanceSlug": "kintsugi"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kintsugi_test": {
     "slug": "kintsugi_test",
@@ -2738,7 +2804,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "picasso": {
     "slug": "picasso",
@@ -2806,7 +2873,8 @@
       "chainBalanceSlug": "picasso"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "quartz": {
     "slug": "quartz",
@@ -2854,7 +2922,8 @@
       "chainBalanceSlug": "quartz"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "unique_network": {
     "slug": "unique_network",
@@ -2902,7 +2971,8 @@
       "chainBalanceSlug": "unique"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "genshiro": {
     "slug": "genshiro",
@@ -2959,7 +3029,8 @@
       "chainBalanceSlug": "genshiro"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "genshiro_testnet": {
     "slug": "genshiro_testnet",
@@ -2988,7 +3059,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subsocial_x": {
     "slug": "subsocial_x",
@@ -3019,7 +3091,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "zeitgeist": {
     "slug": "zeitgeist",
@@ -3066,7 +3139,8 @@
       "chainBalanceSlug": "zeitgeist"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sakura": {
     "slug": "sakura",
@@ -3112,7 +3186,8 @@
       "chainBalanceSlug": "sakura"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "shadow": {
     "slug": "shadow",
@@ -3169,7 +3244,8 @@
       "chainBalanceSlug": "shadow"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "uniqueNft": {
     "slug": "uniqueNft",
@@ -3200,7 +3276,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "robonomics": {
     "slug": "robonomics",
@@ -3258,7 +3335,8 @@
       "chainBalanceSlug": "robonomics"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "integritee": {
     "slug": "integritee",
@@ -3305,7 +3383,8 @@
       "chainBalanceSlug": "integritee-para"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "integriteePolkadot": {
     "slug": "integriteePolkadot",
@@ -3348,7 +3427,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "crabParachain": {
     "slug": "crabParachain",
@@ -3406,7 +3486,8 @@
       "chainBalanceSlug": "darwinia-crab"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "pangolin": {
     "slug": "pangolin",
@@ -3448,7 +3529,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "chainx": {
     "slug": "chainx",
@@ -3479,7 +3561,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "acala_testnet": {
     "slug": "acala_testnet",
@@ -3513,7 +3596,8 @@
       "chainBalanceSlug": "acala-testnet"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "mangatax": {
     "slug": "mangatax",
@@ -3544,7 +3628,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "mangatax_para": {
     "slug": "mangatax_para",
@@ -3602,7 +3687,8 @@
       "chainBalanceSlug": "mangata"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "encointer": {
     "slug": "encointer",
@@ -3636,7 +3722,8 @@
       "chainBalanceSlug": "encointer"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "litmus": {
     "slug": "litmus",
@@ -3679,7 +3766,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "litentry": {
     "slug": "litentry",
@@ -3723,7 +3811,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "tinkernet": {
     "slug": "tinkernet",
@@ -3767,7 +3856,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "imbue_network": {
     "slug": "imbue_network",
@@ -3810,7 +3900,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_test": {
     "slug": "subspace_test",
@@ -3839,7 +3930,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_2a": {
     "slug": "subspace_gemini_2a",
@@ -3870,7 +3962,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_3c": {
     "slug": "subspace_gemini_3c",
@@ -3899,7 +3992,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_3d": {
     "slug": "subspace_gemini_3d",
@@ -3928,7 +4022,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_3e": {
     "slug": "subspace_gemini_3e",
@@ -3957,7 +4052,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_3f": {
     "slug": "subspace_gemini_3f",
@@ -3988,7 +4084,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "origintrail": {
     "slug": "origintrail",
@@ -4034,7 +4131,8 @@
       "chainBalanceSlug": "origintrail"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_3g": {
     "slug": "subspace_gemini_3g",
@@ -4065,7 +4163,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dorafactory": {
     "slug": "dorafactory",
@@ -4106,7 +4205,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bajun": {
     "slug": "bajun",
@@ -4153,7 +4253,8 @@
       "chainBalanceSlug": "bajun"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dancebox": {
     "slug": "dancebox",
@@ -4184,7 +4285,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "listen": {
     "slug": "listen",
@@ -4213,7 +4315,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kabocha": {
     "slug": "kabocha",
@@ -4256,7 +4359,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "gmdie": {
     "slug": "gmdie",
@@ -4297,7 +4401,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ternoa": {
     "slug": "ternoa",
@@ -4328,7 +4433,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "tanganika": {
     "slug": "tanganika",
@@ -4372,7 +4478,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "pendulum": {
     "slug": "pendulum",
@@ -4418,7 +4525,8 @@
       "chainBalanceSlug": "pendulum"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "gear_testnet": {
     "slug": "gear_testnet",
@@ -4449,7 +4557,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ternoa_alphanet": {
     "slug": "ternoa_alphanet",
@@ -4480,7 +4589,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "calamari_test": {
     "slug": "calamari_test",
@@ -4511,7 +4621,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "boba": {
     "slug": "boba",
@@ -4538,7 +4649,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bobabeam": {
     "slug": "bobabeam",
@@ -4565,7 +4677,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kilt_peregrine": {
     "slug": "kilt_peregrine",
@@ -4599,7 +4712,8 @@
       "chainBalanceSlug": "kilt-testnet"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "xx_network": {
     "slug": "xx_network",
@@ -4630,7 +4744,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "watr_network": {
     "slug": "watr_network",
@@ -4661,7 +4776,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "watr_network_evm": {
     "slug": "watr_network_evm",
@@ -4687,7 +4803,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "fusotao": {
     "slug": "fusotao",
@@ -4718,7 +4835,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "discovol": {
     "slug": "discovol",
@@ -4749,7 +4867,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "discovol_testnet": {
     "slug": "discovol_testnet",
@@ -4780,7 +4899,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "atocha": {
     "slug": "atocha",
@@ -4811,7 +4931,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "myriad": {
     "slug": "myriad",
@@ -4842,7 +4963,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "deBio": {
     "slug": "deBio",
@@ -4873,7 +4995,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "collectives": {
     "slug": "collectives",
@@ -4904,7 +5027,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ajunaPolkadot": {
     "slug": "ajunaPolkadot",
@@ -4953,7 +5077,8 @@
       "chainBalanceSlug": "ajuna"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bitgreen": {
     "slug": "bitgreen",
@@ -4984,7 +5109,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "frequency": {
     "slug": "frequency",
@@ -5016,7 +5142,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "hashedNetwork": {
     "slug": "hashedNetwork",
@@ -5070,7 +5197,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kapex": {
     "slug": "kapex",
@@ -5113,7 +5241,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kylinNetwork": {
     "slug": "kylinNetwork",
@@ -5156,7 +5285,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ipci": {
     "slug": "ipci",
@@ -5187,7 +5317,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kico": {
     "slug": "kico",
@@ -5228,7 +5359,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "luhnNetwork": {
     "slug": "luhnNetwork",
@@ -5257,7 +5389,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "pichiu": {
     "slug": "pichiu",
@@ -5298,7 +5431,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "riodefi": {
     "slug": "riodefi",
@@ -5327,7 +5461,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "automata": {
     "slug": "automata",
@@ -5358,7 +5493,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "creditcoin": {
     "slug": "creditcoin",
@@ -5392,7 +5528,8 @@
       "chainBalanceSlug": "creditcoin"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "crownSterling": {
     "slug": "crownSterling",
@@ -5423,7 +5560,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dockPosMainnet": {
     "slug": "dockPosMainnet",
@@ -5457,7 +5595,8 @@
       "chainBalanceSlug": "dock-pos"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kusari": {
     "slug": "kusari",
@@ -5486,7 +5625,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "logion": {
     "slug": "logion",
@@ -5540,7 +5680,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "neatcoin": {
     "slug": "neatcoin",
@@ -5571,7 +5712,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "nftmart": {
     "slug": "nftmart",
@@ -5602,7 +5744,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polymesh": {
     "slug": "polymesh",
@@ -5636,7 +5779,8 @@
       "chainBalanceSlug": "polymesh"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "riochain": {
     "slug": "riochain",
@@ -5665,7 +5809,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sherpax": {
     "slug": "sherpax",
@@ -5694,7 +5839,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sora_substrate": {
     "slug": "sora_substrate",
@@ -5754,7 +5900,8 @@
       "chainBalanceSlug": "sora"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "swapdex": {
     "slug": "swapdex",
@@ -5785,7 +5932,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "3dpass": {
     "slug": "3dpass",
@@ -5817,7 +5965,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kulupu": {
     "slug": "kulupu",
@@ -5848,7 +5997,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "joystream": {
     "slug": "joystream",
@@ -5882,7 +6032,8 @@
       "chainBalanceSlug": "joystream"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
@@ -5913,7 +6064,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "vara_network": {
     "slug": "vara_network",
@@ -5951,7 +6103,8 @@
       "chainBalanceSlug": "vara"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kate": {
     "slug": "kate",
@@ -5982,7 +6135,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bridgeHubPolkadot": {
     "slug": "bridgeHubPolkadot",
@@ -6017,7 +6171,8 @@
       "chainBalanceSlug": "bridgehub-polkadot"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bridgeHubKusama": {
     "slug": "bridgeHubKusama",
@@ -6054,7 +6209,8 @@
       "chainBalanceSlug": "bridgehub-kusama"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "fantom_testnet": {
     "slug": "fantom_testnet",
@@ -6082,7 +6238,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "fantom": {
     "slug": "fantom",
@@ -6112,7 +6269,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "krest_network": {
     "slug": "krest_network",
@@ -6158,7 +6316,8 @@
       "chainBalanceSlug": "krest"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "deeper_network": {
     "slug": "deeper_network",
@@ -6189,7 +6348,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "jur_network": {
     "slug": "jur_network",
@@ -6220,7 +6380,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "base_mainnet": {
     "slug": "base_mainnet",
@@ -6246,7 +6407,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "avalanche_c": {
     "slug": "avalanche_c",
@@ -6276,7 +6438,8 @@
       "chainBalanceSlug": "avalanche"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "crust_mainnet": {
     "slug": "crust_mainnet",
@@ -6311,7 +6474,8 @@
       "chainBalanceSlug": "crust-main"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "acala_evm": {
     "slug": "acala_evm",
@@ -6337,7 +6501,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "karura_evm": {
     "slug": "karura_evm",
@@ -6363,7 +6528,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bittensor": {
     "slug": "bittensor",
@@ -6407,7 +6573,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "xcavate": {
     "slug": "xcavate",
@@ -6438,7 +6605,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "unorthodox": {
     "slug": "unorthodox",
@@ -6467,7 +6635,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "coinversation": {
     "slug": "coinversation",
@@ -6508,7 +6677,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "layerx_network": {
     "slug": "layerx_network",
@@ -6537,7 +6707,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "moonsama": {
     "slug": "moonsama",
@@ -6578,7 +6749,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "oak_network": {
     "slug": "oak_network",
@@ -6619,7 +6791,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "omnibtc": {
     "slug": "omnibtc",
@@ -6660,7 +6833,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "quantum_portal": {
     "slug": "quantum_portal",
@@ -6689,7 +6863,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "virto_network": {
     "slug": "virto_network",
@@ -6718,7 +6893,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "energy_web_x": {
     "slug": "energy_web_x",
@@ -6761,7 +6937,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "invarch": {
     "slug": "invarch",
@@ -6804,7 +6981,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "zero": {
     "slug": "zero",
@@ -6833,7 +7011,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kpron_network": {
     "slug": "kpron_network",
@@ -6862,7 +7041,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "mars": {
     "slug": "mars",
@@ -6891,7 +7071,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "snow": {
     "slug": "snow",
@@ -6935,7 +7116,8 @@
       "chainBalanceSlug": "snow"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aband": {
     "slug": "aband",
@@ -6976,7 +7158,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "alpha_network": {
     "slug": "alpha_network",
@@ -7005,7 +7188,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "loom_network": {
     "slug": "loom_network",
@@ -7034,7 +7218,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subgame_gamma": {
     "slug": "subgame_gamma",
@@ -7063,7 +7248,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "trustbase": {
     "slug": "trustbase",
@@ -7092,7 +7278,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "manta_network": {
     "slug": "manta_network",
@@ -7126,7 +7313,8 @@
       "chainBalanceSlug": "manta"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "t3rn": {
     "slug": "t3rn",
@@ -7155,7 +7343,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "geminis_network": {
     "slug": "geminis_network",
@@ -7184,7 +7373,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polimec": {
     "slug": "polimec",
@@ -7228,7 +7418,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subdao": {
     "slug": "subdao",
@@ -7257,7 +7448,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subgame_network": {
     "slug": "subgame_network",
@@ -7286,7 +7478,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "zeta_test": {
     "slug": "zeta_test",
@@ -7309,7 +7502,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "watr_mainnet": {
     "slug": "watr_mainnet",
@@ -7340,7 +7534,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "watr_mainnet_evm": {
     "slug": "watr_mainnet_evm",
@@ -7363,7 +7558,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "enjin_relaychain": {
     "slug": "enjin_relaychain",
@@ -7397,7 +7593,8 @@
       "chainBalanceSlug": "enjin-relay"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "enjin_matrixchain": {
     "slug": "enjin_matrixchain",
@@ -7432,7 +7629,8 @@
       "chainBalanceSlug": "enjin-matrix"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "vara_testnet": {
     "slug": "vara_testnet",
@@ -7466,7 +7664,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "goldberg_testnet": {
     "slug": "goldberg_testnet",
@@ -7500,7 +7699,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "energy_web_x_testnet": {
     "slug": "energy_web_x_testnet",
@@ -7531,7 +7731,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "energy_web_chain": {
     "slug": "energy_web_chain",
@@ -7557,7 +7758,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "energy_web_x_rococo": {
     "slug": "energy_web_x_rococo",
@@ -7588,7 +7790,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "manta_network_evm": {
     "slug": "manta_network_evm",
@@ -7614,7 +7817,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polkadex_dot": {
     "slug": "polkadex_dot",
@@ -7661,7 +7865,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bittensor_testnet": {
     "slug": "bittensor_testnet",
@@ -7692,7 +7897,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "subspace_gemini_3h": {
     "slug": "subspace_gemini_3h",
@@ -7726,7 +7932,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "continuum_network": {
     "slug": "continuum_network",
@@ -7760,7 +7967,8 @@
       "chainBalanceSlug": "continuum"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rococo_assethub": {
     "slug": "rococo_assethub",
@@ -7794,7 +8002,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "okxTest": {
     "slug": "okxTest",
@@ -7821,7 +8030,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "liberlandTest": {
     "slug": "liberlandTest",
@@ -7852,7 +8062,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "liberland": {
     "slug": "liberland",
@@ -7884,7 +8095,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "chainflip_dot": {
     "slug": "chainflip_dot",
@@ -7915,7 +8127,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "tangleTest": {
     "slug": "tangleTest",
@@ -7946,7 +8159,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dentnet": {
     "slug": "dentnet",
@@ -7977,7 +8191,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "phykenTest": {
     "slug": "phykenTest",
@@ -8008,7 +8223,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "creditcoinTestEvm": {
     "slug": "creditcoinTestEvm",
@@ -8034,7 +8250,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "astarZkEvm": {
     "slug": "astarZkEvm",
@@ -8060,7 +8277,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sepolia_ethereum": {
     "slug": "sepolia_ethereum",
@@ -8089,7 +8307,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "hydradx_rococo": {
     "slug": "hydradx_rococo",
@@ -8120,7 +8339,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "creditcoinTest": {
     "slug": "creditcoinTest",
@@ -8154,7 +8374,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "xlayer": {
     "slug": "xlayer",
@@ -8178,7 +8399,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "acurast": {
     "slug": "acurast",
@@ -8210,7 +8432,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "mythos": {
     "slug": "mythos",
@@ -8252,7 +8475,8 @@
       "chainBalanceSlug": "mythos"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "humanode": {
     "slug": "humanode",
@@ -8286,7 +8510,8 @@
       "chainBalanceSlug": "humanode"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "humanodeEvm": {
     "slug": "humanodeEvm",
@@ -8312,7 +8537,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "paseoTest": {
     "slug": "paseoTest",
@@ -8349,7 +8575,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "commune": {
     "slug": "commune",
@@ -8380,7 +8607,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dbcchain": {
     "slug": "dbcchain",
@@ -8414,7 +8642,8 @@
       "chainBalanceSlug": "deepbrain"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "availTuringTest": {
     "slug": "availTuringTest",
@@ -8453,7 +8682,8 @@
       "chainBalanceSlug": "avail"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bitlayer": {
     "slug": "bitlayer",
@@ -8481,7 +8711,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bitlayerTest": {
     "slug": "bitlayerTest",
@@ -8507,7 +8738,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bevm": {
     "slug": "bevm",
@@ -8534,7 +8766,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bevmTest": {
     "slug": "bevmTest",
@@ -8560,7 +8793,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "b2": {
     "slug": "b2",
@@ -8587,7 +8821,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bobMainnet": {
     "slug": "bobMainnet",
@@ -8613,7 +8848,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "avail_mainnet": {
     "slug": "avail_mainnet",
@@ -8653,7 +8889,8 @@
       "chainBalanceSlug": "avail"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "merlinEvm": {
     "slug": "merlinEvm",
@@ -8679,7 +8916,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "botanixEvmTest": {
     "slug": "botanixEvmTest",
@@ -8705,7 +8943,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "curio": {
     "slug": "curio",
@@ -8736,7 +8975,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "hyperbridge": {
     "slug": "hyperbridge",
@@ -8767,7 +9007,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "cess_testnet": {
     "slug": "cess_testnet",
@@ -8799,7 +9040,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bitcoin": {
     "slug": "bitcoin",
@@ -8820,7 +9062,8 @@
       "symbol": "BTC",
       "bitcoinNetwork": "mainnet"
     },
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bitcoinTestnet": {
     "slug": "bitcoinTestnet",
@@ -8841,7 +9084,8 @@
       "symbol": "BTC",
       "bitcoinNetwork": "testnet"
     },
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "peopleKusama": {
     "slug": "peopleKusama",
@@ -8873,7 +9117,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "lineaZkEvm": {
     "slug": "lineaZkEvm",
@@ -8899,7 +9144,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bounceBitEvm": {
     "slug": "bounceBitEvm",
@@ -8925,7 +9171,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bounceBitEvmTest": {
     "slug": "bounceBitEvmTest",
@@ -8951,7 +9198,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "kreivo": {
     "slug": "kreivo",
@@ -8983,7 +9231,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "analog_testnet": {
     "slug": "analog_testnet",
@@ -9014,7 +9263,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "peaq": {
     "slug": "peaq",
@@ -9048,7 +9298,8 @@
       "chainBalanceSlug": "peaq-main"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "layerEdge_testnet": {
     "slug": "layerEdge_testnet",
@@ -9074,7 +9325,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bevm_testnet": {
     "slug": "bevm_testnet",
@@ -9097,7 +9349,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "berachain_testnet": {
     "slug": "berachain_testnet",
@@ -9123,7 +9376,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "atletaOlympia_testnet": {
     "slug": "atletaOlympia_testnet",
@@ -9165,7 +9419,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "syscoin_evm": {
     "slug": "syscoin_evm",
@@ -9191,7 +9446,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rollux_evm": {
     "slug": "rollux_evm",
@@ -9217,7 +9473,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "b2_testnet": {
     "slug": "b2_testnet",
@@ -9245,7 +9502,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "boolAlpha": {
     "slug": "boolAlpha",
@@ -9271,7 +9529,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "boolBeta_testnet": {
     "slug": "boolBeta_testnet",
@@ -9297,7 +9556,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rollux_testnet": {
     "slug": "rollux_testnet",
@@ -9323,7 +9583,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "syscoin_evm_testnet": {
     "slug": "syscoin_evm_testnet",
@@ -9349,7 +9610,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aura": {
     "slug": "aura",
@@ -9375,7 +9637,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "unique_evm": {
     "slug": "unique_evm",
@@ -9404,7 +9667,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "core": {
     "slug": "core",
@@ -9430,7 +9694,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "satoshivm": {
     "slug": "satoshivm",
@@ -9456,7 +9721,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "satoshivm_testnet": {
     "slug": "satoshivm_testnet",
@@ -9482,7 +9748,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "cere": {
     "slug": "cere",
@@ -9513,7 +9780,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aleph_testnet_evm": {
     "slug": "aleph_testnet_evm",
@@ -9540,7 +9808,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "aleph_evm": {
     "slug": "aleph_evm",
@@ -9566,7 +9835,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "exosama": {
     "slug": "exosama",
@@ -9592,7 +9862,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "blast_mainnet": {
     "slug": "blast_mainnet",
@@ -9618,7 +9889,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "storyPartner_testnet": {
     "slug": "storyPartner_testnet",
@@ -9642,7 +9914,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ton": {
     "slug": "ton",
@@ -9666,7 +9939,8 @@
         "TEP74",
         "TEP62"
       ]
-    }
+    },
+    "cardanoInfo": null
   },
   "ton_testnet": {
     "slug": "ton_testnet",
@@ -9690,7 +9964,8 @@
         "TEP74",
         "TEP62"
       ]
-    }
+    },
+    "cardanoInfo": null
   },
   "5irechain_mainnet": {
     "slug": "5irechain_mainnet",
@@ -9716,7 +9991,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polygonZkEvm": {
     "slug": "polygonZkEvm",
@@ -9742,7 +10018,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "immutableZkEvm": {
     "slug": "immutableZkEvm",
@@ -9768,7 +10045,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "storyPublic_testnet": {
     "slug": "storyPublic_testnet",
@@ -9794,7 +10072,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "soneiumMinato": {
     "slug": "soneiumMinato",
@@ -9820,7 +10099,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "base_sepolia": {
     "slug": "base_sepolia",
@@ -9848,7 +10128,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "creditcoin_native": {
     "slug": "creditcoin_native",
@@ -9882,7 +10163,8 @@
       "chainBalanceSlug": "creditcoin-cc3"
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "creditcoin_evm": {
     "slug": "creditcoin_evm",
@@ -9908,7 +10190,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "arbitrum_sepolia": {
     "slug": "arbitrum_sepolia",
@@ -9936,7 +10219,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ternoaZkEvm_testnet": {
     "slug": "ternoaZkEvm_testnet",
@@ -9962,7 +10246,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "bittensor_devnet": {
     "slug": "bittensor_devnet",
@@ -9993,7 +10278,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "mantle": {
     "slug": "mantle",
@@ -10019,7 +10305,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "zkverify_testnet": {
     "slug": "zkverify_testnet",
@@ -10050,7 +10337,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rari": {
     "slug": "rari",
@@ -10076,7 +10364,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "scroll": {
     "slug": "scroll",
@@ -10102,7 +10391,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "unichain_sepolia": {
     "slug": "unichain_sepolia",
@@ -10128,7 +10418,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "world_chain": {
     "slug": "world_chain",
@@ -10154,7 +10445,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "mode": {
     "slug": "mode",
@@ -10180,7 +10472,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "lisk": {
     "slug": "lisk",
@@ -10206,7 +10499,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "zircuit": {
     "slug": "zircuit",
@@ -10234,7 +10528,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "tangle": {
     "slug": "tangle",
@@ -10265,7 +10560,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "tangle_evm": {
     "slug": "tangle_evm",
@@ -10291,7 +10587,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "storyOdyssey_testnet": {
     "slug": "storyOdyssey_testnet",
@@ -10317,7 +10614,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polygon_amoy": {
     "slug": "polygon_amoy",
@@ -10343,7 +10641,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polygonzkEvm_cardona": {
     "slug": "polygonzkEvm_cardona",
@@ -10369,7 +10668,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "zksync_era": {
     "slug": "zksync_era",
@@ -10395,7 +10695,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "apechain": {
     "slug": "apechain",
@@ -10421,7 +10722,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "autonomys_taurus": {
     "slug": "autonomys_taurus",
@@ -10452,7 +10754,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "gnosis": {
     "slug": "gnosis",
@@ -10478,7 +10781,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "autonomys": {
     "slug": "autonomys",
@@ -10509,7 +10813,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "fraxtal": {
     "slug": "fraxtal",
@@ -10535,7 +10840,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "cyber": {
     "slug": "cyber",
@@ -10561,7 +10867,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "g6_testnet": {
     "slug": "g6_testnet",
@@ -10592,7 +10899,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "jamton": {
     "slug": "jamton",
@@ -10623,7 +10931,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "etherlink": {
     "slug": "etherlink",
@@ -10649,7 +10958,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "polkadot_people": {
     "slug": "polkadot_people",
@@ -10685,7 +10995,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "laos_network": {
     "slug": "laos_network",
@@ -10727,7 +11038,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ithaca": {
     "slug": "ithaca",
@@ -10753,7 +11065,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ink": {
     "slug": "ink",
@@ -10780,7 +11093,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "celo": {
     "slug": "celo",
@@ -10806,7 +11120,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "celo_alfajores": {
     "slug": "celo_alfajores",
@@ -10832,7 +11147,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "lens_network_sepolia": {
     "slug": "lens_network_sepolia",
@@ -10858,7 +11174,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sophon_testnet": {
     "slug": "sophon_testnet",
@@ -10884,7 +11201,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "abstract_testnet": {
     "slug": "abstract_testnet",
@@ -10910,7 +11228,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dia_lasernet_testnet": {
     "slug": "dia_lasernet_testnet",
@@ -10936,7 +11255,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "muse_testnet": {
     "slug": "muse_testnet",
@@ -10975,7 +11295,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "soneium": {
     "slug": "soneium",
@@ -11001,7 +11322,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "dbcchain_evm": {
     "slug": "dbcchain_evm",
@@ -11027,7 +11349,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "analog_timechain": {
     "slug": "analog_timechain",
@@ -11058,7 +11381,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "rootstock": {
     "slug": "rootstock",
@@ -11086,7 +11410,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "gravity_alpha": {
     "slug": "gravity_alpha",
@@ -11112,7 +11437,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "westend_assethub": {
     "slug": "westend_assethub",
@@ -11146,7 +11472,8 @@
       "chainBalanceSlug": null
     },
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "torus": {
     "slug": "torus",
@@ -11177,7 +11504,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sonic": {
     "slug": "sonic",
@@ -11204,7 +11532,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "story_protocol": {
     "slug": "story_protocol",
@@ -11230,7 +11559,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "sophon": {
     "slug": "sophon",
@@ -11257,7 +11587,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "story_aeneid": {
     "slug": "story_aeneid",
@@ -11283,7 +11614,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "unichain": {
     "slug": "unichain",
@@ -11309,7 +11641,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "siliconZkEvm": {
     "slug": "siliconZkEvm",
@@ -11336,7 +11669,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "ternoaZkEvm": {
     "slug": "ternoaZkEvm",
@@ -11362,7 +11696,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "gen6_public": {
     "slug": "gen6_public",
@@ -11393,7 +11728,8 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "monad_testnet": {
     "slug": "monad_testnet",
@@ -11419,7 +11755,8 @@
     "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "melodie_testnet": {
     "slug": "melodie_testnet",
@@ -11450,14 +11787,15 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null,
-    "tonInfo": null
+    "tonInfo": null,
+    "cardanoInfo": null
   },
   "cardano": {
     "slug": "cardano",
     "name": "Cardano",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cardano.png",
     "providers": {
       "Blockfrost": "FAKE"
     },
@@ -11475,10 +11813,10 @@
   },
   "cardano_preproduction": {
     "slug": "cardano_preproduction",
-    "name": "Cardano Testnet",
+    "name": "Cardano Preproduction",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": null,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/cardano_preproduction.png",
     "providers": {
       "Blockfrost": "FAKE"
     },

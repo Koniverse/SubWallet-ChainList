@@ -13844,7 +13844,7 @@
     "name": "Cardano",
     "symbol": "ADA",
     "decimals": 6,
-    "priceId": null,
+    "priceId": "cardano",
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
@@ -13852,12 +13852,28 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-native-ada.png"
+  },
+  "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59",
+    "name": "HOSKY",
+    "symbol": "HOSKY",
+    "decimals": 0,
+    "priceId": "hosky",
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-hosky-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59.png"
   },
   "cardano_preproduction-NATIVE-tADA": {
     "originChain": "cardano_preproduction",
     "slug": "cardano_preproduction-NATIVE-tADA",
-    "name": "Cardano Testnet",
+    "name": "Cardano Preproduction",
     "symbol": "tADA",
     "decimals": 6,
     "priceId": null,
@@ -13868,7 +13884,7 @@
     },
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano_preproduction-native-tada.png"
   },
   "cardano_preproduction-CIP26-BLUEDOT": {
     "originChain": "cardano_preproduction",
@@ -13884,22 +13900,6 @@
     },
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": null
-  },
-  "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59": {
-    "originChain": "cardano",
-    "slug": "cardano-CIP26-HOSKY-a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59",
-    "name": "HOSKY",
-    "symbol": "HOSKY",
-    "decimals": 0,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "CIP26",
-    "metadata": {
-      "cardanoId": "a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235484f534b59"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano_preproduction-cip26-bluedot.png"
   }
 }
