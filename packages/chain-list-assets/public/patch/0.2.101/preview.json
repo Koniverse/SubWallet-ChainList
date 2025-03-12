@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.1",
+  "patchVersion": "0.2.102-beta.2",
   "appliedVersion": "0.2.101",
-  "timestamp": 1741768740607,
+  "timestamp": 1741771876983,
   "ChainInfo": {},
   "ChainInfoHashMap": {},
   "ChainAsset": {
@@ -17,7 +17,7 @@
       "metadata": {
         "contractAddress": "0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8"
       },
-      "multiChainAsset": "WETH-WrappedEther",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png"
     },
@@ -33,7 +33,7 @@
       "metadata": {
         "contractAddress": "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a"
       },
-      "multiChainAsset": "USDT-Tether",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png"
     },
@@ -49,7 +49,7 @@
       "metadata": {
         "contractAddress": "0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8"
       },
-      "multiChainAsset": "WBTC-WrappedBTC",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png"
     },
@@ -65,7 +65,7 @@
       "metadata": {
         "contractAddress": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c"
       },
-      "multiChainAsset": "USDC-USDCoin",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethusdc-0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c.png"
     },
@@ -103,10 +103,10 @@
     }
   },
   "ChainAssetHashMap": {
-    "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "7248ce4248b2a9ce385f69a823753e8f",
-    "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "c11f8f6cab5cae34bad53bb5480bd261",
-    "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "3c449ffc9296baec72f7a8ce3224a460",
-    "ethereum-ERC20-aEthUSDC-0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c": "1886cd9a29cd16c9c3f0085e4c582d8a",
+    "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
+    "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
+    "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
+    "ethereum-ERC20-aEthUSDC-0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c": "cdc8de1167105dd62d3666eb2c1fb355",
     "ethereum-ERC20-sUSDS-0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD": "2c66923fbd4741aa1662a919ac291a3a",
     "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8"
   },
