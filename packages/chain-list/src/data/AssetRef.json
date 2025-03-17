@@ -118,6 +118,27 @@
     "destChain": "bittensor",
     "path": "SWAP"
   },
+  "polkadot-NATIVE-DOT___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "polkadot",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "polkadot-NATIVE-DOT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "polkadot",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "polkadot-NATIVE-DOT___statemint-LOCAL-USDt": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "polkadot",
+    "destChain": "statemint",
+    "path": "SWAP"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -243,6 +264,13 @@
     "srcChain": "astar",
     "destChain": "acala",
     "path": "XCM"
+  },
+  "astar-NATIVE-ASTR___hydradx_main-NATIVE-HDX": {
+    "srcAsset": "astar-NATIVE-ASTR",
+    "destAsset": "hydradx_main-NATIVE-HDX",
+    "srcChain": "astar",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   },
   "statemint-NATIVE-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "statemint-NATIVE-DOT",
@@ -1048,6 +1076,13 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
+  "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___base_mainnet-NATIVE-ETH": {
+    "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "destAsset": "base_mainnet-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "base_mainnet",
+    "path": "SWAP"
+  },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___bittensor-NATIVE-TAO": {
     "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "destAsset": "bittensor-NATIVE-TAO",
@@ -1082,6 +1117,13 @@
     "srcChain": "ethereum",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9___base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
+    "srcAsset": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "destAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "srcChain": "arbitrum_one",
+    "destChain": "base_mainnet",
+    "path": "SWAP"
   },
   "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9___arbitrum_one-NATIVE-ETH": {
     "srcAsset": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
@@ -1131,6 +1173,20 @@
     "srcChain": "arbitrum_one",
     "destChain": "ethereum",
     "path": "SWAP"
+  },
+  "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "srcAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "srcChain": "arbitrum_one",
+    "destChain": "optimism",
+    "path": "SWAP"
+  },
+  "base_mainnet-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "base_mainnet-NATIVE-ETH",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "XCM"
   },
   "bifrost_dot-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "bifrost_dot-LOCAL-DOT",
@@ -1316,6 +1372,13 @@
   "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-INTR": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "hydradx_main-LOCAL-INTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-KSM": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-KSM",
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
     "path": "SWAP"
@@ -4721,11 +4784,39 @@
     "destChain": "chainflip_dot",
     "path": "SWAP"
   },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "XCM"
+  },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "srcChain": "base_mainnet",
+    "destChain": "optimism",
+    "path": "SWAP"
+  },
+  "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
   "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619___ethereum-NATIVE-ETH": {
     "srcAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
     "destAsset": "ethereum-NATIVE-ETH",
     "srcChain": "polygon",
     "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1___optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "srcAsset": "arbitrum_one-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "destAsset": "optimism-ERC20-DAI-0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "srcChain": "arbitrum_one",
+    "destChain": "optimism",
     "path": "XCM"
   },
   "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d___availTuringTest-NATIVE-AVAIL": {
@@ -4734,6 +4825,27 @@
     "srcChain": "sepolia_ethereum",
     "destChain": "availTuringTest",
     "path": "XCM"
+  },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-NATIVE-IP___storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3": {
+    "srcAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "destAsset": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
   },
   "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
@@ -4748,6 +4860,13 @@
     "srcChain": "polygonzkEvm_cardona",
     "destChain": "sepolia_ethereum",
     "path": "XCM"
+  },
+  "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-PIP-0x6e990040Fd9b06F98eFb62A147201696941680b5",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
   },
   "hydradx_main-LOCAL-2-Pool___hydradx_main-LOCAL-4Pool": {
     "srcAsset": "hydradx_main-LOCAL-2-Pool",
@@ -4903,11 +5022,46 @@
     "destChain": "westend",
     "path": "XCM"
   },
+  "story_protocol-NATIVE-IP___story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+    "srcAsset": "story_protocol-NATIVE-IP",
+    "destAsset": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "srcChain": "story_protocol",
+    "destChain": "story_protocol",
+    "path": "SWAP"
+  },
+  "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14___story_protocol-NATIVE-IP": {
+    "srcAsset": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "destAsset": "story_protocol-NATIVE-IP",
+    "srcChain": "story_protocol",
+    "destChain": "story_protocol",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-USDC-0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
+  "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3___storyOdyssey_testnet-NATIVE-IP": {
+    "srcAsset": "storyOdyssey_testnet-ERC20-USDT-0x62A0e5cEd3064e64db5F02f0838c7E822a0A50B3",
+    "destAsset": "storyOdyssey_testnet-NATIVE-IP",
+    "srcChain": "storyOdyssey_testnet",
+    "destChain": "storyOdyssey_testnet",
+    "path": "SWAP"
+  },
   "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f___arbitrum_one-NATIVE-ETH": {
     "srcAsset": "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
     "destAsset": "arbitrum_one-NATIVE-ETH",
     "srcChain": "arbitrum_one",
     "destChain": "arbitrum_one",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-KSM___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-KSM",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
     "path": "SWAP"
   }
 }
