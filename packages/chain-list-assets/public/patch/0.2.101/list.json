@@ -1,9 +1,92 @@
 {
-  "patchVersion": "0.2.102-beta.2",
+  "patchVersion": "0.2.102-beta.4",
   "appliedVersion": "0.2.101",
-  "timestamp": 1741771876983,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
+  "timestamp": 1742197024492,
+  "ChainInfo": {
+    "calamari": {
+      "slug": "calamari",
+      "name": "Calamari",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
+      "providers": {
+        "Manta Network": "wss://calamari.systems"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2084,
+        "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+        "addressPrefix": 78,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://calamari.network/",
+        "blockExplorer": "https://calamari.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "KMA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2084-27",
+            "paraId": 2084,
+            "status": "won",
+            "startTime": "2021-09-08T04:27:00.000Z",
+            "endTime": "2022-08-10T04:27:00.000Z",
+            "auctionIndex": 7,
+            "firstPeriod": 15,
+            "lastPeriod": 22
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "calamari",
+        "chainBalanceSlug": "calamari"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "calamari_test": {
+      "slug": "calamari_test",
+      "name": "Calamari Staging",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
+      "providers": {
+        "calamari_test": "wss://c1.calamari.seabird.systems"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2084,
+        "genesisHash": "0x53a6ab000c8c3c1015747a1e3ea237a327c77df3e59d142801a23b25163d4f45",
+        "addressPrefix": 78,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000",
+        "symbol": "KMA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
+    "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a"
+  },
   "ChainAsset": {
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
       "originChain": "ethereum",
@@ -120,6 +203,9 @@
     "ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png",
     "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "calamari": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
+    "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png"
+  },
   "mAssetLogoMap": {}
 }
