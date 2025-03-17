@@ -1339,7 +1339,7 @@
     "slug": "calamari",
     "name": "Calamari",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png",
     "providers": {
       "Manta Network": "wss://calamari.systems"
@@ -1357,7 +1357,7 @@
       "symbol": "KMA",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [
@@ -4596,7 +4596,7 @@
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari_test.png",
     "providers": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
@@ -4614,7 +4614,7 @@
       "symbol": "KMA",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
