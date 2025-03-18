@@ -3729,7 +3729,7 @@
     "slug": "litmus",
     "name": "Litmus",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litmus.png",
     "providers": {
       "litmus": "wss://rpc.litmus-parachain.litentry.io"
@@ -3771,7 +3771,7 @@
   },
   "litentry": {
     "slug": "litentry",
-    "name": "Litentry",
+    "name": "Heima",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litentry.png",
@@ -3787,9 +3787,9 @@
       "addressPrefix": 31,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://crowdloan.litentry.com/",
-      "blockExplorer": null,
+      "blockExplorer": "https://heima.statescan.io/",
       "existentialDeposit": "100000000000000000",
-      "symbol": "LIT",
+      "symbol": "HEI",
       "decimals": 18,
       "hasNativeNft": false,
       "supportStaking": false,
@@ -10874,7 +10874,7 @@
     "slug": "g6_testnet",
     "name": "G6 Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "providers": {
       "G6 Testnet": "wss://testnet.g6.network/node"

@@ -2328,19 +2328,19 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litmus-native-lit.png"
   },
-  "litentry-NATIVE-LIT": {
+  "litentry-NATIVE-HEI": {
     "originChain": "litentry",
-    "slug": "litentry-NATIVE-LIT",
-    "name": "Litentry",
-    "symbol": "LIT",
+    "slug": "litentry-NATIVE-HEI",
+    "name": "Heima",
+    "symbol": "HEI",
     "decimals": 18,
-    "priceId": "litentry",
+    "priceId": "heima",
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litentry-native-lit.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litentry-native-hei.png"
   },
   "tinkernet-NATIVE-TNKR": {
     "originChain": "tinkernet",
@@ -9881,7 +9881,7 @@
     "metadata": {
       "contractAddress": "5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u"
     },
-    "multiChainAsset": "WETH-WrappedEther",
+    "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
   },
@@ -13613,10 +13613,10 @@
   "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
     "originChain": "story_protocol",
     "slug": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
-    "name": "USD Coin",
-    "symbol": "USDC",
+    "name": "Stargate Bridged USDC (Story)",
+    "symbol": "USDC.e",
     "decimals": 6,
-    "priceId": "usd-coin",
+    "priceId": "stargate-bridged-usdc-story",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -13997,5 +13997,39 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png"
+  },
+  "acala-LOCAL-LOVA": {
+    "originChain": "acala",
+    "slug": "acala-LOCAL-LOVA",
+    "name": "AIWeb3",
+    "symbol": "LOVA",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 18
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-lova.png"
+  },
+  "hydradx_main-LOCAL-KSM": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "313283208",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000771"
+    },
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png"
   }
 }
