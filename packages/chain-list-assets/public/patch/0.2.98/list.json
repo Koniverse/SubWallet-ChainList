@@ -1,8 +1,101 @@
 {
-  "patchVersion": "0.2.99-beta.32",
+  "patchVersion": "0.2.102-beta.4",
   "appliedVersion": "0.2.98",
-  "timestamp": 1740467952732,
+  "timestamp": 1742210105766,
   "ChainInfo": {
+    "calamari": {
+      "slug": "calamari",
+      "name": "Calamari",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
+      "providers": {
+        "Manta Network": "wss://calamari.systems"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2084,
+        "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+        "addressPrefix": 78,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://calamari.network/",
+        "blockExplorer": "https://calamari.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "KMA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2084-27",
+            "paraId": 2084,
+            "status": "won",
+            "startTime": "2021-09-08T04:27:00.000Z",
+            "endTime": "2022-08-10T04:27:00.000Z",
+            "auctionIndex": 7,
+            "firstPeriod": 15,
+            "lastPeriod": 22
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "calamari",
+        "chainBalanceSlug": "calamari"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "zeitgeist": {
+      "slug": "zeitgeist",
+      "name": "Zeitgeist",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/zeitgeist.png",
+      "providers": {
+        "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws",
+        "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2092,
+        "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
+        "addressPrefix": 73,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.zeitgeist.pm/",
+        "blockExplorer": "https://zeitgeist.subscan.io/",
+        "existentialDeposit": "5000000000",
+        "symbol": "ZTG",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2092-53",
+            "paraId": 2092,
+            "status": "won",
+            "startTime": "2022-11-22T01:48:00.000Z",
+            "endTime": "2024-09-24T01:48:00.000Z",
+            "auctionIndex": 32,
+            "firstPeriod": 10,
+            "lastPeriod": 17
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "zeitgeist",
+        "chainBalanceSlug": "zeitgeist"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "bajun": {
       "slug": "bajun",
       "name": "Bajun Kusama",
@@ -50,6 +143,37 @@
       "bitcoinInfo": null,
       "tonInfo": null
     },
+    "calamari_test": {
+      "slug": "calamari_test",
+      "name": "Calamari Staging",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
+      "providers": {
+        "calamari_test": "wss://c1.calamari.seabird.systems"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2084,
+        "genesisHash": "0x53a6ab000c8c3c1015747a1e3ea237a327c77df3e59d142801a23b25163d4f45",
+        "addressPrefix": 78,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000",
+        "symbol": "KMA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
     "creditcoin": {
       "slug": "creditcoin",
       "name": "CC Enterprise",
@@ -81,6 +205,45 @@
         "subscanSlug": "creditcoin",
         "chainBalanceSlug": "creditcoin"
       },
+      "bitcoinInfo": null,
+      "tonInfo": null
+    },
+    "muse_testnet": {
+      "slug": "muse_testnet",
+      "name": "Muse Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/muse_testnet.png",
+      "providers": {
+        "Parity": "wss://paseo-muse-rpc.polkadot.io"
+      },
+      "evmInfo": {
+        "evmChainId": -1,
+        "blockExplorer": null,
+        "existentialDeposit": "0",
+        "symbol": "MUSE",
+        "decimals": 18,
+        "supportSmartContract": null,
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3369,
+        "genesisHash": "0x15f6788bcf1d1a3b7e1c36074584e1a3f3d07e0a46e362a102c3c3df1a93669f",
+        "addressPrefix": 29972,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "MUSE",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null
     },
@@ -389,8 +552,12 @@
     }
   },
   "ChainInfoHashMap": {
+    "calamari": "b158fbfad85cea90ea8c088eb9c5c0df",
+    "zeitgeist": "947487c2792e16eba7485af77af50421",
     "bajun": "9d2ba8b81b3336e453e0d77ea8091032",
+    "calamari_test": "4e833be5f05ff216664510a59aab7207",
     "creditcoin": "adc78db9ae3dc0fcaecf784d8a52b9ca",
+    "muse_testnet": "67128ffcd3caf2d4b83e38a88f55c74e",
     "gravity_alpha": "0630f211dee5ad2d3a1552afa03526db",
     "torus": "b745ff0d9e3decd35a93865a72db7a87",
     "story_protocol": "61c8082762f9adc2e45c739df3113d5b",
@@ -404,6 +571,40 @@
     "melodie_testnet": "4097494acebefa846018826804945c08"
   },
   "ChainAsset": {
+    "zeitgeist-NATIVE-ZTG": {
+      "originChain": "zeitgeist",
+      "slug": "zeitgeist-NATIVE-ZTG",
+      "name": "Zeitgeist",
+      "symbol": "ZTG",
+      "decimals": 10,
+      "priceId": "zeitgeist",
+      "minAmount": "5000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ZTG-Zeitgeist",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/zeitgeist-native-ztg.png"
+    },
+    "muse_testnet-NATIVE-MUSE": {
+      "originChain": "muse_testnet",
+      "slug": "muse_testnet-NATIVE-MUSE",
+      "name": "Muse Testnet",
+      "symbol": "MUSE",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "10000000000000000",
+      "assetType": "NATIVE",
+      "metadata": {
+        "multilocation": {
+          "parents": 0,
+          "interior": "Here"
+        },
+        "disableEvmTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/muse_testnet-native-muse.png"
+    },
     "analog_timechain-NATIVE-ANLOG": {
       "originChain": "analog_timechain",
       "slug": "analog_timechain-NATIVE-ANLOG",
@@ -765,9 +966,107 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/melodie_testnet-native-mel.png"
+    },
+    "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8",
+      "name": "Aave Ethereum WETH",
+      "symbol": "aEthWETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png"
+    },
+    "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a",
+      "name": "Aave Ethereum USDT",
+      "symbol": "aEthUSDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png"
+    },
+    "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8",
+      "name": "Aave Ethereum WBTC",
+      "symbol": "aEthWBTC",
+      "decimals": 8,
+      "priceId": "wrapped-bitcoin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png"
+    },
+    "ethereum-ERC20-aEthUSDC-0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-aEthUSDC-0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+      "name": "Aave Ethereum USDC",
+      "symbol": "aEthUSDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdc-0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c.png"
+    },
+    "ethereum-ERC20-sUSDS-0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-sUSDS-0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "priceId": "susds",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png"
+    },
+    "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+      "name": "Saving DAI",
+      "symbol": "sDAI",
+      "decimals": 18,
+      "priceId": "savings-dai",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x83F20F44975D03b1b09e64809B757c47f942BEeA"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png"
     }
   },
   "ChainAssetHashMap": {
+    "zeitgeist-NATIVE-ZTG": "dcc1e112f858c27ba6a3685665e5d983",
+    "muse_testnet-NATIVE-MUSE": "bb4a426df7b4b95a1351ec038f775a6f",
     "analog_timechain-NATIVE-ANLOG": "5ec29a529a4fc19be1e2415450f4a503",
     "hydradx_main-LOCAL-SOL": "5ab8875d5a0cde798ba66d8f0935630d",
     "ethereum-ERC20-vPHA-0x21d6eC8fc14CaAcc55aFA23cBa66798DAB3a0ec0": "43be93f853d342d716f815d2a776b89c",
@@ -791,11 +1090,19 @@
     "gen6_public-NATIVE-GSX": "01716df049b4aeb833c5698a2bc9b317",
     "monad_testnet-NATIVE-MON": "5ba4535e5b9d6a28cde971a151042794",
     "ethereum-ERC20-CAPS-0x03Be5C903c727Ee2C8C4e9bc0AcC860Cca4715e2": "c08b26b82cd65c7e009ce7fad011d501",
-    "melodie_testnet-NATIVE-MEL": "b1c1ddd30918605b6bd363dcafd01ead"
+    "melodie_testnet-NATIVE-MEL": "b1c1ddd30918605b6bd363dcafd01ead",
+    "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
+    "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
+    "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
+    "ethereum-ERC20-aEthUSDC-0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c": "cdc8de1167105dd62d3666eb2c1fb355",
+    "ethereum-ERC20-sUSDS-0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD": "2c66923fbd4741aa1662a919ac291a3a",
+    "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "zeitgeist-native-ztg": "https://chain-list-assets.subwallet.app/assets/chain-assets/zeitgeist-native-ztg.png",
+    "muse_testnet-native-muse": "https://chain-list-assets.subwallet.app/assets/chain-assets/muse_testnet-native-muse.png",
     "analog_timechain-native-anlog": "https://chain-list-assets.subwallet.app/assets/chain-assets/analog_timechain-native-anlog.png",
     "hydradx_main-local-sol": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-sol.png",
     "ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-vpha-0x21d6ec8fc14caacc55afa23cba66798dab3a0ec0.png",
@@ -819,11 +1126,21 @@
     "gen6_public-native-gsx": "https://chain-list-assets.subwallet.app/assets/chain-assets/gen6_public-native-gsx.png",
     "monad_testnet-native-mon": "https://chain-list-assets.subwallet.app/assets/chain-assets/monad_testnet-native-mon.png",
     "ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-caps-0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2.png",
-    "melodie_testnet-native-mel": "https://chain-list-assets.subwallet.app/assets/chain-assets/melodie_testnet-native-mel.png"
+    "melodie_testnet-native-mel": "https://chain-list-assets.subwallet.app/assets/chain-assets/melodie_testnet-native-mel.png",
+    "ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png",
+    "ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png",
+    "ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png",
+    "ethereum-erc20-aethusdc-0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdc-0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c.png",
+    "ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png",
+    "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png"
   },
   "ChainLogoMap": {
+    "calamari": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
+    "zeitgeist": "https://chain-list-assets.subwallet.app/assets/chains/zeitgeist.png",
     "bajun": "https://chain-list-assets.subwallet.app/assets/chains/bajun.png",
+    "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
     "creditcoin": "https://chain-list-assets.subwallet.app/assets/chains/creditcoin.png",
+    "muse_testnet": "https://chain-list-assets.subwallet.app/assets/chains/muse_testnet.png",
     "gravity_alpha": "https://chain-list-assets.subwallet.app/assets/chains/gravity_alpha.png",
     "torus": "https://chain-list-assets.subwallet.app/assets/chains/torus.png",
     "story_protocol": "https://chain-list-assets.subwallet.app/assets/chains/story_protocol.png",
