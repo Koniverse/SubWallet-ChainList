@@ -286,7 +286,13 @@
     "destChain": "statemint",
     "path": "SWAP"
   },
-
+  "polkadot-NATIVE-DOT___hydradx_main-LOCAL-KSM": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "hydradx_main-LOCAL-KSM",
+    "srcChain": "polkadot",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -566,6 +572,13 @@
     "srcChain": "astar",
     "destChain": "hydradx_main",
     "path": "SWAP"
+  },
+  "astar-NATIVE-ASTR___hydradx_main-LOCAL-ASTR": {
+    "srcAsset": "astar-NATIVE-ASTR",
+    "destAsset": "hydradx_main-LOCAL-ASTR",
+    "srcChain": "astar",
+    "destChain": "hydradx_main",
+    "path": "XCM"
   },
   "statemint-NATIVE-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "statemint-NATIVE-DOT",
@@ -1639,6 +1652,13 @@
   "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-INTR": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "hydradx_main-LOCAL-INTR",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-KSM": {
+    "srcAsset": "hydradx_main-LOCAL-DOT",
+    "destAsset": "hydradx_main-LOCAL-KSM",
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
     "path": "SWAP"
@@ -23699,11 +23719,11 @@
     "destChain": "ethereum",
     "path": "SWAP"
   },
-  "astar-NATIVE-ASTR___hydradx_main-LOCAL-ASTR": {
-    "srcAsset": "astar-NATIVE-ASTR",
-    "destAsset": "hydradx_main-LOCAL-ASTR",
-    "srcChain": "astar",
+  "hydradx_main-LOCAL-KSM___hydradx_main-LOCAL-DOT": {
+    "srcAsset": "hydradx_main-LOCAL-KSM",
+    "destAsset": "hydradx_main-LOCAL-DOT",
+    "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
-    "path": "XCM"
+    "path": "SWAP"
   }
 }
