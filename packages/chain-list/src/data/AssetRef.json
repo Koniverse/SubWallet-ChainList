@@ -606,20 +606,14 @@
     "destAsset": "statemint-LOCAL-USDt",
     "srcChain": "statemint",
     "destChain": "statemint",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "polkadot-NATIVE-DOT"
-    }
+    "path": "SWAP"
   },
   "statemint-NATIVE-DOT___statemint-LOCAL-USDC": {
     "srcAsset": "statemint-NATIVE-DOT",
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "statemint",
     "destChain": "statemint",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "polkadot-NATIVE-DOT"
-    }
+    "path": "SWAP"
   },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
     "srcAsset": "acala-NATIVE-ACA",
@@ -1501,20 +1495,14 @@
     "destAsset": "hydradx_main-NATIVE-HDX",
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "polkadot-NATIVE-DOT"
-    }
+    "path": "SWAP"
   },
   "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-USDT": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "hydradx_main-LOCAL-USDT",
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "polkadot-NATIVE-DOT"
-    }
+    "path": "SWAP"
   },
   "hydradx_main-LOCAL-DOT___hydradx_main-LOCAL-4Pool": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
@@ -2130,10 +2118,7 @@
     "destAsset": "rococo_assethub-LOCAL-USDt",
     "srcChain": "rococo_assethub",
     "destChain": "rococo_assethub",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "rococo-NATIVE-ROC"
-    }
+    "path": "SWAP"
   },
   "rococo_assethub-LOCAL-WETH___sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14": {
     "srcAsset": "rococo_assethub-LOCAL-WETH",
@@ -2735,10 +2720,7 @@
     "destAsset": "hydradx_rococo-LOCAL-DOT",
     "srcChain": "hydradx_rococo",
     "destChain": "hydradx_rococo",
-    "path": "SWAP",
-    "metadata": {
-      "alternativeAsset": "rococo-NATIVE-ROC"
-    }
+    "path": "SWAP"
   },
   "hydradx_rococo-NATIVE-HDX___hydradx_rococo-LOCAL-USDT": {
     "srcAsset": "hydradx_rococo-NATIVE-HDX",
