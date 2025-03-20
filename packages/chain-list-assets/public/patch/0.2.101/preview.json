@@ -94,51 +94,6 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
-    "litentry": {
-      "slug": "litentry",
-      "name": "Heima",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litentry.png",
-      "providers": {
-        "Litentry": "wss://rpc.litentry-parachain.litentry.io",
-        "Dwellir": "wss://litentry-rpc.dwellir.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "polkadot",
-        "paraId": 2013,
-        "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
-        "addressPrefix": 31,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://crowdloan.litentry.com/",
-        "blockExplorer": "https://heima.statescan.io/",
-        "existentialDeposit": "100000000000000000",
-        "symbol": "HEI",
-        "decimals": 18,
-        "hasNativeNft": false,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "polkadot",
-            "fundId": "2013-35",
-            "paraId": 2013,
-            "status": "won",
-            "startTime": "2022-06-07T01:48:00.000Z",
-            "endTime": "2024-04-09T01:48:00.000Z",
-            "auctionIndex": 15,
-            "firstPeriod": 8,
-            "lastPeriod": 15
-          }
-        ]
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
-    },
     "calamari_test": {
       "slug": "calamari_test",
       "name": "Calamari Staging",
@@ -207,25 +162,10 @@
   "ChainInfoHashMap": {
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
-    "litentry": "b8f163ba7559e0a5011eddd1ecc16686",
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
     "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751"
   },
   "ChainAsset": {
-    "litentry-NATIVE-HEI": {
-      "originChain": "litentry",
-      "slug": "litentry-NATIVE-HEI",
-      "name": "Heima",
-      "symbol": "HEI",
-      "decimals": 18,
-      "priceId": "heima",
-      "minAmount": "100000000000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litentry-native-hei.png"
-    },
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": {
       "originChain": "aleph",
       "slug": "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u",
@@ -241,22 +181,6 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
-    },
-    "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
-      "originChain": "story_protocol",
-      "slug": "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14",
-      "name": "Stargate Bridged USDC (Story)",
-      "symbol": "USDC.e",
-      "decimals": 6,
-      "priceId": "stargate-bridged-usdc-story",
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
-      },
-      "multiChainAsset": "USDC-USDCoin",
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png"
     },
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
       "originChain": "ethereum",
@@ -390,9 +314,7 @@
     }
   },
   "ChainAssetHashMap": {
-    "litentry-NATIVE-HEI": "d2b8d94aa4309c8b14e4e0d0ba602bd5",
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": "3615f8b2a4edf9a80886b5c2e37b5a4b",
-    "story_protocol-ERC20-USDC-0xF1815bd50389c46847f0Bda824eC8da914045D14": "e325d80b953fe33309353be8c5329057",
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
     "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
     "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
@@ -405,9 +327,7 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "litentry-native-hei": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litentry-native-hei.png",
     "aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png",
-    "story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/story_protocol-erc20-usdc-0xf1815bd50389c46847f0bda824ec8da914045d14.png",
     "ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png",
     "ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png",
     "ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png",
@@ -420,7 +340,6 @@
   "ChainLogoMap": {
     "calamari": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png",
     "litmus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litmus.png",
-    "litentry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litentry.png",
     "calamari_test": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari_test.png",
     "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png"
   },
