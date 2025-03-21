@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.4",
+  "patchVersion": "0.2.102-beta.14",
   "appliedVersion": "0.2.101",
-  "timestamp": 1742197024492,
+  "timestamp": 1742543344362,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -50,6 +50,50 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "litmus": {
+      "slug": "litmus",
+      "name": "Litmus",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/litmus.png",
+      "providers": {
+        "litmus": "wss://rpc.litmus-parachain.litentry.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2106,
+        "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+        "addressPrefix": 131,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://kusama-crowdloan.litentry.com/",
+        "blockExplorer": null,
+        "existentialDeposit": "100000000000000000",
+        "symbol": "LIT",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2106-63",
+            "paraId": 2106,
+            "status": "won",
+            "startTime": "2022-02-23T04:27:00.000Z",
+            "endTime": "2023-01-25T04:27:00.000Z",
+            "auctionIndex": 23,
+            "firstPeriod": 19,
+            "lastPeriod": 26
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "calamari_test": {
       "slug": "calamari_test",
       "name": "Calamari Staging",
@@ -81,13 +125,63 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "g6_testnet": {
+      "slug": "g6_testnet",
+      "name": "G6 Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png",
+      "providers": {
+        "G6 Testnet": "wss://testnet.g6.network/node"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xbfac5d00971d829620ee7c653de232d3b052b663dc0f6277c352b6c96f9ca15c",
+        "addressPrefix": 611,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "GSX",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
-    "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a"
+    "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
+    "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
+    "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751"
   },
   "ChainAsset": {
+    "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": {
+      "originChain": "aleph",
+      "slug": "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "PSP22",
+      "metadata": {
+        "contractAddress": "5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u"
+      },
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
+    },
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
       "originChain": "ethereum",
       "slug": "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8",
@@ -183,29 +277,89 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png"
+    },
+    "acala-LOCAL-LOVA": {
+      "originChain": "acala",
+      "slug": "acala-LOCAL-LOVA",
+      "name": "AIWeb3",
+      "symbol": "LOVA",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 18
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-lova.png"
+    },
+    "hydradx_main-LOCAL-KSM": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-KSM",
+      "name": "Kusama",
+      "symbol": "KSM",
+      "decimals": 12,
+      "priceId": "kusama",
+      "minAmount": "313283208",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000771"
+      },
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ksm.png"
+    },
+    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197",
+      "name": "PEAQ",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "priceId": "peaq-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x1EeF208926667594E5136e89D0e9DD6907959197"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
     }
   },
   "ChainAssetHashMap": {
+    "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": "3615f8b2a4edf9a80886b5c2e37b5a4b",
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
     "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
     "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
     "ethereum-ERC20-aEthUSDC-0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c": "cdc8de1167105dd62d3666eb2c1fb355",
     "ethereum-ERC20-sUSDS-0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD": "2c66923fbd4741aa1662a919ac291a3a",
-    "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8"
+    "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8",
+    "acala-LOCAL-LOVA": "2986aa2aee6225704683bd4695e21b5e",
+    "hydradx_main-LOCAL-KSM": "d2999a0fa8887bf53186a878eef1e13e",
+    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u": "https://chain-list-assets.subwallet.app/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png",
     "ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png",
     "ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png",
     "ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png",
     "ethereum-erc20-aethusdc-0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdc-0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c.png",
     "ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png",
-    "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png"
+    "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png",
+    "acala-local-lova": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-lova.png",
+    "hydradx_main-local-ksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ksm.png",
+    "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
   },
   "ChainLogoMap": {
     "calamari": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
-    "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png"
+    "litmus": "https://chain-list-assets.subwallet.app/assets/chains/litmus.png",
+    "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
+    "g6_testnet": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png"
   },
   "mAssetLogoMap": {}
 }
