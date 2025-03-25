@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.14",
+  "patchVersion": "0.2.102-beta.15",
   "appliedVersion": "0.2.101",
-  "timestamp": 1742543344362,
+  "timestamp": 1742891618103,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -157,13 +157,69 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "story_protocol": {
+      "slug": "story_protocol",
+      "name": "Story Protocol",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
+      "providers": {
+        "Story": "https://mainnet.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1514,
+        "blockExplorer": "https://storyscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "story_aeneid": {
+      "slug": "story_aeneid",
+      "name": "Story Aeneid Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png",
+      "providers": {
+        "Aeneid": "https://aeneid.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1315,
+        "blockExplorer": "https://aeneid.storyscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
-    "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751"
+    "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751",
+    "story_protocol": "ea925e32a717efdc5afc672ad9e05b55",
+    "story_aeneid": "7bb31cc2519db33b4abf21c0768a7164"
   },
   "ChainAsset": {
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": {
@@ -327,6 +383,90 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
+    },
+    "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441",
+      "name": "Anzens USDA Stablecoin",
+      "symbol": "USDA",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
+    },
+    "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e",
+      "name": "Minswap",
+      "symbol": "MIN",
+      "decimals": 6,
+      "priceId": "minswap",
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
+    },
+    "hydradx_main-LOCAL-EWT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-EWT",
+      "name": "EWT",
+      "symbol": "EWT",
+      "decimals": 18,
+      "priceId": "energy-web-token",
+      "minAmount": "3244646333550",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "252525"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ewt.png"
+    },
+    "statemint-LOCAL-MYTH-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-MYTH-Snowbridge",
+      "name": "MYTH-Snowbridge",
+      "symbol": "MYTH-Snowbridge",
+      "decimals": 18,
+      "priceId": "mythos",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "MYTH-Mythos",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-myth-snowbridge.png"
     }
   },
   "ChainAssetHashMap": {
@@ -339,7 +479,11 @@
     "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8",
     "acala-LOCAL-LOVA": "2986aa2aee6225704683bd4695e21b5e",
     "hydradx_main-LOCAL-KSM": "d2999a0fa8887bf53186a878eef1e13e",
-    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157"
+    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157",
+    "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "80abc9a31313ec6fe62611680f161e14",
+    "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "825a546ebe0865283c8c912dd52a0a60",
+    "hydradx_main-LOCAL-EWT": "bdbf929db0ee073dd423e9cc98d89b86",
+    "statemint-LOCAL-MYTH-Snowbridge": "b8fdf878c88f224a9cea8fd3466202ef"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -353,13 +497,19 @@
     "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png",
     "acala-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-lova.png",
     "hydradx_main-local-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png",
-    "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
+    "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png",
+    "cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png",
+    "cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png",
+    "hydradx_main-local-ewt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ewt.png",
+    "statemint-local-myth-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-myth-snowbridge.png"
   },
   "ChainLogoMap": {
     "calamari": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png",
     "litmus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litmus.png",
     "calamari_test": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari_test.png",
-    "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png"
+    "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
+    "story_protocol": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
+    "story_aeneid": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png"
   },
   "mAssetLogoMap": {}
 }
