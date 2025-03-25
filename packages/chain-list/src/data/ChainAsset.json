@@ -14031,5 +14031,89 @@
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png"
+  },
+  "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441",
+    "name": "Anzens USDA Stablecoin",
+    "symbol": "USDA",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
+  },
+  "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e",
+    "name": "Minswap",
+    "symbol": "MIN",
+    "decimals": 6,
+    "priceId": "minswap",
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
+  },
+  "hydradx_main-LOCAL-EWT": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-EWT",
+    "name": "EWT",
+    "symbol": "EWT",
+    "decimals": 18,
+    "priceId": "energy-web-token",
+    "minAmount": "3244646333550",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "252525"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ewt.png"
+  },
+  "statemint-LOCAL-MYTH-Snowbridge": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-MYTH-Snowbridge",
+    "name": "MYTH-Snowbridge",
+    "symbol": "MYTH-Snowbridge",
+    "decimals": 18,
+    "priceId": "mythos",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X2": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 1
+                }
+              }
+            },
+            {
+              "AccountKey20": {
+                "key": "0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003",
+                "network": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "MYTH-Mythos",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-myth-snowbridge.png"
   }
 }
