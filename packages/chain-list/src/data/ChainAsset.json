@@ -14032,6 +14032,22 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png"
   },
+  "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197",
+    "name": "PEAQ",
+    "symbol": "PEAQ",
+    "decimals": 18,
+    "priceId": "peaq-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x1EeF208926667594E5136e89D0e9DD6907959197"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
+  },
   "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
     "originChain": "cardano",
     "slug": "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441",

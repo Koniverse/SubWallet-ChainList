@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.9",
+  "patchVersion": "0.2.102-beta.14",
   "appliedVersion": "0.2.101",
-  "timestamp": 1742293216965,
+  "timestamp": 1742543344362,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -311,6 +311,22 @@
       "multiChainAsset": "KSM-Kusama",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png"
+    },
+    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197",
+      "name": "PEAQ",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "priceId": "peaq-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x1EeF208926667594E5136e89D0e9DD6907959197"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
     }
   },
   "ChainAssetHashMap": {
@@ -322,7 +338,8 @@
     "ethereum-ERC20-sUSDS-0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD": "2c66923fbd4741aa1662a919ac291a3a",
     "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8",
     "acala-LOCAL-LOVA": "2986aa2aee6225704683bd4695e21b5e",
-    "hydradx_main-LOCAL-KSM": "d2999a0fa8887bf53186a878eef1e13e"
+    "hydradx_main-LOCAL-KSM": "d2999a0fa8887bf53186a878eef1e13e",
+    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -335,7 +352,8 @@
     "ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-susds-0xa3931d71877c0e7a3148cb7eb4463524fec27fbd.png",
     "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png",
     "acala-local-lova": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-lova.png",
-    "hydradx_main-local-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png"
+    "hydradx_main-local-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-ksm.png",
+    "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
   },
   "ChainLogoMap": {
     "calamari": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png",
