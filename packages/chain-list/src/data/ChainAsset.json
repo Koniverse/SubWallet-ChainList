@@ -2328,19 +2328,19 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litmus-native-lit.png"
   },
-  "litentry-NATIVE-HEI": {
+  "litentry-NATIVE-LIT": {
     "originChain": "litentry",
-    "slug": "litentry-NATIVE-HEI",
-    "name": "Heima",
-    "symbol": "HEI",
+    "slug": "litentry-NATIVE-LIT",
+    "name": "Litentry",
+    "symbol": "LIT",
     "decimals": 18,
-    "priceId": "heima",
+    "priceId": "litentry",
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litentry-native-hei.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/litentry-native-lit.png"
   },
   "tinkernet-NATIVE-TNKR": {
     "originChain": "tinkernet",
