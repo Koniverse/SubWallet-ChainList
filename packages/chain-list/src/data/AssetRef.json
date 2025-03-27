@@ -24036,5 +24036,12 @@
     "srcChain": "hydradx_main",
     "destChain": "hydradx_main",
     "path": "SWAP"
+  },
+  "polkadot-NATIVE-DOT___hydradx_main-LOCAL-EWT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "hydradx_main-LOCAL-EWT",
+    "srcChain": "polkadot",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
   }
 }
