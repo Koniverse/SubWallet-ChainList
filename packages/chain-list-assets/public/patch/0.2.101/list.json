@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.14",
+  "patchVersion": "0.2.102-beta.20",
   "appliedVersion": "0.2.101",
-  "timestamp": 1742543344362,
+  "timestamp": 1743064742744,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -126,6 +126,82 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "fantom": {
+      "slug": "fantom",
+      "name": "Fantom",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/fantom.png",
+      "providers": {
+        "Ankr": "https://rpc.ankr.com/fantom",
+        "RPC_API": "https://rpcapi.fantom.network",
+        "BlastApi": "https://fantom-mainnet.public.blastapi.io",
+        "FTM_TOOLS": "https://rpc.ftm.tools",
+        "PoktNetwork": "https://fantom-pokt.nodies.app/"
+      },
+      "evmInfo": {
+        "evmChainId": 250,
+        "blockExplorer": "https://explorer.fantom.network/",
+        "existentialDeposit": "0",
+        "symbol": "FTM",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": "https://ftmscan.com"
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "bittensor": {
+      "slug": "bittensor",
+      "name": "Bittensor",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bittensor.png",
+      "providers": {
+        "Opentensor": "wss://entrypoint-finney.opentensor.ai:443",
+        "Latent": "wss://lite.sub.latent.to:443"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://taostats.io/",
+        "existentialDeposit": "500",
+        "symbol": "TAO",
+        "decimals": 9,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2097-57",
+            "paraId": 2097,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 36,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "g6_testnet": {
       "slug": "g6_testnet",
       "name": "G6 Testnet",
@@ -157,13 +233,71 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "story_protocol": {
+      "slug": "story_protocol",
+      "name": "Story Protocol",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/story_protocol.png",
+      "providers": {
+        "Story": "https://mainnet.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1514,
+        "blockExplorer": "https://storyscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "story_aeneid": {
+      "slug": "story_aeneid",
+      "name": "Story Aeneid Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/story_aeneid.png",
+      "providers": {
+        "Aeneid": "https://aeneid.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1315,
+        "blockExplorer": "https://aeneid.storyscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
-    "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751"
+    "fantom": "9716da1fb11126af651fc51d02f27e6f",
+    "bittensor": "2ec8adfab96a121541f416d259042ccd",
+    "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751",
+    "story_protocol": "ea925e32a717efdc5afc672ad9e05b55",
+    "story_aeneid": "7bb31cc2519db33b4abf21c0768a7164"
   },
   "ChainAsset": {
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": {
@@ -181,6 +315,20 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
+    },
+    "autonomys-NATIVE-AI3": {
+      "originChain": "autonomys",
+      "slug": "autonomys-NATIVE-AI3",
+      "name": "Autonomys",
+      "symbol": "AI3",
+      "decimals": 18,
+      "priceId": "autonomys-network",
+      "minAmount": "10000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/autonomys-native-ai3.png"
     },
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
       "originChain": "ethereum",
@@ -327,10 +475,147 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
+    },
+    "polimec-LOCAL-USDT": {
+      "originChain": "polimec",
+      "slug": "polimec-LOCAL-USDT",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "70000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-usdt.png"
+    },
+    "polimec-LOCAL-USDC": {
+      "originChain": "polimec",
+      "slug": "polimec-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "70000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-usdc.png"
+    },
+    "polimec-LOCAL-DOT": {
+      "originChain": "polimec",
+      "slug": "polimec-LOCAL-DOT",
+      "name": "DOT AssetHub",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "100000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 1,
+          "interior": "Here"
+        }
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-dot.png"
+    },
+    "hydradx_main-LOCAL-EWT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-EWT",
+      "name": "EWT",
+      "symbol": "EWT",
+      "decimals": 18,
+      "priceId": "energy-web-token",
+      "minAmount": "3244646333550",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "252525"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ewt.png"
+    },
+    "statemint-LOCAL-MYTH-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-MYTH-Snowbridge",
+      "name": "MYTH-Snowbridge",
+      "symbol": "MYTH-Snowbridge",
+      "decimals": 18,
+      "priceId": "mythos",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "MYTH-Mythos",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-myth-snowbridge.png"
     }
   },
   "ChainAssetHashMap": {
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": "3615f8b2a4edf9a80886b5c2e37b5a4b",
+    "autonomys-NATIVE-AI3": "cb3a161f32b20c844a78a5a404e4bf2d",
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
     "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
     "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
@@ -339,12 +624,18 @@
     "ethereum-ERC20-sDAI-0x83F20F44975D03b1b09e64809B757c47f942BEeA": "a0228401eecc185415e7da11af5195e8",
     "acala-LOCAL-LOVA": "2986aa2aee6225704683bd4695e21b5e",
     "hydradx_main-LOCAL-KSM": "d2999a0fa8887bf53186a878eef1e13e",
-    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157"
+    "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157",
+    "polimec-LOCAL-USDT": "a5e842f010f8a750fc723525c433de1b",
+    "polimec-LOCAL-USDC": "0326784d9649c5cfd9094a3abf0e8dfe",
+    "polimec-LOCAL-DOT": "c8010f5d740530fbd4d542e36fb47751",
+    "hydradx_main-LOCAL-EWT": "bdbf929db0ee073dd423e9cc98d89b86",
+    "statemint-LOCAL-MYTH-Snowbridge": "b8fdf878c88f224a9cea8fd3466202ef"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u": "https://chain-list-assets.subwallet.app/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png",
+    "autonomys-native-ai3": "https://chain-list-assets.subwallet.app/assets/chain-assets/autonomys-native-ai3.png",
     "ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png",
     "ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png",
     "ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png",
@@ -353,13 +644,22 @@
     "ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sdai-0x83f20f44975d03b1b09e64809b757c47f942beea.png",
     "acala-local-lova": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-lova.png",
     "hydradx_main-local-ksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ksm.png",
-    "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
+    "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png",
+    "polimec-local-usdt": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-usdt.png",
+    "polimec-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-usdc.png",
+    "polimec-local-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-dot.png",
+    "hydradx_main-local-ewt": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ewt.png",
+    "statemint-local-myth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-myth-snowbridge.png"
   },
   "ChainLogoMap": {
     "calamari": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
     "litmus": "https://chain-list-assets.subwallet.app/assets/chains/litmus.png",
     "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
-    "g6_testnet": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png"
+    "fantom": "https://chain-list-assets.subwallet.app/assets/chains/fantom.png",
+    "bittensor": "https://chain-list-assets.subwallet.app/assets/chains/bittensor.png",
+    "g6_testnet": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png",
+    "story_protocol": "https://chain-list-assets.subwallet.app/assets/chains/story_protocol.png",
+    "story_aeneid": "https://chain-list-assets.subwallet.app/assets/chains/story_aeneid.png"
   },
   "mAssetLogoMap": {}
 }
