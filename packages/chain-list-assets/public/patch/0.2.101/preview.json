@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.18",
+  "patchVersion": "0.2.102-beta.20",
   "appliedVersion": "0.2.101",
-  "timestamp": 1742990393092,
+  "timestamp": 1743064742744,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -121,6 +121,37 @@
         "crowdloanParaId": null,
         "crowdloanFunds": []
       },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "fantom": {
+      "slug": "fantom",
+      "name": "Fantom",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fantom.png",
+      "providers": {
+        "Ankr": "https://rpc.ankr.com/fantom",
+        "RPC_API": "https://rpcapi.fantom.network",
+        "BlastApi": "https://fantom-mainnet.public.blastapi.io",
+        "FTM_TOOLS": "https://rpc.ftm.tools",
+        "PoktNetwork": "https://fantom-pokt.nodies.app/"
+      },
+      "evmInfo": {
+        "evmChainId": 250,
+        "blockExplorer": "https://explorer.fantom.network/",
+        "existentialDeposit": "0",
+        "symbol": "FTM",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": "https://ftmscan.com"
+      },
+      "substrateInfo": null,
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -262,6 +293,7 @@
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
+    "fantom": "9716da1fb11126af651fc51d02f27e6f",
     "bittensor": "2ec8adfab96a121541f416d259042ccd",
     "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751",
     "story_protocol": "ea925e32a717efdc5afc672ad9e05b55",
@@ -283,6 +315,20 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
+    },
+    "autonomys-NATIVE-AI3": {
+      "originChain": "autonomys",
+      "slug": "autonomys-NATIVE-AI3",
+      "name": "Autonomys",
+      "symbol": "AI3",
+      "decimals": 18,
+      "priceId": "autonomys-network",
+      "minAmount": "10000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png"
     },
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
       "originChain": "ethereum",
@@ -569,6 +615,7 @@
   },
   "ChainAssetHashMap": {
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": "3615f8b2a4edf9a80886b5c2e37b5a4b",
+    "autonomys-NATIVE-AI3": "cb3a161f32b20c844a78a5a404e4bf2d",
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
     "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
     "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
@@ -588,6 +635,7 @@
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png",
+    "autonomys-native-ai3": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/autonomys-native-ai3.png",
     "ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png",
     "ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png",
     "ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png",
@@ -607,6 +655,7 @@
     "calamari": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png",
     "litmus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litmus.png",
     "calamari_test": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari_test.png",
+    "fantom": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fantom.png",
     "bittensor": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor.png",
     "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "story_protocol": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
