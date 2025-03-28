@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.20",
+  "patchVersion": "0.2.102-beta.22",
   "appliedVersion": "0.2.101",
-  "timestamp": 1743064742744,
+  "timestamp": 1743149861567,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -202,6 +202,51 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "polimec": {
+      "slug": "polimec",
+      "name": "Polimec",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polimec.png",
+      "providers": {
+        "Polimec": "wss://rpc.polimec.org",
+        "Amforc": "wss://polimec.rpc.amforc.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3344,
+        "genesisHash": "0x7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd",
+        "addressPrefix": 41,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://polimec.statescan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "PLMC",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "3344-71",
+            "paraId": 3344,
+            "status": "won",
+            "startTime": "2023-10-24T01:48:00.000Z",
+            "endTime": "2025-08-26T01:48:00.000Z",
+            "auctionIndex": 51,
+            "firstPeriod": 14,
+            "lastPeriod": 21
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "g6_testnet": {
       "slug": "g6_testnet",
       "name": "G6 Testnet",
@@ -295,6 +340,7 @@
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
     "fantom": "9716da1fb11126af651fc51d02f27e6f",
     "bittensor": "2ec8adfab96a121541f416d259042ccd",
+    "polimec": "73137758e4b8badba109c0adaa33ccf6",
     "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751",
     "story_protocol": "ea925e32a717efdc5afc672ad9e05b55",
     "story_aeneid": "7bb31cc2519db33b4abf21c0768a7164"
@@ -657,6 +703,7 @@
     "calamari_test": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari_test.png",
     "fantom": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fantom.png",
     "bittensor": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bittensor.png",
+    "polimec": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polimec.png",
     "g6_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/g6_testnet.png",
     "story_protocol": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_protocol.png",
     "story_aeneid": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/story_aeneid.png"
