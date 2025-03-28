@@ -573,6 +573,20 @@
     "destChain": "hydradx_main",
     "path": "SWAP"
   },
+  "astar-NATIVE-ASTR___hydradx_main-LOCAL-KSM": {
+    "srcAsset": "astar-NATIVE-ASTR",
+    "destAsset": "hydradx_main-LOCAL-KSM",
+    "srcChain": "astar",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
+  "astar-NATIVE-ASTR___hydradx_main-LOCAL-EWT": {
+    "srcAsset": "astar-NATIVE-ASTR",
+    "destAsset": "hydradx_main-LOCAL-EWT",
+    "srcChain": "astar",
+    "destChain": "hydradx_main",
+    "path": "SWAP"
+  },
   "astar-NATIVE-ASTR___hydradx_main-LOCAL-ASTR": {
     "srcAsset": "astar-NATIVE-ASTR",
     "destAsset": "hydradx_main-LOCAL-ASTR",
@@ -1385,33 +1399,12 @@
     "destChain": "bittensor",
     "path": "SWAP"
   },
-  "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0___statemint-LOCAL-wstETH": {
-    "srcAsset": "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
-    "destAsset": "statemint-LOCAL-wstETH",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599___statemint-LOCAL-WBTC": {
-    "srcAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    "destAsset": "statemint-LOCAL-WBTC",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
   "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599___ethereum-NATIVE-ETH": {
     "srcAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
     "destAsset": "ethereum-NATIVE-ETH",
     "srcChain": "ethereum",
     "destChain": "ethereum",
     "path": "SWAP"
-  },
-  "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE___statemint-LOCAL-SHIB": {
-    "srcAsset": "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
-    "destAsset": "statemint-LOCAL-SHIB",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
-    "path": "XCM"
   },
   "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9___arbitrum_one-NATIVE-ETH": {
     "srcAsset": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
@@ -1901,62 +1894,6 @@
     "destAsset": "manta_network-NATIVE-MANTA",
     "srcChain": "moonbeam",
     "destChain": "manta_network",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___moonbeam-LOCAL-xcPINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "moonbeam-LOCAL-xcPINK",
-    "srcChain": "statemint",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___astar-LOCAL-PINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "astar-LOCAL-PINK",
-    "srcChain": "statemint",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___bifrost_dot-LOCAL-PINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "bifrost_dot-LOCAL-PINK",
-    "srcChain": "statemint",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___acala-LOCAL-PINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "acala-LOCAL-PINK",
-    "srcChain": "statemint",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___phala-LOCAL-PINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "phala-LOCAL-PINK",
-    "srcChain": "statemint",
-    "destChain": "phala",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___darwinia2-LOCAL-PINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "darwinia2-LOCAL-PINK",
-    "srcChain": "statemint",
-    "destChain": "darwinia2",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-PINK___crust-LOCAL-PINK": {
-    "srcAsset": "statemint-LOCAL-PINK",
-    "destAsset": "crust-LOCAL-PINK",
-    "srcChain": "statemint",
-    "destChain": "crust",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcPINK___statemint-LOCAL-PINK": {
-    "srcAsset": "moonbeam-LOCAL-xcPINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "moonbeam",
-    "destChain": "statemint",
     "path": "XCM"
   },
   "bifrost_dot-LOCAL-MANTA___manta_network-NATIVE-MANTA": {
@@ -2763,48 +2700,6 @@
     "srcChain": "hydradx_rococo",
     "destChain": "hydradx_rococo",
     "path": "SWAP"
-  },
-  "bifrost_dot-LOCAL-PINK___statemint-LOCAL-PINK": {
-    "srcAsset": "bifrost_dot-LOCAL-PINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "bifrost_dot",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "astar-LOCAL-PINK___statemint-LOCAL-PINK": {
-    "srcAsset": "astar-LOCAL-PINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "astar",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "phala-LOCAL-PINK___statemint-LOCAL-PINK": {
-    "srcAsset": "phala-LOCAL-PINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "phala",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "acala-LOCAL-PINK___statemint-LOCAL-PINK": {
-    "srcAsset": "acala-LOCAL-PINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "acala",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "crust-LOCAL-PINK___statemint-LOCAL-PINK": {
-    "srcAsset": "crust-LOCAL-PINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "crust",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "darwinia2-LOCAL-PINK___statemint-LOCAL-PINK": {
-    "srcAsset": "darwinia2-LOCAL-PINK",
-    "destAsset": "statemint-LOCAL-PINK",
-    "srcChain": "darwinia2",
-    "destChain": "statemint",
-    "path": "XCM"
   },
   "hydradx_main-LOCAL-DED___hydradx_main-LOCAL-USDT": {
     "srcAsset": "hydradx_main-LOCAL-DED",
@@ -3709,41 +3604,6 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "mythos-NATIVE-MYTH___statemint-LOCAL-MYTH": {
-    "srcAsset": "mythos-NATIVE-MYTH",
-    "destAsset": "statemint-LOCAL-MYTH",
-    "srcChain": "mythos",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-BEEFY___hydradx_main-LOCAL-BEEFY": {
-    "srcAsset": "statemint-LOCAL-BEEFY",
-    "destAsset": "hydradx_main-LOCAL-BEEFY",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-BEEFY___statemint-LOCAL-BEEFY": {
-    "srcAsset": "hydradx_main-LOCAL-BEEFY",
-    "destAsset": "statemint-LOCAL-BEEFY",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-STINK___hydradx_main-LOCAL-STINK": {
-    "srcAsset": "statemint-LOCAL-STINK",
-    "destAsset": "hydradx_main-LOCAL-STINK",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-STINK___statemint-LOCAL-STINK": {
-    "srcAsset": "hydradx_main-LOCAL-STINK",
-    "destAsset": "statemint-LOCAL-STINK",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
   "availTuringTest-NATIVE-AVAIL___sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
     "srcAsset": "availTuringTest-NATIVE-AVAIL",
     "destAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
@@ -3954,13 +3814,6 @@
     "destChain": "mythos",
     "path": "XCM"
   },
-  "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003___statemint-LOCAL-MYTH": {
-    "srcAsset": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003",
-    "destAsset": "statemint-LOCAL-MYTH",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
   "statemint-LOCAL-WBTC___ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
     "srcAsset": "statemint-LOCAL-WBTC",
     "destAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
@@ -3982,25 +3835,11 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
-  "ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933___statemint-LOCAL-PEPE": {
-    "srcAsset": "ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933",
-    "destAsset": "statemint-LOCAL-PEPE",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
   "statemint-LOCAL-TON___ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
     "srcAsset": "statemint-LOCAL-TON",
     "destAsset": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
     "srcChain": "statemint",
     "destChain": "ethereum",
-    "path": "XCM"
-  },
-  "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1___statemint-LOCAL-TON": {
-    "srcAsset": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
-    "destAsset": "statemint-LOCAL-TON",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
     "path": "XCM"
   },
   "statemint-LOCAL-wstETH___ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
@@ -4015,13 +3854,6 @@
     "destAsset": "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88",
     "srcChain": "statemint",
     "destChain": "ethereum",
-    "path": "XCM"
-  },
-  "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88___statemint-LOCAL-tBTC": {
-    "srcAsset": "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88",
-    "destAsset": "statemint-LOCAL-tBTC",
-    "srcChain": "ethereum",
-    "destChain": "statemint",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-PHA___hydradx_main-LOCAL-DOT": {
