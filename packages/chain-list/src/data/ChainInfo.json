@@ -8365,8 +8365,8 @@
     "slug": "astarZkEvm",
     "name": "Astar zkEVM",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png",
+    "chainStatus": "INACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
     "providers": {
       "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
     },
