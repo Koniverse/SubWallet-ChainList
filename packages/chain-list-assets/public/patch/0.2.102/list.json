@@ -1,0 +1,46 @@
+{
+  "patchVersion": "0.2.103-beta.0",
+  "appliedVersion": "0.2.102",
+  "timestamp": 1743422474678,
+  "ChainInfo": {
+    "astarZkEvm": {
+      "slug": "astarZkEvm",
+      "name": "Astar zkEVM",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png",
+      "providers": {
+        "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
+      },
+      "evmInfo": {
+        "evmChainId": 3776,
+        "blockExplorer": "https://astar-zkevm.explorer.startale.com/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": "https://astar-zkevm.explorer.startale.com/"
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa"
+  },
+  "ChainAsset": {},
+  "ChainAssetHashMap": {},
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {},
+  "ChainLogoMap": {
+    "astarZkEvm": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png"
+  },
+  "mAssetLogoMap": {}
+}
