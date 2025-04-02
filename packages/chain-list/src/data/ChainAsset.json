@@ -9,6 +9,7 @@
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "DOT",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
@@ -28,6 +29,7 @@
     "minAmount": "333333333",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "KSM",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
@@ -75,6 +77,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "GLMR",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
@@ -94,6 +97,7 @@
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "NEER",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
@@ -127,6 +131,7 @@
     "minAmount": "1000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "ASTR",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
@@ -146,6 +151,7 @@
     "minAmount": "100000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "DOT",
       "multilocation": {
         "parents": 1,
         "interior": "Here"
@@ -166,6 +172,7 @@
     "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "ACA",
       "onChainInfo": {
         "NativeAssetId": {
           "Token": "ACA"
@@ -278,6 +285,7 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "onChainInfo": {
         "Token": "DOT"
       }
@@ -296,6 +304,7 @@
     "minAmount": "100000000000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "GLMR",
       "onChainInfo": {
         "ForeignAsset": 0
       }
@@ -314,6 +323,7 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "onChainInfo": {
         "ForeignAsset": 12
       }
@@ -350,6 +360,7 @@
     "minAmount": "100000000000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "ASTR",
       "onChainInfo": {
         "ForeignAsset": 2
       }
@@ -436,6 +447,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "assetId": "42259045809535163221576417993425387648",
       "assetType": "ForeignAsset",
       "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
@@ -454,6 +466,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "INTR",
       "assetId": "101170542313601871197860408087030232491",
       "assetType": "ForeignAsset",
       "contractAddress": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab"
@@ -472,6 +485,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "IBTC",
       "assetId": "120637696315203257380661607956669368914",
       "assetType": "ForeignAsset",
       "contractAddress": "0xFFFFFfFf5AC1f9A51A93F5C527385edF7Fe98A52"
@@ -490,6 +504,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "ACA",
       "assetId": "224821240862170613278369189818311486111",
       "assetType": "ForeignAsset",
       "contractAddress": "0xffffFFffa922Fef94566104a6e5A35a4fCDDAA9f"
@@ -558,6 +573,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "assetId": "340282366920938463463374607431768211455",
       "multilocation": {
         "parents": 1,
@@ -578,6 +594,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "assetId": "4294969280",
       "multilocation": {
         "parents": 1,
@@ -870,6 +887,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "onChainInfo": {
         "Token2": "2"
       }
@@ -1374,6 +1392,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "assetId": "102"
     },
     "multiChainAsset": "USDT-Tether",
@@ -1418,6 +1437,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "HDX",
       "assetId": "0",
       "autoEnable": true
     },
@@ -1435,6 +1455,7 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "assetId": "10",
       "autoEnable": true,
       "multilocation": {
@@ -1482,6 +1503,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "CFG",
       "onChainInfo": {
         "Native": null
       }
@@ -1500,6 +1522,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "INTR",
       "onChainInfo": {
         "Token": "INTR"
       }
@@ -1536,6 +1559,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "onChainInfo": {
         "ForeignAsset": 2
       }
@@ -1554,6 +1578,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "iBTC",
       "onChainInfo": {
         "Token": "IBTC"
       }
@@ -1676,6 +1701,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "KSM",
       "onChainInfo": {
         "XCM": "0"
       }
@@ -1822,6 +1848,7 @@
     "minAmount": "3333333",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "KSM",
       "multilocation": {
         "parents": 1,
         "interior": "Here"
@@ -2590,6 +2617,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "onChainInfo": {
         "XCM": "0"
       },
@@ -2612,6 +2640,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "onChainInfo": {
         "XCM": "1"
       },
@@ -3264,6 +3293,7 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "assetId": "1984",
       "multilocation": {
         "parents": 0,
@@ -3293,6 +3323,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "KSM",
       "assetId": "42259045809535163221576417993425387648",
       "assetType": "ForeignAsset",
       "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
@@ -3311,6 +3342,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "KSM",
       "assetId": "340282366920938463463374607431768211455",
       "assetType": "ForeignAsset",
       "multilocation": {
@@ -3332,6 +3364,7 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "KSM",
       "onChainInfo": {
         "Token": "KSM"
       }
@@ -3350,6 +3383,7 @@
     "minAmount": "100000000000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "NEER",
       "onChainInfo": {
         "ForeignAsset": "9"
       }
@@ -3404,6 +3438,7 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "KSM",
       "onChainInfo": {
         "Token": "KSM"
       }
@@ -3476,6 +3511,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "assetId": "311091173110107856861649819128533077277",
       "assetType": "ForeignAsset",
       "contractAddress": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d"
@@ -5019,6 +5055,7 @@
     "minAmount": null,
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDT",
       "assetId": "1970496628",
       "multilocation": {
         "parents": 1,
@@ -6923,6 +6960,7 @@
     "minAmount": "1000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "onChainInfo": {
         "Token2": "0"
       }
@@ -6957,6 +6995,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "assetId": "101"
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -6973,6 +7012,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "onChainInfo": {
         "Token": "DOT"
       }
@@ -6991,6 +7031,7 @@
     "minAmount": "17540000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "assetId": "5",
       "autoEnable": true,
       "canPayTxFee": true,
@@ -7038,6 +7079,7 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDC",
       "assetId": "1337",
       "multilocation": {
         "parents": 0,
@@ -7097,6 +7139,7 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDC",
       "assetId": "22",
       "multilocation": {
         "parents": 1,
@@ -7405,6 +7448,7 @@
     "minAmount": "1000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "INTR",
       "onChainInfo": {
         "ForeignAsset": 4
       }
@@ -7423,6 +7467,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "ACA",
       "assetId": "108"
     },
     "multiChainAsset": "ACA-Acala",
@@ -7439,6 +7484,7 @@
     "minAmount": "32467532467532500",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "CFG",
       "assetId": "13"
     },
     "multiChainAsset": "CFG-Centrifuge",
@@ -7549,6 +7595,7 @@
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "MANTA",
       "onChainInfo": {
         "MantaCurrency": "1"
       }
@@ -7583,6 +7630,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "assetId": "8",
       "onChainInfo": {
         "MantaCurrency": "8"
@@ -7602,6 +7650,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "MANTA",
       "assetId": "166446646689194205559791995948102903873",
       "assetType": "ForeignAsset",
       "contractAddress": "0xfFFffFFf7D3875460d4509eb8d0362c611B4E841"
@@ -7699,6 +7748,7 @@
     "minAmount": "10000000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "MANTA",
       "onChainInfo": {
         "Token2": "8"
       }
@@ -7925,6 +7975,7 @@
     "minAmount": "147058823529412000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "ASTR",
       "assetId": "9",
       "autoEnable": true,
       "alternativeSwapAsset": "astar-NATIVE-ASTR"
@@ -8706,6 +8757,7 @@
     "minAmount": "10000000000000000",
     "assetType": "NATIVE",
     "metadata": {
+      "psSymbol": "MYTH",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
@@ -9319,6 +9371,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "USDC",
       "onChainInfo": {
         "XCM": "2"
       },
@@ -10151,6 +10204,7 @@
     "minAmount": "1000000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "KSM",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10177,6 +10231,7 @@
     "minAmount": "10000000",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "DOT",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10394,6 +10449,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "MYTH",
       "isBridged": true,
       "multilocation": {
         "parents": 1,
@@ -11204,6 +11260,7 @@
     "minAmount": "21367521367521400",
     "assetType": "LOCAL",
     "metadata": {
+      "psSymbol": "MYTH",
       "assetId": "30",
       "multilocation": {
         "parents": 1,
