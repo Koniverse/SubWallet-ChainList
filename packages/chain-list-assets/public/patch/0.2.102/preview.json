@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.0",
+  "patchVersion": "0.2.103-beta.3",
   "appliedVersion": "0.2.102",
-  "timestamp": 1743422474678,
+  "timestamp": 1743588525838,
   "ChainInfo": {
     "astarZkEvm": {
       "slug": "astarZkEvm",
@@ -34,11 +34,1553 @@
   "ChainInfoHashMap": {
     "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa"
   },
-  "ChainAsset": {},
-  "ChainAssetHashMap": {},
+  "ChainAsset": {
+    "bittensor-LOCAL-α": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-α",
+      "name": "Apex",
+      "symbol": "α",
+      "decimals": 9,
+      "priceId": "dtao-1",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 1,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-α.png"
+    },
+    "bittensor-LOCAL-γ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-γ",
+      "name": "Τemplar",
+      "symbol": "γ",
+      "decimals": 9,
+      "priceId": "dtao-3",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 3,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-γ.png"
+    },
+    "bittensor-LOCAL-β": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-β",
+      "name": "Omron",
+      "symbol": "β",
+      "decimals": 9,
+      "priceId": "dtao-2",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 2,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-β.png"
+    },
+    "bittensor-LOCAL-ε": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ε",
+      "name": "Openkaito",
+      "symbol": "ε",
+      "decimals": 9,
+      "priceId": "dtao-5",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 5,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ε.png"
+    },
+    "bittensor-LOCAL-δ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-δ",
+      "name": "Targon",
+      "symbol": "δ",
+      "decimals": 9,
+      "priceId": "dtao-4",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 4,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-δ.png"
+    },
+    "bittensor-LOCAL-ο": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ο",
+      "name": "De_val",
+      "symbol": "ο",
+      "decimals": 9,
+      "priceId": "dtao-15",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 15,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ο.png"
+    },
+    "bittensor-LOCAL-ק": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ק",
+      "name": "Nextplace",
+      "symbol": "ק",
+      "decimals": 9,
+      "priceId": "dtao-48",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 48,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ק.png"
+    },
+    "bittensor-LOCAL-η": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-η",
+      "name": "Subvortex",
+      "symbol": "η",
+      "decimals": 9,
+      "priceId": "dtao-7",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 7,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-η.png"
+    },
+    "bittensor-LOCAL-μ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-μ",
+      "name": "Compute horde",
+      "symbol": "μ",
+      "decimals": 9,
+      "priceId": "dtao-12",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 12,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-μ.png"
+    },
+    "bittensor-LOCAL-κ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-κ",
+      "name": "Sturdy",
+      "symbol": "κ",
+      "decimals": 9,
+      "priceId": "dtao-10",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 10,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-κ.png"
+    },
+    "bittensor-LOCAL-ν": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ν",
+      "name": "Data universe",
+      "symbol": "ν",
+      "decimals": 9,
+      "priceId": "dtao-13",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 13,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ν.png"
+    },
+    "bittensor-LOCAL-ω": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ω",
+      "name": "Omega labs",
+      "symbol": "ω",
+      "decimals": 9,
+      "priceId": "dtao-24",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 24,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ω.png"
+    },
+    "bittensor-LOCAL-χ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-χ",
+      "name": "Desearch",
+      "symbol": "χ",
+      "decimals": 9,
+      "priceId": "dtao-22",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 22,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-χ.png"
+    },
+    "bittensor-LOCAL-π": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-π",
+      "name": "Bitads",
+      "symbol": "π",
+      "decimals": 9,
+      "priceId": "dtao-16",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 16,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-π.png"
+    },
+    "bittensor-LOCAL-ח": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ח",
+      "name": "Itsai",
+      "symbol": "ח",
+      "decimals": 9,
+      "priceId": "dtao-32",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 32,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ח.png"
+    },
+    "bittensor-LOCAL-ι": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ι",
+      "name": "Pretrain",
+      "symbol": "ι",
+      "decimals": 9,
+      "priceId": "dtao-9",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 9,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ι.png"
+    },
+    "bittensor-LOCAL-ט": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ט",
+      "name": "Readyai",
+      "symbol": "ט",
+      "decimals": 9,
+      "priceId": "dtao-33",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 33,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ט.png"
+    },
+    "bittensor-LOCAL-λ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-λ",
+      "name": "Dippy",
+      "symbol": "λ",
+      "decimals": 9,
+      "priceId": "dtao-11",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 11,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-λ.png"
+    },
+    "bittensor-LOCAL-ך": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ך",
+      "name": "Logicnet",
+      "symbol": "ך",
+      "decimals": 9,
+      "priceId": "dtao-35",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 35,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ך.png"
+    },
+    "bittensor-LOCAL-ע": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ע",
+      "name": "Graphite",
+      "symbol": "ע",
+      "decimals": 9,
+      "priceId": "dtao-43",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 43,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ע.png"
+    },
+    "bittensor-LOCAL-מ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-מ",
+      "name": "Edge",
+      "symbol": "מ",
+      "decimals": 9,
+      "priceId": "dtao-39",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 39,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-מ.png"
+    },
+    "bittensor-LOCAL-θ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-θ",
+      "name": "Proprietary trading network",
+      "symbol": "θ",
+      "decimals": 9,
+      "priceId": "dtao-8",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 8,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-θ.png"
+    },
+    "bittensor-LOCAL-ρ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ρ",
+      "name": "404—gen",
+      "symbol": "ρ",
+      "decimals": 9,
+      "priceId": "dtao-17",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 17,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ρ.png"
+    },
+    "bittensor-LOCAL-ו": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ו",
+      "name": "Bettensor",
+      "symbol": "ו",
+      "decimals": 9,
+      "priceId": "dtao-30",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 30,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ו.png"
+    },
+    "bittensor-LOCAL-ת": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ת",
+      "name": "Celium",
+      "symbol": "ת",
+      "decimals": 9,
+      "priceId": "dtao-51",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 51,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ת.png"
+    },
+    "bittensor-LOCAL-ب": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ب",
+      "name": "Efficientfrontier",
+      "symbol": "ب",
+      "decimals": 9,
+      "priceId": "dtao-53",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 53,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ب.png"
+    },
+    "bittensor-LOCAL-ן": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ן",
+      "name": "Chunking",
+      "symbol": "ן",
+      "decimals": 9,
+      "priceId": "dtao-40",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 40,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ן.png"
+    },
+    "bittensor-LOCAL-ج": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ج",
+      "name": "Gradients",
+      "symbol": "ج",
+      "decimals": 9,
+      "priceId": "dtao-56",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 56,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ج.png"
+    },
+    "bittensor-LOCAL-ψ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ψ",
+      "name": "Zuvu",
+      "symbol": "ψ",
+      "decimals": 9,
+      "priceId": "dtao-23",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 23,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ψ.png"
+    },
+    "bittensor-LOCAL-פ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-פ",
+      "name": "Swe - rizzo",
+      "symbol": "פ",
+      "decimals": 9,
+      "priceId": "dtao-45",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 45,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-פ.png"
+    },
+    "bittensor-LOCAL-ξ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ξ",
+      "name": "Vector-store",
+      "symbol": "ξ",
+      "decimals": 9,
+      "priceId": "dtao-14",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 14,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ξ.png"
+    },
+    "bittensor-LOCAL-خ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-خ",
+      "name": "Dippy speech",
+      "symbol": "خ",
+      "decimals": 9,
+      "priceId": "dtao-58",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 58,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-خ.png"
+    },
+    "bittensor-LOCAL-ד": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ד",
+      "name": "Oracle",
+      "symbol": "ד",
+      "decimals": 9,
+      "priceId": "dtao-28",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 28,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ד.png"
+    },
+    "bittensor-LOCAL-υ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-υ",
+      "name": "Bitagent - rizzo",
+      "symbol": "υ",
+      "decimals": 9,
+      "priceId": "dtao-20",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 20,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-υ.png"
+    },
+    "bittensor-LOCAL-ב": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ב",
+      "name": "Storb",
+      "symbol": "ב",
+      "decimals": 9,
+      "priceId": "dtao-26",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 26,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ב.png"
+    },
+    "bittensor-LOCAL-ت": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ت",
+      "name": "Webgenieai",
+      "symbol": "ت",
+      "decimals": 9,
+      "priceId": "dtao-54",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 54,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ت.png"
+    },
+    "bittensor-LOCAL-ح": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ح",
+      "name": "Gaia",
+      "symbol": "ح",
+      "decimals": 9,
+      "priceId": "dtao-57",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 57,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ح.png"
+    },
+    "bittensor-LOCAL-ם": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ם",
+      "name": "Distributed training",
+      "symbol": "ם",
+      "decimals": 9,
+      "priceId": "dtao-38",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 38,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ם.png"
+    },
+    "bittensor-LOCAL-ס": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ס",
+      "name": "Real-time data by masa",
+      "symbol": "ס",
+      "decimals": 9,
+      "priceId": "dtao-42",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 42,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ס.png"
+    },
+    "bittensor-LOCAL-ר": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ר",
+      "name": "Automl",
+      "symbol": "ר",
+      "decimals": 9,
+      "priceId": "dtao-49",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 49,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ר.png"
+    },
+    "bittensor-LOCAL-נ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-נ",
+      "name": "Sportstensor",
+      "symbol": "נ",
+      "decimals": 9,
+      "priceId": "dtao-41",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 41,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-נ.png"
+    },
+    "bittensor-LOCAL-ש": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ש",
+      "name": "Synth",
+      "symbol": "ש",
+      "decimals": 9,
+      "priceId": "dtao-50",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 50,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ש.png"
+    },
+    "bittensor-LOCAL-א": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-א",
+      "name": "Folding",
+      "symbol": "א",
+      "decimals": 9,
+      "priceId": "dtao-25",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 25,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-א.png"
+    },
+    "bittensor-LOCAL-t": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-t",
+      "name": "Nineteen.ai",
+      "symbol": "t",
+      "decimals": 9,
+      "priceId": "dtao-19",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 19,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-t.png"
+    },
+    "bittensor-LOCAL-ا": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ا",
+      "name": "Dojo",
+      "symbol": "ا",
+      "decimals": 9,
+      "priceId": "dtao-52",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 52,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ا.png"
+    },
+    "bittensor-LOCAL-כ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-כ",
+      "name": "Web-agents",
+      "symbol": "כ",
+      "decimals": 9,
+      "priceId": "dtao-36",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 36,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-כ.png"
+    },
+    "bittensor-LOCAL-ג": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ג",
+      "name": "Ni compute",
+      "symbol": "ג",
+      "decimals": 9,
+      "priceId": "dtao-27",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 27,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ג.png"
+    },
+    "bittensor-LOCAL-ז": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ז",
+      "name": "Naschain",
+      "symbol": "ז",
+      "decimals": 9,
+      "priceId": "dtao-31",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 31,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ז.png"
+    },
+    "bittensor-LOCAL-ζ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ζ",
+      "name": "Infinite games",
+      "symbol": "ζ",
+      "decimals": 9,
+      "priceId": "dtao-6",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 6,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ζ.png"
+    },
+    "bittensor-LOCAL-י": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-י",
+      "name": "Bitmind",
+      "symbol": "י",
+      "decimals": 9,
+      "priceId": "dtao-34",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 34,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-י.png"
+    },
+    "bittensor-LOCAL-ה": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ה",
+      "name": "Coldint",
+      "symbol": "ה",
+      "decimals": 9,
+      "priceId": "dtao-29",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 29,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ה.png"
+    },
+    "bittensor-LOCAL-ף": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ף",
+      "name": "Score",
+      "symbol": "ף",
+      "decimals": 9,
+      "priceId": "dtao-44",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 44,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ף.png"
+    },
+    "bittensor-LOCAL-ث": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ث",
+      "name": "Precog",
+      "symbol": "ث",
+      "decimals": 9,
+      "priceId": "dtao-55",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 55,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ث.png"
+    },
+    "bittensor-LOCAL-φ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-φ",
+      "name": "Omega any-to-any",
+      "symbol": "φ",
+      "decimals": 9,
+      "priceId": "dtao-21",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 21,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-φ.png"
+    },
+    "bittensor-LOCAL-צ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-צ",
+      "name": "Condenses.ai",
+      "symbol": "צ",
+      "decimals": 9,
+      "priceId": "dtao-47",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 47,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-צ.png"
+    },
+    "bittensor-LOCAL-ל": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ל",
+      "name": "Finetuning",
+      "symbol": "ל",
+      "decimals": 9,
+      "priceId": "dtao-37",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 37,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ל.png"
+    },
+    "bittensor-LOCAL-ץ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ץ",
+      "name": "Neural3d",
+      "symbol": "ץ",
+      "decimals": 9,
+      "priceId": "dtao-46",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 46,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ץ.png"
+    },
+    "bittensor-LOCAL-σ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-σ",
+      "name": "Zeus",
+      "symbol": "σ",
+      "decimals": 9,
+      "priceId": "dtao-18",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 18,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-σ.png"
+    },
+    "bittensor-LOCAL-م": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-م",
+      "name": "Hippius",
+      "symbol": "م",
+      "decimals": 9,
+      "priceId": "dtao-75",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 75,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-م.png"
+    },
+    "bittensor-LOCAL-ي": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ي",
+      "name": "Τaos",
+      "symbol": "ي",
+      "decimals": 9,
+      "priceId": "dtao-79",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 79,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي.png"
+    },
+    "bittensor-LOCAL-ى": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ى",
+      "name": "Ai factory",
+      "symbol": "ى",
+      "decimals": 9,
+      "priceId": "dtao-80",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 80,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ى.png"
+    },
+    "bittensor-LOCAL-ع": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ع",
+      "name": "Ain",
+      "symbol": "ع",
+      "decimals": 9,
+      "priceId": "dtao-69",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 69,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ع.png"
+    },
+    "bittensor-LOCAL-د": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-د",
+      "name": "Agent arena by masa",
+      "symbol": "د",
+      "decimals": 9,
+      "priceId": "dtao-59",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 59,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-د.png"
+    },
+    "bittensor-LOCAL-ش": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ش",
+      "name": "Chutes",
+      "symbol": "ش",
+      "decimals": 9,
+      "priceId": "dtao-64",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 64,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ش.png"
+    },
+    "bittensor-LOCAL-ز": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ز",
+      "name": "Agentao",
+      "symbol": "ز",
+      "decimals": 9,
+      "priceId": "dtao-62",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 62,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ز.png"
+    },
+    "bittensor-LOCAL-و": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-و",
+      "name": "Waw",
+      "symbol": "و",
+      "decimals": 9,
+      "priceId": "dtao-78",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 78,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-و.png"
+    },
+    "bittensor-LOCAL-ذ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ذ",
+      "name": "Bitsec.ai",
+      "symbol": "ذ",
+      "decimals": 9,
+      "priceId": "dtao-60",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 60,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ذ.png"
+    },
+    "bittensor-LOCAL-ه": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ه",
+      "name": "Reserved",
+      "symbol": "ه",
+      "decimals": 9,
+      "priceId": "dtao-77",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 77,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ه.png"
+    },
+    "bittensor-LOCAL-ض": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ض",
+      "name": "Fakenews",
+      "symbol": "ض",
+      "decimals": 9,
+      "priceId": "dtao-66",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 66,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ض.png"
+    },
+    "bittensor-LOCAL-س": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-س",
+      "name": "Lean-in",
+      "symbol": "س",
+      "decimals": 9,
+      "priceId": "dtao-63",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 63,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-س.png"
+    },
+    "bittensor-LOCAL-ف": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ف",
+      "name": "Fa",
+      "symbol": "ف",
+      "decimals": 9,
+      "priceId": "dtao-71",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 71,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ف.png"
+    },
+    "bittensor-LOCAL-ر": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ر",
+      "name": "Redteam",
+      "symbol": "ر",
+      "decimals": 9,
+      "priceId": "dtao-61",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 61,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ر.png"
+    },
+    "bittensor-LOCAL-غ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-غ",
+      "name": "Vericore",
+      "symbol": "غ",
+      "decimals": 9,
+      "priceId": "dtao-70",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 70,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-غ.png"
+    },
+    "bittensor-LOCAL-ص": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ص",
+      "name": "Tensor private network (tpn)",
+      "symbol": "ص",
+      "decimals": 9,
+      "priceId": "dtao-65",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 65,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ص.png"
+    },
+    "bittensor-LOCAL-ك": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ك",
+      "name": "F(x)integral",
+      "symbol": "ك",
+      "decimals": 9,
+      "priceId": "dtao-73",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 73,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ك.png"
+    },
+    "bittensor-LOCAL-ن": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ن",
+      "name": "Safe scan",
+      "symbol": "ن",
+      "decimals": 9,
+      "priceId": "dtao-76",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 76,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ن.png"
+    },
+    "bittensor-LOCAL-ط": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ط",
+      "name": "Ta",
+      "symbol": "ط",
+      "decimals": 9,
+      "priceId": "dtao-67",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 67,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ط.png"
+    },
+    "bittensor-LOCAL-ق": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ق",
+      "name": "Qaf",
+      "symbol": "ق",
+      "decimals": 9,
+      "priceId": "dtao-72",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 72,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ق.png"
+    },
+    "bittensor-LOCAL-ل": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ل",
+      "name": "Lam",
+      "symbol": "ل",
+      "decimals": 9,
+      "priceId": "dtao-74",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 74,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ل.png"
+    },
+    "bittensor-LOCAL-ظ": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ظ",
+      "name": "Nova",
+      "symbol": "ظ",
+      "decimals": 9,
+      "priceId": "dtao-68",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 68,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ظ.png"
+    },
+    "bittensor-LOCAL-ي-81": {
+      "originChain": "bittensor",
+      "slug": "bittensor-LOCAL-ي-81",
+      "name": "Patrol (tao.com)",
+      "symbol": "ي",
+      "decimals": 9,
+      "priceId": "dtao-81",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "netuid": 81,
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "bittensor-LOCAL-α": "d7b192e727c8e5abb8e75e63936b0c3f",
+    "bittensor-LOCAL-γ": "f9932990c19dbc6ec249d7cead3efe6b",
+    "bittensor-LOCAL-β": "5b666d68743a0aa859bce66365af854d",
+    "bittensor-LOCAL-ε": "6adc719f7e57f30b61d6a44f1592cbde",
+    "bittensor-LOCAL-δ": "459561412a52abf955c67db78ce0cc17",
+    "bittensor-LOCAL-ο": "3d8e3bc497e50ef84659d92e8753c88a",
+    "bittensor-LOCAL-ק": "263e35e2e289a18e7feed797e75aff7b",
+    "bittensor-LOCAL-η": "c6ee3b03f70f83cdf318a7249c788ca2",
+    "bittensor-LOCAL-μ": "6ffdd49041c7fc5a005a5c6fa17c1156",
+    "bittensor-LOCAL-κ": "2ce5d1e87b7c978229590960aa21bdf1",
+    "bittensor-LOCAL-ν": "31b6ff90d40547f2cda79aacd264a325",
+    "bittensor-LOCAL-ω": "a3b3cdebc87dc404bc702dcbad5b2a18",
+    "bittensor-LOCAL-χ": "9836bdd7648a0686893ec6bf4de22d7b",
+    "bittensor-LOCAL-π": "df6d278bf9372432ebdeb5d57199aeb0",
+    "bittensor-LOCAL-ח": "8793c7fad916eb5c34cd7a6da88ce666",
+    "bittensor-LOCAL-ι": "8698eca2dad017c56cad8ee2b6c30690",
+    "bittensor-LOCAL-ט": "f287e5775fac50744610759efb6851b8",
+    "bittensor-LOCAL-λ": "8678a89f4d2cbd1cf3a10f8a8fc7f523",
+    "bittensor-LOCAL-ך": "50e3b0fad049fe47e2f461833853e4fe",
+    "bittensor-LOCAL-ע": "b423a76677df398b67e40acea61cb481",
+    "bittensor-LOCAL-מ": "8f75436746175f7a504c20cdd67cd07e",
+    "bittensor-LOCAL-θ": "98c570185b4d1f6ee4e6c1e7068248a5",
+    "bittensor-LOCAL-ρ": "5c0ede8f3133c276f40310d1b51c1507",
+    "bittensor-LOCAL-ו": "7c4c5047d9a1ff866e1b8a7f13bfb354",
+    "bittensor-LOCAL-ת": "90de24c4d76c82e3c9258932d6b1e7bd",
+    "bittensor-LOCAL-ب": "282dfbddf26c80efae9938f99432c157",
+    "bittensor-LOCAL-ן": "02bb39c192f03143ac0c6f42ef3aadfb",
+    "bittensor-LOCAL-ج": "ce1ed2380913a2fb0e9284bfcf53f912",
+    "bittensor-LOCAL-ψ": "31c13e994fce385850a2a98389fecd2d",
+    "bittensor-LOCAL-פ": "7bd22b7f80ce3dbe35ffce370260f1f7",
+    "bittensor-LOCAL-ξ": "558a3cf62e5aa4fb6a1893b2cefbe822",
+    "bittensor-LOCAL-خ": "feb52c6a38db0ae07efaf79ac78d3755",
+    "bittensor-LOCAL-ד": "1353b1922decc0c002912b10d506b419",
+    "bittensor-LOCAL-υ": "0026e04db692f641442aa353bd8e0910",
+    "bittensor-LOCAL-ב": "7d2357bae3c11144608c011a571619df",
+    "bittensor-LOCAL-ت": "5e3a0311cf6e03944d9e5bd36181f342",
+    "bittensor-LOCAL-ح": "e5d2337114480fb1ecf9b63fc7df7ad2",
+    "bittensor-LOCAL-ם": "e2c300486215cf79c7f19ea338fd9c06",
+    "bittensor-LOCAL-ס": "de7d50b910ce9b1f4fbe868e5f16daa1",
+    "bittensor-LOCAL-ר": "c61c7aadb61dce31df1b49fdb0132c3a",
+    "bittensor-LOCAL-נ": "2ae79e0f5f3d913ca721c5b89de61a6f",
+    "bittensor-LOCAL-ש": "6e1dc907a36b6118f8e3760aa5d2a60e",
+    "bittensor-LOCAL-א": "a3cccee4ecf9d4f5ec96d01c401ec7ff",
+    "bittensor-LOCAL-t": "269ceeb245fde188e290841f18200446",
+    "bittensor-LOCAL-ا": "938973d88ef37195080c39e76675630c",
+    "bittensor-LOCAL-כ": "250a72716f6734585f602ee6bf0fa30c",
+    "bittensor-LOCAL-ג": "de479f761a62323d97e0a44e30416df2",
+    "bittensor-LOCAL-ז": "a72921be226cc2dfac5b7f2f7304839f",
+    "bittensor-LOCAL-ζ": "dac99589b1b9d12bf2d08233f44f5a68",
+    "bittensor-LOCAL-י": "667b58319e6b148eb9ab232af7358ecf",
+    "bittensor-LOCAL-ה": "18b369a912dbd1da89b8c859978ce640",
+    "bittensor-LOCAL-ף": "770bdfe52b77a36240959120df6f5828",
+    "bittensor-LOCAL-ث": "9dc8e58c1e98e94b951c2a49d2168d3c",
+    "bittensor-LOCAL-φ": "25e0ea139ef8e0b4a0319ae5f3fadf04",
+    "bittensor-LOCAL-צ": "ad321be6f90defaffc85a875b93aad5b",
+    "bittensor-LOCAL-ל": "88cf8a1899851ff89e2971db051d530f",
+    "bittensor-LOCAL-ץ": "45823e77c2b1512af58edad6994f5f17",
+    "bittensor-LOCAL-σ": "8d96d80d3bf23bb6f05786442cd12529",
+    "bittensor-LOCAL-م": "042cf2f04e2cebef2c65fe1ea7bfe2f5",
+    "bittensor-LOCAL-ي": "65843800ddd809cbecb7159accdc7a99",
+    "bittensor-LOCAL-ى": "dc9ce25104ae1d36c48a7f5eddd0a441",
+    "bittensor-LOCAL-ع": "f425c3b770513d51a66a3621a3f4899d",
+    "bittensor-LOCAL-د": "80b48524317fb481a0f0c9dd83a00684",
+    "bittensor-LOCAL-ش": "a6516656ea462387d9b498224c025794",
+    "bittensor-LOCAL-ز": "187c77d4a3f0a775f33cb8895c82082d",
+    "bittensor-LOCAL-و": "3c4f2cefb5d62c7f17be770db873b2b6",
+    "bittensor-LOCAL-ذ": "909604383d683582239cdc97ed7d784b",
+    "bittensor-LOCAL-ه": "5bd948739c7d31d954eba915b902c9b5",
+    "bittensor-LOCAL-ض": "e1e051d636fbefae6e284558caa5d030",
+    "bittensor-LOCAL-س": "e826e489e04f1b4a16643e16e68a401b",
+    "bittensor-LOCAL-ف": "60463cee7184f3f777c3e0b45b521ec0",
+    "bittensor-LOCAL-ر": "e3414483d0760afc1f8dc3149b96366c",
+    "bittensor-LOCAL-غ": "95e6317d7db48684acca73097050af7a",
+    "bittensor-LOCAL-ص": "9d546fc71b105572127824e1943e8b31",
+    "bittensor-LOCAL-ك": "d8e6dd9a6a33aa8cc7d676f4d027eab8",
+    "bittensor-LOCAL-ن": "590707d5e130df7700b9ec103cf575e8",
+    "bittensor-LOCAL-ط": "a89df202edf7865667540f047ee455d6",
+    "bittensor-LOCAL-ق": "f583f001bee839943affa6c721e0d802",
+    "bittensor-LOCAL-ل": "250a9c2a8d636c009f87e25252880485",
+    "bittensor-LOCAL-ظ": "0a2bf563819fe9922e141fb402ca87e3",
+    "bittensor-LOCAL-ي-81": "f248b57ff8c7a91477890aa3813f2a7b"
+  },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
-  "AssetLogoMap": {},
+  "AssetLogoMap": {
+    "bittensor-local-α": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-α.png",
+    "bittensor-local-γ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-γ.png",
+    "bittensor-local-β": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-β.png",
+    "bittensor-local-ε": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ε.png",
+    "bittensor-local-δ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-δ.png",
+    "bittensor-local-ο": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ο.png",
+    "bittensor-local-ק": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ק.png",
+    "bittensor-local-η": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-η.png",
+    "bittensor-local-μ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-μ.png",
+    "bittensor-local-κ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-κ.png",
+    "bittensor-local-ν": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ν.png",
+    "bittensor-local-ω": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ω.png",
+    "bittensor-local-χ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-χ.png",
+    "bittensor-local-π": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-π.png",
+    "bittensor-local-ח": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ח.png",
+    "bittensor-local-ι": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ι.png",
+    "bittensor-local-ט": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ט.png",
+    "bittensor-local-λ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-λ.png",
+    "bittensor-local-ך": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ך.png",
+    "bittensor-local-ע": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ע.png",
+    "bittensor-local-מ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-מ.png",
+    "bittensor-local-θ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-θ.png",
+    "bittensor-local-ρ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ρ.png",
+    "bittensor-local-ו": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ו.png",
+    "bittensor-local-ת": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ת.png",
+    "bittensor-local-ب": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ب.png",
+    "bittensor-local-ן": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ן.png",
+    "bittensor-local-ج": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ج.png",
+    "bittensor-local-ψ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ψ.png",
+    "bittensor-local-פ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-פ.png",
+    "bittensor-local-ξ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ξ.png",
+    "bittensor-local-خ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-خ.png",
+    "bittensor-local-ד": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ד.png",
+    "bittensor-local-υ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-υ.png",
+    "bittensor-local-ב": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ב.png",
+    "bittensor-local-ت": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ت.png",
+    "bittensor-local-ح": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ح.png",
+    "bittensor-local-ם": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ם.png",
+    "bittensor-local-ס": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ס.png",
+    "bittensor-local-ר": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ר.png",
+    "bittensor-local-נ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-נ.png",
+    "bittensor-local-ש": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ש.png",
+    "bittensor-local-א": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-א.png",
+    "bittensor-local-t": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-t.png",
+    "bittensor-local-ا": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ا.png",
+    "bittensor-local-כ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-כ.png",
+    "bittensor-local-ג": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ג.png",
+    "bittensor-local-ז": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ז.png",
+    "bittensor-local-ζ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ζ.png",
+    "bittensor-local-י": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-י.png",
+    "bittensor-local-ה": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ה.png",
+    "bittensor-local-ף": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ף.png",
+    "bittensor-local-ث": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ث.png",
+    "bittensor-local-φ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-φ.png",
+    "bittensor-local-צ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-צ.png",
+    "bittensor-local-ל": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ל.png",
+    "bittensor-local-ץ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ץ.png",
+    "bittensor-local-σ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-σ.png",
+    "bittensor-local-م": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-م.png",
+    "bittensor-local-ي": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي.png",
+    "bittensor-local-ى": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ى.png",
+    "bittensor-local-ع": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ع.png",
+    "bittensor-local-د": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-د.png",
+    "bittensor-local-ش": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ش.png",
+    "bittensor-local-ز": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ز.png",
+    "bittensor-local-و": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-و.png",
+    "bittensor-local-ذ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ذ.png",
+    "bittensor-local-ه": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ه.png",
+    "bittensor-local-ض": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ض.png",
+    "bittensor-local-س": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-س.png",
+    "bittensor-local-ف": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ف.png",
+    "bittensor-local-ر": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ر.png",
+    "bittensor-local-غ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-غ.png",
+    "bittensor-local-ص": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ص.png",
+    "bittensor-local-ك": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ك.png",
+    "bittensor-local-ن": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ن.png",
+    "bittensor-local-ط": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ط.png",
+    "bittensor-local-ق": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ق.png",
+    "bittensor-local-ل": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ل.png",
+    "bittensor-local-ظ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ظ.png",
+    "bittensor-local-ي-81": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png"
+  },
   "ChainLogoMap": {
     "astarZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png"
   },
