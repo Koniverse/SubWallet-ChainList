@@ -2603,6 +2603,13 @@
     "destChain": "polygon_amoy",
     "path": "XCM"
   },
+  "sepolia_ethereum-NATIVE-ETH___base_sepolia-NATIVE-ETH": {
+    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
+    "destAsset": "base_sepolia-NATIVE-ETH",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "base_sepolia",
+    "path": "XCM"
+  },
   "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238___chainflip_dot-NATIVE-pDOT": {
     "srcAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "destAsset": "chainflip_dot-NATIVE-pDOT",
@@ -3786,6 +3793,13 @@
     "destChain": "rococo_assethub",
     "path": "XCM"
   },
+  "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14___base_sepolia-NATIVE-ETH": {
+   "srcAsset": "sepolia_ethereum-ERC20-WETH-0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+   "destAsset": "base_sepolia-NATIVE-ETH",
+   "srcChain": "sepolia_ethereum",
+   "destChain": "base_sepolia",
+   "path": "XCM"
+ },
   "rococo_assethub-LOCAL-USDt___rococo_assethub-NATIVE-ROC": {
     "srcAsset": "rococo_assethub-LOCAL-USDt",
     "destAsset": "rococo_assethub-NATIVE-ROC",
@@ -4591,6 +4605,13 @@
     "destChain": "sepolia_ethereum",
     "path": "SWAP"
   },
+  "base_sepolia-NATIVE-ETH___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "base_sepolia-NATIVE-ETH",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "base_sepolia",
+    "destChain": "arbitrum_sepolia",
+    "path": "XCM"
+  },
   "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -4780,6 +4801,13 @@
     "destChain": "chainflip_dot",
     "path": "SWAP"
   },
+  "arbitrum_sepolia-NATIVE-ETH___base_sepolia-NATIVE-ETH": {
+    "srcAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "destAsset": "base_sepolia-NATIVE-ETH",
+    "srcChain": "arbitrum_sepolia",
+    "destChain": "base_sepolia",
+    "path": "XCM"
+  },
   "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -4807,6 +4835,20 @@
     "srcChain": "arbitrum_sepolia",
     "destChain": "chainflip_dot",
     "path": "SWAP"
+  },
+  "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006___sepolia_ethereum-NATIVE-ETH": {
+    "srcAsset": "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "destAsset": "sepolia_ethereum-NATIVE-ETH",
+    "srcChain": "base_sepolia",
+    "destChain": "sepolia_ethereum",
+    "path": "XCM"
+  },
+  "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006___arbitrum_sepolia-NATIVE-ETH": {
+    "srcAsset": "base_sepolia-ERC20-WETH-0x4200000000000000000000000000000000000006",
+    "destAsset": "arbitrum_sepolia-NATIVE-ETH",
+    "srcChain": "base_sepolia",
+    "destChain": "arbitrum_sepolia",
+    "path": "XCM"
   },
   "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A___ethereum-NATIVE-ETH": {
     "srcAsset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A",
