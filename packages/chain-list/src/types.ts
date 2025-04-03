@@ -78,7 +78,8 @@ export interface _ChainAsset {
     canPayTxFee?: boolean,
     runeId?: string,
     cardanoId?: string,
-    psSymbol?: string,
+    paraSpellAssetType?: string,
+    paraSpellValue?: string,
 
     alternativeSwapAsset?: string,
     disableEvmTransfer?: boolean,
