@@ -36,7 +36,11 @@ async function allParaSpellChains () {
   return await response.json();
 }
 
-// console.log('Has PS Symbol', findAssetByGroup("KSM-Kusama", true))
-// console.log('Not Has PS Symbol', findAssetByGroup("KSM-Kusama", false))
+// console.log('Has PS Symbol', findAssetByGroup('ACA-Acala', true))
+// console.log('Not Has PS Symbol', findAssetByGroup('ACA-Acala', false))
 // console.log('All Assets XCM', findAllXcmAsset())
 console.log('All Groups XCM', findAllGroupHasXcm())
+
+for (const group of findAllGroupHasXcm()) {
+  console.log('Not Has PS Symbol', findAssetByGroup(group, false))
+}
