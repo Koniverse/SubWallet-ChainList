@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.4",
+  "patchVersion": "0.2.103-beta.7",
   "appliedVersion": "0.2.102",
-  "timestamp": 1743588525838,
+  "timestamp": 1744087367002,
   "ChainInfo": {
     "astarZkEvm": {
       "slug": "astarZkEvm",
@@ -29,12 +29,348 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "sonic": {
+      "slug": "sonic",
+      "name": "Sonic",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
+      "providers": {
+        "SonicLab": "https://rpc.soniclabs.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 146,
+        "blockExplorer": "https://sonicscan.org/",
+        "existentialDeposit": "0",
+        "symbol": "S",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "peaq_evm": {
+      "slug": "peaq_evm",
+      "name": "peaq EVM",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
+      "providers": {
+        "Onfinality": "https://peaq.api.onfinality.io/public",
+        "Peaq": "https://evm.peaq.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 3338,
+        "blockExplorer": "https://peaq.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "PEAQ",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "polkadot_coretime": {
+      "slug": "polkadot_coretime",
+      "name": "Polkadot Coretime",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
+      "providers": {
+        "IBP1": "wss://sys.ibp.network/coretime-polkadot",
+        "IBP2": "wss://coretime-polkadot.dotters.network",
+        "LuckyFriday": "wss://rpc-coretime-polkadot.luckyfriday.io",
+        "Parity": "wss://polkadot-coretime-rpc.polkadot.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 1005,
+        "genesisHash": "0xefb56e30d9b4a24099f88820987d0f45fb645992416535d87650d98e00f46fc4",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://coretime-polkadot.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "DOT",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "kusama_coretime": {
+      "slug": "kusama_coretime",
+      "name": "Kusama Coretime",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png",
+      "providers": {
+        "IBP1": "wss://sys.ibp.network/coretime-kusama",
+        "IBP2": "wss://coretime-kusama.dotters.network",
+        "Dwellir": "wss://coretime-kusama-rpc.dwellir.com",
+        "LuckyFriday": "wss://rpc-coretime-kusama.luckyfriday.io",
+        "Parity": "wss://kusama-coretime-rpc.polkadot.io",
+        "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 1005,
+        "genesisHash": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
+        "addressPrefix": 2,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://coretime-kusama.subscan.io/",
+        "existentialDeposit": "33333333",
+        "symbol": "KSM",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa"
+    "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa",
+    "sonic": "7d57fe19532178917e12ec84fa167ef4",
+    "peaq_evm": "3f877c49a73b79810e15baba061a6dea",
+    "polkadot_coretime": "0cadb98a1055d1028cd9975315e7bceb",
+    "kusama_coretime": "7a57d9cf924fc040c0083785324d33df"
   },
   "ChainAsset": {
+    "darwinia2-LOCAL-KTON": {
+      "originChain": "darwinia2",
+      "slug": "darwinia2-LOCAL-KTON",
+      "name": "Darwinia Commitment Token",
+      "symbol": "KTON",
+      "decimals": 18,
+      "priceId": "darwinia-commitment-token",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1026"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-kton.png"
+    },
+    "origintrail-NATIVE-NEURO": {
+      "originChain": "origintrail",
+      "slug": "origintrail-NATIVE-NEURO",
+      "name": "OriginTrail",
+      "symbol": "NEURO",
+      "decimals": 12,
+      "priceId": "neurowebai",
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-neuro.png"
+    },
+    "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F",
+      "name": "Cougar",
+      "symbol": "CGS",
+      "decimals": 18,
+      "priceId": "cougar-token",
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png"
+    },
+    "shiden-LOCAL-LKSM": {
+      "originChain": "shiden",
+      "slug": "shiden-LOCAL-LKSM",
+      "name": "Liquid KSM",
+      "symbol": "LKSM",
+      "decimals": 12,
+      "priceId": "liquid-ksm",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "18446744073709551619",
+        "assetType": "ForeignAsset"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-lksm.png"
+    },
+    "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4",
+      "name": "Stella stDOT",
+      "symbol": "stDOT",
+      "decimals": 10,
+      "priceId": "stellaswap-staked-dot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png"
+    },
+    "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": {
+      "originChain": "humanodeEvm",
+      "slug": "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802",
+      "name": "Wrapped Humanode",
+      "symbol": "WeHMND",
+      "decimals": 18,
+      "priceId": "wrapped-ehmnd",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0000000000000000000000000000000000000802"
+      },
+      "multiChainAsset": "HMND-Humanode",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
+    },
+    "dbcchain-LOCAL-DLC": {
+      "originChain": "dbcchain",
+      "slug": "dbcchain-LOCAL-DLC",
+      "name": "DeepLink Coin",
+      "symbol": "DLC",
+      "decimals": 8,
+      "priceId": "deeplink-protocol",
+      "minAmount": "100000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "88"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-local-dlc.png"
+    },
+    "curio-NATIVE-CGT": {
+      "originChain": "curio",
+      "slug": "curio-NATIVE-CGT",
+      "name": "Curio Governance Token",
+      "symbol": "CGT",
+      "decimals": 18,
+      "priceId": "curio-gas-token",
+      "minAmount": "10000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/curio-native-cgt.png"
+    },
+    "statemint-LOCAL-NCTR": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-NCTR",
+      "name": "Apillon",
+      "symbol": "NCTR",
+      "decimals": 18,
+      "priceId": "apillon",
+      "minAmount": "100000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1024"
+      },
+      "multiChainAsset": "NCTR-Apillon",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-nctr.png"
+    },
+    "moonbeam-LOCAL-xcNCTR": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-LOCAL-xcNCTR",
+      "name": "Apillon",
+      "symbol": "xcNCTR",
+      "decimals": 18,
+      "priceId": "apillon",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "184218609779515850660274730699350567246",
+        "assetType": "ForeignAsset",
+        "contractAddress": "0xFfFFfFfF8A9736B44EbF188972725bED67BF694E"
+      },
+      "multiChainAsset": "NCTR-Apillon",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcnctr.png"
+    },
+    "sonic-NATIVE-S": {
+      "originChain": "sonic",
+      "slug": "sonic-NATIVE-S",
+      "name": "Sonic",
+      "symbol": "S",
+      "decimals": 18,
+      "priceId": "sonic-3",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sonic-native-s.png"
+    },
+    "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441",
+      "name": "Anzens USDA Stablecoin",
+      "symbol": "USDA",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
+    },
+    "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e",
+      "name": "Minswap",
+      "symbol": "MIN",
+      "decimals": 6,
+      "priceId": "minswap",
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
+    },
     "bittensor-LOCAL-α": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-α",
@@ -1411,9 +1747,96 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png"
+    },
+    "peaq_evm-NATIVE-PEAQ": {
+      "originChain": "peaq_evm",
+      "slug": "peaq_evm-NATIVE-PEAQ",
+      "name": "PEAQ",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "priceId": "peaq-2",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-native-peaq.png"
+    },
+    "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0",
+      "name": "Tensorplex Wrapped TAO",
+      "symbol": "tTAO",
+      "decimals": 9,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png"
+    },
+    "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6",
+      "name": "Tensorplex Staked TAO",
+      "symbol": "stTAO",
+      "decimals": 9,
+      "priceId": "tensorplex-staked-tao",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xB60acD2057067DC9ed8c083f5aa227a244044fD6"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png"
+    },
+    "polkadot_coretime-NATIVE-DOT": {
+      "originChain": "polkadot_coretime",
+      "slug": "polkadot_coretime-NATIVE-DOT",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_coretime-native-dot.png"
+    },
+    "kusama_coretime-NATIVE-KSM": {
+      "originChain": "kusama_coretime",
+      "slug": "kusama_coretime-NATIVE-KSM",
+      "name": "Kusama",
+      "symbol": "KSM",
+      "decimals": 12,
+      "priceId": "kusama",
+      "minAmount": "33333333",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
     }
   },
   "ChainAssetHashMap": {
+    "darwinia2-LOCAL-KTON": "14dac6e3aa10b352c1fd377a509309c3",
+    "origintrail-NATIVE-NEURO": "a03f531092fb0c0881e0dd06c5052249",
+    "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": "03b6eb9fdb5b71b9d3ea49c01a1194d0",
+    "shiden-LOCAL-LKSM": "aac5243115b9118b08c0843ca2f33151",
+    "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": "ef0ce3cda458d909676a5bbf35cbf66a",
+    "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": "3cfd5c7a689aaa7fc78ae4cc963b26e2",
+    "dbcchain-LOCAL-DLC": "9309ba64ca6969a9dfad9c96e5188b98",
+    "curio-NATIVE-CGT": "34f7d20970e3d21507bf746c21d9530c",
+    "statemint-LOCAL-NCTR": "5231dc92e519e4af4d0fe678b15f67e9",
+    "moonbeam-LOCAL-xcNCTR": "5105d12fae04f551350a5eed4952a52c",
+    "sonic-NATIVE-S": "839f21d2ac13494c3a6b915707600a7d",
+    "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "80abc9a31313ec6fe62611680f161e14",
+    "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "825a546ebe0865283c8c912dd52a0a60",
     "bittensor-LOCAL-α": "d7b192e727c8e5abb8e75e63936b0c3f",
     "bittensor-LOCAL-γ": "f9932990c19dbc6ec249d7cead3efe6b",
     "bittensor-LOCAL-β": "5b666d68743a0aa859bce66365af854d",
@@ -1494,11 +1917,29 @@
     "bittensor-LOCAL-ق": "f583f001bee839943affa6c721e0d802",
     "bittensor-LOCAL-ل": "250a9c2a8d636c009f87e25252880485",
     "bittensor-LOCAL-ظ": "0a2bf563819fe9922e141fb402ca87e3",
-    "bittensor-LOCAL-ي-81": "f248b57ff8c7a91477890aa3813f2a7b"
+    "bittensor-LOCAL-ي-81": "f248b57ff8c7a91477890aa3813f2a7b",
+    "peaq_evm-NATIVE-PEAQ": "05600197b0040686615f81793be3dc39",
+    "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": "a764e26f024a1235a36019cbf07a527c",
+    "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": "55b2d4e776305317815cfcd9e32548bb",
+    "polkadot_coretime-NATIVE-DOT": "b31b889e86f553a1cd5aa2fa7643029e",
+    "kusama_coretime-NATIVE-KSM": "dc03ad7161d5d64b2fb9855811654c8e"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "darwinia2-local-kton": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-kton.png",
+    "origintrail-native-neuro": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-neuro.png",
+    "moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png",
+    "shiden-local-lksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-lksm.png",
+    "moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png",
+    "humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png",
+    "dbcchain-local-dlc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-local-dlc.png",
+    "curio-native-cgt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/curio-native-cgt.png",
+    "statemint-local-nctr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-nctr.png",
+    "moonbeam-local-xcnctr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcnctr.png",
+    "sonic-native-s": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sonic-native-s.png",
+    "cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png",
+    "cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png",
     "bittensor-local-α": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-α.png",
     "bittensor-local-γ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-γ.png",
     "bittensor-local-β": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-β.png",
@@ -1579,10 +2020,19 @@
     "bittensor-local-ق": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ق.png",
     "bittensor-local-ل": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ل.png",
     "bittensor-local-ظ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ظ.png",
-    "bittensor-local-ي-81": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png"
+    "bittensor-local-ي-81": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png",
+    "peaq_evm-native-peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-native-peaq.png",
+    "ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png",
+    "ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png",
+    "polkadot_coretime-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_coretime-native-dot.png",
+    "kusama_coretime-native-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
   },
   "ChainLogoMap": {
-    "astarZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png"
+    "astarZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
+    "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
+    "peaq_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
+    "polkadot_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
+    "kusama_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png"
   },
   "mAssetLogoMap": {}
 }
