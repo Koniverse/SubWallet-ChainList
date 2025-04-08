@@ -84,7 +84,8 @@ export interface _ChainAsset {
     alternativeSwapAsset?: string,
     disableEvmTransfer?: boolean,
     isDisableTransfer?: boolean,
-    autoEnable?: boolean
+    autoEnable?: boolean,
+    isSufficient?: boolean
   },
   multiChainAsset: string | null,
   hasValue: boolean,
