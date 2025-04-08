@@ -11633,6 +11633,33 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "sonic": {
+    "slug": "sonic",
+    "name": "Sonic",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
+    "providers": {
+      "SonicLab": "https://rpc.soniclabs.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 146,
+      "blockExplorer": "https://sonicscan.org/",
+      "existentialDeposit": "0",
+      "symbol": "S",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "story_protocol": {
     "slug": "story_protocol",
     "name": "Story Protocol",
@@ -11929,5 +11956,105 @@
       "decimals": 6,
       "symbol": "tADA"
     }
+  },
+  "peaq_evm": {
+    "slug": "peaq_evm",
+    "name": "peaq EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
+    "providers": {
+      "Onfinality": "https://peaq.api.onfinality.io/public",
+      "Peaq": "https://evm.peaq.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 3338,
+      "blockExplorer": "https://peaq.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "polkadot_coretime": {
+    "slug": "polkadot_coretime",
+    "name": "Polkadot Coretime",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
+    "providers": {
+      "IBP1": "wss://sys.ibp.network/coretime-polkadot",
+      "IBP2": "wss://coretime-polkadot.dotters.network",
+      "LuckyFriday": "wss://rpc-coretime-polkadot.luckyfriday.io",
+      "Parity": "wss://polkadot-coretime-rpc.polkadot.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 1005,
+      "genesisHash": "0xefb56e30d9b4a24099f88820987d0f45fb645992416535d87650d98e00f46fc4",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://coretime-polkadot.subscan.io/",
+      "existentialDeposit": "1000000000",
+      "symbol": "DOT",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "kusama_coretime": {
+    "slug": "kusama_coretime",
+    "name": "Kusama Coretime",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png",
+    "providers": {
+      "IBP1": "wss://sys.ibp.network/coretime-kusama",
+      "IBP2": "wss://coretime-kusama.dotters.network",
+      "Dwellir": "wss://coretime-kusama-rpc.dwellir.com",
+      "LuckyFriday": "wss://rpc-coretime-kusama.luckyfriday.io",
+      "Parity": "wss://kusama-coretime-rpc.polkadot.io",
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 1005,
+      "genesisHash": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
+      "addressPrefix": 2,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://coretime-kusama.subscan.io/",
+      "existentialDeposit": "33333333",
+      "symbol": "KSM",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }

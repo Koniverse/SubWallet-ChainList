@@ -1662,7 +1662,7 @@
     "name": "Darwinia Commitment Token",
     "symbol": "KTON",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "darwinia-commitment-token",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -2512,7 +2512,7 @@
     "name": "OriginTrail",
     "symbol": "NEURO",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "neurowebai",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -4138,7 +4138,7 @@
     "name": "Cougar",
     "symbol": "CGS",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "cougar-token",
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
@@ -4314,7 +4314,7 @@
     "name": "Liquid KSM",
     "symbol": "LKSM",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "liquid-ksm",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -7265,7 +7265,7 @@
     "name": "Stella stDOT",
     "symbol": "stDOT",
     "decimals": 10,
-    "priceId": null,
+    "priceId": "stellaswap-staked-dot",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -8909,7 +8909,7 @@
     "name": "Wrapped Humanode",
     "symbol": "WeHMND",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "wrapped-ehmnd",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -9062,7 +9062,7 @@
     "name": "DeepLink Coin",
     "symbol": "DLC",
     "decimals": 8,
-    "priceId": null,
+    "priceId": "deeplink-protocol",
     "minAmount": "100000",
     "assetType": "LOCAL",
     "metadata": {
@@ -9314,7 +9314,7 @@
     "name": "Curio Governance Token",
     "symbol": "CGT",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "curio-gas-token",
     "minAmount": "10000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -11827,7 +11827,7 @@
     "name": "Apillon",
     "symbol": "NCTR",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "apillon",
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -11843,7 +11843,7 @@
     "name": "Apillon",
     "symbol": "xcNCTR",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "apillon",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -13564,6 +13564,20 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/torus-native-torus.png"
   },
+  "sonic-NATIVE-S": {
+    "originChain": "sonic",
+    "slug": "sonic-NATIVE-S",
+    "name": "Sonic",
+    "symbol": "S",
+    "decimals": 18,
+    "priceId": "sonic-3",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sonic-native-s.png"
+  },
   "story_protocol-NATIVE-IP": {
     "originChain": "story_protocol",
     "slug": "story_protocol-NATIVE-IP",
@@ -14061,6 +14075,38 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
+  },
+  "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441",
+    "name": "Anzens USDA Stablecoin",
+    "symbol": "USDA",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
+  },
+  "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e",
+    "name": "Minswap",
+    "symbol": "MIN",
+    "decimals": 6,
+    "priceId": "minswap",
+    "minAmount": "0",
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
   },
   "polimec-LOCAL-USDT": {
     "originChain": "polimec",
@@ -15574,5 +15620,79 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png"
+  },
+  "peaq_evm-NATIVE-PEAQ": {
+    "originChain": "peaq_evm",
+    "slug": "peaq_evm-NATIVE-PEAQ",
+    "name": "PEAQ",
+    "symbol": "PEAQ",
+    "decimals": 18,
+    "priceId": "peaq-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-native-peaq.png"
+  },
+  "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0",
+    "name": "Tensorplex Wrapped TAO",
+    "symbol": "tTAO",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png"
+  },
+  "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6",
+    "name": "Tensorplex Staked TAO",
+    "symbol": "stTAO",
+    "decimals": 9,
+    "priceId": "tensorplex-staked-tao",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xB60acD2057067DC9ed8c083f5aa227a244044fD6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png"
+  },
+  "polkadot_coretime-NATIVE-DOT": {
+    "originChain": "polkadot_coretime",
+    "slug": "polkadot_coretime-NATIVE-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_coretime-native-dot.png"
+  },
+  "kusama_coretime-NATIVE-KSM": {
+    "originChain": "kusama_coretime",
+    "slug": "kusama_coretime-NATIVE-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "33333333",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
   }
 }
