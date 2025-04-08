@@ -1,8 +1,78 @@
 {
-  "patchVersion": "0.2.103-beta.7",
+  "patchVersion": "0.2.103-beta.10",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744087367002,
+  "timestamp": 1744107604572,
   "ChainInfo": {
+    "picasso": {
+      "slug": "picasso",
+      "name": "Picasso",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
+      "providers": {
+        "Composable": "wss://rpc.composablenodes.tech",
+        "Dwellir": "wss://picasso-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2104,
+        "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+        "addressPrefix": 49,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.composable.finance/",
+        "blockExplorer": "https://picasso.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "PICA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2270-100",
+            "paraId": 2270,
+            "status": "won",
+            "startTime": "2023-05-31T04:27:00.000Z",
+            "endTime": "2024-05-01T04:27:00.000Z",
+            "auctionIndex": 84,
+            "firstPeriod": 30,
+            "lastPeriod": 37
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2130-85",
+            "paraId": 2130,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 49,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2087-37",
+            "paraId": 2087,
+            "status": "won",
+            "startTime": "2021-12-01T04:27:00.000Z",
+            "endTime": "2022-11-02T04:27:00.000Z",
+            "auctionIndex": 12,
+            "firstPeriod": 17,
+            "lastPeriod": 24
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "picasso",
+        "chainBalanceSlug": "picasso"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "astarZkEvm": {
       "slug": "astarZkEvm",
       "name": "Astar zkEVM",
@@ -25,6 +95,40 @@
         "abiExplorer": "https://astar-zkevm.explorer.startale.com/"
       },
       "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hyperbridge": {
+      "slug": "hyperbridge",
+      "name": "Hyperbridge",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
+      "providers": {
+        "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network",
+        "IBP1": "wss://nexus.ibp.network",
+        "IBP2": "wss://nexus.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3367,
+        "genesisHash": "0x61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "BRIDGE",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -159,7 +263,9 @@
     }
   },
   "ChainInfoHashMap": {
+    "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
     "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa",
+    "hyperbridge": "20c65ab0680bdf7b498f0931943279e7",
     "sonic": "7d57fe19532178917e12ec84fa167ef4",
     "peaq_evm": "3f877c49a73b79810e15baba061a6dea",
     "polkadot_coretime": "0cadb98a1055d1028cd9975315e7bceb",
@@ -2028,7 +2134,9 @@
     "kusama_coretime-native-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
   },
   "ChainLogoMap": {
+    "picasso": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
     "astarZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
+    "hyperbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
     "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
     "peaq_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
     "polkadot_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
