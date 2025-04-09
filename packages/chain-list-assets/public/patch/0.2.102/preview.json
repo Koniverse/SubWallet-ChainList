@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.10",
+  "patchVersion": "0.2.103-beta.11",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744107604572,
+  "timestamp": 1744196034667,
   "ChainInfo": {
     "picasso": {
       "slug": "picasso",
@@ -219,7 +219,10 @@
         "crowdloanParaId": null,
         "crowdloanFunds": []
       },
-      "extraInfo": null,
+      "extraInfo": {
+        "subscanSlug": "coretime-polkadot",
+        "chainBalanceSlug": "polkadot_coretime"
+      },
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -256,7 +259,10 @@
         "crowdloanParaId": null,
         "crowdloanFunds": []
       },
-      "extraInfo": null,
+      "extraInfo": {
+        "subscanSlug": "coretime-kusama",
+        "chainBalanceSlug": "kusama_coretime"
+      },
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -268,8 +274,8 @@
     "hyperbridge": "20c65ab0680bdf7b498f0931943279e7",
     "sonic": "7d57fe19532178917e12ec84fa167ef4",
     "peaq_evm": "3f877c49a73b79810e15baba061a6dea",
-    "polkadot_coretime": "0cadb98a1055d1028cd9975315e7bceb",
-    "kusama_coretime": "7a57d9cf924fc040c0083785324d33df"
+    "polkadot_coretime": "4fc395ab5041ebff7ad28e0e6afc240f",
+    "kusama_coretime": "6e368298e1f5efae0a74d54110ee5a78"
   },
   "ChainAsset": {
     "darwinia2-LOCAL-KTON": {
@@ -363,7 +369,7 @@
       "metadata": {
         "contractAddress": "0x0000000000000000000000000000000000000802"
       },
-      "multiChainAsset": "HMND-Humanode",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
     },
@@ -1935,7 +1941,7 @@
     "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": "03b6eb9fdb5b71b9d3ea49c01a1194d0",
     "shiden-LOCAL-LKSM": "aac5243115b9118b08c0843ca2f33151",
     "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": "ef0ce3cda458d909676a5bbf35cbf66a",
-    "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": "3cfd5c7a689aaa7fc78ae4cc963b26e2",
+    "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": "16f595283dd478592c7405eb623a5576",
     "dbcchain-LOCAL-DLC": "9309ba64ca6969a9dfad9c96e5188b98",
     "curio-NATIVE-CGT": "34f7d20970e3d21507bf746c21d9530c",
     "statemint-LOCAL-NCTR": "5231dc92e519e4af4d0fe678b15f67e9",
