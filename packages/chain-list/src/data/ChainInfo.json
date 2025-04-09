@@ -12015,7 +12015,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null,
+    "extraInfo": {
+      "subscanSlug": "coretime-polkadot",
+      "chainBalanceSlug": "polkadot_coretime"
+    },
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
@@ -12052,7 +12055,10 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null,
+    "extraInfo": {
+      "subscanSlug": "coretime-kusama",
+      "chainBalanceSlug": "kusama_coretime"
+    },
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
