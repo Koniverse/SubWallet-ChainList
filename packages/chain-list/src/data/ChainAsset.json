@@ -10462,6 +10462,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "WETH",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10542,6 +10544,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "WBTC",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10578,6 +10582,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "SHIB",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10614,6 +10620,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "PEPE",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10666,6 +10674,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "TON",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10718,6 +10728,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "wstETH",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10754,6 +10766,8 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
+      "paraSpellAssetType": "symbol",
+      "paraSpellValue": "tBTC",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
