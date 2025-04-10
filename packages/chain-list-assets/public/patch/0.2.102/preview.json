@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.13",
+  "patchVersion": "0.2.103-beta.14",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744257286809,
+  "timestamp": 1744257860007,
   "ChainInfo": {
     "picasso": {
       "slug": "picasso",
@@ -261,7 +261,7 @@
       },
       "extraInfo": {
         "subscanSlug": "coretime-kusama",
-        "chainBalanceSlug": "kusama_coretime"
+        "chainBalanceSlug": "coretime-kusama"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -275,7 +275,7 @@
     "sonic": "7d57fe19532178917e12ec84fa167ef4",
     "peaq_evm": "3f877c49a73b79810e15baba061a6dea",
     "polkadot_coretime": "d54f61e15b65f3d0f05d9ee4f3e19f28",
-    "kusama_coretime": "6e368298e1f5efae0a74d54110ee5a78"
+    "kusama_coretime": "5663718dd0817e0b7e49404117afa485"
   },
   "ChainAsset": {
     "darwinia2-LOCAL-KTON": {
