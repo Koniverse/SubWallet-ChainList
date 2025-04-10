@@ -760,7 +760,7 @@
     "originChainAsset": null,
     "name": "Apillon",
     "symbol": "NCTR",
-    "priceId": null,
+    "priceId": "apillon",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/nctr-apillon.png"
   },
@@ -898,5 +898,14 @@
     "priceId": "coin-capsule",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/caps-ternoa.png"
+  },
+  "PEAQ-PEAQ": {
+    "slug": "PEAQ-PEAQ",
+    "originChainAsset": null,
+    "name": "PEAQ",
+    "symbol": "PEAQ",
+    "priceId": "peaq-2",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/peaq-peaq.png"
   }
 }

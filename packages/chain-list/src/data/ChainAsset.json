@@ -11012,7 +11012,7 @@
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "PEAQ-PEAQ",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq-native-peaq.png"
   },
@@ -14072,7 +14072,7 @@
     "metadata": {
       "contractAddress": "0x1EeF208926667594E5136e89D0e9DD6907959197"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "PEAQ-PEAQ",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
   },
@@ -15631,7 +15631,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "PEAQ-PEAQ",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-native-peaq.png"
   },
