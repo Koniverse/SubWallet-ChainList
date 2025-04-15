@@ -296,7 +296,8 @@
       "paraSpellValue": "DOT",
       "onChainInfo": {
         "Token": "DOT"
-      }
+      },
+      "isSufficient": true
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -336,7 +337,8 @@
       "paraSpellValue": "USDT",
       "onChainInfo": {
         "ForeignAsset": 12
-      }
+      },
+      "isSufficient": true
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -374,7 +376,8 @@
       "paraSpellValue": "ASTR",
       "onChainInfo": {
         "ForeignAsset": 2
-      }
+      },
+      "isSufficient": true
     },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
@@ -15756,5 +15759,131 @@
     "multiChainAsset": "WETH-WrappedEther",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/optimism-erc20-weth-0x4200000000000000000000000000000000000006.png"
+  },
+  "truth_network-NATIVE-TRUU": {
+    "originChain": "truth_network",
+    "slug": "truth_network-NATIVE-TRUU",
+    "name": "Truth",
+    "symbol": "TRUU",
+    "decimals": 10,
+    "priceId": "truth",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-native-truu.png"
+  },
+  "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2",
+    "name": "Truth",
+    "symbol": "TRUU",
+    "decimals": 10,
+    "priceId": "truth",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png"
+  },
+  "truth_network-LOCAL-USDC": {
+    "originChain": "truth_network",
+    "slug": "truth_network-LOCAL-USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 0
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
+  },
+  "tassi_demo-NATIVE-TANGO": {
+    "originChain": "tassi_demo",
+    "slug": "tassi_demo-NATIVE-TANGO",
+    "name": "Tanssi Demo",
+    "symbol": "TANGO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tassi_demo-native-tango.png"
+  },
+  "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E",
+    "name": "GASP",
+    "symbol": "GASP",
+    "decimals": 18,
+    "priceId": "gasp-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png"
+  },
+  "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+    "name": "Heima",
+    "symbol": "HEI",
+    "decimals": 18,
+    "priceId": "heima",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xF8F173E20e15f3b6CB686FB64724D370689De083"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+  },
+  "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+    "originChain": "binance",
+    "slug": "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+    "name": "Heima",
+    "symbol": "HEI",
+    "decimals": 18,
+    "priceId": "heima",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xF8F173E20e15f3b6CB686FB64724D370689De083"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+  },
+  "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588",
+    "name": "LAOS",
+    "symbol": "xcLAOS",
+    "decimals": 18,
+    "priceId": "laos-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
   }
 }

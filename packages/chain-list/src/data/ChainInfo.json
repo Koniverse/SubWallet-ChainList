@@ -12062,5 +12062,64 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "truth_network": {
+    "slug": "truth_network",
+    "name": "Truth Network Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
+    "providers": {
+      "External": "wss://chain-external.truth-network.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xa006eb47d5c9678d9cdc845958e5451217f2c72cf96a50e027df4549fd0111f0",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "http://explorer.truth-network.io/",
+      "existentialDeposit": "0",
+      "symbol": "TRUU",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "tassi_demo": {
+    "slug": "tassi_demo",
+    "name": "Tassi Demo",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
+    "providers": {
+      "DanceBox": "https://dancebox-3001.tanssi-api.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 5678,
+      "blockExplorer": "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network/",
+      "existentialDeposit": "0",
+      "symbol": "TANGO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }
