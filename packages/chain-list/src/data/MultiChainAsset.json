@@ -907,5 +907,32 @@
     "priceId": "peaq-2",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/peaq-peaq.png"
+  },
+  "TRUU-Truth": {
+    "slug": "TRUU-Truth",
+    "originChainAsset": null,
+    "name": "Truth",
+    "symbol": "TRUU",
+    "priceId": "truth",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/truu-truth.png"
+  },
+  "HEI-Heima": {
+    "slug": "HEI-Heima",
+    "originChainAsset": null,
+    "name": "Heima",
+    "symbol": "HEI",
+    "priceId": "heima",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/hei-heima.png"
+  },
+  "LAOS-LAOS": {
+    "slug": "LAOS-LAOS",
+    "originChainAsset": null,
+    "name": "LAOS",
+    "symbol": "LAOS",
+    "priceId": "laos-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/laos-laos.png"
   }
 }
