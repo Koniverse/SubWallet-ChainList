@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.18",
+  "patchVersion": "0.2.103-beta.19",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744709504821,
+  "timestamp": 1744713416336,
   "ChainInfo": {
     "picasso": {
       "slug": "picasso",
@@ -2146,9 +2146,9 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
     },
-    "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+    "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
       "originChain": "binance",
-      "slug": "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+      "slug": "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
       "name": "Heima",
       "symbol": "HEI",
       "decimals": 18,
@@ -2160,7 +2160,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
     },
     "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": {
       "originChain": "moonbeam",
@@ -2288,7 +2288,7 @@
     "tassi_demo-NATIVE-TANGO": "b82dd8fb02208098f23a490511960eb4",
     "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": "62f36a27c357ceb7b4b27cb0c3588cc9",
     "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "d5ac4f9c6249bcf76fca6c98db95846a",
-    "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "1faecaba9ec3056773fe55d6c0328806",
+    "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "c3e362e9d49cb3591bf612a87a326300",
     "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2"
   },
   "MultiChainAsset": {},
@@ -2402,7 +2402,7 @@
     "tassi_demo-native-tango": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tassi_demo-native-tango.png",
     "ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png",
     "ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
-    "binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
     "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
   },
   "ChainLogoMap": {
