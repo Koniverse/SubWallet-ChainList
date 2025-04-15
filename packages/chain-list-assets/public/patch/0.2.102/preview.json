@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.14",
+  "patchVersion": "0.2.103-beta.18",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744257860007,
+  "timestamp": 1744709504821,
   "ChainInfo": {
     "picasso": {
       "slug": "picasso",
@@ -266,6 +266,65 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "truth_network": {
+      "slug": "truth_network",
+      "name": "Truth Network Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
+      "providers": {
+        "External": "wss://chain-external.truth-network.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xa006eb47d5c9678d9cdc845958e5451217f2c72cf96a50e027df4549fd0111f0",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "http://explorer.truth-network.io/",
+        "existentialDeposit": "0",
+        "symbol": "TRUU",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "tassi_demo": {
+      "slug": "tassi_demo",
+      "name": "Tassi Demo",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
+      "providers": {
+        "DanceBox": "https://dancebox-3001.tanssi-api.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 5678,
+        "blockExplorer": "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network/",
+        "existentialDeposit": "0",
+        "symbol": "TANGO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -275,9 +334,68 @@
     "sonic": "7d57fe19532178917e12ec84fa167ef4",
     "peaq_evm": "3f877c49a73b79810e15baba061a6dea",
     "polkadot_coretime": "d54f61e15b65f3d0f05d9ee4f3e19f28",
-    "kusama_coretime": "5663718dd0817e0b7e49404117afa485"
+    "kusama_coretime": "5663718dd0817e0b7e49404117afa485",
+    "truth_network": "4583baaaee0ef961da32bb098a620958",
+    "tassi_demo": "593084e92e810416975e464abd9c7c3f"
   },
   "ChainAsset": {
+    "acala-LOCAL-DOT": {
+      "originChain": "acala",
+      "slug": "acala-LOCAL-DOT",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "100000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "Token": "DOT"
+        },
+        "isSufficient": true
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-dot.png"
+    },
+    "acala-LOCAL-USDT": {
+      "originChain": "acala",
+      "slug": "acala-LOCAL-USDT",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 12
+        },
+        "isSufficient": true
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png"
+    },
+    "acala-LOCAL-ASTR": {
+      "originChain": "acala",
+      "slug": "acala-LOCAL-ASTR",
+      "name": "Astar",
+      "symbol": "ASTR",
+      "decimals": 18,
+      "priceId": "astar",
+      "minAmount": "100000000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 2
+        },
+        "isSufficient": true
+      },
+      "multiChainAsset": "ASTR-Astar",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-astr.png"
+    },
     "darwinia2-LOCAL-KTON": {
       "originChain": "darwinia2",
       "slug": "darwinia2-LOCAL-KTON",
@@ -1933,9 +2051,138 @@
       "multiChainAsset": "KSM-Kusama",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
+    },
+    "truth_network-NATIVE-TRUU": {
+      "originChain": "truth_network",
+      "slug": "truth_network-NATIVE-TRUU",
+      "name": "Truth",
+      "symbol": "TRUU",
+      "decimals": 10,
+      "priceId": "truth",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-native-truu.png"
+    },
+    "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2",
+      "name": "Truth",
+      "symbol": "TRUU",
+      "decimals": 10,
+      "priceId": "truth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png"
+    },
+    "truth_network-LOCAL-USDC": {
+      "originChain": "truth_network",
+      "slug": "truth_network-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 0
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
+    },
+    "tassi_demo-NATIVE-TANGO": {
+      "originChain": "tassi_demo",
+      "slug": "tassi_demo-NATIVE-TANGO",
+      "name": "Tanssi Demo",
+      "symbol": "TANGO",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tassi_demo-native-tango.png"
+    },
+    "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E",
+      "name": "GASP",
+      "symbol": "GASP",
+      "decimals": 18,
+      "priceId": "gasp-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png"
+    },
+    "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+      "name": "Heima",
+      "symbol": "HEI",
+      "decimals": 18,
+      "priceId": "heima",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF8F173E20e15f3b6CB686FB64724D370689De083"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+    },
+    "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+      "originChain": "binance",
+      "slug": "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+      "name": "Heima",
+      "symbol": "HEI",
+      "decimals": 18,
+      "priceId": "heima",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF8F173E20e15f3b6CB686FB64724D370689De083"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+    },
+    "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588",
+      "name": "LAOS",
+      "symbol": "xcLAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
     }
   },
   "ChainAssetHashMap": {
+    "acala-LOCAL-DOT": "d560bc375ff12bb336472b75de3ca40e",
+    "acala-LOCAL-USDT": "fe41ec165e4b0ee8a443fefff039e786",
+    "acala-LOCAL-ASTR": "a2b84f246799f8d779a5401d93889562",
     "darwinia2-LOCAL-KTON": "14dac6e3aa10b352c1fd377a509309c3",
     "origintrail-NATIVE-NEURO": "a03f531092fb0c0881e0dd06c5052249",
     "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": "03b6eb9fdb5b71b9d3ea49c01a1194d0",
@@ -2034,11 +2281,22 @@
     "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": "a764e26f024a1235a36019cbf07a527c",
     "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": "55b2d4e776305317815cfcd9e32548bb",
     "polkadot_coretime-NATIVE-DOT": "b31b889e86f553a1cd5aa2fa7643029e",
-    "kusama_coretime-NATIVE-KSM": "dc03ad7161d5d64b2fb9855811654c8e"
+    "kusama_coretime-NATIVE-KSM": "dc03ad7161d5d64b2fb9855811654c8e",
+    "truth_network-NATIVE-TRUU": "5c1d76430aef116502a6239dbb35b002",
+    "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": "fe1917920ab4530351d5dbd9501ffca0",
+    "truth_network-LOCAL-USDC": "f98b00a687d8daa95f744b41288881e1",
+    "tassi_demo-NATIVE-TANGO": "b82dd8fb02208098f23a490511960eb4",
+    "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": "62f36a27c357ceb7b4b27cb0c3588cc9",
+    "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "d5ac4f9c6249bcf76fca6c98db95846a",
+    "binanace-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "1faecaba9ec3056773fe55d6c0328806",
+    "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "acala-local-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-dot.png",
+    "acala-local-usdt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png",
+    "acala-local-astr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-astr.png",
     "darwinia2-local-kton": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-kton.png",
     "origintrail-native-neuro": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-neuro.png",
     "moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png",
@@ -2137,7 +2395,15 @@
     "ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png",
     "ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png",
     "polkadot_coretime-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_coretime-native-dot.png",
-    "kusama_coretime-native-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
+    "kusama_coretime-native-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png",
+    "truth_network-native-truu": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-native-truu.png",
+    "ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png",
+    "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
+    "tassi_demo-native-tango": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tassi_demo-native-tango.png",
+    "ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png",
+    "ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binanace-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
   },
   "ChainLogoMap": {
     "picasso": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
@@ -2146,7 +2412,9 @@
     "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
     "peaq_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
     "polkadot_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
-    "kusama_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png"
+    "kusama_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png",
+    "truth_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
+    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png"
   },
   "mAssetLogoMap": {}
 }
