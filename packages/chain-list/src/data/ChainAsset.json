@@ -9,12 +9,12 @@
     "minAmount": "10000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -30,12 +30,12 @@
     "minAmount": "333333333",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -79,12 +79,12 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "GLMR",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "GLMR",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
@@ -100,12 +100,12 @@
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "NEER",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "NEER",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "NEER-Pioneer",
     "hasValue": true,
@@ -135,12 +135,12 @@
     "minAmount": "1000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "ASTR",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "ASTR",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
@@ -156,12 +156,12 @@
     "minAmount": "100000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "multilocation": {
         "parents": 1,
         "interior": "Here"
       },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol",
       "alternativeSwapAsset": "polkadot-NATIVE-DOT"
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -178,8 +178,6 @@
     "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "ACA",
       "onChainInfo": {
         "NativeAssetId": {
           "Token": "ACA"
@@ -188,7 +186,9 @@
       "multilocation": {
         "parents": 0,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "ACA",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "ACA-Acala",
     "hasValue": true,
@@ -292,12 +292,12 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "onChainInfo": {
         "Token": "DOT"
       },
-      "isSufficient": true
+      "isSufficient": true,
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -313,11 +313,11 @@
     "minAmount": "100000000000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "GLMR",
       "onChainInfo": {
         "ForeignAsset": 0
-      }
+      },
+      "paraSpellValue": "GLMR",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
@@ -333,12 +333,12 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "onChainInfo": {
         "ForeignAsset": 12
       },
-      "isSufficient": true
+      "isSufficient": true,
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -372,12 +372,12 @@
     "minAmount": "100000000000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "ASTR",
       "onChainInfo": {
         "ForeignAsset": 2
       },
-      "isSufficient": true
+      "isSufficient": true,
+      "paraSpellValue": "ASTR",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
@@ -461,11 +461,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "assetId": "42259045809535163221576417993425387648",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
+      "paraSpellValue": "DOT",
+      "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -481,11 +481,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "INTR",
       "assetId": "101170542313601871197860408087030232491",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab"
+      "paraSpellValue": "INTR",
+      "contractAddress": "0xFffFFFFF4C1cbCd97597339702436d4F18a375Ab",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "INTR-Interlay",
     "hasValue": true,
@@ -501,11 +501,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "IBTC",
       "assetId": "120637696315203257380661607956669368914",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xFFFFFfFf5AC1f9A51A93F5C527385edF7Fe98A52"
+      "paraSpellValue": "IBTC",
+      "contractAddress": "0xFFFFFfFf5AC1f9A51A93F5C527385edF7Fe98A52",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "iBTC-interBTC",
     "hasValue": true,
@@ -521,11 +521,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "ACA",
       "assetId": "224821240862170613278369189818311486111",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xffffFFffa922Fef94566104a6e5A35a4fCDDAA9f"
+      "paraSpellValue": "ACA",
+      "contractAddress": "0xffffFFffa922Fef94566104a6e5A35a4fCDDAA9f",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "ACA-Acala",
     "hasValue": true,
@@ -591,13 +591,13 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "assetId": "340282366920938463463374607431768211455",
       "multilocation": {
         "parents": 1,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -613,8 +613,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "assetId": "4294969280",
       "multilocation": {
         "parents": 1,
@@ -631,7 +629,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -907,11 +907,11 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "onChainInfo": {
         "Token2": "2"
-      }
+      },
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -1457,10 +1457,10 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "HDX",
       "assetId": "0",
-      "autoEnable": true
+      "autoEnable": true,
+      "paraSpellValue": "HDX",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "HDX-HydraDX",
     "hasValue": true,
@@ -1476,8 +1476,6 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "id",
-      "paraSpellValue": "10",
       "assetId": "10",
       "autoEnable": true,
       "multilocation": {
@@ -1495,7 +1493,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "10",
+      "paraSpellAssetType": "id"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -1525,11 +1525,11 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "CFG",
       "onChainInfo": {
         "Native": null
-      }
+      },
+      "paraSpellValue": "CFG",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "CFG-Centrifuge",
     "hasValue": true,
@@ -1545,11 +1545,11 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "INTR",
       "onChainInfo": {
         "Token": "INTR"
-      }
+      },
+      "paraSpellValue": "INTR",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "INTR-Interlay",
     "hasValue": true,
@@ -1583,11 +1583,11 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "onChainInfo": {
         "ForeignAsset": 2
-      }
+      },
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -1603,11 +1603,11 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "IBTC",
       "onChainInfo": {
         "Token": "IBTC"
-      }
+      },
+      "paraSpellValue": "IBTC",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "iBTC-interBTC",
     "hasValue": true,
@@ -1727,11 +1727,11 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "onChainInfo": {
         "XCM": "0"
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -1875,12 +1875,12 @@
     "minAmount": "3333333",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "multilocation": {
         "parents": 1,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -2645,15 +2645,15 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "onChainInfo": {
         "XCM": "0"
       },
       "multilocation": {
         "parents": 1,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -2669,8 +2669,6 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "onChainInfo": {
         "XCM": "1"
       },
@@ -2689,7 +2687,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -3323,8 +3323,6 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "assetId": "1984",
       "multilocation": {
         "parents": 0,
@@ -3338,7 +3336,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -3354,11 +3354,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "assetId": "42259045809535163221576417993425387648",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080"
+      "paraSpellValue": "KSM",
+      "contractAddress": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -3374,14 +3374,14 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "assetId": "340282366920938463463374607431768211455",
       "assetType": "ForeignAsset",
       "multilocation": {
         "parents": 1,
         "interior": "Here"
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -3397,11 +3397,11 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "onChainInfo": {
         "Token": "KSM"
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -3417,11 +3417,11 @@
     "minAmount": "100000000000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "NEER",
       "onChainInfo": {
         "ForeignAsset": "9"
-      }
+      },
+      "paraSpellValue": "NEER",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "NEER-Pioneer",
     "hasValue": true,
@@ -3473,11 +3473,11 @@
     "minAmount": "100000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "onChainInfo": {
         "Token": "KSM"
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -3547,11 +3547,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDT",
       "assetId": "311091173110107856861649819128533077277",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d"
+      "paraSpellValue": "USDT",
+      "contractAddress": "0xFFFFFFfFea09FB06d082fd1275CD48b191cbCD1d",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -6996,11 +6996,11 @@
     "minAmount": "1000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "onChainInfo": {
         "Token2": "0"
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -7048,11 +7048,11 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "onChainInfo": {
         "Token": "DOT"
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -7068,11 +7068,11 @@
     "minAmount": "17540000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "assetId": "5",
       "autoEnable": true,
       "canPayTxFee": true,
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol",
       "alternativeSwapAsset": "polkadot-NATIVE-DOT"
     },
     "multiChainAsset": "DOT-Polkadot",
@@ -7117,8 +7117,6 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDC",
       "assetId": "1337",
       "multilocation": {
         "parents": 0,
@@ -7132,7 +7130,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "USDC",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -7178,8 +7178,6 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "id",
-      "paraSpellValue": "22",
       "assetId": "22",
       "multilocation": {
         "parents": 1,
@@ -7196,7 +7194,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "22",
+      "paraSpellAssetType": "id"
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -7488,11 +7488,11 @@
     "minAmount": "1000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "INTR",
       "onChainInfo": {
         "ForeignAsset": 4
-      }
+      },
+      "paraSpellValue": "INTR",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "INTR-Interlay",
     "hasValue": true,
@@ -7508,9 +7508,9 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
+      "assetId": "108",
       "paraSpellValue": "ACA",
-      "assetId": "108"
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "ACA-Acala",
     "hasValue": true,
@@ -7526,9 +7526,9 @@
     "minAmount": "32467532467532500",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
+      "assetId": "13",
       "paraSpellValue": "CFG",
-      "assetId": "13"
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "CFG-Centrifuge",
     "hasValue": true,
@@ -7638,11 +7638,11 @@
     "minAmount": "100000000000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "MANTA",
       "onChainInfo": {
         "MantaCurrency": "1"
-      }
+      },
+      "paraSpellValue": "MANTA",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "MANTA-MantaAtlantic",
     "hasValue": true,
@@ -7674,12 +7674,12 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "assetId": "8",
       "onChainInfo": {
         "MantaCurrency": "8"
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -7695,11 +7695,11 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "MANTA",
       "assetId": "166446646689194205559791995948102903873",
       "assetType": "ForeignAsset",
-      "contractAddress": "0xfFFffFFf7D3875460d4509eb8d0362c611B4E841"
+      "paraSpellValue": "MANTA",
+      "contractAddress": "0xfFFffFFf7D3875460d4509eb8d0362c611B4E841",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "MANTA-MantaAtlantic",
     "hasValue": true,
@@ -7794,11 +7794,11 @@
     "minAmount": "10000000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "MANTA",
       "onChainInfo": {
         "Token2": "8"
-      }
+      },
+      "paraSpellValue": "MANTA",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "MANTA-MantaAtlantic",
     "hasValue": true,
@@ -8022,10 +8022,10 @@
     "minAmount": "147058823529412000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "ASTR",
       "assetId": "9",
       "autoEnable": true,
+      "paraSpellValue": "ASTR",
+      "paraSpellAssetType": "symbol",
       "alternativeSwapAsset": "astar-NATIVE-ASTR"
     },
     "multiChainAsset": "ASTR-Astar",
@@ -8805,13 +8805,13 @@
     "minAmount": "10000000000000000",
     "assetType": "NATIVE",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "MYTH",
       "multilocation": {
         "parents": 0,
         "interior": "Here"
       },
-      "disableEvmTransfer": true
+      "paraSpellValue": "MYTH",
+      "disableEvmTransfer": true,
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "MYTH-Mythos",
     "hasValue": true,
@@ -9420,8 +9420,6 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "USDC",
       "onChainInfo": {
         "XCM": "2"
       },
@@ -9440,7 +9438,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "USDC",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -10254,8 +10254,6 @@
     "minAmount": "1000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "KSM",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10266,7 +10264,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
@@ -10282,8 +10282,6 @@
     "minAmount": "10000000",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "DOT",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10294,7 +10292,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -10465,8 +10465,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "WETH",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10487,7 +10485,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "WETH",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
@@ -10503,8 +10503,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "MYTH",
       "isBridged": true,
       "multilocation": {
         "parents": 1,
@@ -10515,7 +10513,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "MYTH",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "MYTH-Mythos",
     "hasValue": true,
@@ -10547,8 +10547,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "WBTC",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10569,7 +10567,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "WBTC",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "WBTC-WrappedBTC",
     "hasValue": true,
@@ -10585,8 +10585,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "SHIB",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10607,7 +10605,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "SHIB",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "SHIB-SHIBAINU",
     "hasValue": true,
@@ -10623,8 +10623,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "PEPE",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10645,7 +10643,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "PEPE",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "PEPE-Pepe",
     "hasValue": true,
@@ -10677,8 +10677,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "TON",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10699,7 +10697,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "TON",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "TON-TONCoin",
     "hasValue": true,
@@ -10731,8 +10731,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "wstETH",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10753,7 +10751,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "wstETH",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "wstETH-WrappedLiquidEther",
     "hasValue": true,
@@ -10769,8 +10769,6 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "tBTC",
       "isBridged": true,
       "multilocation": {
         "parents": 2,
@@ -10791,7 +10789,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "tBTC",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "tBTC-tBTCv2",
     "hasValue": true,
@@ -11327,8 +11327,6 @@
     "minAmount": "21367521367521400",
     "assetType": "LOCAL",
     "metadata": {
-      "paraSpellAssetType": "symbol",
-      "paraSpellValue": "MYTH",
       "assetId": "30",
       "multilocation": {
         "parents": 1,
@@ -11339,7 +11337,9 @@
             }
           ]
         }
-      }
+      },
+      "paraSpellValue": "MYTH",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "MYTH-Mythos",
     "hasValue": true,
