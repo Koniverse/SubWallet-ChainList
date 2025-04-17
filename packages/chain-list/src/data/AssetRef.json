@@ -825,6 +825,20 @@
     "destChain": "arbitrum_sepolia",
     "path": "XCM"
   },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "XCM"
+  },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "srcChain": "base_mainnet",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006___ethereum-NATIVE-ETH": {
     "srcAsset": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
     "destAsset": "ethereum-NATIVE-ETH",
