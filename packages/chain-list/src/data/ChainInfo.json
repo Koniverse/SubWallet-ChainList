@@ -11534,38 +11534,6 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
-  "paseo_assethub": {
-    "slug": "paseo_assethub",
-    "name": "Paseo Asset Hub",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "icon": null,
-    "providers": {
-      "Dwellir": "wss://asset-hub-paseo-rpc.dwellir.com"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": 1000,
-      "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
-      "addressPrefix": 0,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": "100000000",
-      "symbol": "PAS",
-      "decimals": 10,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
   "gravity_alpha": {
     "slug": "gravity_alpha",
     "name": "Gravity Alpha Mainnet",
