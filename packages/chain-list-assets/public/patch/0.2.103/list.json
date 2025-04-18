@@ -1,0 +1,35 @@
+{
+  "patchVersion": "0.2.104-beta.4",
+  "appliedVersion": "0.2.103",
+  "timestamp": 1744973140061,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "hydradx_main-LOCAL-GDOT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GDOT",
+      "name": "GIGADOT",
+      "symbol": "GDOT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "69"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "hydradx_main-LOCAL-GDOT": "da2f5bc96df5402312cf63ae125f74d6"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "hydradx_main-local-gdot": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
