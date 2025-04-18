@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.103-beta.19",
+  "patchVersion": "0.2.104-beta.4",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744713416336,
+  "timestamp": 1744947720972,
   "ChainInfo": {
     "picasso": {
       "slug": "picasso",
@@ -2177,6 +2177,22 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
+    },
+    "hydradx_main-LOCAL-GDOT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GDOT",
+      "name": "GIGADOT",
+      "symbol": "GDOT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "69"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
     }
   },
   "ChainAssetHashMap": {
@@ -2289,7 +2305,8 @@
     "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": "62f36a27c357ceb7b4b27cb0c3588cc9",
     "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "d5ac4f9c6249bcf76fca6c98db95846a",
     "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "c3e362e9d49cb3591bf612a87a326300",
-    "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2"
+    "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2",
+    "hydradx_main-LOCAL-GDOT": "da2f5bc96df5402312cf63ae125f74d6"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -2403,7 +2420,8 @@
     "ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png",
     "ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
     "binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
-    "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
+    "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png",
+    "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png"
   },
   "ChainLogoMap": {
     "picasso": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
