@@ -3857,7 +3857,9 @@
     "minAmount": "100",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1984"
+      "assetId": "1984",
+      "paraSpellValue": "1984",
+      "paraSpellAssetType": "id"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -9721,7 +9723,9 @@
       "onChainInfo": {
         "XCM": "1"
       },
-      "isDisableTransfer": true
+      "paraSpellValue": "USDT",
+      "isDisableTransfer": true,
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
@@ -11063,7 +11067,9 @@
     "metadata": {
       "onChainInfo": {
         "ForeignAsset": "7"
-      }
+      },
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol"
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
