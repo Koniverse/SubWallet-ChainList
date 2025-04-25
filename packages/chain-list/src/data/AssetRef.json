@@ -104,13 +104,6 @@
     "destChain": "amplitude",
     "path": "XCM"
   },
-  "ethereum-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
-    "srcAsset": "ethereum-NATIVE-ETH",
-    "destAsset": "arbitrum_one-NATIVE-ETH",
-    "srcChain": "ethereum",
-    "destChain": "arbitrum_one",
-    "path": "XCM"
-  },
   "ethereum-NATIVE-ETH___polygonZkEvm-NATIVE-ETH": {
     "srcAsset": "ethereum-NATIVE-ETH",
     "destAsset": "polygonZkEvm-NATIVE-ETH",
@@ -123,6 +116,13 @@
     "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
     "srcChain": "ethereum",
     "destChain": "polygon",
+    "path": "XCM"
+  },
+  "ethereum-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "arbitrum_one-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "arbitrum_one",
     "path": "XCM"
   },
   "ethereum-NATIVE-ETH___base_mainnet-NATIVE-ETH": {
@@ -251,6 +251,48 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "acala-LOCAL-USDT___astar-LOCAL-USDT": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "astar-LOCAL-USDT",
+    "srcChain": "acala",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "acala-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "bifrost_dot-LOCAL-USDT",
+    "srcChain": "acala",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "acala-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "acala",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "acala-LOCAL-USDT___interlay-LOCAL-USDT": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "interlay-LOCAL-USDT",
+    "srcChain": "acala",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "acala-LOCAL-USDT___pendulum-LOCAL-USDT": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "acala",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "acala-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
+    "srcAsset": "acala-LOCAL-USDT",
+    "destAsset": "moonbeam-LOCAL-xcUSDT",
+    "srcChain": "acala",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
   "moonbeam-LOCAL-xcDOT___polkadot-NATIVE-DOT": {
     "srcAsset": "moonbeam-LOCAL-xcDOT",
     "destAsset": "polkadot-NATIVE-DOT",
@@ -321,6 +363,48 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "astar-LOCAL-USDT___acala-LOCAL-USDT": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "acala-LOCAL-USDT",
+    "srcChain": "astar",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "astar-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "bifrost_dot-LOCAL-USDT",
+    "srcChain": "astar",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "astar-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "astar",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "astar-LOCAL-USDT___interlay-LOCAL-USDT": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "interlay-LOCAL-USDT",
+    "srcChain": "astar",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "astar-LOCAL-USDT___pendulum-LOCAL-USDT": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "astar",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "astar-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
+    "srcAsset": "astar-LOCAL-USDT",
+    "destAsset": "moonbeam-LOCAL-xcUSDT",
+    "srcChain": "astar",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
   "westend-NATIVE-WND___westend_assethub-NATIVE-WND": {
     "srcAsset": "westend-NATIVE-WND",
     "destAsset": "westend_assethub-NATIVE-WND",
@@ -349,11 +433,95 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "bifrost_dot-LOCAL-USDT___acala-LOCAL-USDT": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "acala-LOCAL-USDT",
+    "srcChain": "bifrost_dot",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "bifrost_dot-LOCAL-USDT___astar-LOCAL-USDT": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "astar-LOCAL-USDT",
+    "srcChain": "bifrost_dot",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "bifrost_dot-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "bifrost_dot",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "bifrost_dot-LOCAL-USDT___interlay-LOCAL-USDT": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "interlay-LOCAL-USDT",
+    "srcChain": "bifrost_dot",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "bifrost_dot-LOCAL-USDT___pendulum-LOCAL-USDT": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "bifrost_dot",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "bifrost_dot-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
+    "srcAsset": "bifrost_dot-LOCAL-USDT",
+    "destAsset": "moonbeam-LOCAL-xcUSDT",
+    "srcChain": "bifrost_dot",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
   "hydradx_main-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "hydradx_main-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
     "srcChain": "hydradx_main",
     "destChain": "statemint",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___acala-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "acala-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___astar-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "astar-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "bifrost_dot-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___interlay-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "interlay-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___pendulum-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT",
+    "destAsset": "moonbeam-LOCAL-xcUSDT",
+    "srcChain": "hydradx_main",
+    "destChain": "moonbeam",
     "path": "XCM"
   },
   "centrifuge-NATIVE-CFG___hydradx_main-LOCAL-CFG": {
@@ -384,6 +552,48 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "interlay-LOCAL-USDT___acala-LOCAL-USDT": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "acala-LOCAL-USDT",
+    "srcChain": "interlay",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "interlay-LOCAL-USDT___astar-LOCAL-USDT": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "astar-LOCAL-USDT",
+    "srcChain": "interlay",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "interlay-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "bifrost_dot-LOCAL-USDT",
+    "srcChain": "interlay",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "interlay-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "hydradx_main-LOCAL-USDT",
+    "srcChain": "interlay",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "interlay-LOCAL-USDT___pendulum-LOCAL-USDT": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "interlay",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "interlay-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
+    "srcAsset": "interlay-LOCAL-USDT",
+    "destAsset": "moonbeam-LOCAL-xcUSDT",
+    "srcChain": "interlay",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
   "interlay-LOCAL-iBTC___moonbeam-LOCAL-xcIBTC": {
     "srcAsset": "interlay-LOCAL-iBTC",
     "destAsset": "moonbeam-LOCAL-xcIBTC",
@@ -403,6 +613,27 @@
     "destAsset": "statemint-LOCAL-KSM",
     "srcChain": "statemine",
     "destChain": "statemint",
+    "path": "XCM"
+  },
+  "kintsugi-LOCAL-USDT___statemine-LOCAL-USDt": {
+    "srcAsset": "kintsugi-LOCAL-USDT",
+    "destAsset": "statemine-LOCAL-USDt",
+    "srcChain": "kintsugi",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
+  "kintsugi-LOCAL-USDT___amplitude-LOCAL-USDT": {
+    "srcAsset": "kintsugi-LOCAL-USDT",
+    "destAsset": "amplitude-LOCAL-USDT",
+    "srcChain": "kintsugi",
+    "destChain": "amplitude",
+    "path": "XCM"
+  },
+  "kintsugi-LOCAL-USDT___karura-LOCAL-USDT": {
+    "srcAsset": "kintsugi-LOCAL-USDT",
+    "destAsset": "karura-LOCAL-USDT",
+    "srcChain": "kintsugi",
+    "destChain": "karura",
     "path": "XCM"
   },
   "pendulum-LOCAL-DOT___polkadot-NATIVE-DOT": {
@@ -489,6 +720,27 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "statemine-LOCAL-USDt___kintsugi-LOCAL-USDT": {
+    "srcAsset": "statemine-LOCAL-USDt",
+    "destAsset": "kintsugi-LOCAL-USDT",
+    "srcChain": "statemine",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "statemine-LOCAL-USDt___amplitude-LOCAL-USDT": {
+    "srcAsset": "statemine-LOCAL-USDt",
+    "destAsset": "amplitude-LOCAL-USDT",
+    "srcChain": "statemine",
+    "destChain": "amplitude",
+    "path": "XCM"
+  },
+  "statemine-LOCAL-USDt___karura-LOCAL-USDT": {
+    "srcAsset": "statemine-LOCAL-USDt",
+    "destAsset": "karura-LOCAL-USDT",
+    "srcChain": "statemine",
+    "destChain": "karura",
+    "path": "XCM"
+  },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
     "srcAsset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     "destAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -552,11 +804,46 @@
     "destChain": "pendulum",
     "path": "XCM"
   },
+  "statemint-LOCAL-USDC___centrifuge-LOCAL-USDC": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "centrifuge-LOCAL-USDC",
+    "srcChain": "statemint",
+    "destChain": "centrifuge",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDC___moonbeam-LOCAL-xcUSDC": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "moonbeam-LOCAL-xcUSDC",
+    "srcChain": "statemint",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
     "srcAsset": "hydradx_main-LOCAL-USDC",
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "hydradx_main",
     "destChain": "statemint",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC___centrifuge-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC",
+    "destAsset": "centrifuge-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "centrifuge",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC___moonbeam-LOCAL-xcUSDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC",
+    "destAsset": "moonbeam-LOCAL-xcUSDC",
+    "srcChain": "hydradx_main",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC___pendulum-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC",
+    "destAsset": "pendulum-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "pendulum",
     "path": "XCM"
   },
   "acala-LOCAL-INTR___interlay-NATIVE-INTR": {
@@ -664,6 +951,160 @@
     "destChain": "base_sepolia",
     "path": "XCM"
   },
+  "hydradx_main-LOCAL-USDC-21___statemint-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "statemint-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___hydradx_main-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "hydradx_main-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___acala-LOCAL-USDCet": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "acala-LOCAL-USDCet",
+    "srcChain": "hydradx_main",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___interlay-LOCAL-USDC.wh": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "interlay-LOCAL-USDC.wh",
+    "srcChain": "hydradx_main",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___centrifuge-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "centrifuge-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "centrifuge",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___moonbeam-LOCAL-xcUSDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "moonbeam-LOCAL-xcUSDC",
+    "srcChain": "hydradx_main",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___pendulum-LOCAL-USDC": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "pendulum-LOCAL-USDC",
+    "srcChain": "hydradx_main",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___amplitude-LOCAL-USDC.s": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "amplitude-LOCAL-USDC.s",
+    "srcChain": "hydradx_main",
+    "destChain": "amplitude",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___pendulum-LOCAL-USDC.s": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "pendulum-LOCAL-USDC.s",
+    "srcChain": "hydradx_main",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDC-21___karura-LOCAL-USDCet": {
+    "srcAsset": "hydradx_main-LOCAL-USDC-21",
+    "destAsset": "karura-LOCAL-USDCet",
+    "srcChain": "hydradx_main",
+    "destChain": "karura",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___acala-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "acala-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "acala",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___astar-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "astar-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "astar",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___bifrost_dot-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "bifrost_dot-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___parallel-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "parallel-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "parallel",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___interlay-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "interlay-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "interlay",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___kintsugi-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "kintsugi-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___pendulum-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "pendulum-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "pendulum",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___statemint-LOCAL-USDt": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___moonbeam-LOCAL-xcUSDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "moonbeam-LOCAL-xcUSDT",
+    "srcChain": "hydradx_main",
+    "destChain": "moonbeam",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___statemine-LOCAL-USDt": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "statemine-LOCAL-USDt",
+    "srcChain": "hydradx_main",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___amplitude-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "amplitude-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "amplitude",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-USDT-23___karura-LOCAL-USDT": {
+    "srcAsset": "hydradx_main-LOCAL-USDT-23",
+    "destAsset": "karura-LOCAL-USDT",
+    "srcChain": "hydradx_main",
+    "destChain": "karura",
+    "path": "XCM"
+  },
   "mythos-NATIVE-MYTH___hydradx_main-LOCAL-MYTH": {
     "srcAsset": "mythos-NATIVE-MYTH",
     "destAsset": "hydradx_main-LOCAL-MYTH",
@@ -690,6 +1131,27 @@
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "pendulum",
     "destChain": "statemint",
+    "path": "XCM"
+  },
+  "amplitude-LOCAL-USDT___kintsugi-LOCAL-USDT": {
+    "srcAsset": "amplitude-LOCAL-USDT",
+    "destAsset": "kintsugi-LOCAL-USDT",
+    "srcChain": "amplitude",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "amplitude-LOCAL-USDT___statemine-LOCAL-USDt": {
+    "srcAsset": "amplitude-LOCAL-USDT",
+    "destAsset": "statemine-LOCAL-USDt",
+    "srcChain": "amplitude",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
+  "amplitude-LOCAL-USDT___karura-LOCAL-USDT": {
+    "srcAsset": "amplitude-LOCAL-USDT",
+    "destAsset": "karura-LOCAL-USDT",
+    "srcChain": "amplitude",
+    "destChain": "karura",
     "path": "XCM"
   },
   "statemint-LOCAL-KSM___statemine-NATIVE-KSM": {
@@ -781,6 +1243,27 @@
     "destAsset": "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88",
     "srcChain": "statemint",
     "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "karura-LOCAL-USDT___kintsugi-LOCAL-USDT": {
+    "srcAsset": "karura-LOCAL-USDT",
+    "destAsset": "kintsugi-LOCAL-USDT",
+    "srcChain": "karura",
+    "destChain": "kintsugi",
+    "path": "XCM"
+  },
+  "karura-LOCAL-USDT___statemine-LOCAL-USDt": {
+    "srcAsset": "karura-LOCAL-USDT",
+    "destAsset": "statemine-LOCAL-USDt",
+    "srcChain": "karura",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
+  "karura-LOCAL-USDT___amplitude-LOCAL-USDT": {
+    "srcAsset": "karura-LOCAL-USDT",
+    "destAsset": "amplitude-LOCAL-USDT",
+    "srcChain": "karura",
+    "destChain": "amplitude",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-MYTH___mythos-NATIVE-MYTH": {
