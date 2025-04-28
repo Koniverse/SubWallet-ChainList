@@ -15907,5 +15907,95 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png"
+  },
+  "statemint-LOCAL-TEER": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-TEER",
+    "name": "Integritee TEER",
+    "symbol": "TEER",
+    "decimals": 12,
+    "priceId": "integritee",
+    "minAmount": "1000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X1": [
+            {
+              "Parachain": 2039
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-teer.png"
+  },
+  "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B",
+    "name": "Integritee TEER",
+    "symbol": "TEER",
+    "decimals": 12,
+    "priceId": "integritee",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x769916A66fDAC0E3D57363129caac59386ea622B"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-teer-0x769916a66fdac0e3d57363129caac59386ea622b.png"
+  },
+  "hydradx_main-LOCAL-LINK": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LINK",
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "decimals": 18,
+    "priceId": "chainlink",
+    "minAmount": "436681222707424",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000794"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-link.png"
+  },
+  "hydradx_main-LOCAL-SKY": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-SKY",
+    "name": "SKY",
+    "symbol": "SKY",
+    "decimals": 18,
+    "priceId": "sky",
+    "minAmount": "211685012701101000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000795"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sky.png"
+  },
+  "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": {
+    "originChain": "peaq_evm",
+    "slug": "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B",
+    "name": "Silencio",
+    "symbol": "SLC",
+    "decimals": 18,
+    "priceId": "silencio",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5c3126bfB9A68a7021d461230127470b3824886B"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png"
   }
 }

@@ -934,5 +934,23 @@
     "priceId": "laos-network",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/laos-laos.png"
+  },
+  "TEER-IntegriteeShell": {
+    "slug": "TEER-IntegriteeShell",
+    "originChainAsset": "integriteePolkadot-NATIVE-TEER",
+    "name": "Integritee Shell",
+    "symbol": "TEER",
+    "priceId": "integritee",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/teer-integriteeshell.png"
+  },
+  "LINK-Chainlink": {
+    "slug": "LINK-Chainlink",
+    "originChainAsset": null,
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "priceId": "chainlink",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/link-chainlink.png"
   }
 }
