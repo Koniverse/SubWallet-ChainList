@@ -1,9 +1,39 @@
 {
-  "patchVersion": "0.2.105-beta.0",
+  "patchVersion": "0.2.105-beta.1",
   "appliedVersion": "0.2.104",
-  "timestamp": 1745826048054,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
+  "timestamp": 1745917445995,
+  "ChainInfo": {
+    "tassi_demo": {
+      "slug": "tassi_demo",
+      "name": "Tanssi Demo",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
+      "providers": {
+        "DanceBox": "https://dancebox-3001.tanssi-api.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 5678,
+        "blockExplorer": "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network/",
+        "existentialDeposit": "0",
+        "symbol": "TANGO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
+  },
   "ChainAsset": {
     "statemint-LOCAL-TEER": {
       "originChain": "statemint",
@@ -112,6 +142,8 @@
     "hydradx_main-local-sky": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sky.png",
     "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png"
+  },
   "mAssetLogoMap": {}
 }
