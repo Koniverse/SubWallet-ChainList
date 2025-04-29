@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.105-beta.1",
+  "patchVersion": "0.2.105-beta.3",
   "appliedVersion": "0.2.104",
-  "timestamp": 1745917445995,
+  "timestamp": 1745923375393,
   "ChainInfo": {
     "tassi_demo": {
       "slug": "tassi_demo",
@@ -29,10 +29,38 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "redstone": {
+      "slug": "redstone",
+      "name": "Redstone",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Redstone": "https://rpc.redstonechain.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 690,
+        "blockExplorer": "https://explorer.redstone.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
+    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
+    "redstone": "a21413ff431f875deb348d211478c27a"
   },
   "ChainAsset": {
     "statemint-LOCAL-TEER": {
@@ -124,6 +152,20 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png"
+    },
+    "redstone-NATIVE-ETH": {
+      "originChain": "redstone",
+      "slug": "redstone-NATIVE-ETH",
+      "name": "Redstone",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
     }
   },
   "ChainAssetHashMap": {
@@ -131,7 +173,8 @@
     "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B": "a6fb53a44ee69eedfbc45c4097e424c0",
     "hydradx_main-LOCAL-LINK": "f03b950a56b91b88b4f2944ff9ceae4c",
     "hydradx_main-LOCAL-SKY": "8bd24a9364283d505358c1802917dd0a",
-    "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": "def96aad661fb9247ac50d56bc32be73"
+    "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": "def96aad661fb9247ac50d56bc32be73",
+    "redstone-NATIVE-ETH": "4cb4d80abf198c36f7e00f0e079e7e31"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -140,10 +183,12 @@
     "ethereum-erc20-teer-0x769916a66fdac0e3d57363129caac59386ea622b": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-teer-0x769916a66fdac0e3d57363129caac59386ea622b.png",
     "hydradx_main-local-link": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-link.png",
     "hydradx_main-local-sky": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sky.png",
-    "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png"
+    "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png",
+    "redstone-native-eth": null
   },
   "ChainLogoMap": {
-    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png"
+    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
+    "redstone": null
   },
   "mAssetLogoMap": {}
 }
