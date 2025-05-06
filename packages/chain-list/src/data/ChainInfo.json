@@ -6677,38 +6677,6 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
-  "xcavate": {
-    "slug": "xcavate",
-    "name": "Xcavate",
-    "isTestnet": true,
-    "chainStatus": "INACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
-    "providers": {
-      "Tanssi": "wss://fraa-dancebox-3031-rpc.a.dancebox.tanssi.network"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
-      "genesisHash": "0x8472759fe1cf8ce507282ddea8af43dd08e598c9da2faed66f3e18f51f93080f",
-      "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": "1000000000",
-      "symbol": "XCAV",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportStaking": false,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
   "unorthodox": {
     "slug": "unorthodox",
     "name": "Unorthodox",
@@ -7606,6 +7574,38 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "xcavate": {
+    "slug": "xcavate",
+    "name": "Xcavate",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
+    "providers": {
+      "Xcavate": "wss://rpc1-polkadot.xcavate.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3413,
+      "genesisHash": "0xd17bc7f93d054d8aba31f24d5bb0ac462247c594e31beed479b1c04d2d0ba48f",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "XCAV",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
@@ -12097,7 +12097,7 @@
   },
   "tassi_demo": {
     "slug": "tassi_demo",
-    "name": "Tassi Demo",
+    "name": "Tanssi Demo",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
