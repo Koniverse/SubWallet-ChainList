@@ -952,5 +952,14 @@
     "priceId": "chainlink",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/link-chainlink.png"
+  },
+  "PARTI-ParticleNetwork": {
+    "slug": "PARTI-ParticleNetwork",
+    "originChainAsset": null,
+    "name": "Particle Network",
+    "symbol": "PARTi",
+    "priceId": "particle-network",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/parti-particlenetwork.png"
   }
 }

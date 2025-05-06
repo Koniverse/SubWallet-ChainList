@@ -7237,7 +7237,7 @@
   "xcavate-NATIVE-XCAV": {
     "originChain": "xcavate",
     "slug": "xcavate-NATIVE-XCAV",
-    "name": "XCAV",
+    "name": "Xcavate",
     "symbol": "XCAV",
     "decimals": 12,
     "priceId": null,
@@ -15998,18 +15998,36 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png"
   },
-  "redstone-NATIVE-ETH": {
-    "originChain": "redstone",
-    "slug": "redstone-NATIVE-ETH",
-    "name": "Redstone",
-    "symbol": "ETH",
+  "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+    "name": "Particle Network",
+    "symbol": "PARTI",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "particle-network",
     "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "ETH-Ethereum",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x59264f02D301281f3393e1385c0aEFd446Eb0F00"
+    },
+    "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
+  },
+  "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+    "name": "Particle Network",
+    "symbol": "PARTI",
+    "decimals": 18,
+    "priceId": "particle-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x59264f02D301281f3393e1385c0aEFd446Eb0F00"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
   }
 }
