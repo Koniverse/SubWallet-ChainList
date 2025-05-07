@@ -3,7 +3,7 @@ import {Md5} from "ts-md5";
 export const DEV_LOGO_PREFIX = "https://dev.sw-chain-list-assets.pages.dev";
 export const PRODUCT_LOGO_PREFIX = "https://chain-list-assets.subwallet.app";
 export const STABLE_VERSION = '0.2.104';
-export const PATCH_VERSION = '0.2.105-beta.5';
+export const PATCH_VERSION = '0.2.105-beta.6';
 export const PATCH_SAVE_DIR =  `./packages/chain-list-assets/public/patch/${STABLE_VERSION}`;
 export const PATCH_SAVE_DEV = `${PATCH_SAVE_DIR}/preview.json`;
 export const PATCH_SAVE_STABLE = `${PATCH_SAVE_DIR}/list.json`;
