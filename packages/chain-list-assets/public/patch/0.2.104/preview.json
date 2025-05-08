@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.105-beta.6",
+  "patchVersion": "0.2.105-beta.7",
   "appliedVersion": "0.2.104",
-  "timestamp": 1746673469348,
+  "timestamp": 1746693678415,
   "ChainInfo": {
     "xcavate": {
       "slug": "xcavate",
@@ -61,39 +61,11 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
-    },
-    "redstone": {
-      "slug": "redstone",
-      "name": "Redstone",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": null,
-      "providers": {
-        "Redstone": "https://rpc.redstonechain.com/"
-      },
-      "evmInfo": {
-        "evmChainId": 690,
-        "blockExplorer": "https://explorer.redstone.xyz/",
-        "existentialDeposit": "0",
-        "symbol": "ETH",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
-    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
-    "redstone": "a21413ff431f875deb348d211478c27a"
+    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
   },
   "ChainAsset": {
     "xcavate-NATIVE-XCAV": {
@@ -231,20 +203,6 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
-    },
-    "redstone-NATIVE-ETH": {
-      "originChain": "redstone",
-      "slug": "redstone-NATIVE-ETH",
-      "name": "Redstone",
-      "symbol": "ETH",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": null
     }
   },
   "ChainAssetHashMap": {
@@ -255,8 +213,7 @@
     "hydradx_main-LOCAL-SKY": "8bd24a9364283d505358c1802917dd0a",
     "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": "def96aad661fb9247ac50d56bc32be73",
     "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "e67e8461a63a8ac8dcd72b20fac56184",
-    "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "920827dbff823bc3ec1c864a24c97676",
-    "redstone-NATIVE-ETH": "4cb4d80abf198c36f7e00f0e079e7e31"
+    "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "920827dbff823bc3ec1c864a24c97676"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -268,13 +225,11 @@
     "hydradx_main-local-sky": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-sky.png",
     "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png",
     "binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
-    "base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
-    "redstone-native-eth": null
+    "base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
   },
   "ChainLogoMap": {
     "xcavate": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
-    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
-    "redstone": null
+    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png"
   },
   "mAssetLogoMap": {}
 }
