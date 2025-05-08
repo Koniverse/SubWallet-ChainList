@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.105-beta.6",
   "appliedVersion": "0.2.104",
-  "timestamp": 1746609781671,
+  "timestamp": 1746673013498,
   "ChainInfo": {
     "xcavate": {
       "slug": "xcavate",
@@ -26,6 +26,39 @@
         "decimals": 12,
         "hasNativeNft": false,
         "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "truth_network": {
+      "slug": "truth_network",
+      "name": "Truth Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
+      "providers": {
+        "External": "wss://chain-external.truth-network.io",
+        "TestRPC": "wss://chain-external.test-rpc-network.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xa006eb47d5c9678d9cdc845958e5451217f2c72cf96a50e027df4549fd0111f0",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "http://explorer.truth-network.io/",
+        "existentialDeposit": "0",
+        "symbol": "TRUU",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
         "supportSmartContract": null,
         "crowdloanParaId": null,
         "crowdloanFunds": []
@@ -65,6 +98,7 @@
   },
   "ChainInfoHashMap": {
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
+    "truth_network": "88b878e4f6d2a62fb9dec81106ab1252",
     "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
   },
   "ChainAsset": {
@@ -229,6 +263,7 @@
   },
   "ChainLogoMap": {
     "xcavate": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
+    "truth_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
     "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png"
   },
   "mAssetLogoMap": {}
