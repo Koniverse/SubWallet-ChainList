@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.102-beta.20",
+  "patchVersion": "0.2.105-beta.5",
   "appliedVersion": "0.2.101",
-  "timestamp": 1743064742744,
+  "timestamp": 1746604727816,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -50,6 +50,76 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "picasso": {
+      "slug": "picasso",
+      "name": "Picasso",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png",
+      "providers": {
+        "Composable": "wss://rpc.composablenodes.tech",
+        "Dwellir": "wss://picasso-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2104,
+        "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+        "addressPrefix": 49,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.composable.finance/",
+        "blockExplorer": "https://picasso.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "PICA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2270-100",
+            "paraId": 2270,
+            "status": "won",
+            "startTime": "2023-05-31T04:27:00.000Z",
+            "endTime": "2024-05-01T04:27:00.000Z",
+            "auctionIndex": 84,
+            "firstPeriod": 30,
+            "lastPeriod": 37
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2130-85",
+            "paraId": 2130,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 49,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2087-37",
+            "paraId": 2087,
+            "status": "won",
+            "startTime": "2021-12-01T04:27:00.000Z",
+            "endTime": "2022-11-02T04:27:00.000Z",
+            "auctionIndex": 12,
+            "firstPeriod": 17,
+            "lastPeriod": 24
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "picasso",
+        "chainBalanceSlug": "picasso"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "litmus": {
       "slug": "litmus",
       "name": "Litmus",
@@ -86,6 +156,51 @@
             "auctionIndex": 23,
             "firstPeriod": 19,
             "lastPeriod": 26
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "litentry": {
+      "slug": "litentry",
+      "name": "Heima",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/litentry.png",
+      "providers": {
+        "Litentry": "wss://rpc.heima-parachain.heima.network",
+        "Dwellir": "wss://litentry-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2013,
+        "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+        "addressPrefix": 31,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.litentry.com/",
+        "blockExplorer": "https://heima.subscan.io/",
+        "existentialDeposit": "100000000000000000",
+        "symbol": "HEI",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2013-35",
+            "paraId": 2013,
+            "status": "won",
+            "startTime": "2022-06-07T01:48:00.000Z",
+            "endTime": "2024-04-09T01:48:00.000Z",
+            "auctionIndex": 15,
+            "firstPeriod": 8,
+            "lastPeriod": 15
           }
         ]
       },
@@ -202,6 +317,180 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "polimec": {
+      "slug": "polimec",
+      "name": "Polimec",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/polimec.png",
+      "providers": {
+        "Polimec": "wss://rpc.polimec.org",
+        "Amforc": "wss://polimec.rpc.amforc.com",
+        "Helikon": "wss://rpc.helikon.io/polimec",
+        "IBP1": "wss://polimec.ibp.network",
+        "IBP2": "wss://polimec.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3344,
+        "genesisHash": "0x7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd",
+        "addressPrefix": 41,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://polimec.statescan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "PLMC",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "3344-71",
+            "paraId": 3344,
+            "status": "won",
+            "startTime": "2023-10-24T01:48:00.000Z",
+            "endTime": "2025-08-26T01:48:00.000Z",
+            "auctionIndex": 51,
+            "firstPeriod": 14,
+            "lastPeriod": 21
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "xcavate": {
+      "slug": "xcavate",
+      "name": "Xcavate",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/xcavate.png",
+      "providers": {
+        "Xcavate": "wss://rpc1-polkadot.xcavate.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3413,
+        "genesisHash": "0xd17bc7f93d054d8aba31f24d5bb0ac462247c594e31beed479b1c04d2d0ba48f",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "XCAV",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "astarZkEvm": {
+      "slug": "astarZkEvm",
+      "name": "Astar zkEVM",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png",
+      "providers": {
+        "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
+      },
+      "evmInfo": {
+        "evmChainId": 3776,
+        "blockExplorer": "https://astar-zkevm.explorer.startale.com/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": "https://astar-zkevm.explorer.startale.com/"
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hyperbridge": {
+      "slug": "hyperbridge",
+      "name": "Hyperbridge",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hyperbridge.png",
+      "providers": {
+        "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network",
+        "IBP1": "wss://nexus.ibp.network",
+        "IBP2": "wss://nexus.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3367,
+        "genesisHash": "0x61ea8a51fd4a058ee8c0e86df0a89cc85b8b67a0a66432893d09719050c9f540",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "BRIDGE",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "cere": {
+      "slug": "cere",
+      "name": "Cere Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/cere.png",
+      "providers": {
+        "Cere Network": "wss://rpc.mainnet.cere.network/ws",
+        "Archive": "wss://archive.mainnet.cere.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x81443836a9a24caaa23f1241897d1235717535711d1d3fe24eae4fdc942c092c",
+        "addressPrefix": 54,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://cere.statescan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "CERE",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "g6_testnet": {
       "slug": "g6_testnet",
       "name": "G6 Testnet",
@@ -229,6 +518,33 @@
         "crowdloanParaId": null,
         "crowdloanFunds": []
       },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "sonic": {
+      "slug": "sonic",
+      "name": "Sonic",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/sonic.png",
+      "providers": {
+        "SonicLab": "https://rpc.soniclabs.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 146,
+        "blockExplorer": "https://sonicscan.org/",
+        "existentialDeposit": "0",
+        "symbol": "S",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
       "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -287,19 +603,350 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "peaq_evm": {
+      "slug": "peaq_evm",
+      "name": "peaq EVM",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/peaq_evm.png",
+      "providers": {
+        "Onfinality": "https://peaq.api.onfinality.io/public",
+        "Peaq": "https://evm.peaq.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 3338,
+        "blockExplorer": "https://peaq.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "PEAQ",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "polkadot_coretime": {
+      "slug": "polkadot_coretime",
+      "name": "Polkadot Coretime",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/polkadot_coretime.png",
+      "providers": {
+        "IBP1": "wss://sys.ibp.network/coretime-polkadot",
+        "IBP2": "wss://coretime-polkadot.dotters.network",
+        "LuckyFriday": "wss://rpc-coretime-polkadot.luckyfriday.io",
+        "Parity": "wss://polkadot-coretime-rpc.polkadot.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 1005,
+        "genesisHash": "0xefb56e30d9b4a24099f88820987d0f45fb645992416535d87650d98e00f46fc4",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://coretime-polkadot.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "DOT",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "coretime-polkadot",
+        "chainBalanceSlug": "coretime-polkadot"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "kusama_coretime": {
+      "slug": "kusama_coretime",
+      "name": "Kusama Coretime",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/kusama_coretime.png",
+      "providers": {
+        "IBP1": "wss://sys.ibp.network/coretime-kusama",
+        "IBP2": "wss://coretime-kusama.dotters.network",
+        "Dwellir": "wss://coretime-kusama-rpc.dwellir.com",
+        "LuckyFriday": "wss://rpc-coretime-kusama.luckyfriday.io",
+        "Parity": "wss://kusama-coretime-rpc.polkadot.io",
+        "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 1005,
+        "genesisHash": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
+        "addressPrefix": 2,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://coretime-kusama.subscan.io/",
+        "existentialDeposit": "33333333",
+        "symbol": "KSM",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "coretime-kusama",
+        "chainBalanceSlug": "coretime-kusama"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "truth_network": {
+      "slug": "truth_network",
+      "name": "Truth Network Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/truth_network.png",
+      "providers": {
+        "External": "wss://chain-external.truth-network.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xa006eb47d5c9678d9cdc845958e5451217f2c72cf96a50e027df4549fd0111f0",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "http://explorer.truth-network.io/",
+        "existentialDeposit": "0",
+        "symbol": "TRUU",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "tassi_demo": {
+      "slug": "tassi_demo",
+      "name": "Tanssi Demo",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/tassi_demo.png",
+      "providers": {
+        "DanceBox": "https://dancebox-3001.tanssi-api.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 5678,
+        "blockExplorer": "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network/",
+        "existentialDeposit": "0",
+        "symbol": "TANGO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
+    "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
+    "litentry": "cfa60b8a9f018814788014f7a6218bfc",
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
     "fantom": "9716da1fb11126af651fc51d02f27e6f",
     "bittensor": "2ec8adfab96a121541f416d259042ccd",
+    "polimec": "73137758e4b8badba109c0adaa33ccf6",
+    "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
+    "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa",
+    "hyperbridge": "20c65ab0680bdf7b498f0931943279e7",
+    "cere": "1b438710c5c8856f7e1c5524f2f2d0af",
     "g6_testnet": "65f7c3bc2eaf7405d56dba7e6813b751",
+    "sonic": "7d57fe19532178917e12ec84fa167ef4",
     "story_protocol": "ea925e32a717efdc5afc672ad9e05b55",
-    "story_aeneid": "7bb31cc2519db33b4abf21c0768a7164"
+    "story_aeneid": "7bb31cc2519db33b4abf21c0768a7164",
+    "peaq_evm": "3f877c49a73b79810e15baba061a6dea",
+    "polkadot_coretime": "d54f61e15b65f3d0f05d9ee4f3e19f28",
+    "kusama_coretime": "5663718dd0817e0b7e49404117afa485",
+    "truth_network": "4583baaaee0ef961da32bb098a620958",
+    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
   },
   "ChainAsset": {
+    "darwinia2-LOCAL-KTON": {
+      "originChain": "darwinia2",
+      "slug": "darwinia2-LOCAL-KTON",
+      "name": "Darwinia Commitment Token",
+      "symbol": "KTON",
+      "decimals": 18,
+      "priceId": "darwinia-commitment-token",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1026"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/darwinia2-local-kton.png"
+    },
+    "litentry-NATIVE-HEI": {
+      "originChain": "litentry",
+      "slug": "litentry-NATIVE-HEI",
+      "name": "Heima",
+      "symbol": "HEI",
+      "decimals": 18,
+      "priceId": "heima",
+      "minAmount": "100000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/litentry-native-hei.png"
+    },
+    "origintrail-NATIVE-NEURO": {
+      "originChain": "origintrail",
+      "slug": "origintrail-NATIVE-NEURO",
+      "name": "OriginTrail",
+      "symbol": "NEURO",
+      "decimals": 12,
+      "priceId": "neurowebai",
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/origintrail-native-neuro.png"
+    },
+    "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F",
+      "name": "Cougar",
+      "symbol": "CGS",
+      "decimals": 18,
+      "priceId": "cougar-token",
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png"
+    },
+    "shiden-LOCAL-LKSM": {
+      "originChain": "shiden",
+      "slug": "shiden-LOCAL-LKSM",
+      "name": "Liquid KSM",
+      "symbol": "LKSM",
+      "decimals": 12,
+      "priceId": "liquid-ksm",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "18446744073709551619",
+        "assetType": "ForeignAsset"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/shiden-local-lksm.png"
+    },
+    "xcavate-NATIVE-XCAV": {
+      "originChain": "xcavate",
+      "slug": "xcavate-NATIVE-XCAV",
+      "name": "Xcavate",
+      "symbol": "XCAV",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/xcavate-native-xcav.png"
+    },
+    "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4",
+      "name": "Stella stDOT",
+      "symbol": "stDOT",
+      "decimals": 10,
+      "priceId": "stellaswap-staked-dot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png"
+    },
+    "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": {
+      "originChain": "humanodeEvm",
+      "slug": "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802",
+      "name": "Wrapped Humanode",
+      "symbol": "WeHMND",
+      "decimals": 18,
+      "priceId": "wrapped-ehmnd",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0000000000000000000000000000000000000802"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
+    },
+    "dbcchain-LOCAL-DLC": {
+      "originChain": "dbcchain",
+      "slug": "dbcchain-LOCAL-DLC",
+      "name": "DeepLink Coin",
+      "symbol": "DLC",
+      "decimals": 8,
+      "priceId": "deeplink-protocol",
+      "minAmount": "100000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "88"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/dbcchain-local-dlc.png"
+    },
+    "curio-NATIVE-CGT": {
+      "originChain": "curio",
+      "slug": "curio-NATIVE-CGT",
+      "name": "Curio Governance Token",
+      "symbol": "CGT",
+      "decimals": 18,
+      "priceId": "curio-gas-token",
+      "minAmount": "10000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/curio-native-cgt.png"
+    },
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": {
       "originChain": "aleph",
       "slug": "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u",
@@ -316,6 +963,72 @@
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png"
     },
+    "statemint-LOCAL-NCTR": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-NCTR",
+      "name": "Apillon",
+      "symbol": "NCTR",
+      "decimals": 18,
+      "priceId": "apillon",
+      "minAmount": "100000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1024"
+      },
+      "multiChainAsset": "NCTR-Apillon",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-nctr.png"
+    },
+    "moonbeam-LOCAL-xcNCTR": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-LOCAL-xcNCTR",
+      "name": "Apillon",
+      "symbol": "xcNCTR",
+      "decimals": 18,
+      "priceId": "apillon",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "184218609779515850660274730699350567246",
+        "assetType": "ForeignAsset",
+        "contractAddress": "0xFfFFfFfF8A9736B44EbF188972725bED67BF694E"
+      },
+      "multiChainAsset": "NCTR-Apillon",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-local-xcnctr.png"
+    },
+    "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x4200000000000000000000000000000000000006"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png"
+    },
+    "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
+      "originChain": "arbitrum_one",
+      "slug": "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png"
+    },
     "autonomys-NATIVE-AI3": {
       "originChain": "autonomys",
       "slug": "autonomys-NATIVE-AI3",
@@ -329,6 +1042,36 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/autonomys-native-ai3.png"
+    },
+    "sonic-NATIVE-S": {
+      "originChain": "sonic",
+      "slug": "sonic-NATIVE-S",
+      "name": "Sonic",
+      "symbol": "S",
+      "decimals": 18,
+      "priceId": "sonic-3",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/sonic-native-s.png"
+    },
+    "story_protocol-ERC20-USDC.e-0xF1815bd50389c46847f0Bda824eC8da914045D14": {
+      "originChain": "story_protocol",
+      "slug": "story_protocol-ERC20-USDC.e-0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "Stargate Bridged USDC (Story)",
+      "symbol": "USDC.e",
+      "decimals": 6,
+      "priceId": "stargate-bridged-usdc-story",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF1815bd50389c46847f0Bda824eC8da914045D14"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-usdc.e-0xf1815bd50389c46847f0bda824ec8da914045d14.png"
     },
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": {
       "originChain": "ethereum",
@@ -476,6 +1219,38 @@
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png"
     },
+    "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441",
+      "name": "Anzens USDA Stablecoin",
+      "symbol": "USDA",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
+    },
+    "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e",
+      "name": "Minswap",
+      "symbol": "MIN",
+      "decimals": 6,
+      "priceId": "minswap",
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
+    },
     "polimec-LOCAL-USDT": {
       "originChain": "polimec",
       "slug": "polimec-LOCAL-USDT",
@@ -611,11 +1386,381 @@
       "multiChainAsset": "MYTH-Mythos",
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-myth-snowbridge.png"
+    },
+    "peaq_evm-NATIVE-PEAQ": {
+      "originChain": "peaq_evm",
+      "slug": "peaq_evm-NATIVE-PEAQ",
+      "name": "PEAQ",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "priceId": "peaq-2",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/peaq_evm-native-peaq.png"
+    },
+    "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0",
+      "name": "Tensorplex Wrapped TAO",
+      "symbol": "tTAO",
+      "decimals": 9,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png"
+    },
+    "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6",
+      "name": "Tensorplex Staked TAO",
+      "symbol": "stTAO",
+      "decimals": 9,
+      "priceId": "tensorplex-staked-tao",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xB60acD2057067DC9ed8c083f5aa227a244044fD6"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png"
+    },
+    "polkadot_coretime-NATIVE-DOT": {
+      "originChain": "polkadot_coretime",
+      "slug": "polkadot_coretime-NATIVE-DOT",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/polkadot_coretime-native-dot.png"
+    },
+    "kusama_coretime-NATIVE-KSM": {
+      "originChain": "kusama_coretime",
+      "slug": "kusama_coretime-NATIVE-KSM",
+      "name": "Kusama",
+      "symbol": "KSM",
+      "decimals": 12,
+      "priceId": "kusama",
+      "minAmount": "33333333",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/kusama_coretime-native-ksm.png"
+    },
+    "optimism-ERC20-WETH-0x4200000000000000000000000000000000000006": {
+      "originChain": "optimism",
+      "slug": "optimism-ERC20-WETH-0x4200000000000000000000000000000000000006",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x4200000000000000000000000000000000000006"
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/optimism-erc20-weth-0x4200000000000000000000000000000000000006.png"
+    },
+    "truth_network-NATIVE-TRUU": {
+      "originChain": "truth_network",
+      "slug": "truth_network-NATIVE-TRUU",
+      "name": "Truth",
+      "symbol": "TRUU",
+      "decimals": 10,
+      "priceId": "truth",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-native-truu.png"
+    },
+    "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2",
+      "name": "Truth",
+      "symbol": "TRUU",
+      "decimals": 10,
+      "priceId": "truth",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png"
+    },
+    "truth_network-LOCAL-USDC": {
+      "originChain": "truth_network",
+      "slug": "truth_network-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 0
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-local-usdc.png"
+    },
+    "tassi_demo-NATIVE-TANGO": {
+      "originChain": "tassi_demo",
+      "slug": "tassi_demo-NATIVE-TANGO",
+      "name": "Tanssi Demo",
+      "symbol": "TANGO",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/tassi_demo-native-tango.png"
+    },
+    "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E",
+      "name": "GASP",
+      "symbol": "GASP",
+      "decimals": 18,
+      "priceId": "gasp-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png"
+    },
+    "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+      "name": "Heima",
+      "symbol": "HEI",
+      "decimals": 18,
+      "priceId": "heima",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF8F173E20e15f3b6CB686FB64724D370689De083"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+    },
+    "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083",
+      "name": "Heima",
+      "symbol": "HEI",
+      "decimals": 18,
+      "priceId": "heima",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xF8F173E20e15f3b6CB686FB64724D370689De083"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+    },
+    "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588",
+      "name": "LAOS",
+      "symbol": "xcLAOS",
+      "decimals": 18,
+      "priceId": "laos-network",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
+    },
+    "hydradx_main-LOCAL-GDOT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GDOT",
+      "name": "GIGADOT",
+      "symbol": "GDOT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "69"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png"
+    },
+    "statemint-LOCAL-TEER": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-TEER",
+      "name": "Integritee TEER",
+      "symbol": "TEER",
+      "decimals": 12,
+      "priceId": "integritee",
+      "minAmount": "1000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 1,
+          "interior": {
+            "X1": [
+              {
+                "Parachain": 2039
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-teer.png"
+    },
+    "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B",
+      "name": "Integritee TEER",
+      "symbol": "TEER",
+      "decimals": 12,
+      "priceId": "integritee",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x769916A66fDAC0E3D57363129caac59386ea622B"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-teer-0x769916a66fdac0e3d57363129caac59386ea622b.png"
+    },
+    "hydradx_main-LOCAL-LINK": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-LINK",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "priceId": "chainlink",
+      "minAmount": "436681222707424",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000794"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-link.png"
+    },
+    "hydradx_main-LOCAL-SKY": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-SKY",
+      "name": "SKY",
+      "symbol": "SKY",
+      "decimals": 18,
+      "priceId": "sky",
+      "minAmount": "211685012701101000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000795"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-sky.png"
+    },
+    "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": {
+      "originChain": "peaq_evm",
+      "slug": "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B",
+      "name": "Silencio",
+      "symbol": "SLC",
+      "decimals": 18,
+      "priceId": "silencio",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5c3126bfB9A68a7021d461230127470b3824886B"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png"
+    },
+    "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "name": "Particle Network",
+      "symbol": "PARTI",
+      "decimals": 18,
+      "priceId": "particle-network",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x59264f02D301281f3393e1385c0aEFd446Eb0F00"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
+    },
+    "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "name": "Particle Network",
+      "symbol": "PARTI",
+      "decimals": 18,
+      "priceId": "particle-network",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x59264f02D301281f3393e1385c0aEFd446Eb0F00"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
     }
   },
   "ChainAssetHashMap": {
+    "darwinia2-LOCAL-KTON": "14dac6e3aa10b352c1fd377a509309c3",
+    "litentry-NATIVE-HEI": "d2b8d94aa4309c8b14e4e0d0ba602bd5",
+    "origintrail-NATIVE-NEURO": "a03f531092fb0c0881e0dd06c5052249",
+    "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": "03b6eb9fdb5b71b9d3ea49c01a1194d0",
+    "shiden-LOCAL-LKSM": "aac5243115b9118b08c0843ca2f33151",
+    "xcavate-NATIVE-XCAV": "7b87bddecfe7c08427e2476d18934ca0",
+    "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": "ef0ce3cda458d909676a5bbf35cbf66a",
+    "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": "16f595283dd478592c7405eb623a5576",
+    "dbcchain-LOCAL-DLC": "9309ba64ca6969a9dfad9c96e5188b98",
+    "curio-NATIVE-CGT": "34f7d20970e3d21507bf746c21d9530c",
     "aleph-PSP22-WETH-5EoFQd36196Duo6fPTz2MWHXRzwTJcyETHyCyaB3rb61Xo2u": "3615f8b2a4edf9a80886b5c2e37b5a4b",
+    "statemint-LOCAL-NCTR": "5231dc92e519e4af4d0fe678b15f67e9",
+    "moonbeam-LOCAL-xcNCTR": "5105d12fae04f551350a5eed4952a52c",
+    "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006": "5ac2c35b27b691f1bed0e251598c31d9",
+    "arbitrum_one-ERC20-WETH-0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": "79af143c506e10c8540d793264992896",
     "autonomys-NATIVE-AI3": "cb3a161f32b20c844a78a5a404e4bf2d",
+    "sonic-NATIVE-S": "839f21d2ac13494c3a6b915707600a7d",
+    "story_protocol-ERC20-USDC.e-0xF1815bd50389c46847f0Bda824eC8da914045D14": "bc270a5f6cc1fe6eca62bdf555365b42",
     "ethereum-ERC20-aEthWETH-0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8": "04fad7a37f6b9fe6342b4f88f610f21d",
     "ethereum-ERC20-aEthUSDT-0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a": "73fa1beacb7af9ad7b80110577814738",
     "ethereum-ERC20-aEthWBTC-0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8": "1beecadc8b29f5b3e8df335d377120d6",
@@ -625,17 +1770,57 @@
     "acala-LOCAL-LOVA": "2986aa2aee6225704683bd4695e21b5e",
     "hydradx_main-LOCAL-KSM": "d2999a0fa8887bf53186a878eef1e13e",
     "ethereum-ERC20-PEAQ-0x1EeF208926667594E5136e89D0e9DD6907959197": "9f8a9e3db85aa84c962d17a10695b157",
+    "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "80abc9a31313ec6fe62611680f161e14",
+    "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "825a546ebe0865283c8c912dd52a0a60",
     "polimec-LOCAL-USDT": "a5e842f010f8a750fc723525c433de1b",
     "polimec-LOCAL-USDC": "0326784d9649c5cfd9094a3abf0e8dfe",
     "polimec-LOCAL-DOT": "c8010f5d740530fbd4d542e36fb47751",
     "hydradx_main-LOCAL-EWT": "bdbf929db0ee073dd423e9cc98d89b86",
-    "statemint-LOCAL-MYTH-Snowbridge": "b8fdf878c88f224a9cea8fd3466202ef"
+    "statemint-LOCAL-MYTH-Snowbridge": "b8fdf878c88f224a9cea8fd3466202ef",
+    "peaq_evm-NATIVE-PEAQ": "05600197b0040686615f81793be3dc39",
+    "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": "a764e26f024a1235a36019cbf07a527c",
+    "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": "55b2d4e776305317815cfcd9e32548bb",
+    "polkadot_coretime-NATIVE-DOT": "b31b889e86f553a1cd5aa2fa7643029e",
+    "kusama_coretime-NATIVE-KSM": "dc03ad7161d5d64b2fb9855811654c8e",
+    "optimism-ERC20-WETH-0x4200000000000000000000000000000000000006": "b65cb8fde3856723a3f4c4cdd4d22bf9",
+    "truth_network-NATIVE-TRUU": "5c1d76430aef116502a6239dbb35b002",
+    "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": "fe1917920ab4530351d5dbd9501ffca0",
+    "truth_network-LOCAL-USDC": "f98b00a687d8daa95f744b41288881e1",
+    "tassi_demo-NATIVE-TANGO": "b82dd8fb02208098f23a490511960eb4",
+    "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": "62f36a27c357ceb7b4b27cb0c3588cc9",
+    "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "d5ac4f9c6249bcf76fca6c98db95846a",
+    "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "c3e362e9d49cb3591bf612a87a326300",
+    "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2",
+    "hydradx_main-LOCAL-GDOT": "da2f5bc96df5402312cf63ae125f74d6",
+    "statemint-LOCAL-TEER": "e4e86a1f50e0af2bcbbed5c0daa552f2",
+    "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B": "a6fb53a44ee69eedfbc45c4097e424c0",
+    "hydradx_main-LOCAL-LINK": "f03b950a56b91b88b4f2944ff9ceae4c",
+    "hydradx_main-LOCAL-SKY": "8bd24a9364283d505358c1802917dd0a",
+    "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": "def96aad661fb9247ac50d56bc32be73",
+    "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "e67e8461a63a8ac8dcd72b20fac56184",
+    "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "920827dbff823bc3ec1c864a24c97676"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "darwinia2-local-kton": "https://chain-list-assets.subwallet.app/assets/chain-assets/darwinia2-local-kton.png",
+    "litentry-native-hei": "https://chain-list-assets.subwallet.app/assets/chain-assets/litentry-native-hei.png",
+    "origintrail-native-neuro": "https://chain-list-assets.subwallet.app/assets/chain-assets/origintrail-native-neuro.png",
+    "moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png",
+    "shiden-local-lksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/shiden-local-lksm.png",
+    "xcavate-native-xcav": "https://chain-list-assets.subwallet.app/assets/chain-assets/xcavate-native-xcav.png",
+    "moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png",
+    "humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802": "https://chain-list-assets.subwallet.app/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png",
+    "dbcchain-local-dlc": "https://chain-list-assets.subwallet.app/assets/chain-assets/dbcchain-local-dlc.png",
+    "curio-native-cgt": "https://chain-list-assets.subwallet.app/assets/chain-assets/curio-native-cgt.png",
     "aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u": "https://chain-list-assets.subwallet.app/assets/chain-assets/aleph-psp22-weth-5eofqd36196duo6fptz2mwhxrzwtjcyethycyab3rb61xo2u.png",
+    "statemint-local-nctr": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-nctr.png",
+    "moonbeam-local-xcnctr": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-local-xcnctr.png",
+    "base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-weth-0x4200000000000000000000000000000000000006.png",
+    "arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1": "https://chain-list-assets.subwallet.app/assets/chain-assets/arbitrum_one-erc20-weth-0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png",
     "autonomys-native-ai3": "https://chain-list-assets.subwallet.app/assets/chain-assets/autonomys-native-ai3.png",
+    "sonic-native-s": "https://chain-list-assets.subwallet.app/assets/chain-assets/sonic-native-s.png",
+    "story_protocol-erc20-usdc.e-0xf1815bd50389c46847f0bda824ec8da914045d14": "https://chain-list-assets.subwallet.app/assets/chain-assets/story_protocol-erc20-usdc.e-0xf1815bd50389c46847f0bda824ec8da914045d14.png",
     "ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethweth-0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8.png",
     "ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethusdt-0x23878914efe38d27c4d67ab83ed1b93a74d4086a.png",
     "ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-aethwbtc-0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8.png",
@@ -645,21 +1830,58 @@
     "acala-local-lova": "https://chain-list-assets.subwallet.app/assets/chain-assets/acala-local-lova.png",
     "hydradx_main-local-ksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ksm.png",
     "ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-peaq-0x1eef208926667594e5136e89d0e9dd6907959197.png",
+    "cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "https://chain-list-assets.subwallet.app/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png",
+    "cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "https://chain-list-assets.subwallet.app/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png",
     "polimec-local-usdt": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-usdt.png",
     "polimec-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-usdc.png",
     "polimec-local-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/polimec-local-dot.png",
     "hydradx_main-local-ewt": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-ewt.png",
-    "statemint-local-myth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-myth-snowbridge.png"
+    "statemint-local-myth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-myth-snowbridge.png",
+    "peaq_evm-native-peaq": "https://chain-list-assets.subwallet.app/assets/chain-assets/peaq_evm-native-peaq.png",
+    "ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png",
+    "ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png",
+    "polkadot_coretime-native-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/polkadot_coretime-native-dot.png",
+    "kusama_coretime-native-ksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/kusama_coretime-native-ksm.png",
+    "optimism-erc20-weth-0x4200000000000000000000000000000000000006": "https://chain-list-assets.subwallet.app/assets/chain-assets/optimism-erc20-weth-0x4200000000000000000000000000000000000006.png",
+    "truth_network-native-truu": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-native-truu.png",
+    "ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png",
+    "truth_network-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-local-usdc.png",
+    "tassi_demo-native-tango": "https://chain-list-assets.subwallet.app/assets/chain-assets/tassi_demo-native-tango.png",
+    "ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png",
+    "ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png",
+    "hydradx_main-local-gdot": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png",
+    "statemint-local-teer": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-teer.png",
+    "ethereum-erc20-teer-0x769916a66fdac0e3d57363129caac59386ea622b": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-teer-0x769916a66fdac0e3d57363129caac59386ea622b.png",
+    "hydradx_main-local-link": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-link.png",
+    "hydradx_main-local-sky": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-sky.png",
+    "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://chain-list-assets.subwallet.app/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png",
+    "binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
+    "base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
   },
   "ChainLogoMap": {
     "calamari": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
+    "picasso": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png",
     "litmus": "https://chain-list-assets.subwallet.app/assets/chains/litmus.png",
+    "litentry": "https://chain-list-assets.subwallet.app/assets/chains/litentry.png",
     "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
     "fantom": "https://chain-list-assets.subwallet.app/assets/chains/fantom.png",
     "bittensor": "https://chain-list-assets.subwallet.app/assets/chains/bittensor.png",
+    "polimec": "https://chain-list-assets.subwallet.app/assets/chains/polimec.png",
+    "xcavate": "https://chain-list-assets.subwallet.app/assets/chains/xcavate.png",
+    "astarZkEvm": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png",
+    "hyperbridge": "https://chain-list-assets.subwallet.app/assets/chains/hyperbridge.png",
+    "cere": "https://chain-list-assets.subwallet.app/assets/chains/cere.png",
     "g6_testnet": "https://chain-list-assets.subwallet.app/assets/chains/g6_testnet.png",
+    "sonic": "https://chain-list-assets.subwallet.app/assets/chains/sonic.png",
     "story_protocol": "https://chain-list-assets.subwallet.app/assets/chains/story_protocol.png",
-    "story_aeneid": "https://chain-list-assets.subwallet.app/assets/chains/story_aeneid.png"
+    "story_aeneid": "https://chain-list-assets.subwallet.app/assets/chains/story_aeneid.png",
+    "peaq_evm": "https://chain-list-assets.subwallet.app/assets/chains/peaq_evm.png",
+    "polkadot_coretime": "https://chain-list-assets.subwallet.app/assets/chains/polkadot_coretime.png",
+    "kusama_coretime": "https://chain-list-assets.subwallet.app/assets/chains/kusama_coretime.png",
+    "truth_network": "https://chain-list-assets.subwallet.app/assets/chains/truth_network.png",
+    "tassi_demo": "https://chain-list-assets.subwallet.app/assets/chains/tassi_demo.png"
   },
   "mAssetLogoMap": {}
 }
