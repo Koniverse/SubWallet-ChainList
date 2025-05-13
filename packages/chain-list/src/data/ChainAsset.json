@@ -16029,5 +16029,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
+  },
+  "zora-NATIVE-ETH": {
+    "originChain": "zora",
+    "slug": "zora-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zora-native-eth.png"
   }
 }
