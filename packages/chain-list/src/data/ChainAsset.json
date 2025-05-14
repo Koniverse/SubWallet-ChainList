@@ -16030,6 +16030,72 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
   },
+  "statemint-LOCAL-USDC-Snowbridge": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-USDC-Snowbridge",
+    "name": "USDC-Snowbridge",
+    "symbol": "USDC-Snowbridge",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X2": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 1
+                }
+              }
+            },
+            {
+              "AccountKey20": {
+                "key": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "network": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdc-snowbridge.png"
+  },
+  "statemint-LOCAL-ETH-Snowbridge": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-ETH-Snowbridge",
+    "name": "ETH-Snowbridge",
+    "symbol": "ETH-Snowbridge",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "15000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X1": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-eth-snowbridge.png"
+  },
   "zora-NATIVE-ETH": {
     "originChain": "zora",
     "slug": "zora-NATIVE-ETH",
@@ -16043,5 +16109,113 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zora-native-eth.png"
+  },
+  "statemint-LOCAL-USDT-Snowbridge": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-USDT-Snowbridge",
+    "name": "USDT-Snowbridge",
+    "symbol": "USDT-Snowbridge",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X2": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 1
+                }
+              }
+            },
+            {
+              "AccountKey20": {
+                "key": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "network": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdt-snowbridge.png"
+  },
+  "statemint-LOCAL-WBTC-Snowbridge": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-WBTC-Snowbridge",
+    "name": "WBTC-Snowbridge",
+    "symbol": "WBTC-Snowbridge",
+    "decimals": 8,
+    "priceId": "wrapped-bitcoin",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X2": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 1
+                }
+              }
+            },
+            {
+              "AccountKey20": {
+                "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "network": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wbtc-snowbridge.png"
+  },
+  "statemint-LOCAL-WETH-Snowbridge": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-WETH-Snowbridge",
+    "name": "WETH-Snowbridge",
+    "symbol": "WETH-Snowbridge",
+    "decimals": 18,
+    "priceId": "weth",
+    "minAmount": "15000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X2": [
+            {
+              "GlobalConsensus": {
+                "Ethereum": {
+                  "chainId": 1
+                }
+              }
+            },
+            {
+              "AccountKey20": {
+                "key": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "network": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "WETH-WrappedEther",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-weth-snowbridge.png"
   }
 }
