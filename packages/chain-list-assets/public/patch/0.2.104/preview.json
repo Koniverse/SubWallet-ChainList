@@ -1,8 +1,55 @@
 {
-  "patchVersion": "0.2.105-beta.8",
+  "patchVersion": "0.2.105-beta.9",
   "appliedVersion": "0.2.104",
-  "timestamp": 1747127374325,
+  "timestamp": 1747220324812,
   "ChainInfo": {
+    "turing": {
+      "slug": "turing",
+      "name": "Turing",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turing.png",
+      "providers": {
+        "Dwellir": "wss://turing-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2114,
+        "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+        "addressPrefix": 51,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://turing.subscan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "TUR",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2114-68",
+            "paraId": 2114,
+            "status": "won",
+            "startTime": "2022-04-06T04:27:00.000Z",
+            "endTime": "2023-03-08T04:27:00.000Z",
+            "auctionIndex": 30,
+            "firstPeriod": 20,
+            "lastPeriod": 27
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "turing",
+        "chainBalanceSlug": "turing"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "xcavate": {
       "slug": "xcavate",
       "name": "Xcavate",
@@ -91,6 +138,7 @@
     }
   },
   "ChainInfoHashMap": {
+    "turing": "5632c5c8a59cdee1092484a71b97dada",
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
     "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
     "zora": "95870dec21bd3295daffac346e77e0e9"
@@ -232,6 +280,72 @@
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
     },
+    "statemint-LOCAL-USDC-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-USDC-Snowbridge",
+      "name": "USDC-Snowbridge",
+      "symbol": "USDC-Snowbridge",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdc-snowbridge.png"
+    },
+    "statemint-LOCAL-ETH-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-ETH-Snowbridge",
+      "name": "ETH-Snowbridge",
+      "symbol": "ETH-Snowbridge",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "15000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X1": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-eth-snowbridge.png"
+    },
     "zora-NATIVE-ETH": {
       "originChain": "zora",
       "slug": "zora-NATIVE-ETH",
@@ -245,6 +359,114 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zora-native-eth.png"
+    },
+    "statemint-LOCAL-USDT-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-USDT-Snowbridge",
+      "name": "USDT-Snowbridge",
+      "symbol": "USDT-Snowbridge",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdt-snowbridge.png"
+    },
+    "statemint-LOCAL-WBTC-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WBTC-Snowbridge",
+      "name": "WBTC-Snowbridge",
+      "symbol": "WBTC-Snowbridge",
+      "decimals": 8,
+      "priceId": "wrapped-bitcoin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "WBTC-WrappedBTC",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wbtc-snowbridge.png"
+    },
+    "statemint-LOCAL-WETH-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WETH-Snowbridge",
+      "name": "WETH-Snowbridge",
+      "symbol": "WETH-Snowbridge",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "15000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-weth-snowbridge.png"
     }
   },
   "ChainAssetHashMap": {
@@ -256,7 +478,12 @@
     "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": "def96aad661fb9247ac50d56bc32be73",
     "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "e67e8461a63a8ac8dcd72b20fac56184",
     "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "920827dbff823bc3ec1c864a24c97676",
-    "zora-NATIVE-ETH": "e77761f5f5cc093aebf62ec83cf35f08"
+    "statemint-LOCAL-USDC-Snowbridge": "e0115d43455221bb9e482973ffc67304",
+    "statemint-LOCAL-ETH-Snowbridge": "098a36ef12e3b068d5f4307854e0b0a2",
+    "zora-NATIVE-ETH": "e77761f5f5cc093aebf62ec83cf35f08",
+    "statemint-LOCAL-USDT-Snowbridge": "397cdfa49c834372a8bb453a5441c70a",
+    "statemint-LOCAL-WBTC-Snowbridge": "7bf9abd509ccad08326e667004bcb682",
+    "statemint-LOCAL-WETH-Snowbridge": "d6b72e567a9f50eb738b617022c2c516"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -269,9 +496,15 @@
     "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png",
     "binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
     "base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
-    "zora-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zora-native-eth.png"
+    "statemint-local-usdc-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdc-snowbridge.png",
+    "statemint-local-eth-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-eth-snowbridge.png",
+    "zora-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zora-native-eth.png",
+    "statemint-local-usdt-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdt-snowbridge.png",
+    "statemint-local-wbtc-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wbtc-snowbridge.png",
+    "statemint-local-weth-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-weth-snowbridge.png"
   },
   "ChainLogoMap": {
+    "turing": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turing.png",
     "xcavate": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
     "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
     "zora": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zora.png"
