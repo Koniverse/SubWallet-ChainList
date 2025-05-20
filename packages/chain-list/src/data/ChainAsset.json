@@ -16231,5 +16231,39 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot-native-dot.png"
+  },
+  "statemint-LOCAL-MPC": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-MPC",
+    "name": "My Pacman Coin",
+    "symbol": "MPC",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "50000103",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-mpc.png"
+  },
+  "statemint-LOCAL-DON": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-DON",
+    "name": "Paydon Utility Token",
+    "symbol": "DON",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "50000111",
+      "autoEnable": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-don.png"
   }
 }
