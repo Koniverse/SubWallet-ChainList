@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.105-beta.9",
+  "patchVersion": "0.2.105-beta.10",
   "appliedVersion": "0.2.104",
-  "timestamp": 1747220324812,
+  "timestamp": 1747729591582,
   "ChainInfo": {
     "turing": {
       "slug": "turing",
@@ -135,13 +135,41 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "redstone": {
+      "slug": "redstone",
+      "name": "Redstone",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Redstone": "https://rpc.redstonechain.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 690,
+        "blockExplorer": "https://explorer.redstone.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "turing": "5632c5c8a59cdee1092484a71b97dada",
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
     "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
-    "zora": "95870dec21bd3295daffac346e77e0e9"
+    "zora": "95870dec21bd3295daffac346e77e0e9",
+    "redstone": "a21413ff431f875deb348d211478c27a"
   },
   "ChainAsset": {
     "xcavate-NATIVE-XCAV": {
@@ -467,6 +495,20 @@
       "multiChainAsset": "WETH-WrappedEther",
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-weth-snowbridge.png"
+    },
+    "redstone-NATIVE-ETH": {
+      "originChain": "redstone",
+      "slug": "redstone-NATIVE-ETH",
+      "name": "Redstone",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
     }
   },
   "ChainAssetHashMap": {
@@ -483,7 +525,8 @@
     "zora-NATIVE-ETH": "e77761f5f5cc093aebf62ec83cf35f08",
     "statemint-LOCAL-USDT-Snowbridge": "397cdfa49c834372a8bb453a5441c70a",
     "statemint-LOCAL-WBTC-Snowbridge": "7bf9abd509ccad08326e667004bcb682",
-    "statemint-LOCAL-WETH-Snowbridge": "d6b72e567a9f50eb738b617022c2c516"
+    "statemint-LOCAL-WETH-Snowbridge": "d6b72e567a9f50eb738b617022c2c516",
+    "redstone-NATIVE-ETH": "4cb4d80abf198c36f7e00f0e079e7e31"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -501,13 +544,15 @@
     "zora-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zora-native-eth.png",
     "statemint-local-usdt-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-usdt-snowbridge.png",
     "statemint-local-wbtc-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wbtc-snowbridge.png",
-    "statemint-local-weth-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-weth-snowbridge.png"
+    "statemint-local-weth-snowbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-weth-snowbridge.png",
+    "redstone-native-eth": null
   },
   "ChainLogoMap": {
     "turing": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turing.png",
     "xcavate": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/xcavate.png",
     "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
-    "zora": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zora.png"
+    "zora": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zora.png",
+    "redstone": null
   },
   "mAssetLogoMap": {}
 }
