@@ -16238,7 +16238,7 @@
     "name": "My Pacman Coin",
     "symbol": "MPC",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "my-paqman-coin",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
@@ -16255,7 +16255,7 @@
     "name": "Paydon Utility Token",
     "symbol": "DON",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "paydon",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
