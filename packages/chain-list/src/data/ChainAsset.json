@@ -2364,7 +2364,10 @@
     "priceId": "kusama",
     "minAmount": "33333333",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "paraSpellValue": "KSM",
+      "paraSpellAssetType": "symbol"
+    },
     "multiChainAsset": "KSM-Kusama",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/encointer-native-ksm.png"
@@ -6451,7 +6454,10 @@
     "priceId": "polkadot",
     "minAmount": "1000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
+    },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bridgehubpolkadot-native-dot.png"
@@ -13075,7 +13081,10 @@
     "priceId": "polkadot",
     "minAmount": "1000000000",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol"
+    },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_people-native-dot.png"
