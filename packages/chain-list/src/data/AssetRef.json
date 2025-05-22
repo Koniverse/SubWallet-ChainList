@@ -139,6 +139,34 @@
     "destChain": "optimism",
     "path": "XCM"
   },
+  "integritee-NATIVE-TEER___karura-LOCAL-TEER": {
+    "srcAsset": "integritee-NATIVE-TEER",
+    "destAsset": "karura-LOCAL-TEER",
+    "srcChain": "integritee",
+    "destChain": "karura",
+    "path": "XCM"
+  },
+  "integritee-NATIVE-TEER___moonriver-LOCAL-xcTEER": {
+    "srcAsset": "integritee-NATIVE-TEER",
+    "destAsset": "moonriver-LOCAL-xcTEER",
+    "srcChain": "integritee",
+    "destChain": "moonriver",
+    "path": "XCM"
+  },
+  "integritee-NATIVE-TEER___basilisk-LOCAL-TEER": {
+    "srcAsset": "integritee-NATIVE-TEER",
+    "destAsset": "basilisk-LOCAL-TEER",
+    "srcChain": "integritee",
+    "destChain": "basilisk",
+    "path": "XCM"
+  },
+  "integritee-NATIVE-TEER___bifrost-LOCAL-TEER": {
+    "srcAsset": "integritee-NATIVE-TEER",
+    "destAsset": "bifrost-LOCAL-TEER",
+    "srcChain": "integritee",
+    "destChain": "bifrost",
+    "path": "XCM"
+  },
   "astar-NATIVE-ASTR___acala-LOCAL-ASTR": {
     "srcAsset": "astar-NATIVE-ASTR",
     "destAsset": "acala-LOCAL-ASTR",
