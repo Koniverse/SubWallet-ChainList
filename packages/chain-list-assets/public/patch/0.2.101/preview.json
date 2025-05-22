@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.105-beta.5",
+  "patchVersion": "0.2.105-beta.14",
   "appliedVersion": "0.2.101",
-  "timestamp": 1746604727816,
+  "timestamp": 1747913187856,
   "ChainInfo": {
     "calamari": {
       "slug": "calamari",
@@ -45,6 +45,57 @@
       "extraInfo": {
         "subscanSlug": "calamari",
         "chainBalanceSlug": "calamari"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hydradx_main": {
+      "slug": "hydradx_main",
+      "name": "Hydration",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_main.png",
+      "providers": {
+        "Galactic Council": "wss://rpc.hydradx.cloud",
+        "Helikon": "wss://rpc.helikon.io/hydradx",
+        "Dwellir 2": "wss://hydration-rpc.n.dwellir.com",
+        "IBP1": "wss://hydration.ibp.network",
+        "IBP2": "wss://hydration.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2034,
+        "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://loan.hydradx.io/",
+        "blockExplorer": "https://hydration.subscan.io/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2034-25",
+            "paraId": 2034,
+            "status": "won",
+            "startTime": "2022-03-15T01:48:00.000Z",
+            "endTime": "2024-01-16T01:48:00.000Z",
+            "auctionIndex": 9,
+            "firstPeriod": 7,
+            "lastPeriod": 14
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "hydration",
+        "chainBalanceSlug": "hydradx"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -772,6 +823,7 @@
   },
   "ChainInfoHashMap": {
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
+    "hydradx_main": "d4b23e56281f95b1cf06cd587b622df7",
     "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
     "litentry": "cfa60b8a9f018814788014f7a6218bfc",
@@ -1862,6 +1914,7 @@
   },
   "ChainLogoMap": {
     "calamari": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/calamari.png",
+    "hydradx_main": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_main.png",
     "picasso": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
     "litmus": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litmus.png",
     "litentry": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/litentry.png",
