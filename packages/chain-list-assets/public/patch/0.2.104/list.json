@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.105-beta.9",
+  "patchVersion": "0.2.105-beta.14",
   "appliedVersion": "0.2.104",
-  "timestamp": 1747220324812,
+  "timestamp": 1747898676576,
   "ChainInfo": {
     "turing": {
       "slug": "turing",
@@ -45,6 +45,57 @@
       "extraInfo": {
         "subscanSlug": "turing",
         "chainBalanceSlug": "turing"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hydradx_main": {
+      "slug": "hydradx_main",
+      "name": "Hydration",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_main.png",
+      "providers": {
+        "Galactic Council": "wss://rpc.hydradx.cloud",
+        "Helikon": "wss://rpc.helikon.io/hydradx",
+        "Dwellir 2": "wss://hydration-rpc.n.dwellir.com",
+        "IBP1": "wss://hydration.ibp.network",
+        "IBP2": "wss://hydration.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2034,
+        "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://loan.hydradx.io/",
+        "blockExplorer": "https://hydration.subscan.io/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2034-25",
+            "paraId": 2034,
+            "status": "won",
+            "startTime": "2022-03-15T01:48:00.000Z",
+            "endTime": "2024-01-16T01:48:00.000Z",
+            "auctionIndex": 9,
+            "firstPeriod": 7,
+            "lastPeriod": 14
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "hydration",
+        "chainBalanceSlug": "hydradx"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -139,6 +190,7 @@
   },
   "ChainInfoHashMap": {
     "turing": "5632c5c8a59cdee1092484a71b97dada",
+    "hydradx_main": "d4b23e56281f95b1cf06cd587b622df7",
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
     "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
     "zora": "95870dec21bd3295daffac346e77e0e9"
@@ -505,6 +557,7 @@
   },
   "ChainLogoMap": {
     "turing": "https://chain-list-assets.subwallet.app/assets/chains/turing.png",
+    "hydradx_main": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_main.png",
     "xcavate": "https://chain-list-assets.subwallet.app/assets/chains/xcavate.png",
     "tassi_demo": "https://chain-list-assets.subwallet.app/assets/chains/tassi_demo.png",
     "zora": "https://chain-list-assets.subwallet.app/assets/chains/zora.png"
