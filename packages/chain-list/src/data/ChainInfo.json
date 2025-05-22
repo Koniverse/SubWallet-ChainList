@@ -1747,7 +1747,7 @@
       "relaySlug": "polkadot",
       "paraId": 2034,
       "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-      "addressPrefix": 63,
+      "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://loan.hydradx.io/",
       "blockExplorer": "https://hydration.subscan.io/",
@@ -12176,33 +12176,6 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
-  "redstone": {
-    "slug": "redstone",
-    "name": "Redstone",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": null,
-    "providers": {
-      "Redstone": "https://rpc.redstonechain.com/"
-    },
-    "evmInfo": {
-      "evmChainId": 690,
-      "blockExplorer": "https://explorer.redstone.xyz/",
-      "existentialDeposit": "0",
-      "symbol": "ETH",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
-    "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
