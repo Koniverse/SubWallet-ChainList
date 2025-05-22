@@ -12151,10 +12151,10 @@
   },
   "chainflip_assethub": {
     "slug": "chainflip_assethub",
-    "name": "Chainflip AH",
+    "name": "Polkadot Asset Hub Chainflip Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/statemint.png",
+    "icon": null,
     "providers": {
       "Chainflip": "wss://assethub.perseverance.chainflip.io/ws"
     },
