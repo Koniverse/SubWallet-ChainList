@@ -158,6 +158,36 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "tscs": {
+    "slug": "tscs",
+    "name": "TSCS Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/tscs.png",
+    "providers": {
+      "SuperEx": "https://testnetrpc.scschain.com"
+    },
+    "evmInfo": {
+      "evmChainId": 1969,
+      "blockExplorer": "https://testnetscan.scschain.com/",
+      "existentialDeposit": "0",
+      "symbol": "TSCS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "tscs"
+    },
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "moonbeam": {
     "slug": "moonbeam",
     "name": "Moonbeam",
