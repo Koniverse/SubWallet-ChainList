@@ -16336,5 +16336,39 @@
     "multiChainAsset": "WBTC-WrappedBTC",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+  },
+  "jamton-LOCAL-WUD": {
+    "originChain": "jamton",
+    "slug": "jamton-LOCAL-WUD",
+    "name": "Gavun Wud",
+    "symbol": "WUD",
+    "decimals": 10,
+    "priceId": "gavun-wud",
+    "minAmount": "10000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": "1"
+      },
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 31337
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "WUD-GavunWud",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-local-wud.png"
   }
 }
