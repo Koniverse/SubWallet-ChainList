@@ -16273,18 +16273,68 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdc.png"
   },
-  "paseo_assethub-NATIVE-PAS": {
-    "originChain": "paseo_assethub",
-    "slug": "paseo_assethub-NATIVE-PAS",
-    "name": "Paseo Testnet",
-    "symbol": "PAS",
-    "decimals": 10,
-    "priceId": null,
-    "minAmount": "100000000",
-    "assetType": "NATIVE",
-    "metadata": null,
+  "statemint-LOCAL-MPC": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-MPC",
+    "name": "My Paqman Coin",
+    "symbol": "MPC",
+    "decimals": 12,
+    "priceId": "my-paqman-coin",
+    "minAmount": "1000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "50000103"
+    },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-mpc.png"
+  },
+  "statemint-LOCAL-DON": {
+    "originChain": "statemint",
+    "slug": "statemint-LOCAL-DON",
+    "name": "Paydon",
+    "symbol": "DON",
+    "decimals": 12,
+    "priceId": "paydon",
+    "minAmount": "1000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "50000111"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-don.png"
+  },
+  "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35.png"
+  },
+  "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+    "originChain": "soneium",
+    "slug": "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "wrapped-bitcoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+    },
+    "multiChainAsset": "WBTC-WrappedBTC",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
   }
 }

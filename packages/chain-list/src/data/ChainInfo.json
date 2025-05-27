@@ -3937,7 +3937,7 @@
     "slug": "imbue_network",
     "name": "Imbue Kusama",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/imbue_network.png",
     "providers": {
       "Imbue": "wss://kusama.imbuenetwork.com"
@@ -6158,6 +6158,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png",
     "providers": {
+      "Vara": "wss://rpc.vara-network.io",
       "Vara Network": "wss://rpc.vara.network",
       "BlastApi": "wss://vara-mainnet.public.blastapi.io"
     },
