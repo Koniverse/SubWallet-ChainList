@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.105-beta.14",
+  "patchVersion": "0.2.105-beta.18",
   "appliedVersion": "0.2.104",
-  "timestamp": 1747898676576,
+  "timestamp": 1748330481202,
   "ChainInfo": {
     "turing": {
       "slug": "turing",
@@ -101,6 +101,50 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "imbue_network": {
+      "slug": "imbue_network",
+      "name": "Imbue Kusama",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/imbue_network.png",
+      "providers": {
+        "Imbue": "wss://kusama.imbuenetwork.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2121,
+        "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000",
+        "symbol": "IMBU",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2121-79",
+            "paraId": 2121,
+            "status": "won",
+            "startTime": "2022-06-29T04:27:00.000Z",
+            "endTime": "2023-05-31T04:27:00.000Z",
+            "auctionIndex": 40,
+            "firstPeriod": 22,
+            "lastPeriod": 29
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "xcavate": {
       "slug": "xcavate",
       "name": "Xcavate",
@@ -191,6 +235,7 @@
   "ChainInfoHashMap": {
     "turing": "5632c5c8a59cdee1092484a71b97dada",
     "hydradx_main": "d4b23e56281f95b1cf06cd587b622df7",
+    "imbue_network": "8d30149c732711a62bddf75711283e1b",
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
     "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
     "zora": "95870dec21bd3295daffac346e77e0e9"
@@ -519,6 +564,70 @@
       "multiChainAsset": "WETH-WrappedEther",
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-weth-snowbridge.png"
+    },
+    "statemint-LOCAL-MPC": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-MPC",
+      "name": "My Paqman Coin",
+      "symbol": "MPC",
+      "decimals": 12,
+      "priceId": "my-paqman-coin",
+      "minAmount": "1000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "50000103"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-mpc.png"
+    },
+    "statemint-LOCAL-DON": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-DON",
+      "name": "Paydon",
+      "symbol": "DON",
+      "decimals": 12,
+      "priceId": "paydon",
+      "minAmount": "1000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "50000111"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-don.png"
+    },
+    "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35.png"
+    },
+    "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "priceId": "wrapped-bitcoin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+      },
+      "multiChainAsset": "WBTC-WrappedBTC",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
     }
   },
   "ChainAssetHashMap": {
@@ -535,7 +644,11 @@
     "zora-NATIVE-ETH": "e77761f5f5cc093aebf62ec83cf35f08",
     "statemint-LOCAL-USDT-Snowbridge": "397cdfa49c834372a8bb453a5441c70a",
     "statemint-LOCAL-WBTC-Snowbridge": "7bf9abd509ccad08326e667004bcb682",
-    "statemint-LOCAL-WETH-Snowbridge": "d6b72e567a9f50eb738b617022c2c516"
+    "statemint-LOCAL-WETH-Snowbridge": "d6b72e567a9f50eb738b617022c2c516",
+    "statemint-LOCAL-MPC": "1803cc46ef6da3c274bec943ab109d1b",
+    "statemint-LOCAL-DON": "2ce4577a43c95002ead5e350e12d6d7f",
+    "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35": "c5d298839dbd7e08f94071b39eaa78a1",
+    "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": "be3d216d940542a0ea049b1e80008397"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -553,11 +666,16 @@
     "zora-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/zora-native-eth.png",
     "statemint-local-usdt-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-usdt-snowbridge.png",
     "statemint-local-wbtc-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-wbtc-snowbridge.png",
-    "statemint-local-weth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-weth-snowbridge.png"
+    "statemint-local-weth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-weth-snowbridge.png",
+    "statemint-local-mpc": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-mpc.png",
+    "statemint-local-don": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-don.png",
+    "soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35.png",
+    "soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
   },
   "ChainLogoMap": {
     "turing": "https://chain-list-assets.subwallet.app/assets/chains/turing.png",
     "hydradx_main": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_main.png",
+    "imbue_network": "https://chain-list-assets.subwallet.app/assets/chains/imbue_network.png",
     "xcavate": "https://chain-list-assets.subwallet.app/assets/chains/xcavate.png",
     "tassi_demo": "https://chain-list-assets.subwallet.app/assets/chains/tassi_demo.png",
     "zora": "https://chain-list-assets.subwallet.app/assets/chains/zora.png"
