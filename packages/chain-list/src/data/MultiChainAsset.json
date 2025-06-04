@@ -961,5 +961,14 @@
     "priceId": "particle-network",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/parti-particlenetwork.png"
+  },
+  "DOT-ChainflipDOT": {
+    "slug": "DOT-ChainflipDOT",
+    "originChainAsset": "chainflip_dot-NATIVE-DOT",
+    "name": "Chainflip DOT",
+    "symbol": "DOT",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/multi-chain-assets/dot-chainflipdot.png"
   }
 }
