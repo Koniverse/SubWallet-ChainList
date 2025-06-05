@@ -1153,7 +1153,7 @@
     "slug": "turingStaging",
     "name": "Turing Staging",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turingstaging.png",
     "providers": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
@@ -2072,7 +2072,7 @@
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/odyssey.png",
     "providers": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
@@ -4826,7 +4826,7 @@
     "slug": "watr_network",
     "name": "Watr Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_network.png",
     "providers": {
       "watr": "wss://rpc.dev.watr.org"
@@ -5166,7 +5166,7 @@
     "slug": "bitgreen",
     "name": "Bitgreen",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitgreen.png",
     "providers": {
       "viaBitgreen": "wss://mainnet.bitgreen.org"
@@ -5233,7 +5233,7 @@
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hashednetwork.png",
     "providers": {
       "Hashed Systems 1": "wss://c1.hashed.network"
@@ -5651,7 +5651,7 @@
     "slug": "dockPosMainnet",
     "name": "Dock",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dockposmainnet.png",
     "providers": {
       "Dock Association": "wss://mainnet-node.dock.io"
@@ -6159,8 +6159,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/vara_network.png",
     "providers": {
       "Vara": "wss://rpc.vara-network.io",
-      "Vara Network": "wss://rpc.vara.network",
-      "BlastApi": "wss://vara-mainnet.public.blastapi.io"
+      "Vara Network": "wss://rpc.vara.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7616,7 +7615,7 @@
     "slug": "watr_mainnet",
     "name": "Watr Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_mainnet.png",
     "providers": {
       "Watr": "wss://watr-rpc.watr-api.network"

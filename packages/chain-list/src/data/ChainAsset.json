@@ -8683,7 +8683,7 @@
     "name": "Lerna",
     "symbol": "H2O",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "h2o-2",
     "minAmount": "400000000",
     "assetType": "LOCAL",
     "metadata": {
@@ -15910,7 +15910,7 @@
     "name": "GIGADOT",
     "symbol": "GDOT",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "gigadot",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
