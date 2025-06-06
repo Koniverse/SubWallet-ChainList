@@ -1,0 +1,320 @@
+{
+  "patchVersion": "0.2.106-beta.2",
+  "appliedVersion": "0.2.105",
+  "timestamp": 1749183547158,
+  "ChainInfo": {
+    "turingStaging": {
+      "slug": "turingStaging",
+      "name": "Turing Staging",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png",
+      "providers": {
+        "Turing": "wss://rpc.turing-staging.oak.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2114,
+        "genesisHash": "0xd54f0988402deb4548538626ce37e4a318441ea0529ca369400ebec4e04dfe4b",
+        "addressPrefix": 51,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000",
+        "symbol": "TUR",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "odyssey": {
+      "slug": "odyssey",
+      "name": "Ares Odyssey",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png",
+      "providers": {
+        "AresProtocol": "wss://odyssey.aresprotocol.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x0f3665e2e57fb38fd638145b69e567fb05bbadfd457624f90f15e5dbb31320bb",
+        "addressPrefix": 34,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "ARES",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "watr_network": {
+      "slug": "watr_network",
+      "name": "Watr Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png",
+      "providers": {
+        "watr": "wss://rpc.dev.watr.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2058,
+        "genesisHash": "0x25895f66e42429d148d5bdabcf6e16996f7b0d6c171e771e302c291ba94e13f2",
+        "addressPrefix": 19,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "WATRD",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "bitgreen": {
+      "slug": "bitgreen",
+      "name": "Bitgreen",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png",
+      "providers": {
+        "viaBitgreen": "wss://mainnet.bitgreen.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2048,
+        "genesisHash": "0xc14597baeccb232d662770d2d50ae832ca8c3192693d2b0814e6433f2888ddd6",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "BBB",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hashedNetwork": {
+      "slug": "hashedNetwork",
+      "name": "Hashed Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png",
+      "providers": {
+        "Hashed Systems 1": "wss://c1.hashed.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2093,
+        "genesisHash": "0xdce5477cfca571c2cb652f38bbb70429004be3cf9649dd2b4ad9455b2251fe43",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "HASH",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2093-58",
+            "paraId": 2093,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 40,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          },
+          {
+            "relayChain": "polkadot",
+            "fundId": "2093-54",
+            "paraId": 2093,
+            "status": "failed",
+            "startTime": "2022-11-22T01:48:00.000Z",
+            "endTime": "2024-09-24T01:48:00.000Z",
+            "auctionIndex": 34,
+            "firstPeriod": 10,
+            "lastPeriod": 17
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "dockPosMainnet": {
+      "slug": "dockPosMainnet",
+      "name": "Dock",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/dockposmainnet.png",
+      "providers": {
+        "Dock Association": "wss://mainnet-node.dock.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x6bfe24dca2a3be10f22212678ac13a6446ec764103c0f3471c71609eac384aae",
+        "addressPrefix": 22,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://dock.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "DOCK",
+        "decimals": 6,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "dock",
+        "chainBalanceSlug": "dock-pos"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "watr_mainnet": {
+      "slug": "watr_mainnet",
+      "name": "Watr Mainnet",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/watr_mainnet.png",
+      "providers": {
+        "Watr": "wss://watr-rpc.watr-api.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2058,
+        "genesisHash": "0x161db6cdc5896fe55ef12b4778fe78dd65d7af43f65c601786b88d7a93ebc58a",
+        "addressPrefix": 19,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "WATR",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "turingStaging": "5e934def36091b6fa0914950ce0cd8eb",
+    "odyssey": "47ae8b7b2b7a182ec6d43a31b0e6b9c1",
+    "watr_network": "bbe2a762e3ed33c9e69245854d469a46",
+    "bitgreen": "cab3a859ee66752e6773a08535668a9b",
+    "hashedNetwork": "012516223424deaffa83dafb64223d91",
+    "dockPosMainnet": "41af99472cc1199d81e3cc65a8fec1fd",
+    "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157"
+  },
+  "ChainAsset": {
+    "hydradx_main-LOCAL-H2O": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-H2O",
+      "name": "Lerna",
+      "symbol": "H2O",
+      "decimals": 12,
+      "priceId": "h2o-2",
+      "minAmount": "400000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-h2o.png"
+    },
+    "hydradx_main-LOCAL-GDOT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GDOT",
+      "name": "GIGADOT",
+      "symbol": "GDOT",
+      "decimals": 18,
+      "priceId": "gigadot",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "69"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
+    "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "hydradx_main-local-h2o": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-h2o.png",
+    "hydradx_main-local-gdot": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png"
+  },
+  "ChainLogoMap": {
+    "turingStaging": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png",
+    "odyssey": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png",
+    "watr_network": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png",
+    "bitgreen": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png",
+    "hashedNetwork": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png",
+    "dockPosMainnet": "https://chain-list-assets.subwallet.app/assets/chains/dockposmainnet.png",
+    "watr_mainnet": "https://chain-list-assets.subwallet.app/assets/chains/watr_mainnet.png"
+  },
+  "mAssetLogoMap": {}
+}
