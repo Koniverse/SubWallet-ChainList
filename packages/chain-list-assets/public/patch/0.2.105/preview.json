@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.106-beta.1",
   "appliedVersion": "0.2.105",
-  "timestamp": 1749122891269,
+  "timestamp": 1749182200224,
   "ChainInfo": {
     "turingStaging": {
       "slug": "turingStaging",
@@ -297,20 +297,6 @@
     "chainflip_assethub": "9d4b95752ed2283b90ee64b4e1981c13"
   },
   "ChainAsset": {
-    "chainflip_dot-NATIVE-DOT": {
-      "originChain": "chainflip_dot",
-      "slug": "chainflip_dot-NATIVE-DOT",
-      "name": "Polkadot Chainflip Testnet",
-      "symbol": "DOT",
-      "decimals": 10,
-      "priceId": null,
-      "minAmount": "10000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": "DOT-ChainflipDOT",
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_dot-native-dot.png"
-    },
     "hydradx_main-LOCAL-H2O": {
       "originChain": "hydradx_main",
       "slug": "hydradx_main-LOCAL-H2O",
@@ -353,7 +339,7 @@
       "minAmount": "100000000",
       "assetType": "NATIVE",
       "metadata": null,
-      "multiChainAsset": "DOT-ChainflipDOT",
+      "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png"
     },
@@ -391,17 +377,15 @@
     }
   },
   "ChainAssetHashMap": {
-    "chainflip_dot-NATIVE-DOT": "5c0e54d519202cc9ca9c5209bb17b248",
     "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
     "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84",
-    "chainflip_assethub-NATIVE-DOT": "bfb33f6df9e41beead0faa4565cf699c",
+    "chainflip_assethub-NATIVE-DOT": "363206a91b684f545264c9ec4f43d8f3",
     "chainflip_assethub-LOCAL-USDT": "9a6dd8ad8657f9d9771f8ca062ba3c69",
     "chainflip_assethub-LOCAL-USDC": "8c674c7bf5e3c7632acd2e4bdbffe687"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "chainflip_dot-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_dot-native-dot.png",
     "hydradx_main-local-h2o": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png",
     "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png",
     "chainflip_assethub-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png",
