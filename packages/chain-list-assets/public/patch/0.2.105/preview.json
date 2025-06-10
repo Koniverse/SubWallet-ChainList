@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.106-beta.2",
+  "patchVersion": "0.2.106-beta.3",
   "appliedVersion": "0.2.105",
-  "timestamp": 1749183547158,
+  "timestamp": 1749545902860,
   "ChainInfo": {
     "turingStaging": {
       "slug": "turingStaging",
@@ -252,6 +252,38 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "chainflip_assethub": {
+      "slug": "chainflip_assethub",
+      "name": "Polkadot Asset Hub Chainflip Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_assethub.png",
+      "providers": {
+        "Chainflip": "wss://assethub.perseverance.chainflip.io/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 1000,
+        "genesisHash": "0x4fb7a1b11ba4a38827cf211b3effc87971413e4a9fd79c6bcc2c633383496832",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000",
+        "symbol": "DOT",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -261,7 +293,8 @@
     "bitgreen": "cab3a859ee66752e6773a08535668a9b",
     "hashedNetwork": "012516223424deaffa83dafb64223d91",
     "dockPosMainnet": "41af99472cc1199d81e3cc65a8fec1fd",
-    "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157"
+    "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157",
+    "chainflip_assethub": "9d4b95752ed2283b90ee64b4e1981c13"
   },
   "ChainAsset": {
     "hydradx_main-LOCAL-H2O": {
@@ -295,17 +328,69 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png"
+    },
+    "chainflip_assethub-NATIVE-DOT": {
+      "originChain": "chainflip_assethub",
+      "slug": "chainflip_assethub-NATIVE-DOT",
+      "name": "Chainflip DOT",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": null,
+      "minAmount": "100000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png"
+    },
+    "chainflip_assethub-LOCAL-USDT": {
+      "originChain": "chainflip_assethub",
+      "slug": "chainflip_assethub-LOCAL-USDT",
+      "name": "Chainflip USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1984"
+      },
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdt.png"
+    },
+    "chainflip_assethub-LOCAL-USDC": {
+      "originChain": "chainflip_assethub",
+      "slug": "chainflip_assethub-LOCAL-USDC",
+      "name": "Chainflip USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1337"
+      },
+      "multiChainAsset": "USDC-USDCSepolia",
+      "hasValue": false,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdc.png"
     }
   },
   "ChainAssetHashMap": {
     "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
-    "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84"
+    "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84",
+    "chainflip_assethub-NATIVE-DOT": "363206a91b684f545264c9ec4f43d8f3",
+    "chainflip_assethub-LOCAL-USDT": "9a6dd8ad8657f9d9771f8ca062ba3c69",
+    "chainflip_assethub-LOCAL-USDC": "8c674c7bf5e3c7632acd2e4bdbffe687"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "hydradx_main-local-h2o": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png",
-    "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png"
+    "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png",
+    "chainflip_assethub-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png",
+    "chainflip_assethub-local-usdt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdt.png",
+    "chainflip_assethub-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdc.png"
   },
   "ChainLogoMap": {
     "turingStaging": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/turingstaging.png",
@@ -314,7 +399,8 @@
     "bitgreen": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitgreen.png",
     "hashedNetwork": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hashednetwork.png",
     "dockPosMainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dockposmainnet.png",
-    "watr_mainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_mainnet.png"
+    "watr_mainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_mainnet.png",
+    "chainflip_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_assethub.png"
   },
   "mAssetLogoMap": {}
 }
