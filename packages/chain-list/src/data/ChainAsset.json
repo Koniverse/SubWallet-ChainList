@@ -16373,19 +16373,5 @@
     "multiChainAsset": "WUD-GavunWud",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/jamton-local-wud.png"
-  },
-  "paseo_assethub-NATIVE-PAS": {
-    "originChain": "paseo_assethub",
-    "slug": "paseo_assethub-NATIVE-PAS",
-    "name": "Paseo Testnet",
-    "symbol": "PAS",
-    "decimals": 10,
-    "priceId": null,
-    "minAmount": "100000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": null
   }
 }

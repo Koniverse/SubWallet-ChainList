@@ -48,20 +48,6 @@
     "destChain": "manta_network",
     "path": "XCM"
   },
-  "polkadot-NATIVE-DOT___polkadot_people-NATIVE-DOT": {
-    "srcAsset": "polkadot-NATIVE-DOT",
-    "destAsset": "polkadot_people-NATIVE-DOT",
-    "srcChain": "polkadot",
-    "destChain": "polkadot_people",
-    "path": "XCM"
-  },
-  "polkadot-NATIVE-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "polkadot-NATIVE-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "polkadot",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -104,18 +90,25 @@
     "destChain": "amplitude",
     "path": "XCM"
   },
-  "kusama-NATIVE-KSM___encointer-NATIVE-KSM": {
-    "srcAsset": "kusama-NATIVE-KSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "kusama",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
   "ethereum-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
     "srcAsset": "ethereum-NATIVE-ETH",
     "destAsset": "arbitrum_one-NATIVE-ETH",
     "srcChain": "ethereum",
     "destChain": "arbitrum_one",
+    "path": "XCM"
+  },
+  "ethereum-NATIVE-ETH___polygonZkEvm-NATIVE-ETH": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygonZkEvm-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "polygonZkEvm",
+    "path": "XCM"
+  },
+  "ethereum-NATIVE-ETH___polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "srcChain": "ethereum",
+    "destChain": "polygon",
     "path": "XCM"
   },
   "ethereum-NATIVE-ETH___base_mainnet-NATIVE-ETH": {
@@ -130,6 +123,13 @@
     "destAsset": "optimism-NATIVE-ETH",
     "srcChain": "ethereum",
     "destChain": "optimism",
+    "path": "XCM"
+  },
+  "pioneer-NATIVE-NEER___karura-LOCAL-NEER": {
+    "srcAsset": "pioneer-NATIVE-NEER",
+    "destAsset": "karura-LOCAL-NEER",
+    "srcChain": "pioneer",
+    "destChain": "karura",
     "path": "XCM"
   },
   "astar-NATIVE-ASTR___acala-LOCAL-ASTR": {
@@ -158,55 +158,6 @@
     "destAsset": "statemine-LOCAL-DOT",
     "srcChain": "statemint",
     "destChain": "statemine",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___acala-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "acala-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "statemint",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___astar-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "astar-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "statemint",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___bifrost_dot-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "bifrost_dot-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "statemint-NATIVE-DOT___manta_network-LOCAL-DOT": {
-    "srcAsset": "statemint-NATIVE-DOT",
-    "destAsset": "manta_network-LOCAL-DOT",
-    "srcChain": "statemint",
-    "destChain": "manta_network",
     "path": "XCM"
   },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
@@ -265,55 +216,6 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
-  "acala-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "acala",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "acala-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "acala",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "acala-LOCAL-DOT___astar-LOCAL-DOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "astar-LOCAL-DOT",
-    "srcChain": "acala",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "acala-LOCAL-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "acala",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "acala-LOCAL-DOT___bifrost_dot-LOCAL-DOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "bifrost_dot-LOCAL-DOT",
-    "srcChain": "acala",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "acala-LOCAL-DOT___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "acala",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "acala-LOCAL-DOT___manta_network-LOCAL-DOT": {
-    "srcAsset": "acala-LOCAL-DOT",
-    "destAsset": "manta_network-LOCAL-DOT",
-    "srcChain": "acala",
-    "destChain": "manta_network",
-    "path": "XCM"
-  },
   "acala-LOCAL-GLMR___moonbeam-NATIVE-GLMR": {
     "srcAsset": "acala-LOCAL-GLMR",
     "destAsset": "moonbeam-NATIVE-GLMR",
@@ -328,34 +230,6 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "acala-LOCAL-USDT___astar-LOCAL-USDT": {
-    "srcAsset": "acala-LOCAL-USDT",
-    "destAsset": "astar-LOCAL-USDT",
-    "srcChain": "acala",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "acala-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
-    "srcAsset": "acala-LOCAL-USDT",
-    "destAsset": "bifrost_dot-LOCAL-USDT",
-    "srcChain": "acala",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "acala-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
-    "srcAsset": "acala-LOCAL-USDT",
-    "destAsset": "hydradx_main-LOCAL-USDT",
-    "srcChain": "acala",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "acala-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
-    "srcAsset": "acala-LOCAL-USDT",
-    "destAsset": "moonbeam-LOCAL-xcUSDT",
-    "srcChain": "acala",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
   "moonbeam-LOCAL-xcDOT___polkadot-NATIVE-DOT": {
     "srcAsset": "moonbeam-LOCAL-xcDOT",
     "destAsset": "polkadot-NATIVE-DOT",
@@ -368,48 +242,6 @@
     "destAsset": "manta_network-LOCAL-DOT",
     "srcChain": "moonbeam",
     "destChain": "manta_network",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___statemint-NATIVE-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___acala-LOCAL-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "acala-LOCAL-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___astar-LOCAL-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "astar-LOCAL-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___bifrost_dot-LOCAL-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "bifrost_dot-LOCAL-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "moonbeam-LOCAL-xcDOT___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "moonbeam-LOCAL-xcDOT",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "moonbeam",
-    "destChain": "hydradx_main",
     "path": "XCM"
   },
   "ethereum-ERC20-WETH-0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2___statemint-LOCAL-WETH": {
@@ -447,55 +279,6 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
-  "astar-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "astar",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "astar-LOCAL-DOT___acala-LOCAL-DOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "acala-LOCAL-DOT",
-    "srcChain": "astar",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "astar-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "astar",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "astar-LOCAL-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "astar",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "astar-LOCAL-DOT___bifrost_dot-LOCAL-DOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "bifrost_dot-LOCAL-DOT",
-    "srcChain": "astar",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "astar-LOCAL-DOT___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "astar",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "astar-LOCAL-DOT___manta_network-LOCAL-DOT": {
-    "srcAsset": "astar-LOCAL-DOT",
-    "destAsset": "manta_network-LOCAL-DOT",
-    "srcChain": "astar",
-    "destChain": "manta_network",
-    "path": "XCM"
-  },
   "astar-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "astar-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -503,39 +286,18 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "astar-LOCAL-USDT___acala-LOCAL-USDT": {
-    "srcAsset": "astar-LOCAL-USDT",
-    "destAsset": "acala-LOCAL-USDT",
-    "srcChain": "astar",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "astar-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
-    "srcAsset": "astar-LOCAL-USDT",
-    "destAsset": "bifrost_dot-LOCAL-USDT",
-    "srcChain": "astar",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "astar-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
-    "srcAsset": "astar-LOCAL-USDT",
-    "destAsset": "hydradx_main-LOCAL-USDT",
-    "srcChain": "astar",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "astar-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
-    "srcAsset": "astar-LOCAL-USDT",
-    "destAsset": "moonbeam-LOCAL-xcUSDT",
-    "srcChain": "astar",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
   "westend-NATIVE-WND___westend_assethub-NATIVE-WND": {
     "srcAsset": "westend-NATIVE-WND",
     "destAsset": "westend_assethub-NATIVE-WND",
     "srcChain": "westend",
     "destChain": "westend_assethub",
+    "path": "XCM"
+  },
+  "rococo-NATIVE-ROC___hydradx_rococo-NATIVE-HDX": {
+    "srcAsset": "rococo-NATIVE-ROC",
+    "destAsset": "hydradx_rococo-NATIVE-HDX",
+    "srcChain": "rococo",
+    "destChain": "hydradx_rococo",
     "path": "XCM"
   },
   "rococo-NATIVE-ROC___rococo_assethub-NATIVE-ROC": {
@@ -552,34 +314,6 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "bifrost_dot-LOCAL-USDT___acala-LOCAL-USDT": {
-    "srcAsset": "bifrost_dot-LOCAL-USDT",
-    "destAsset": "acala-LOCAL-USDT",
-    "srcChain": "bifrost_dot",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-USDT___astar-LOCAL-USDT": {
-    "srcAsset": "bifrost_dot-LOCAL-USDT",
-    "destAsset": "astar-LOCAL-USDT",
-    "srcChain": "bifrost_dot",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-USDT___hydradx_main-LOCAL-USDT": {
-    "srcAsset": "bifrost_dot-LOCAL-USDT",
-    "destAsset": "hydradx_main-LOCAL-USDT",
-    "srcChain": "bifrost_dot",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
-    "srcAsset": "bifrost_dot-LOCAL-USDT",
-    "destAsset": "moonbeam-LOCAL-xcUSDT",
-    "srcChain": "bifrost_dot",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
   "hydradx_main-LOCAL-USDT___statemint-LOCAL-USDt": {
     "srcAsset": "hydradx_main-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
@@ -587,88 +321,11 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "hydradx_main-LOCAL-USDT___acala-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT",
-    "destAsset": "acala-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT___astar-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT",
-    "destAsset": "astar-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT___bifrost_dot-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT",
-    "destAsset": "bifrost_dot-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT",
-    "destAsset": "moonbeam-LOCAL-xcUSDT",
-    "srcChain": "hydradx_main",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
   "centrifuge-NATIVE-CFG___hydradx_main-LOCAL-CFG": {
     "srcAsset": "centrifuge-NATIVE-CFG",
     "destAsset": "hydradx_main-LOCAL-CFG",
     "srcChain": "centrifuge",
     "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "amplitude",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___statemine-NATIVE-KSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "statemine-NATIVE-KSM",
-    "srcChain": "amplitude",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___encointer-NATIVE-KSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "amplitude",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___moonriver-LOCAL-xcKSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "moonriver-LOCAL-xcKSM",
-    "srcChain": "amplitude",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___shiden-LOCAL-KSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "shiden-LOCAL-KSM",
-    "srcChain": "amplitude",
-    "destChain": "shiden",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___karura-LOCAL-KSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "karura-LOCAL-KSM",
-    "srcChain": "amplitude",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-KSM___bifrost-LOCAL-KSM": {
-    "srcAsset": "amplitude-LOCAL-KSM",
-    "destAsset": "bifrost-LOCAL-KSM",
-    "srcChain": "amplitude",
-    "destChain": "bifrost",
     "path": "XCM"
   },
   "statemine-NATIVE-KSM___kusama-NATIVE-KSM": {
@@ -683,76 +340,6 @@
     "destAsset": "statemint-LOCAL-KSM",
     "srcChain": "statemine",
     "destChain": "statemint",
-    "path": "XCM"
-  },
-  "statemine-NATIVE-KSM___encointer-NATIVE-KSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "statemine",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
-  "statemine-NATIVE-KSM___moonriver-LOCAL-xcKSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "moonriver-LOCAL-xcKSM",
-    "srcChain": "statemine",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
-  "statemine-NATIVE-KSM___shiden-LOCAL-KSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "shiden-LOCAL-KSM",
-    "srcChain": "statemine",
-    "destChain": "shiden",
-    "path": "XCM"
-  },
-  "statemine-NATIVE-KSM___karura-LOCAL-KSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "karura-LOCAL-KSM",
-    "srcChain": "statemine",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "statemine-NATIVE-KSM___bifrost-LOCAL-KSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "bifrost-LOCAL-KSM",
-    "srcChain": "statemine",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "statemine-NATIVE-KSM___amplitude-LOCAL-KSM": {
-    "srcAsset": "statemine-NATIVE-KSM",
-    "destAsset": "amplitude-LOCAL-KSM",
-    "srcChain": "statemine",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "kintsugi-LOCAL-USDT___statemine-LOCAL-USDt": {
-    "srcAsset": "kintsugi-LOCAL-USDT",
-    "destAsset": "statemine-LOCAL-USDt",
-    "srcChain": "kintsugi",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "kintsugi-LOCAL-USDT___amplitude-LOCAL-USDT": {
-    "srcAsset": "kintsugi-LOCAL-USDT",
-    "destAsset": "amplitude-LOCAL-USDT",
-    "srcChain": "kintsugi",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "kintsugi-LOCAL-USDT___karura-LOCAL-USDT": {
-    "srcAsset": "kintsugi-LOCAL-USDT",
-    "destAsset": "karura-LOCAL-USDT",
-    "srcChain": "kintsugi",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "encointer-NATIVE-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "encointer-NATIVE-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "encointer",
-    "destChain": "kusama",
     "path": "XCM"
   },
   "statemint-LOCAL-USDt___moonbeam-LOCAL-xcUSDT": {
@@ -790,153 +377,6 @@
     "destChain": "acala",
     "path": "XCM"
   },
-  "moonriver-LOCAL-xcKSM___kusama-NATIVE-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "moonriver",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___statemine-NATIVE-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "statemine-NATIVE-KSM",
-    "srcChain": "moonriver",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___encointer-NATIVE-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "moonriver",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___shiden-LOCAL-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "shiden-LOCAL-KSM",
-    "srcChain": "moonriver",
-    "destChain": "shiden",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___karura-LOCAL-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "karura-LOCAL-KSM",
-    "srcChain": "moonriver",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___bifrost-LOCAL-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "bifrost-LOCAL-KSM",
-    "srcChain": "moonriver",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "moonriver-LOCAL-xcKSM___amplitude-LOCAL-KSM": {
-    "srcAsset": "moonriver-LOCAL-xcKSM",
-    "destAsset": "amplitude-LOCAL-KSM",
-    "srcChain": "moonriver",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "shiden",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___statemine-NATIVE-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "statemine-NATIVE-KSM",
-    "srcChain": "shiden",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___encointer-NATIVE-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "shiden",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___moonriver-LOCAL-xcKSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "moonriver-LOCAL-xcKSM",
-    "srcChain": "shiden",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___karura-LOCAL-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "karura-LOCAL-KSM",
-    "srcChain": "shiden",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___bifrost-LOCAL-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "bifrost-LOCAL-KSM",
-    "srcChain": "shiden",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "shiden-LOCAL-KSM___amplitude-LOCAL-KSM": {
-    "srcAsset": "shiden-LOCAL-KSM",
-    "destAsset": "amplitude-LOCAL-KSM",
-    "srcChain": "shiden",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___kusama-NATIVE-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "kusama-NATIVE-KSM",
-    "srcChain": "karura",
-    "destChain": "kusama",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___statemine-NATIVE-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "statemine-NATIVE-KSM",
-    "srcChain": "karura",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___encointer-NATIVE-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "karura",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___moonriver-LOCAL-xcKSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "moonriver-LOCAL-xcKSM",
-    "srcChain": "karura",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___shiden-LOCAL-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "shiden-LOCAL-KSM",
-    "srcChain": "karura",
-    "destChain": "shiden",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___bifrost-LOCAL-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "bifrost-LOCAL-KSM",
-    "srcChain": "karura",
-    "destChain": "bifrost",
-    "path": "XCM"
-  },
-  "karura-LOCAL-KSM___amplitude-LOCAL-KSM": {
-    "srcAsset": "karura-LOCAL-KSM",
-    "destAsset": "amplitude-LOCAL-KSM",
-    "srcChain": "karura",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
   "bifrost-LOCAL-KSM___kusama-NATIVE-KSM": {
     "srcAsset": "bifrost-LOCAL-KSM",
     "destAsset": "kusama-NATIVE-KSM",
@@ -944,67 +384,11 @@
     "destChain": "kusama",
     "path": "XCM"
   },
-  "bifrost-LOCAL-KSM___statemine-NATIVE-KSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "statemine-NATIVE-KSM",
-    "srcChain": "bifrost",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "bifrost-LOCAL-KSM___encointer-NATIVE-KSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "encointer-NATIVE-KSM",
-    "srcChain": "bifrost",
-    "destChain": "encointer",
-    "path": "XCM"
-  },
-  "bifrost-LOCAL-KSM___moonriver-LOCAL-xcKSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "moonriver-LOCAL-xcKSM",
-    "srcChain": "bifrost",
-    "destChain": "moonriver",
-    "path": "XCM"
-  },
-  "bifrost-LOCAL-KSM___shiden-LOCAL-KSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "shiden-LOCAL-KSM",
-    "srcChain": "bifrost",
-    "destChain": "shiden",
-    "path": "XCM"
-  },
-  "bifrost-LOCAL-KSM___karura-LOCAL-KSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "karura-LOCAL-KSM",
-    "srcChain": "bifrost",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "bifrost-LOCAL-KSM___amplitude-LOCAL-KSM": {
-    "srcAsset": "bifrost-LOCAL-KSM",
-    "destAsset": "amplitude-LOCAL-KSM",
-    "srcChain": "bifrost",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "statemine-LOCAL-USDt___kintsugi-LOCAL-USDT": {
-    "srcAsset": "statemine-LOCAL-USDt",
-    "destAsset": "kintsugi-LOCAL-USDT",
-    "srcChain": "statemine",
-    "destChain": "kintsugi",
-    "path": "XCM"
-  },
-  "statemine-LOCAL-USDt___amplitude-LOCAL-USDT": {
-    "srcAsset": "statemine-LOCAL-USDt",
-    "destAsset": "amplitude-LOCAL-USDT",
-    "srcChain": "statemine",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "statemine-LOCAL-USDt___karura-LOCAL-USDT": {
-    "srcAsset": "statemine-LOCAL-USDt",
-    "destAsset": "karura-LOCAL-USDT",
-    "srcChain": "statemine",
-    "destChain": "karura",
+  "moonbeam-LOCAL-xcUSDT___statemint-LOCAL-USDt": {
+    "srcAsset": "moonbeam-LOCAL-xcUSDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "moonbeam",
+    "destChain": "statemint",
     "path": "XCM"
   },
   "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48___base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913": {
@@ -1012,13 +396,6 @@
     "destAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "srcChain": "ethereum",
     "destChain": "base_mainnet",
-    "path": "XCM"
-  },
-  "bridgeHubPolkadot-NATIVE-DOT___polkadot-NATIVE-DOT": {
-    "srcAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "destAsset": "polkadot-NATIVE-DOT",
-    "srcChain": "bridgeHubPolkadot",
-    "destChain": "polkadot",
     "path": "XCM"
   },
   "base_mainnet-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
@@ -1049,116 +426,11 @@
     "destChain": "polkadot",
     "path": "XCM"
   },
-  "bifrost_dot-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-DOT___acala-LOCAL-DOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "acala-LOCAL-DOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-DOT___astar-LOCAL-DOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "astar-LOCAL-DOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-DOT___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "bifrost_dot-LOCAL-DOT___manta_network-LOCAL-DOT": {
-    "srcAsset": "bifrost_dot-LOCAL-DOT",
-    "destAsset": "manta_network-LOCAL-DOT",
-    "srcChain": "bifrost_dot",
-    "destChain": "manta_network",
-    "path": "XCM"
-  },
   "hydradx_main-LOCAL-DOT___polkadot-NATIVE-DOT": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "polkadot-NATIVE-DOT",
     "srcChain": "hydradx_main",
     "destChain": "polkadot",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___acala-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "acala-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___interlay-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "interlay-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "interlay",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___astar-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "astar-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "moonbeam-LOCAL-xcDOT",
-    "srcChain": "hydradx_main",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___bifrost_dot-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "bifrost_dot-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-DOT___manta_network-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "manta_network-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "manta_network",
     "path": "XCM"
   },
   "statemint-LOCAL-USDC___hydradx_main-LOCAL-USDC": {
@@ -1168,39 +440,11 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDC___centrifuge-LOCAL-USDC": {
-    "srcAsset": "statemint-LOCAL-USDC",
-    "destAsset": "centrifuge-LOCAL-USDC",
-    "srcChain": "statemint",
-    "destChain": "centrifuge",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-USDC___moonbeam-LOCAL-xcUSDC": {
-    "srcAsset": "statemint-LOCAL-USDC",
-    "destAsset": "moonbeam-LOCAL-xcUSDC",
-    "srcChain": "statemint",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
     "srcAsset": "hydradx_main-LOCAL-USDC",
     "destAsset": "statemint-LOCAL-USDC",
     "srcChain": "hydradx_main",
     "destChain": "statemint",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC___centrifuge-LOCAL-USDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC",
-    "destAsset": "centrifuge-LOCAL-USDC",
-    "srcChain": "hydradx_main",
-    "destChain": "centrifuge",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC___moonbeam-LOCAL-xcUSDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC",
-    "destAsset": "moonbeam-LOCAL-xcUSDC",
-    "srcChain": "hydradx_main",
-    "destChain": "moonbeam",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-CFG___centrifuge-NATIVE-CFG": {
@@ -1236,48 +480,6 @@
     "destAsset": "moonbeam-LOCAL-xcDOT",
     "srcChain": "manta_network",
     "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___statemint-NATIVE-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "statemint-NATIVE-DOT",
-    "srcChain": "manta_network",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___acala-LOCAL-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "acala-LOCAL-DOT",
-    "srcChain": "manta_network",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___astar-LOCAL-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "astar-LOCAL-DOT",
-    "srcChain": "manta_network",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___bridgeHubPolkadot-NATIVE-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "bridgeHubPolkadot-NATIVE-DOT",
-    "srcChain": "manta_network",
-    "destChain": "bridgeHubPolkadot",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___bifrost_dot-LOCAL-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "bifrost_dot-LOCAL-DOT",
-    "srcChain": "manta_network",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___hydradx_main-LOCAL-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "hydradx_main-LOCAL-DOT",
-    "srcChain": "manta_network",
-    "destChain": "hydradx_main",
     "path": "XCM"
   },
   "moonbeam-LOCAL-xcMANTA___manta_network-NATIVE-MANTA": {
@@ -1343,125 +545,6 @@
     "destChain": "base_sepolia",
     "path": "XCM"
   },
-  "hydradx_main-LOCAL-USDC-21___statemint-LOCAL-USDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "statemint-LOCAL-USDC",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___hydradx_main-LOCAL-USDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "hydradx_main-LOCAL-USDC",
-    "srcChain": "hydradx_main",
-    "destChain": "hydradx_main",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___acala-LOCAL-USDCet": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "acala-LOCAL-USDCet",
-    "srcChain": "hydradx_main",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___centrifuge-LOCAL-USDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "centrifuge-LOCAL-USDC",
-    "srcChain": "hydradx_main",
-    "destChain": "centrifuge",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___moonbeam-LOCAL-xcUSDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "moonbeam-LOCAL-xcUSDC",
-    "srcChain": "hydradx_main",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___amplitude-LOCAL-USDC.s": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "amplitude-LOCAL-USDC.s",
-    "srcChain": "hydradx_main",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___karura-LOCAL-USDCet": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "karura-LOCAL-USDCet",
-    "srcChain": "hydradx_main",
-    "destChain": "karura",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___acala-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "acala-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "acala",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___astar-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "astar-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "astar",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___bifrost_dot-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "bifrost_dot-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___parallel-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "parallel-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "parallel",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___kintsugi-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "kintsugi-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "kintsugi",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___statemint-LOCAL-USDt": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "statemint-LOCAL-USDt",
-    "srcChain": "hydradx_main",
-    "destChain": "statemint",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___moonbeam-LOCAL-xcUSDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "moonbeam-LOCAL-xcUSDT",
-    "srcChain": "hydradx_main",
-    "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___statemine-LOCAL-USDt": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "statemine-LOCAL-USDt",
-    "srcChain": "hydradx_main",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___amplitude-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "amplitude-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___karura-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "karura-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "karura",
-    "path": "XCM"
-  },
   "mythos-NATIVE-MYTH___hydradx_main-LOCAL-MYTH": {
     "srcAsset": "mythos-NATIVE-MYTH",
     "destAsset": "hydradx_main-LOCAL-MYTH",
@@ -1469,25 +552,18 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "amplitude-LOCAL-USDT___kintsugi-LOCAL-USDT": {
-    "srcAsset": "amplitude-LOCAL-USDT",
-    "destAsset": "kintsugi-LOCAL-USDT",
-    "srcChain": "amplitude",
-    "destChain": "kintsugi",
+  "availTuringTest-NATIVE-AVAIL___sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
+    "srcAsset": "availTuringTest-NATIVE-AVAIL",
+    "destAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "srcChain": "availTuringTest",
+    "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
-  "amplitude-LOCAL-USDT___statemine-LOCAL-USDt": {
-    "srcAsset": "amplitude-LOCAL-USDT",
-    "destAsset": "statemine-LOCAL-USDt",
-    "srcChain": "amplitude",
-    "destChain": "statemine",
-    "path": "XCM"
-  },
-  "amplitude-LOCAL-USDT___karura-LOCAL-USDT": {
-    "srcAsset": "amplitude-LOCAL-USDT",
-    "destAsset": "karura-LOCAL-USDT",
-    "srcChain": "amplitude",
-    "destChain": "karura",
+  "avail_mainnet-NATIVE-AVAIL___ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8": {
+    "srcAsset": "avail_mainnet-NATIVE-AVAIL",
+    "destAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "srcChain": "avail_mainnet",
+    "destChain": "ethereum",
     "path": "XCM"
   },
   "statemint-LOCAL-KSM___statemine-NATIVE-KSM": {
@@ -1525,6 +601,13 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
+  "statemint-LOCAL-MYTH___ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003": {
+    "srcAsset": "statemint-LOCAL-MYTH",
+    "destAsset": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "statemint-LOCAL-MYTH___mythos-NATIVE-MYTH": {
     "srcAsset": "statemint-LOCAL-MYTH",
     "destAsset": "mythos-NATIVE-MYTH",
@@ -1539,25 +622,39 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
-  "karura-LOCAL-USDT___kintsugi-LOCAL-USDT": {
-    "srcAsset": "karura-LOCAL-USDT",
-    "destAsset": "kintsugi-LOCAL-USDT",
-    "srcChain": "karura",
-    "destChain": "kintsugi",
+  "statemint-LOCAL-SHIB___ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+    "srcAsset": "statemint-LOCAL-SHIB",
+    "destAsset": "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
     "path": "XCM"
   },
-  "karura-LOCAL-USDT___statemine-LOCAL-USDt": {
-    "srcAsset": "karura-LOCAL-USDT",
-    "destAsset": "statemine-LOCAL-USDt",
-    "srcChain": "karura",
-    "destChain": "statemine",
+  "statemint-LOCAL-PEPE___ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933": {
+    "srcAsset": "statemint-LOCAL-PEPE",
+    "destAsset": "ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
     "path": "XCM"
   },
-  "karura-LOCAL-USDT___amplitude-LOCAL-USDT": {
-    "srcAsset": "karura-LOCAL-USDT",
-    "destAsset": "amplitude-LOCAL-USDT",
-    "srcChain": "karura",
-    "destChain": "amplitude",
+  "statemint-LOCAL-TON___ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
+    "srcAsset": "statemint-LOCAL-TON",
+    "destAsset": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-wstETH___ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+    "srcAsset": "statemint-LOCAL-wstETH",
+    "destAsset": "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-tBTC___ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88": {
+    "srcAsset": "statemint-LOCAL-tBTC",
+    "destAsset": "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-MYTH___mythos-NATIVE-MYTH": {
@@ -1565,6 +662,20 @@
     "destAsset": "mythos-NATIVE-MYTH",
     "srcChain": "hydradx_main",
     "destChain": "mythos",
+    "path": "XCM"
+  },
+  "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8___avail_mainnet-NATIVE-AVAIL": {
+    "srcAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "destAsset": "avail_mainnet-NATIVE-AVAIL",
+    "srcChain": "ethereum",
+    "destChain": "avail_mainnet",
+    "path": "XCM"
+  },
+  "polygonZkEvm-NATIVE-ETH___ethereum-NATIVE-ETH": {
+    "srcAsset": "polygonZkEvm-NATIVE-ETH",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "polygonZkEvm",
+    "destChain": "ethereum",
     "path": "XCM"
   },
   "base_sepolia-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
@@ -1581,18 +692,18 @@
     "destChain": "arbitrum_sepolia",
     "path": "XCM"
   },
-  "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
-    "srcAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
-    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
-    "srcChain": "base_sepolia",
-    "destChain": "arbitrum_sepolia",
-    "path": "XCM"
-  },
   "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e___sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238": {
     "srcAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
     "destAsset": "sepolia_ethereum-ERC20-USDC-0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
     "srcChain": "base_sepolia",
     "destChain": "sepolia_ethereum",
+    "path": "XCM"
+  },
+  "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e___arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d": {
+    "srcAsset": "base_sepolia-ERC20-USDC-0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+    "destAsset": "arbitrum_sepolia-ERC20-USDC-0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+    "srcChain": "base_sepolia",
+    "destChain": "arbitrum_sepolia",
     "path": "XCM"
   },
   "arbitrum_sepolia-NATIVE-ETH___base_sepolia-NATIVE-ETH": {
@@ -1614,6 +725,13 @@
     "destAsset": "arbitrum_sepolia-NATIVE-ETH",
     "srcChain": "base_sepolia",
     "destChain": "arbitrum_sepolia",
+    "path": "XCM"
+  },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
     "path": "XCM"
   },
   "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006___ethereum-NATIVE-ETH": {
@@ -1658,6 +776,20 @@
     "destChain": "optimism",
     "path": "XCM"
   },
+  "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619___ethereum-NATIVE-ETH": {
+    "srcAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "polygon",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d___availTuringTest-NATIVE-AVAIL": {
+    "srcAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "destAsset": "availTuringTest-NATIVE-AVAIL",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "availTuringTest",
+    "path": "XCM"
+  },
   "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -1670,13 +802,6 @@
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
     "srcChain": "polygonzkEvm_cardona",
     "destChain": "sepolia_ethereum",
-    "path": "XCM"
-  },
-  "polkadot_people-NATIVE-DOT___polkadot-NATIVE-DOT": {
-    "srcAsset": "polkadot_people-NATIVE-DOT",
-    "destAsset": "polkadot-NATIVE-DOT",
-    "srcChain": "polkadot_people",
-    "destChain": "polkadot",
     "path": "XCM"
   },
   "westend_assethub-NATIVE-WND___westend-NATIVE-WND": {
