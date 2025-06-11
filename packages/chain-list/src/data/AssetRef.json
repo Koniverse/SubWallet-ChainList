@@ -1224,13 +1224,6 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDC___pendulum-LOCAL-USDC": {
-    "srcAsset": "statemint-LOCAL-USDC",
-    "destAsset": "pendulum-LOCAL-USDC",
-    "srcChain": "statemint",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
   "statemint-LOCAL-USDC___centrifuge-LOCAL-USDC": {
     "srcAsset": "statemint-LOCAL-USDC",
     "destAsset": "centrifuge-LOCAL-USDC",
@@ -1264,13 +1257,6 @@
     "destAsset": "moonbeam-LOCAL-xcUSDC",
     "srcChain": "hydradx_main",
     "destChain": "moonbeam",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC___pendulum-LOCAL-USDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC",
-    "destAsset": "pendulum-LOCAL-USDC",
-    "srcChain": "hydradx_main",
-    "destChain": "pendulum",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-CFG___centrifuge-NATIVE-CFG": {
@@ -1448,25 +1434,11 @@
     "destChain": "moonbeam",
     "path": "XCM"
   },
-  "hydradx_main-LOCAL-USDC-21___pendulum-LOCAL-USDC": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "pendulum-LOCAL-USDC",
-    "srcChain": "hydradx_main",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
   "hydradx_main-LOCAL-USDC-21___amplitude-LOCAL-USDC.s": {
     "srcAsset": "hydradx_main-LOCAL-USDC-21",
     "destAsset": "amplitude-LOCAL-USDC.s",
     "srcChain": "hydradx_main",
     "destChain": "amplitude",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDC-21___pendulum-LOCAL-USDC.s": {
-    "srcAsset": "hydradx_main-LOCAL-USDC-21",
-    "destAsset": "pendulum-LOCAL-USDC.s",
-    "srcChain": "hydradx_main",
-    "destChain": "pendulum",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-USDC-21___karura-LOCAL-USDCet": {
