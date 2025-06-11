@@ -118,6 +118,20 @@
     "destChain": "peopleKusama",
     "path": "XCM"
   },
+  "ethereum-NATIVE-ETH___polygonZkEvm-NATIVE-ETH": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygonZkEvm-NATIVE-ETH",
+    "srcChain": "ethereum",
+    "destChain": "polygonZkEvm",
+    "path": "XCM"
+  },
+  "ethereum-NATIVE-ETH___polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+    "srcAsset": "ethereum-NATIVE-ETH",
+    "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "srcChain": "ethereum",
+    "destChain": "polygon",
+    "path": "XCM"
+  },
   "ethereum-NATIVE-ETH___arbitrum_one-NATIVE-ETH": {
     "srcAsset": "ethereum-NATIVE-ETH",
     "destAsset": "arbitrum_one-NATIVE-ETH",
@@ -543,13 +557,6 @@
     "destAsset": "westend_assethub-NATIVE-WND",
     "srcChain": "westend",
     "destChain": "westend_assethub",
-    "path": "XCM"
-  },
-  "rococo-NATIVE-ROC___rococo_assethub-NATIVE-ROC": {
-    "srcAsset": "rococo-NATIVE-ROC",
-    "destAsset": "rococo_assethub-NATIVE-ROC",
-    "srcChain": "rococo",
-    "destChain": "rococo_assethub",
     "path": "XCM"
   },
   "bifrost_dot-LOCAL-USDT___statemint-LOCAL-USDt": {
@@ -991,6 +998,13 @@
     "destAsset": "amplitude-LOCAL-KSM",
     "srcChain": "bifrost",
     "destChain": "amplitude",
+    "path": "XCM"
+  },
+  "moonbeam-LOCAL-xcUSDT___statemint-LOCAL-USDt": {
+    "srcAsset": "moonbeam-LOCAL-xcUSDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "moonbeam",
+    "destChain": "statemint",
     "path": "XCM"
   },
   "statemine-LOCAL-USDt___kintsugi-LOCAL-USDT": {
@@ -1476,6 +1490,20 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "availTuringTest-NATIVE-AVAIL___sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
+    "srcAsset": "availTuringTest-NATIVE-AVAIL",
+    "destAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "srcChain": "availTuringTest",
+    "destChain": "sepolia_ethereum",
+    "path": "XCM"
+  },
+  "avail_mainnet-NATIVE-AVAIL___ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8": {
+    "srcAsset": "avail_mainnet-NATIVE-AVAIL",
+    "destAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "srcChain": "avail_mainnet",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "amplitude-LOCAL-USDT___kintsugi-LOCAL-USDT": {
     "srcAsset": "amplitude-LOCAL-USDT",
     "destAsset": "kintsugi-LOCAL-USDT",
@@ -1553,6 +1581,41 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
+  "statemint-LOCAL-SHIB___ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+    "srcAsset": "statemint-LOCAL-SHIB",
+    "destAsset": "ethereum-ERC20-SHIB-0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-PEPE___ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933": {
+    "srcAsset": "statemint-LOCAL-PEPE",
+    "destAsset": "ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-TON___ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
+    "srcAsset": "statemint-LOCAL-TON",
+    "destAsset": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-wstETH___ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+    "srcAsset": "statemint-LOCAL-wstETH",
+    "destAsset": "ethereum-ERC20-wstETH-0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-tBTC___ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88": {
+    "srcAsset": "statemint-LOCAL-tBTC",
+    "destAsset": "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "srcChain": "statemint",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
   "karura-LOCAL-USDT___kintsugi-LOCAL-USDT": {
     "srcAsset": "karura-LOCAL-USDT",
     "destAsset": "kintsugi-LOCAL-USDT",
@@ -1579,6 +1642,13 @@
     "destAsset": "mythos-NATIVE-MYTH",
     "srcChain": "hydradx_main",
     "destChain": "mythos",
+    "path": "XCM"
+  },
+  "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8___avail_mainnet-NATIVE-AVAIL": {
+    "srcAsset": "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8",
+    "destAsset": "avail_mainnet-NATIVE-AVAIL",
+    "srcChain": "ethereum",
+    "destChain": "avail_mainnet",
     "path": "XCM"
   },
   "base_sepolia-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
@@ -1630,6 +1700,13 @@
     "destChain": "arbitrum_sepolia",
     "path": "XCM"
   },
+  "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913___arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831": {
+    "srcAsset": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "destAsset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "srcChain": "base_mainnet",
+    "destChain": "arbitrum_one",
+    "path": "XCM"
+  },
   "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006___ethereum-NATIVE-ETH": {
     "srcAsset": "base_mainnet-ERC20-WETH-0x4200000000000000000000000000000000000006",
     "destAsset": "ethereum-NATIVE-ETH",
@@ -1670,6 +1747,20 @@
     "destAsset": "optimism-NATIVE-ETH",
     "srcChain": "arbitrum_one",
     "destChain": "optimism",
+    "path": "XCM"
+  },
+  "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619___ethereum-NATIVE-ETH": {
+    "srcAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "destAsset": "ethereum-NATIVE-ETH",
+    "srcChain": "polygon",
+    "destChain": "ethereum",
+    "path": "XCM"
+  },
+  "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d___availTuringTest-NATIVE-AVAIL": {
+    "srcAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
+    "destAsset": "availTuringTest-NATIVE-AVAIL",
+    "srcChain": "sepolia_ethereum",
+    "destChain": "availTuringTest",
     "path": "XCM"
   },
   "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E___sepolia_ethereum-NATIVE-ETH": {
