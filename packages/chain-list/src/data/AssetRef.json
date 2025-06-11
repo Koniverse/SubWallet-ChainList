@@ -48,13 +48,6 @@
     "destChain": "manta_network",
     "path": "XCM"
   },
-  "polkadot-NATIVE-DOT___pendulum-LOCAL-DOT": {
-    "srcAsset": "polkadot-NATIVE-DOT",
-    "destAsset": "pendulum-LOCAL-DOT",
-    "srcChain": "polkadot",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
   "polkadot-NATIVE-DOT___polkadot_people-NATIVE-DOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "polkadot_people-NATIVE-DOT",
@@ -363,13 +356,6 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "acala-LOCAL-USDT___pendulum-LOCAL-USDT": {
-    "srcAsset": "acala-LOCAL-USDT",
-    "destAsset": "pendulum-LOCAL-USDT",
-    "srcChain": "acala",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
   "acala-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
     "srcAsset": "acala-LOCAL-USDT",
     "destAsset": "moonbeam-LOCAL-xcUSDT",
@@ -545,13 +531,6 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "astar-LOCAL-USDT___pendulum-LOCAL-USDT": {
-    "srcAsset": "astar-LOCAL-USDT",
-    "destAsset": "pendulum-LOCAL-USDT",
-    "srcChain": "astar",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
   "astar-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
     "srcAsset": "astar-LOCAL-USDT",
     "destAsset": "moonbeam-LOCAL-xcUSDT",
@@ -601,13 +580,6 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "bifrost_dot-LOCAL-USDT___pendulum-LOCAL-USDT": {
-    "srcAsset": "bifrost_dot-LOCAL-USDT",
-    "destAsset": "pendulum-LOCAL-USDT",
-    "srcChain": "bifrost_dot",
-    "destChain": "pendulum",
-    "path": "XCM"
-  },
   "bifrost_dot-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
     "srcAsset": "bifrost_dot-LOCAL-USDT",
     "destAsset": "moonbeam-LOCAL-xcUSDT",
@@ -641,13 +613,6 @@
     "destAsset": "bifrost_dot-LOCAL-USDT",
     "srcChain": "hydradx_main",
     "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT___pendulum-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT",
-    "destAsset": "pendulum-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "pendulum",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-USDT___moonbeam-LOCAL-xcUSDT": {
@@ -797,13 +762,6 @@
     "destChain": "kusama",
     "path": "XCM"
   },
-  "pendulum-LOCAL-DOT___polkadot-NATIVE-DOT": {
-    "srcAsset": "pendulum-LOCAL-DOT",
-    "destAsset": "polkadot-NATIVE-DOT",
-    "srcChain": "pendulum",
-    "destChain": "polkadot",
-    "path": "XCM"
-  },
   "statemint-LOCAL-USDt___moonbeam-LOCAL-xcUSDT": {
     "srcAsset": "statemint-LOCAL-USDt",
     "destAsset": "moonbeam-LOCAL-xcUSDT",
@@ -837,13 +795,6 @@
     "destAsset": "acala-LOCAL-USDT",
     "srcChain": "statemint",
     "destChain": "acala",
-    "path": "XCM"
-  },
-  "statemint-LOCAL-USDt___pendulum-LOCAL-USDT": {
-    "srcAsset": "statemint-LOCAL-USDt",
-    "destAsset": "pendulum-LOCAL-USDT",
-    "srcChain": "statemint",
-    "destChain": "pendulum",
     "path": "XCM"
   },
   "moonriver-LOCAL-xcKSM___kusama-NATIVE-KSM": {
@@ -1175,13 +1126,6 @@
     "destChain": "acala",
     "path": "XCM"
   },
-  "hydradx_main-LOCAL-DOT___interlay-LOCAL-DOT": {
-    "srcAsset": "hydradx_main-LOCAL-DOT",
-    "destAsset": "interlay-LOCAL-DOT",
-    "srcChain": "hydradx_main",
-    "destChain": "interlay",
-    "path": "XCM"
-  },
   "hydradx_main-LOCAL-DOT___astar-LOCAL-DOT": {
     "srcAsset": "hydradx_main-LOCAL-DOT",
     "destAsset": "astar-LOCAL-DOT",
@@ -1481,13 +1425,6 @@
     "destAsset": "kintsugi-LOCAL-USDT",
     "srcChain": "hydradx_main",
     "destChain": "kintsugi",
-    "path": "XCM"
-  },
-  "hydradx_main-LOCAL-USDT-23___pendulum-LOCAL-USDT": {
-    "srcAsset": "hydradx_main-LOCAL-USDT-23",
-    "destAsset": "pendulum-LOCAL-USDT",
-    "srcChain": "hydradx_main",
-    "destChain": "pendulum",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-USDT-23___statemint-LOCAL-USDt": {
