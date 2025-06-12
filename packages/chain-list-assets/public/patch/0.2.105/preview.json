@@ -444,33 +444,6 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
-    },
-    "tscs": {
-      "slug": "tscs",
-      "name": "TSCS Network",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tscs.png",
-      "providers": {
-        "SCSchain": "https://testnetrpc.scschain.com"
-      },
-      "evmInfo": {
-        "evmChainId": 1969,
-        "blockExplorer": "https://testnetscan.scschain.com/",
-        "existentialDeposit": "0",
-        "symbol": "TSCS",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -485,8 +458,7 @@
     "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157",
     "continuum_network": "521b4a3627ea38b31cddc42f3541618b",
     "chainflip_assethub": "9d4b95752ed2283b90ee64b4e1981c13",
-    "dancelight": "51cc000393fd8f41214b0b3bfa391e7d",
-    "tscs": "830b822912a5a3806b14f04aaa981d96"
+    "dancelight": "51cc000393fd8f41214b0b3bfa391e7d"
   },
   "ChainAsset": {
     "hydradx_main-LOCAL-H2O": {
@@ -580,20 +552,6 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancelight-native-star.png"
-    },
-    "tscs-NATIVE-TSCS": {
-      "originChain": "tscs",
-      "slug": "tscs-NATIVE-TSCS",
-      "name": "TSCS",
-      "symbol": "TSCS",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tscs-native-tscs.png"
     }
   },
   "ChainAssetHashMap": {
@@ -602,8 +560,7 @@
     "chainflip_assethub-NATIVE-DOT": "363206a91b684f545264c9ec4f43d8f3",
     "chainflip_assethub-LOCAL-USDT": "9a6dd8ad8657f9d9771f8ca062ba3c69",
     "chainflip_assethub-LOCAL-USDC": "8c674c7bf5e3c7632acd2e4bdbffe687",
-    "dancelight-NATIVE-STAR": "386bb4922f1755725ac2e5f3d82d9dcc",
-    "tscs-NATIVE-TSCS": "3c01ac480ec0ec94cd472940b12bec37"
+    "dancelight-NATIVE-STAR": "386bb4922f1755725ac2e5f3d82d9dcc"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -613,8 +570,7 @@
     "chainflip_assethub-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png",
     "chainflip_assethub-local-usdt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdt.png",
     "chainflip_assethub-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-local-usdc.png",
-    "dancelight-native-star": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancelight-native-star.png",
-    "tscs-native-tscs": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tscs-native-tscs.png"
+    "dancelight-native-star": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dancelight-native-star.png"
   },
   "ChainLogoMap": {
     "pioneer": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pioneer.png",
@@ -628,8 +584,7 @@
     "watr_mainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_mainnet.png",
     "continuum_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/continuum_network.png",
     "chainflip_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_assethub.png",
-    "dancelight": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dancelight.png",
-    "tscs": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tscs.png"
+    "dancelight": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dancelight.png"
   },
   "mAssetLogoMap": {}
 }
