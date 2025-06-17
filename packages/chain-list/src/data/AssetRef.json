@@ -188,6 +188,13 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
+  "statemint-NATIVE-DOT___bifrost_dot-LOCAL-DOT": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "bifrost_dot-LOCAL-DOT",
+    "srcChain": "statemint",
+    "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
   "statemint-NATIVE-DOT___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "statemint-NATIVE-DOT",
     "destAsset": "moonbeam-LOCAL-xcDOT",
