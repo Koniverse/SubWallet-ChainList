@@ -2277,7 +2277,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/efinity.png",
     "providers": {
       "Efinity": "wss://rpc.efinity.io",
-      "Dwellir": "wss://efinity -rpc.dwellir.com"
+      "Dwellir": "wss://efinity-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
