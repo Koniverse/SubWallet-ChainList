@@ -12609,19 +12609,19 @@
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-pol-0x455e53cbb86018ac2b8092fdcd39d8444affc3f6.png"
   },
-  "zkverify_testnet-NATIVE-ACME": {
+  "zkverify_testnet-NATIVE-tVFY": {
     "originChain": "zkverify_testnet",
-    "slug": "zkverify_testnet-NATIVE-ACME",
-    "name": "zkVerify Testnet",
-    "symbol": "ACME",
+    "slug": "zkverify_testnet-NATIVE-tVFY",
+    "name": "zkVerify Volta",
+    "symbol": "tVFY",
     "decimals": 18,
     "priceId": null,
-    "minAmount": "10000000000000",
+    "minAmount": "10000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zkverify_testnet-native-acme.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zkverify_testnet-native-tvfy.png"
   },
   "rari-NATIVE-ETH": {
     "originChain": "rari",
@@ -15813,14 +15813,15 @@
     "slug": "truth_network-LOCAL-USDC",
     "name": "USD Coin",
     "symbol": "USDC",
-    "decimals": 6,
+    "decimals": 10,
     "priceId": "usd-coin",
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
       "onChainInfo": {
         "ForeignAsset": 0
-      }
+      },
+      "allowAsBaseAsset": true
     },
     "multiChainAsset": "USDC-USDCoin",
     "hasValue": true,
@@ -16401,6 +16402,191 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tscs-native-tscs.png"
+  },
+  "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8",
+    "name": "KILT Protocol",
+    "symbol": "KILT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
+  },
+  "bittensor-LOCAL-ᚁ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚁ",
+    "name": "Tensorprox",
+    "symbol": "ᚁ",
+    "decimals": 9,
+    "priceId": "dtao-91",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 91,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚁ.png"
+  },
+  "bittensor-LOCAL-ᚂ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚂ",
+    "name": "Reinforcedai",
+    "symbol": "ᚂ",
+    "decimals": 9,
+    "priceId": "dtao-92",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 92,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚂ.png"
+  },
+  "bittensor-LOCAL-ᚄ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚄ",
+    "name": "Eastworld",
+    "symbol": "ᚄ",
+    "decimals": 9,
+    "priceId": "dtao-94",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 94,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚄ.png"
+  },
+  "bittensor-LOCAL-ᛉ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᛉ",
+    "name": "Sταking",
+    "symbol": "ᛉ",
+    "decimals": 9,
+    "priceId": "dtao-88",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 88,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᛉ.png"
+  },
+  "bittensor-LOCAL- ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL- ",
+    "name": "Brain",
+    "symbol": " ",
+    "decimals": 9,
+    "priceId": "dtao-90",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 90,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local- .png"
+  },
+  "bittensor-LOCAL-ᚃ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚃ",
+    "name": "Bitcast",
+    "symbol": "ᚃ",
+    "decimals": 9,
+    "priceId": "dtao-93",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 93,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚃ.png"
+  },
+  "bittensor-LOCAL-ᛒ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᛒ",
+    "name": "Infinitevibe.ai",
+    "symbol": "ᛒ",
+    "decimals": 9,
+    "priceId": "dtao-89",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 89,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᛒ.png"
+  },
+  "bittensor-LOCAL-ᚳ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚳ",
+    "name": "Miao",
+    "symbol": "ᚳ",
+    "decimals": 9,
+    "priceId": "dtao-86",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 86,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚳ.png"
+  },
+  "bittensor-LOCAL-ᚅ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚅ",
+    "name": "Nion",
+    "symbol": "ᚅ",
+    "decimals": 9,
+    "priceId": "dtao-95",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 95,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚅ.png"
+  },
+  "bittensor-LOCAL-Ы": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ы",
+    "name": "Checkerchain",
+    "symbol": "Ы",
+    "decimals": 9,
+    "priceId": "dtao-87",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 87,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ы.png"
   }
 }
-
