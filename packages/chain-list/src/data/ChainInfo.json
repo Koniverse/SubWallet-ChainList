@@ -11021,6 +11021,39 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "mosaic_devnet": {
+    "slug": "mosaic_devnet",
+    "name": "Mosaic Chain Devnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mosaic_devnet.png",
+    "providers": {
+      "Mosaic 1": "wss://devnet-gw1.mosaicchain.io/MosaicNode1/chain",
+      "Mosaic 2": "wss://devnet-gw2.mosaicchain.io/MosaicNode2/chain"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "paseoTest",
+      "paraId": 3377,
+      "genesisHash": "0x42e93d676fb5ca2cad472804196d052cf7baa5cf9720f0cf905380ccc2a65de4",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://devnet-explorer.mosaicchain.io/",
+      "existentialDeposit": "10000000000000000",
+      "symbol": "TMOS",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "jamton": {
     "slug": "jamton",
     "name": "JAMTON",
