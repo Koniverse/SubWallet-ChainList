@@ -279,7 +279,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/aleph.png",
     "providers": {
       "Aleph Zero Foundation": "wss://ws.azero.dev",
-      "Dwellir": "wss://aleph-zero-rpc.dwellir.com",
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -450,7 +449,6 @@
       "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
       "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws",
       "Dwellir": "wss://acala-rpc.dwellir.com",
       "IBP1": "wss://acala.ibp.network",
       "IBP2": "wss://acala.dotters.network"
@@ -661,7 +659,6 @@
       "Astar": "wss://rpc.shiden.astar.network",
       "OnFinality": "wss://shiden.api.onfinality.io/public-ws",
       "Dwellir": "wss://shiden-rpc.dwellir.com",
-      "Blast": "wss://shiden.public.blastapi.io",
       "RadiumBlock": "wss://shiden.public.curie.radiumblock.co/ws"
     },
     "evmInfo": null,
@@ -1034,7 +1031,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonbase.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
-      "Blast": "wss://moonbase-alpha.public.blastapi.io",
       "Dwellir": "wss://moonbase-rpc.dwellir.com",
       "RadiumBlock": "wss://moonbase.public.curie.radiumblock.co/ws",
       "UnitedBloc": "wss://moonbase.unitedbloc.com"
@@ -1084,7 +1080,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/moonriver.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
-      "Blast": "wss://moonriver.public.blastapi.io",
       "Dwellir 2": "wss://moonriver-rpc.n.dwellir.com",
       "OnFinality": "wss://moonriver.api.onfinality.io/public-ws",
       "UnitedBloc": "wss://moonriver.unitedbloc.com"
@@ -1236,8 +1231,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrost.png",
     "providers": {
       "Liebi 0": "wss://bifrost-rpc.liebi.com/ws",
-      "LiebiUS": "wss://us.bifrost-rpc.liebi.com/ws",
-      "RadiumBlock": "wss://bifrost.public.curie.radiumblock.co/ws"
+      "LiebiUS": "wss://us.bifrost-rpc.liebi.com/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1827,7 +1821,6 @@
     "providers": {
       "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
       "Fullnode": "wss://fullnode.centrifuge.io",
-      "Dwellir": "wss://centrifuge-rpc.dwellir.com",
       "LuckyFriday": "wss://rpc-centrifuge.luckyfriday.io"
     },
     "evmInfo": null,
@@ -1876,7 +1869,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/interlay.png",
     "providers": {
       "Kintsugi Labs": "wss://api.interlay.io/parachain",
-      "Dwellir": "wss://interlay-rpc.dwellir.com",
       "LuckyFriday": "wss://rpc-interlay.luckyfriday.io/"
     },
     "evmInfo": null,
@@ -2108,8 +2100,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadex.png",
     "providers": {
       "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
-      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2276,7 +2267,8 @@
     "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/efinity.png",
     "providers": {
-      "Efinity": "wss://rpc.efinity.io"
+      "Efinity": "wss://rpc.efinity.io",
+      "Dwellir": "wss://efinity-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2517,7 +2509,6 @@
       "Acala Foundation 1": "wss://karura-rpc-1.aca-api.network",
       "Acala Foundation 2": "wss://karura-rpc-2.aca-api.network/ws",
       "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws",
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws",
       "Dwellir": "wss://karura-rpc.dwellir.com"
     },
     "evmInfo": null,
@@ -2603,7 +2594,6 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kilt.png",
     "providers": {
       "KILT Protocol": "wss://spiritnet.kilt.io/",
-      "Dwellir": "wss://kilt-rpc.dwellir.com",
       "IBP1": "wss://kilt.ibp.network",
       "IBP2": "wss://kilt.dotters.network"
     },
@@ -2795,8 +2785,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kintsugi.png",
     "providers": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain",
-      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws",
-      "Dwellir": "wss://kintsugi-rpc.dwellir.com"
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2997,7 +2986,6 @@
       "unique": "wss://us-ws.unique.network",
       "UniqueEu": "wss://eu-ws.unique.network",
       "UniqueAsia": "wss://asia-ws.unique.network",
-      "Dwellir": "wss://unique-rpc.dwellir.com",
       "Geo Load Balancer": "wss://ws.unique.network",
       "IBP1": "wss://unique.ibp.network",
       "IBP2": "wss://unique.dotters.network"
@@ -5085,7 +5073,6 @@
       "IBP1": "wss://sys.ibp.network/collectives-polkadot",
       "IBP2": "wss://collectives-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-collectives-polkadot.luckyfriday.io",
-      "OnFinality": "wss://collectives.api.onfinality.io/public-ws",
       "RadiumBlock": "wss://collectives.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives"
     },
@@ -5202,7 +5189,6 @@
     "providers": {
       "Frequency 0": "wss://0.rpc.frequency.xyz",
       "Frequency 1": "wss://1.rpc.frequency.xyz",
-      "Dwellir": "wss://frequency-rpc.dwellir.com",
       "OnFinality": "wss://frequency-polkadot.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -6277,8 +6263,7 @@
       "IBP-GeoDNS2": "wss://sys.dotters.network/bridgehub-kusama",
       "Dwellir": "wss://bridge-hub-kusama-rpc.dwellir.com",
       "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com",
-      "LuckyFriday": "wss://rpc-bridge-hub-kusama.luckyfriday.io",
-      "RadiumBlock": "wss://bridgehub-kusama.public.curie.radiumblock.co/ws"
+      "LuckyFriday": "wss://rpc-bridge-hub-kusama.luckyfriday.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6374,8 +6359,7 @@
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/krest_network.png",
     "providers": {
       "Peaq": "wss://wss-krest.peaq.network/",
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws",
-      "Dwellir": "wss://krest-rpc.dwellir.com"
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6548,8 +6532,7 @@
       "Crust Network": "wss://rpc.crust.network",
       "Crust Network APP": "wss://rpc.crustnetwork.app",
       "Crust Network CC": "wss://rpc.crustnetwork.cc",
-      "Crust Network XYZ": "wss://rpc.crustnetwork.xyz",
-      "Dwellir": "wss://crust-mainnet-rpc.dwellir.com"
+      "Crust Network XYZ": "wss://rpc.crustnetwork.xyz"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -10424,24 +10407,24 @@
   },
   "zkverify_testnet": {
     "slug": "zkverify_testnet",
-    "name": "zkVerify Testnet",
+    "name": "zkVerify Volta Testnet",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zkverify_testnet.png",
     "providers": {
-      "zkVerify": "wss://testnet-rpc.zkverify.io"
+      "zkVerify": "wss://volta-rpc.zkverify.io"
     },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0xc00425dcaa0a1bc5bf1163a2d69d7abb2cc6180de78b4e10297b31a4d9cc928a",
+      "genesisHash": "0xff7fe5a610f15fe7a0c52f94f86313fb7db7d3786e7f8acf2b66c11d5be7c242",
       "addressPrefix": 251,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://testnet-explorer.zkverify.io/",
-      "existentialDeposit": "10000000000000",
-      "symbol": "ACME",
+      "blockExplorer": "https://zkverify-testnet.subscan.io/",
+      "existentialDeposit": "10000000000000000",
+      "symbol": "tVFY",
       "decimals": 18,
       "hasNativeNft": null,
       "supportStaking": null,
@@ -11839,7 +11822,7 @@
       "addressPrefix": 355,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://explorer.gen6.app/",
       "existentialDeposit": "100000000000000000",
       "symbol": "GSX",
       "decimals": 18,
