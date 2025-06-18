@@ -1,8 +1,55 @@
 {
-  "patchVersion": "0.2.106-beta.3",
+  "patchVersion": "0.2.106-beta.6",
   "appliedVersion": "0.2.105",
-  "timestamp": 1749545902860,
+  "timestamp": 1749714100471,
   "ChainInfo": {
+    "pioneer": {
+      "slug": "pioneer",
+      "name": "Pioneer Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/pioneer.png",
+      "providers": {
+        "Pioneer": "wss://pioneer-rpc-3.bit.country/wss"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2096,
+        "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+        "addressPrefix": 268,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://ksmcrowdloan.bit.country/",
+        "blockExplorer": "https://pioneer.subscan.io/",
+        "existentialDeposit": "100000000000000000",
+        "symbol": "NEER",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2096-39",
+            "paraId": 2096,
+            "status": "won",
+            "startTime": "2021-12-01T04:27:00.000Z",
+            "endTime": "2022-11-02T04:27:00.000Z",
+            "auctionIndex": 13,
+            "firstPeriod": 17,
+            "lastPeriod": 24
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pioneer",
+        "chainBalanceSlug": "pioneer"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "turingStaging": {
       "slug": "turingStaging",
       "name": "Turing Staging",
@@ -221,6 +268,52 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "invarch": {
+      "slug": "invarch",
+      "name": "InvArch Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/invarch.png",
+      "providers": {
+        "Dwellir": "wss://invarch-rpc.dwellir.com",
+        "IBP1": "wss://invarch.ibp.network",
+        "IBP2": "wss://invarch.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3340,
+        "genesisHash": "0x31a7d8914fb31c249b972f18c115f1e22b4b039abbcb03c73b6774c5642f9efe",
+        "addressPrefix": 117,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://invarch.statescan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "VARCH",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "3340-68",
+            "paraId": 3340,
+            "status": "won",
+            "startTime": "2023-10-24T01:48:00.000Z",
+            "endTime": "2025-08-26T01:48:00.000Z",
+            "auctionIndex": 47,
+            "firstPeriod": 14,
+            "lastPeriod": 21
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "watr_mainnet": {
       "slug": "watr_mainnet",
       "name": "Watr Mainnet",
@@ -249,6 +342,41 @@
         "crowdloanFunds": []
       },
       "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "continuum_network": {
+      "slug": "continuum_network",
+      "name": "Continuum Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/continuum_network.png",
+      "providers": {
+        "Continuum RPC Node": "wss://continuum-rpc-1.metaverse.network/wss"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3346,
+        "genesisHash": "0xae1ca86c936aa252cdc45f4f436220567b2bbbcc4834f5b8f4191462baf19dfb",
+        "addressPrefix": 268,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://continuum.subscan.io/",
+        "existentialDeposit": "100000000000000000",
+        "symbol": "NUUM",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "continuum",
+        "chainBalanceSlug": "continuum"
+      },
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -284,17 +412,53 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "dancelight": {
+      "slug": "dancelight",
+      "name": "Dancelight",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/dancelight.png",
+      "providers": {
+        "Tanssi": "wss://dancelight.tanssi-api.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x983a1a72503d6cc3636776747ec627172b51272bf45e50a355348facb67a820a",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "33333333",
+        "symbol": "STAR",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
+    "pioneer": "9d1108d88e1a5c577b2ed30c2799d2b9",
     "turingStaging": "5e934def36091b6fa0914950ce0cd8eb",
     "odyssey": "47ae8b7b2b7a182ec6d43a31b0e6b9c1",
     "watr_network": "bbe2a762e3ed33c9e69245854d469a46",
     "bitgreen": "cab3a859ee66752e6773a08535668a9b",
     "hashedNetwork": "012516223424deaffa83dafb64223d91",
     "dockPosMainnet": "41af99472cc1199d81e3cc65a8fec1fd",
+    "invarch": "df3740a462c5673905f5f02d3d428bc0",
     "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157",
-    "chainflip_assethub": "9d4b95752ed2283b90ee64b4e1981c13"
+    "continuum_network": "521b4a3627ea38b31cddc42f3541618b",
+    "chainflip_assethub": "9d4b95752ed2283b90ee64b4e1981c13",
+    "dancelight": "51cc000393fd8f41214b0b3bfa391e7d"
   },
   "ChainAsset": {
     "hydradx_main-LOCAL-H2O": {
@@ -374,6 +538,20 @@
       "multiChainAsset": "USDC-USDCSepolia",
       "hasValue": false,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/chainflip_assethub-local-usdc.png"
+    },
+    "dancelight-NATIVE-STAR": {
+      "originChain": "dancelight",
+      "slug": "dancelight-NATIVE-STAR",
+      "name": "Dancelight",
+      "symbol": "STAR",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "33333333",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/dancelight-native-star.png"
     }
   },
   "ChainAssetHashMap": {
@@ -381,7 +559,8 @@
     "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84",
     "chainflip_assethub-NATIVE-DOT": "363206a91b684f545264c9ec4f43d8f3",
     "chainflip_assethub-LOCAL-USDT": "9a6dd8ad8657f9d9771f8ca062ba3c69",
-    "chainflip_assethub-LOCAL-USDC": "8c674c7bf5e3c7632acd2e4bdbffe687"
+    "chainflip_assethub-LOCAL-USDC": "8c674c7bf5e3c7632acd2e4bdbffe687",
+    "dancelight-NATIVE-STAR": "386bb4922f1755725ac2e5f3d82d9dcc"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -390,17 +569,22 @@
     "hydradx_main-local-gdot": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-gdot.png",
     "chainflip_assethub-native-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/chainflip_assethub-native-dot.png",
     "chainflip_assethub-local-usdt": "https://chain-list-assets.subwallet.app/assets/chain-assets/chainflip_assethub-local-usdt.png",
-    "chainflip_assethub-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/chainflip_assethub-local-usdc.png"
+    "chainflip_assethub-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/chainflip_assethub-local-usdc.png",
+    "dancelight-native-star": "https://chain-list-assets.subwallet.app/assets/chain-assets/dancelight-native-star.png"
   },
   "ChainLogoMap": {
+    "pioneer": "https://chain-list-assets.subwallet.app/assets/chains/pioneer.png",
     "turingStaging": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png",
     "odyssey": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png",
     "watr_network": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png",
     "bitgreen": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png",
     "hashedNetwork": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png",
     "dockPosMainnet": "https://chain-list-assets.subwallet.app/assets/chains/dockposmainnet.png",
+    "invarch": "https://chain-list-assets.subwallet.app/assets/chains/invarch.png",
     "watr_mainnet": "https://chain-list-assets.subwallet.app/assets/chains/watr_mainnet.png",
-    "chainflip_assethub": "https://chain-list-assets.subwallet.app/assets/chains/chainflip_assethub.png"
+    "continuum_network": "https://chain-list-assets.subwallet.app/assets/chains/continuum_network.png",
+    "chainflip_assethub": "https://chain-list-assets.subwallet.app/assets/chains/chainflip_assethub.png",
+    "dancelight": "https://chain-list-assets.subwallet.app/assets/chains/dancelight.png"
   },
   "mAssetLogoMap": {}
 }
