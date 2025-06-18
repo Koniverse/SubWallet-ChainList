@@ -3200,7 +3200,7 @@
     "slug": "sakura",
     "name": "Sakura",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sakura.png",
     "providers": {
       "Clover": "wss://rpc.sakura.clover.finance"
@@ -4872,7 +4872,7 @@
     "slug": "fusotao",
     "name": "Fusotao",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/fusotao.png",
     "providers": {
       "fusotao": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
@@ -4904,7 +4904,7 @@
     "slug": "discovol",
     "name": "Discovol",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/discovol.png",
     "providers": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
@@ -4968,7 +4968,7 @@
     "slug": "atocha",
     "name": "Atocha",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/atocha.png",
     "providers": {
       "atocha": "wss://gateway.mainnet.octopus.network/atocha/jungxomf4hdcfocwcalgoiz64g9avjim"
@@ -5000,7 +5000,7 @@
     "slug": "myriad",
     "name": "Myriad",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/myriad.png",
     "providers": {
       "myriad": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0"
@@ -5032,7 +5032,7 @@
     "slug": "deBio",
     "name": "DeBio",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/debio.png",
     "providers": {
       "deBio": "wss://gateway.mainnet.octopus.network/debionetwork/ae48005a0c7ecb4053394559a7f4069e"
@@ -5604,7 +5604,7 @@
     "slug": "crownSterling",
     "name": "Crown Sterling",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crownsterling.png",
     "providers": {
       "Crown Sterling": "wss://blockchain.crownsterling.io"
@@ -5756,7 +5756,7 @@
     "slug": "neatcoin",
     "name": "Neatcoin",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/neatcoin.png",
     "providers": {
       "Neatcoin": "wss://rpc.neatcoin.org/ws"
@@ -5788,7 +5788,7 @@
     "slug": "nftmart",
     "name": "NFTMart",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/nftmart.png",
     "providers": {
       "NFTMart": "wss://mainnet.nftmart.io/rpc/ws"
@@ -6040,7 +6040,7 @@
     "slug": "kulupu",
     "name": "Kulupu",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kulupu.png",
     "providers": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
@@ -6525,7 +6525,7 @@
     "slug": "crust_mainnet",
     "name": "Crust Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crust_mainnet.png",
     "providers": {
       "OnFinality": "wss://crust.api.onfinality.io/public-ws",
@@ -8288,7 +8288,7 @@
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/phykentest.png",
     "providers": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
