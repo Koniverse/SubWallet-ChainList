@@ -381,38 +381,6 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
-    "zkverify_testnet": {
-      "slug": "zkverify_testnet",
-      "name": "zkVerify Volta Testnet",
-      "isTestnet": true,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zkverify_testnet.png",
-      "providers": {
-        "zkVerify": "wss://volta-rpc.zkverify.io"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0xff7fe5a610f15fe7a0c52f94f86313fb7db7d3786e7f8acf2b66c11d5be7c242",
-        "addressPrefix": 251,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://zkverify-testnet.subscan.io/",
-        "existentialDeposit": "10000000000000000",
-        "symbol": "tVFY",
-        "decimals": 18,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
-    },
     "gen6_public": {
       "slug": "gen6_public",
       "name": "Gen6 Public Chain",
@@ -548,7 +516,6 @@
     "invarch": "df3740a462c5673905f5f02d3d428bc0",
     "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157",
     "continuum_network": "521b4a3627ea38b31cddc42f3541618b",
-    "zkverify_testnet": "45b9097e57a64fe88fb254d77819b869",
     "gen6_public": "5a1e74b039b74b77b4f6522aaa5b7395",
     "chainflip_assethub": "9d4b95752ed2283b90ee64b4e1981c13",
     "dancelight": "51cc000393fd8f41214b0b3bfa391e7d",
@@ -570,20 +537,6 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png"
-    },
-    "zkverify_testnet-NATIVE-tVFY": {
-      "originChain": "zkverify_testnet",
-      "slug": "zkverify_testnet-NATIVE-tVFY",
-      "name": "zkVerify Volta",
-      "symbol": "tVFY",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "10000000000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zkverify_testnet-native-tvfy.png"
     },
     "truth_network-LOCAL-USDC": {
       "originChain": "truth_network",
@@ -713,7 +666,6 @@
   },
   "ChainAssetHashMap": {
     "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
-    "zkverify_testnet-NATIVE-tVFY": "404261da372e97a0ee672dbaf7327ae7",
     "truth_network-LOCAL-USDC": "e3ca1efead19c39470bc1482f68c5b37",
     "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84",
     "chainflip_assethub-NATIVE-DOT": "363206a91b684f545264c9ec4f43d8f3",
@@ -727,7 +679,6 @@
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "hydradx_main-local-h2o": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png",
-    "zkverify_testnet-native-tvfy": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/zkverify_testnet-native-tvfy.png",
     "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
     "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png",
     "chainflip_assethub-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png",
@@ -748,7 +699,6 @@
     "invarch": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/invarch.png",
     "watr_mainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_mainnet.png",
     "continuum_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/continuum_network.png",
-    "zkverify_testnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/zkverify_testnet.png",
     "gen6_public": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/gen6_public.png",
     "chainflip_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/chainflip_assethub.png",
     "dancelight": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/dancelight.png",
