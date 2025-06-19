@@ -11079,45 +11079,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@babel/cli": ^7.23.0
-    "@babel/core": ^7.23.0
-    "@babel/register": ^7.22.15
-    "@babel/runtime": ^7.23.1
-    "@json2csv/plainjs": ^7.0.3
-    "@polkadot/dev": ^0.67.167
-    "@types/jest": ^29.5.5
-    axios: ^1.5.1
-    bignumber.js: ^9.1.2
-    copyfiles: ^2.4.1
-    eventemitter3: ^5.0.1
-    gh-pages: ^6.0.0
-    graphql: ^16.8.1
-    graphql-request: ^6.1.0
-    patch-package: ^8.0.0
-    postinstall-postinstall: ^2.1.0
-  bin:
-    export-assets: ./scripts/exports/export-assets.js
-    export-chains: ./scripts/exports/export-chains.js
-    export-xcm-channels: ./scripts/exports/export-xcm-channels.js
-    generate-logo-map: ./scripts/generators/generate-logo-map.js
-    migration-patch-logo: ./scripts/patch/migration-patch-logo.mjs
-    patch-data: scripts/patch/patch-data.js
-    set-version: ./scripts/set-version.mjs
-    strapi-fetch-chain-assets: ./scripts/strapi/fetch-chain-assets.mjs
-    strapi-fetch-chains: ./scripts/strapi/fetch-chains.mjs
-    strapi-multi-chain-assets: ./scripts/strapi/fetch-multi-chain-assets.mjs
-    subwallet-ci-ghact-build: ./scripts/subwallet-ci-ghact-build.mjs
-    subwallet-dev-build-ts: ./scripts/subwallet-dev-build-ts.mjs
-    validate-asset-refs: ./scripts/validations/validate-asset-refs.js
-    validate-chains: ./scripts/validations/validate-chains.js
-    validate-tokens: ./scripts/validations/validate-tokens.js
-  languageName: unknown
-  linkType: soft
-
 "run-async@npm:^2.4.0":
   version: 2.4.1
   resolution: "run-async@npm:2.4.1"
@@ -11828,6 +11789,45 @@ __metadata:
   checksum: 460e9b6e7e662e2cf98d41ee670cb5da9ec8b8dbc1d4574de29ac422c632d5c7933772822fc12792f2ee9f9c2f62b3f60ed5850690e7c780ab7b6f07010199e4
   languageName: node
   linkType: hard
+
+"subwallet-chain-list-anhntk54@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "subwallet-chain-list-anhntk54@workspace:."
+  dependencies:
+    "@babel/cli": ^7.23.0
+    "@babel/core": ^7.23.0
+    "@babel/register": ^7.22.15
+    "@babel/runtime": ^7.23.1
+    "@json2csv/plainjs": ^7.0.3
+    "@polkadot/dev": ^0.67.167
+    "@types/jest": ^29.5.5
+    axios: ^1.5.1
+    bignumber.js: ^9.1.2
+    copyfiles: ^2.4.1
+    eventemitter3: ^5.0.1
+    gh-pages: ^6.0.0
+    graphql: ^16.8.1
+    graphql-request: ^6.1.0
+    patch-package: ^8.0.0
+    postinstall-postinstall: ^2.1.0
+  bin:
+    export-assets: ./scripts/exports/export-assets.js
+    export-chains: ./scripts/exports/export-chains.js
+    export-xcm-channels: ./scripts/exports/export-xcm-channels.js
+    generate-logo-map: ./scripts/generators/generate-logo-map.js
+    migration-patch-logo: ./scripts/patch/migration-patch-logo.mjs
+    patch-data: scripts/patch/patch-data.js
+    set-version: ./scripts/set-version.mjs
+    strapi-fetch-chain-assets: ./scripts/strapi/fetch-chain-assets.mjs
+    strapi-fetch-chains: ./scripts/strapi/fetch-chains.mjs
+    strapi-multi-chain-assets: ./scripts/strapi/fetch-multi-chain-assets.mjs
+    subwallet-ci-ghact-build: ./scripts/subwallet-ci-ghact-build.mjs
+    subwallet-dev-build-ts: ./scripts/subwallet-dev-build-ts.mjs
+    validate-asset-refs: ./scripts/validations/validate-asset-refs.js
+    validate-chains: ./scripts/validations/validate-chains.js
+    validate-tokens: ./scripts/validations/validate-tokens.js
+  languageName: unknown
+  linkType: soft
 
 "supports-color@npm:^5.3.0":
   version: 5.5.0
