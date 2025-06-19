@@ -100,7 +100,7 @@ jobs:
           cd packages/chain-list/build
           cat package.json
           echo "Updating package.json with new version: ${{ env.NEW_VERSION }}"
-          NEW_NAME="@anhtran/chain-list"
+          NEW_NAME="@anhtrieunhu/chain-list"
           NEW_VERSION="${{ env.NEW_VERSION }}"
           CURRENT_CONTENT=$(cat package.json)
           NEW_CONTENT=$(echo "$CURRENT_CONTENT" | jq --arg name "$NEW_NAME" --arg version "$NEW_VERSION" '.name = $name | .version = $version')
@@ -109,7 +109,7 @@ jobs:
             echo "Error: Generated package.json is not valid JSON"
             exit 1
           fi
-          cat package.json
+          npm publish --access public || echo "No changes to publish"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
