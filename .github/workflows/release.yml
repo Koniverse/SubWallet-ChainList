@@ -7,7 +7,7 @@ on:
 
 jobs:
   master:
-    if: "startsWith(github.event.head_commit.message, '[Release]')"
+    if: "startsWith(github.event.head_commit.message, '[Build]') || github.event_name == 'pull_request'"
     runs-on: ubuntu-22.04
     name: Build and publish
     steps:
@@ -24,11 +24,67 @@ jobs:
           else
             echo "target=beta" >> $GITHUB_OUTPUT
           fi
+          BRANCH=${{ github.head_ref || github.ref_name }}
+          echo "Branch: $BRANCH"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          # Lấy số PR (nếu có)
+          PR_NUMBER=${{ github.event.number || 0 }}
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+          # Lấy thời gian định dạng YYYYMMDD-HHMMSS (+07)
+          TIME_STRING=$(TZ="Asia/Ho_Chi_Minh" date +%Y%m%d-%H%M%S)
+          echo "TIME_STRING=$TIME_STRING" >> $GITHUB_ENV
+          MSG=$(git log --format=%B -n 1 ${{ github.event.after }} | grep -v '^#')
+          # Kiểm tra nếu MSG chứa [Build]
+          if echo "$MSG" | grep -q "\[Build\]"; then
+            echo "BUILD_CONDITION=true" >> $GITHUB_ENV
+          else
+            echo "BUILD_CONDITION=false" >> $GITHUB_ENV
+          fi
 
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
           registry-url: 'https://registry.npmjs.org'
+
+      - name: Determine new version
+        if: env.BUILD_CONDITION == 'true'
+        id: version
+        run: |
+          # Lấy phiên bản hiện tại từ package.json
+          CURRENT_VERSION=$(node -p "require('./package.json').version" 2>/dev/null || echo "0.0.0")
+          PACKAGE_NAME=$(node -p "require('./package.json').name")
+          if [ -z "$CURRENT_VERSION" ] || [ "$CURRENT_VERSION" = "" ]; then
+            CURRENT_VERSION="0.0.0"
+          fi
+          echo "Current version: $CURRENT_VERSION"
+
+          # Phân tách phiên bản (loại bỏ hậu tố pre-release)
+          IFS='.' read -r MAJOR MINOR PATCH <<< "${CURRENT_VERSION%%-*}"
+
+          # Tăng patch mặc định (không phụ thuộc commit message)
+          NEW_MAJOR=$MAJOR
+          NEW_MINOR=$MINOR
+          NEW_PATCH=$PATCH
+          NEW_VERSION="${NEW_MAJOR}.${NEW_MINOR}.${NEW_PATCH}"
+
+          # Tùy chỉnh phiên bản theo nhánh
+          if [ "${{ env.BRANCH }}" = "main" ]; then
+            # Nhánh main: tăng patch
+            NEW_PATCH=$((PATCH + 1))
+            NEW_VERSION="${MAJOR}.${MINOR}.${NEW_PATCH}"
+            echo "New version: $NEW_VERSION"
+          elif [ "${{ env.PR_NUMBER }}" -gt 0 ]; then
+            # Pull request: thêm hậu tố -pr[pr_number].[time_string]
+            NEW_VERSION="${MAJOR}.${MINOR}.${PATCH}-pr${{ env.PR_NUMBER }}.${{ env.TIME_STRING }}"
+            echo "New version: $NEW_VERSION"
+          else
+            # Nhánh khác: tăng patch và thêm -dev.[time_string]
+            NEW_VERSION="${MAJOR}.${MINOR}.${PATCH}-${{ env.BRANCH }}.${{ env.TIME_STRING }}"
+            echo "New version: $NEW_VERSION"
+          fi
+
+          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+          echo "VERSION_TYPE=patch" >> $GITHUB_ENV
 
       - name: Install dependencies and build
         env:
@@ -37,7 +93,11 @@ jobs:
           STRAPI_URL: ${{ secrets.STRAPI_URL }}
         run: |
           yarn install
-          yarn publish:${{ steps.input_data.outputs.target }}
+          yarn build
+          cd packages/chain-list/build
+          echo "Updating package.json with new version: ${{ env.NEW_VERSION }}"
+          sed -i "s/\"version\": \".*\"/\"version\": \"${{ env.NEW_VERSION }}\"/" package.json
+          sed -i "s/\"name\": \".*\"/\"name\": \"@anhtrieunhu/chain-list\"/" package.json
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
@@ -46,17 +106,17 @@ jobs:
           author_email: scheduler@github.io
           message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
 
-      - name: Deploy Assets to Cloudflare Pages
-        id: cloudflare_deployment
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'sw-chain-list-assets'
-          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.ref_name }}
-          directory: './packages/chain-list-assets/public'
-          wranglerVersion: '3'
+#      - name: Deploy Assets to Cloudflare Pages
+#        id: cloudflare_deployment
+#        uses: cloudflare/pages-action@v1
+#        with:
+#          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+#          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+#          projectName: 'sw-chain-list-assets'
+#          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
+#          branch: ${{ github.ref_name }}
+#          directory: './packages/chain-list-assets/public'
+#          wranglerVersion: '3'
 
       - name: Get current version
         id: get_version
