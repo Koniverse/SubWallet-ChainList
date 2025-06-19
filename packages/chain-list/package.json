@@ -1,19 +1,19 @@
 {
   "author": "NamPC <nampham@subwallet.app>",
-  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
+  "bugs": "https://github.com/anhntk54/SubWallet-ChainList/issues",
   "contributors": [],
   "description": "Open-source package to manage chains, tokens and other information",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/Koniverse/SubWallet-Chain/tree/master/packages/chain-list#readme",
+  "homepage": "https://github.com/anhntk54/SubWallet-ChainList/tree/master/packages/chain-list#readme",
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@subwallet/chain-list",
   "repository": {
     "directory": "packages/chain-list",
     "type": "git",
-    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+    "url": "https://github.com/anhntk54/SubWallet-ChainList.git"
   },
   "sideEffects": [
     "./detectPackage.js",
