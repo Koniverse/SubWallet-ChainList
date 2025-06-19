@@ -111,6 +111,18 @@ jobs:
           fi
           npm publish --access public || echo "No changes to publish"
 
+      - name: Update package.json and commit
+        if: env.BRANCH == 'main' && env.BUILD_CONDITION == 'true'
+        run: |
+          # Cập nhật package.json
+          echo "Updating package.json with new version: ${{ env.NEW_VERSION }}"
+          sed -i "s/\"version\": \".*\"/\"version\": \"${{ env.NEW_VERSION }}\"/" package.json
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add package.json
+          git commit -m "Release: v${{ env.NEW_VERSION }}"
+          git push origin ${{ env.BRANCH }} || echo "No changes to push"
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
