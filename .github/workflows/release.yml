@@ -90,6 +90,8 @@ jobs:
           echo "VERSION_TYPE=patch" >> $GITHUB_ENV
 
       - name: Install dependencies and build
+        if: env.BUILD_CONDITION == 'true'
+        id: install_and_build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
@@ -154,6 +156,27 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git tag -a "v${{ env.VERSION }}" -m "Release stable version ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
+
+      - name: Post comment on PR
+        if: env.PR_NUMBER > 0 && steps.install_and_build.outcome == 'success' && env.BUILD_CONDITION == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Chuẩn bị nội dung bình luận
+          url="${{ github.event.pull_request._links.html.href}}/commits/${{github.event.after}}"
+          MSG=$(git log --format=%B -n 1 ${{ github.event.after }} | grep -v '^#')
+          COMMENT="Release for [$MSG]($url)\nNpm Version: [${{ env.NEW_VERSION }}](https://www.npmjs.com/package/${{env.PACKAGE_NAME}}v/${{ env.NEW_VERSION }})"
+          echo "Formatted comment: $COMMENT"
+
+          # In ra để debug
+          echo "Comment to post: $COMMENT"
+
+          # Gửi bình luận tới PR
+          curl -X POST \
+               -H "Authorization: token $GITHUB_TOKEN" \
+               -H "Accept: application/vnd.github.v3+json" \
+               -d "{\"body\": \"$COMMENT\"}" \
+               "${{ github.event.pull_request._links.comments.href}}" || echo "Failed to post comment on PR"
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
