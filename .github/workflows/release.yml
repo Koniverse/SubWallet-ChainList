@@ -100,8 +100,15 @@ jobs:
           cd packages/chain-list/build
           cat package.json
           echo "Updating package.json with new version: ${{ env.NEW_VERSION }}"
-          sed -i '' "s/\"version\": \".*\"/\"version\": \"${{ env.NEW_VERSION }}\"/" package.json
-          sed -i '' "s/\"name\": \".*\"/\"name\": \"@anhtrieunhu/chain-list\"/" package.json
+          NEW_NAME="@anhtran/chain-list"
+          NEW_VERSION="${{ env.NEW_VERSION }}"
+          CURRENT_CONTENT=$(cat package.json)
+          NEW_CONTENT=$(echo "$CURRENT_CONTENT" | jq --arg name "$NEW_NAME" --arg version "$NEW_VERSION" '.name = $name | .version = $version')
+          echo "$NEW_CONTENT" > package.json
+          if ! jq -e . >/dev/null 2>&1 < package.json; then
+            echo "Error: Generated package.json is not valid JSON"
+            exit 1
+          fi
           cat package.json
 
       - name: Commit changes
