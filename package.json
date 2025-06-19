@@ -27,12 +27,13 @@
     "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
     "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
     "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
+    "subwallet-dev-build-ts-clone-data": "./scripts/subwallet-dev-build-ts-clone-data.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build": "subwallet-dev-build-ts && subwallet-dev-build-ts-clone-data",
     "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",
