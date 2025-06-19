@@ -5,6 +5,7 @@ const SAVE_PATH = './packages/chain-list/src/data/ChainAsset.json';
 const SAVE_REF_PATH = './packages/chain-list/src/data/AssetRef.json';
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 
+
 const query = gql`
 query {
   chainAssets(pagination: {pageSize: 1000}, sort: "ordinal:asc") {
