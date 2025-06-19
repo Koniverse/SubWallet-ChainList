@@ -101,7 +101,7 @@ const main = async () => {
         const destAsset = assetMap[destSlug];
         if (destAsset && !ref.disable) {
           refMap[`${item.slug}___${destSlug}`] = {
-            srcAsset: item.slug,
+            srcAsset: item.slug + '1',
             destAsset: destAsset.slug,
             srcChain: srcAsset.originChain,
             destChain: destAsset.originChain,
