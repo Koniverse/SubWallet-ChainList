@@ -98,9 +98,11 @@ jobs:
           yarn install
           yarn build
           cd packages/chain-list/build
+          cat package.json
           echo "Updating package.json with new version: ${{ env.NEW_VERSION }}"
           sed -i "s/\"version\": \".*\"/\"version\": \"${{ env.NEW_VERSION }}\"/" package.json
           sed -i "s/\"name\": \".*\"/\"name\": \"@anhtrieunhu/chain-list\"/" package.json
+          cat package.json
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
