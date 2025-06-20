@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.107",
+  "patchVersion": "0.2.108-beta.0",
   "appliedVersion": "0.2.105",
-  "timestamp": 1750393573733,
+  "timestamp": 1750409441305,
   "ChainInfo": {
     "pioneer": {
       "slug": "pioneer",
@@ -224,6 +224,53 @@
       "extraInfo": {
         "subscanSlug": "picasso",
         "chainBalanceSlug": "picasso"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "pendulum": {
+      "slug": "pendulum",
+      "name": "Pendulum",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png",
+      "providers": {
+        "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2094,
+        "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://pendulum.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "PEN",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2094-55",
+            "paraId": 2094,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 35,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pendulum",
+        "chainBalanceSlug": "pendulum"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -626,6 +673,7 @@
     "amplitude": "14f0eda77af0aff3e303dfd3bcaad7fa",
     "odyssey": "47ae8b7b2b7a182ec6d43a31b0e6b9c1",
     "picasso": "8d9d0708adafb0785e64135799612c79",
+    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
     "watr_network": "bbe2a762e3ed33c9e69245854d469a46",
     "bitgreen": "cab3a859ee66752e6773a08535668a9b",
     "hashedNetwork": "012516223424deaffa83dafb64223d91",
@@ -811,6 +859,7 @@
     "amplitude": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/amplitude.png",
     "odyssey": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/odyssey.png",
     "picasso": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
+    "pendulum": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png",
     "watr_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/watr_network.png",
     "bitgreen": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bitgreen.png",
     "hashedNetwork": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hashednetwork.png",
