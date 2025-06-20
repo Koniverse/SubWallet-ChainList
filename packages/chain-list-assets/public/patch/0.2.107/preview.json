@@ -1,0 +1,66 @@
+{
+  "patchVersion": "0.2.108-beta.0",
+  "appliedVersion": "0.2.107",
+  "timestamp": 1750409290522,
+  "ChainInfo": {
+    "pendulum": {
+      "slug": "pendulum",
+      "name": "Pendulum",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png",
+      "providers": {
+        "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2094,
+        "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://pendulum.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "PEN",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2094-55",
+            "paraId": 2094,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 35,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pendulum",
+        "chainBalanceSlug": "pendulum"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970"
+  },
+  "ChainAsset": {},
+  "ChainAssetHashMap": {},
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {},
+  "ChainLogoMap": {
+    "pendulum": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png"
+  },
+  "mAssetLogoMap": {}
+}
