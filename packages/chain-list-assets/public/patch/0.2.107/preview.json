@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.0",
+  "patchVersion": "0.2.108-beta.1",
   "appliedVersion": "0.2.107",
-  "timestamp": 1750409290522,
+  "timestamp": 1750651104752,
   "ChainInfo": {
     "pendulum": {
       "slug": "pendulum",
@@ -54,11 +54,35 @@
   "ChainInfoHashMap": {
     "pendulum": "de417e5fe3c35ba6dc6362a5e6754970"
   },
-  "ChainAsset": {},
-  "ChainAssetHashMap": {},
+  "ChainAsset": {
+    "truth_network-LOCAL-USDC": {
+      "originChain": "truth_network",
+      "slug": "truth_network-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 10,
+      "priceId": "usd-coin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 0
+        },
+        "allowAsBaseAsset": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139"
+  },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
-  "AssetLogoMap": {},
+  "AssetLogoMap": {
+    "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
+  },
   "ChainLogoMap": {
     "pendulum": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png"
   },
