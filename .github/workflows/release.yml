@@ -66,9 +66,7 @@ jobs:
           yarn install
 
           # Set version to package.json
-          if [[ ${{ steps.check_params.outputs.version_suffix }} != "" ]]; then
-            npm version --git-tag-version=false "${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}"
-          fi
+          npm version --git-tag-version=false ${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}
 
           # Build
           yarn build
