@@ -4,10 +4,13 @@ on:
     branches:
       - master
       - dev
+  pull_request:
+    branches:
+      - dev
 
 jobs:
-  master:
-    if: "startsWith(github.event.head_commit.message, '[Release]')"
+  build_and_publish:
+    if: "startsWith(github.event.head_commit.message, '[Release]') || github.event_name == 'pull_request'"
     runs-on: ubuntu-22.04
     name: Build and publish
     steps:
@@ -17,17 +20,43 @@ jobs:
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
       - name: Set input data
-        id: input_data
+        id: check_params
         run: |
+          # Define branch
+          BRANCH=${{ github.head_ref || github.ref_name }}
+          echo "Branch: $BRANCH"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+
+          # Version
+          VERSION=$(node -p -e "require('./package.json').version")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+          # Get PR number from event payload, default to 0 if not available
+          PR_NUMBER=${{ github.event.number || 0 }}
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+
+          # Set build ref
+          TIME_STRING=$(TZ="Asia/Ho_Chi_Minh" date +%Y%m%d-%H%M%S)
+          FINAL_VERSION=${VERSION}
+          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
+              FINAL_VERSION=${VERSION}
+          elif [[ ${{ github.ref }} == 'refs/heads/dev' ]]; then
+              FINAL_VERSION="${VERSION}-dev-${TIME_STRING}"
+          else
+              FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${TIME_STRING}"
+          fi
+          echo "final_version=$FINAL_VERSION" >> $GITHUB_OUTPUT
+
+          # Set release target
           if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
             echo "target=latest" >> $GITHUB_OUTPUT
           else
             echo "target=beta" >> $GITHUB_OUTPUT
           fi
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies and build
@@ -36,40 +65,47 @@ jobs:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
           STRAPI_URL: ${{ secrets.STRAPI_URL }}
         run: |
+          # Install dependencies
           yarn install
-          yarn publish:${{ steps.input_data.outputs.target }}
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: Github-Bot
-          author_email: scheduler@github.io
-          message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
+          # Build
+          yarn build
 
       - name: Deploy Assets to Cloudflare Pages
         id: cloudflare_deployment
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'sw-chain-list-assets'
+          command: pages deploy ./packages/chain-list-assets/public --project-name=sw-chain-list-assets --branch=${{ github.ref_name }}
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.ref_name }}
-          directory: './packages/chain-list-assets/public'
-          wranglerVersion: '3'
 
-      - name: Get current version
-        id: get_version
-        run: echo "VERSION=$(node -p -e "require('./package.json').version")" >> $GITHUB_ENV
+      - name: Update build logo prefix with deployment URL
+        if: github.ref != 'refs/heads/master' && github.ref != 'refs/heads/dev'
+        env:
+          CUSTOM_LOGO_PREFIX: ${{ steps.cloudflare_deployment.outputs.pages-deployment-alias-url }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
+          STRAPI_URL: ${{ secrets.STRAPI_URL }}
+        run: |
+          yarn update-logo-url
 
       - name: Create tag
         id: create_tag
-        if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[Stable]')
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git tag -a "v${{ env.VERSION }}" -m "Release stable version ${{ env.VERSION }}"
-          git push origin "v${{ env.VERSION }}"
+          git tag -a "v${{ steps.check_params.outputs.final_version }}" -m "Release version ${{ steps.check_params.outputs.final_version }}"
+          git push origin "v${{ steps.check_params.outputs.final_version }}"
+
+      - name: Publish to NPM
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          # Publish package
+          cd packages/chain-list/build
+          npm version --git-tag-version=false ${{ steps.check_params.outputs.final_version }}
+          npm publish --access public --tag ${{ steps.check_params.outputs.target }}
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
@@ -80,5 +116,7 @@ jobs:
           username: Chain List Notifier
           title: ${{ github.workflow }}
           description: |
-            The deployment has been completed.
+            The deployment of `${{ github.ref_name }}` has been completed.
+            NPM Version: [${{ steps.check_params.outputs.final_version }}](https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.final_version }})
+            Event: ${{ github.event_name }}
             Commit message: ${{ github.event.head_commit.message }}
