@@ -110,6 +110,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           # Publish package
+          cd packages/chain-list/build
           npm publish --access public --tag ${{ steps.check_params.outputs.target }}
 
       - name: Notify to Discord
@@ -121,8 +122,8 @@ jobs:
           username: Chain List Notifier
           title: ${{ github.workflow }}
           description: |
-            The deployment has been completed.
-            Version: ${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}
+            The deployment of `${{ github.ref_name }}` has been completed.
+            NPM Version: https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}
             Commit message: ${{ github.event.head_commit.message }}
 
       - name: Commit version bump
