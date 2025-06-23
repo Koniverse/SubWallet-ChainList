@@ -93,7 +93,7 @@ jobs:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
           STRAPI_URL: ${{ secrets.STRAPI_URL }}
         run: |
-          yarn update-logo-prefix
+          yarn update-logo-url
 
       - name: Create tag
         id: create_tag
