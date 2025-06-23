@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.106-beta.11",
+  "patchVersion": "0.2.108-beta.0",
   "appliedVersion": "0.2.105",
-  "timestamp": 1750234179284,
+  "timestamp": 1750409441305,
   "ChainInfo": {
     "pioneer": {
       "slug": "pioneer",
@@ -82,6 +82,51 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "amplitude": {
+      "slug": "amplitude",
+      "name": "Amplitude",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/amplitude.png",
+      "providers": {
+        "Amplitude": "wss://rpc-amplitude.pendulumchain.tech",
+        "Dwellir": "wss://amplitude-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2124,
+        "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "AMPE",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2124-81",
+            "paraId": 2124,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 42,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "odyssey": {
       "slug": "odyssey",
       "name": "Ares Odyssey",
@@ -110,6 +155,123 @@
         "crowdloanFunds": []
       },
       "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "picasso": {
+      "slug": "picasso",
+      "name": "Picasso",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png",
+      "providers": {
+        "Composable": "wss://rpc.composablenodes.tech",
+        "Dwellir": "wss://picasso-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2087,
+        "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+        "addressPrefix": 49,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.composable.finance/",
+        "blockExplorer": "https://picasso.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "PICA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2270-100",
+            "paraId": 2270,
+            "status": "won",
+            "startTime": "2023-05-31T04:27:00.000Z",
+            "endTime": "2024-05-01T04:27:00.000Z",
+            "auctionIndex": 84,
+            "firstPeriod": 30,
+            "lastPeriod": 37
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2130-85",
+            "paraId": 2130,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 49,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2087-37",
+            "paraId": 2087,
+            "status": "won",
+            "startTime": "2021-12-01T04:27:00.000Z",
+            "endTime": "2022-11-02T04:27:00.000Z",
+            "auctionIndex": 12,
+            "firstPeriod": 17,
+            "lastPeriod": 24
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "picasso",
+        "chainBalanceSlug": "picasso"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "pendulum": {
+      "slug": "pendulum",
+      "name": "Pendulum",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png",
+      "providers": {
+        "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2094,
+        "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://pendulum.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "PEN",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2094-55",
+            "paraId": 2094,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 35,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pendulum",
+        "chainBalanceSlug": "pendulum"
+      },
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -476,7 +638,10 @@
   "ChainInfoHashMap": {
     "pioneer": "9d1108d88e1a5c577b2ed30c2799d2b9",
     "turingStaging": "5e934def36091b6fa0914950ce0cd8eb",
+    "amplitude": "14f0eda77af0aff3e303dfd3bcaad7fa",
     "odyssey": "47ae8b7b2b7a182ec6d43a31b0e6b9c1",
+    "picasso": "8d9d0708adafb0785e64135799612c79",
+    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
     "watr_network": "bbe2a762e3ed33c9e69245854d469a46",
     "bitgreen": "cab3a859ee66752e6773a08535668a9b",
     "hashedNetwork": "012516223424deaffa83dafb64223d91",
@@ -658,7 +823,10 @@
   "ChainLogoMap": {
     "pioneer": "https://chain-list-assets.subwallet.app/assets/chains/pioneer.png",
     "turingStaging": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png",
+    "amplitude": "https://chain-list-assets.subwallet.app/assets/chains/amplitude.png",
     "odyssey": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png",
+    "picasso": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png",
+    "pendulum": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png",
     "watr_network": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png",
     "bitgreen": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png",
     "hashedNetwork": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png",
