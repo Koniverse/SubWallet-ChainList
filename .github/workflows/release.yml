@@ -83,7 +83,7 @@ jobs:
       - name: Update build logo prefix with deployment URL
         if: github.ref != 'refs/heads/master' && github.ref != 'refs/heads/dev'
         env:
-          CUSTOM_LOGO_URL: ${{ steps.cloudflare_deployment.outputs.pages-deployment-alias-url }}
+          CUSTOM_LOGO_PREFIX: ${{ steps.cloudflare_deployment.outputs.pages-deployment-alias-url }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
           STRAPI_URL: ${{ secrets.STRAPI_URL }}
