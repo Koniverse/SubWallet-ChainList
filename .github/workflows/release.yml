@@ -73,18 +73,6 @@ jobs:
 
       - name: Deploy Assets to Cloudflare Pages
         id: cloudflare_deployment
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'sw-chain-list-assets'
-          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.ref_name }}
-          directory: './packages/chain-list-assets/public'
-          wranglerVersion: '3'
-
-      - name: Deploy Assets to Cloudflare Pages
-        id: cloudflare_deployment
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
