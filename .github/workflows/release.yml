@@ -28,7 +28,8 @@ jobs:
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
 
           # Version
-          echo "version=$(node -p -e "require('./package.json').version")" >> $GITHUB_OUTPUT
+          VERSION=$(node -p -e "require('./package.json').version")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
           # Get PR number from event payload, default to 0 if not available
           PR_NUMBER=${{ github.event.number || 0 }}
@@ -36,13 +37,15 @@ jobs:
 
           # Set build ref
           TIME_STRING=$(TZ="Asia/Ho_Chi_Minh" date +%Y%m%d-%H%M%S)
+          FINAL_VERSION=${VERSION}
           if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-              echo "version_suffix=" >> $GITHUB_OUTPUT
+              FINAL_VERSION=${VERSION}
           elif [[ ${{ github.ref }} == 'refs/heads/dev' ]]; then
-              echo "version_suffix=dev-${TIME_STRING}" >> $GITHUB_OUTPUT
+              FINAL_VERSION="${VERSION}-dev-${TIME_STRING}"
           else
-              echo "version_suffix=pr-${{ github.event.number }}-${TIME_STRING}" >> $GITHUB_OUTPUT
+              FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${TIME_STRING}"
           fi
+          echo "final_version=$FINAL_VERSION" >> $GITHUB_OUTPUT
 
           # Set release target
           if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
@@ -64,9 +67,6 @@ jobs:
         run: |
           # Install dependencies
           yarn install
-
-          # Set version to package.json
-          npm version --git-tag-version=false ${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}
 
           # Build
           yarn build
@@ -97,11 +97,10 @@ jobs:
         id: create_tag
         if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[Stable]')
         run: |
-          VERSION="${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}"
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git tag -a "v${VERSION}" -m "Release version ${VERSION}"
-          git push origin "v${VERSION}"
+          git tag -a "v${{ steps.check_params.outputs.final_version }}" -m "Release version ${{ steps.check_params.outputs.final_version }}"
+          git push origin "v${{ steps.check_params.outputs.final_version }}"
 
       - name: Publish to NPM
         env:
@@ -109,6 +108,7 @@ jobs:
         run: |
           # Publish package
           cd packages/chain-list/build
+          npm version --git-tag-version=false ${{ steps.check_params.outputs.final_version }}
           npm publish --access public --tag ${{ steps.check_params.outputs.target }}
 
       - name: Notify to Discord
@@ -121,7 +121,7 @@ jobs:
           title: ${{ github.workflow }}
           description: |
             The deployment of `${{ github.ref_name }}` has been completed.
-            NPM Version: https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.version }}-${{ steps.check_params.outputs.version_suffix }}
+            NPM Version: https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.final_version }}
             Commit message: ${{ github.event.head_commit.message }}
 
       - name: Commit version bump
