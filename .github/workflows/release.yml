@@ -54,9 +54,9 @@ jobs:
             echo "target=beta" >> $GITHUB_OUTPUT
           fi
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies and build
@@ -92,7 +92,6 @@ jobs:
 
       - name: Create tag
         id: create_tag
-        if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[Stable]')
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -118,14 +117,6 @@ jobs:
           title: ${{ github.workflow }}
           description: |
             The deployment of `${{ github.ref_name }}` has been completed.
-            NPM Version: https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.final_version }}
+            NPM Version: [${{ steps.check_params.outputs.final_version }}](https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.final_version }})
+            Event: ${{ github.event_name }}
             Commit message: ${{ github.event.head_commit.message }}
-
-      - name: Commit version bump
-        uses: EndBug/add-and-commit@v9
-        # Bump version only for master branch only to bump version
-        if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[Stable]')
-        with:
-          author_name: Github-Bot
-          author_email: scheduler@github.io
-          message: 'Update data after publish:${{ steps.check_params.outputs.target }}'
