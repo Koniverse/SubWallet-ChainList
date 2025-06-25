@@ -10,7 +10,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.2.109",
+  "version": "0.2.108",
   "workspaces": [
     "packages/*"
   ],
@@ -27,7 +27,6 @@
     "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
     "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
     "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
-    "update-logo-url": "./scripts/subwallet-dev-update-logo-url.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"
