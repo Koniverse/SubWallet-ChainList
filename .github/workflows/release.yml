@@ -36,14 +36,14 @@ jobs:
           echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
 
           # Set build ref
-          TIME_STRING=$(TZ="Asia/Ho_Chi_Minh" date +%Y%m%d-%H%M%S)
+          VERSION_FLAG=${{ github.event.pull_request.head.sha || github.event.head_commit.id }}
           FINAL_VERSION=${VERSION}
           if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
               FINAL_VERSION=${VERSION}
           elif [[ ${{ github.ref }} == 'refs/heads/dev' ]]; then
-              FINAL_VERSION="${VERSION}-dev-${TIME_STRING}"
+              FINAL_VERSION="${VERSION}-dev-${VERSION_FLAG}"
           else
-              FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${TIME_STRING}"
+              FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${VERSION_FLAG}"
           fi
           echo "final_version=$FINAL_VERSION" >> $GITHUB_OUTPUT
 
