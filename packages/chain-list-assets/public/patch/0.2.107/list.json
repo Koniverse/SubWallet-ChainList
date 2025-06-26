@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.0",
+  "patchVersion": "0.2.108-beta.3",
   "appliedVersion": "0.2.107",
-  "timestamp": 1750409290522,
+  "timestamp": 1750906829633,
   "ChainInfo": {
     "pendulum": {
       "slug": "pendulum",
@@ -49,18 +49,193 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "tanssi": {
+      "slug": "tanssi",
+      "name": "Tanssi Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/tanssi.png",
+      "providers": {
+        "tanssi": "wss://tanssi.tanssi-mainnet.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xdd6d086f75ec041b66e20c4186d327b23c8af244c534a2418de6574e8c041a60",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://tanssi.subscan.io",
+        "existentialDeposit": "33333333",
+        "symbol": "TANSSI",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "tanssi",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hyperEvm": {
+      "slug": "hyperEvm",
+      "name": "HyperEVM Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hyperevm.png",
+      "providers": {
+        "Hyperliquid": "https://rpc.hyperliquid.xyz/evm",
+        "Hypurrscan": "https://rpc.hypurrscan.io",
+        "Hyperliquid Stakely": "https://hyperliquid-json-rpc.stakely.io"
+      },
+      "evmInfo": {
+        "evmChainId": 999,
+        "blockExplorer": "https://purrsec.com/",
+        "existentialDeposit": "0",
+        "symbol": "HYPE",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "mosaicTest": {
+      "slug": "mosaicTest",
+      "name": "Mosaic Chain Devnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/mosaictest.png",
+      "providers": {
+        "Mosaic 1": "wss://devnet-gw1.mosaicchain.io/MosaicNode1/chain",
+        "Mosaic 2": "wss://devnet-gw2.mosaicchain.io/MosaicNode2/chain"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3377,
+        "genesisHash": "0x42e93d676fb5ca2cad472804196d052cf7baa5cf9720f0cf905380ccc2a65de4",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "TMOS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970"
+    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
+    "tanssi": "cace11409e22ba50d82cbe9376e49136",
+    "hyperEvm": "8b27b4c5247e8388827d4abe74557b1d",
+    "mosaicTest": "bcedde47587c51c219e72ae12706f67f"
   },
-  "ChainAsset": {},
-  "ChainAssetHashMap": {},
+  "ChainAsset": {
+    "truth_network-LOCAL-USDC": {
+      "originChain": "truth_network",
+      "slug": "truth_network-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 10,
+      "priceId": "usd-coin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "ForeignAsset": 0
+        },
+        "allowAsBaseAsset": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-local-usdc.png"
+    },
+    "tanssi-NATIVE-TANSSI": {
+      "originChain": "tanssi",
+      "slug": "tanssi-NATIVE-TANSSI",
+      "name": "Tanssi Mainnet",
+      "symbol": "TANSSI",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "33333333",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/tanssi-native-tanssi.png"
+    },
+    "hyperEvm-NATIVE-HYPE": {
+      "originChain": "hyperEvm",
+      "slug": "hyperEvm-NATIVE-HYPE",
+      "name": "HyperEVM",
+      "symbol": "HYPE",
+      "decimals": 18,
+      "priceId": "hyperliquid",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hyperevm-native-hype.png"
+    },
+    "mosaicTest-NATIVE-TMOS": {
+      "originChain": "mosaicTest",
+      "slug": "mosaicTest-NATIVE-TMOS",
+      "name": "Mosaic Chain Devnet",
+      "symbol": "TMOS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "10000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/mosaictest-native-tmos.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
+    "tanssi-NATIVE-TANSSI": "3062232f24dcaced83fd2de64611729e",
+    "hyperEvm-NATIVE-HYPE": "a6d9f87120f09c7e2e995edc21b5c658",
+    "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824"
+  },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
-  "AssetLogoMap": {},
+  "AssetLogoMap": {
+    "truth_network-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-local-usdc.png",
+    "tanssi-native-tanssi": "https://chain-list-assets.subwallet.app/assets/chain-assets/tanssi-native-tanssi.png",
+    "hyperevm-native-hype": "https://chain-list-assets.subwallet.app/assets/chain-assets/hyperevm-native-hype.png",
+    "mosaictest-native-tmos": "https://chain-list-assets.subwallet.app/assets/chain-assets/mosaictest-native-tmos.png"
+  },
   "ChainLogoMap": {
-    "pendulum": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png"
+    "pendulum": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png",
+    "tanssi": "https://chain-list-assets.subwallet.app/assets/chains/tanssi.png",
+    "hyperEvm": "https://chain-list-assets.subwallet.app/assets/chains/hyperevm.png",
+    "mosaicTest": "https://chain-list-assets.subwallet.app/assets/chains/mosaictest.png"
   },
   "mAssetLogoMap": {}
 }
