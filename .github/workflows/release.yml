@@ -36,12 +36,10 @@ jobs:
           echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
 
           # Set build ref
-          VERSION_FLAG=${{ github.event.pull_request.head.sha || github.event.head_commit.id }}
+          VERSION_FLAG=$(echo "${{ github.event.pull_request.head.sha || github.event.head_commit.id }}" | cut -c1-8)
           FINAL_VERSION=${VERSION}
-          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
+          if [[ ${{ github.ref }} == 'refs/heads/master' || ${{ github.ref }} == 'refs/heads/dev' ]]; then
               FINAL_VERSION=${VERSION}
-          elif [[ ${{ github.ref }} == 'refs/heads/dev' ]]; then
-              FINAL_VERSION="${VERSION}-dev-${VERSION_FLAG}"
           else
               FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${VERSION_FLAG}"
           fi
@@ -120,3 +118,4 @@ jobs:
             NPM Version: [${{ steps.check_params.outputs.final_version }}](https://www.npmjs.com/package/@subwallet/chain-list/v/${{ steps.check_params.outputs.final_version }})
             Event: ${{ github.event_name }}
             Commit message: ${{ github.event.head_commit.message }}
+            Online assets: ${{ steps.cloudflare_deployment.outputs.pages-deployment-alias-url }}
