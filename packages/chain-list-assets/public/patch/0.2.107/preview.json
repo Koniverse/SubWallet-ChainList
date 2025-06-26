@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.2",
+  "patchVersion": "0.2.108-beta.3",
   "appliedVersion": "0.2.107",
-  "timestamp": 1750825623594,
+  "timestamp": 1750906829633,
   "ChainInfo": {
     "pendulum": {
       "slug": "pendulum",
@@ -132,7 +132,7 @@
         "addressPrefix": 0,
         "chainType": "PARACHAIN",
         "crowdloanUrl": null,
-        "blockExplorer": "https://devnet-explorer.mosaicchain.io/",
+        "blockExplorer": null,
         "existentialDeposit": "10000000000000000",
         "symbol": "TMOS",
         "decimals": 18,
@@ -152,7 +152,7 @@
     "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
     "tanssi": "cace11409e22ba50d82cbe9376e49136",
     "hyperEvm": "8b27b4c5247e8388827d4abe74557b1d",
-    "mosaicTest": "d36cf0570871b3ef89fcdb8d34796534"
+    "mosaicTest": "bcedde47587c51c219e72ae12706f67f"
   },
   "ChainAsset": {
     "truth_network-LOCAL-USDC": {
