@@ -1,8 +1,134 @@
 {
-  "patchVersion": "0.2.105-beta.14",
+  "patchVersion": "0.2.108-beta.1",
   "appliedVersion": "0.2.101",
-  "timestamp": 1747913187856,
+  "timestamp": 1750826572582,
   "ChainInfo": {
+    "pioneer": {
+      "slug": "pioneer",
+      "name": "Pioneer Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/pioneer.png",
+      "providers": {
+        "Pioneer": "wss://pioneer-rpc-3.bit.country/wss"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2096,
+        "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+        "addressPrefix": 268,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://ksmcrowdloan.bit.country/",
+        "blockExplorer": "https://pioneer.subscan.io/",
+        "existentialDeposit": "100000000000000000",
+        "symbol": "NEER",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2096-39",
+            "paraId": 2096,
+            "status": "won",
+            "startTime": "2021-12-01T04:27:00.000Z",
+            "endTime": "2022-11-02T04:27:00.000Z",
+            "auctionIndex": 13,
+            "firstPeriod": 17,
+            "lastPeriod": 24
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pioneer",
+        "chainBalanceSlug": "pioneer"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "turingStaging": {
+      "slug": "turingStaging",
+      "name": "Turing Staging",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png",
+      "providers": {
+        "Turing": "wss://rpc.turing-staging.oak.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2114,
+        "genesisHash": "0xd54f0988402deb4548538626ce37e4a318441ea0529ca369400ebec4e04dfe4b",
+        "addressPrefix": 51,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000",
+        "symbol": "TUR",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "turing": {
+      "slug": "turing",
+      "name": "Turing",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/turing.png",
+      "providers": {
+        "Dwellir": "wss://turing-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2114,
+        "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+        "addressPrefix": 51,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://turing.subscan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "TUR",
+        "decimals": 10,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2114-68",
+            "paraId": 2114,
+            "status": "won",
+            "startTime": "2022-04-06T04:27:00.000Z",
+            "endTime": "2023-03-08T04:27:00.000Z",
+            "auctionIndex": 30,
+            "firstPeriod": 20,
+            "lastPeriod": 27
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "turing",
+        "chainBalanceSlug": "turing"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "calamari": {
       "slug": "calamari",
       "name": "Calamari",
@@ -46,6 +172,51 @@
         "subscanSlug": "calamari",
         "chainBalanceSlug": "calamari"
       },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "amplitude": {
+      "slug": "amplitude",
+      "name": "Amplitude",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/amplitude.png",
+      "providers": {
+        "Amplitude": "wss://rpc-amplitude.pendulumchain.tech",
+        "Dwellir": "wss://amplitude-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2124,
+        "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "AMPE",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2124-81",
+            "paraId": 2124,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 42,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          }
+        ]
+      },
+      "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -101,28 +272,59 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
-    "picasso": {
-      "slug": "picasso",
-      "name": "Picasso",
+    "odyssey": {
+      "slug": "odyssey",
+      "name": "Ares Odyssey",
       "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png",
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png",
       "providers": {
-        "Composable": "wss://rpc.composablenodes.tech",
-        "Dwellir": "wss://picasso-rpc.dwellir.com"
+        "AresProtocol": "wss://odyssey.aresprotocol.io"
       },
       "evmInfo": null,
       "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2104,
-        "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-        "addressPrefix": 49,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://crowdloan.composable.finance/",
-        "blockExplorer": "https://picasso.subscan.io/",
-        "existentialDeposit": "100000000000",
-        "symbol": "PICA",
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x0f3665e2e57fb38fd638145b69e567fb05bbadfd457624f90f15e5dbb31320bb",
+        "addressPrefix": 34,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "ARES",
         "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "sakura": {
+      "slug": "sakura",
+      "name": "Sakura",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/sakura.png",
+      "providers": {
+        "Clover": "wss://rpc.sakura.clover.finance"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x7b0f142a9299b0886595992f8cac58814c8956de6a31c77caca95db01370fc2c",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "SKU",
+        "decimals": 18,
         "hasNativeNft": false,
         "supportStaking": false,
         "supportSmartContract": null,
@@ -130,42 +332,20 @@
         "crowdloanFunds": [
           {
             "relayChain": "kusama",
-            "fundId": "2270-100",
-            "paraId": 2270,
+            "fundId": "2016-49",
+            "paraId": 2016,
             "status": "won",
-            "startTime": "2023-05-31T04:27:00.000Z",
-            "endTime": "2024-05-01T04:27:00.000Z",
-            "auctionIndex": 84,
-            "firstPeriod": 30,
-            "lastPeriod": 37
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2130-85",
-            "paraId": 2130,
-            "status": "won",
-            "startTime": "2022-08-10T04:27:00.000Z",
-            "endTime": "2023-07-12T04:27:00.000Z",
-            "auctionIndex": 49,
-            "firstPeriod": 23,
-            "lastPeriod": 30
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2087-37",
-            "paraId": 2087,
-            "status": "won",
-            "startTime": "2021-12-01T04:27:00.000Z",
-            "endTime": "2022-11-02T04:27:00.000Z",
-            "auctionIndex": 12,
-            "firstPeriod": 17,
-            "lastPeriod": 24
+            "startTime": "2022-01-12T04:27:00.000Z",
+            "endTime": "2022-12-14T04:27:00.000Z",
+            "auctionIndex": 18,
+            "firstPeriod": 18,
+            "lastPeriod": 25
           }
         ]
       },
       "extraInfo": {
-        "subscanSlug": "picasso",
-        "chainBalanceSlug": "picasso"
+        "subscanSlug": null,
+        "chainBalanceSlug": "sakura"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -260,6 +440,97 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "imbue_network": {
+      "slug": "imbue_network",
+      "name": "Imbue Kusama",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/imbue_network.png",
+      "providers": {
+        "Imbue": "wss://kusama.imbuenetwork.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2121,
+        "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000",
+        "symbol": "IMBU",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2121-79",
+            "paraId": 2121,
+            "status": "won",
+            "startTime": "2022-06-29T04:27:00.000Z",
+            "endTime": "2023-05-31T04:27:00.000Z",
+            "auctionIndex": 40,
+            "firstPeriod": 22,
+            "lastPeriod": 29
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "pendulum": {
+      "slug": "pendulum",
+      "name": "Pendulum",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png",
+      "providers": {
+        "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2094,
+        "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://pendulum.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "PEN",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2094-55",
+            "paraId": 2094,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 35,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pendulum",
+        "chainBalanceSlug": "pendulum"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "calamari_test": {
       "slug": "calamari_test",
       "name": "Calamari Staging",
@@ -280,6 +551,448 @@
         "blockExplorer": null,
         "existentialDeposit": "100000000000",
         "symbol": "KMA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "watr_network": {
+      "slug": "watr_network",
+      "name": "Watr Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png",
+      "providers": {
+        "watr": "wss://rpc.dev.watr.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2058,
+        "genesisHash": "0x25895f66e42429d148d5bdabcf6e16996f7b0d6c171e771e302c291ba94e13f2",
+        "addressPrefix": 19,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "WATRD",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "fusotao": {
+      "slug": "fusotao",
+      "name": "Fusotao",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/fusotao.png",
+      "providers": {
+        "fusotao": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xa7113159e275582ee71ee499b24378a2416f34dc5aaf714443f0d11c6c3d99d3",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1",
+        "symbol": "TAO",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "discovol": {
+      "slug": "discovol",
+      "name": "Discovol",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/discovol.png",
+      "providers": {
+        "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x2dfbcf7700297bd8ce07a4665ab39e2ed1a3790df783b936988c85eb87e38bee",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "DISC",
+        "decimals": 14,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "atocha": {
+      "slug": "atocha",
+      "name": "Atocha",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/atocha.png",
+      "providers": {
+        "atocha": "wss://gateway.mainnet.octopus.network/atocha/jungxomf4hdcfocwcalgoiz64g9avjim"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x1f11f745be512a17f39b571a9391b5ee6747b900c1db98176828e4a1346dbe9b",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000000000",
+        "symbol": "ATO",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "myriad": {
+      "slug": "myriad",
+      "name": "Myriad",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/myriad.png",
+      "providers": {
+        "myriad": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000000000",
+        "symbol": "MYRIA",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "deBio": {
+      "slug": "deBio",
+      "name": "DeBio",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/debio.png",
+      "providers": {
+        "deBio": "wss://gateway.mainnet.octopus.network/debionetwork/ae48005a0c7ecb4053394559a7f4069e"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x996800af345b3109acdada9913e36d1efa98b89e7dcd0b61b70fdbfc13b2fa50",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "DBIO",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "bitgreen": {
+      "slug": "bitgreen",
+      "name": "Bitgreen",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png",
+      "providers": {
+        "viaBitgreen": "wss://mainnet.bitgreen.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2048,
+        "genesisHash": "0xc14597baeccb232d662770d2d50ae832ca8c3192693d2b0814e6433f2888ddd6",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "BBB",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hashedNetwork": {
+      "slug": "hashedNetwork",
+      "name": "Hashed Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png",
+      "providers": {
+        "Hashed Systems 1": "wss://c1.hashed.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2093,
+        "genesisHash": "0xdce5477cfca571c2cb652f38bbb70429004be3cf9649dd2b4ad9455b2251fe43",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "HASH",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2093-58",
+            "paraId": 2093,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 40,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          },
+          {
+            "relayChain": "polkadot",
+            "fundId": "2093-54",
+            "paraId": 2093,
+            "status": "failed",
+            "startTime": "2022-11-22T01:48:00.000Z",
+            "endTime": "2024-09-24T01:48:00.000Z",
+            "auctionIndex": 34,
+            "firstPeriod": 10,
+            "lastPeriod": 17
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "crownSterling": {
+      "slug": "crownSterling",
+      "name": "Crown Sterling",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/crownsterling.png",
+      "providers": {
+        "Crown Sterling": "wss://blockchain.crownsterling.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xce24ecf534daea9cd46e425659ef4950a57dd29d07272b423220129c323a64b7",
+        "addressPrefix": 0,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1",
+        "symbol": "CSOV",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "dockPosMainnet": {
+      "slug": "dockPosMainnet",
+      "name": "Dock",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/dockposmainnet.png",
+      "providers": {
+        "Dock Association": "wss://mainnet-node.dock.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x6bfe24dca2a3be10f22212678ac13a6446ec764103c0f3471c71609eac384aae",
+        "addressPrefix": 22,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://dock.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "DOCK",
+        "decimals": 6,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "dock",
+        "chainBalanceSlug": "dock-pos"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "neatcoin": {
+      "slug": "neatcoin",
+      "name": "Neatcoin",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/neatcoin.png",
+      "providers": {
+        "Neatcoin": "wss://rpc.neatcoin.org/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xfbb541421d30423c9a753ffa844b64fd44d823f513bf49e3b73b3a656309a595",
+        "addressPrefix": 48,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000",
+        "symbol": "NEAT",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "nftmart": {
+      "slug": "nftmart",
+      "name": "NFTMart",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/nftmart.png",
+      "providers": {
+        "NFTMart": "wss://mainnet.nftmart.io/rpc/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xfcf9074303d8f319ad1bf0195b145871977e7c375883b834247cb01ff22f51f9",
+        "addressPrefix": 12191,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "NMT",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "kulupu": {
+      "slug": "kulupu",
+      "name": "Kulupu",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/kulupu.png",
+      "providers": {
+        "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xf7a99d3cb92853d00d5275c971c132c074636256583fee53b3bbe60d7b8769ba",
+        "addressPrefix": 16,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000",
+        "symbol": "KLP",
         "decimals": 12,
         "hasNativeNft": false,
         "supportStaking": false,
@@ -323,6 +1036,45 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "crust_mainnet": {
+      "slug": "crust_mainnet",
+      "name": "Crust Mainnet",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/crust_mainnet.png",
+      "providers": {
+        "OnFinality": "wss://crust.api.onfinality.io/public-ws",
+        "Crust Network": "wss://rpc.crust.network",
+        "Crust Network APP": "wss://rpc.crustnetwork.app",
+        "Crust Network CC": "wss://rpc.crustnetwork.cc",
+        "Crust Network XYZ": "wss://rpc.crustnetwork.xyz"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x8b404e7ed8789d813982b9cb4c8b664c05b3fbf433309f603af014ec9ce56a8c",
+        "addressPrefix": 66,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://crust.subscan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "CRU",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "crust",
+        "chainBalanceSlug": "crust-main"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "bittensor": {
       "slug": "bittensor",
       "name": "Bittensor",
@@ -360,6 +1112,52 @@
             "auctionIndex": 36,
             "firstPeriod": 11,
             "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "invarch": {
+      "slug": "invarch",
+      "name": "InvArch Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/invarch.png",
+      "providers": {
+        "Dwellir": "wss://invarch-rpc.dwellir.com",
+        "IBP1": "wss://invarch.ibp.network",
+        "IBP2": "wss://invarch.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3340,
+        "genesisHash": "0x31a7d8914fb31c249b972f18c115f1e22b4b039abbcb03c73b6774c5642f9efe",
+        "addressPrefix": 117,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://invarch.statescan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "VARCH",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "3340-68",
+            "paraId": 3340,
+            "status": "won",
+            "startTime": "2023-10-24T01:48:00.000Z",
+            "endTime": "2025-08-26T01:48:00.000Z",
+            "auctionIndex": 47,
+            "firstPeriod": 14,
+            "lastPeriod": 21
           }
         ]
       },
@@ -439,6 +1237,105 @@
         "decimals": 12,
         "hasNativeNft": false,
         "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "watr_mainnet": {
+      "slug": "watr_mainnet",
+      "name": "Watr Mainnet",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/watr_mainnet.png",
+      "providers": {
+        "Watr": "wss://watr-rpc.watr-api.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2058,
+        "genesisHash": "0x161db6cdc5896fe55ef12b4778fe78dd65d7af43f65c601786b88d7a93ebc58a",
+        "addressPrefix": 19,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "WATR",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "continuum_network": {
+      "slug": "continuum_network",
+      "name": "Continuum Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/continuum_network.png",
+      "providers": {
+        "Continuum RPC Node": "wss://continuum-rpc-1.metaverse.network/wss"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3346,
+        "genesisHash": "0xae1ca86c936aa252cdc45f4f436220567b2bbbcc4834f5b8f4191462baf19dfb",
+        "addressPrefix": 268,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://continuum.subscan.io/",
+        "existentialDeposit": "100000000000000000",
+        "symbol": "NUUM",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "continuum",
+        "chainBalanceSlug": "continuum"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "phykenTest": {
+      "slug": "phykenTest",
+      "name": "Phyken Network Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/phykentest.png",
+      "providers": {
+        "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x1072ec50040d7d42226e34d1ce90d9401ed9506a0ae16390ce6e18df99a1c4e4",
+        "addressPrefix": 666,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000",
+        "symbol": "KEN",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
         "supportSmartContract": null,
         "crowdloanParaId": null,
         "crowdloanFunds": []
@@ -819,19 +1716,130 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "zora": {
+      "slug": "zora",
+      "name": "Zora",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/zora.png",
+      "providers": {
+        "Zora": "https://rpc.zora.energy/"
+      },
+      "evmInfo": {
+        "evmChainId": 7777777,
+        "blockExplorer": "https://explorer.zora.energy/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "dancelight": {
+      "slug": "dancelight",
+      "name": "Dancelight",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/dancelight.png",
+      "providers": {
+        "Tanssi": "wss://dancelight.tanssi-api.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x983a1a72503d6cc3636776747ec627172b51272bf45e50a355348facb67a820a",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "33333333",
+        "symbol": "STAR",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "tscs": {
+      "slug": "tscs",
+      "name": "TSCS Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/tscs.png",
+      "providers": {
+        "SCSchain": "https://testnetrpc.scschain.com"
+      },
+      "evmInfo": {
+        "evmChainId": 1969,
+        "blockExplorer": "https://testnetscan.scschain.com/",
+        "existentialDeposit": "0",
+        "symbol": "TSCS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
+    "pioneer": "9d1108d88e1a5c577b2ed30c2799d2b9",
+    "turingStaging": "5e934def36091b6fa0914950ce0cd8eb",
+    "turing": "5632c5c8a59cdee1092484a71b97dada",
     "calamari": "31d9af0e0bc7f42238a50cf0ff0abd89",
+    "amplitude": "14f0eda77af0aff3e303dfd3bcaad7fa",
     "hydradx_main": "d4b23e56281f95b1cf06cd587b622df7",
-    "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
+    "odyssey": "47ae8b7b2b7a182ec6d43a31b0e6b9c1",
+    "sakura": "2fee506703327367f517d99baed03f51",
     "litmus": "6af90b18c953e8816091e7d7b6f0fc5b",
     "litentry": "cfa60b8a9f018814788014f7a6218bfc",
+    "imbue_network": "8d30149c732711a62bddf75711283e1b",
+    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
     "calamari_test": "049a42b7e109824f9df0d98f0a5bcf1a",
+    "watr_network": "bbe2a762e3ed33c9e69245854d469a46",
+    "fusotao": "f78992c619b43b4e18b95810f59d5969",
+    "discovol": "767750a07974554b1b579b188d40de59",
+    "atocha": "91359a038bde8d049163bee3fa653356",
+    "myriad": "0b87367b75c50c3a23bb84d83a401385",
+    "deBio": "d59452d3d61c5b24459afaeee9b054ca",
+    "bitgreen": "cab3a859ee66752e6773a08535668a9b",
+    "hashedNetwork": "012516223424deaffa83dafb64223d91",
+    "crownSterling": "82a2eac49d98804451e69e36a0fcee0b",
+    "dockPosMainnet": "41af99472cc1199d81e3cc65a8fec1fd",
+    "neatcoin": "0e8ad4fd16ff3ecf7d93cdd124c9ec26",
+    "nftmart": "8dfd27374864b7cf906636b5f3ed7349",
+    "kulupu": "700bfb2db8ac921810049181cdd37674",
     "fantom": "9716da1fb11126af651fc51d02f27e6f",
+    "crust_mainnet": "2a9113a39ab162ca11d3eb2790169020",
     "bittensor": "2ec8adfab96a121541f416d259042ccd",
+    "invarch": "df3740a462c5673905f5f02d3d428bc0",
     "polimec": "73137758e4b8badba109c0adaa33ccf6",
     "xcavate": "db64a03b3936f404d90a4be8c3ce6b29",
+    "watr_mainnet": "7fa0d421c6aae3c52e802e383ad25157",
+    "continuum_network": "521b4a3627ea38b31cddc42f3541618b",
+    "phykenTest": "b085a88040be13f4e88245d7f5379101",
     "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa",
     "hyperbridge": "20c65ab0680bdf7b498f0931943279e7",
     "cere": "1b438710c5c8856f7e1c5524f2f2d0af",
@@ -843,7 +1851,10 @@
     "polkadot_coretime": "d54f61e15b65f3d0f05d9ee4f3e19f28",
     "kusama_coretime": "5663718dd0817e0b7e49404117afa485",
     "truth_network": "4583baaaee0ef961da32bb098a620958",
-    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
+    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
+    "zora": "95870dec21bd3295daffac346e77e0e9",
+    "dancelight": "51cc000393fd8f41214b0b3bfa391e7d",
+    "tscs": "830b822912a5a3806b14f04aaa981d96"
   },
   "ChainAsset": {
     "darwinia2-LOCAL-KTON": {
@@ -952,6 +1963,22 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png"
+    },
+    "hydradx_main-LOCAL-H2O": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-H2O",
+      "name": "Lerna",
+      "symbol": "H2O",
+      "decimals": 12,
+      "priceId": "h2o-2",
+      "minAmount": "400000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-h2o.png"
     },
     "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": {
       "originChain": "humanodeEvm",
@@ -1564,16 +2591,17 @@
       "slug": "truth_network-LOCAL-USDC",
       "name": "USD Coin",
       "symbol": "USDC",
-      "decimals": 6,
+      "decimals": 10,
       "priceId": "usd-coin",
       "minAmount": "1",
       "assetType": "LOCAL",
       "metadata": {
         "onChainInfo": {
           "ForeignAsset": 0
-        }
+        },
+        "allowAsBaseAsset": true
       },
-      "multiChainAsset": "USDC-USDCoin",
+      "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-local-usdc.png"
     },
@@ -1661,7 +2689,7 @@
       "name": "GIGADOT",
       "symbol": "GDOT",
       "decimals": 18,
-      "priceId": null,
+      "priceId": "gigadot",
       "minAmount": "0",
       "assetType": "LOCAL",
       "metadata": {
@@ -1792,6 +2820,302 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
+    },
+    "statemint-LOCAL-USDC-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-USDC-Snowbridge",
+      "name": "USDC-Snowbridge",
+      "symbol": "USDC-Snowbridge",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-usdc-snowbridge.png"
+    },
+    "statemint-LOCAL-ETH-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-ETH-Snowbridge",
+      "name": "ETH-Snowbridge",
+      "symbol": "ETH-Snowbridge",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "15000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X1": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-eth-snowbridge.png"
+    },
+    "zora-NATIVE-ETH": {
+      "originChain": "zora",
+      "slug": "zora-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/zora-native-eth.png"
+    },
+    "statemint-LOCAL-USDT-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-USDT-Snowbridge",
+      "name": "USDT-Snowbridge",
+      "symbol": "USDT-Snowbridge",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-usdt-snowbridge.png"
+    },
+    "statemint-LOCAL-WBTC-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WBTC-Snowbridge",
+      "name": "WBTC-Snowbridge",
+      "symbol": "WBTC-Snowbridge",
+      "decimals": 8,
+      "priceId": "wrapped-bitcoin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "WBTC-WrappedBTC",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-wbtc-snowbridge.png"
+    },
+    "statemint-LOCAL-WETH-Snowbridge": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WETH-Snowbridge",
+      "name": "WETH-Snowbridge",
+      "symbol": "WETH-Snowbridge",
+      "decimals": 18,
+      "priceId": "weth",
+      "minAmount": "15000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                  "network": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": "WETH-WrappedEther",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-weth-snowbridge.png"
+    },
+    "statemint-LOCAL-MPC": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-MPC",
+      "name": "My Paqman Coin",
+      "symbol": "MPC",
+      "decimals": 12,
+      "priceId": "my-paqman-coin",
+      "minAmount": "1000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "50000103"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-mpc.png"
+    },
+    "statemint-LOCAL-DON": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-DON",
+      "name": "Paydon",
+      "symbol": "DON",
+      "decimals": 12,
+      "priceId": "paydon",
+      "minAmount": "1000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "50000111"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-don.png"
+    },
+    "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35"
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35.png"
+    },
+    "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+      "originChain": "soneium",
+      "slug": "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "priceId": "wrapped-bitcoin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+      },
+      "multiChainAsset": "WBTC-WrappedBTC",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+    },
+    "dancelight-NATIVE-STAR": {
+      "originChain": "dancelight",
+      "slug": "dancelight-NATIVE-STAR",
+      "name": "Dancelight",
+      "symbol": "STAR",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "33333333",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/dancelight-native-star.png"
+    },
+    "tscs-NATIVE-TSCS": {
+      "originChain": "tscs",
+      "slug": "tscs-NATIVE-TSCS",
+      "name": "TSCS",
+      "symbol": "TSCS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/tscs-native-tscs.png"
+    },
+    "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8",
+      "name": "KILT Protocol",
+      "symbol": "KILT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
     }
   },
   "ChainAssetHashMap": {
@@ -1802,6 +3126,7 @@
     "shiden-LOCAL-LKSM": "aac5243115b9118b08c0843ca2f33151",
     "xcavate-NATIVE-XCAV": "7b87bddecfe7c08427e2476d18934ca0",
     "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": "ef0ce3cda458d909676a5bbf35cbf66a",
+    "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
     "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": "16f595283dd478592c7405eb623a5576",
     "dbcchain-LOCAL-DLC": "9309ba64ca6969a9dfad9c96e5188b98",
     "curio-NATIVE-CGT": "34f7d20970e3d21507bf746c21d9530c",
@@ -1837,20 +3162,33 @@
     "optimism-ERC20-WETH-0x4200000000000000000000000000000000000006": "b65cb8fde3856723a3f4c4cdd4d22bf9",
     "truth_network-NATIVE-TRUU": "5c1d76430aef116502a6239dbb35b002",
     "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": "fe1917920ab4530351d5dbd9501ffca0",
-    "truth_network-LOCAL-USDC": "f98b00a687d8daa95f744b41288881e1",
+    "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
     "tassi_demo-NATIVE-TANGO": "b82dd8fb02208098f23a490511960eb4",
     "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": "62f36a27c357ceb7b4b27cb0c3588cc9",
     "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "d5ac4f9c6249bcf76fca6c98db95846a",
     "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "c3e362e9d49cb3591bf612a87a326300",
     "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2",
-    "hydradx_main-LOCAL-GDOT": "da2f5bc96df5402312cf63ae125f74d6",
+    "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84",
     "statemint-LOCAL-TEER": "e4e86a1f50e0af2bcbbed5c0daa552f2",
     "ethereum-ERC20-TEER-0x769916A66fDAC0E3D57363129caac59386ea622B": "a6fb53a44ee69eedfbc45c4097e424c0",
     "hydradx_main-LOCAL-LINK": "f03b950a56b91b88b4f2944ff9ceae4c",
     "hydradx_main-LOCAL-SKY": "8bd24a9364283d505358c1802917dd0a",
     "peaq_evm-ERC20-SLC-0x5c3126bfB9A68a7021d461230127470b3824886B": "def96aad661fb9247ac50d56bc32be73",
     "binance-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "e67e8461a63a8ac8dcd72b20fac56184",
-    "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "920827dbff823bc3ec1c864a24c97676"
+    "base_mainnet-ERC20-PARTI-0x59264f02D301281f3393e1385c0aEFd446Eb0F00": "920827dbff823bc3ec1c864a24c97676",
+    "statemint-LOCAL-USDC-Snowbridge": "e0115d43455221bb9e482973ffc67304",
+    "statemint-LOCAL-ETH-Snowbridge": "098a36ef12e3b068d5f4307854e0b0a2",
+    "zora-NATIVE-ETH": "e77761f5f5cc093aebf62ec83cf35f08",
+    "statemint-LOCAL-USDT-Snowbridge": "397cdfa49c834372a8bb453a5441c70a",
+    "statemint-LOCAL-WBTC-Snowbridge": "7bf9abd509ccad08326e667004bcb682",
+    "statemint-LOCAL-WETH-Snowbridge": "d6b72e567a9f50eb738b617022c2c516",
+    "statemint-LOCAL-MPC": "1803cc46ef6da3c274bec943ab109d1b",
+    "statemint-LOCAL-DON": "2ce4577a43c95002ead5e350e12d6d7f",
+    "soneium-ERC20-USDT-0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35": "c5d298839dbd7e08f94071b39eaa78a1",
+    "soneium-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": "be3d216d940542a0ea049b1e80008397",
+    "dancelight-NATIVE-STAR": "386bb4922f1755725ac2e5f3d82d9dcc",
+    "tscs-NATIVE-TSCS": "3c01ac480ec0ec94cd472940b12bec37",
+    "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": "897e057396b052a78e603d04e47fa640"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -1862,6 +3200,7 @@
     "shiden-local-lksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/shiden-local-lksm.png",
     "xcavate-native-xcav": "https://chain-list-assets.subwallet.app/assets/chain-assets/xcavate-native-xcav.png",
     "moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png",
+    "hydradx_main-local-h2o": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-h2o.png",
     "humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802": "https://chain-list-assets.subwallet.app/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png",
     "dbcchain-local-dlc": "https://chain-list-assets.subwallet.app/assets/chain-assets/dbcchain-local-dlc.png",
     "curio-native-cgt": "https://chain-list-assets.subwallet.app/assets/chain-assets/curio-native-cgt.png",
@@ -1910,19 +3249,57 @@
     "hydradx_main-local-sky": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydradx_main-local-sky.png",
     "peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b": "https://chain-list-assets.subwallet.app/assets/chain-assets/peaq_evm-erc20-slc-0x5c3126bfb9a68a7021d461230127470b3824886b.png",
     "binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
-    "base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png"
+    "base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-parti-0x59264f02d301281f3393e1385c0aefd446eb0f00.png",
+    "statemint-local-usdc-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-usdc-snowbridge.png",
+    "statemint-local-eth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-eth-snowbridge.png",
+    "zora-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/zora-native-eth.png",
+    "statemint-local-usdt-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-usdt-snowbridge.png",
+    "statemint-local-wbtc-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-wbtc-snowbridge.png",
+    "statemint-local-weth-snowbridge": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-weth-snowbridge.png",
+    "statemint-local-mpc": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-mpc.png",
+    "statemint-local-don": "https://chain-list-assets.subwallet.app/assets/chain-assets/statemint-local-don.png",
+    "soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-usdt-0x3a337a6ada9d885b6ad95ec48f9b75f197b5ae35.png",
+    "soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c": "https://chain-list-assets.subwallet.app/assets/chain-assets/soneium-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png",
+    "dancelight-native-star": "https://chain-list-assets.subwallet.app/assets/chain-assets/dancelight-native-star.png",
+    "tscs-native-tscs": "https://chain-list-assets.subwallet.app/assets/chain-assets/tscs-native-tscs.png",
+    "base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
   },
   "ChainLogoMap": {
+    "pioneer": "https://chain-list-assets.subwallet.app/assets/chains/pioneer.png",
+    "turingStaging": "https://chain-list-assets.subwallet.app/assets/chains/turingstaging.png",
+    "turing": "https://chain-list-assets.subwallet.app/assets/chains/turing.png",
     "calamari": "https://chain-list-assets.subwallet.app/assets/chains/calamari.png",
+    "amplitude": "https://chain-list-assets.subwallet.app/assets/chains/amplitude.png",
     "hydradx_main": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_main.png",
-    "picasso": "https://chain-list-assets.subwallet.app/assets/chains/picasso.png",
+    "odyssey": "https://chain-list-assets.subwallet.app/assets/chains/odyssey.png",
+    "sakura": "https://chain-list-assets.subwallet.app/assets/chains/sakura.png",
     "litmus": "https://chain-list-assets.subwallet.app/assets/chains/litmus.png",
     "litentry": "https://chain-list-assets.subwallet.app/assets/chains/litentry.png",
+    "imbue_network": "https://chain-list-assets.subwallet.app/assets/chains/imbue_network.png",
+    "pendulum": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png",
     "calamari_test": "https://chain-list-assets.subwallet.app/assets/chains/calamari_test.png",
+    "watr_network": "https://chain-list-assets.subwallet.app/assets/chains/watr_network.png",
+    "fusotao": "https://chain-list-assets.subwallet.app/assets/chains/fusotao.png",
+    "discovol": "https://chain-list-assets.subwallet.app/assets/chains/discovol.png",
+    "atocha": "https://chain-list-assets.subwallet.app/assets/chains/atocha.png",
+    "myriad": "https://chain-list-assets.subwallet.app/assets/chains/myriad.png",
+    "deBio": "https://chain-list-assets.subwallet.app/assets/chains/debio.png",
+    "bitgreen": "https://chain-list-assets.subwallet.app/assets/chains/bitgreen.png",
+    "hashedNetwork": "https://chain-list-assets.subwallet.app/assets/chains/hashednetwork.png",
+    "crownSterling": "https://chain-list-assets.subwallet.app/assets/chains/crownsterling.png",
+    "dockPosMainnet": "https://chain-list-assets.subwallet.app/assets/chains/dockposmainnet.png",
+    "neatcoin": "https://chain-list-assets.subwallet.app/assets/chains/neatcoin.png",
+    "nftmart": "https://chain-list-assets.subwallet.app/assets/chains/nftmart.png",
+    "kulupu": "https://chain-list-assets.subwallet.app/assets/chains/kulupu.png",
     "fantom": "https://chain-list-assets.subwallet.app/assets/chains/fantom.png",
+    "crust_mainnet": "https://chain-list-assets.subwallet.app/assets/chains/crust_mainnet.png",
     "bittensor": "https://chain-list-assets.subwallet.app/assets/chains/bittensor.png",
+    "invarch": "https://chain-list-assets.subwallet.app/assets/chains/invarch.png",
     "polimec": "https://chain-list-assets.subwallet.app/assets/chains/polimec.png",
     "xcavate": "https://chain-list-assets.subwallet.app/assets/chains/xcavate.png",
+    "watr_mainnet": "https://chain-list-assets.subwallet.app/assets/chains/watr_mainnet.png",
+    "continuum_network": "https://chain-list-assets.subwallet.app/assets/chains/continuum_network.png",
+    "phykenTest": "https://chain-list-assets.subwallet.app/assets/chains/phykentest.png",
     "astarZkEvm": "https://chain-list-assets.subwallet.app/assets/chains/astarzkevm.png",
     "hyperbridge": "https://chain-list-assets.subwallet.app/assets/chains/hyperbridge.png",
     "cere": "https://chain-list-assets.subwallet.app/assets/chains/cere.png",
@@ -1934,7 +3311,10 @@
     "polkadot_coretime": "https://chain-list-assets.subwallet.app/assets/chains/polkadot_coretime.png",
     "kusama_coretime": "https://chain-list-assets.subwallet.app/assets/chains/kusama_coretime.png",
     "truth_network": "https://chain-list-assets.subwallet.app/assets/chains/truth_network.png",
-    "tassi_demo": "https://chain-list-assets.subwallet.app/assets/chains/tassi_demo.png"
+    "tassi_demo": "https://chain-list-assets.subwallet.app/assets/chains/tassi_demo.png",
+    "zora": "https://chain-list-assets.subwallet.app/assets/chains/zora.png",
+    "dancelight": "https://chain-list-assets.subwallet.app/assets/chains/dancelight.png",
+    "tscs": "https://chain-list-assets.subwallet.app/assets/chains/tscs.png"
   },
   "mAssetLogoMap": {}
 }
