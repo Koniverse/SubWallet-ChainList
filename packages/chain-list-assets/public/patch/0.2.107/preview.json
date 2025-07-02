@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.3",
+  "patchVersion": "0.2.108-beta.4",
   "appliedVersion": "0.2.107",
-  "timestamp": 1750906829633,
+  "timestamp": 1751457110966,
   "ChainInfo": {
     "pendulum": {
       "slug": "pendulum",
@@ -215,13 +215,30 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png"
+    },
+    "hydradx_main-LOCAL-GETH": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GETH",
+      "name": "GIGAETH",
+      "symbol": "GETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "8202803876747",
+      "assetType": "ERC20",
+      "metadata": {
+        "assetId": "420"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-geth.png"
     }
   },
   "ChainAssetHashMap": {
     "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
     "tanssi-NATIVE-TANSSI": "3062232f24dcaced83fd2de64611729e",
     "hyperEvm-NATIVE-HYPE": "a6d9f87120f09c7e2e995edc21b5c658",
-    "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824"
+    "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824",
+    "hydradx_main-LOCAL-GETH": "7292c9e4de0094655928d9f27221df18"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -229,7 +246,8 @@
     "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
     "tanssi-native-tanssi": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tanssi-native-tanssi.png",
     "hyperevm-native-hype": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperevm-native-hype.png",
-    "mosaictest-native-tmos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png"
+    "mosaictest-native-tmos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png",
+    "hydradx_main-local-geth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-geth.png"
   },
   "ChainLogoMap": {
     "pendulum": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png",
