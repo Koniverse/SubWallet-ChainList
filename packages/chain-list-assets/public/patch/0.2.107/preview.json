@@ -1,8 +1,123 @@
 {
-  "patchVersion": "0.2.108-beta.5",
+  "patchVersion": "0.2.108-beta.6",
   "appliedVersion": "0.2.107",
-  "timestamp": 1751457576360,
+  "timestamp": 1751510479820,
   "ChainInfo": {
+    "rococo": {
+      "slug": "rococo",
+      "name": "Rococo",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo.png",
+      "providers": {
+        "Parity": "wss://rococo-rpc.polkadot.io",
+        "Light Client": "light://substrate-connect/rococo"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://rococo.subscan.io/",
+        "existentialDeposit": "33333333",
+        "symbol": "ROC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": [
+          "PSP34",
+          "PSP22"
+        ],
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "rococo",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "subspace_gemini_3g": {
+      "slug": "subspace_gemini_3g",
+      "name": "Subspace Gemini 3g",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3g.png",
+      "providers": {
+        "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x418040fc282f5e5ddd432c46d05297636f6f75ce68d66499ff4cbda69ccd180b",
+        "addressPrefix": 2254,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "tSSC",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "kabocha": {
+      "slug": "kabocha",
+      "name": "Kabocha",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kabocha.png",
+      "providers": {
+        "Kabocha": "wss://kabocha.jelliedowl.net"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2113,
+        "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+        "addressPrefix": 27,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "KAB",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2113-73",
+            "paraId": 2113,
+            "status": "won",
+            "startTime": "2022-06-29T04:27:00.000Z",
+            "endTime": "2023-05-31T04:27:00.000Z",
+            "auctionIndex": 38,
+            "firstPeriod": 22,
+            "lastPeriod": 29
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "pendulum": {
       "slug": "pendulum",
       "name": "Pendulum",
@@ -46,6 +161,140 @@
         "subscanSlug": "pendulum",
         "chainBalanceSlug": "pendulum"
       },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "jur_network": {
+      "slug": "jur_network",
+      "name": "Jur Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jur_network.png",
+      "providers": {
+        "Jur Mainnet": "wss://mainnet.jur.io/"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x58d1393b47b11707978fbc07e77d7b6f7d9aa88d207dc008a52385f7dba6156a",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "JUR",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "subspace_gemini_3h": {
+      "slug": "subspace_gemini_3h",
+      "name": "Subspace Gemini 3h",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3h.png",
+      "providers": {
+        "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x0c121c75f4ef450f40619e1fca9d1e8e7fbabc42c895bc4790801e85d5a91c34",
+        "addressPrefix": 2254,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://subspace.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "tSSC",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "subspace",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "rococo_assethub": {
+      "slug": "rococo_assethub",
+      "name": "Rococo Asset Hub",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo_assethub.png",
+      "providers": {
+        "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "rococo",
+        "paraId": 1000,
+        "genesisHash": "0x7c34d42fc815d392057c78b49f2755c753440ccd38bcb0405b3bcfb601d08734",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://assethub-rococo.subscan.io/",
+        "existentialDeposit": "3333333",
+        "symbol": "ROC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "assethub-rococo",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hydradx_rococo": {
+      "slug": "hydradx_rococo",
+      "name": "Hydration Rococo",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
+      "providers": {
+        "Hydration Nice": "wss://rpc.nice.hydration.cloud"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "rococo",
+        "paraId": 2032,
+        "genesisHash": "0x06111acb32100bf87c88d28b1386f33136939b363cd86eb086626bc7d2a0022c",
+        "addressPrefix": 63,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -149,7 +398,14 @@
     }
   },
   "ChainInfoHashMap": {
+    "rococo": "0c87af15ea622658e022c5a0e0db224c",
+    "subspace_gemini_3g": "20d9f1f8244752ba22e565eac99f321c",
+    "kabocha": "1d1157a992341fd4777fb118e2f1dd3a",
     "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
+    "jur_network": "68d8a356588dfc4abc21fc0f55da6408",
+    "subspace_gemini_3h": "c6fb9a067323fad1ae476d8baa4b0ff4",
+    "rococo_assethub": "6266aeff070bf3a3fb020f31a1f340a2",
+    "hydradx_rococo": "1f71a5173a277cc62050c4df4023edb8",
     "tanssi": "cace11409e22ba50d82cbe9376e49136",
     "hyperEvm": "8b27b4c5247e8388827d4abe74557b1d",
     "mosaicTest": "bcedde47587c51c219e72ae12706f67f"
@@ -173,176 +429,6 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
-    },
-    "bittensor-LOCAL-ᚁ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᚁ",
-      "name": "Tensorprox",
-      "symbol": "ᚁ",
-      "decimals": 9,
-      "priceId": "dtao-91",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 91,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚁ.png"
-    },
-    "bittensor-LOCAL-ᚂ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᚂ",
-      "name": "Reinforcedai",
-      "symbol": "ᚂ",
-      "decimals": 9,
-      "priceId": "dtao-92",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 92,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚂ.png"
-    },
-    "bittensor-LOCAL-ᚄ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᚄ",
-      "name": "Eastworld",
-      "symbol": "ᚄ",
-      "decimals": 9,
-      "priceId": "dtao-94",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 94,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚄ.png"
-    },
-    "bittensor-LOCAL-ᛉ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᛉ",
-      "name": "Sταking",
-      "symbol": "ᛉ",
-      "decimals": 9,
-      "priceId": "dtao-88",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 88,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᛉ.png"
-    },
-    "bittensor-LOCAL- ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL- ",
-      "name": "Brain",
-      "symbol": " ",
-      "decimals": 9,
-      "priceId": "dtao-90",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 90,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local- .png"
-    },
-    "bittensor-LOCAL-ᚃ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᚃ",
-      "name": "Bitcast",
-      "symbol": "ᚃ",
-      "decimals": 9,
-      "priceId": "dtao-93",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 93,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚃ.png"
-    },
-    "bittensor-LOCAL-ᛒ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᛒ",
-      "name": "Infinitevibe.ai",
-      "symbol": "ᛒ",
-      "decimals": 9,
-      "priceId": "dtao-89",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 89,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᛒ.png"
-    },
-    "bittensor-LOCAL-ᚳ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᚳ",
-      "name": "Miao",
-      "symbol": "ᚳ",
-      "decimals": 9,
-      "priceId": "dtao-86",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 86,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚳ.png"
-    },
-    "bittensor-LOCAL-ᚅ": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ᚅ",
-      "name": "Nion",
-      "symbol": "ᚅ",
-      "decimals": 9,
-      "priceId": "dtao-95",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 95,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚅ.png"
-    },
-    "bittensor-LOCAL-Ы": {
-      "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-Ы",
-      "name": "Checkerchain",
-      "symbol": "Ы",
-      "decimals": 9,
-      "priceId": "dtao-87",
-      "minAmount": "0",
-      "assetType": "LOCAL",
-      "metadata": {
-        "netuid": 87,
-        "isDisableTransfer": true
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ы.png"
     },
     "tanssi-NATIVE-TANSSI": {
       "originChain": "tanssi",
@@ -405,16 +491,6 @@
   },
   "ChainAssetHashMap": {
     "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
-    "bittensor-LOCAL-ᚁ": "c67fece1b3d327e4f9b2ec08a4149ba3",
-    "bittensor-LOCAL-ᚂ": "fad3d8ef3ec8a424207a30a8bae14d3f",
-    "bittensor-LOCAL-ᚄ": "516dedf3ca5419ad3a82461490d203cd",
-    "bittensor-LOCAL-ᛉ": "9dfa3c22afba899929714cf0f9fa3ec8",
-    "bittensor-LOCAL- ": "0067def24a62f3c6f05b726dc9cdd8e8",
-    "bittensor-LOCAL-ᚃ": "d3d91a4ae5f74a28bb39b09eb450a4c9",
-    "bittensor-LOCAL-ᛒ": "1bf6f0efc478e846d28838c86c2b968e",
-    "bittensor-LOCAL-ᚳ": "779c3658325a70e0cdc82c2362869447",
-    "bittensor-LOCAL-ᚅ": "0a1fe28d0991050f93889c5b870fd564",
-    "bittensor-LOCAL-Ы": "7396124804918f2813aa2a054cc9790d",
     "tanssi-NATIVE-TANSSI": "3062232f24dcaced83fd2de64611729e",
     "hyperEvm-NATIVE-HYPE": "a6d9f87120f09c7e2e995edc21b5c658",
     "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824",
@@ -424,23 +500,20 @@
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
-    "bittensor-local-ᚁ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚁ.png",
-    "bittensor-local-ᚂ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚂ.png",
-    "bittensor-local-ᚄ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚄ.png",
-    "bittensor-local-ᛉ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᛉ.png",
-    "bittensor-local- ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local- .png",
-    "bittensor-local-ᚃ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚃ.png",
-    "bittensor-local-ᛒ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᛒ.png",
-    "bittensor-local-ᚳ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚳ.png",
-    "bittensor-local-ᚅ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ᚅ.png",
-    "bittensor-local-ы": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ы.png",
     "tanssi-native-tanssi": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tanssi-native-tanssi.png",
     "hyperevm-native-hype": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperevm-native-hype.png",
     "mosaictest-native-tmos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png",
     "hydradx_main-local-geth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-geth.png"
   },
   "ChainLogoMap": {
+    "rococo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo.png",
+    "subspace_gemini_3g": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3g.png",
+    "kabocha": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kabocha.png",
     "pendulum": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/pendulum.png",
+    "jur_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jur_network.png",
+    "subspace_gemini_3h": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3h.png",
+    "rococo_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo_assethub.png",
+    "hydradx_rococo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
     "tanssi": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tanssi.png",
     "hyperEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperevm.png",
     "mosaicTest": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mosaictest.png"
