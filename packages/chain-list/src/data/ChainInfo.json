@@ -912,7 +912,7 @@
     "slug": "rococo",
     "name": "Rococo",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo.png",
     "providers": {
       "Parity": "wss://rococo-rpc.polkadot.io",
@@ -4201,7 +4201,7 @@
     "slug": "subspace_gemini_3g",
     "name": "Subspace Gemini 3g",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3g.png",
     "providers": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
@@ -4385,7 +4385,7 @@
     "slug": "kabocha",
     "name": "Kabocha",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kabocha.png",
     "providers": {
       "Kabocha": "wss://kabocha.jelliedowl.net"
@@ -6436,7 +6436,7 @@
     "slug": "jur_network",
     "name": "Jur Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/jur_network.png",
     "providers": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
@@ -7995,7 +7995,7 @@
     "slug": "subspace_gemini_3h",
     "name": "Subspace Gemini 3h",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/subspace_gemini_3h.png",
     "providers": {
       "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
@@ -8065,7 +8065,7 @@
     "slug": "rococo_assethub",
     "name": "Rococo Asset Hub",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo_assethub.png",
     "providers": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
@@ -8405,7 +8405,7 @@
     "slug": "hydradx_rococo",
     "name": "Hydration Rococo",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
     "providers": {
       "Hydration Nice": "wss://rpc.nice.hydration.cloud"
