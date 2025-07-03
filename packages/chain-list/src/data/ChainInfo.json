@@ -532,8 +532,7 @@
     "icon": "/assets/chains/arbitrum_one.png",
     "providers": {
       "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
-      "BlastApi": "https://arbitrum-one.public.blastapi.io",
-      "Meowrpc": "https://arbitrum.meowrpc.com"
+      "BlastApi": "https://arbitrum-one.public.blastapi.io"
     },
     "evmInfo": {
       "evmChainId": 42161,
@@ -4558,7 +4557,7 @@
       "relaySlug": "polkadot",
       "paraId": 2094,
       "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-      "addressPrefix": 0,
+      "addressPrefix": 56,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://pendulum.subscan.io/",
@@ -11516,38 +11515,6 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
-  "paseo_assethub": {
-    "slug": "paseo_assethub",
-    "name": "Paseo Asset Hub",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "icon": null,
-    "providers": {
-      "Dwellir": "wss://asset-hub-paseo-rpc.dwellir.com"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": 1000,
-      "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
-      "addressPrefix": 0,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": "100000000",
-      "symbol": "PAS",
-      "decimals": 10,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
   "gravity_alpha": {
     "slug": "gravity_alpha",
     "name": "Gravity Alpha Mainnet",
@@ -12249,103 +12216,6 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
-  "tanssi": {
-    "slug": "tanssi",
-    "name": "Tanssi Mainnet",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tanssi.png",
-    "providers": {
-      "tanssi": "wss://tanssi.tanssi-mainnet.network"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
-      "genesisHash": "0xdd6d086f75ec041b66e20c4186d327b23c8af244c534a2418de6574e8c041a60",
-      "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": "https://tanssi.subscan.io",
-      "existentialDeposit": "33333333",
-      "symbol": "TANSSI",
-      "decimals": 12,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": {
-      "subscanSlug": "tanssi",
-      "chainBalanceSlug": null
-    },
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
-  "hyperEvm": {
-    "slug": "hyperEvm",
-    "name": "HyperEVM Mainnet",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperevm.png",
-    "providers": {
-      "Hyperliquid": "https://rpc.hyperliquid.xyz/evm",
-      "Hypurrscan": "https://rpc.hypurrscan.io",
-      "Hyperliquid Stakely": "https://hyperliquid-json-rpc.stakely.io"
-    },
-    "evmInfo": {
-      "evmChainId": 999,
-      "blockExplorer": "https://purrsec.com/",
-      "existentialDeposit": "0",
-      "symbol": "HYPE",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
-    "substrateInfo": null,
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
-  "mosaicTest": {
-    "slug": "mosaicTest",
-    "name": "Mosaic Chain Devnet",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mosaictest.png",
-    "providers": {
-      "Mosaic 1": "wss://devnet-gw1.mosaicchain.io/MosaicNode1/chain",
-      "Mosaic 2": "wss://devnet-gw2.mosaicchain.io/MosaicNode2/chain"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": 3377,
-      "genesisHash": "0x42e93d676fb5ca2cad472804196d052cf7baa5cf9720f0cf905380ccc2a65de4",
-      "addressPrefix": 0,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": "https://devnet-explorer.mosaicchain.io/",
-      "existentialDeposit": "10000000000000000",
-      "symbol": "TMOS",
-      "decimals": 18,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
