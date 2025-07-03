@@ -16731,6 +16731,70 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydrationpaseo-native-hdx.png"
   },
+  "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "contractAddress": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png"
+  },
+  "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21",
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "decimals": 18,
+    "priceId": "uniswap",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8f187aA05619a017077f5308904739877ce9eA21"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21.png"
+  },
+  "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5",
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "decimals": 6,
+    "priceId": "usdt0",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png"
+  },
+  "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "name": "LayerZero Bridged WBTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "unichain-bridged-wbtc-unichain",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
