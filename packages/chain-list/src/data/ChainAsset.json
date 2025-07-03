@@ -16589,6 +16589,18 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-local-ы.png"
   },
+  "hydradx_main-LOCAL-GETH": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-GETH",
+    "name": "GIGAETH",
+    "symbol": "GETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "8202803876747",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "420"
+    },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
