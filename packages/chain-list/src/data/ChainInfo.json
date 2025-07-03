@@ -11516,6 +11516,42 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "paseo_assethub": {
+    "slug": "paseo_assethub",
+    "name": "Paseo Asset Hub",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/paseo_assethub.png",
+    "providers": {
+      "Dwellir": "wss://asset-hub-paseo-rpc.dwellir.com",
+      "IBP": "wss://sys.ibp.network/asset-hub-paseo",
+      "Dotters": "wss://asset-hub-paseo.dotters.network",
+      "Stake World": "wss://pas-rpc.stakeworld.io/assethub",
+      "Turbo": "wss://sys.turboflakes.io/asset-hub-paseo"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 1000,
+      "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "100000000",
+      "symbol": "PAS",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "gravity_alpha": {
     "slug": "gravity_alpha",
     "name": "Gravity Alpha Mainnet",
@@ -12308,6 +12344,195 @@
       "existentialDeposit": "10000000000000000",
       "symbol": "TMOS",
       "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "verisenseTest": {
+    "slug": "verisenseTest",
+    "name": "Verisense Beta Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/verisensetest.png",
+    "providers": {
+      "Verisense": "wss://rpc.beta.verisense.network"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x52ff61e2802a7016759659a6c85833b093c717772dfb1c429a0a2d15bba754bf",
+      "addressPrefix": 137,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://www.verisense.network/",
+      "existentialDeposit": "600",
+      "symbol": "RWT",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "katana": {
+    "slug": "katana",
+    "name": "Katana",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/katana.png",
+    "providers": {
+      "Katana": "https://rpc.katana.network/"
+    },
+    "evmInfo": {
+      "evmChainId": 747474,
+      "blockExplorer": "https://explorer.katanarpc.com/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC721",
+        "ERC20"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "mandalaTest": {
+    "slug": "mandalaTest",
+    "name": "Mandala Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mandalatest.png",
+    "providers": {
+      "Autobot": "wss://rpc1.paseo.mandalachain.io",
+      "Bumblebee": "wss://rpc2.paseo.mandalachain.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 4818,
+      "genesisHash": "0x5f77ad733c957246dc5c149ca87319027155cd78554d1fa5f44d5140dddf2892",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "KPGT",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "passetHub": {
+    "slug": "passetHub",
+    "name": "passet-hub",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/passethub.png",
+    "providers": {
+      "IBP": "wss://passet-hub-paseo.ibp.network",
+      "Passet": "wss://testnet-passet-hub.polkadot.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xfd974cf9eaf028f5e44b9fdd1949ab039c6cf9cc54449b0b60d71b042e79aeb6",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "PAS",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "bifrostPaseo": {
+    "slug": "bifrostPaseo",
+    "name": "Bifrost Paseo",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/bifrostpaseo.png",
+    "providers": {
+      "Paseo": "wss://bifrost-rpc.paseo.liebi.com/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 2030,
+      "genesisHash": "0xec39b15e5a1945ff19b8e8c0f76990b5758ce19faa4578e8ed57eda33e844452",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000",
+      "symbol": "BNC",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "hydrationPaseo": {
+    "slug": "hydrationPaseo",
+    "name": "Hydration Paseo Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydrationpaseo.png",
+    "providers": {
+      "Hydration Paseo": "wss://paseo-rpc.play.hydration.cloud"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 2034,
+      "genesisHash": "0x05fab032a899566268235e3c89c847fb4644558a0d856282d47d17ff06cb2020",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "HDX",
+      "decimals": 12,
       "hasNativeNft": null,
       "supportStaking": null,
       "supportSmartContract": null,
