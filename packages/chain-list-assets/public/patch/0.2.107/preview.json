@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.9",
+  "patchVersion": "0.2.108-beta.11",
   "appliedVersion": "0.2.107",
-  "timestamp": 1751517391558,
+  "timestamp": 1751539426204,
   "ChainInfo": {
     "rococo": {
       "slug": "rococo",
@@ -449,7 +449,7 @@
         "addressPrefix": 137,
         "chainType": "RELAYCHAIN",
         "crowdloanUrl": null,
-        "blockExplorer": "https://www.verisense.network/",
+        "blockExplorer": null,
         "existentialDeposit": "600",
         "symbol": "RWT",
         "decimals": 18,
@@ -635,7 +635,7 @@
     "tanssi": "cace11409e22ba50d82cbe9376e49136",
     "hyperEvm": "8b27b4c5247e8388827d4abe74557b1d",
     "mosaicTest": "bcedde47587c51c219e72ae12706f67f",
-    "verisenseTest": "4001929dbba61723b66802bd577d3970",
+    "verisenseTest": "0c37b57f96f971cc7262712320646239",
     "katana": "099047ae4683bb8912bf4264e204c2f9",
     "mandalaTest": "4f708c3382d8c7f913f9ce7082a2e362",
     "passetHub": "f83365bb64693765aefc374db47d34e3",
