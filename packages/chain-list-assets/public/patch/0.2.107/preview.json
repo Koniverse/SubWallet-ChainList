@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.7",
+  "patchVersion": "0.2.108-beta.8",
   "appliedVersion": "0.2.107",
-  "timestamp": 1751515415725,
+  "timestamp": 1751516833865,
   "ChainInfo": {
     "rococo": {
       "slug": "rococo",
@@ -804,6 +804,70 @@
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydrationpaseo-native-hdx.png"
     },
+    "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "contractAddress": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png"
+    },
+    "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "priceId": "uniswap",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8f187aA05619a017077f5308904739877ce9eA21"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21.png"
+    },
+    "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5",
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "priceId": "usdt0",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png"
+    },
+    "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "LayerZero Bridged WBTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "priceId": "unichain-bridged-wbtc-unichain",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+    },
     "paseo_assethub-NATIVE-PAS": {
       "originChain": "paseo_assethub",
       "slug": "paseo_assethub-NATIVE-PAS",
@@ -831,6 +895,10 @@
     "passetHub-NATIVE": "fbc8234780a404f537f0eb33f11d0a0d",
     "bifrostPaseo-NATIVE-BNC": "98ac83097d700cdbb99c84ca33660c38",
     "hydrationPaseo-NATIVE-HDX": "5f0a934d9f913e3508732d805934e840",
+    "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": "a75a10d73bd65646f7f07668c3cd1b38",
+    "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21": "004ad3cfaa8a030f06a154a8a30def5e",
+    "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5": "bb0f1282e5458dc1c175eaf1e1b7104b",
+    "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": "413ffcd01f8bcf3cf619ac2d96a68231",
     "paseo_assethub-NATIVE-PAS": "a9cf6be63152294dcfab027cc1a33d2c"
   },
   "MultiChainAsset": {},
@@ -847,6 +915,10 @@
     "passethub-native": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native.png",
     "bifrostpaseo-native-bnc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrostpaseo-native-bnc.png",
     "hydrationpaseo-native-hdx": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydrationpaseo-native-hdx.png",
+    "unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png",
+    "unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21.png",
+    "unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png",
+    "unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png",
     "paseo_assethub-native-pas": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/paseo_assethub-native-pas.png"
   },
   "ChainLogoMap": {
