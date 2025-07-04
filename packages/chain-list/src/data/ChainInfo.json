@@ -12460,10 +12460,10 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": null,
+      "paraId": 1111,
       "genesisHash": "0xfd974cf9eaf028f5e44b9fdd1949ab039c6cf9cc54449b0b60d71b042e79aeb6",
       "addressPrefix": 42,
-      "chainType": "RELAYCHAIN",
+      "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "1000000000",

@@ -16689,9 +16689,9 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mandalatest-native-kpgt.png"
   },
-  "passetHub-NATIVE": {
+  "passetHub-NATIVE-PAS": {
     "originChain": "passetHub",
-    "slug": "passetHub-NATIVE",
+    "slug": "passetHub-NATIVE-PAS",
     "name": "passet-hub",
     "symbol": "PAS",
     "decimals": 10,
@@ -16701,7 +16701,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native.png"
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native-pas.png"
   },
   "bifrostPaseo-NATIVE-BNC": {
     "originChain": "bifrostPaseo",
