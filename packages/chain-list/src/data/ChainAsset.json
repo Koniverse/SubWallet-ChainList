@@ -16631,22 +16631,6 @@
     "hasValue": false,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png"
   },
-  "hydradx_main-LOCAL-GETH": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-GETH",
-    "name": "GIGAETH",
-    "symbol": "GETH",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "8202803876747",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "420"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-geth.png"
-  },
   "verisenseTest-NATIVE-RWT": {
     "originChain": "verisenseTest",
     "slug": "verisenseTest-NATIVE-RWT",
