@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.11",
+  "patchVersion": "0.2.108-beta.12",
   "appliedVersion": "0.2.107",
-  "timestamp": 1751539426204,
+  "timestamp": 1751627450419,
   "ChainInfo": {
     "rococo": {
       "slug": "rococo",
@@ -537,10 +537,10 @@
       "evmInfo": null,
       "substrateInfo": {
         "relaySlug": null,
-        "paraId": null,
+        "paraId": 1111,
         "genesisHash": "0xfd974cf9eaf028f5e44b9fdd1949ab039c6cf9cc54449b0b60d71b042e79aeb6",
         "addressPrefix": 42,
-        "chainType": "RELAYCHAIN",
+        "chainType": "PARACHAIN",
         "crowdloanUrl": null,
         "blockExplorer": null,
         "existentialDeposit": "1000000000",
@@ -638,7 +638,7 @@
     "verisenseTest": "0c37b57f96f971cc7262712320646239",
     "katana": "099047ae4683bb8912bf4264e204c2f9",
     "mandalaTest": "4f708c3382d8c7f913f9ce7082a2e362",
-    "passetHub": "f83365bb64693765aefc374db47d34e3",
+    "passetHub": "29cd29c7a6283e7425e71427efee68f4",
     "bifrostPaseo": "e9fcd6d8e8f8464e707c666a2b41530d",
     "hydrationPaseo": "9ddbb9bc978882450d5a1361e620c0b0"
   },
@@ -704,22 +704,6 @@
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png"
     },
-    "hydradx_main-LOCAL-GETH": {
-      "originChain": "hydradx_main",
-      "slug": "hydradx_main-LOCAL-GETH",
-      "name": "GIGAETH",
-      "symbol": "GETH",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "8202803876747",
-      "assetType": "LOCAL",
-      "metadata": {
-        "assetId": "420"
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-geth.png"
-    },
     "verisenseTest-NATIVE-RWT": {
       "originChain": "verisenseTest",
       "slug": "verisenseTest-NATIVE-RWT",
@@ -762,9 +746,9 @@
       "hasValue": false,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mandalatest-native-kpgt.png"
     },
-    "passetHub-NATIVE": {
+    "passetHub-NATIVE-PAS": {
       "originChain": "passetHub",
-      "slug": "passetHub-NATIVE",
+      "slug": "passetHub-NATIVE-PAS",
       "name": "passet-hub",
       "symbol": "PAS",
       "decimals": 10,
@@ -774,7 +758,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native.png"
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native-pas.png"
     },
     "bifrostPaseo-NATIVE-BNC": {
       "originChain": "bifrostPaseo",
@@ -888,11 +872,10 @@
     "tanssi-NATIVE-TANSSI": "3062232f24dcaced83fd2de64611729e",
     "hyperEvm-NATIVE-HYPE": "a6d9f87120f09c7e2e995edc21b5c658",
     "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824",
-    "hydradx_main-LOCAL-GETH": "5ce6f7599dff9515a9937845f7a556ba",
     "verisenseTest-NATIVE-RWT": "8a1747eb1e8404e0c8364a01ed9cafc4",
     "katana-NATIVE-ETH": "47a6133de56eb064a7c945f35c90f2c7",
     "mandalaTest-NATIVE-KPGT": "529bf9b8ce69a320f216d2b2bd4626c2",
-    "passetHub-NATIVE": "fbc8234780a404f537f0eb33f11d0a0d",
+    "passetHub-NATIVE-PAS": "fe0067fc8a4c3365e4b49acc3e31d2f7",
     "bifrostPaseo-NATIVE-BNC": "98ac83097d700cdbb99c84ca33660c38",
     "hydrationPaseo-NATIVE-HDX": "5f0a934d9f913e3508732d805934e840",
     "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": "073911d4338156f72bca27fc3e0fbc44",
@@ -908,11 +891,10 @@
     "tanssi-native-tanssi": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tanssi-native-tanssi.png",
     "hyperevm-native-hype": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperevm-native-hype.png",
     "mosaictest-native-tmos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png",
-    "hydradx_main-local-geth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-geth.png",
     "verisensetest-native-rwt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/verisensetest-native-rwt.png",
     "katana-native-eth": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/katana-native-eth.png",
     "mandalatest-native-kpgt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mandalatest-native-kpgt.png",
-    "passethub-native": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native.png",
+    "passethub-native-pas": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/passethub-native-pas.png",
     "bifrostpaseo-native-bnc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bifrostpaseo-native-bnc.png",
     "hydrationpaseo-native-hdx": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydrationpaseo-native-hdx.png",
     "unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png",
