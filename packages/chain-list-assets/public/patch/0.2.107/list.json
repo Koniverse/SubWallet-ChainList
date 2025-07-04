@@ -1,8 +1,123 @@
 {
-  "patchVersion": "0.2.108-beta.3",
+  "patchVersion": "0.2.108-beta.12",
   "appliedVersion": "0.2.107",
-  "timestamp": 1750906829633,
+  "timestamp": 1751627450419,
   "ChainInfo": {
+    "rococo": {
+      "slug": "rococo",
+      "name": "Rococo",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/rococo.png",
+      "providers": {
+        "Parity": "wss://rococo-rpc.polkadot.io",
+        "Light Client": "light://substrate-connect/rococo"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://rococo.subscan.io/",
+        "existentialDeposit": "33333333",
+        "symbol": "ROC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": [
+          "PSP34",
+          "PSP22"
+        ],
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "rococo",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "subspace_gemini_3g": {
+      "slug": "subspace_gemini_3g",
+      "name": "Subspace Gemini 3g",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3g.png",
+      "providers": {
+        "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x418040fc282f5e5ddd432c46d05297636f6f75ce68d66499ff4cbda69ccd180b",
+        "addressPrefix": 2254,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "tSSC",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "kabocha": {
+      "slug": "kabocha",
+      "name": "Kabocha",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/kabocha.png",
+      "providers": {
+        "Kabocha": "wss://kabocha.jelliedowl.net"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2113,
+        "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+        "addressPrefix": 27,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "KAB",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2113-73",
+            "paraId": 2113,
+            "status": "won",
+            "startTime": "2022-06-29T04:27:00.000Z",
+            "endTime": "2023-05-31T04:27:00.000Z",
+            "auctionIndex": 38,
+            "firstPeriod": 22,
+            "lastPeriod": 29
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "pendulum": {
       "slug": "pendulum",
       "name": "Pendulum",
@@ -46,6 +161,176 @@
         "subscanSlug": "pendulum",
         "chainBalanceSlug": "pendulum"
       },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "jur_network": {
+      "slug": "jur_network",
+      "name": "Jur Network",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/jur_network.png",
+      "providers": {
+        "Jur Mainnet": "wss://mainnet.jur.io/"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x58d1393b47b11707978fbc07e77d7b6f7d9aa88d207dc008a52385f7dba6156a",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "500",
+        "symbol": "JUR",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "subspace_gemini_3h": {
+      "slug": "subspace_gemini_3h",
+      "name": "Subspace Gemini 3h",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3h.png",
+      "providers": {
+        "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x0c121c75f4ef450f40619e1fca9d1e8e7fbabc42c895bc4790801e85d5a91c34",
+        "addressPrefix": 2254,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://subspace.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "tSSC",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "subspace",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "rococo_assethub": {
+      "slug": "rococo_assethub",
+      "name": "Rococo Asset Hub",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/rococo_assethub.png",
+      "providers": {
+        "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "rococo",
+        "paraId": 1000,
+        "genesisHash": "0x7c34d42fc815d392057c78b49f2755c753440ccd38bcb0405b3bcfb601d08734",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://assethub-rococo.subscan.io/",
+        "existentialDeposit": "3333333",
+        "symbol": "ROC",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "assethub-rococo",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hydradx_rococo": {
+      "slug": "hydradx_rococo",
+      "name": "Hydration Rococo",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_rococo.png",
+      "providers": {
+        "Hydration Nice": "wss://rpc.nice.hydration.cloud"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "rococo",
+        "paraId": 2032,
+        "genesisHash": "0x06111acb32100bf87c88d28b1386f33136939b363cd86eb086626bc7d2a0022c",
+        "addressPrefix": 63,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "paseo_assethub": {
+      "slug": "paseo_assethub",
+      "name": "Paseo Asset Hub",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/paseo_assethub.png",
+      "providers": {
+        "Dwellir": "wss://asset-hub-paseo-rpc.dwellir.com",
+        "IBP": "wss://sys.ibp.network/asset-hub-paseo",
+        "Dotters": "wss://asset-hub-paseo.dotters.network",
+        "Stake World": "wss://pas-rpc.stakeworld.io/assethub",
+        "Turbo": "wss://sys.turboflakes.io/asset-hub-paseo"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 1000,
+        "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "100000000",
+        "symbol": "PAS",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
@@ -146,13 +431,216 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "verisenseTest": {
+      "slug": "verisenseTest",
+      "name": "Verisense Beta Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/verisensetest.png",
+      "providers": {
+        "Verisense": "wss://rpc.beta.verisense.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x52ff61e2802a7016759659a6c85833b093c717772dfb1c429a0a2d15bba754bf",
+        "addressPrefix": 137,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "600",
+        "symbol": "RWT",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "katana": {
+      "slug": "katana",
+      "name": "Katana",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/katana.png",
+      "providers": {
+        "Katana": "https://rpc.katana.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 747474,
+        "blockExplorer": "https://explorer.katanarpc.com/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC721",
+          "ERC20"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "mandalaTest": {
+      "slug": "mandalaTest",
+      "name": "Mandala Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/mandalatest.png",
+      "providers": {
+        "Autobot": "wss://rpc1.paseo.mandalachain.io",
+        "Bumblebee": "wss://rpc2.paseo.mandalachain.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 4818,
+        "genesisHash": "0x5f77ad733c957246dc5c149ca87319027155cd78554d1fa5f44d5140dddf2892",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "KPGT",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "passetHub": {
+      "slug": "passetHub",
+      "name": "passet-hub",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/passethub.png",
+      "providers": {
+        "IBP": "wss://passet-hub-paseo.ibp.network",
+        "Passet": "wss://testnet-passet-hub.polkadot.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 1111,
+        "genesisHash": "0xfd974cf9eaf028f5e44b9fdd1949ab039c6cf9cc54449b0b60d71b042e79aeb6",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "PAS",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "bifrostPaseo": {
+      "slug": "bifrostPaseo",
+      "name": "Bifrost Paseo",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/bifrostpaseo.png",
+      "providers": {
+        "Paseo": "wss://bifrost-rpc.paseo.liebi.com/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2030,
+        "genesisHash": "0xec39b15e5a1945ff19b8e8c0f76990b5758ce19faa4578e8ed57eda33e844452",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000",
+        "symbol": "BNC",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hydrationPaseo": {
+      "slug": "hydrationPaseo",
+      "name": "Hydration Paseo Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://chain-list-assets.subwallet.app/assets/chains/hydrationpaseo.png",
+      "providers": {
+        "Hydration Paseo": "wss://paseo-rpc.play.hydration.cloud"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2034,
+        "genesisHash": "0x05fab032a899566268235e3c89c847fb4644558a0d856282d47d17ff06cb2020",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
+    "rococo": "0c87af15ea622658e022c5a0e0db224c",
+    "subspace_gemini_3g": "20d9f1f8244752ba22e565eac99f321c",
+    "kabocha": "1d1157a992341fd4777fb118e2f1dd3a",
     "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
+    "jur_network": "68d8a356588dfc4abc21fc0f55da6408",
+    "subspace_gemini_3h": "c6fb9a067323fad1ae476d8baa4b0ff4",
+    "rococo_assethub": "6266aeff070bf3a3fb020f31a1f340a2",
+    "hydradx_rococo": "1f71a5173a277cc62050c4df4023edb8",
+    "paseo_assethub": "d32d7d271a4f495eb91b4d6ad663c21c",
     "tanssi": "cace11409e22ba50d82cbe9376e49136",
     "hyperEvm": "8b27b4c5247e8388827d4abe74557b1d",
-    "mosaicTest": "bcedde47587c51c219e72ae12706f67f"
+    "mosaicTest": "bcedde47587c51c219e72ae12706f67f",
+    "verisenseTest": "0c37b57f96f971cc7262712320646239",
+    "katana": "099047ae4683bb8912bf4264e204c2f9",
+    "mandalaTest": "4f708c3382d8c7f913f9ce7082a2e362",
+    "passetHub": "29cd29c7a6283e7425e71427efee68f4",
+    "bifrostPaseo": "e9fcd6d8e8f8464e707c666a2b41530d",
+    "hydrationPaseo": "9ddbb9bc978882450d5a1361e620c0b0"
   },
   "ChainAsset": {
     "truth_network-LOCAL-USDC": {
@@ -215,13 +703,186 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/mosaictest-native-tmos.png"
+    },
+    "verisenseTest-NATIVE-RWT": {
+      "originChain": "verisenseTest",
+      "slug": "verisenseTest-NATIVE-RWT",
+      "name": "Verisense",
+      "symbol": "RWT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "600",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/verisensetest-native-rwt.png"
+    },
+    "katana-NATIVE-ETH": {
+      "originChain": "katana",
+      "slug": "katana-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/katana-native-eth.png"
+    },
+    "mandalaTest-NATIVE-KPGT": {
+      "originChain": "mandalaTest",
+      "slug": "mandalaTest-NATIVE-KPGT",
+      "name": "Kepeng Testnet Token",
+      "symbol": "KPGT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/mandalatest-native-kpgt.png"
+    },
+    "passetHub-NATIVE-PAS": {
+      "originChain": "passetHub",
+      "slug": "passetHub-NATIVE-PAS",
+      "name": "passet-hub",
+      "symbol": "PAS",
+      "decimals": 10,
+      "priceId": null,
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/passethub-native-pas.png"
+    },
+    "bifrostPaseo-NATIVE-BNC": {
+      "originChain": "bifrostPaseo",
+      "slug": "bifrostPaseo-NATIVE-BNC",
+      "name": "Bifrost Paseo",
+      "symbol": "BNC",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "10000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrostpaseo-native-bnc.png"
+    },
+    "hydrationPaseo-NATIVE-HDX": {
+      "originChain": "hydrationPaseo",
+      "slug": "hydrationPaseo-NATIVE-HDX",
+      "name": "Hydration Paseo Testnet",
+      "symbol": "HDX",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": null,
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydrationpaseo-native-hdx.png"
+    },
+    "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png"
+    },
+    "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "priceId": "uniswap",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8f187aA05619a017077f5308904739877ce9eA21"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21.png"
+    },
+    "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5",
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "priceId": "usdt0",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png"
+    },
+    "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "LayerZero Bridged WBTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "priceId": "unichain-bridged-wbtc-unichain",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+    },
+    "paseo_assethub-NATIVE-PAS": {
+      "originChain": "paseo_assethub",
+      "slug": "paseo_assethub-NATIVE-PAS",
+      "name": "Paseo Testnet",
+      "symbol": "PAS",
+      "decimals": 10,
+      "priceId": null,
+      "minAmount": "100000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/paseo_assethub-native-pas.png"
     }
   },
   "ChainAssetHashMap": {
     "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
     "tanssi-NATIVE-TANSSI": "3062232f24dcaced83fd2de64611729e",
     "hyperEvm-NATIVE-HYPE": "a6d9f87120f09c7e2e995edc21b5c658",
-    "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824"
+    "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824",
+    "verisenseTest-NATIVE-RWT": "8a1747eb1e8404e0c8364a01ed9cafc4",
+    "katana-NATIVE-ETH": "47a6133de56eb064a7c945f35c90f2c7",
+    "mandalaTest-NATIVE-KPGT": "529bf9b8ce69a320f216d2b2bd4626c2",
+    "passetHub-NATIVE-PAS": "fe0067fc8a4c3365e4b49acc3e31d2f7",
+    "bifrostPaseo-NATIVE-BNC": "98ac83097d700cdbb99c84ca33660c38",
+    "hydrationPaseo-NATIVE-HDX": "5f0a934d9f913e3508732d805934e840",
+    "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": "073911d4338156f72bca27fc3e0fbc44",
+    "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21": "004ad3cfaa8a030f06a154a8a30def5e",
+    "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5": "bb0f1282e5458dc1c175eaf1e1b7104b",
+    "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": "413ffcd01f8bcf3cf619ac2d96a68231",
+    "paseo_assethub-NATIVE-PAS": "a9cf6be63152294dcfab027cc1a33d2c"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -229,13 +890,38 @@
     "truth_network-local-usdc": "https://chain-list-assets.subwallet.app/assets/chain-assets/truth_network-local-usdc.png",
     "tanssi-native-tanssi": "https://chain-list-assets.subwallet.app/assets/chain-assets/tanssi-native-tanssi.png",
     "hyperevm-native-hype": "https://chain-list-assets.subwallet.app/assets/chain-assets/hyperevm-native-hype.png",
-    "mosaictest-native-tmos": "https://chain-list-assets.subwallet.app/assets/chain-assets/mosaictest-native-tmos.png"
+    "mosaictest-native-tmos": "https://chain-list-assets.subwallet.app/assets/chain-assets/mosaictest-native-tmos.png",
+    "verisensetest-native-rwt": "https://chain-list-assets.subwallet.app/assets/chain-assets/verisensetest-native-rwt.png",
+    "katana-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/katana-native-eth.png",
+    "mandalatest-native-kpgt": "https://chain-list-assets.subwallet.app/assets/chain-assets/mandalatest-native-kpgt.png",
+    "passethub-native-pas": "https://chain-list-assets.subwallet.app/assets/chain-assets/passethub-native-pas.png",
+    "bifrostpaseo-native-bnc": "https://chain-list-assets.subwallet.app/assets/chain-assets/bifrostpaseo-native-bnc.png",
+    "hydrationpaseo-native-hdx": "https://chain-list-assets.subwallet.app/assets/chain-assets/hydrationpaseo-native-hdx.png",
+    "unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png",
+    "unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21.png",
+    "unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png",
+    "unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c": "https://chain-list-assets.subwallet.app/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png",
+    "paseo_assethub-native-pas": "https://chain-list-assets.subwallet.app/assets/chain-assets/paseo_assethub-native-pas.png"
   },
   "ChainLogoMap": {
+    "rococo": "https://chain-list-assets.subwallet.app/assets/chains/rococo.png",
+    "subspace_gemini_3g": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3g.png",
+    "kabocha": "https://chain-list-assets.subwallet.app/assets/chains/kabocha.png",
     "pendulum": "https://chain-list-assets.subwallet.app/assets/chains/pendulum.png",
+    "jur_network": "https://chain-list-assets.subwallet.app/assets/chains/jur_network.png",
+    "subspace_gemini_3h": "https://chain-list-assets.subwallet.app/assets/chains/subspace_gemini_3h.png",
+    "rococo_assethub": "https://chain-list-assets.subwallet.app/assets/chains/rococo_assethub.png",
+    "hydradx_rococo": "https://chain-list-assets.subwallet.app/assets/chains/hydradx_rococo.png",
+    "paseo_assethub": "https://chain-list-assets.subwallet.app/assets/chains/paseo_assethub.png",
     "tanssi": "https://chain-list-assets.subwallet.app/assets/chains/tanssi.png",
     "hyperEvm": "https://chain-list-assets.subwallet.app/assets/chains/hyperevm.png",
-    "mosaicTest": "https://chain-list-assets.subwallet.app/assets/chains/mosaictest.png"
+    "mosaicTest": "https://chain-list-assets.subwallet.app/assets/chains/mosaictest.png",
+    "verisenseTest": "https://chain-list-assets.subwallet.app/assets/chains/verisensetest.png",
+    "katana": "https://chain-list-assets.subwallet.app/assets/chains/katana.png",
+    "mandalaTest": "https://chain-list-assets.subwallet.app/assets/chains/mandalatest.png",
+    "passetHub": "https://chain-list-assets.subwallet.app/assets/chains/passethub.png",
+    "bifrostPaseo": "https://chain-list-assets.subwallet.app/assets/chains/bifrostpaseo.png",
+    "hydrationPaseo": "https://chain-list-assets.subwallet.app/assets/chains/hydrationpaseo.png"
   },
   "mAssetLogoMap": {}
 }
