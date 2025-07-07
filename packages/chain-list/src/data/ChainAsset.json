@@ -16419,188 +16419,81 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
   },
-  "bittensor-LOCAL-ᚁ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᚁ",
-    "name": "Tensorprox",
-    "symbol": "ᚁ",
-    "decimals": 9,
-    "priceId": "dtao-91",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 91,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᚁ.png"
-  },
-  "bittensor-LOCAL-ᚂ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᚂ",
-    "name": "Reinforcedai",
-    "symbol": "ᚂ",
-    "decimals": 9,
-    "priceId": "dtao-92",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 92,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᚂ.png"
-  },
-  "bittensor-LOCAL-ᚄ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᚄ",
-    "name": "Eastworld",
-    "symbol": "ᚄ",
-    "decimals": 9,
-    "priceId": "dtao-94",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 94,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᚄ.png"
-  },
-  "bittensor-LOCAL-ᛉ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᛉ",
-    "name": "Sταking",
-    "symbol": "ᛉ",
-    "decimals": 9,
-    "priceId": "dtao-88",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 88,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᛉ.png"
-  },
-  "bittensor-LOCAL- ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL- ",
-    "name": "Brain",
-    "symbol": " ",
-    "decimals": 9,
-    "priceId": "dtao-90",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 90,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local- .png"
-  },
-  "bittensor-LOCAL-ᚃ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᚃ",
-    "name": "Bitcast",
-    "symbol": "ᚃ",
-    "decimals": 9,
-    "priceId": "dtao-93",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 93,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᚃ.png"
-  },
-  "bittensor-LOCAL-ᛒ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᛒ",
-    "name": "Infinitevibe.ai",
-    "symbol": "ᛒ",
-    "decimals": 9,
-    "priceId": "dtao-89",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 89,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᛒ.png"
-  },
-  "bittensor-LOCAL-ᚳ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᚳ",
-    "name": "Miao",
-    "symbol": "ᚳ",
-    "decimals": 9,
-    "priceId": "dtao-86",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 86,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᚳ.png"
-  },
-  "bittensor-LOCAL-ᚅ": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ᚅ",
-    "name": "Nion",
-    "symbol": "ᚅ",
-    "decimals": 9,
-    "priceId": "dtao-95",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 95,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ᚅ.png"
-  },
-  "bittensor-LOCAL-Ы": {
-    "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-Ы",
-    "name": "Checkerchain",
-    "symbol": "Ы",
-    "decimals": 9,
-    "priceId": "dtao-87",
-    "minAmount": "0",
-    "assetType": "LOCAL",
-    "metadata": {
-      "netuid": 87,
-      "isDisableTransfer": true
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ы.png"
-  },
-  "paseo_assethub-NATIVE-PAS": {
-    "originChain": "paseo_assethub",
-    "slug": "paseo_assethub-NATIVE-PAS",
-    "name": "Paseo Testnet",
-    "symbol": "PAS",
-    "decimals": 10,
+  "hydradx_main-LOCAL-GETH": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-GETH",
+    "name": "GIGAETH",
+    "symbol": "GETH",
+    "decimals": 18,
     "priceId": null,
-    "minAmount": "100000000",
-    "assetType": "NATIVE",
-    "metadata": null,
+    "minAmount": "8202803876747",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "420"
+    }
+  },
+  "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/unichain-erc20-usdc-0x078d782b760474a361dda0af3839290b0ef57ad6.png"
+  },
+  "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-UNI-0x8f187aA05619a017077f5308904739877ce9eA21",
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "decimals": 18,
+    "priceId": "uniswap",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8f187aA05619a017077f5308904739877ce9eA21"
+    },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": null
+    "icon": "/assets/chain-assets/unichain-erc20-uni-0x8f187aa05619a017077f5308904739877ce9ea21.png"
+  },
+  "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-USD₮0-0x9151434b16b9763660705744891fA906F660EcC5",
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "decimals": 6,
+    "priceId": "usdt0",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png"
+  },
+  "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-WBTC-0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "name": "LayerZero Bridged WBTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "priceId": "unichain-bridged-wbtc-unichain",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
   }
 }
