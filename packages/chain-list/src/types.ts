@@ -86,7 +86,8 @@ export interface _ChainAsset {
     isDisableTransfer?: boolean,
     autoEnable?: boolean,
     isSufficient?: boolean,
-    allowAsBaseAsset?: boolean
+    allowAsBaseAsset?: boolean,
+    isGigaToken?: boolean
   },
   multiChainAsset: string | null,
   hasValue: boolean,

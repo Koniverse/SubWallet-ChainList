@@ -15915,7 +15915,8 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "69"
+      "assetId": "69",
+      "isGigaToken": true
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16641,7 +16642,8 @@
     "minAmount": "8202803876747",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "420"
+      "assetId": "420",
+      "isGigaToken": true
     },
     "multiChainAsset": null,
     "hasValue": true,
