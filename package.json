@@ -10,7 +10,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.2.108-beta.15",
+  "version": "0.2.109-beta.0",
   "workspaces": [
     "packages/*"
   ],
@@ -27,12 +27,14 @@
     "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
     "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
     "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
+    "update-logo-url": "./scripts/subwallet-dev-update-logo-url.mjs",
+    "update-patch-url": "./scripts/subwallet-dev-update-patch-url.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build": "subwallet-dev-build-ts && update-logo-url",
     "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",
@@ -53,7 +55,9 @@
     "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag latest",
     "strapi-fetch": "yarn strapi-fetch-chains && yarn strapi-fetch-chain-assets && yarn strapi-multi-chain-assets",
     "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
-    "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit"
+    "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit",
+    "update-logo-url": "update-logo-url",
+    "update-patch-url": "update-patch-url"
   },
   "dependencies": {
     "eventemitter3": "^5.0.1"
