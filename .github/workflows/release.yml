@@ -4,30 +4,120 @@ on:
     branches:
       - master
       - dev
+  pull_request:
+    branches:
+      - dev
 
 jobs:
-  master:
-    if: "startsWith(github.event.head_commit.message, '[Release]')"
+  setup_and_validate:
+    if: "startsWith(github.event.head_commit.message, '[Release]') || github.event_name == 'pull_request'"
+    name: Setup and Set Variables
+    runs-on: ubuntu-22.04
+    outputs:
+      is_patch: ${{ steps.setup_params.outputs.is_patch }}
+      is_release: ${{ steps.setup_params.outputs.is_release }}
+      should_continue: ${{ steps.setup_params.outputs.should_continue }}
+      final_version: ${{ steps.setup_params.outputs.final_version }}
+      target: ${{ steps.setup_params.outputs.target }}
+    steps:
+      - uses: actions/checkout@v4
+        name: Checkout code
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
+          ref: ${{ github.event.pull_request.head.sha || github.event.head_commit.id }}
+
+      - name: Set input data
+        id: setup_params
+        run: |
+          LATEST_COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+
+          # Set the commit message as a step output
+          echo "commit_message<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$LATEST_COMMIT_MESSAGE" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+          # Check if commit message starts with [Patch] or [Release]
+          if [[ ${{github.event_name}} == 'pull_request' && $LATEST_COMMIT_MESSAGE == "[Patch]"* ]]; then
+            IS_PATCH=true
+          else
+            IS_PATCH=false
+          fi
+
+          if [[ $LATEST_COMMIT_MESSAGE == "[Release]"* ]]; then
+            IS_RELEASE=true
+          else
+            IS_RELEASE=false
+          fi
+
+          if [[ $IS_RELEASE == true || $IS_PATCH == true ]]; then
+            SHOULD_CONTINUE=true
+          else
+            SHOULD_CONTINUE=false
+          fi
+
+          echo "is_patch=$IS_PATCH" >> "$GITHUB_OUTPUT"
+          echo "is_release=$IS_RELEASE" >> "$GITHUB_OUTPUT"
+          echo "should_continue=$SHOULD_CONTINUE" >> "$GITHUB_OUTPUT"
+
+          if [[ $IS_RELEASE == true ]]; then
+            # Define branch
+            BRANCH=${{ github.head_ref || github.ref_name }}
+            echo "Branch: $BRANCH"
+            echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+
+            # Version
+            VERSION=$(node -p -e "require('./package.json').version")
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+            # Get PR number from event payload, default to 0 if not available
+            PR_NUMBER=${{ github.event.number || 0 }}
+            echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+
+            # Set build ref
+            VERSION_FLAG=$(echo "${{ github.event.pull_request.head.sha || github.event.head_commit.id }}" | cut -c1-8)
+            FINAL_VERSION=${VERSION}
+            if [[ ${{ github.ref }} == 'refs/heads/master' || ${{ github.ref }} == 'refs/heads/dev' ]]; then
+                FINAL_VERSION=${VERSION}
+            else
+                FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${VERSION_FLAG}"
+            fi
+            echo "final_version=$FINAL_VERSION" >> $GITHUB_OUTPUT
+
+            # Set release target
+            if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
+              echo "target=latest" >> $GITHUB_OUTPUT
+            else
+              echo "target=beta" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Echo value
+        run: |
+          echo "Final version: ${{ steps.setup_params.outputs.final_version }}"
+          echo "Target: ${{ steps.setup_params.outputs.target }}"
+          echo "SHA: ${{ github.event.pull_request.head.sha || github.event.head_commit.id }}"
+          echo "Message: ${{ steps.setup_params.outputs.commit_message }}"
+          echo "Is patch: ${{ steps.setup_params.outputs.is_patch }}"
+          echo "Is release: ${{ steps.setup_params.outputs.is_release }}"
+          echo "Should continue: ${{ steps.setup_params.outputs.should_continue }}"
+
+  build_and_publish:
+    needs: setup_and_validate
+    if: ${{ needs.setup_and_validate.outputs.should_continue == 'true' }}
     runs-on: ubuntu-22.04
     name: Build and publish
     steps:
       - uses: actions/checkout@v4
+        name: Checkout code
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
-      - name: Set input data
-        id: input_data
-        run: |
-          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-            echo "target=latest" >> $GITHUB_OUTPUT
-          else
-            echo "target=beta" >> $GITHUB_OUTPUT
-          fi
-
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
+        name: Setup Node.js
         with:
-          node-version: '18'
+          node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies and build
@@ -35,41 +125,48 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
           STRAPI_URL: ${{ secrets.STRAPI_URL }}
+          REF_NAME: ${{ github.ref_name }}
         run: |
+          # Install dependencies
           yarn install
-          yarn publish:${{ steps.input_data.outputs.target }}
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: Github-Bot
-          author_email: scheduler@github.io
-          message: 'Update data after publish:${{ steps.input_data.outputs.target }}'
+          # Build
+          yarn build
+
+      - name: Update build logo prefix with deployment URL
+        if: github.ref != 'refs/heads/master' && github.ref != 'refs/heads/dev'
+        env:
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          yarn update-patch-url
 
       - name: Deploy Assets to Cloudflare Pages
         id: cloudflare_deployment
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'sw-chain-list-assets'
+          command: pages deploy ./packages/chain-list-assets/public --project-name=sw-chain-list-assets --branch=${{ github.ref_name }}
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.ref_name }}
-          directory: './packages/chain-list-assets/public'
-          wranglerVersion: '3'
-
-      - name: Get current version
-        id: get_version
-        run: echo "VERSION=$(node -p -e "require('./package.json').version")" >> $GITHUB_ENV
 
       - name: Create tag
         id: create_tag
-        if: github.ref == 'refs/heads/master' && contains(github.event.head_commit.message, '[Stable]')
+        if: ${{ needs.setup_and_validate.outputs.is_release == 'true' }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git tag -a "v${{ env.VERSION }}" -m "Release stable version ${{ env.VERSION }}"
-          git push origin "v${{ env.VERSION }}"
+          git tag -a "v${{ needs.setup_and_validate.outputs.final_version }}" -m "Release version ${{ needs.setup_and_validate.outputs.final_version }}"
+          git push origin "v${{ needs.setup_and_validate.outputs.final_version }}"
+
+      - name: Publish to NPM
+        if: ${{ needs.setup_and_validate.outputs.is_release == 'true' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          # Publish package
+          cd packages/chain-list/build
+          npm version --git-tag-version=false ${{ needs.setup_and_validate.outputs.final_version }}
+          npm publish --access public --tag ${{ needs.setup_and_validate.outputs.target }}
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
@@ -80,5 +177,8 @@ jobs:
           username: Chain List Notifier
           title: ${{ github.workflow }}
           description: |
-            The deployment has been completed.
+            The deployment of `${{ github.ref_name }}` has been completed.
+            NPM Version: [${{ needs.setup_and_validate.outputs.final_version }}](https://www.npmjs.com/package/@subwallet/chain-list/v/${{ needs.setup_and_validate.outputs.final_version }})
+            Event: ${{ github.event_name }}
             Commit message: ${{ github.event.head_commit.message }}
+            Online assets: ${{ steps.cloudflare_deployment.outputs.pages-deployment-alias-url }}
