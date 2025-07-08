@@ -1,0 +1,33 @@
+{
+  "patchVersion": "0.2.109-beta.0",
+  "appliedVersion": "0.2.108",
+  "timestamp": 1751963101855,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "paseo_assethub-NATIVE-PAS": {
+      "originChain": "paseo_assethub",
+      "slug": "paseo_assethub-NATIVE-PAS",
+      "name": "Paseo Testnet",
+      "symbol": "PAS",
+      "decimals": 10,
+      "priceId": null,
+      "minAmount": "100000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "PAS-Paseo",
+      "hasValue": false,
+      "icon": "/assets/chain-assets/paseo_assethub-native-pas.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "paseo_assethub-NATIVE-PAS": "1d4e29bf6cd5b4caa242903fa385e55c"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "paseo_assethub-native-pas": "/assets/chain-assets/paseo_assethub-native-pas.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
