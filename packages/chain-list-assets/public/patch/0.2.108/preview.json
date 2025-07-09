@@ -1,14 +1,14 @@
 {
   "patchVersion": "0.2.109-beta.0",
   "appliedVersion": "0.2.108",
-  "timestamp": 1752056394716,
+  "timestamp": 1752058022368,
   "ChainInfo": {
     "passetHub_evm": {
       "slug": "passetHub_evm",
       "name": "Passet Hub EVM",
       "isTestnet": true,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/passethub_evm.png",
+      "icon": "/assets/chains/passethub_evm.png",
       "providers": {
         "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
       },
@@ -59,7 +59,7 @@
     "passethub_evm-native-pas": "/assets/chain-assets/passethub_evm-native-pas.png"
   },
   "ChainLogoMap": {
-    "passetHub_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/passethub_evm.png"
+    "passetHub_evm": "/assets/chains/passethub_evm.png"
   },
   "mAssetLogoMap": {}
 }
