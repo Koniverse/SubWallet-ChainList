@@ -12543,5 +12543,32 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "passetHub_evm": {
+    "slug": "passetHub_evm",
+    "name": "Passet Hub EVM",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/passethub_evm.png",
+    "providers": {
+      "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
+    },
+    "evmInfo": {
+      "evmChainId": 420420422,
+      "blockExplorer": "https://blockscout-passet-hub.parity-testnet.parity.io/",
+      "existentialDeposit": "0",
+      "symbol": "PAS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }

@@ -16797,6 +16797,20 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/unichain-erc20-wbtc-0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
   },
+  "passetHub_evm-NATIVE-PAS": {
+    "originChain": "passetHub_evm",
+    "slug": "passetHub_evm-NATIVE-PAS",
+    "name": "Passet Hub EVM",
+    "symbol": "PAS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "PAS-Paseo",
+    "hasValue": false,
+    "icon": "/assets/chain-assets/passethub_evm-native-pas.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
