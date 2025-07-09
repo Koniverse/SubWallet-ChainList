@@ -1,0 +1,65 @@
+{
+  "patchVersion": "0.2.109-beta.0",
+  "appliedVersion": "0.2.108",
+  "timestamp": 1752056394716,
+  "ChainInfo": {
+    "passetHub_evm": {
+      "slug": "passetHub_evm",
+      "name": "Passet Hub EVM",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/passethub_evm.png",
+      "providers": {
+        "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
+      },
+      "evmInfo": {
+        "evmChainId": 420420422,
+        "blockExplorer": "https://blockscout-passet-hub.parity-testnet.parity.io/",
+        "existentialDeposit": "0",
+        "symbol": "PAS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "passetHub_evm": "057ae9c2076098232003f9f435fc6807"
+  },
+  "ChainAsset": {
+    "passetHub_evm-NATIVE-PAS": {
+      "originChain": "passetHub_evm",
+      "slug": "passetHub_evm-NATIVE-PAS",
+      "name": "Passet Hub EVM",
+      "symbol": "PAS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "PAS-Paseo",
+      "hasValue": false,
+      "icon": "/assets/chain-assets/passethub_evm-native-pas.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "passetHub_evm-NATIVE-PAS": "c07e42db0e064e2af56acbf3faa6df48"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "passethub_evm-native-pas": "/assets/chain-assets/passethub_evm-native-pas.png"
+  },
+  "ChainLogoMap": {
+    "passetHub_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/passethub_evm.png"
+  },
+  "mAssetLogoMap": {}
+}
