@@ -53,7 +53,7 @@ const main = async () => {
       chainInfo.chainStatus = "INACTIVE";
     }
 
-    const icon = chainInfo.icon ? DEV_LOGO_PREFIX + chainInfo.icon : null;
+    const icon = chainInfo.icon;
     patchChainMap[chainInfo.slug] = { ...chainInfo, icon };
     patchChainLogoMap[chainInfo.slug] = icon;
     patchChainHashMap[chainInfo.slug] = md5HashChainInfo(chainInfo);
