@@ -16,6 +16,7 @@ jobs:
     outputs:
       is_patch: ${{ steps.setup_params.outputs.is_patch }}
       is_release: ${{ steps.setup_params.outputs.is_release }}
+      is_pr_version: ${{ steps.setup_params.outputs.is_pr_version }}
       should_continue: ${{ steps.setup_params.outputs.should_continue }}
       final_version: ${{ steps.setup_params.outputs.final_version }}
       target: ${{ steps.setup_params.outputs.target }}
@@ -79,10 +80,13 @@ jobs:
             FINAL_VERSION=${VERSION}
             if [[ ${{ github.ref }} == 'refs/heads/master' || ${{ github.ref }} == 'refs/heads/dev' ]]; then
                 FINAL_VERSION=${VERSION}
+                IS_PR_VERSION=false
             else
                 FINAL_VERSION="${VERSION}-pr-${{ github.event.number }}-${VERSION_FLAG}"
+                IS_PR_VERSION=true
             fi
             echo "final_version=$FINAL_VERSION" >> $GITHUB_OUTPUT
+            echo "is_pr_version=$IS_PR_VERSION" >> $GITHUB_OUTPUT
 
             # Set release target
             if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
@@ -100,6 +104,7 @@ jobs:
           echo "Message: ${{ steps.setup_params.outputs.commit_message }}"
           echo "Is patch: ${{ steps.setup_params.outputs.is_patch }}"
           echo "Is release: ${{ steps.setup_params.outputs.is_release }}"
+          echo "Is PR version: ${{ steps.setup_params.outputs.is_pr_version }}"
           echo "Should continue: ${{ steps.setup_params.outputs.should_continue }}"
 
   build_and_publish:
@@ -165,7 +170,7 @@ jobs:
         run: |
           # Publish package
           cd packages/chain-list/build
-          npm version --git-tag-version=false ${{ needs.setup_and_validate.outputs.final_version }}
+          npm version --git-tag-version=false --allow-same-version=${{needs.setup_and_validate.outputs.is_pr_version == 'false'}} ${{ needs.setup_and_validate.outputs.final_version }}
           npm publish --access public --tag ${{ needs.setup_and_validate.outputs.target }}
 
       - name: Notify to Discord
