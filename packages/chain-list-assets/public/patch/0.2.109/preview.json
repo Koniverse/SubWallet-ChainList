@@ -3,43 +3,6 @@
   "appliedVersion": "0.2.109",
   "timestamp": 1752569473280,
   "ChainInfo": {
-    "polkadex": {
-      "slug": "polkadex",
-      "name": "Polkadex",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "/assets/chains/polkadex.png",
-      "providers": {
-        "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
-        "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
-        "Polkadex": "wss://so.polkadex.ee"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-        "addressPrefix": 88,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://pdexmon.com/",
-        "existentialDeposit": "1000000000000",
-        "symbol": "PDEX",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": {
-        "subscanSlug": "polkadex",
-        "chainBalanceSlug": "polkadex"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
-    },
     "heiko": {
       "slug": "heiko",
       "name": "Heiko",
@@ -176,7 +139,6 @@
     }
   },
   "ChainInfoHashMap": {
-    "polkadex": "0f1c7bc01d88b8d002800ac935fcc0a2",
     "heiko": "d91cc235ced40fcfcb3e6fa9381813d8",
     "polkadex_dot": "8ef349022628b0337f4377915cb900a8",
     "storyOdyssey_testnet": "955e58e6f83eeedc58a928dcce7fd755"
@@ -279,7 +241,6 @@
     "ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
   },
   "ChainLogoMap": {
-    "polkadex": "/assets/chains/polkadex.png",
     "heiko": "/assets/chains/heiko.png",
     "polkadex_dot": "/assets/chains/polkadex_dot.png",
     "storyOdyssey_testnet": "/assets/chains/storyodyssey_testnet.png"
