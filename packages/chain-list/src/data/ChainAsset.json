@@ -15912,7 +15912,7 @@
     "symbol": "GDOT",
     "decimals": 18,
     "priceId": "gigadot",
-    "minAmount": "0",
+    "minAmount": "5290724013368937",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "69",
@@ -16596,7 +16596,7 @@
     "name": "Tanssi Mainnet",
     "symbol": "TANSSI",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "tanssi",
     "minAmount": "33333333",
     "assetType": "NATIVE",
     "metadata": null,
@@ -16842,6 +16842,22 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+  },
+  "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB",
+    "name": "TANSSI",
+    "symbol": "TANSSI",
+    "decimals": 12,
+    "priceId": "tanssi",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",

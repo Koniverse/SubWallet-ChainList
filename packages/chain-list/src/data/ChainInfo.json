@@ -593,7 +593,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/tomochain.png",
     "providers": {
-      "TomoChain": "https://rpc.tomochain.com"
+      "DRPC": "https://viction.drpc.org",
+      "Viction": "https://rpc.viction.xyz"
     },
     "evmInfo": {
       "evmChainId": 88,
