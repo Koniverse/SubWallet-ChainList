@@ -16811,6 +16811,38 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/passethub_evm-native-pas.png"
   },
+  "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462",
+    "name": "CESS",
+    "symbol": "CESS",
+    "decimals": 18,
+    "priceId": "cumulus-encrypted-storage-system",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462.png"
+  },
+  "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94",
+    "name": "Centrifuge",
+    "symbol": "CFG",
+    "decimals": 18,
+    "priceId": "centrifuge-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
