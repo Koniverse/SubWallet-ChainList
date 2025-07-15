@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.110-beta.0",
+  "patchVersion": "0.2.110-beta.1",
   "appliedVersion": "0.2.109",
-  "timestamp": 1752566194592,
+  "timestamp": 1752569473280,
   "ChainInfo": {
     "polkadex": {
       "slug": "polkadex",
@@ -199,6 +199,20 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/hydradx_main-local-gdot.png"
     },
+    "tanssi-NATIVE-TANSSI": {
+      "originChain": "tanssi",
+      "slug": "tanssi-NATIVE-TANSSI",
+      "name": "Tanssi Mainnet",
+      "symbol": "TANSSI",
+      "decimals": 12,
+      "priceId": "tanssi",
+      "minAmount": "33333333",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/tanssi-native-tanssi.png"
+    },
     "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": {
       "originChain": "binance",
       "slug": "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462",
@@ -230,19 +244,39 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+    },
+    "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB",
+      "name": "TANSSI",
+      "symbol": "TANSSI",
+      "decimals": 12,
+      "priceId": "tanssi",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
     }
   },
   "ChainAssetHashMap": {
     "hydradx_main-LOCAL-GDOT": "7f296a66caba4e4c1f9fd95eb55fd9de",
+    "tanssi-NATIVE-TANSSI": "46d83145b54add4e8fc6a080ddabc734",
     "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": "6693eab5177ec5e883b0fd2676e61ec7",
-    "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": "10e99dbbf04e1f540fdb462ee864a604"
+    "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": "10e99dbbf04e1f540fdb462ee864a604",
+    "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB": "01d6fd2357ea600f1cbb91910cca51b0"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "hydradx_main-local-gdot": "/assets/chain-assets/hydradx_main-local-gdot.png",
+    "tanssi-native-tanssi": "/assets/chain-assets/tanssi-native-tanssi.png",
     "binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462": "/assets/chain-assets/binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462.png",
-    "ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+    "ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png",
+    "ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
   },
   "ChainLogoMap": {
     "polkadex": "/assets/chains/polkadex.png",
