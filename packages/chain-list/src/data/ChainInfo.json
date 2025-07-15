@@ -177,7 +177,7 @@
     },
     "evmInfo": {
       "evmChainId": 1284,
-      "blockExplorer": "https://moonbeam.subscan.io/",
+      "blockExplorer": "https://moonscan.io/",
       "existentialDeposit": "0",
       "symbol": "GLMR",
       "decimals": 18,
@@ -194,7 +194,7 @@
       "addressPrefix": 1284,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://moonbeam.foundation/moonbeam-crowdloan/",
-      "blockExplorer": "https://moonbeam.subscan.io/",
+      "blockExplorer": "https://moonscan.io/",
       "existentialDeposit": "0",
       "symbol": "GLMR",
       "decimals": 18,
@@ -407,7 +407,6 @@
       "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
       "Parity": "wss://polkadot-asset-hub-rpc.polkadot.io",
       "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub",
-      "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
       "Blockops": "wss://polkadot-assethub-rpc.blockops.network/ws",
       "Dwellir": "wss://asset-hub-polkadot-rpc.dwellir.com",
       "IBP1": "wss://sys.ibp.network/asset-hub-polkadot",
@@ -594,7 +593,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/tomochain.png",
     "providers": {
-      "TomoChain": "https://rpc.tomochain.com"
+      "DRPC": "https://viction.drpc.org",
+      "Viction": "https://rpc.viction.xyz"
     },
     "evmInfo": {
       "evmChainId": 88,
@@ -2101,7 +2101,8 @@
     "icon": "/assets/chains/polkadex.png",
     "providers": {
       "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
+      "Polkadex": "wss://so.polkadex.ee"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2111,7 +2112,7 @@
       "addressPrefix": 88,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://polkadex.subscan.io/",
+      "blockExplorer": "https://pdexmon.com/",
       "existentialDeposit": "1000000000000",
       "symbol": "PDEX",
       "decimals": 12,
@@ -2724,7 +2725,7 @@
     "slug": "heiko",
     "name": "Heiko",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/heiko.png",
     "providers": {
       "Parallel": "wss://heiko-rpc.parallel.fi"
@@ -5107,7 +5108,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/ajunapolkadot.png",
     "providers": {
-      "Para": "wss://rpc-para.ajuna.network",
       "Ibp": "wss://ajuna.ibp.network",
       "IBP2": "wss://ajuna.dotters.network"
     },
@@ -7914,7 +7914,7 @@
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/polkadex_dot.png",
     "providers": {
       "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
@@ -10693,7 +10693,7 @@
     "slug": "storyOdyssey_testnet",
     "name": "Story Odyssey Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/storyodyssey_testnet.png",
     "providers": {
       "Story Odyssey": "https://odyssey.storyrpc.io/"

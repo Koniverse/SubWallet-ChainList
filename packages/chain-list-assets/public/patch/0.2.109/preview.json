@@ -1,0 +1,254 @@
+{
+  "patchVersion": "0.2.110-beta.0",
+  "appliedVersion": "0.2.109",
+  "timestamp": 1752566194592,
+  "ChainInfo": {
+    "polkadex": {
+      "slug": "polkadex",
+      "name": "Polkadex",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/polkadex.png",
+      "providers": {
+        "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
+        "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
+        "Polkadex": "wss://so.polkadex.ee"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+        "addressPrefix": 88,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://pdexmon.com/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "PDEX",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "polkadex",
+        "chainBalanceSlug": "polkadex"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "heiko": {
+      "slug": "heiko",
+      "name": "Heiko",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/heiko.png",
+      "providers": {
+        "Parallel": "wss://heiko-rpc.parallel.fi"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2085,
+        "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+        "addressPrefix": 110,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.parallel.fi/#/auction/contribute/kusama/2085",
+        "blockExplorer": "https://parallel-heiko.subscan.io/",
+        "existentialDeposit": "10000000000",
+        "symbol": "HKO",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2126-82",
+            "paraId": 2126,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 45,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2085-28",
+            "paraId": 2085,
+            "status": "won",
+            "startTime": "2021-09-08T04:27:00.000Z",
+            "endTime": "2022-08-10T04:27:00.000Z",
+            "auctionIndex": 10,
+            "firstPeriod": 15,
+            "lastPeriod": 22
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "parallel-heiko",
+        "chainBalanceSlug": "parallel-heiko"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "polkadex_dot": {
+      "slug": "polkadex_dot",
+      "name": "Polkadex Polkadot",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/polkadex_dot.png",
+      "providers": {
+        "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
+        "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws",
+        "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2040,
+        "genesisHash": "0x72f3bba34b1ecd532bccbed46701ad37c4ef329bfe86b7cf014ac06cb92ed47d",
+        "addressPrefix": 89,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
+        "blockExplorer": "https://polkadex-parachain.subscan.io/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "PDEX",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2040-36",
+            "paraId": 2040,
+            "status": "won",
+            "startTime": "2022-06-07T01:48:00.000Z",
+            "endTime": "2024-04-09T01:48:00.000Z",
+            "auctionIndex": 16,
+            "firstPeriod": 8,
+            "lastPeriod": 15
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "polkadex-parachain",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "storyOdyssey_testnet": {
+      "slug": "storyOdyssey_testnet",
+      "name": "Story Odyssey Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/storyodyssey_testnet.png",
+      "providers": {
+        "Story Odyssey": "https://odyssey.storyrpc.io/"
+      },
+      "evmInfo": {
+        "evmChainId": 1516,
+        "blockExplorer": "https://odyssey-testnet-explorer.storyscan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "IP",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "polkadex": "0f1c7bc01d88b8d002800ac935fcc0a2",
+    "heiko": "d91cc235ced40fcfcb3e6fa9381813d8",
+    "polkadex_dot": "8ef349022628b0337f4377915cb900a8",
+    "storyOdyssey_testnet": "955e58e6f83eeedc58a928dcce7fd755"
+  },
+  "ChainAsset": {
+    "hydradx_main-LOCAL-GDOT": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GDOT",
+      "name": "GIGADOT",
+      "symbol": "GDOT",
+      "decimals": 18,
+      "priceId": "gigadot",
+      "minAmount": "5290724013368937",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "69",
+        "isGigaToken": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-gdot.png"
+    },
+    "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462",
+      "name": "CESS",
+      "symbol": "CESS",
+      "decimals": 18,
+      "priceId": "cumulus-encrypted-storage-system",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462.png"
+    },
+    "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94",
+      "name": "Centrifuge",
+      "symbol": "CFG",
+      "decimals": 18,
+      "priceId": "centrifuge-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "hydradx_main-LOCAL-GDOT": "7f296a66caba4e4c1f9fd95eb55fd9de",
+    "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": "6693eab5177ec5e883b0fd2676e61ec7",
+    "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": "10e99dbbf04e1f540fdb462ee864a604"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "hydradx_main-local-gdot": "/assets/chain-assets/hydradx_main-local-gdot.png",
+    "binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462": "/assets/chain-assets/binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462.png",
+    "ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+  },
+  "ChainLogoMap": {
+    "polkadex": "/assets/chains/polkadex.png",
+    "heiko": "/assets/chains/heiko.png",
+    "polkadex_dot": "/assets/chains/polkadex_dot.png",
+    "storyOdyssey_testnet": "/assets/chains/storyodyssey_testnet.png"
+  },
+  "mAssetLogoMap": {}
+}
