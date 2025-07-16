@@ -139,7 +139,6 @@ jobs:
           yarn build
 
       - name: Update build logo prefix with deployment URL
-        if: github.ref != 'refs/heads/master' && github.ref != 'refs/heads/dev'
         env:
           REF_NAME: ${{ github.ref_name }}
         run: |

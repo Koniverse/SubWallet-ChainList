@@ -17,6 +17,19 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
+      - name: Install dependencies and build
+        env:
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          # Install dependencies
+          yarn install
+
+      - name: Update build logo prefix with deployment URL
+        env:
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          yarn update-patch-url
+
       - name: Deploy Assets and Patch to Cloudflare Pages
         id: cloudflare_deployment
         uses: cloudflare/pages-action@v1
