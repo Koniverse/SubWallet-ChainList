@@ -15912,7 +15912,7 @@
     "symbol": "GDOT",
     "decimals": 18,
     "priceId": "gigadot",
-    "minAmount": "0",
+    "minAmount": "5290724013368937",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "69",
@@ -16596,7 +16596,7 @@
     "name": "Tanssi Mainnet",
     "symbol": "TANSSI",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "tanssi",
     "minAmount": "33333333",
     "assetType": "NATIVE",
     "metadata": null,
@@ -16810,6 +16810,54 @@
     "multiChainAsset": "PAS-Paseo",
     "hasValue": false,
     "icon": "/assets/chain-assets/passethub_evm-native-pas.png"
+  },
+  "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462",
+    "name": "CESS",
+    "symbol": "CESS",
+    "decimals": 18,
+    "priceId": "cumulus-encrypted-storage-system",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462.png"
+  },
+  "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94",
+    "name": "Centrifuge",
+    "symbol": "CFG",
+    "decimals": 18,
+    "priceId": "centrifuge-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+  },
+  "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB",
+    "name": "TANSSI",
+    "symbol": "TANSSI",
+    "decimals": 12,
+    "priceId": "tanssi",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
