@@ -156,6 +156,7 @@
     "minAmount": "100000000",
     "assetType": "NATIVE",
     "metadata": {
+      "autoEnable": true,
       "multilocation": {
         "parents": 1,
         "interior": "Here"
@@ -217,7 +218,9 @@
     "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "/assets/chain-assets/arbitrum_one-native-eth.png"
@@ -247,7 +250,9 @@
     "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "/assets/chain-assets/optimism-native-eth.png"
@@ -277,7 +282,9 @@
     "priceId": "tomochain",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/tomochain-native-vic.png"
@@ -1458,7 +1465,6 @@
     "assetType": "NATIVE",
     "metadata": {
       "assetId": "0",
-      "autoEnable": true,
       "paraSpellValue": "HDX",
       "paraSpellAssetType": "symbol"
     },
@@ -1746,9 +1752,7 @@
     "priceId": "polkadex",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": {
-      "autoEnable": true
-    },
+    "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/polkadex-native-pdex.png"
@@ -6265,6 +6269,7 @@
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
+      "autoEnable": true,
       "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
     },
     "multiChainAsset": "USDT-Tether",
@@ -6281,6 +6286,7 @@
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
+      "autoEnable": true,
       "contractAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58"
     },
     "multiChainAsset": "USDT-Tether",
@@ -6345,6 +6351,7 @@
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
+      "autoEnable": true,
       "contractAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
     },
     "multiChainAsset": "USDC-USDCoin",
@@ -6361,6 +6368,7 @@
     "minAmount": null,
     "assetType": "ERC20",
     "metadata": {
+      "autoEnable": true,
       "contractAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
     },
     "multiChainAsset": "USDC-USDCoin",
@@ -6943,7 +6951,9 @@
     "priceId": "ethereum",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": null,
+    "metadata": {
+      "autoEnable": true
+    },
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-native-eth.png"
@@ -7187,6 +7197,7 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "22",
+      "autoEnable": true,
       "multilocation": {
         "parents": 1,
         "interior": {
@@ -7611,9 +7622,7 @@
     "priceId": "polkadex",
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
-    "metadata": {
-      "autoEnable": true
-    },
+    "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/polkadex_dot-native-pdex.png"
@@ -8031,7 +8040,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "9",
-      "autoEnable": true,
       "paraSpellValue": "ASTR",
       "paraSpellAssetType": "symbol",
       "alternativeSwapAsset": "astar-NATIVE-ASTR"
@@ -8066,8 +8074,7 @@
     "minAmount": "34854864344868000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "16",
-      "autoEnable": true
+      "assetId": "16"
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
@@ -8200,7 +8207,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "30",
-      "autoEnable": true,
       "multilocation": {
         "parents": 0,
         "interior": {
@@ -8456,7 +8462,6 @@
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "1000019",
-      "autoEnable": true,
       "multilocation": {
         "parents": 1,
         "interior": {
@@ -8536,8 +8541,7 @@
     "minAmount": "1",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "18",
-      "autoEnable": true
+      "assetId": "18"
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -8619,8 +8623,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "100",
-      "autoEnable": true
+      "assetId": "100"
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -8636,8 +8639,7 @@
     "minAmount": "5390835579515",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "20",
-      "autoEnable": true
+      "assetId": "20"
     },
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
@@ -8653,8 +8655,7 @@
     "minAmount": "1000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "101",
-      "autoEnable": true
+      "assetId": "101"
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -8670,8 +8671,7 @@
     "minAmount": "18761726",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "15",
-      "autoEnable": true
+      "assetId": "15"
     },
     "multiChainAsset": "vDOT-VoucherDot",
     "hasValue": true,
@@ -9846,7 +9846,6 @@
     "minAmount": "0",
     "assetType": "PSP22",
     "metadata": {
-      "autoEnable": true,
       "contractAddress": "5CJ3DZ4RM4j2cPpQ49ywYiAgDYaTqk7hPud6Y1J1WY8qwDfb",
       "isDisableTransfer": true
     },
@@ -9864,7 +9863,6 @@
     "minAmount": "0",
     "assetType": "PSP22",
     "metadata": {
-      "autoEnable": true,
       "contractAddress": "5DPzHtsvZHtUaGzzKqrxa2JLgpHtEaSPn9mfyNAjX12Vunts",
       "isDisableTransfer": true
     },
@@ -11309,9 +11307,7 @@
     "priceId": "toshipad",
     "minAmount": "0",
     "assetType": "BRC20",
-    "metadata": {
-      "autoEnable": true
-    },
+    "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/bitcoin-brc20-tshx.png"
@@ -11325,9 +11321,7 @@
     "priceId": "cncl",
     "minAmount": "0",
     "assetType": "BRC20",
-    "metadata": {
-      "autoEnable": true
-    },
+    "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/bitcoin-brc20-cncl.png"
@@ -12477,6 +12471,7 @@
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
+      "autoEnable": true,
       "contractAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
     },
     "multiChainAsset": "USDC-USDCoin",
@@ -13654,9 +13649,7 @@
     "priceId": "story-2",
     "minAmount": "0",
     "assetType": "NATIVE",
-    "metadata": {
-      "autoEnable": true
-    },
+    "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/story_protocol-native-ip.png"
@@ -13943,7 +13936,8 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": {
-      "cardanoId": "lovelace"
+      "cardanoId": "lovelace",
+      "autoEnable": true
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15912,7 +15906,7 @@
     "symbol": "GDOT",
     "decimals": 18,
     "priceId": "gigadot",
-    "minAmount": "0",
+    "minAmount": "5290724013368937",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "69",
@@ -16596,11 +16590,11 @@
     "name": "Tanssi Mainnet",
     "symbol": "TANSSI",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "tanssi",
     "minAmount": "33333333",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "TANSSI-TANSSI",
     "hasValue": true,
     "icon": "/assets/chain-assets/tanssi-native-tanssi.png"
   },
@@ -16810,6 +16804,54 @@
     "multiChainAsset": "PAS-Paseo",
     "hasValue": false,
     "icon": "/assets/chain-assets/passethub_evm-native-pas.png"
+  },
+  "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-CESS-0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462",
+    "name": "CESS",
+    "symbol": "CESS",
+    "decimals": 18,
+    "priceId": "cumulus-encrypted-storage-system",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x0c78d4605c2972e5f989DE9019De1Fb00c5D3462"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-cess-0x0c78d4605c2972e5f989de9019de1fb00c5d3462.png"
+  },
+  "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-CFG-0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94",
+    "name": "Centrifuge",
+    "symbol": "CFG",
+    "decimals": 18,
+    "priceId": "centrifuge-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-cfg-0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94.png"
+  },
+  "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB",
+    "name": "TANSSI",
+    "symbol": "TANSSI",
+    "decimals": 12,
+    "priceId": "tanssi",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB"
+    },
+    "multiChainAsset": "TANSSI-TANSSI",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
