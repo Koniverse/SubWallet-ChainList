@@ -16965,6 +16965,70 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-trac.png"
   },
+  "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/arbitrum_one-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
