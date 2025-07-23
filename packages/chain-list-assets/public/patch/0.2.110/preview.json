@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.111-beta.1",
+  "patchVersion": "0.2.111-beta.2",
   "appliedVersion": "0.2.110",
-  "timestamp": 1753240872920,
+  "timestamp": 1753248069864,
   "ChainInfo": {
     "picasso": {
       "slug": "picasso",
@@ -246,6 +246,70 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/hydradx_main-local-trac.png"
+    },
+    "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+      "name": "Bifrost Voucher DOT",
+      "symbol": "vDOT",
+      "decimals": 18,
+      "priceId": "voucher-dot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+      },
+      "multiChainAsset": "vDOT-VoucherDot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+    },
+    "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+      "name": "Bifrost Voucher DOT",
+      "symbol": "vDOT",
+      "decimals": 18,
+      "priceId": "voucher-dot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+      },
+      "multiChainAsset": "vDOT-VoucherDot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/binance-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+    },
+    "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+      "originChain": "arbitrum_one",
+      "slug": "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+      "name": "Bifrost Voucher DOT",
+      "symbol": "vDOT",
+      "decimals": 18,
+      "priceId": "voucher-dot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+      },
+      "multiChainAsset": "vDOT-VoucherDot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/arbitrum_one-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+    },
+    "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+      "name": "Bifrost Voucher DOT",
+      "symbol": "vDOT",
+      "decimals": 18,
+      "priceId": "voucher-dot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+      },
+      "multiChainAsset": "vDOT-VoucherDot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
     }
   },
   "ChainAssetHashMap": {
@@ -256,7 +320,11 @@
     "binance-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "7b15757c997d09872bc04c06f17760e6",
     "arbitrum_one-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "0e546abd8bb764cdcc65d3e3c5c37b5e",
     "base_mainnet-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "8b9363e8c18d0ce6774ab345cac218b7",
-    "hydradx_main-LOCAL-TRAC": "a987764b0f7745172f7b3d39317268b0"
+    "hydradx_main-LOCAL-TRAC": "a987764b0f7745172f7b3d39317268b0",
+    "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": "6f7cbcdf3153f43b643c5119b6a5360e",
+    "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": "7df434cb385aa743f86f20773396fd66",
+    "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": "be998210d06a5cb30fc51f86ea6d4d7a",
+    "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": "97375266f3419aefcfc930407292935e"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -268,7 +336,11 @@
     "binance-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/binance-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
     "arbitrum_one-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/arbitrum_one-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
     "base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
-    "hydradx_main-local-trac": "/assets/chain-assets/hydradx_main-local-trac.png"
+    "hydradx_main-local-trac": "/assets/chain-assets/hydradx_main-local-trac.png",
+    "ethereum-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5": "/assets/chain-assets/ethereum-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png",
+    "binance-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5": "/assets/chain-assets/binance-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png",
+    "arbitrum_one-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5": "/assets/chain-assets/arbitrum_one-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png",
+    "base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
   },
   "ChainLogoMap": {
     "picasso": "/assets/chains/picasso.png",
