@@ -6526,7 +6526,7 @@
     "slug": "crust_mainnet",
     "name": "Crust Mainnet",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/crust_mainnet.png",
     "providers": {
       "OnFinality": "wss://crust.api.onfinality.io/public-ws",
