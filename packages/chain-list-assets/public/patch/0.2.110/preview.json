@@ -1,8 +1,78 @@
 {
-  "patchVersion": "0.2.111-beta.0",
+  "patchVersion": "0.2.111-beta.1",
   "appliedVersion": "0.2.110",
-  "timestamp": 1753239611357,
+  "timestamp": 1753240872920,
   "ChainInfo": {
+    "picasso": {
+      "slug": "picasso",
+      "name": "Picasso",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/picasso.png",
+      "providers": {
+        "Composable": "wss://rpc.composablenodes.tech",
+        "Dwellir": "wss://picasso-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2104,
+        "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+        "addressPrefix": 49,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.composable.finance/",
+        "blockExplorer": "https://picasso.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "PICA",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2270-100",
+            "paraId": 2270,
+            "status": "won",
+            "startTime": "2023-05-31T04:27:00.000Z",
+            "endTime": "2024-05-01T04:27:00.000Z",
+            "auctionIndex": 84,
+            "firstPeriod": 30,
+            "lastPeriod": 37
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2130-85",
+            "paraId": 2130,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 49,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2087-37",
+            "paraId": 2087,
+            "status": "won",
+            "startTime": "2021-12-01T04:27:00.000Z",
+            "endTime": "2022-11-02T04:27:00.000Z",
+            "auctionIndex": 12,
+            "firstPeriod": 17,
+            "lastPeriod": 24
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "picasso",
+        "chainBalanceSlug": "picasso"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "crust_mainnet": {
       "slug": "crust_mainnet",
       "name": "Crust Mainnet",
@@ -44,6 +114,7 @@
     }
   },
   "ChainInfoHashMap": {
+    "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
     "crust_mainnet": "2a9113a39ab162ca11d3eb2790169020"
   },
   "ChainAsset": {
@@ -200,6 +271,7 @@
     "hydradx_main-local-trac": "/assets/chain-assets/hydradx_main-local-trac.png"
   },
   "ChainLogoMap": {
+    "picasso": "/assets/chains/picasso.png",
     "crust_mainnet": "/assets/chains/crust_mainnet.png"
   },
   "mAssetLogoMap": {}
