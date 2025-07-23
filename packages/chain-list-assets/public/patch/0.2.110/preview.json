@@ -1,0 +1,206 @@
+{
+  "patchVersion": "0.2.111-beta.0",
+  "appliedVersion": "0.2.110",
+  "timestamp": 1753239611357,
+  "ChainInfo": {
+    "crust_mainnet": {
+      "slug": "crust_mainnet",
+      "name": "Crust Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/crust_mainnet.png",
+      "providers": {
+        "OnFinality": "wss://crust.api.onfinality.io/public-ws",
+        "Crust Network": "wss://rpc.crust.network",
+        "Crust Network APP": "wss://rpc.crustnetwork.app",
+        "Crust Network CC": "wss://rpc.crustnetwork.cc",
+        "Crust Network XYZ": "wss://rpc.crustnetwork.xyz"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x8b404e7ed8789d813982b9cb4c8b664c05b3fbf433309f603af014ec9ce56a8c",
+        "addressPrefix": 66,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://crust.subscan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "CRU",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "crust",
+        "chainBalanceSlug": "crust-main"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "crust_mainnet": "2a9113a39ab162ca11d3eb2790169020"
+  },
+  "ChainAsset": {
+    "hydradx_main-LOCAL-GETH": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-GETH",
+      "name": "GIGAETH",
+      "symbol": "GETH",
+      "decimals": 18,
+      "priceId": "gigaeth",
+      "minAmount": "8202803876747",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "420",
+        "isGigaToken": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-geth.png"
+    },
+    "hydradx_main-LOCAL-NEURO": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-NEURO",
+      "name": "NeuroWeb",
+      "symbol": "NEURO",
+      "decimals": 12,
+      "priceId": "neurowebai",
+      "minAmount": "588235294118",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "36"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-neuro.png"
+    },
+    "binance-ERC20-PEAQ-0x8b9Ee39195eA99d6ddD68030F44131116bc218F6": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-PEAQ-0x8b9Ee39195eA99d6ddD68030F44131116bc218F6",
+      "name": "PEAQ",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "priceId": "peaq-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8b9Ee39195eA99d6ddD68030F44131116bc218F6"
+      },
+      "multiChainAsset": "PEAQ-PEAQ",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/binance-erc20-peaq-0x8b9ee39195ea99d6ddd68030f44131116bc218f6.png"
+    },
+    "ethereum-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 18,
+      "priceId": "polkadot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+    },
+    "binance-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 18,
+      "priceId": "polkadot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/binance-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+    },
+    "arbitrum_one-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+      "originChain": "arbitrum_one",
+      "slug": "arbitrum_one-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 18,
+      "priceId": "polkadot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/arbitrum_one-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+    },
+    "base_mainnet-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 18,
+      "priceId": "polkadot",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+    },
+    "hydradx_main-LOCAL-TRAC": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-TRAC",
+      "name": "OriginTrail",
+      "symbol": "TRAC",
+      "decimals": 18,
+      "priceId": "origintrail",
+      "minAmount": "27777777777777800",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "35"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-trac.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "hydradx_main-LOCAL-GETH": "daad6029fa873fa798eb07e656754ac8",
+    "hydradx_main-LOCAL-NEURO": "0c05779c309e6c986b24e17deb2b52b9",
+    "binance-ERC20-PEAQ-0x8b9Ee39195eA99d6ddD68030F44131116bc218F6": "42d063c297b2377df0e2f0ebf454d3a9",
+    "ethereum-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "304651cdae4dbb42dd4c0a0030de7705",
+    "binance-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "7b15757c997d09872bc04c06f17760e6",
+    "arbitrum_one-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "0e546abd8bb764cdcc65d3e3c5c37b5e",
+    "base_mainnet-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": "8b9363e8c18d0ce6774ab345cac218b7",
+    "hydradx_main-LOCAL-TRAC": "a987764b0f7745172f7b3d39317268b0"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "hydradx_main-local-geth": "/assets/chain-assets/hydradx_main-local-geth.png",
+    "hydradx_main-local-neuro": "/assets/chain-assets/hydradx_main-local-neuro.png",
+    "binance-erc20-peaq-0x8b9ee39195ea99d6ddd68030f44131116bc218f6": "/assets/chain-assets/binance-erc20-peaq-0x8b9ee39195ea99d6ddd68030f44131116bc218f6.png",
+    "ethereum-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/ethereum-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
+    "binance-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/binance-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
+    "arbitrum_one-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/arbitrum_one-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
+    "base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8": "/assets/chain-assets/base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png",
+    "hydradx_main-local-trac": "/assets/chain-assets/hydradx_main-local-trac.png"
+  },
+  "ChainLogoMap": {
+    "crust_mainnet": "/assets/chains/crust_mainnet.png"
+  },
+  "mAssetLogoMap": {}
+}
