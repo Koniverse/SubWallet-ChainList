@@ -16632,7 +16632,7 @@
     "name": "GIGAETH",
     "symbol": "GETH",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "gigaeth",
     "minAmount": "8202803876747",
     "assetType": "LOCAL",
     "metadata": {
@@ -16852,6 +16852,182 @@
     "multiChainAsset": "TANSSI-TANSSI",
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
+  },
+  "hydradx_main-LOCAL-NEURO": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-NEURO",
+    "name": "NeuroWeb",
+    "symbol": "NEURO",
+    "decimals": 12,
+    "priceId": "neurowebai",
+    "minAmount": "588235294118",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "36"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-neuro.png"
+  },
+  "binance-ERC20-PEAQ-0x8b9Ee39195eA99d6ddD68030F44131116bc218F6": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-PEAQ-0x8b9Ee39195eA99d6ddD68030F44131116bc218F6",
+    "name": "PEAQ",
+    "symbol": "PEAQ",
+    "decimals": 18,
+    "priceId": "peaq-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8b9Ee39195eA99d6ddD68030F44131116bc218F6"
+    },
+    "multiChainAsset": "PEAQ-PEAQ",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-peaq-0x8b9ee39195ea99d6ddd68030f44131116bc218f6.png"
+  },
+  "ethereum-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 18,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+  },
+  "binance-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 18,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+  },
+  "arbitrum_one-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 18,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/arbitrum_one-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+  },
+  "base_mainnet-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-DOT-0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 18,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x8d010bf9C26881788b4e6bf5Fd1bdC358c8F90b8"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
+  },
+  "hydradx_main-LOCAL-TRAC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-TRAC",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "27777777777777800",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "35"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-trac.png"
+  },
+  "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/arbitrum_one-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-vDOT-0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5",
+    "name": "Bifrost Voucher DOT",
+    "symbol": "vDOT",
+    "decimals": 18,
+    "priceId": "voucher-dot",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xBC33B4D48f76d17A1800aFcB730e8a6AAada7Fe5"
+    },
+    "multiChainAsset": "vDOT-VoucherDot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
