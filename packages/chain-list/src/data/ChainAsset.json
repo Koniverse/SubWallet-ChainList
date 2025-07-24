@@ -2526,7 +2526,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "NEURO-NeuroWeb",
     "hasValue": true,
     "icon": "/assets/chain-assets/origintrail-native-neuro.png"
   },
@@ -16865,7 +16865,7 @@
     "metadata": {
       "assetId": "36"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "NEURO-NeuroWeb",
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-neuro.png"
   },
