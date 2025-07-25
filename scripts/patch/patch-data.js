@@ -86,7 +86,14 @@ const main = async () => {
       'Access-Control-Allow-Origin': '*'
     }
   }).then(res => res.json());
+  const fetchOldMultiChainAssetMapPromise = fetch(`${STABLE_SOURCE}/MultiChainAsset.json`, {
+    headers: {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*'
+    }
+  }).then(res => res.json());
   const oldAssetMap = await Promise.race([fetchOldAssetMapPromise, getNewTimeoutPromise()]).catch(console.error);
+  const oldMultiChainAssetMap = await Promise.race([fetchOldMultiChainAssetMapPromise, getNewTimeoutPromise()]).catch(console.error);
   const newAssetMap = await readJSONFile(ASSET_PATH);
   const patchAssetMap = {};
   const patchAssetHashMap = {};
@@ -94,9 +101,22 @@ const main = async () => {
 
   const addPatchAsset = (assetInfo) => {
     const icon = assetInfo.icon;
-    patchAssetMap[assetInfo.slug] = { ...assetInfo, icon };
+    const altAsset = Object.assign(normalizeAsset(assetInfo), { icon });
+    patchAssetMap[assetInfo.slug] = altAsset;
     patchAssetLogoMap[assetInfo.slug.toLowerCase()] = icon;
-    patchAssetHashMap[assetInfo.slug] = md5HashChainAsset(assetInfo);
+    patchAssetHashMap[assetInfo.slug] = md5HashChainAsset(altAsset);
+  }
+
+  const normalizeAsset = (assetInfo) => {
+    const { icon, ...rest } = assetInfo;
+    const needRemoveMultichainAsset = assetInfo.multiChainAsset
+      ? !oldMultiChainAssetMap[assetInfo.multiChainAsset]
+      : false;
+
+    return {
+      ...rest,
+      multiChainAsset: needRemoveMultichainAsset ? null : assetInfo.multiChainAsset
+    }
   }
 
   for (const assetInfo of Object.values(newAssetMap)) {
@@ -105,8 +125,8 @@ const main = async () => {
       continue;
     }
 
-    const { icon: newAssetIcon, ...newAssetWithoutLogo } = assetInfo;
-    const { icon: oldAssetIcon, ...oldAssetWithoutLogo } = oldAssetMap[assetInfo.slug];
+    const newAssetWithoutLogo = normalizeAsset(assetInfo);
+    const oldAssetWithoutLogo = normalizeAsset(oldAssetMap[assetInfo.slug]);
     if (JSON.stringify(newAssetWithoutLogo) !== JSON.stringify(oldAssetWithoutLogo)) {
       addPatchAsset(assetInfo);
     }
