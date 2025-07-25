@@ -1,29 +1,77 @@
 {
-  "patchVersion": "0.2.104-beta.4",
+  "patchVersion": "0.2.110",
   "appliedVersion": "0.2.102",
-  "timestamp": 1744947720972,
+  "timestamp": 1753433302935,
   "ChainInfo": {
-    "picasso": {
-      "slug": "picasso",
-      "name": "Picasso",
+    "amplitude": {
+      "slug": "amplitude",
+      "name": "Amplitude",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
+      "icon": "/assets/chains/amplitude.png",
       "providers": {
-        "Composable": "wss://rpc.composablenodes.tech",
-        "Dwellir": "wss://picasso-rpc.dwellir.com"
+        "Amplitude": "wss://rpc-amplitude.pendulumchain.tech",
+        "Dwellir": "wss://amplitude-rpc.dwellir.com"
       },
       "evmInfo": null,
       "substrateInfo": {
         "relaySlug": "kusama",
-        "paraId": 2104,
-        "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
-        "addressPrefix": 49,
+        "paraId": 2124,
+        "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+        "addressPrefix": 0,
         "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://crowdloan.composable.finance/",
-        "blockExplorer": "https://picasso.subscan.io/",
-        "existentialDeposit": "100000000000",
-        "symbol": "PICA",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "AMPE",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2124-81",
+            "paraId": 2124,
+            "status": "won",
+            "startTime": "2022-08-10T04:27:00.000Z",
+            "endTime": "2023-07-12T04:27:00.000Z",
+            "auctionIndex": 42,
+            "firstPeriod": 23,
+            "lastPeriod": 30
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "hydradx_main": {
+      "slug": "hydradx_main",
+      "name": "Hydration",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/hydradx_main.png",
+      "providers": {
+        "Galactic Council": "wss://rpc.hydradx.cloud",
+        "Helikon": "wss://rpc.helikon.io/hydradx",
+        "Dwellir 2": "wss://hydration-rpc.n.dwellir.com",
+        "IBP1": "wss://hydration.ibp.network",
+        "IBP2": "wss://hydration.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2034,
+        "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://loan.hydradx.io/",
+        "blockExplorer": "https://hydration.subscan.io/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
         "decimals": 12,
         "hasNativeNft": false,
         "supportStaking": false,
@@ -31,43 +79,68 @@
         "crowdloanParaId": null,
         "crowdloanFunds": [
           {
-            "relayChain": "kusama",
-            "fundId": "2270-100",
-            "paraId": 2270,
+            "relayChain": "polkadot",
+            "fundId": "2034-25",
+            "paraId": 2034,
             "status": "won",
-            "startTime": "2023-05-31T04:27:00.000Z",
-            "endTime": "2024-05-01T04:27:00.000Z",
-            "auctionIndex": 84,
-            "firstPeriod": 30,
-            "lastPeriod": 37
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2130-85",
-            "paraId": 2130,
-            "status": "won",
-            "startTime": "2022-08-10T04:27:00.000Z",
-            "endTime": "2023-07-12T04:27:00.000Z",
-            "auctionIndex": 49,
-            "firstPeriod": 23,
-            "lastPeriod": 30
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2087-37",
-            "paraId": 2087,
-            "status": "won",
-            "startTime": "2021-12-01T04:27:00.000Z",
-            "endTime": "2022-11-02T04:27:00.000Z",
-            "auctionIndex": 12,
-            "firstPeriod": 17,
-            "lastPeriod": 24
+            "startTime": "2022-03-15T01:48:00.000Z",
+            "endTime": "2024-01-16T01:48:00.000Z",
+            "auctionIndex": 9,
+            "firstPeriod": 7,
+            "lastPeriod": 14
           }
         ]
       },
       "extraInfo": {
-        "subscanSlug": "picasso",
-        "chainBalanceSlug": "picasso"
+        "subscanSlug": "hydration",
+        "chainBalanceSlug": "hydradx"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "pendulum": {
+      "slug": "pendulum",
+      "name": "Pendulum",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/pendulum.png",
+      "providers": {
+        "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2094,
+        "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://pendulum.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "PEN",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2094-55",
+            "paraId": 2094,
+            "status": "won",
+            "startTime": "2023-02-14T01:48:00.000Z",
+            "endTime": "2024-12-17T01:48:00.000Z",
+            "auctionIndex": 35,
+            "firstPeriod": 11,
+            "lastPeriod": 18
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "pendulum",
+        "chainBalanceSlug": "pendulum"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -78,7 +151,7 @@
       "name": "Astar zkEVM",
       "isTestnet": false,
       "chainStatus": "INACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
+      "icon": "/assets/chains/astarzkevm.png",
       "providers": {
         "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
       },
@@ -105,7 +178,7 @@
       "name": "Hyperbridge",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
+      "icon": "/assets/chains/hyperbridge.png",
       "providers": {
         "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network",
         "IBP1": "wss://nexus.ibp.network",
@@ -139,7 +212,7 @@
       "name": "Sonic",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
+      "icon": "/assets/chains/sonic.png",
       "providers": {
         "SonicLab": "https://rpc.soniclabs.com/"
       },
@@ -166,7 +239,7 @@
       "name": "peaq EVM",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
+      "icon": "/assets/chains/peaq_evm.png",
       "providers": {
         "Onfinality": "https://peaq.api.onfinality.io/public",
         "Peaq": "https://evm.peaq.network/"
@@ -194,7 +267,7 @@
       "name": "Polkadot Coretime",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
+      "icon": "/assets/chains/polkadot_coretime.png",
       "providers": {
         "IBP1": "wss://sys.ibp.network/coretime-polkadot",
         "IBP2": "wss://coretime-polkadot.dotters.network",
@@ -232,7 +305,7 @@
       "name": "Kusama Coretime",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png",
+      "icon": "/assets/chains/kusama_coretime.png",
       "providers": {
         "IBP1": "wss://sys.ibp.network/coretime-kusama",
         "IBP2": "wss://coretime-kusama.dotters.network",
@@ -272,7 +345,7 @@
       "name": "Truth Network Mainnet",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
+      "icon": "/assets/chains/truth_network.png",
       "providers": {
         "External": "wss://chain-external.truth-network.io"
       },
@@ -304,7 +377,7 @@
       "name": "Tassi Demo",
       "isTestnet": true,
       "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png",
+      "icon": "/assets/chains/tassi_demo.png",
       "providers": {
         "DanceBox": "https://dancebox-3001.tanssi-api.network/"
       },
@@ -328,7 +401,9 @@
     }
   },
   "ChainInfoHashMap": {
-    "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
+    "amplitude": "14f0eda77af0aff3e303dfd3bcaad7fa",
+    "hydradx_main": "d4b23e56281f95b1cf06cd587b622df7",
+    "pendulum": "de417e5fe3c35ba6dc6362a5e6754970",
     "astarZkEvm": "44cf6b2f31da49901392237fa36bf3aa",
     "hyperbridge": "20c65ab0680bdf7b498f0931943279e7",
     "sonic": "7d57fe19532178917e12ec84fa167ef4",
@@ -356,7 +431,7 @@
       },
       "multiChainAsset": "DOT-Polkadot",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-dot.png"
+      "icon": "/assets/chain-assets/acala-local-dot.png"
     },
     "acala-LOCAL-USDT": {
       "originChain": "acala",
@@ -375,7 +450,7 @@
       },
       "multiChainAsset": "USDT-Tether",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png"
+      "icon": "/assets/chain-assets/acala-local-usdt.png"
     },
     "acala-LOCAL-ASTR": {
       "originChain": "acala",
@@ -394,7 +469,7 @@
       },
       "multiChainAsset": "ASTR-Astar",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-astr.png"
+      "icon": "/assets/chain-assets/acala-local-astr.png"
     },
     "darwinia2-LOCAL-KTON": {
       "originChain": "darwinia2",
@@ -410,7 +485,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-kton.png"
+      "icon": "/assets/chain-assets/darwinia2-local-kton.png"
     },
     "origintrail-NATIVE-NEURO": {
       "originChain": "origintrail",
@@ -424,7 +499,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-neuro.png"
+      "icon": "/assets/chain-assets/origintrail-native-neuro.png"
     },
     "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": {
       "originChain": "moonbeam",
@@ -440,7 +515,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png"
+      "icon": "/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png"
     },
     "shiden-LOCAL-LKSM": {
       "originChain": "shiden",
@@ -457,7 +532,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-lksm.png"
+      "icon": "/assets/chain-assets/shiden-local-lksm.png"
     },
     "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": {
       "originChain": "moonbeam",
@@ -473,7 +548,23 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png"
+      "icon": "/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png"
+    },
+    "hydradx_main-LOCAL-H2O": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-H2O",
+      "name": "Lerna",
+      "symbol": "H2O",
+      "decimals": 12,
+      "priceId": "h2o-2",
+      "minAmount": "400000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-h2o.png"
     },
     "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": {
       "originChain": "humanodeEvm",
@@ -489,7 +580,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
+      "icon": "/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png"
     },
     "dbcchain-LOCAL-DLC": {
       "originChain": "dbcchain",
@@ -505,7 +596,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-local-dlc.png"
+      "icon": "/assets/chain-assets/dbcchain-local-dlc.png"
     },
     "curio-NATIVE-CGT": {
       "originChain": "curio",
@@ -519,7 +610,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/curio-native-cgt.png"
+      "icon": "/assets/chain-assets/curio-native-cgt.png"
     },
     "statemint-LOCAL-NCTR": {
       "originChain": "statemint",
@@ -535,7 +626,7 @@
       },
       "multiChainAsset": "NCTR-Apillon",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-nctr.png"
+      "icon": "/assets/chain-assets/statemint-local-nctr.png"
     },
     "moonbeam-LOCAL-xcNCTR": {
       "originChain": "moonbeam",
@@ -553,7 +644,7 @@
       },
       "multiChainAsset": "NCTR-Apillon",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcnctr.png"
+      "icon": "/assets/chain-assets/moonbeam-local-xcnctr.png"
     },
     "sonic-NATIVE-S": {
       "originChain": "sonic",
@@ -567,7 +658,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sonic-native-s.png"
+      "icon": "/assets/chain-assets/sonic-native-s.png"
     },
     "cardano-CIP26-USDA-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": {
       "originChain": "cardano",
@@ -583,7 +674,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
+      "icon": "/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png"
     },
     "cardano-CIP26-MIN-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": {
       "originChain": "cardano",
@@ -599,7 +690,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
+      "icon": "/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png"
     },
     "bittensor-LOCAL-α": {
       "originChain": "bittensor",
@@ -616,7 +707,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-α.png"
+      "icon": "/assets/chain-assets/bittensor-local-α.png"
     },
     "bittensor-LOCAL-γ": {
       "originChain": "bittensor",
@@ -633,7 +724,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-γ.png"
+      "icon": "/assets/chain-assets/bittensor-local-γ.png"
     },
     "bittensor-LOCAL-β": {
       "originChain": "bittensor",
@@ -650,7 +741,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-β.png"
+      "icon": "/assets/chain-assets/bittensor-local-β.png"
     },
     "bittensor-LOCAL-ε": {
       "originChain": "bittensor",
@@ -667,7 +758,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ε.png"
+      "icon": "/assets/chain-assets/bittensor-local-ε.png"
     },
     "bittensor-LOCAL-δ": {
       "originChain": "bittensor",
@@ -684,7 +775,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-δ.png"
+      "icon": "/assets/chain-assets/bittensor-local-δ.png"
     },
     "bittensor-LOCAL-ο": {
       "originChain": "bittensor",
@@ -701,7 +792,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ο.png"
+      "icon": "/assets/chain-assets/bittensor-local-ο.png"
     },
     "bittensor-LOCAL-ק": {
       "originChain": "bittensor",
@@ -718,7 +809,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ק.png"
+      "icon": "/assets/chain-assets/bittensor-local-ק.png"
     },
     "bittensor-LOCAL-η": {
       "originChain": "bittensor",
@@ -735,7 +826,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-η.png"
+      "icon": "/assets/chain-assets/bittensor-local-η.png"
     },
     "bittensor-LOCAL-μ": {
       "originChain": "bittensor",
@@ -752,7 +843,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-μ.png"
+      "icon": "/assets/chain-assets/bittensor-local-μ.png"
     },
     "bittensor-LOCAL-κ": {
       "originChain": "bittensor",
@@ -769,7 +860,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-κ.png"
+      "icon": "/assets/chain-assets/bittensor-local-κ.png"
     },
     "bittensor-LOCAL-ν": {
       "originChain": "bittensor",
@@ -786,7 +877,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ν.png"
+      "icon": "/assets/chain-assets/bittensor-local-ν.png"
     },
     "bittensor-LOCAL-ω": {
       "originChain": "bittensor",
@@ -803,7 +894,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ω.png"
+      "icon": "/assets/chain-assets/bittensor-local-ω.png"
     },
     "bittensor-LOCAL-χ": {
       "originChain": "bittensor",
@@ -820,7 +911,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-χ.png"
+      "icon": "/assets/chain-assets/bittensor-local-χ.png"
     },
     "bittensor-LOCAL-π": {
       "originChain": "bittensor",
@@ -837,7 +928,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-π.png"
+      "icon": "/assets/chain-assets/bittensor-local-π.png"
     },
     "bittensor-LOCAL-ח": {
       "originChain": "bittensor",
@@ -854,7 +945,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ח.png"
+      "icon": "/assets/chain-assets/bittensor-local-ח.png"
     },
     "bittensor-LOCAL-ι": {
       "originChain": "bittensor",
@@ -871,7 +962,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ι.png"
+      "icon": "/assets/chain-assets/bittensor-local-ι.png"
     },
     "bittensor-LOCAL-ט": {
       "originChain": "bittensor",
@@ -888,7 +979,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ט.png"
+      "icon": "/assets/chain-assets/bittensor-local-ט.png"
     },
     "bittensor-LOCAL-λ": {
       "originChain": "bittensor",
@@ -905,7 +996,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-λ.png"
+      "icon": "/assets/chain-assets/bittensor-local-λ.png"
     },
     "bittensor-LOCAL-ך": {
       "originChain": "bittensor",
@@ -922,7 +1013,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ך.png"
+      "icon": "/assets/chain-assets/bittensor-local-ך.png"
     },
     "bittensor-LOCAL-ע": {
       "originChain": "bittensor",
@@ -939,7 +1030,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ע.png"
+      "icon": "/assets/chain-assets/bittensor-local-ע.png"
     },
     "bittensor-LOCAL-מ": {
       "originChain": "bittensor",
@@ -956,7 +1047,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-מ.png"
+      "icon": "/assets/chain-assets/bittensor-local-מ.png"
     },
     "bittensor-LOCAL-θ": {
       "originChain": "bittensor",
@@ -973,7 +1064,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-θ.png"
+      "icon": "/assets/chain-assets/bittensor-local-θ.png"
     },
     "bittensor-LOCAL-ρ": {
       "originChain": "bittensor",
@@ -990,7 +1081,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ρ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ρ.png"
     },
     "bittensor-LOCAL-ו": {
       "originChain": "bittensor",
@@ -1007,7 +1098,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ו.png"
+      "icon": "/assets/chain-assets/bittensor-local-ו.png"
     },
     "bittensor-LOCAL-ת": {
       "originChain": "bittensor",
@@ -1024,7 +1115,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ת.png"
+      "icon": "/assets/chain-assets/bittensor-local-ת.png"
     },
     "bittensor-LOCAL-ب": {
       "originChain": "bittensor",
@@ -1041,7 +1132,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ب.png"
+      "icon": "/assets/chain-assets/bittensor-local-ب.png"
     },
     "bittensor-LOCAL-ן": {
       "originChain": "bittensor",
@@ -1058,7 +1149,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ן.png"
+      "icon": "/assets/chain-assets/bittensor-local-ן.png"
     },
     "bittensor-LOCAL-ج": {
       "originChain": "bittensor",
@@ -1075,7 +1166,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ج.png"
+      "icon": "/assets/chain-assets/bittensor-local-ج.png"
     },
     "bittensor-LOCAL-ψ": {
       "originChain": "bittensor",
@@ -1092,7 +1183,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ψ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ψ.png"
     },
     "bittensor-LOCAL-פ": {
       "originChain": "bittensor",
@@ -1109,7 +1200,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-פ.png"
+      "icon": "/assets/chain-assets/bittensor-local-פ.png"
     },
     "bittensor-LOCAL-ξ": {
       "originChain": "bittensor",
@@ -1126,7 +1217,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ξ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ξ.png"
     },
     "bittensor-LOCAL-خ": {
       "originChain": "bittensor",
@@ -1143,7 +1234,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-خ.png"
+      "icon": "/assets/chain-assets/bittensor-local-خ.png"
     },
     "bittensor-LOCAL-ד": {
       "originChain": "bittensor",
@@ -1160,7 +1251,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ד.png"
+      "icon": "/assets/chain-assets/bittensor-local-ד.png"
     },
     "bittensor-LOCAL-υ": {
       "originChain": "bittensor",
@@ -1177,7 +1268,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-υ.png"
+      "icon": "/assets/chain-assets/bittensor-local-υ.png"
     },
     "bittensor-LOCAL-ב": {
       "originChain": "bittensor",
@@ -1194,7 +1285,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ב.png"
+      "icon": "/assets/chain-assets/bittensor-local-ב.png"
     },
     "bittensor-LOCAL-ت": {
       "originChain": "bittensor",
@@ -1211,7 +1302,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ت.png"
+      "icon": "/assets/chain-assets/bittensor-local-ت.png"
     },
     "bittensor-LOCAL-ح": {
       "originChain": "bittensor",
@@ -1228,7 +1319,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ح.png"
+      "icon": "/assets/chain-assets/bittensor-local-ح.png"
     },
     "bittensor-LOCAL-ם": {
       "originChain": "bittensor",
@@ -1245,7 +1336,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ם.png"
+      "icon": "/assets/chain-assets/bittensor-local-ם.png"
     },
     "bittensor-LOCAL-ס": {
       "originChain": "bittensor",
@@ -1262,7 +1353,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ס.png"
+      "icon": "/assets/chain-assets/bittensor-local-ס.png"
     },
     "bittensor-LOCAL-ר": {
       "originChain": "bittensor",
@@ -1279,7 +1370,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ר.png"
+      "icon": "/assets/chain-assets/bittensor-local-ר.png"
     },
     "bittensor-LOCAL-נ": {
       "originChain": "bittensor",
@@ -1296,7 +1387,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-נ.png"
+      "icon": "/assets/chain-assets/bittensor-local-נ.png"
     },
     "bittensor-LOCAL-ש": {
       "originChain": "bittensor",
@@ -1313,7 +1404,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ש.png"
+      "icon": "/assets/chain-assets/bittensor-local-ש.png"
     },
     "bittensor-LOCAL-א": {
       "originChain": "bittensor",
@@ -1330,7 +1421,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-א.png"
+      "icon": "/assets/chain-assets/bittensor-local-א.png"
     },
     "bittensor-LOCAL-t": {
       "originChain": "bittensor",
@@ -1347,7 +1438,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-t.png"
+      "icon": "/assets/chain-assets/bittensor-local-t.png"
     },
     "bittensor-LOCAL-ا": {
       "originChain": "bittensor",
@@ -1364,7 +1455,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ا.png"
+      "icon": "/assets/chain-assets/bittensor-local-ا.png"
     },
     "bittensor-LOCAL-כ": {
       "originChain": "bittensor",
@@ -1381,7 +1472,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-כ.png"
+      "icon": "/assets/chain-assets/bittensor-local-כ.png"
     },
     "bittensor-LOCAL-ג": {
       "originChain": "bittensor",
@@ -1398,7 +1489,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ג.png"
+      "icon": "/assets/chain-assets/bittensor-local-ג.png"
     },
     "bittensor-LOCAL-ז": {
       "originChain": "bittensor",
@@ -1415,7 +1506,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ז.png"
+      "icon": "/assets/chain-assets/bittensor-local-ז.png"
     },
     "bittensor-LOCAL-ζ": {
       "originChain": "bittensor",
@@ -1432,7 +1523,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ζ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ζ.png"
     },
     "bittensor-LOCAL-י": {
       "originChain": "bittensor",
@@ -1449,7 +1540,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-י.png"
+      "icon": "/assets/chain-assets/bittensor-local-י.png"
     },
     "bittensor-LOCAL-ה": {
       "originChain": "bittensor",
@@ -1466,7 +1557,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ה.png"
+      "icon": "/assets/chain-assets/bittensor-local-ה.png"
     },
     "bittensor-LOCAL-ף": {
       "originChain": "bittensor",
@@ -1483,7 +1574,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ף.png"
+      "icon": "/assets/chain-assets/bittensor-local-ף.png"
     },
     "bittensor-LOCAL-ث": {
       "originChain": "bittensor",
@@ -1500,7 +1591,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ث.png"
+      "icon": "/assets/chain-assets/bittensor-local-ث.png"
     },
     "bittensor-LOCAL-φ": {
       "originChain": "bittensor",
@@ -1517,7 +1608,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-φ.png"
+      "icon": "/assets/chain-assets/bittensor-local-φ.png"
     },
     "bittensor-LOCAL-צ": {
       "originChain": "bittensor",
@@ -1534,7 +1625,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-צ.png"
+      "icon": "/assets/chain-assets/bittensor-local-צ.png"
     },
     "bittensor-LOCAL-ל": {
       "originChain": "bittensor",
@@ -1551,7 +1642,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ל.png"
+      "icon": "/assets/chain-assets/bittensor-local-ל.png"
     },
     "bittensor-LOCAL-ץ": {
       "originChain": "bittensor",
@@ -1568,7 +1659,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ץ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ץ.png"
     },
     "bittensor-LOCAL-σ": {
       "originChain": "bittensor",
@@ -1585,7 +1676,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-σ.png"
+      "icon": "/assets/chain-assets/bittensor-local-σ.png"
     },
     "bittensor-LOCAL-م": {
       "originChain": "bittensor",
@@ -1602,7 +1693,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-م.png"
+      "icon": "/assets/chain-assets/bittensor-local-م.png"
     },
     "bittensor-LOCAL-ي": {
       "originChain": "bittensor",
@@ -1619,7 +1710,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي.png"
+      "icon": "/assets/chain-assets/bittensor-local-ي.png"
     },
     "bittensor-LOCAL-ى": {
       "originChain": "bittensor",
@@ -1636,7 +1727,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ى.png"
+      "icon": "/assets/chain-assets/bittensor-local-ى.png"
     },
     "bittensor-LOCAL-ع": {
       "originChain": "bittensor",
@@ -1653,7 +1744,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ع.png"
+      "icon": "/assets/chain-assets/bittensor-local-ع.png"
     },
     "bittensor-LOCAL-د": {
       "originChain": "bittensor",
@@ -1670,7 +1761,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-د.png"
+      "icon": "/assets/chain-assets/bittensor-local-د.png"
     },
     "bittensor-LOCAL-ش": {
       "originChain": "bittensor",
@@ -1687,7 +1778,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ش.png"
+      "icon": "/assets/chain-assets/bittensor-local-ش.png"
     },
     "bittensor-LOCAL-ز": {
       "originChain": "bittensor",
@@ -1704,7 +1795,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ز.png"
+      "icon": "/assets/chain-assets/bittensor-local-ز.png"
     },
     "bittensor-LOCAL-و": {
       "originChain": "bittensor",
@@ -1721,7 +1812,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-و.png"
+      "icon": "/assets/chain-assets/bittensor-local-و.png"
     },
     "bittensor-LOCAL-ذ": {
       "originChain": "bittensor",
@@ -1738,7 +1829,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ذ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ذ.png"
     },
     "bittensor-LOCAL-ه": {
       "originChain": "bittensor",
@@ -1755,7 +1846,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ه.png"
+      "icon": "/assets/chain-assets/bittensor-local-ه.png"
     },
     "bittensor-LOCAL-ض": {
       "originChain": "bittensor",
@@ -1772,7 +1863,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ض.png"
+      "icon": "/assets/chain-assets/bittensor-local-ض.png"
     },
     "bittensor-LOCAL-س": {
       "originChain": "bittensor",
@@ -1789,7 +1880,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-س.png"
+      "icon": "/assets/chain-assets/bittensor-local-س.png"
     },
     "bittensor-LOCAL-ف": {
       "originChain": "bittensor",
@@ -1806,7 +1897,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ف.png"
+      "icon": "/assets/chain-assets/bittensor-local-ف.png"
     },
     "bittensor-LOCAL-ر": {
       "originChain": "bittensor",
@@ -1823,7 +1914,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ر.png"
+      "icon": "/assets/chain-assets/bittensor-local-ر.png"
     },
     "bittensor-LOCAL-غ": {
       "originChain": "bittensor",
@@ -1840,7 +1931,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-غ.png"
+      "icon": "/assets/chain-assets/bittensor-local-غ.png"
     },
     "bittensor-LOCAL-ص": {
       "originChain": "bittensor",
@@ -1857,7 +1948,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ص.png"
+      "icon": "/assets/chain-assets/bittensor-local-ص.png"
     },
     "bittensor-LOCAL-ك": {
       "originChain": "bittensor",
@@ -1874,7 +1965,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ك.png"
+      "icon": "/assets/chain-assets/bittensor-local-ك.png"
     },
     "bittensor-LOCAL-ن": {
       "originChain": "bittensor",
@@ -1891,7 +1982,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ن.png"
+      "icon": "/assets/chain-assets/bittensor-local-ن.png"
     },
     "bittensor-LOCAL-ط": {
       "originChain": "bittensor",
@@ -1908,7 +1999,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ط.png"
+      "icon": "/assets/chain-assets/bittensor-local-ط.png"
     },
     "bittensor-LOCAL-ق": {
       "originChain": "bittensor",
@@ -1925,7 +2016,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ق.png"
+      "icon": "/assets/chain-assets/bittensor-local-ق.png"
     },
     "bittensor-LOCAL-ل": {
       "originChain": "bittensor",
@@ -1942,7 +2033,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ل.png"
+      "icon": "/assets/chain-assets/bittensor-local-ل.png"
     },
     "bittensor-LOCAL-ظ": {
       "originChain": "bittensor",
@@ -1959,7 +2050,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ظ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ظ.png"
     },
     "bittensor-LOCAL-ي-81": {
       "originChain": "bittensor",
@@ -1976,7 +2067,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png"
+      "icon": "/assets/chain-assets/bittensor-local-ي-81.png"
     },
     "peaq_evm-NATIVE-PEAQ": {
       "originChain": "peaq_evm",
@@ -1990,7 +2081,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-native-peaq.png"
+      "icon": "/assets/chain-assets/peaq_evm-native-peaq.png"
     },
     "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": {
       "originChain": "ethereum",
@@ -2006,7 +2097,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png"
+      "icon": "/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png"
     },
     "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": {
       "originChain": "ethereum",
@@ -2022,7 +2113,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png"
+      "icon": "/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png"
     },
     "polkadot_coretime-NATIVE-DOT": {
       "originChain": "polkadot_coretime",
@@ -2036,7 +2127,7 @@
       "metadata": null,
       "multiChainAsset": "DOT-Polkadot",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_coretime-native-dot.png"
+      "icon": "/assets/chain-assets/polkadot_coretime-native-dot.png"
     },
     "kusama_coretime-NATIVE-KSM": {
       "originChain": "kusama_coretime",
@@ -2050,7 +2141,7 @@
       "metadata": null,
       "multiChainAsset": "KSM-Kusama",
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png"
+      "icon": "/assets/chain-assets/kusama_coretime-native-ksm.png"
     },
     "truth_network-NATIVE-TRUU": {
       "originChain": "truth_network",
@@ -2064,7 +2155,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-native-truu.png"
+      "icon": "/assets/chain-assets/truth_network-native-truu.png"
     },
     "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": {
       "originChain": "ethereum",
@@ -2080,25 +2171,26 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png"
+      "icon": "/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png"
     },
     "truth_network-LOCAL-USDC": {
       "originChain": "truth_network",
       "slug": "truth_network-LOCAL-USDC",
       "name": "USD Coin",
       "symbol": "USDC",
-      "decimals": 6,
+      "decimals": 10,
       "priceId": "usd-coin",
       "minAmount": "1",
       "assetType": "LOCAL",
       "metadata": {
         "onChainInfo": {
           "ForeignAsset": 0
-        }
+        },
+        "allowAsBaseAsset": true
       },
-      "multiChainAsset": "USDC-USDCoin",
+      "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
+      "icon": "/assets/chain-assets/truth_network-local-usdc.png"
     },
     "tassi_demo-NATIVE-TANGO": {
       "originChain": "tassi_demo",
@@ -2112,7 +2204,7 @@
       "metadata": null,
       "multiChainAsset": null,
       "hasValue": false,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tassi_demo-native-tango.png"
+      "icon": "/assets/chain-assets/tassi_demo-native-tango.png"
     },
     "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": {
       "originChain": "ethereum",
@@ -2128,7 +2220,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png"
+      "icon": "/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png"
     },
     "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
       "originChain": "ethereum",
@@ -2144,7 +2236,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+      "icon": "/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
     },
     "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": {
       "originChain": "binance",
@@ -2160,7 +2252,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
+      "icon": "/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png"
     },
     "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": {
       "originChain": "moonbeam",
@@ -2176,7 +2268,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
+      "icon": "/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
     },
     "hydradx_main-LOCAL-GDOT": {
       "originChain": "hydradx_main",
@@ -2184,15 +2276,32 @@
       "name": "GIGADOT",
       "symbol": "GDOT",
       "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
+      "priceId": "gigadot",
+      "minAmount": "5290724013368937",
       "assetType": "LOCAL",
       "metadata": {
-        "assetId": "69"
+        "assetId": "69",
+        "isGigaToken": true
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png"
+      "icon": "/assets/chain-assets/hydradx_main-local-gdot.png"
+    },
+    "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8",
+      "name": "KILT Protocol",
+      "symbol": "KILT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
     }
   },
   "ChainAssetHashMap": {
@@ -2204,6 +2313,7 @@
     "moonbeam-ERC20-CGS-0x2Dfc76901bB2ac2A5fA5fc479590A490BBB10a5F": "03b6eb9fdb5b71b9d3ea49c01a1194d0",
     "shiden-LOCAL-LKSM": "aac5243115b9118b08c0843ca2f33151",
     "moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4": "ef0ce3cda458d909676a5bbf35cbf66a",
+    "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
     "humanodeEvm-ERC20-WeHMND-0x0000000000000000000000000000000000000802": "16f595283dd478592c7405eb623a5576",
     "dbcchain-LOCAL-DLC": "9309ba64ca6969a9dfad9c96e5188b98",
     "curio-NATIVE-CGT": "34f7d20970e3d21507bf746c21d9530c",
@@ -2300,139 +2410,144 @@
     "kusama_coretime-NATIVE-KSM": "dc03ad7161d5d64b2fb9855811654c8e",
     "truth_network-NATIVE-TRUU": "5c1d76430aef116502a6239dbb35b002",
     "ethereum-ERC20-TRUU-0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2": "fe1917920ab4530351d5dbd9501ffca0",
-    "truth_network-LOCAL-USDC": "f98b00a687d8daa95f744b41288881e1",
+    "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
     "tassi_demo-NATIVE-TANGO": "b82dd8fb02208098f23a490511960eb4",
     "ethereum-ERC20-GASP-0x736ECc5237B31eDec6f1aB9a396FaE2416b1d96E": "62f36a27c357ceb7b4b27cb0c3588cc9",
     "ethereum-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "d5ac4f9c6249bcf76fca6c98db95846a",
     "binance-ERC20-HEI-0xF8F173E20e15f3b6CB686FB64724D370689De083": "c3e362e9d49cb3591bf612a87a326300",
     "moonbeam-ERC20-xcLAOS-0xfffFFffFdd704e8e824a5EEc47de88f5B9e13588": "309cdeaac1fb597b13a7330fbcc1cba2",
-    "hydradx_main-LOCAL-GDOT": "da2f5bc96df5402312cf63ae125f74d6"
+    "hydradx_main-LOCAL-GDOT": "7f296a66caba4e4c1f9fd95eb55fd9de",
+    "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": "897e057396b052a78e603d04e47fa640"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "acala-local-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-dot.png",
-    "acala-local-usdt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-usdt.png",
-    "acala-local-astr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/acala-local-astr.png",
-    "darwinia2-local-kton": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/darwinia2-local-kton.png",
-    "origintrail-native-neuro": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/origintrail-native-neuro.png",
-    "moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png",
-    "shiden-local-lksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/shiden-local-lksm.png",
-    "moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png",
-    "humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png",
-    "dbcchain-local-dlc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/dbcchain-local-dlc.png",
-    "curio-native-cgt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/curio-native-cgt.png",
-    "statemint-local-nctr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-nctr.png",
-    "moonbeam-local-xcnctr": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-local-xcnctr.png",
-    "sonic-native-s": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/sonic-native-s.png",
-    "cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png",
-    "cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png",
-    "bittensor-local-α": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-α.png",
-    "bittensor-local-γ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-γ.png",
-    "bittensor-local-β": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-β.png",
-    "bittensor-local-ε": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ε.png",
-    "bittensor-local-δ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-δ.png",
-    "bittensor-local-ο": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ο.png",
-    "bittensor-local-ק": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ק.png",
-    "bittensor-local-η": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-η.png",
-    "bittensor-local-μ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-μ.png",
-    "bittensor-local-κ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-κ.png",
-    "bittensor-local-ν": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ν.png",
-    "bittensor-local-ω": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ω.png",
-    "bittensor-local-χ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-χ.png",
-    "bittensor-local-π": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-π.png",
-    "bittensor-local-ח": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ח.png",
-    "bittensor-local-ι": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ι.png",
-    "bittensor-local-ט": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ט.png",
-    "bittensor-local-λ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-λ.png",
-    "bittensor-local-ך": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ך.png",
-    "bittensor-local-ע": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ע.png",
-    "bittensor-local-מ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-מ.png",
-    "bittensor-local-θ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-θ.png",
-    "bittensor-local-ρ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ρ.png",
-    "bittensor-local-ו": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ו.png",
-    "bittensor-local-ת": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ת.png",
-    "bittensor-local-ب": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ب.png",
-    "bittensor-local-ן": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ן.png",
-    "bittensor-local-ج": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ج.png",
-    "bittensor-local-ψ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ψ.png",
-    "bittensor-local-פ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-פ.png",
-    "bittensor-local-ξ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ξ.png",
-    "bittensor-local-خ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-خ.png",
-    "bittensor-local-ד": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ד.png",
-    "bittensor-local-υ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-υ.png",
-    "bittensor-local-ב": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ב.png",
-    "bittensor-local-ت": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ت.png",
-    "bittensor-local-ح": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ح.png",
-    "bittensor-local-ם": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ם.png",
-    "bittensor-local-ס": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ס.png",
-    "bittensor-local-ר": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ר.png",
-    "bittensor-local-נ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-נ.png",
-    "bittensor-local-ש": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ש.png",
-    "bittensor-local-א": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-א.png",
-    "bittensor-local-t": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-t.png",
-    "bittensor-local-ا": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ا.png",
-    "bittensor-local-כ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-כ.png",
-    "bittensor-local-ג": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ג.png",
-    "bittensor-local-ז": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ז.png",
-    "bittensor-local-ζ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ζ.png",
-    "bittensor-local-י": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-י.png",
-    "bittensor-local-ה": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ה.png",
-    "bittensor-local-ף": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ף.png",
-    "bittensor-local-ث": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ث.png",
-    "bittensor-local-φ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-φ.png",
-    "bittensor-local-צ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-צ.png",
-    "bittensor-local-ל": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ל.png",
-    "bittensor-local-ץ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ץ.png",
-    "bittensor-local-σ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-σ.png",
-    "bittensor-local-م": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-م.png",
-    "bittensor-local-ي": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي.png",
-    "bittensor-local-ى": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ى.png",
-    "bittensor-local-ع": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ع.png",
-    "bittensor-local-د": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-د.png",
-    "bittensor-local-ش": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ش.png",
-    "bittensor-local-ز": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ز.png",
-    "bittensor-local-و": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-و.png",
-    "bittensor-local-ذ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ذ.png",
-    "bittensor-local-ه": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ه.png",
-    "bittensor-local-ض": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ض.png",
-    "bittensor-local-س": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-س.png",
-    "bittensor-local-ف": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ف.png",
-    "bittensor-local-ر": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ر.png",
-    "bittensor-local-غ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-غ.png",
-    "bittensor-local-ص": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ص.png",
-    "bittensor-local-ك": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ك.png",
-    "bittensor-local-ن": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ن.png",
-    "bittensor-local-ط": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ط.png",
-    "bittensor-local-ق": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ق.png",
-    "bittensor-local-ل": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ل.png",
-    "bittensor-local-ظ": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ظ.png",
-    "bittensor-local-ي-81": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/bittensor-local-ي-81.png",
-    "peaq_evm-native-peaq": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/peaq_evm-native-peaq.png",
-    "ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png",
-    "ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png",
-    "polkadot_coretime-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/polkadot_coretime-native-dot.png",
-    "kusama_coretime-native-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/kusama_coretime-native-ksm.png",
-    "truth_network-native-truu": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-native-truu.png",
-    "ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png",
-    "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
-    "tassi_demo-native-tango": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tassi_demo-native-tango.png",
-    "ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png",
-    "ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
-    "binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
-    "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png",
-    "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png"
+    "acala-local-dot": "/assets/chain-assets/acala-local-dot.png",
+    "acala-local-usdt": "/assets/chain-assets/acala-local-usdt.png",
+    "acala-local-astr": "/assets/chain-assets/acala-local-astr.png",
+    "darwinia2-local-kton": "/assets/chain-assets/darwinia2-local-kton.png",
+    "origintrail-native-neuro": "/assets/chain-assets/origintrail-native-neuro.png",
+    "moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f": "/assets/chain-assets/moonbeam-erc20-cgs-0x2dfc76901bb2ac2a5fa5fc479590a490bbb10a5f.png",
+    "shiden-local-lksm": "/assets/chain-assets/shiden-local-lksm.png",
+    "moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4": "/assets/chain-assets/moonbeam-erc20-stdot-0xbc7e02c4178a7df7d3e564323a5c359dc96c4db4.png",
+    "hydradx_main-local-h2o": "/assets/chain-assets/hydradx_main-local-h2o.png",
+    "humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802": "/assets/chain-assets/humanodeevm-erc20-wehmnd-0x0000000000000000000000000000000000000802.png",
+    "dbcchain-local-dlc": "/assets/chain-assets/dbcchain-local-dlc.png",
+    "curio-native-cgt": "/assets/chain-assets/curio-native-cgt.png",
+    "statemint-local-nctr": "/assets/chain-assets/statemint-local-nctr.png",
+    "moonbeam-local-xcnctr": "/assets/chain-assets/moonbeam-local-xcnctr.png",
+    "sonic-native-s": "/assets/chain-assets/sonic-native-s.png",
+    "cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441": "/assets/chain-assets/cardano-cip26-usda-fe7c786ab321f41c654ef6c1af7b3250a613c24e4213e0425a7ae45655534441.png",
+    "cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e": "/assets/chain-assets/cardano-cip26-min-29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e.png",
+    "bittensor-local-α": "/assets/chain-assets/bittensor-local-α.png",
+    "bittensor-local-γ": "/assets/chain-assets/bittensor-local-γ.png",
+    "bittensor-local-β": "/assets/chain-assets/bittensor-local-β.png",
+    "bittensor-local-ε": "/assets/chain-assets/bittensor-local-ε.png",
+    "bittensor-local-δ": "/assets/chain-assets/bittensor-local-δ.png",
+    "bittensor-local-ο": "/assets/chain-assets/bittensor-local-ο.png",
+    "bittensor-local-ק": "/assets/chain-assets/bittensor-local-ק.png",
+    "bittensor-local-η": "/assets/chain-assets/bittensor-local-η.png",
+    "bittensor-local-μ": "/assets/chain-assets/bittensor-local-μ.png",
+    "bittensor-local-κ": "/assets/chain-assets/bittensor-local-κ.png",
+    "bittensor-local-ν": "/assets/chain-assets/bittensor-local-ν.png",
+    "bittensor-local-ω": "/assets/chain-assets/bittensor-local-ω.png",
+    "bittensor-local-χ": "/assets/chain-assets/bittensor-local-χ.png",
+    "bittensor-local-π": "/assets/chain-assets/bittensor-local-π.png",
+    "bittensor-local-ח": "/assets/chain-assets/bittensor-local-ח.png",
+    "bittensor-local-ι": "/assets/chain-assets/bittensor-local-ι.png",
+    "bittensor-local-ט": "/assets/chain-assets/bittensor-local-ט.png",
+    "bittensor-local-λ": "/assets/chain-assets/bittensor-local-λ.png",
+    "bittensor-local-ך": "/assets/chain-assets/bittensor-local-ך.png",
+    "bittensor-local-ע": "/assets/chain-assets/bittensor-local-ע.png",
+    "bittensor-local-מ": "/assets/chain-assets/bittensor-local-מ.png",
+    "bittensor-local-θ": "/assets/chain-assets/bittensor-local-θ.png",
+    "bittensor-local-ρ": "/assets/chain-assets/bittensor-local-ρ.png",
+    "bittensor-local-ו": "/assets/chain-assets/bittensor-local-ו.png",
+    "bittensor-local-ת": "/assets/chain-assets/bittensor-local-ת.png",
+    "bittensor-local-ب": "/assets/chain-assets/bittensor-local-ب.png",
+    "bittensor-local-ן": "/assets/chain-assets/bittensor-local-ן.png",
+    "bittensor-local-ج": "/assets/chain-assets/bittensor-local-ج.png",
+    "bittensor-local-ψ": "/assets/chain-assets/bittensor-local-ψ.png",
+    "bittensor-local-פ": "/assets/chain-assets/bittensor-local-פ.png",
+    "bittensor-local-ξ": "/assets/chain-assets/bittensor-local-ξ.png",
+    "bittensor-local-خ": "/assets/chain-assets/bittensor-local-خ.png",
+    "bittensor-local-ד": "/assets/chain-assets/bittensor-local-ד.png",
+    "bittensor-local-υ": "/assets/chain-assets/bittensor-local-υ.png",
+    "bittensor-local-ב": "/assets/chain-assets/bittensor-local-ב.png",
+    "bittensor-local-ت": "/assets/chain-assets/bittensor-local-ت.png",
+    "bittensor-local-ح": "/assets/chain-assets/bittensor-local-ح.png",
+    "bittensor-local-ם": "/assets/chain-assets/bittensor-local-ם.png",
+    "bittensor-local-ס": "/assets/chain-assets/bittensor-local-ס.png",
+    "bittensor-local-ר": "/assets/chain-assets/bittensor-local-ר.png",
+    "bittensor-local-נ": "/assets/chain-assets/bittensor-local-נ.png",
+    "bittensor-local-ש": "/assets/chain-assets/bittensor-local-ש.png",
+    "bittensor-local-א": "/assets/chain-assets/bittensor-local-א.png",
+    "bittensor-local-t": "/assets/chain-assets/bittensor-local-t.png",
+    "bittensor-local-ا": "/assets/chain-assets/bittensor-local-ا.png",
+    "bittensor-local-כ": "/assets/chain-assets/bittensor-local-כ.png",
+    "bittensor-local-ג": "/assets/chain-assets/bittensor-local-ג.png",
+    "bittensor-local-ז": "/assets/chain-assets/bittensor-local-ז.png",
+    "bittensor-local-ζ": "/assets/chain-assets/bittensor-local-ζ.png",
+    "bittensor-local-י": "/assets/chain-assets/bittensor-local-י.png",
+    "bittensor-local-ה": "/assets/chain-assets/bittensor-local-ה.png",
+    "bittensor-local-ף": "/assets/chain-assets/bittensor-local-ף.png",
+    "bittensor-local-ث": "/assets/chain-assets/bittensor-local-ث.png",
+    "bittensor-local-φ": "/assets/chain-assets/bittensor-local-φ.png",
+    "bittensor-local-צ": "/assets/chain-assets/bittensor-local-צ.png",
+    "bittensor-local-ל": "/assets/chain-assets/bittensor-local-ל.png",
+    "bittensor-local-ץ": "/assets/chain-assets/bittensor-local-ץ.png",
+    "bittensor-local-σ": "/assets/chain-assets/bittensor-local-σ.png",
+    "bittensor-local-م": "/assets/chain-assets/bittensor-local-م.png",
+    "bittensor-local-ي": "/assets/chain-assets/bittensor-local-ي.png",
+    "bittensor-local-ى": "/assets/chain-assets/bittensor-local-ى.png",
+    "bittensor-local-ع": "/assets/chain-assets/bittensor-local-ع.png",
+    "bittensor-local-د": "/assets/chain-assets/bittensor-local-د.png",
+    "bittensor-local-ش": "/assets/chain-assets/bittensor-local-ش.png",
+    "bittensor-local-ز": "/assets/chain-assets/bittensor-local-ز.png",
+    "bittensor-local-و": "/assets/chain-assets/bittensor-local-و.png",
+    "bittensor-local-ذ": "/assets/chain-assets/bittensor-local-ذ.png",
+    "bittensor-local-ه": "/assets/chain-assets/bittensor-local-ه.png",
+    "bittensor-local-ض": "/assets/chain-assets/bittensor-local-ض.png",
+    "bittensor-local-س": "/assets/chain-assets/bittensor-local-س.png",
+    "bittensor-local-ف": "/assets/chain-assets/bittensor-local-ف.png",
+    "bittensor-local-ر": "/assets/chain-assets/bittensor-local-ر.png",
+    "bittensor-local-غ": "/assets/chain-assets/bittensor-local-غ.png",
+    "bittensor-local-ص": "/assets/chain-assets/bittensor-local-ص.png",
+    "bittensor-local-ك": "/assets/chain-assets/bittensor-local-ك.png",
+    "bittensor-local-ن": "/assets/chain-assets/bittensor-local-ن.png",
+    "bittensor-local-ط": "/assets/chain-assets/bittensor-local-ط.png",
+    "bittensor-local-ق": "/assets/chain-assets/bittensor-local-ق.png",
+    "bittensor-local-ل": "/assets/chain-assets/bittensor-local-ل.png",
+    "bittensor-local-ظ": "/assets/chain-assets/bittensor-local-ظ.png",
+    "bittensor-local-ي-81": "/assets/chain-assets/bittensor-local-ي-81.png",
+    "peaq_evm-native-peaq": "/assets/chain-assets/peaq_evm-native-peaq.png",
+    "ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0": "/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png",
+    "ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6": "/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png",
+    "polkadot_coretime-native-dot": "/assets/chain-assets/polkadot_coretime-native-dot.png",
+    "kusama_coretime-native-ksm": "/assets/chain-assets/kusama_coretime-native-ksm.png",
+    "truth_network-native-truu": "/assets/chain-assets/truth_network-native-truu.png",
+    "ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2": "/assets/chain-assets/ethereum-erc20-truu-0xdae0fafd65385e7775cf75b1398735155ef6acd2.png",
+    "truth_network-local-usdc": "/assets/chain-assets/truth_network-local-usdc.png",
+    "tassi_demo-native-tango": "/assets/chain-assets/tassi_demo-native-tango.png",
+    "ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e": "/assets/chain-assets/ethereum-erc20-gasp-0x736ecc5237b31edec6f1ab9a396fae2416b1d96e.png",
+    "ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "/assets/chain-assets/ethereum-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083": "/assets/chain-assets/binance-erc20-hei-0xf8f173e20e15f3b6cb686fb64724d370689de083.png",
+    "moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588": "/assets/chain-assets/moonbeam-erc20-xclaos-0xffffffffdd704e8e824a5eec47de88f5b9e13588.png",
+    "hydradx_main-local-gdot": "/assets/chain-assets/hydradx_main-local-gdot.png",
+    "base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8": "/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
   },
   "ChainLogoMap": {
-    "picasso": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/picasso.png",
-    "astarZkEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/astarzkevm.png",
-    "hyperbridge": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperbridge.png",
-    "sonic": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/sonic.png",
-    "peaq_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/peaq_evm.png",
-    "polkadot_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/polkadot_coretime.png",
-    "kusama_coretime": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/kusama_coretime.png",
-    "truth_network": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/truth_network.png",
-    "tassi_demo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tassi_demo.png"
+    "amplitude": "/assets/chains/amplitude.png",
+    "hydradx_main": "/assets/chains/hydradx_main.png",
+    "pendulum": "/assets/chains/pendulum.png",
+    "astarZkEvm": "/assets/chains/astarzkevm.png",
+    "hyperbridge": "/assets/chains/hyperbridge.png",
+    "sonic": "/assets/chains/sonic.png",
+    "peaq_evm": "/assets/chains/peaq_evm.png",
+    "polkadot_coretime": "/assets/chains/polkadot_coretime.png",
+    "kusama_coretime": "/assets/chains/kusama_coretime.png",
+    "truth_network": "/assets/chains/truth_network.png",
+    "tassi_demo": "/assets/chains/tassi_demo.png"
   },
   "mAssetLogoMap": {}
 }
