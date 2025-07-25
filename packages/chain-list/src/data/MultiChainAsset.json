@@ -997,5 +997,14 @@
     "priceId": "tanssi",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/tanssi-tanssi.png"
+  },
+  "NEURO-NeuroWeb": {
+    "slug": "NEURO-NeuroWeb",
+    "originChainAsset": null,
+    "name": "NeuroWeb",
+    "symbol": "NEURO",
+    "priceId": "neurowebai",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/neuro-neuroweb.png"
   }
 }
