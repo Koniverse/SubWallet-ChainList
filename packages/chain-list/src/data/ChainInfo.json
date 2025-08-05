@@ -14,7 +14,6 @@
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
       "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
       "Allnodes": "wss://polkadot-rpc.publicnode.com",
       "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
       "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
@@ -61,7 +60,6 @@
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
       "Light Client": "light://substrate-connect/kusama",
       "Allnodes": "wss://kusama-rpc.publicnode.com",
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws",
       "Helixstreet": "wss://rpc-kusama.helixstreet.io",
       "IBP2": "wss://kusama.dotters.network",
       "OnFinality": "wss://kusama.api.onfinality.io/public-ws"
@@ -448,7 +446,6 @@
       "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
       "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
-      "Dwellir": "wss://acala-rpc.dwellir.com",
       "IBP1": "wss://acala.ibp.network",
       "IBP2": "wss://acala.dotters.network"
     },
@@ -1643,7 +1640,7 @@
     "slug": "clover",
     "name": "Clover",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/clover.png",
     "providers": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -1701,7 +1698,7 @@
     "slug": "cloverEvm",
     "name": "Clover - EVM",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/cloverevm.png",
     "providers": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -1782,10 +1779,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/edgeware.png",
     "providers": {
-      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net",
-      "JelliedOwl London": "wss://edgeware-rpc1.jelliedowl.net",
-      "JelliedOwl New York": "wss://edgeware-rpc0.jelliedowl.net",
-      "JelliedOwl Singapore": "wss://edgeware-rpc2.jelliedowl.net"
+      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2863,7 +2857,7 @@
     "slug": "picasso",
     "name": "Picasso",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/picasso.png",
     "providers": {
       "Composable": "wss://rpc.composablenodes.tech",
@@ -3553,7 +3547,7 @@
     "slug": "pangolin",
     "name": "Pangolin",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/pangolin.png",
     "providers": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
@@ -3626,7 +3620,7 @@
   },
   "acala_testnet": {
     "slug": "acala_testnet",
-    "name": "Acala Mandala TC7",
+    "name": "Acala Mandala",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/acala_testnet.png",
@@ -4324,7 +4318,7 @@
     "slug": "dancebox",
     "name": "Dancebox",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/dancebox.png",
     "providers": {
       "Dancebox": "wss://dancebox.tanssi-api.network"
@@ -4628,7 +4622,7 @@
     "slug": "ternoa_alphanet",
     "name": "Ternoa Alphanet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/ternoa_alphanet.png",
     "providers": {
       "ternoa": "wss://alphanet.ternoa.com"
@@ -5538,7 +5532,7 @@
     "slug": "automata",
     "name": "Automata",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/automata.png",
     "providers": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
@@ -6107,12 +6101,12 @@
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
-    "name": "Aventus Testnet",
+    "name": "AvN Paseo",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/aventus_testnet.png",
     "providers": {
-      "Aventus": "wss://public-rpc.testnet.aventus.network"
+      "Aventus": "wss://public-rpc.testnet.aventus.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -7794,7 +7788,7 @@
   },
   "energy_web_x_testnet": {
     "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "name": "Energy Web X Argon",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_x_testnet.png",
@@ -7853,7 +7847,7 @@
   },
   "energy_web_x_rococo": {
     "slug": "energy_web_x_rococo",
-    "name": "Energy Web X Rococo",
+    "name": "Energy Web X Paseo",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_x_rococo.png",
@@ -8954,8 +8948,7 @@
       "Bware": "wss://avail-mainnet.public.blastapi.io/",
       "BrightlyStake": "wss://avail-us.brightlystake.com/",
       "GlobalStake": "wss://rpc-avail.globalstake.io/",
-      "BountyBlok": "wss://avail.rpc.bountyblok.io/",
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12117,7 +12110,7 @@
     "slug": "tassi_demo",
     "name": "Tanssi Demo",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/tassi_demo.png",
     "providers": {
       "DanceBox": "https://dancebox-3001.tanssi-api.network/"
@@ -12206,7 +12199,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/dancelight.png",
     "providers": {
-      "Tanssi": "wss://dancelight.tanssi-api.network"
+      "Testnet": "wss://services.tanssi-testnet.network/dancelight"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12265,7 +12258,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/tanssi.png",
     "providers": {
-      "tanssi": "wss://tanssi.tanssi-mainnet.network"
+      "Services ": "wss://services.tanssi-mainnet.network/tanssi"
     },
     "evmInfo": null,
     "substrateInfo": {
