@@ -17029,6 +17029,22 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
   },
+  "hydradx_main-LOCAL-LDO": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LDO",
+    "name": "Lido DAO",
+    "symbol": "LDO",
+    "decimals": 18,
+    "priceId": "lido-dao",
+    "minAmount": "5102040816326530",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000796"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-ldo.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
