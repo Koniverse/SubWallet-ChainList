@@ -38,7 +38,7 @@
     "redstone": {
       "slug": "redstone",
       "name": "Redstone",
-      "isTestnet": false,
+      "isTestnet": true,
       "chainStatus": "ACTIVE",
       "icon": null,
       "providers": {
