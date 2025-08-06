@@ -17042,5 +17042,35 @@
     "multiChainAsset": "PAS-Paseo",
     "hasValue": true,
     "icon": "/assets/chain-assets/paseo_assethub-native-pas.png"
+  },
+  "redstone-NATIVE-ETH": {
+    "originChain": "redstone",
+    "slug": "redstone-NATIVE-ETH",
+    "name": "Redstone",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947": {
+    "originChain": "redstone",
+    "slug": "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947",
+    "name": "BUGS",
+    "symbol": "BUGS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9c0153C56b460656DF4533246302d42Bd2b49947"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }
