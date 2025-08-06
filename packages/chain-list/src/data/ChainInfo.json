@@ -12574,7 +12574,7 @@
   "redstone": {
     "slug": "redstone",
     "name": "Redstone",
-    "isTestnet": true,
+    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": null,
     "providers": {
@@ -12601,7 +12601,7 @@
   "neon": {
     "slug": "neon",
     "name": "Neon EVM Mainnet",
-    "isTestnet": true,
+    "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": null,
     "providers": {
@@ -12612,6 +12612,33 @@
       "blockExplorer": "https://neon.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "NEON",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "shape": {
+    "slug": "shape",
+    "name": "Shape",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Neon": "https://mainnet.shape.network"
+    },
+    "evmInfo": {
+      "evmChainId": 360,
+      "blockExplorer": "https://shapescan.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
       "decimals": 18,
       "supportSmartContract": [
         "ERC20",
