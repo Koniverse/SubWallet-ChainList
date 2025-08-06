@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.112-beta.0",
+  "patchVersion": "0.2.112-beta.1",
   "appliedVersion": "0.2.111",
-  "timestamp": 1754453856737,
+  "timestamp": 1754455454229,
   "ChainInfo": {
     "automata": {
       "slug": "automata",
@@ -34,16 +34,84 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "redstone": {
+      "slug": "redstone",
+      "name": "Redstone",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Red": "https://rpc.redstonechain.com"
+      },
+      "evmInfo": {
+        "evmChainId": 690,
+        "blockExplorer": "https://explorer.redstone.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "automata": "e1783e6d5b0fa570c9b0126418f750c1"
+    "automata": "e1783e6d5b0fa570c9b0126418f750c1",
+    "redstone": "f7e781a4b72591f6563251b045c5bb1b"
   },
-  "ChainAsset": {},
-  "ChainAssetHashMap": {},
+  "ChainAsset": {
+    "redstone-NATIVE-ETH": {
+      "originChain": "redstone",
+      "slug": "redstone-NATIVE-ETH",
+      "name": "Redstone",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
+    },
+    "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947": {
+      "originChain": "redstone",
+      "slug": "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947",
+      "name": "BUGS",
+      "symbol": "BUGS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x9c0153C56b460656DF4533246302d42Bd2b49947"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
+    }
+  },
+  "ChainAssetHashMap": {
+    "redstone-NATIVE-ETH": "4cb4d80abf198c36f7e00f0e079e7e31",
+    "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947": "b88cbed373dbe89fe2b98f5bf37fda38"
+  },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
-  "AssetLogoMap": {},
-  "ChainLogoMap": {},
+  "AssetLogoMap": {
+    "redstone-native-eth": null,
+    "redstone-erc20-bugs-0x9c0153c56b460656df4533246302d42bd2b49947": null
+  },
+  "ChainLogoMap": {
+    "automata": "/assets/chains/automata.png",
+    "redstone": null
+  },
   "mAssetLogoMap": {}
 }
