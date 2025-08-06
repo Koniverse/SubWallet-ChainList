@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.112-beta.3",
+  "patchVersion": "0.2.112-beta.4",
   "appliedVersion": "0.2.111",
   "timestamp": 1754464648880,
   "ChainInfo": {
@@ -88,40 +88,12 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
-    },
-    "shape": {
-      "slug": "shape",
-      "name": "Shape",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": null,
-      "providers": {
-        "Neon": "https://mainnet.shape.network"
-      },
-      "evmInfo": {
-        "evmChainId": 360,
-        "blockExplorer": "https://shapescan.xyz/",
-        "existentialDeposit": "0",
-        "symbol": "ETH",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "automata": "e1783e6d5b0fa570c9b0126418f750c1",
     "redstone": "a21413ff431f875deb348d211478c27a",
-    "neon": "90d7a75a30fba2fe4b8f21f055c79a92",
-    "shape": "f9e67ec5c25280c79d9a109d1c8419a7"
+    "neon": "90d7a75a30fba2fe4b8f21f055c79a92"
   },
   "ChainAsset": {
     "redstone-NATIVE-ETH": {
@@ -167,59 +139,24 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": null
-    },
-    "shape-NATIVE-ETH": {
-      "originChain": "shape",
-      "slug": "shape-NATIVE-ETH",
-      "name": "Shape",
-      "symbol": "ETH",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": null
-    },
-    "shape-ERC20-NRG-0x42276dF82BAb34c3CCcA9e5c058b6ff7EA4d07e3": {
-      "originChain": "shape",
-      "slug": "shape-ERC20-NRG-0x42276dF82BAb34c3CCcA9e5c058b6ff7EA4d07e3",
-      "name": "Energy",
-      "symbol": "NRG",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0x42276dF82BAb34c3CCcA9e5c058b6ff7EA4d07e3"
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": null
     }
   },
   "ChainAssetHashMap": {
     "redstone-NATIVE-ETH": "4cb4d80abf198c36f7e00f0e079e7e31",
     "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947": "b88cbed373dbe89fe2b98f5bf37fda38",
     "neon-NATIVE-NEON": "1f4387159de6d01774ac705e83f6d4b6",
-    "shape-NATIVE-ETH": "37ece7a1ad424d17c605dbdb4c7a9638",
-    "shape-ERC20-NRG-0x42276dF82BAb34c3CCcA9e5c058b6ff7EA4d07e3": "d0e27c54209d78a42c092b18b45eb57d"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "redstone-native-eth": null,
     "redstone-erc20-bugs-0x9c0153c56b460656df4533246302d42bd2b49947": null,
-    "neon-native-neon": null,
-    "shape-native-eth": null,
-    "shape-erc20-nrg-0x42276df82bab34c3ccca9e5c058b6ff7ea4d07e3": null
+    "neon-native-neon": null
   },
   "ChainLogoMap": {
     "automata": "/assets/chains/automata.png",
     "redstone": null,
-    "neon": null,
-    "shape": null
+    "neon": null
   },
   "mAssetLogoMap": {}
 }
