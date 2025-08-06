@@ -17072,5 +17072,19 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": null
+  },
+  "neon-NATIVE-NEON": {
+    "originChain": "neon",
+    "slug": "neon-NATIVE-NEON",
+    "name": "Neon",
+    "symbol": "NEON",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }

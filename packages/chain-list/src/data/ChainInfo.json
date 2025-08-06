@@ -12597,5 +12597,32 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "neon": {
+    "slug": "neon",
+    "name": "Neon EVM Mainnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Neon": "https://neon-proxy-mainnet.solana.p2p.org"
+    },
+    "evmInfo": {
+      "evmChainId": 245022934,
+      "blockExplorer": "https://neon.blockscout.com/",
+      "existentialDeposit": "0",
+      "symbol": "NEON",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }
