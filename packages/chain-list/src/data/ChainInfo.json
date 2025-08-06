@@ -5538,7 +5538,7 @@
     "slug": "automata",
     "name": "Automata",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/automata.png",
     "providers": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
