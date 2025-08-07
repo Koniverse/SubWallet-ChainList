@@ -978,11 +978,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bifrost_dot-local-vglmr.png"
   },
-  "bifrost_testnet-NATIVE-BNC": {
+  "bifrost_testnet-NATIVE-BFC": {
     "originChain": "bifrost_testnet",
-    "slug": "bifrost_testnet-NATIVE-BNC",
+    "slug": "bifrost_testnet-NATIVE-BFC",
     "name": "Bifrost Testnet",
-    "symbol": "BNC",
+    "symbol": "BFC",
     "decimals": 12,
     "priceId": null,
     "minAmount": "10000000000",
@@ -990,7 +990,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "/assets/chain-assets/bifrost_testnet-native-bnc.png"
+    "icon": "/assets/chain-assets/bifrost_testnet-native-bfc.png"
   },
   "calamari-NATIVE-KMA": {
     "originChain": "calamari",
@@ -5505,7 +5505,7 @@
     "metadata": {
       "contractAddress": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "LDO-LidoDAO",
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-ldo-0x5a98fcbea516cf06857215779fd812ca3bef1b32.png"
   },
@@ -7182,7 +7182,7 @@
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "TAO-Bittensor",
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-native-tao.png"
   },
@@ -7469,11 +7469,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/energy_web_chain-native-ewt.png"
   },
-  "energy_web_x_rococo-NATIVE-VT": {
+  "energy_web_x_rococo-NATIVE-EWT": {
     "originChain": "energy_web_x_rococo",
-    "slug": "energy_web_x_rococo-NATIVE-VT",
+    "slug": "energy_web_x_rococo-NATIVE-EWT",
     "name": "VT",
-    "symbol": "VT",
+    "symbol": "EWT",
     "decimals": 18,
     "priceId": null,
     "minAmount": "0",
@@ -7481,7 +7481,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "/assets/chain-assets/energy_web_x_rococo-native-vt.png"
+    "icon": "/assets/chain-assets/energy_web_x_rococo-native-ewt.png"
   },
   "energy_web_x-NATIVE-EWT": {
     "originChain": "energy_web_x",
@@ -7999,11 +7999,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/liberland-local-llm.png"
   },
-  "chainflip_dot-NATIVE-DOT": {
+  "chainflip_dot-NATIVE-Unit": {
     "originChain": "chainflip_dot",
-    "slug": "chainflip_dot-NATIVE-DOT",
+    "slug": "chainflip_dot-NATIVE-Unit",
     "name": "Polkadot Chainflip Testnet",
-    "symbol": "DOT",
+    "symbol": "Unit",
     "decimals": 10,
     "priceId": null,
     "minAmount": "10000000000",
@@ -8011,7 +8011,7 @@
     "metadata": null,
     "multiChainAsset": "DOT-ChainflipDOT",
     "hasValue": false,
-    "icon": "/assets/chain-assets/chainflip_dot-native-dot.png"
+    "icon": "/assets/chain-assets/chainflip_dot-native-unit.png"
   },
   "ethereum_goerli-ERC20-USDC-0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
     "originChain": "ethereum_goerli",
@@ -9039,11 +9039,11 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/paseotest-native-pas.png"
   },
-  "commune-NATIVE-COMAI": {
+  "commune-NATIVE-C": {
     "originChain": "commune",
-    "slug": "commune-NATIVE-COMAI",
+    "slug": "commune-NATIVE-C",
     "name": "COMAI",
-    "symbol": "COMAI",
+    "symbol": "C",
     "decimals": 9,
     "priceId": "commune-ai",
     "minAmount": "500",
@@ -9051,7 +9051,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "/assets/chain-assets/commune-native-comai.png"
+    "icon": "/assets/chain-assets/commune-native-c.png"
   },
   "dbcchain-NATIVE-DBC": {
     "originChain": "dbcchain",
@@ -12894,11 +12894,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/apechain-native-ape.png"
   },
-  "autonomys_taurus-NATIVE-AI3": {
+  "autonomys_taurus-NATIVE-tAI3": {
     "originChain": "autonomys_taurus",
-    "slug": "autonomys_taurus-NATIVE-AI3",
+    "slug": "autonomys_taurus-NATIVE-tAI3",
     "name": "Autonomys Taurus",
-    "symbol": "AI3",
+    "symbol": "tAI3",
     "decimals": 18,
     "priceId": null,
     "minAmount": "500",
@@ -12906,7 +12906,7 @@
     "metadata": null,
     "multiChainAsset": null,
     "hasValue": false,
-    "icon": "/assets/chain-assets/autonomys_taurus-native-ai3.png"
+    "icon": "/assets/chain-assets/autonomys_taurus-native-tai3.png"
   },
   "gnosis-NATIVE-xDAI": {
     "originChain": "gnosis",
@@ -12932,7 +12932,7 @@
     "minAmount": "10000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "AI3-Autonomys",
     "hasValue": true,
     "icon": "/assets/chain-assets/autonomys-native-ai3.png"
   },
@@ -12984,19 +12984,21 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-lova.png"
   },
-  "fraxtal-NATIVE-frxETH": {
+  "fraxtal-ERC20-frxETH-0xFC00000000000000000000000000000000000006": {
     "originChain": "fraxtal",
-    "slug": "fraxtal-NATIVE-frxETH",
+    "slug": "fraxtal-ERC20-frxETH-0xFC00000000000000000000000000000000000006",
     "name": "Frax Ether",
     "symbol": "frxETH",
     "decimals": 18,
     "priceId": "frax-ether",
     "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFC00000000000000000000000000000000000006"
+    },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "/assets/chain-assets/fraxtal-native-frxeth.png"
+    "icon": "/assets/chain-assets/fraxtal-erc20-frxeth-0xfc00000000000000000000000000000000000006.png"
   },
   "cyber-NATIVE-ETH": {
     "originChain": "cyber",
@@ -17028,6 +17030,92 @@
     "multiChainAsset": "vDOT-VoucherDot",
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
+  },
+  "hydradx_main-LOCAL-LDO": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LDO",
+    "name": "Lido DAO",
+    "symbol": "LDO",
+    "decimals": 18,
+    "priceId": "lido-dao",
+    "minAmount": "5102040816326530",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000796"
+    },
+    "multiChainAsset": "LDO-LidoDAO",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-ldo.png"
+  },
+  "clover_mainnet-NATIVE-CLV": {
+    "originChain": "clover_mainnet",
+    "slug": "clover_mainnet-NATIVE-CLV",
+    "name": "Clover Finance",
+    "symbol": "CLV",
+    "decimals": 18,
+    "priceId": "clover-finance",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/clover_mainnet-native-clv.png"
+  },
+  "quantum_fusion-NATIVE-QF": {
+    "originChain": "quantum_fusion",
+    "slug": "quantum_fusion-NATIVE-QF",
+    "name": "Quantum Fusion",
+    "symbol": "QF",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/quantum_fusion-native-qf.png"
+  },
+  "subtensor_evm-NATIVE-TAO": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-NATIVE-TAO",
+    "name": "Bittensor",
+    "symbol": "TAO",
+    "decimals": 18,
+    "priceId": "bittensor",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "TAO-Bittensor",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
+  },
+  "auto_evm-NATIVE-AI3": {
+    "originChain": "auto_evm",
+    "slug": "auto_evm-NATIVE-AI3",
+    "name": "Autonomys",
+    "symbol": "AI3",
+    "decimals": 18,
+    "priceId": "autonomys-network",
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "AI3-Autonomys",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/auto_evm-native-ai3.png"
+  },
+  "fraxtal-NATIVE-FRAX": {
+    "originChain": "fraxtal",
+    "slug": "fraxtal-NATIVE-FRAX",
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18,
+    "priceId": "frax-share",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/fraxtal-native-frax.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
