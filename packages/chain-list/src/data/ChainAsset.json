@@ -17029,6 +17029,601 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
   },
+  "bittensor-LOCAL-ᚢ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚢ",
+    "name": "Uruz",
+    "symbol": "ᚢ",
+    "decimals": 9,
+    "priceId": "dtao-",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 82,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ᚢ.png"
+  },
+  "bittensor-LOCAL-ᚦ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚦ",
+    "name": "Thurisaz",
+    "symbol": "ᚦ",
+    "decimals": 9,
+    "priceId": "dtao-83",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 83,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ᚦ.png"
+  },
+  "bittensor-LOCAL-᚛": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-᚛",
+    "name": "Flock off",
+    "symbol": "᚛",
+    "decimals": 9,
+    "priceId": "dtao-96",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 96,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-᚛.png"
+  },
+  "bittensor-LOCAL-ა": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ა",
+    "name": "Flamewire",
+    "symbol": "ა",
+    "decimals": 9,
+    "priceId": "dtao-97",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 97,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ა.png"
+  },
+  "bittensor-LOCAL-ბ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ბ",
+    "name": "Creator",
+    "symbol": "ბ",
+    "decimals": 9,
+    "priceId": "dtao-98",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 98,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ბ.png"
+  },
+  "bittensor-LOCAL-გ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-გ",
+    "name": "Neza",
+    "symbol": "გ",
+    "decimals": 9,
+    "priceId": "dtao-99",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 99,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-გ.png"
+  },
+  "bittensor-LOCAL-დ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-დ",
+    "name": "Signal",
+    "symbol": "დ",
+    "decimals": 9,
+    "priceId": "dtao-100",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 100,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-დ.png"
+  },
+  "bittensor-LOCAL-ე": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ე",
+    "name": "Eni",
+    "symbol": "ე",
+    "decimals": 9,
+    "priceId": "dtao-101",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 101,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ე.png"
+  },
+  "bittensor-LOCAL-ვ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ვ",
+    "name": "Bettertherapy",
+    "symbol": "ვ",
+    "decimals": 9,
+    "priceId": "dtao-102",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 102,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ვ.png"
+  },
+  "bittensor-LOCAL-Ա": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ա",
+    "name": "Happyai",
+    "symbol": "Ա",
+    "decimals": 9,
+    "priceId": "dtao-103",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 103,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ա.png"
+  },
+  "bittensor-LOCAL-Բ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Բ",
+    "name": "Ben",
+    "symbol": "Բ",
+    "decimals": 9,
+    "priceId": "dtao-104",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 104,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-բ.png"
+  },
+  "bittensor-LOCAL-Գ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Գ",
+    "name": "Soundsright",
+    "symbol": "Գ",
+    "decimals": 9,
+    "priceId": "dtao-105",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 105,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-գ.png"
+  },
+  "bittensor-LOCAL-Դ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Դ",
+    "name": "Voidai",
+    "symbol": "Դ",
+    "decimals": 9,
+    "priceId": "dtao-106",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 106,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-դ.png"
+  },
+  "bittensor-LOCAL-Ե": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ե",
+    "name": "Tiger alpha",
+    "symbol": "Ե",
+    "decimals": 9,
+    "priceId": "dtao-107",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 107,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ե.png"
+  },
+  "bittensor-LOCAL-Զ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Զ",
+    "name": "Internet of intelligence",
+    "symbol": "Զ",
+    "decimals": 9,
+    "priceId": "dtao-108",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 108,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-զ.png"
+  },
+  "bittensor-LOCAL-՞": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-՞",
+    "name": "Taoillium",
+    "symbol": "՞",
+    "decimals": 9,
+    "priceId": "dtao-109",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 109,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-՞.png"
+  },
+  "bittensor-LOCAL-Ѐ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ѐ",
+    "name": "Grave",
+    "symbol": "Ѐ",
+    "decimals": 9,
+    "priceId": "dtao-110",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 110,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ѐ.png"
+  },
+  "bittensor-LOCAL-Ё": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ё",
+    "name": "Oneoneone",
+    "symbol": "Ё",
+    "decimals": 9,
+    "priceId": "dtao-111",
+    "minAmount": "0",
+    "assetType": null,
+    "metadata": {
+      "netuid": 111,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ё.png"
+  },
+  "bittensor-LOCAL-Ђ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ђ",
+    "name": "Topsecret",
+    "symbol": "Ђ",
+    "decimals": 9,
+    "priceId": "dtao-112",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 112,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ђ.png"
+  },
+  "bittensor-LOCAL-Ѓ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ѓ",
+    "name": "Taonado",
+    "symbol": "Ѓ",
+    "decimals": 9,
+    "priceId": "dtao-113",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 113,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ѓ.png"
+  },
+  "bittensor-LOCAL-Є": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Є",
+    "name": "Єclipse project",
+    "symbol": "Є",
+    "decimals": 9,
+    "priceId": "dtao-114",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 114,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-є.png"
+  },
+  "bittensor-LOCAL-Ѕ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ѕ",
+    "name": "Soulx",
+    "symbol": "Ѕ",
+    "decimals": 9,
+    "priceId": "dtao-115",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 115,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ѕ.png"
+  },
+  "bittensor-LOCAL-ъ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ъ",
+    "name": "Solmev",
+    "symbol": "ъ",
+    "decimals": 9,
+    "priceId": "dtao-116",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 116,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ъ.png"
+  },
+  "bittensor-LOCAL-Ⲁ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ⲁ",
+    "name": "Rna",
+    "symbol": "Ⲁ",
+    "decimals": 9,
+    "priceId": "dtao-117",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 117,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ⲁ.png"
+  },
+  "bittensor-LOCAL-ⲁ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ⲁ",
+    "name": "Alfas",
+    "symbol": "ⲁ",
+    "decimals": 9,
+    "priceId": "dtao-118",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 118,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ⲁ.png"
+  },
+  "bittensor-LOCAL-Ⲃ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ⲃ",
+    "name": "Vida",
+    "symbol": "Ⲃ",
+    "decimals": 9,
+    "priceId": "dtao-119",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 119,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ⲃ.png"
+  },
+  "bittensor-LOCAL-ⲃ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ⲃ",
+    "name": "Affine",
+    "symbol": "ⲃ",
+    "decimals": 9,
+    "priceId": "dtao-120",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 120,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ⲃ.png"
+  },
+  "bittensor-LOCAL-Ⲅ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-Ⲅ",
+    "name": "Sundae_bar",
+    "symbol": "Ⲅ",
+    "decimals": 9,
+    "priceId": "dtao-121",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 121,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ⲅ.png"
+  },
+  "bittensor-LOCAL-ⲅ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ⲅ",
+    "name": "Bitrecs",
+    "symbol": "ⲅ",
+    "decimals": 9,
+    "priceId": "dtao-122",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 122,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ⲅ.png"
+  },
+  "bittensor-LOCAL-𑀀": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-𑀀",
+    "name": "Mantis",
+    "symbol": "𑀀",
+    "decimals": 9,
+    "priceId": "dtao-123",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 123,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-𑀀.png"
+  },
+  "bittensor-LOCAL-𑀁": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-𑀁",
+    "name": "Swarm",
+    "symbol": "'",
+    "decimals": 9,
+    "priceId": "dtao-124",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 124,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-𑀁.png"
+  },
+  "bittensor-LOCAL-𑀂": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-𑀂",
+    "name": "Brahmi_i",
+    "symbol": "𑀂",
+    "decimals": 9,
+    "priceId": "dtao-125",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 125,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-𑀂.png"
+  },
+  "bittensor-LOCAL-𑀃": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-𑀃",
+    "name": "Tiger beta",
+    "symbol": "𑀃",
+    "decimals": 9,
+    "priceId": "dtao-126",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 126,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-𑀃.png"
+  },
+  "bittensor-LOCAL-𑀅": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-𑀅",
+    "name": "Cel ai",
+    "symbol": "𑀅",
+    "decimals": 9,
+    "priceId": "dtao-127",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 127,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-𑀅.png"
+  },
+  "bittensor-LOCAL-න": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-න",
+    "name": "Byteleap",
+    "symbol": "න",
+    "decimals": 9,
+    "priceId": "dtao-128",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 128,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-න.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
