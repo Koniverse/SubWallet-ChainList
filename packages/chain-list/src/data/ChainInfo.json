@@ -1344,7 +1344,7 @@
       "crowdloanUrl": null,
       "blockExplorer": "https://bifrost-testnet.subscan.io/",
       "existentialDeposit": "10000000000",
-      "symbol": "BNC",
+      "symbol": "BFC",
       "decimals": 12,
       "hasNativeNft": false,
       "supportStaking": true,
@@ -7858,7 +7858,7 @@
       "crowdloanUrl": null,
       "blockExplorer": "https://energywebx-testnet.subscan.io/",
       "existentialDeposit": "0",
-      "symbol": "VT",
+      "symbol": "EWT",
       "decimals": 18,
       "hasNativeNft": false,
       "supportStaking": false,
@@ -8196,7 +8196,7 @@
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "10000000000",
-      "symbol": "DOT",
+      "symbol": "Unit",
       "decimals": 10,
       "hasNativeNft": null,
       "supportStaking": null,
@@ -8677,7 +8677,7 @@
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "500",
-      "symbol": "COMAI",
+      "symbol": "C",
       "decimals": 9,
       "hasNativeNft": null,
       "supportStaking": null,
@@ -10831,7 +10831,7 @@
       "crowdloanUrl": null,
       "blockExplorer": "https://astral.autonomys.xyz/taurus/consensus",
       "existentialDeposit": "500",
-      "symbol": "AI3",
+      "symbol": "tAI3",
       "decimals": 18,
       "hasNativeNft": null,
       "supportStaking": null,
@@ -10918,7 +10918,7 @@
       "evmChainId": 252,
       "blockExplorer": "https://fraxscan.com/",
       "existentialDeposit": "0",
-      "symbol": "frxETH",
+      "symbol": "FRAX",
       "decimals": 18,
       "supportSmartContract": [
         "ERC721",
@@ -12544,6 +12544,33 @@
       "existentialDeposit": "0",
       "symbol": "PAS",
       "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "neuroweb_evm": {
+    "slug": "neuroweb_evm",
+    "name": "NeuroWeb EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/neuroweb_evm.png",
+    "providers": {
+      "Astrosat": "https://astrosat.origintrail.network"
+    },
+    "evmInfo": {
+      "evmChainId": 2043,
+      "blockExplorer": "https://origintrail.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "NEURO",
+      "decimals": 12,
       "supportSmartContract": [
         "ERC20",
         "ERC721"
