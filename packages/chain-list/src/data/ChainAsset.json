@@ -5505,7 +5505,7 @@
     "metadata": {
       "contractAddress": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "LDO-LidoDAO",
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-ldo-0x5a98fcbea516cf06857215779fd812ca3bef1b32.png"
   },
@@ -7182,7 +7182,7 @@
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "TAO-Bittensor",
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-native-tao.png"
   },
@@ -12932,7 +12932,7 @@
     "minAmount": "10000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "AI3-Autonomys",
     "hasValue": true,
     "icon": "/assets/chain-assets/autonomys-native-ai3.png"
   },
@@ -17043,7 +17043,7 @@
     "metadata": {
       "assetId": "1000796"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "LDO-LidoDAO",
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-ldo.png"
   },
@@ -17085,7 +17085,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "TAO-Bittensor",
     "hasValue": true,
     "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
   },
@@ -17099,7 +17099,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "AI3-Autonomys",
     "hasValue": true,
     "icon": "/assets/chain-assets/auto_evm-native-ai3.png"
   },
