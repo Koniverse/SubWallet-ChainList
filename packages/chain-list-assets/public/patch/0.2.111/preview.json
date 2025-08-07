@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.112-beta.0",
+  "patchVersion": "0.2.112-beta.1",
   "appliedVersion": "0.2.111",
-  "timestamp": 1754383227207,
+  "timestamp": 1754562818485,
   "ChainInfo": {
     "clover": {
       "slug": "clover",
@@ -88,6 +88,89 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "opal": {
+      "slug": "opal",
+      "name": "Opal",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/opal.png",
+      "providers": {
+        "Unique": "wss://ws-opal.unique.network",
+        "Europe": "wss://eu-ws-opal.unique.network",
+        "NA": "wss://us-ws-opal.unique.network",
+        "Asia": "wss://asia-ws-opal.unique.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2037,
+        "genesisHash": "0xc87870ef90a438d574b8e320f17db372c50f62beb52e479c8ff6ee5b460670b9",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://opal.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "OPL",
+        "decimals": 18,
+        "hasNativeNft": true,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "composableFinance": {
+      "slug": "composableFinance",
+      "name": "Composable Finance",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/composablefinance.png",
+      "providers": {
+        "Composable": "wss://rpc.composable.finance",
+        "Dwellir": "wss://composable-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2019,
+        "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
+        "addressPrefix": 50,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crowdloan.composable.finance/",
+        "blockExplorer": "https://composable.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "LAYR",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2019-17",
+            "paraId": 2019,
+            "status": "won",
+            "startTime": "2022-03-15T01:48:00.000Z",
+            "endTime": "2024-01-16T01:48:00.000Z",
+            "auctionIndex": 7,
+            "firstPeriod": 7,
+            "lastPeriod": 14
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "composable",
+        "chainBalanceSlug": "composable"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "picasso": {
       "slug": "picasso",
       "name": "Picasso",
@@ -153,6 +236,67 @@
       "extraInfo": {
         "subscanSlug": "picasso",
         "chainBalanceSlug": "picasso"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "shadow": {
+      "slug": "shadow",
+      "name": "Crust Shadow",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/shadow.png",
+      "providers": {
+        "Crust": "wss://rpc-shadow.crust.network/",
+        "Crust APP": "wss://rpc-shadow.crustnetwork.app",
+        "Crust CC": "wss://rpc-shadow.crustnetwork.cc",
+        "Crust XYZ": "wss://rpc-shadow.crustnetwork.xyz"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2012,
+        "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
+        "addressPrefix": 66,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
+        "blockExplorer": "https://shadow.statescan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "CSM",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2225-87",
+            "paraId": 2225,
+            "status": "won",
+            "startTime": "2022-11-02T04:27:00.000Z",
+            "endTime": "2023-10-04T04:27:00.000Z",
+            "auctionIndex": 57,
+            "firstPeriod": 25,
+            "lastPeriod": 32
+          },
+          {
+            "relayChain": "kusama",
+            "fundId": "2012-53",
+            "paraId": 2012,
+            "status": "won",
+            "startTime": "2022-01-12T04:27:00.000Z",
+            "endTime": "2022-12-14T04:27:00.000Z",
+            "auctionIndex": 19,
+            "firstPeriod": 18,
+            "lastPeriod": 25
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "shadow",
+        "chainBalanceSlug": "shadow"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -236,6 +380,54 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "origintrail": {
+      "slug": "origintrail",
+      "name": "NeuroWeb Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/origintrail.png",
+      "providers": {
+        "TraceLabs": "wss://parachain-rpc.origin-trail.network",
+        "Dwellir": "wss://neuroweb-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2043,
+        "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
+        "addressPrefix": 101,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://neuroweb.subscan.io/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "NEURO",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2043-38",
+            "paraId": 2043,
+            "status": "won",
+            "startTime": "2022-06-07T01:48:00.000Z",
+            "endTime": "2024-04-09T01:48:00.000Z",
+            "auctionIndex": 17,
+            "firstPeriod": 8,
+            "lastPeriod": 15
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "origintrail",
+        "chainBalanceSlug": "origintrail"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "dancebox": {
       "slug": "dancebox",
       "name": "Dancebox",
@@ -289,6 +481,45 @@
         "existentialDeposit": "150000000000000000",
         "symbol": "CAPS",
         "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "collectives": {
+      "slug": "collectives",
+      "name": "Polkadot Collectives",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/collectives.png",
+      "providers": {
+        "viaParity": "wss://polkadot-collectives-rpc.polkadot.io",
+        "Dwellir": "wss://collectives-polkadot-rpc.dwellir.com",
+        "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com",
+        "IBP1": "wss://sys.ibp.network/collectives-polkadot",
+        "IBP2": "wss://collectives-polkadot.dotters.network",
+        "LuckyFriday": "wss://rpc-collectives-polkadot.luckyfriday.io",
+        "RadiumBlock": "wss://collectives.public.curie.radiumblock.co/ws",
+        "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 1001,
+        "genesisHash": "0x46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://collectives-polkadot.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "DOT",
+        "decimals": 10,
         "hasNativeNft": false,
         "supportStaking": false,
         "supportSmartContract": null,
@@ -364,6 +595,50 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "energy_web_x": {
+      "slug": "energy_web_x",
+      "name": "Energy Web X",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/energy_web_x.png",
+      "providers": {
+        "Energy Web": "wss://public-rpc.mainnet.energywebx.com/"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3345,
+        "genesisHash": "0x5a51e04b88a4784d205091aa7bada002f3e5da3045e5b05655ee4db2589c33b5",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://energywebx.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "EWT",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "3345-70",
+            "paraId": 3345,
+            "status": "won",
+            "startTime": "2023-10-24T01:48:00.000Z",
+            "endTime": "2025-08-26T01:48:00.000Z",
+            "auctionIndex": 49,
+            "firstPeriod": 14,
+            "lastPeriod": 21
+          }
+        ]
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "energy_web_x_testnet": {
       "slug": "energy_web_x_testnet",
       "name": "Energy Web X Argon",
@@ -413,12 +688,149 @@
         "addressPrefix": 42,
         "chainType": "PARACHAIN",
         "crowdloanUrl": null,
-        "blockExplorer": null,
+        "blockExplorer": "https://energywebx-testnet.subscan.io/",
         "existentialDeposit": "0",
         "symbol": "VT",
         "decimals": 18,
         "hasNativeNft": false,
         "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "peopleKusama": {
+      "slug": "peopleKusama",
+      "name": "Kusama People",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/peoplekusama.png",
+      "providers": {
+        "Parity": "wss://kusama-people-rpc.polkadot.io",
+        "Stakeworld": "wss://ksm-rpc.stakeworld.io/people",
+        "Dwellir": "wss://people-kusama-rpc.dwellir.com",
+        "IBP1": "wss://sys.ibp.network/people-kusama",
+        "IBP2": "wss://people-kusama.dotters.network",
+        "LuckyFriday": "wss://rpc-people-kusama.luckyfriday.io"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 1004,
+        "genesisHash": "0xc1af4cb4eb3918e5db15086c0cc5ec17fb334f728b7c65dd44bfe1e174ff8b3f",
+        "addressPrefix": 2,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://people-kusama.subscan.io/",
+        "existentialDeposit": "33333333",
+        "symbol": "KSM",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "polkadot_people": {
+      "slug": "polkadot_people",
+      "name": "Polkadot People",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/polkadot_people.png",
+      "providers": {
+        "PolkadotPeople": "wss://polkadot-people-rpc.polkadot.io",
+        "LuckyFriday": "wss://rpc-people-polkadot.luckyfriday.io",
+        "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws",
+        "Sys Ibp": "wss://sys.ibp.network/people-polkadot",
+        "Sys Dotters": "wss://sys.dotters.network/people-polkadot",
+        "Dotters": "wss://people-polkadot.dotters.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 1004,
+        "genesisHash": "0x67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://people-polkadot.subscan.io/",
+        "existentialDeposit": "1000000000",
+        "symbol": "DOT",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "abstract_testnet": {
+      "slug": "abstract_testnet",
+      "name": "Abstract Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/abstract_testnet.png",
+      "providers": {
+        "Abs": "https://api.testnet.abs.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 11124,
+        "blockExplorer": "https://explorer.testnet.abs.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "paseo_assethub": {
+      "slug": "paseo_assethub",
+      "name": "Paseo Asset Hub",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/paseo_assethub.png",
+      "providers": {
+        "Dwellir": "wss://asset-hub-paseo-rpc.dwellir.com",
+        "IBP": "wss://sys.ibp.network/asset-hub-paseo",
+        "Dotters": "wss://asset-hub-paseo.dotters.network",
+        "Stake World": "wss://pas-rpc.stakeworld.io/assethub",
+        "Turbo": "wss://sys.turboflakes.io/asset-hub-paseo"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 1000,
+        "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://assethub-paseo.subscan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "PAS",
+        "decimals": 10,
+        "hasNativeNft": null,
+        "supportStaking": null,
         "supportSmartContract": null,
         "crowdloanParaId": null,
         "crowdloanFunds": []
@@ -454,21 +866,203 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "dancelight": {
+      "slug": "dancelight",
+      "name": "Dancelight",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/dancelight.png",
+      "providers": {
+        "Testnet": "wss://services.tanssi-testnet.network/dancelight"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x983a1a72503d6cc3636776747ec627172b51272bf45e50a355348facb67a820a",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://dancelight.subscan.io/",
+        "existentialDeposit": "33333333",
+        "symbol": "STAR",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "clover_mainnet": {
+      "slug": "clover_mainnet",
+      "name": "Clover Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/clover_mainnet.png",
+      "providers": {
+        "Ivy2": "wss://api-ivy-2.clv.org",
+        "Ivy3": "wss://api-ivy-3.clv.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xe923f1773f4197a862cb4fc4a562f93585b26131dadbc943d524a82bbeecd2eb",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://clover.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "CLV",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "quantum_fusion": {
+      "slug": "quantum_fusion",
+      "name": "Quantum Fusion Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/quantum_fusion.png",
+      "providers": {
+        "Qfnetwork": "wss://test.qfnetwork.xyz"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xf2741047604399cf783f47197ad06f5d2761e2dab97c405e076af64d60f20faf",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000000",
+        "symbol": "QF",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "subtensor_evm": {
+      "slug": "subtensor_evm",
+      "name": "Subtensor EVM",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/subtensor_evm.png",
+      "providers": {
+        "Opentensor": "https://lite.chain.opentensor.ai/"
+      },
+      "evmInfo": {
+        "evmChainId": 964,
+        "blockExplorer": "https://evm.taostats.io/",
+        "existentialDeposit": "0",
+        "symbol": "TAO",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "auto_evm": {
+      "slug": "auto_evm",
+      "name": "Auto EVM Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/auto_evm.png",
+      "providers": {
+        "Autonomys": "wss://auto-evm.mainnet.autonomys.xyz/ws"
+      },
+      "evmInfo": {
+        "evmChainId": 870,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "AI3",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xdb98c50e9ab1c34fe7927d97373f82e3c0d11490813a7c0b8dac2cd9a793a7dd",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "AI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "clover": "9d740e665ae573644849a5ada2474389",
     "cloverEvm": "9de2342954ed547c6a5d9ef89a3b38ec",
+    "opal": "8efc4391e9bf1220dfbee9c8578efd4b",
+    "composableFinance": "bda39c145a03fcfedcdf60a1f3a71e54",
     "picasso": "8b58d0ef5d68c79ebb040f71eb5e9d88",
+    "shadow": "d758bbf795c06c8fc86cd4025a067edb",
     "pangolin": "22ea6e8adac4767ebe8960d098b86bfc",
     "acala_testnet": "90e904dee45bc2f190a07d62bee81666",
+    "origintrail": "1950c5ec20895a0d0ad64881a3ae73df",
     "dancebox": "684e72aeba8dfa3807f5f56f09267b9d",
     "ternoa_alphanet": "5389625b1a21ae909791bef38353d51a",
+    "collectives": "26860a1bd44ad1ce35aad29901b7d3aa",
     "automata": "e1783e6d5b0fa570c9b0126418f750c1",
     "aventus_testnet": "1a16bd7d8456756efdc92a5f88a05acd",
+    "energy_web_x": "9d82cd1f72512981f9ebbb559d528792",
     "energy_web_x_testnet": "96ede30c77ce198bb817ac4b50afae17",
-    "energy_web_x_rococo": "f69df98edb13401882ab2a592b6aa9df",
-    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2"
+    "energy_web_x_rococo": "f3ff3bda5a8c8a971590641c83f45b7b",
+    "peopleKusama": "f675f942f97016c927e4a58e5be79e0a",
+    "polkadot_people": "4b7694f2942c23a14eebe874a738fcf0",
+    "abstract_testnet": "dabd5f11b553834d70fe78132fe6418e",
+    "paseo_assethub": "06db2b80ecb576b22eaaad7a9ae99295",
+    "tassi_demo": "5f4d893eabd897a30e178e476618e4e2",
+    "dancelight": "8c567ce437dc781df73f760d2a249c59",
+    "clover_mainnet": "bb6f0051f3bd38f4ce228570678e3888",
+    "quantum_fusion": "f4cb0e347128821991fe6418a822e398",
+    "subtensor_evm": "88718f92deed0ed2763ace64ff054170",
+    "auto_evm": "52be231673bd2ba21175f289e1a037c4"
   },
   "ChainAsset": {
     "hydradx_main-LOCAL-LDO": {
@@ -486,29 +1080,108 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/hydradx_main-local-ldo.png"
+    },
+    "clover_mainnet-NATIVE-CLV": {
+      "originChain": "clover_mainnet",
+      "slug": "clover_mainnet-NATIVE-CLV",
+      "name": "Clover Finance",
+      "symbol": "CLV",
+      "decimals": 18,
+      "priceId": "clover-finance",
+      "minAmount": "500",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/clover_mainnet-native-clv.png"
+    },
+    "quantum_fusion-NATIVE-QF": {
+      "originChain": "quantum_fusion",
+      "slug": "quantum_fusion-NATIVE-QF",
+      "name": "Quantum Fusion",
+      "symbol": "QF",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "/assets/chain-assets/quantum_fusion-native-qf.png"
+    },
+    "subtensor_evm-NATIVE-TAO": {
+      "originChain": "subtensor_evm",
+      "slug": "subtensor_evm-NATIVE-TAO",
+      "name": "Bittensor",
+      "symbol": "TAO",
+      "decimals": 18,
+      "priceId": "bittensor",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
+    },
+    "auto_evm-NATIVE-AI3": {
+      "originChain": "auto_evm",
+      "slug": "auto_evm-NATIVE-AI3",
+      "name": "Autonomys",
+      "symbol": "AI3",
+      "decimals": 18,
+      "priceId": "autonomys-network",
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/auto_evm-native-ai3.png"
     }
   },
   "ChainAssetHashMap": {
-    "hydradx_main-LOCAL-LDO": "e7a8e8561d34b53a870835b594ab7383"
+    "hydradx_main-LOCAL-LDO": "e7a8e8561d34b53a870835b594ab7383",
+    "clover_mainnet-NATIVE-CLV": "d9f270a8c698a13ce02d5a7bbb87f25e",
+    "quantum_fusion-NATIVE-QF": "877a99e1ddb7b46d051d18a09a1855b9",
+    "subtensor_evm-NATIVE-TAO": "fc4c496f3e15346ea994e1348b3f92be",
+    "auto_evm-NATIVE-AI3": "ea419dece4ce6a36803d978cd8d6cded"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "hydradx_main-local-ldo": "/assets/chain-assets/hydradx_main-local-ldo.png"
+    "hydradx_main-local-ldo": "/assets/chain-assets/hydradx_main-local-ldo.png",
+    "clover_mainnet-native-clv": "/assets/chain-assets/clover_mainnet-native-clv.png",
+    "quantum_fusion-native-qf": "/assets/chain-assets/quantum_fusion-native-qf.png",
+    "subtensor_evm-native-tao": "/assets/chain-assets/subtensor_evm-native-tao.png",
+    "auto_evm-native-ai3": "/assets/chain-assets/auto_evm-native-ai3.png"
   },
   "ChainLogoMap": {
     "clover": "/assets/chains/clover.png",
     "cloverEvm": "/assets/chains/cloverevm.png",
+    "opal": "/assets/chains/opal.png",
+    "composableFinance": "/assets/chains/composablefinance.png",
     "picasso": "/assets/chains/picasso.png",
+    "shadow": "/assets/chains/shadow.png",
     "pangolin": "/assets/chains/pangolin.png",
     "acala_testnet": "/assets/chains/acala_testnet.png",
+    "origintrail": "/assets/chains/origintrail.png",
     "dancebox": "/assets/chains/dancebox.png",
     "ternoa_alphanet": "/assets/chains/ternoa_alphanet.png",
+    "collectives": "/assets/chains/collectives.png",
     "automata": "/assets/chains/automata.png",
     "aventus_testnet": "/assets/chains/aventus_testnet.png",
+    "energy_web_x": "/assets/chains/energy_web_x.png",
     "energy_web_x_testnet": "/assets/chains/energy_web_x_testnet.png",
     "energy_web_x_rococo": "/assets/chains/energy_web_x_rococo.png",
-    "tassi_demo": "/assets/chains/tassi_demo.png"
+    "peopleKusama": "/assets/chains/peoplekusama.png",
+    "polkadot_people": "/assets/chains/polkadot_people.png",
+    "abstract_testnet": "/assets/chains/abstract_testnet.png",
+    "paseo_assethub": "/assets/chains/paseo_assethub.png",
+    "tassi_demo": "/assets/chains/tassi_demo.png",
+    "dancelight": "/assets/chains/dancelight.png",
+    "clover_mainnet": "/assets/chains/clover_mainnet.png",
+    "quantum_fusion": "/assets/chains/quantum_fusion.png",
+    "subtensor_evm": "/assets/chains/subtensor_evm.png",
+    "auto_evm": "/assets/chains/auto_evm.png"
   },
   "mAssetLogoMap": {}
 }
