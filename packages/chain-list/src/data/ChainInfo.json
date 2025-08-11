@@ -14,7 +14,6 @@
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
       "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
       "Allnodes": "wss://polkadot-rpc.publicnode.com",
       "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
       "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
@@ -61,7 +60,6 @@
       "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
       "Light Client": "light://substrate-connect/kusama",
       "Allnodes": "wss://kusama-rpc.publicnode.com",
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws",
       "Helixstreet": "wss://rpc-kusama.helixstreet.io",
       "IBP2": "wss://kusama.dotters.network",
       "OnFinality": "wss://kusama.api.onfinality.io/public-ws"
@@ -172,8 +170,7 @@
       "Allnodes": "wss://moonbeam-rpc.publicnode.com",
       "Dwellir": "wss://moonbeam-rpc.n.dwellir.com",
       "IBP1": "wss://moonbeam.ibp.network",
-      "IBP2": "wss://moonbeam.dotters.network",
-      "RadiumBlock": "wss://moonbeam.public.curie.radiumblock.co/ws"
+      "IBP2": "wss://moonbeam.dotters.network"
     },
     "evmInfo": {
       "evmChainId": 1284,
@@ -448,7 +445,6 @@
       "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
       "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
-      "Dwellir": "wss://acala-rpc.dwellir.com",
       "IBP1": "wss://acala.ibp.network",
       "IBP2": "wss://acala.dotters.network"
     },
@@ -498,7 +494,6 @@
     "icon": "/assets/chains/polygon.png",
     "providers": {
       "Polygon Scan": "https://polygon-rpc.com/",
-      "Llamarpc": "https://polygon.llamarpc.com",
       "BlastApi": "https://polygon-mainnet.public.blastapi.io",
       "BorPublicNode": "https://polygon-bor.publicnode.com"
     },
@@ -659,8 +654,7 @@
     "providers": {
       "Astar": "wss://rpc.shiden.astar.network",
       "OnFinality": "wss://shiden.api.onfinality.io/public-ws",
-      "Dwellir": "wss://shiden-rpc.dwellir.com",
-      "RadiumBlock": "wss://shiden.public.curie.radiumblock.co/ws"
+      "Dwellir": "wss://shiden-rpc.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -878,8 +872,6 @@
       "Dwellir": "wss://westend-rpc.dwellir.com",
       "Light Client": "light://substrate-connect/westend",
       "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com",
-      "IBP1": "wss://rpc.ibp.network/westend",
-      "IBP2": "wss://westend.dotters.network",
       "RadiumBlock": "wss://westend.public.curie.radiumblock.co/ws"
     },
     "evmInfo": null,
@@ -1290,7 +1282,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/bifrost_dot.png",
     "providers": {
-      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
       "IBP1": "wss://bifrost-polkadot.ibp.network",
       "IBP2": "wss://bifrost-polkadot.dotters.network"
@@ -1353,7 +1344,7 @@
       "crowdloanUrl": null,
       "blockExplorer": "https://bifrost-testnet.subscan.io/",
       "existentialDeposit": "10000000000",
-      "symbol": "BNC",
+      "symbol": "BFC",
       "decimals": 12,
       "hasNativeNft": false,
       "supportStaking": true,
@@ -1643,7 +1634,7 @@
     "slug": "clover",
     "name": "Clover",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/clover.png",
     "providers": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -1701,7 +1692,7 @@
     "slug": "cloverEvm",
     "name": "Clover - EVM",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/cloverevm.png",
     "providers": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -1782,10 +1773,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/edgeware.png",
     "providers": {
-      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net",
-      "JelliedOwl London": "wss://edgeware-rpc1.jelliedowl.net",
-      "JelliedOwl New York": "wss://edgeware-rpc0.jelliedowl.net",
-      "JelliedOwl Singapore": "wss://edgeware-rpc2.jelliedowl.net"
+      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1795,7 +1783,7 @@
       "addressPrefix": 7,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://edgeware.subscan.io/",
+      "blockExplorer": "https://edgscan.ink/#/",
       "existentialDeposit": "10000000000000",
       "symbol": "EDG",
       "decimals": 18,
@@ -2247,7 +2235,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://opal.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "OPL",
       "decimals": 18,
@@ -2314,7 +2302,7 @@
     "slug": "composableFinance",
     "name": "Composable Finance",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/composablefinance.png",
     "providers": {
       "Composable": "wss://rpc.composable.finance",
@@ -2863,7 +2851,7 @@
     "slug": "picasso",
     "name": "Picasso",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/picasso.png",
     "providers": {
       "Composable": "wss://rpc.composablenodes.tech",
@@ -2948,7 +2936,7 @@
       "addressPrefix": 255,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://unique.network/quartz/crowdloan/",
-      "blockExplorer": "https://quartz.subscan.io/",
+      "blockExplorer": "https://uniquescan.io/quartz/",
       "existentialDeposit": "0",
       "symbol": "QTZ",
       "decimals": 18,
@@ -3265,7 +3253,7 @@
       "addressPrefix": 66,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
-      "blockExplorer": "https://shadow.subscan.io/",
+      "blockExplorer": "https://shadow.statescan.io/",
       "existentialDeposit": "100000000000",
       "symbol": "CSM",
       "decimals": 12,
@@ -3502,7 +3490,7 @@
     },
     "evmInfo": {
       "evmChainId": 44,
-      "blockExplorer": "https://crab.subscan.io",
+      "blockExplorer": "https://crab-scan.darwinia.network/",
       "existentialDeposit": "0",
       "symbol": "CRAB",
       "decimals": 18,
@@ -3519,7 +3507,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://crab.network/plo",
-      "blockExplorer": "https://crab.subscan.io/",
+      "blockExplorer": "https://crab-scan.darwinia.network/",
       "existentialDeposit": "0",
       "symbol": "CRAB",
       "decimals": 18,
@@ -3553,7 +3541,7 @@
     "slug": "pangolin",
     "name": "Pangolin",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/pangolin.png",
     "providers": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
@@ -3626,7 +3614,7 @@
   },
   "acala_testnet": {
     "slug": "acala_testnet",
-    "name": "Acala Mandala TC7",
+    "name": "Acala Mandala",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/acala_testnet.png",
@@ -4168,7 +4156,7 @@
       "addressPrefix": 101,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://origintrail.subscan.io/",
+      "blockExplorer": "https://neuroweb.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "NEURO",
       "decimals": 12,
@@ -4324,7 +4312,7 @@
     "slug": "dancebox",
     "name": "Dancebox",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/dancebox.png",
     "providers": {
       "Dancebox": "wss://dancebox.tanssi-api.network"
@@ -4628,7 +4616,7 @@
     "slug": "ternoa_alphanet",
     "name": "Ternoa Alphanet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/ternoa_alphanet.png",
     "providers": {
       "ternoa": "wss://alphanet.ternoa.com"
@@ -5086,7 +5074,7 @@
       "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://collectives-polkadot.subscan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "DOT",
       "decimals": 10,
@@ -5538,7 +5526,7 @@
     "slug": "automata",
     "name": "Automata",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/automata.png",
     "providers": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
@@ -6087,7 +6075,7 @@
       "addressPrefix": 126,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://joystream.subscan.io/",
+      "blockExplorer": "https://explorer.joystream.org/",
       "existentialDeposit": "266666560",
       "symbol": "JOY",
       "decimals": 10,
@@ -6107,12 +6095,12 @@
   },
   "aventus_testnet": {
     "slug": "aventus_testnet",
-    "name": "Aventus Testnet",
+    "name": "AvN Paseo",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/aventus_testnet.png",
     "providers": {
-      "Aventus": "wss://public-rpc.testnet.aventus.network"
+      "Aventus": "wss://public-rpc.testnet.aventus.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6965,7 +6953,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://energywebx.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "EWT",
       "decimals": 18,
@@ -7794,7 +7782,7 @@
   },
   "energy_web_x_testnet": {
     "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "name": "Energy Web X Argon",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_x_testnet.png",
@@ -7853,7 +7841,7 @@
   },
   "energy_web_x_rococo": {
     "slug": "energy_web_x_rococo",
-    "name": "Energy Web X Rococo",
+    "name": "Energy Web X Paseo",
     "isTestnet": true,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_x_rococo.png",
@@ -7868,9 +7856,9 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://energywebx-testnet.subscan.io/",
       "existentialDeposit": "0",
-      "symbol": "VT",
+      "symbol": "EWT",
       "decimals": 18,
       "hasNativeNft": false,
       "supportStaking": false,
@@ -8208,7 +8196,7 @@
       "crowdloanUrl": null,
       "blockExplorer": null,
       "existentialDeposit": "10000000000",
-      "symbol": "DOT",
+      "symbol": "Unit",
       "decimals": 10,
       "hasNativeNft": null,
       "supportStaking": null,
@@ -8270,7 +8258,7 @@
       "addressPrefix": 9807,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://main.dentnet.io/explorer/dentnet",
       "existentialDeposit": "10000000000000000",
       "symbol": "DENTX",
       "decimals": 18,
@@ -8954,8 +8942,7 @@
       "Bware": "wss://avail-mainnet.public.blastapi.io/",
       "BrightlyStake": "wss://avail-us.brightlystake.com/",
       "GlobalStake": "wss://rpc-avail.globalstake.io/",
-      "BountyBlok": "wss://avail.rpc.bountyblok.io/",
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9202,7 +9189,7 @@
       "addressPrefix": 2,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://people-kusama.subscan.io/",
       "existentialDeposit": "33333333",
       "symbol": "KSM",
       "decimals": 12,
@@ -10844,7 +10831,7 @@
       "crowdloanUrl": null,
       "blockExplorer": "https://astral.autonomys.xyz/taurus/consensus",
       "existentialDeposit": "500",
-      "symbol": "AI3",
+      "symbol": "tAI3",
       "decimals": 18,
       "hasNativeNft": null,
       "supportStaking": null,
@@ -10903,7 +10890,7 @@
       "addressPrefix": 6094,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://astral.autonomys.xyz/mainnet/consensus",
+      "blockExplorer": "https://autonomys.subscan.io/",
       "existentialDeposit": "10000000000000",
       "symbol": "AI3",
       "decimals": 18,
@@ -10931,7 +10918,7 @@
       "evmChainId": 252,
       "blockExplorer": "https://fraxscan.com/",
       "existentialDeposit": "0",
-      "symbol": "frxETH",
+      "symbol": "FRAX",
       "decimals": 18,
       "supportSmartContract": [
         "ERC721",
@@ -11085,7 +11072,7 @@
       "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://people-polkadot.subscan.io/",
       "existentialDeposit": "1000000000",
       "symbol": "DOT",
       "decimals": 10,
@@ -11311,7 +11298,7 @@
     "slug": "abstract_testnet",
     "name": "Abstract Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/abstract_testnet.png",
     "providers": {
       "Abs": "https://api.testnet.abs.xyz/"
@@ -11537,7 +11524,7 @@
       "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://assethub-paseo.subscan.io/",
       "existentialDeposit": "100000000",
       "symbol": "PAS",
       "decimals": 10,
@@ -11589,8 +11576,6 @@
       "Parity": "wss://westend-asset-hub-rpc.polkadot.io",
       "Dwellir": "wss://asset-hub-westend-rpc.dwellir.com",
       "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com",
-      "IBP1": "wss://sys.ibp.network/asset-hub-westend",
-      "IBP2": "wss://asset-hub-westend.dotters.network",
       "Permanence DAO EU": "wss://asset-hub-westend.rpc.permanence.io"
     },
     "evmInfo": null,
@@ -12117,7 +12102,7 @@
     "slug": "tassi_demo",
     "name": "Tanssi Demo",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/tassi_demo.png",
     "providers": {
       "DanceBox": "https://dancebox-3001.tanssi-api.network/"
@@ -12206,7 +12191,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/dancelight.png",
     "providers": {
-      "Tanssi": "wss://dancelight.tanssi-api.network"
+      "Testnet": "wss://services.tanssi-testnet.network/dancelight"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12216,7 +12201,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://dancelight.subscan.io/",
       "existentialDeposit": "33333333",
       "symbol": "STAR",
       "decimals": 12,
@@ -12265,7 +12250,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/tanssi.png",
     "providers": {
-      "tanssi": "wss://tanssi.tanssi-mainnet.network"
+      "Services ": "wss://services.tanssi-mainnet.network/tanssi"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12566,6 +12551,168 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "neuroweb_evm": {
+    "slug": "neuroweb_evm",
+    "name": "NeuroWeb EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/neuroweb_evm.png",
+    "providers": {
+      "Astrosat": "https://astrosat.origintrail.network"
+    },
+    "evmInfo": {
+      "evmChainId": 2043,
+      "blockExplorer": "https://origintrail.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "NEURO",
+      "decimals": 12,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "clover_mainnet": {
+    "slug": "clover_mainnet",
+    "name": "Clover Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/clover_mainnet.png",
+    "providers": {
+      "Ivy2": "wss://api-ivy-2.clv.org",
+      "Ivy3": "wss://api-ivy-3.clv.org"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xe923f1773f4197a862cb4fc4a562f93585b26131dadbc943d524a82bbeecd2eb",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://clover.subscan.io/",
+      "existentialDeposit": "500",
+      "symbol": "CLV",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "quantum_fusion": {
+    "slug": "quantum_fusion",
+    "name": "Quantum Fusion Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/quantum_fusion.png",
+    "providers": {
+      "Qfnetwork": "wss://test.qfnetwork.xyz"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xf2741047604399cf783f47197ad06f5d2761e2dab97c405e076af64d60f20faf",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000000",
+      "symbol": "QF",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "subtensor_evm": {
+    "slug": "subtensor_evm",
+    "name": "Subtensor EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/subtensor_evm.png",
+    "providers": {
+      "Opentensor": "https://lite.chain.opentensor.ai/"
+    },
+    "evmInfo": {
+      "evmChainId": 964,
+      "blockExplorer": "https://evm.taostats.io/",
+      "existentialDeposit": "0",
+      "symbol": "TAO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "auto_evm": {
+    "slug": "auto_evm",
+    "name": "Auto EVM Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/auto_evm.png",
+    "providers": {
+      "Autonomys": "wss://auto-evm.mainnet.autonomys.xyz/ws"
+    },
+    "evmInfo": {
+      "evmChainId": 870,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "AI3",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xdb98c50e9ab1c34fe7927d97373f82e3c0d11490813a7c0b8dac2cd9a793a7dd",
+      "addressPrefix": 6094,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000000",
+      "symbol": "AI3",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
