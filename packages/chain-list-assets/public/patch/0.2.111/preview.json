@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.112-beta.1",
+  "patchVersion": "0.2.112-beta.4",
   "appliedVersion": "0.2.111",
-  "timestamp": 1754562818485,
+  "timestamp": 1754914954749,
   "ChainInfo": {
     "clover": {
       "slug": "clover",
@@ -1033,6 +1033,33 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "reya": {
+      "slug": "reya",
+      "name": "Reya Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Neon": "https://rpc.reya.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 1729,
+        "blockExplorer": "https://explorer.reya.network/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
@@ -1062,7 +1089,8 @@
     "clover_mainnet": "bb6f0051f3bd38f4ce228570678e3888",
     "quantum_fusion": "f4cb0e347128821991fe6418a822e398",
     "subtensor_evm": "88718f92deed0ed2763ace64ff054170",
-    "auto_evm": "52be231673bd2ba21175f289e1a037c4"
+    "auto_evm": "52be231673bd2ba21175f289e1a037c4",
+    "reya": "27b546458da66d285ada44990a3ab51f"
   },
   "ChainAsset": {
     "hydradx_main-LOCAL-LDO": {
@@ -1136,6 +1164,36 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/auto_evm-native-ai3.png"
+    },
+    "reya-NATIVE-ETH": {
+      "originChain": "reya",
+      "slug": "reya-NATIVE-ETH",
+      "name": "Reya",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
+    },
+    "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30": {
+      "originChain": "reya",
+      "slug": "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
     }
   },
   "ChainAssetHashMap": {
@@ -1143,7 +1201,9 @@
     "clover_mainnet-NATIVE-CLV": "d9f270a8c698a13ce02d5a7bbb87f25e",
     "quantum_fusion-NATIVE-QF": "877a99e1ddb7b46d051d18a09a1855b9",
     "subtensor_evm-NATIVE-TAO": "fc4c496f3e15346ea994e1348b3f92be",
-    "auto_evm-NATIVE-AI3": "ea419dece4ce6a36803d978cd8d6cded"
+    "auto_evm-NATIVE-AI3": "ea419dece4ce6a36803d978cd8d6cded",
+    "reya-NATIVE-ETH": "377e1e18a8f053ee17945af3cd329939",
+    "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30": "289dc9cb6ca5f98093e071acd4fc4b57"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -1152,7 +1212,9 @@
     "clover_mainnet-native-clv": "/assets/chain-assets/clover_mainnet-native-clv.png",
     "quantum_fusion-native-qf": "/assets/chain-assets/quantum_fusion-native-qf.png",
     "subtensor_evm-native-tao": "/assets/chain-assets/subtensor_evm-native-tao.png",
-    "auto_evm-native-ai3": "/assets/chain-assets/auto_evm-native-ai3.png"
+    "auto_evm-native-ai3": "/assets/chain-assets/auto_evm-native-ai3.png",
+    "reya-native-eth": null,
+    "reya-erc20-weth-0x6b48c2e6a32077ec17e8ba0d98ffc676dfab1a30": null
   },
   "ChainLogoMap": {
     "clover": "/assets/chains/clover.png",
@@ -1181,7 +1243,8 @@
     "clover_mainnet": "/assets/chains/clover_mainnet.png",
     "quantum_fusion": "/assets/chains/quantum_fusion.png",
     "subtensor_evm": "/assets/chains/subtensor_evm.png",
-    "auto_evm": "/assets/chains/auto_evm.png"
+    "auto_evm": "/assets/chains/auto_evm.png",
+    "reya": null
   },
   "mAssetLogoMap": {}
 }
