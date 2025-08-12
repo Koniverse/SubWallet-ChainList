@@ -6259,14 +6259,14 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/polygon-erc20-usdt-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
   },
-  "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+  "arbitrum_one-ERC20-USD₮0-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
     "originChain": "arbitrum_one",
-    "slug": "arbitrum_one-ERC20-USDT-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-    "name": "Tether USD",
-    "symbol": "USDT",
+    "slug": "arbitrum_one-ERC20-USD₮0-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "name": "USD₮0",
+    "symbol": "USD₮0",
     "decimals": 6,
-    "priceId": "tether",
-    "minAmount": null,
+    "priceId": "usdt0",
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "autoEnable": true,
@@ -6274,7 +6274,7 @@
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
-    "icon": "/assets/chain-assets/arbitrum_one-erc20-usdt-0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
+    "icon": "/assets/chain-assets/arbitrum_one-erc20-usd₮0-0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
   },
   "optimism-ERC20-USDT-0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
     "originChain": "optimism",
@@ -17116,36 +17116,6 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/fraxtal-native-frax.png"
-  },
-  "reya-NATIVE-ETH": {
-    "originChain": "reya",
-    "slug": "reya-NATIVE-ETH",
-    "name": "Reya",
-    "symbol": "ETH",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": null
-  },
-  "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30": {
-    "originChain": "reya",
-    "slug": "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
-    "name": "Wrapped Ether",
-    "symbol": "WETH",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": null
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
