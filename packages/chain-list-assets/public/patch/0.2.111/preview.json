@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.112-beta.4",
+  "patchVersion": "0.2.112-beta.5",
   "appliedVersion": "0.2.111",
   "timestamp": 1754909326546,
   "ChainInfo": {
@@ -115,13 +115,41 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "reya": {
+      "slug": "reya",
+      "name": "Reya Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Neon": "https://rpc.reya.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 1729,
+        "blockExplorer": "https://explorer.reya.network/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "automata": "e1783e6d5b0fa570c9b0126418f750c1",
     "redstone": "a21413ff431f875deb348d211478c27a",
     "neon": "90d7a75a30fba2fe4b8f21f055c79a92",
-    "shape": "f9e67ec5c25280c79d9a109d1c8419a7"
+    "shape": "f9e67ec5c25280c79d9a109d1c8419a7",
+    "reya": "27b546458da66d285ada44990a3ab51f"
   },
   "ChainAsset": {
     "redstone-NATIVE-ETH": {
@@ -197,6 +225,36 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": null
+    },
+    "reya-NATIVE-ETH": {
+      "originChain": "reya",
+      "slug": "reya-NATIVE-ETH",
+      "name": "Reya",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
+    },
+    "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30": {
+      "originChain": "reya",
+      "slug": "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
     }
   },
   "ChainAssetHashMap": {
@@ -204,7 +262,9 @@
     "redstone-ERC20-BUGS-0x9c0153C56b460656DF4533246302d42Bd2b49947": "b88cbed373dbe89fe2b98f5bf37fda38",
     "neon-NATIVE-NEON": "1f4387159de6d01774ac705e83f6d4b6",
     "shape-NATIVE-ETH": "37ece7a1ad424d17c605dbdb4c7a9638",
-    "shape-ERC20-NRG-0x42276dF82BAb34c3CCcA9e5c058b6ff7EA4d07e3": "d0e27c54209d78a42c092b18b45eb57d"
+    "shape-ERC20-NRG-0x42276dF82BAb34c3CCcA9e5c058b6ff7EA4d07e3": "d0e27c54209d78a42c092b18b45eb57d",
+    "reya-NATIVE-ETH": "377e1e18a8f053ee17945af3cd329939",
+    "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30": "289dc9cb6ca5f98093e071acd4fc4b57"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -219,7 +279,8 @@
     "automata": "/assets/chains/automata.png",
     "redstone": null,
     "neon": null,
-    "shape": null
+    "shape": null,
+    "reya": null
   },
   "mAssetLogoMap": {}
 }
