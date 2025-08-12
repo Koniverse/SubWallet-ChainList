@@ -17117,6 +17117,36 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/fraxtal-native-frax.png"
   },
+  "reya-NATIVE-ETH": {
+    "originChain": "reya",
+    "slug": "reya-NATIVE-ETH",
+    "name": "Reya",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30": {
+    "originChain": "reya",
+    "slug": "reya-ERC20-WETH-0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
