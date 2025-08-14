@@ -12556,33 +12556,6 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
-  "neuroweb_evm": {
-    "slug": "neuroweb_evm",
-    "name": "NeuroWeb EVM",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "/assets/chains/neuroweb_evm.png",
-    "providers": {
-      "Astrosat": "https://astrosat.origintrail.network"
-    },
-    "evmInfo": {
-      "evmChainId": 2043,
-      "blockExplorer": "https://origintrail.subscan.io/",
-      "existentialDeposit": "0",
-      "symbol": "NEURO",
-      "decimals": 12,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
-    "substrateInfo": null,
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
   "clover_mainnet": {
     "slug": "clover_mainnet",
     "name": "Clover Mainnet",
