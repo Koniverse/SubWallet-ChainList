@@ -964,7 +964,7 @@
   },
   "DOT-ChainflipDOT": {
     "slug": "DOT-ChainflipDOT",
-    "originChainAsset": "chainflip_dot-NATIVE-DOT",
+    "originChainAsset": "chainflip_dot-NATIVE-Unit",
     "name": "Chainflip DOT",
     "symbol": "DOT",
     "priceId": null,
@@ -1006,5 +1006,32 @@
     "priceId": "neurowebai",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/neuro-neuroweb.png"
+  },
+  "LDO-LidoDAO": {
+    "slug": "LDO-LidoDAO",
+    "originChainAsset": null,
+    "name": "Lido DAO",
+    "symbol": "LDO",
+    "priceId": "lido-dao",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/ldo-lidodao.png"
+  },
+  "TAO-Bittensor": {
+    "slug": "TAO-Bittensor",
+    "originChainAsset": null,
+    "name": "Bittensor",
+    "symbol": "TAO",
+    "priceId": "bittensor",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/tao-bittensor.png"
+  },
+  "AI3-Autonomys": {
+    "slug": "AI3-Autonomys",
+    "originChainAsset": null,
+    "name": "Autonomys",
+    "symbol": "AI3",
+    "priceId": "autonomys-network",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/ai3-autonomys.png"
   }
 }
