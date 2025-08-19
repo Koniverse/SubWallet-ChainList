@@ -831,5 +831,12 @@
     "srcChain": "optimism",
     "destChain": "base_mainnet",
     "path": "XCM"
+  },
+  "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88___hydradx_main-LOCAL-tBTC": {
+    "srcAsset": "ethereum-ERC20-tBTC-0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "destAsset": "hydradx_main-LOCAL-tBTC",
+    "srcChain": "ethereum",
+    "destChain": "hydradx_main",
+    "path": "XCM"
   }
 }
