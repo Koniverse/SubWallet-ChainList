@@ -1859,8 +1859,23 @@
       "onChainInfo": {
         "Token": "IBTC"
       },
-      "paraSpellValue": "IBTC",
-      "paraSpellAssetType": "symbol"
+      "paraSpellValue": {
+        "parents": 1,
+        "interior": {
+          "X2": [
+            {
+              "Parachain": 2032
+            },
+            {
+              "GeneralKey": {
+                "length": 2,
+                "data": "0x0001000000000000000000000000000000000000000000000000000000000000"
+              }
+            }
+          ]
+        }
+      },
+      "paraSpellAssetType": "location"
     },
     "multiChainAsset": "iBTC-interBTC",
     "hasValue": true,
