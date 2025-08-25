@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.113-beta.0",
   "appliedVersion": "0.2.112",
-  "timestamp": 1756111940012,
+  "timestamp": 1756112517768,
   "ChainInfo": {
     "tanssi": {
       "slug": "tanssi",
@@ -157,7 +157,7 @@
             ]
           }
         },
-        "paraSpellAssetType": "location"
+        "paraSpellAssetType": "multilocation"
       },
       "multiChainAsset": "ASTR-Astar",
       "hasValue": true,
@@ -223,7 +223,7 @@
     }
   },
   "ChainAssetHashMap": {
-    "astar-NATIVE-ASTR": "44528ed24e35dde1f1868e14ab3b7601",
+    "astar-NATIVE-ASTR": "3e21b75145e1f3ad3f3d2967970fbed7",
     "base_mainnet-ERC20-MYTH-0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7": "20ef9cfed0cff0eb3a1d0aa22390d8e4",
     "regionx_kusama-NATIVE-KSM": "667ae301cf7e7e5c63e9aaa75529b1d9",
     "stable_testnet-NATIVE-USDT": "d372622c725b089ea1c1a810d49c1ae7",
