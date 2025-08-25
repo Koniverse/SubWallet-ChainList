@@ -1,8 +1,43 @@
 {
   "patchVersion": "0.2.113-beta.0",
   "appliedVersion": "0.2.112",
-  "timestamp": 1756096813970,
+  "timestamp": 1756108269447,
   "ChainInfo": {
+    "tanssi": {
+      "slug": "tanssi",
+      "name": "Tanssi Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/tanssi.png",
+      "providers": {
+        "Services ": "wss://services.tanssi-mainnet.network/tanssi"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xdd6d086f75ec041b66e20c4186d327b23c8af244c534a2418de6574e8c041a60",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://tanssi.subscan.io",
+        "existentialDeposit": "33333333",
+        "symbol": "TANSSI",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "tanssi",
+        "chainBalanceSlug": "tanssi"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "regionx_kusama": {
       "slug": "regionx_kusama",
       "name": "RegionX Kusama",
@@ -92,6 +127,7 @@
     }
   },
   "ChainInfoHashMap": {
+    "tanssi": "14258da1d21fbfcfa53c712573b6aa50",
     "regionx_kusama": "ff150de75a49b7e6fd9f9265805fa62c",
     "stable_testnet": "a227b591af91260a43b5a06f206b650d",
     "abstract": "a0b5ed021821c92642372853e4e6ddc1"
@@ -171,6 +207,7 @@
     "abstract-native-eth": "/assets/chain-assets/abstract-native-eth.png"
   },
   "ChainLogoMap": {
+    "tanssi": "/assets/chains/tanssi.png",
     "regionx_kusama": "/assets/chains/regionx_kusama.png",
     "stable_testnet": "/assets/chains/stable_testnet.png",
     "abstract": "/assets/chains/abstract.png"
