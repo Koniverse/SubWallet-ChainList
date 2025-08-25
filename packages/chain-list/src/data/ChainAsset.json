@@ -139,8 +139,17 @@
         "parents": 0,
         "interior": "Here"
       },
-      "paraSpellValue": "ASTR",
-      "paraSpellAssetType": "symbol"
+      "paraSpellValue": {
+        "parents": 1,
+        "interior": {
+          "X1": [
+            {
+              "Parachain": 2006
+            }
+          ]
+        }
+      },
+      "paraSpellAssetType": "location"
     },
     "multiChainAsset": "ASTR-Astar",
     "hasValue": true,
