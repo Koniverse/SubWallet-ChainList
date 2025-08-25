@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.113-beta.0",
   "appliedVersion": "0.2.112",
-  "timestamp": 1756108269447,
+  "timestamp": 1756111940012,
   "ChainInfo": {
     "tanssi": {
       "slug": "tanssi",
@@ -133,6 +133,36 @@
     "abstract": "a0b5ed021821c92642372853e4e6ddc1"
   },
   "ChainAsset": {
+    "astar-NATIVE-ASTR": {
+      "originChain": "astar",
+      "slug": "astar-NATIVE-ASTR",
+      "name": "Astar",
+      "symbol": "ASTR",
+      "decimals": 18,
+      "priceId": "astar",
+      "minAmount": "1000000",
+      "assetType": "NATIVE",
+      "metadata": {
+        "multilocation": {
+          "parents": 0,
+          "interior": "Here"
+        },
+        "paraSpellValue": {
+          "parents": 1,
+          "interior": {
+            "X1": [
+              {
+                "Parachain": 2006
+              }
+            ]
+          }
+        },
+        "paraSpellAssetType": "location"
+      },
+      "multiChainAsset": "ASTR-Astar",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/astar-native-astr.png"
+    },
     "base_mainnet-ERC20-MYTH-0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7": {
       "originChain": "base_mainnet",
       "slug": "base_mainnet-ERC20-MYTH-0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7",
@@ -193,6 +223,7 @@
     }
   },
   "ChainAssetHashMap": {
+    "astar-NATIVE-ASTR": "44528ed24e35dde1f1868e14ab3b7601",
     "base_mainnet-ERC20-MYTH-0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7": "20ef9cfed0cff0eb3a1d0aa22390d8e4",
     "regionx_kusama-NATIVE-KSM": "667ae301cf7e7e5c63e9aaa75529b1d9",
     "stable_testnet-NATIVE-USDT": "d372622c725b089ea1c1a810d49c1ae7",
@@ -201,6 +232,7 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "astar-native-astr": "/assets/chain-assets/astar-native-astr.png",
     "base_mainnet-erc20-myth-0x9b9fd410d5f01a6a60acf4678a5a99d8027fa5a7": "/assets/chain-assets/base_mainnet-erc20-myth-0x9b9fd410d5f01a6a60acf4678a5a99d8027fa5a7.png",
     "regionx_kusama-native-ksm": "/assets/chain-assets/regionx_kusama-native-ksm.png",
     "stable_testnet-native-usdt": "/assets/chain-assets/stable_testnet-native-usdt.png",
