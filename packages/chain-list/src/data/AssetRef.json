@@ -657,13 +657,6 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
-  "statemint-LOCAL-MYTH___ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003": {
-    "srcAsset": "statemint-LOCAL-MYTH",
-    "destAsset": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003",
-    "srcChain": "statemint",
-    "destChain": "ethereum",
-    "path": "XCM"
-  },
   "statemint-LOCAL-MYTH___mythos-NATIVE-MYTH": {
     "srcAsset": "statemint-LOCAL-MYTH",
     "destAsset": "mythos-NATIVE-MYTH",
