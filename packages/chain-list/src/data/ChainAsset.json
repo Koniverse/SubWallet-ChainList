@@ -17031,6 +17031,36 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-vdot-0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5.png"
   },
+  "hydradx_main-LOCAL-LDO": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-LDO",
+    "name": "Lido DAO",
+    "symbol": "LDO",
+    "decimals": 18,
+    "priceId": "lido-dao",
+    "minAmount": "5102040816326530",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000796"
+    },
+    "multiChainAsset": "LDO-LidoDAO",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-ldo.png"
+  },
+  "clover_mainnet-NATIVE-CLV": {
+    "originChain": "clover_mainnet",
+    "slug": "clover_mainnet-NATIVE-CLV",
+    "name": "Clover Finance",
+    "symbol": "CLV",
+    "decimals": 18,
+    "priceId": "clover-finance",
+    "minAmount": "500",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/clover_mainnet-native-clv.png"
+  },
   "bittensor-LOCAL-ᚢ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ᚢ",
@@ -17626,36 +17656,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-local-න.png"
   },
-  "hydradx_main-LOCAL-LDO": {
-    "originChain": "hydradx_main",
-    "slug": "hydradx_main-LOCAL-LDO",
-    "name": "Lido DAO",
-    "symbol": "LDO",
-    "decimals": 18,
-    "priceId": "lido-dao",
-    "minAmount": "5102040816326530",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "1000796"
-    },
-    "multiChainAsset": "LDO-LidoDAO",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/hydradx_main-local-ldo.png"
-  },
-  "clover_mainnet-NATIVE-CLV": {
-    "originChain": "clover_mainnet",
-    "slug": "clover_mainnet-NATIVE-CLV",
-    "name": "Clover Finance",
-    "symbol": "CLV",
-    "decimals": 18,
-    "priceId": "clover-finance",
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/clover_mainnet-native-clv.png"
-  },
   "quantum_fusion-NATIVE-QF": {
     "originChain": "quantum_fusion",
     "slug": "quantum_fusion-NATIVE-QF",
@@ -17711,6 +17711,64 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/fraxtal-native-frax.png"
+  },
+  "base_mainnet-ERC20-MYTH-0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-MYTH-0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7",
+    "name": "Mythos",
+    "symbol": "MYTH",
+    "decimals": 18,
+    "priceId": "mythos",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x9B9fd410d5F01a6A60acF4678a5A99D8027FA5A7"
+    },
+    "multiChainAsset": "MYTH-Mythos",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-myth-0x9b9fd410d5f01a6a60acf4678a5a99d8027fa5a7.png"
+  },
+  "regionx_kusama-NATIVE-KSM": {
+    "originChain": "regionx_kusama",
+    "slug": "regionx_kusama-NATIVE-KSM",
+    "name": "Kusama",
+    "symbol": "KSM",
+    "decimals": 12,
+    "priceId": "kusama",
+    "minAmount": "10000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/regionx_kusama-native-ksm.png"
+  },
+  "stable_testnet-NATIVE-USDT": {
+    "originChain": "stable_testnet",
+    "slug": "stable_testnet-NATIVE-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/stable_testnet-native-usdt.png"
+  },
+  "abstract-NATIVE-ETH": {
+    "originChain": "abstract",
+    "slug": "abstract-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETH-Ethereum",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/abstract-native-eth.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
