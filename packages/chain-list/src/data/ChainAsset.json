@@ -19,7 +19,7 @@
           "Here": null
         }
       },
-      "paraSpellAssetType": "location"
+      "paraSpellAssetType": "id"
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -160,7 +160,6 @@
         "interior": "Here"
       },
       "paraSpellValue": {
-        "parents": 1,
         "interior": {
           "X1": [
             {
@@ -1692,13 +1691,16 @@
         "interior": {
           "X3": [
             {
-              "Parachain": 1000
+              "Parachain": 2004
             },
             {
-              "PalletInstance": 50
+              "PalletInstance": 110
             },
             {
-              "GeneralIndex": 1984
+              "AccountKey20": {
+                "network": null,
+                "key": "0xc30e9ca94cf52f3bf5692aacf81353a27052c46f"
+              }
             }
           ]
         }
@@ -11038,7 +11040,7 @@
         }
       },
       "paraSpellValue": {
-        "parents": 2,
+        "parents": 1,
         "interior": {
           "X2": [
             {
