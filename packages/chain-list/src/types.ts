@@ -80,6 +80,7 @@ export interface _ChainAsset {
     cardanoId?: string,
     paraSpellAssetType?: string,
     paraSpellValue?: string,
+    paraSpellIdentifyV4?: Record<string, any>
 
     alternativeSwapAsset?: string,
     disableEvmTransfer?: boolean,
