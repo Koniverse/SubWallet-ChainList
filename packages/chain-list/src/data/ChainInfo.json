@@ -404,7 +404,6 @@
       "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
       "Parity": "wss://polkadot-asset-hub-rpc.polkadot.io",
       "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub",
-      "Blockops": "wss://polkadot-assethub-rpc.blockops.network/ws",
       "Dwellir": "wss://asset-hub-polkadot-rpc.dwellir.com",
       "IBP1": "wss://sys.ibp.network/asset-hub-polkadot",
       "IBP2": "wss://asset-hub-polkadot.dotters.network"
@@ -2219,7 +2218,7 @@
     "slug": "opal",
     "name": "Opal",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/opal.png",
     "providers": {
       "Unique": "wss://ws-opal.unique.network",
@@ -2603,7 +2602,7 @@
       "symbol": "KILT",
       "decimals": 15,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
@@ -2822,7 +2821,7 @@
     "slug": "kintsugi_test",
     "name": "Kintsugi Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/kintsugi_test.png",
     "providers": {
       "testnet": "wss://api-dev-kintsugi.interlay.io/parachain"
@@ -4739,7 +4738,7 @@
     "slug": "kilt_peregrine",
     "name": "KILT Peregrine",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/kilt_peregrine.png",
     "providers": {
       "kilt": "wss://peregrine.kilt.io/parachain-public-ws/"
@@ -7431,7 +7430,7 @@
     "slug": "polimec",
     "name": "Polimec",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/polimec.png",
     "providers": {
       "Polimec": "wss://rpc.polimec.org",
@@ -8687,7 +8686,7 @@
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": null,
+      "blockExplorer": "https://explorer.comstats.org/#/",
       "existentialDeposit": "500",
       "symbol": "COMAI",
       "decimals": 9,
@@ -8748,7 +8747,6 @@
       "Ankr": "wss://turing-testnet.avail-rpc.com/",
       "Bware": "wss://avail-turing.public.blastapi.io/",
       "AllNodes": "wss://avail-turing-rpc.publicnode.com/",
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws",
       "BountyBlok": "wss://avail-turing.bountyblok.io/"
     },
     "evmInfo": null,
@@ -9164,7 +9162,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/bitcointestnet.png",
     "providers": {
-      "Mempool": "https://mempool.space/testnet4/api"
+      "Koni": "https://btc-api-testnet.koni.studio"
     },
     "evmInfo": null,
     "substrateInfo": null,
@@ -9887,7 +9885,7 @@
     "slug": "aleph_testnet_evm",
     "name": "Aleph Zero Testnet - EVM",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/aleph_testnet_evm.png",
     "providers": {
       "Sepolia": "https://alephzero-sepolia.drpc.org/",
@@ -9915,7 +9913,7 @@
     "slug": "aleph_evm",
     "name": "Aleph Zero - EVM",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/aleph_evm.png",
     "providers": {
       "Gelato": "https://rpc.alephzero.raas.gelato.cloud"
@@ -12299,7 +12297,7 @@
     },
     "extraInfo": {
       "subscanSlug": "tanssi",
-      "chainBalanceSlug": null
+      "chainBalanceSlug": "tanssi"
     },
     "bitcoinInfo": null,
     "tonInfo": null,
@@ -12713,6 +12711,93 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "regionx_kusama": {
+    "slug": "regionx_kusama",
+    "name": "RegionX Kusama",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/regionx_kusama.png",
+    "providers": {
+      "RegionX": "wss://regionx-kusama-rpc-lb.zeeve.net/ld940yl9c6/rpc"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "kusama",
+      "paraId": 3422,
+      "genesisHash": "0x086319b29662e34a4f7a3de034afe64c93e3ed477e3aed3ab3ef6e31d33bc179",
+      "addressPrefix": 74,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "10000000000",
+      "symbol": "KSM",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "stable_testnet": {
+    "slug": "stable_testnet",
+    "name": "Stable Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/stable_testnet.png",
+    "providers": {
+      "JsonRPC": "https://stable-jsonrpc.testnet.chain0.dev/",
+      "Stable": "https://stable-jsonrpc-ar.testnet.chain0.dev/"
+    },
+    "evmInfo": {
+      "evmChainId": 2201,
+      "blockExplorer": "https://stable-explorer.testnet.chain0.dev/",
+      "existentialDeposit": "0",
+      "symbol": "USDT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "abstract": {
+    "slug": "abstract",
+    "name": "Abstract Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/abstract.png",
+    "providers": {
+      "Abs": "https://api.mainnet.abs.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 2741,
+      "blockExplorer": "https://abscan.org/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
