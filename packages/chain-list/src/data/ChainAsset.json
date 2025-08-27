@@ -4316,42 +4316,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bifrost-local-kar.png"
   },
-  "statemine-LOCAL-USDt": {
-    "originChain": "statemine",
-    "slug": "statemine-LOCAL-USDt",
-    "name": "Tether USD",
-    "symbol": "USDt",
-    "decimals": 6,
-    "priceId": "tether",
-    "minAmount": "100",
-    "assetType": "LOCAL",
-    "metadata": {
-      "assetId": "1984",
-      "paraSpellValue": "1984",
-      "paraSpellAssetType": "id",
-      "paraSpellIdentifyV4": {
-        "location": {
-          "parents": 1,
-          "interior": {
-            "X3": [
-              {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 1984
-              }
-            ]
-          }
-        }
-      }
-    },
-    "multiChainAsset": "USDT-Tether",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/statemine-local-usdt.png"
-  },
   "statemine-LOCAL-RMRK": {
     "originChain": "statemine",
     "slug": "statemine-LOCAL-RMRK",
