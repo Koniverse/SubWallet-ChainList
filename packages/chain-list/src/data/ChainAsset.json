@@ -6723,21 +6723,21 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/vara_network-native-vara.png"
   },
-  "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+  "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
     "originChain": "polygon",
-    "slug": "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-    "name": "Tether USD",
-    "symbol": "USDT",
+    "slug": "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "name": "USD₮0",
+    "symbol": "USD₮0",
     "decimals": 6,
-    "priceId": "tether",
-    "minAmount": null,
+    "priceId": "usdt0",
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
     },
-    "multiChainAsset": "USDT-Tether",
+    "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
-    "icon": "/assets/chain-assets/polygon-erc20-usdt-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
+    "icon": "/assets/chain-assets/polygon-erc20-usd₮0-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
   },
   "arbitrum_one-ERC20-USD₮0-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
     "originChain": "arbitrum_one",
@@ -6752,7 +6752,7 @@
       "autoEnable": true,
       "contractAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
     "icon": "/assets/chain-assets/arbitrum_one-erc20-usd₮0-0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
   },
@@ -17658,7 +17658,7 @@
     "metadata": {
       "contractAddress": "0x9151434b16b9763660705744891fA906F660EcC5"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
     "icon": "/assets/chain-assets/unichain-erc20-usd₮0-0x9151434b16b9763660705744891fa906f660ecc5.png"
   },
@@ -17836,6 +17836,22 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-dot-0x8d010bf9c26881788b4e6bf5fd1bdc358c8f90b8.png"
   },
+  "origintrail-LOCAL-TRAC": {
+    "originChain": "origintrail",
+    "slug": "origintrail-LOCAL-TRAC",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/origintrail-local-trac.png"
+  },
   "hydradx_main-LOCAL-TRAC": {
     "originChain": "hydradx_main",
     "slug": "hydradx_main-LOCAL-TRAC",
@@ -17848,7 +17864,7 @@
     "metadata": {
       "assetId": "35"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "TRAC-OriginTrail",
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-trac.png"
   },
