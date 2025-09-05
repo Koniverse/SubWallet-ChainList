@@ -18648,5 +18648,102 @@
     "multiChainAsset": "PAS-Paseo",
     "hasValue": true,
     "icon": "/assets/chain-assets/paseo_assethub-native-pas.png"
+  },
+  "xode-NATIVE-XON": {
+    "originChain": "xode",
+    "slug": "xode-NATIVE-XON",
+    "name": "Xode",
+    "symbol": "XON",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": {
+      "onChainInfo": {
+        "NativeAssetId": {
+          "Token": "XON"
+        }
+      },
+      "multilocation": {
+        "parents": 0,
+        "interior": "Here"
+      },
+      "paraSpellValue": "XON",
+      "paraSpellAssetType": "symbol"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/xode-native-xon.png"
+  },
+  "xode-LOCAL-DOT": {
+    "originChain": "xode",
+    "slug": "xode-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token": "DOT"
+      },
+      "assetId": "100000000",
+      "isSufficient": true,
+      "paraSpellValue": "DOT",
+      "paraSpellAssetType": "symbol",
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "Here": null
+          }
+        }
+      }
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/xode-local-dot.png"
+  },
+  "xode-LOCAL-USDT": {
+    "originChain": "xode",
+    "slug": "xode-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "ForeignAsset": 12
+      },
+      "assetId": "1984",
+      "isSufficient": true,
+      "paraSpellValue": "USDT",
+      "paraSpellAssetType": "symbol",
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/xode-local-usdt.png"
   }
+
 }
