@@ -1,0 +1,89 @@
+{
+  "patchVersion": "0.2.114-beta.0",
+  "appliedVersion": "0.2.113",
+  "timestamp": 1757047535795,
+  "ChainInfo": {
+    "hydradx_hollarnet": {
+      "slug": "hydradx_hollarnet",
+      "name": "Hydration Hollarnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/hydradx_hollarnet.png",
+      "providers": {
+        "Lark": "wss://1.lark.hydration.cloud"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2034,
+        "genesisHash": "0x745c87ea13f2de6792e41bf885c3720bdf2727c6e04cfc0cb38b06b51de68d69",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000000",
+        "symbol": "HDX",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "hydradx_hollarnet": "a62f7134209c1c05927ab2c785af3ad5"
+  },
+  "ChainAsset": {
+    "unichain-ERC20-SOL-0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97": {
+      "originChain": "unichain",
+      "slug": "unichain-ERC20-SOL-0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97",
+      "name": "Wormhole Bridged WSOL",
+      "symbol": "SOL",
+      "decimals": 9,
+      "priceId": "wormhole-bridged-sol",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/unichain-erc20-sol-0xbde8a5331e8ac4831cf8ea9e42e229219eafab97.png"
+    },
+    "hydradx_hollarnet-NATIVE-HDX": {
+      "originChain": "hydradx_hollarnet",
+      "slug": "hydradx_hollarnet-NATIVE-HDX",
+      "name": "Hydration",
+      "symbol": "HDX",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "/assets/chain-assets/hydradx_hollarnet-native-hdx.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "unichain-ERC20-SOL-0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97": "4e7e7a0a8f936bd7dbe88e23cf3fe9ad",
+    "hydradx_hollarnet-NATIVE-HDX": "c373e7881c57a331db71c41abe6552a6",
+    "hydradx_hollarnet-LOCAL-HOLLAR": "ebb978dd178424ea0777c8353f54a616"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "unichain-erc20-sol-0xbde8a5331e8ac4831cf8ea9e42e229219eafab97": "/assets/chain-assets/unichain-erc20-sol-0xbde8a5331e8ac4831cf8ea9e42e229219eafab97.png",
+    "hydradx_hollarnet-native-hdx": "/assets/chain-assets/hydradx_hollarnet-native-hdx.png"
+  },
+  "ChainLogoMap": {
+    "hydradx_hollarnet": "/assets/chains/hydradx_hollarnet.png"
+  },
+  "mAssetLogoMap": {}
+}
