@@ -7676,7 +7676,7 @@
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "TAO-Bittensor",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-native-tao.png"
   },
@@ -18529,7 +18529,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "TAO-Bittensor",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
   },
