@@ -12802,5 +12802,40 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "xode": {
+    "slug": "xode",
+    "name": "Xode",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/xode.png",
+    "providers": {
+      "XodeCommunity": "wss://polkadot-rpcnode.xode.net" 
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3417,
+      "genesisHash": "0xb2985e778bb748c70e450dcc084cc7da79fe742cc23d3b040abd7028187de69c",
+      "addressPrefix": 280,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://node.xode.net/",
+      "existentialDeposit": "1000000000",
+      "symbol": "XON",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": true,
+      "supportSmartContract": true,
+      "crowdloanParaId": null,
+      "crowdloanFunds": null
+    },
+    "extraInfo": {
+      "subscanSlug": null,
+      "chainBalanceSlug": "xode"
+    },
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }
