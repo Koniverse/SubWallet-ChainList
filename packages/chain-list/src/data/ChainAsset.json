@@ -7676,7 +7676,7 @@
     "minAmount": "500",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "TAO-Bittensor",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-native-tao.png"
   },
@@ -11682,22 +11682,6 @@
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "/assets/chain-assets/moonbeam-erc20-usdt.wh-0xc30e9ca94cf52f3bf5692aacf81353a27052c46f.png"
-  },
-  "moonbeam-ERC20-USDC.wh-0x931715fee2d06333043d11f658c8ce934ac61d0c": {
-    "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-USDC.wh-0x931715fee2d06333043d11f658c8ce934ac61d0c",
-    "name": "USDC (Wormhole)",
-    "symbol": "USDC.wh",
-    "decimals": 6,
-    "priceId": "usd-coin",
-    "minAmount": null,
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x931715fee2d06333043d11f658c8ce934ac61d0c"
-    },
-    "multiChainAsset": "USDC-USDCoin",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/moonbeam-erc20-usdc.wh-0x931715fee2d06333043d11f658c8ce934ac61d0c.png"
   },
   "moonbeam-ERC20-WBTC.wh-0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d": {
     "originChain": "moonbeam",
@@ -18545,7 +18529,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": "TAO-Bittensor",
+    "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
   },
@@ -18634,6 +18618,53 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "/assets/chain-assets/abstract-native-eth.png"
+  },
+  "unichain-ERC20-SOL-0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97": {
+    "originChain": "unichain",
+    "slug": "unichain-ERC20-SOL-0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97",
+    "name": "Wormhole Bridged WSOL",
+    "symbol": "SOL",
+    "decimals": 9,
+    "priceId": "wormhole-bridged-sol",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xbdE8A5331E8Ac4831cf8ea9e42e229219EafaB97"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/unichain-erc20-sol-0xbde8a5331e8ac4831cf8ea9e42e229219eafab97.png"
+  },
+  "hydradx_hollarnet-NATIVE-HDX": {
+    "originChain": "hydradx_hollarnet",
+    "slug": "hydradx_hollarnet-NATIVE-HDX",
+    "name": "Hydration",
+    "symbol": "HDX",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/hydradx_hollarnet-native-hdx.png"
+  },
+  "hydradx_hollarnet-LOCAL-HOLLAR": {
+    "originChain": "hydradx_hollarnet",
+    "slug": "hydradx_hollarnet-LOCAL-HOLLAR",
+    "name": "Hydrated Dollar",
+    "symbol": "HOLLAR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "222",
+      "isGigaToken": true
+    },
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/hydradx_hollarnet-local-hollar.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
