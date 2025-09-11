@@ -7827,7 +7827,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_chain.png",
     "providers": {
-      "Energy Web Chain": "https://rpc.energyweb.org"
+      "Energy Web Chain": "https://rpc.energyweb.org",
+      "Archive": "https://archive-rpc.energyweb.org"
     },
     "evmInfo": {
       "evmChainId": 246,
@@ -12823,6 +12824,39 @@
       "blockExplorer": null,
       "existentialDeposit": "1000000000000",
       "symbol": "HDX",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "xode": {
+    "slug": "xode",
+    "name": "Xode",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/xode.png",
+    "providers": {
+      "XodeCommunity": "wss://polkadot-rpcnode.xode.net",
+      "Zeeve": "wss://xode-polkadot-rpc-01.zeeve.net/y0yxg038wn1fncc/rpc"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 3417,
+      "genesisHash": "0xb2985e778bb748c70e450dcc084cc7da79fe742cc23d3b040abd7028187de69c",
+      "addressPrefix": 280,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": null,
+      "existentialDeposit": "1000000000",
+      "symbol": "XON",
       "decimals": 12,
       "hasNativeNft": null,
       "supportStaking": null,
