@@ -2563,7 +2563,7 @@
     "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "TEER-IntegriteeShell",
     "hasValue": true,
     "icon": "/assets/chain-assets/integritee-native-teer.png"
   },
@@ -17239,7 +17239,7 @@
     "name": "KILT Protocol",
     "symbol": "KILT",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "kilt-protocol-2",
     "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
@@ -18665,6 +18665,52 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "/assets/chain-assets/hydradx_hollarnet-local-hollar.png"
+  },
+  "xode-NATIVE-XON": {
+    "originChain": "xode",
+    "slug": "xode-NATIVE-XON",
+    "name": "Xode Blockchain",
+    "symbol": "XON",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/xode-native-xon.png"
+  },
+  "xode-LOCAL-DOT": {
+    "originChain": "xode",
+    "slug": "xode-LOCAL-DOT",
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "decimals": 10,
+    "priceId": "polkadot",
+    "minAmount": "10000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "100000000"
+    },
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/xode-local-dot.png"
+  },
+  "xode-LOCAL-USDT": {
+    "originChain": "xode",
+    "slug": "xode-LOCAL-USDT",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1984"
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/xode-local-usdt.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
