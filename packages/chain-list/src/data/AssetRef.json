@@ -370,6 +370,20 @@
     "destChain": "statemint",
     "path": "XCM"
   },
+  "statemine-NATIVE-KSM___encointer-NATIVE-KSM": {
+    "srcAsset": "statemine-NATIVE-KSM",
+    "destAsset": "encointer-NATIVE-KSM",
+    "srcChain": "statemine",
+    "destChain": "encointer",
+    "path": "XCM"
+  },
+  "encointer-NATIVE-KSM___statemine-NATIVE-KSM": {
+    "srcAsset": "encointer-NATIVE-KSM",
+    "destAsset": "statemine-NATIVE-KSM",
+    "srcChain": "encointer",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
   "statemint-LOCAL-USDt___moonbeam-LOCAL-xcUSDT": {
     "srcAsset": "statemint-LOCAL-USDt",
     "destAsset": "moonbeam-LOCAL-xcUSDT",
