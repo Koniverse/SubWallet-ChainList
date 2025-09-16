@@ -9953,7 +9953,7 @@
     "name": "BRIDGE",
     "symbol": "BRIDGE",
     "decimals": 12,
-    "priceId": null,
+    "priceId": "hyperbridge-2",
     "minAmount": "1000000000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -18711,6 +18711,50 @@
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,
     "icon": "/assets/chain-assets/xode-local-usdt.png"
+  },
+  "chronos_consensus-NATIVE-tAI3": {
+    "originChain": "chronos_consensus",
+    "slug": "chronos_consensus-NATIVE-tAI3",
+    "name": "tAI3",
+    "symbol": "tAI3",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/chronos_consensus-native-tai3.png"
+  },
+  "chronos_auto-NATIVE-tAI3": {
+    "originChain": "chronos_auto",
+    "slug": "chronos_auto-NATIVE-tAI3",
+    "name": "tAI3",
+    "symbol": "tAI3",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/chronos_auto-native-tai3.png"
+  },
+  "ethereum-ERC20-EWT-0xB66a5D30D04f076E78ffB0d045C55846Fdcde928": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-EWT-0xB66a5D30D04f076E78ffB0d045C55846Fdcde928",
+    "name": "Energy Web Token",
+    "symbol": "EWT",
+    "decimals": 18,
+    "priceId": "energy-web-token",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xB66a5D30D04f076E78ffB0d045C55846Fdcde928"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-ewt-0xb66a5d30d04f076e78ffb0d045c55846fdcde928.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
