@@ -1051,5 +1051,14 @@
     "priceId": "usdt0",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/usd₮0-usd₮0.png"
+  },
+  "EWT-EnergyWebToken": {
+    "slug": "EWT-EnergyWebToken",
+    "originChainAsset": null,
+    "name": "Energy Web Token",
+    "symbol": "EWT",
+    "priceId": "energy-web-token",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/ewt-energywebtoken.png"
   }
 }

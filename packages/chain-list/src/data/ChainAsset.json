@@ -7977,7 +7977,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "EWT-EnergyWebToken",
     "hasValue": true,
     "icon": "/assets/chain-assets/energy_web_chain-native-ewt.png"
   },
@@ -8005,7 +8005,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "EWT-EnergyWebToken",
     "hasValue": true,
     "icon": "/assets/chain-assets/energy_web_x-native-ewt.png"
   },
@@ -15100,7 +15100,7 @@
     "metadata": {
       "assetId": "252525"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "EWT-EnergyWebToken",
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-ewt.png"
   },
@@ -18752,7 +18752,7 @@
     "metadata": {
       "contractAddress": "0xB66a5D30D04f076E78ffB0d045C55846Fdcde928"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "EWT-EnergyWebToken",
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-ewt-0xb66a5d30d04f076e78ffb0d045c55846fdcde928.png"
   },
