@@ -1,0 +1,288 @@
+{
+  "patchVersion": "0.2.115-beta.1",
+  "appliedVersion": "0.2.114",
+  "timestamp": 1758008943272,
+  "ChainInfo": {
+    "autonomys_taurus": {
+      "slug": "autonomys_taurus",
+      "name": "Autonomys Taurus Testnet",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/autonomys_taurus.png",
+      "providers": {
+        "Taurus": "wss://rpc-0.taurus.subspace.network/ws",
+        "Labs 2": "wss://rpc-1.taurus.subspace.network/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x295aeafca762a304d92ee1505548695091f6082d3f0aa4d092ac3cd6397a6c5e",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://astral.autonomys.xyz/taurus/consensus",
+        "existentialDeposit": "500",
+        "symbol": "tAI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "xode": {
+      "slug": "xode",
+      "name": "Xode",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/xode.png",
+      "providers": {
+        "XodeCommunity": "wss://polkadot-rpcnode.xode.net",
+        "Zeeve": "wss://xode-polkadot-rpc-01.zeeve.net/y0yxg038wn1fncc/rpc"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3417,
+        "genesisHash": "0xb2985e778bb748c70e450dcc084cc7da79fe742cc23d3b040abd7028187de69c",
+        "addressPrefix": 280,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "XON",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "chronos_consensus": {
+      "slug": "chronos_consensus",
+      "name": "Chronos Consensus",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/chronos_consensus.png",
+      "providers": {
+        "Chronos": "wss://rpc.chronos.autonomys.xyz/ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x91912b429ce7bf2975440a0920b46a892fddeeaed6ccc11c93f2d57ad1bd69ab",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://autonomys-chronos.subscan.io/",
+        "existentialDeposit": "10000000000000",
+        "symbol": "tAI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "autonomys-chronos",
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "chronos_auto": {
+      "slug": "chronos_auto",
+      "name": "Chronos Auto EVM",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/chronos_auto.png",
+      "providers": {
+        "Chronos": "wss://auto-evm.chronos.autonomys.xyz/ws"
+      },
+      "evmInfo": {
+        "evmChainId": 8700,
+        "blockExplorer": "https://explorer.auto-evm.chronos.autonomys.xyz/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "tAI3",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x264d868b1999c6fc3c8d53f6d6b0c0969cc7f0f31e846793b9585fa3019a0132",
+        "addressPrefix": 6094,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://explorer.auto-evm.chronos.autonomys.xyz/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "tAI3",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "autonomys_taurus": "7daa0dfef16ef7f0a5f9f3d4dee62796",
+    "xode": "fdcf4c59b0412f6d5aef83239bb183e2",
+    "chronos_consensus": "0e4d7ce1f0dd4f2dae578b75a9a90e8c",
+    "chronos_auto": "2ad6d3bc92e6c4ce67c47b5f568673a7"
+  },
+  "ChainAsset": {
+    "integritee-NATIVE-TEER": {
+      "originChain": "integritee",
+      "slug": "integritee-NATIVE-TEER",
+      "name": "Integritee Network",
+      "symbol": "TEER",
+      "decimals": 12,
+      "priceId": "integritee",
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "TEER-IntegriteeShell",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/integritee-native-teer.png"
+    },
+    "hyperbridge-NATIVE-BRIDGE": {
+      "originChain": "hyperbridge",
+      "slug": "hyperbridge-NATIVE-BRIDGE",
+      "name": "BRIDGE",
+      "symbol": "BRIDGE",
+      "decimals": 12,
+      "priceId": "hyperbridge-2",
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hyperbridge-native-bridge.png"
+    },
+    "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8",
+      "name": "KILT Protocol",
+      "symbol": "KILT",
+      "decimals": 18,
+      "priceId": "kilt-protocol-2",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
+    },
+    "xode-NATIVE-XON": {
+      "originChain": "xode",
+      "slug": "xode-NATIVE-XON",
+      "name": "Xode Blockchain",
+      "symbol": "XON",
+      "decimals": 12,
+      "priceId": null,
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/xode-native-xon.png"
+    },
+    "chronos_consensus-NATIVE-tAI3": {
+      "originChain": "chronos_consensus",
+      "slug": "chronos_consensus-NATIVE-tAI3",
+      "name": "tAI3",
+      "symbol": "tAI3",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "10000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "/assets/chain-assets/chronos_consensus-native-tai3.png"
+    },
+    "chronos_auto-NATIVE-tAI3": {
+      "originChain": "chronos_auto",
+      "slug": "chronos_auto-NATIVE-tAI3",
+      "name": "tAI3",
+      "symbol": "tAI3",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "/assets/chain-assets/chronos_auto-native-tai3.png"
+    },
+    "ethereum-ERC20-EWT-0xB66a5D30D04f076E78ffB0d045C55846Fdcde928": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-EWT-0xB66a5D30D04f076E78ffB0d045C55846Fdcde928",
+      "name": "Energy Web Token",
+      "symbol": "EWT",
+      "decimals": 18,
+      "priceId": "energy-web-token",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xB66a5D30D04f076E78ffB0d045C55846Fdcde928"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-ewt-0xb66a5d30d04f076e78ffb0d045c55846fdcde928.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "integritee-NATIVE-TEER": "c9e13fa56fcf651333e26b1e5b5bd493",
+    "hyperbridge-NATIVE-BRIDGE": "d83153210625d17bd3dc1a3ab67b9cb7",
+    "base_mainnet-ERC20-KILT-0x5D0DD05bB095fdD6Af4865A1AdF97c39C85ad2d8": "72ddb68f8d30878519e654faee372cde",
+    "xode-NATIVE-XON": "abfd9d05f55318ab467c19f1f8ee0c22",
+    "chronos_consensus-NATIVE-tAI3": "105f8453499276b0eb0167e2ad54450c",
+    "chronos_auto-NATIVE-tAI3": "8ca255e03e2f0d835c219db3202bc5ed",
+    "ethereum-ERC20-EWT-0xB66a5D30D04f076E78ffB0d045C55846Fdcde928": "86d249e57bcf4f6f2ebd10a9293019db"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "integritee-native-teer": "/assets/chain-assets/integritee-native-teer.png",
+    "hyperbridge-native-bridge": "/assets/chain-assets/hyperbridge-native-bridge.png",
+    "base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8": "/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png",
+    "xode-native-xon": "/assets/chain-assets/xode-native-xon.png",
+    "chronos_consensus-native-tai3": "/assets/chain-assets/chronos_consensus-native-tai3.png",
+    "chronos_auto-native-tai3": "/assets/chain-assets/chronos_auto-native-tai3.png",
+    "ethereum-erc20-ewt-0xb66a5d30d04f076e78ffb0d045c55846fdcde928": "/assets/chain-assets/ethereum-erc20-ewt-0xb66a5d30d04f076e78ffb0d045c55846fdcde928.png"
+  },
+  "ChainLogoMap": {
+    "autonomys_taurus": "/assets/chains/autonomys_taurus.png",
+    "xode": "/assets/chains/xode.png",
+    "chronos_consensus": "/assets/chains/chronos_consensus.png",
+    "chronos_auto": "/assets/chains/chronos_auto.png"
+  },
+  "mAssetLogoMap": {}
+}
