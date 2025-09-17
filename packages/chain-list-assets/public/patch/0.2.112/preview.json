@@ -1,30 +1,11 @@
 {
-  "patchVersion": "0.2.113-beta.0",
+  "patchVersion": "0.2.103-beta.1",
   "appliedVersion": "0.2.112",
-  "timestamp": 1758103547211,
+  "timestamp": 1758104944716,
   "ChainInfo": {},
   "ChainInfoHashMap": {},
-  "ChainAsset": {
-    "ethereum-ERC20-SAAVE-0x4da27a545c0c5B758a6BA100e3a049001de870f5": {
-      "originChain": "ethereum",
-      "slug": "ethereum-ERC20-SAAVE-0x4da27a545c0c5B758a6BA100e3a049001de870f5",
-      "name": " Staked Aave",
-      "symbol": "stkAAVE",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "ERC20",
-      "metadata": {
-        "contractAddress": "0x4da27a545c0c5B758a6BA100e3a049001de870f5"
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": null
-    }
-  },
-  "ChainAssetHashMap": {
-    "ethereum-ERC20-SAAVE-0x4da27a545c0c5B758a6BA100e3a049001de870f5": "02912273bb7fbc0268b49ce6b1baf813"
-  },
+  "ChainAsset": {},
+  "ChainAssetHashMap": {},
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {},
