@@ -18695,5 +18695,19 @@
     "multiChainAsset": "PAS-Paseo",
     "hasValue": true,
     "icon": "/assets/chain-assets/paseo_assethub-native-pas.png"
+  },
+  "redstone-NATIVE-ETH": {
+    "originChain": "redstone",
+    "slug": "redstone-NATIVE-ETH",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "decimals": 18,
+    "priceId": "ethereum",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
   }
 }
