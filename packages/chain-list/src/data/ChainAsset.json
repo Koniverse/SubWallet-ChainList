@@ -18666,22 +18666,6 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/hydradx_hollarnet-local-hollar.png"
   },
-  "ethereum-ERC20-SAAVE-0x4da27a545c0c5B758a6BA100e3a049001de870f5": {
-    "originChain": "ethereum",
-    "slug": "ethereum-ERC20-SAAVE-0x4da27a545c0c5B758a6BA100e3a049001de870f5",
-    "name": " Staked Aave",
-    "symbol": "stkAAVE",
-    "decimals": 18,
-    "priceId": null,
-    "minAmount": "0",
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0x4da27a545c0c5B758a6BA100e3a049001de870f5"
-    },
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": null
-  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
