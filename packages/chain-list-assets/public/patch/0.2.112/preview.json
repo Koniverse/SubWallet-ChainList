@@ -1,0 +1,65 @@
+{
+  "patchVersion": "0.2.113-beta.5",
+  "appliedVersion": "0.2.112",
+  "timestamp": 1758169584259,
+  "ChainInfo": {
+    "redstone": {
+      "slug": "redstone",
+      "name": "Redstone",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": null,
+      "providers": {
+        "Blockfrost": "https://rpc.redstonechain.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 690,
+        "blockExplorer": "https://explorer.redstone.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "redstone": "a21413ff431f875deb348d211478c27a"
+  },
+  "ChainAsset": {
+    "redstone-NATIVE-ETH": {
+      "originChain": "redstone",
+      "slug": "redstone-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": null
+    }
+  },
+  "ChainAssetHashMap": {
+    "redstone-NATIVE-ETH": "b5f3fcb90e6dcf282b63292183307c37"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "redstone-native-eth": null
+  },
+  "ChainLogoMap": {
+    "redstone": null
+  },
+  "mAssetLogoMap": {}
+}
