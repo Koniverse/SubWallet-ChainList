@@ -1,0 +1,36 @@
+{
+  "patchVersion": "0.2.116-beta.0",
+  "appliedVersion": "0.2.115",
+  "timestamp": 1758531840079,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "hydradx_main-LOCAL-HOLLAR": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-HOLLAR",
+      "name": "Hydrated Dollar",
+      "symbol": "HOLLAR",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "222",
+        "isGigaToken": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-hollar.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "hydradx_main-LOCAL-HOLLAR": "d96224a8bedd7d4122315865b437395d"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "hydradx_main-local-hollar": "/assets/chain-assets/hydradx_main-local-hollar.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
