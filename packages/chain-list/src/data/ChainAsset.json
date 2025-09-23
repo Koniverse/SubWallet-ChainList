@@ -18756,6 +18756,23 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-ewt-0xb66a5d30d04f076e78ffb0d045c55846fdcde928.png"
   },
+  "hydradx_main-LOCAL-HOLLAR": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-HOLLAR",
+    "name": "Hydrated Dollar",
+    "symbol": "HOLLAR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "222",
+      "isGigaToken": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-hollar.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
