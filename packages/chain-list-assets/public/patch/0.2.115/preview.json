@@ -1,10 +1,75 @@
 {
-  "patchVersion": "0.2.116-beta.0",
+  "patchVersion": "0.2.116-beta.1",
   "appliedVersion": "0.2.115",
-  "timestamp": 1758531840079,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
+  "timestamp": 1758611521506,
+  "ChainInfo": {
+    "origintrail": {
+      "slug": "origintrail",
+      "name": "NeuroWeb Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/origintrail.png",
+      "providers": {
+        "TraceLabs": "wss://parachain-rpc.origin-trail.network",
+        "Dwellir": "wss://neuroweb-rpc.dwellir.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2043,
+        "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
+        "addressPrefix": 101,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://neuroweb.subscan.io/",
+        "existentialDeposit": "100000000000",
+        "symbol": "NEURO",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2043-38",
+            "paraId": 2043,
+            "status": "won",
+            "startTime": "2022-06-07T01:48:00.000Z",
+            "endTime": "2024-04-09T01:48:00.000Z",
+            "auctionIndex": 17,
+            "firstPeriod": 8,
+            "lastPeriod": 15
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "neuroweb",
+        "chainBalanceSlug": "origintrail"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "origintrail": "f7855e9daeaa69469edee5b814cc6258"
+  },
   "ChainAsset": {
+    "origintrail-NATIVE-NEURO": {
+      "originChain": "origintrail",
+      "slug": "origintrail-NATIVE-NEURO",
+      "name": "OriginTrail",
+      "symbol": "NEURO",
+      "decimals": 12,
+      "priceId": "neurowebai",
+      "minAmount": "100000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "NEURO-NeuroWeb",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/origintrail-native-neuro.png"
+    },
     "hydradx_main-LOCAL-HOLLAR": {
       "originChain": "hydradx_main",
       "slug": "hydradx_main-LOCAL-HOLLAR",
@@ -21,16 +86,74 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/hydradx_main-local-hollar.png"
+    },
+    "hydradx_main-LOCAL-SUI": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-SUI",
+      "name": "Moonbeam Wormhole",
+      "symbol": "SUI",
+      "decimals": 9,
+      "priceId": "sui",
+      "minAmount": "2652520",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1000753"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-sui.png"
+    },
+    "peaq_evm-ERC20-stgUSDT-0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949": {
+      "originChain": "peaq_evm",
+      "slug": "peaq_evm-ERC20-stgUSDT-0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949",
+      "name": "Stargate Bridged USDT",
+      "symbol": "stgUSDT",
+      "decimals": 6,
+      "priceId": "stargate-bridged-usdt-peaq",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/peaq_evm-erc20-stgusdt-0xf4d9235269a96aadafc9adae454a0618ebe37949.png"
+    },
+    "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10": {
+      "originChain": "peaq_evm",
+      "slug": "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xbbA60da06c2c5424f03f7434542280FCAd453d10"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/peaq_evm-erc20-usdc-0xbba60da06c2c5424f03f7434542280fcad453d10.png"
     }
   },
   "ChainAssetHashMap": {
-    "hydradx_main-LOCAL-HOLLAR": "d96224a8bedd7d4122315865b437395d"
+    "origintrail-NATIVE-NEURO": "e500e2d95b7171d8144defff7df18813",
+    "hydradx_main-LOCAL-HOLLAR": "d96224a8bedd7d4122315865b437395d",
+    "hydradx_main-LOCAL-SUI": "6e70cb3c51984380e9b307bf2e3e5a2a",
+    "peaq_evm-ERC20-stgUSDT-0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949": "6ed9726d344a5e028898a9f190d16064",
+    "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10": "a6e7242836b1104a5f8e75ff3ff3699c"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "hydradx_main-local-hollar": "/assets/chain-assets/hydradx_main-local-hollar.png"
+    "origintrail-native-neuro": "/assets/chain-assets/origintrail-native-neuro.png",
+    "hydradx_main-local-hollar": "/assets/chain-assets/hydradx_main-local-hollar.png",
+    "hydradx_main-local-sui": "/assets/chain-assets/hydradx_main-local-sui.png",
+    "peaq_evm-erc20-stgusdt-0xf4d9235269a96aadafc9adae454a0618ebe37949": "/assets/chain-assets/peaq_evm-erc20-stgusdt-0xf4d9235269a96aadafc9adae454a0618ebe37949.png",
+    "peaq_evm-erc20-usdc-0xbba60da06c2c5424f03f7434542280fcad453d10": "/assets/chain-assets/peaq_evm-erc20-usdc-0xbba60da06c2c5424f03f7434542280fcad453d10.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "origintrail": "/assets/chains/origintrail.png"
+  },
   "mAssetLogoMap": {}
 }
