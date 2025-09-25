@@ -18762,7 +18762,7 @@
     "name": "Hydrated Dollar",
     "symbol": "HOLLAR",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "hydrated-dollar",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
