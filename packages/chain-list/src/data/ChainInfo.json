@@ -4159,7 +4159,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://neuroweb.subscan.io/",
-      "existentialDeposit": "1000000000000",
+      "existentialDeposit": "100000000000",
       "symbol": "NEURO",
       "decimals": 12,
       "hasNativeNft": false,
@@ -12943,6 +12943,87 @@
       "crowdloanFunds": []
     },
     "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "zkverify": {
+    "slug": "zkverify",
+    "name": "zkVerify",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/zkverify.png",
+    "providers": {
+      "zkVerify": "wss://zkverify-rpc.zkverify.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x060e3dd3fa2904d031206bb913c954687a2bcc350e5a83d33d9e273ad21460f1",
+      "addressPrefix": 8741,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://zkverify.subscan.io/",
+      "existentialDeposit": "10000000000000000",
+      "symbol": "VFY",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "zkverify",
+      "chainBalanceSlug": "zkverify"
+    },
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "vflow": {
+    "slug": "vflow",
+    "name": "VFlow",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/vflow.png",
+    "providers": {
+      "zkVerify": "wss://vflow-rpc.zkverify.io"
+    },
+    "evmInfo": {
+      "evmChainId": 1408,
+      "blockExplorer": "https://vflow.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "VFY",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 1,
+      "genesisHash": "0xf512a4b3308b4d5d6a2609e814d2bb5e5070c89dd21af63f6e01a72a286913e4",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://vflow.subscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "VFY",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "vflow",
+      "chainBalanceSlug": "vflow"
+    },
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
