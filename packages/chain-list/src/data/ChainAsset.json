@@ -18831,7 +18831,7 @@
     "minAmount": "10000000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "VFY-zkVerify",
     "hasValue": true,
     "icon": "/assets/chain-assets/zkverify-native-vfy.png"
   },
@@ -18845,7 +18845,7 @@
     "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "VFY-zkVerify",
     "hasValue": true,
     "icon": "/assets/chain-assets/vflow-native-vfy.png"
   },
