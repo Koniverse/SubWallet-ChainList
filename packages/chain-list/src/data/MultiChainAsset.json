@@ -1060,5 +1060,14 @@
     "priceId": "energy-web-token",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/ewt-energywebtoken.png"
+  },
+  "VFY-zkVerify": {
+    "slug": "VFY-zkVerify",
+    "originChainAsset": null,
+    "name": "zkVerify",
+    "symbol": "VFY",
+    "priceId": "zkverify",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/vfy-zkverify.png"
   }
 }
