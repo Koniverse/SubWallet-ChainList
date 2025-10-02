@@ -961,5 +961,14 @@
     "priceId": "particle-network",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/parti-particlenetwork.png"
+  },
+  "EWT-EnergyWebToken": {
+    "slug": "EWT-EnergyWebToken",
+    "originChainAsset": null,
+    "name": "Energy Web Token",
+    "symbol": "EWT",
+    "priceId": "energy-web-token",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ewt-energywebtoken.png"
   }
 }
