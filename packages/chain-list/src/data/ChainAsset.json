@@ -2873,7 +2873,7 @@
     "symbol": "NEURO",
     "decimals": 12,
     "priceId": "neurowebai",
-    "minAmount": "1000000000000",
+    "minAmount": "100000000000",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": "NEURO-NeuroWeb",
@@ -18762,7 +18762,7 @@
     "name": "Hydrated Dollar",
     "symbol": "HOLLAR",
     "decimals": 18,
-    "priceId": null,
+    "priceId": "hydrated-dollar",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18772,6 +18772,82 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-hollar.png"
+  },
+  "hydradx_main-LOCAL-SUI": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-SUI",
+    "name": "Moonbeam Wormhole",
+    "symbol": "SUI",
+    "decimals": 9,
+    "priceId": "sui",
+    "minAmount": "2652520",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1000753"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-sui.png"
+  },
+  "peaq_evm-ERC20-stgUSDT-0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949": {
+    "originChain": "peaq_evm",
+    "slug": "peaq_evm-ERC20-stgUSDT-0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949",
+    "name": "Stargate Bridged USDT",
+    "symbol": "stgUSDT",
+    "decimals": 6,
+    "priceId": "stargate-bridged-usdt-peaq",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/peaq_evm-erc20-stgusdt-0xf4d9235269a96aadafc9adae454a0618ebe37949.png"
+  },
+  "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10": {
+    "originChain": "peaq_evm",
+    "slug": "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10",
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xbbA60da06c2c5424f03f7434542280FCAd453d10"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/peaq_evm-erc20-usdc-0xbba60da06c2c5424f03f7434542280fcad453d10.png"
+  },
+  "zkverify-NATIVE-VFY": {
+    "originChain": "zkverify",
+    "slug": "zkverify-NATIVE-VFY",
+    "name": "zkVerify",
+    "symbol": "VFY",
+    "decimals": 18,
+    "priceId": "zkverify",
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "VFY-zkVerify",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/zkverify-native-vfy.png"
+  },
+  "vflow-NATIVE-VFY": {
+    "originChain": "vflow",
+    "slug": "vflow-NATIVE-VFY",
+    "name": "zkVerify",
+    "symbol": "VFY",
+    "decimals": 18,
+    "priceId": "zkverify",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "VFY-zkVerify",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/vflow-native-vfy.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
