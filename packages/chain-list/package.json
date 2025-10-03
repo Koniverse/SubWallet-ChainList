@@ -20,7 +20,7 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.2.105-mobile.1",
+  "version": "0.2.105-mobile.2",
   "main": "index.js",
   "dependencies": {
     "@polkadot/util": "^12.5.1",
