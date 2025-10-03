@@ -919,7 +919,7 @@
         "interior": "Here"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "WND-Westend",
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/westend-native-wnd.png"
   },
@@ -14451,7 +14451,7 @@
       },
       "alternativeSwapAsset": "westend-NATIVE-WND"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "WND-Westend",
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/westend_assethub-native-wnd.png"
   },
