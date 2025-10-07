@@ -1,0 +1,53 @@
+{
+  "patchVersion": "0.2.118-beta.0",
+  "appliedVersion": "0.2.117",
+  "timestamp": 1759828920615,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
+  "ChainAsset": {
+    "base_mainnet-ERC20-VFY-0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-VFY-0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
+      "name": "zkVerify",
+      "symbol": "VFY",
+      "decimals": 18,
+      "priceId": "zkverify",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358"
+      },
+      "multiChainAsset": "VFY-zkVerify",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-vfy-0xa749de6c28262b7ffbc5de27dc845dd7ecd2b358.png"
+    },
+    "moonbeam-ERC20-MST-0xf6Ad62cCa52a5d3c5d567303347E013c2dadec92": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-MST-0xf6Ad62cCa52a5d3c5d567303347E013c2dadec92",
+      "name": "Meridian MST",
+      "symbol": "MST",
+      "decimals": 18,
+      "priceId": "meridian-mst",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xf6Ad62cCa52a5d3c5d567303347E013c2dadec92"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/moonbeam-erc20-mst-0xf6ad62cca52a5d3c5d567303347e013c2dadec92.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "base_mainnet-ERC20-VFY-0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358": "b9fb8eedb18cc6530dcf91b6077eb33b",
+    "moonbeam-ERC20-MST-0xf6Ad62cCa52a5d3c5d567303347E013c2dadec92": "473eff04e09e1e68b848dc7d6adc943b"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "base_mainnet-erc20-vfy-0xa749de6c28262b7ffbc5de27dc845dd7ecd2b358": "/assets/chain-assets/base_mainnet-erc20-vfy-0xa749de6c28262b7ffbc5de27dc845dd7ecd2b358.png",
+    "moonbeam-erc20-mst-0xf6ad62cca52a5d3c5d567303347e013c2dadec92": "/assets/chain-assets/moonbeam-erc20-mst-0xf6ad62cca52a5d3c5d567303347e013c2dadec92.png"
+  },
+  "ChainLogoMap": {},
+  "mAssetLogoMap": {}
+}
