@@ -18706,7 +18706,25 @@
     "minAmount": "10000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "1984"
+      "assetId": "1984",
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
     },
     "multiChainAsset": "USDT-Tether",
     "hasValue": true,

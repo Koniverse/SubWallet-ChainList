@@ -48,6 +48,13 @@
     "destChain": "manta_network",
     "path": "XCM"
   },
+  "polkadot-NATIVE-DOT___xode-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "xode-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "xode",
+    "path": "XCM"
+  },
   "kusama-NATIVE-KSM___statemine-NATIVE-KSM": {
     "srcAsset": "kusama-NATIVE-KSM",
     "destAsset": "statemine-NATIVE-KSM",
@@ -417,6 +424,13 @@
     "destAsset": "acala-LOCAL-USDT",
     "srcChain": "statemint",
     "destChain": "acala",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDt___xode-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "xode-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "xode",
     "path": "XCM"
   },
   "bifrost-LOCAL-KSM___kusama-NATIVE-KSM": {
@@ -900,6 +914,13 @@
     "destAsset": "hydradx_main-LOCAL-tBTC",
     "srcChain": "ethereum",
     "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "xode-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "xode-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "xode",
+    "destChain": "statemint",
     "path": "XCM"
   }
 }
