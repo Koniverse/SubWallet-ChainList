@@ -7,6 +7,7 @@ import path from "path";
 const STRAPI_TOKEN = process.env.STRAPI_TOKEN;
 const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
 const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
+const CMS_URL = "https://content.subwallet.app";
 
 export const DOWNLOAD_DIR = './packages/chain-list-assets/public/assets';
 export const DOWNLOAD_LINK = '';
@@ -62,11 +63,19 @@ export async function downloadFile (url, downloadDir, forceFileName = null) {
   }
   const filePath = path.join(downloadDir, fileName);
 
+  let fetchUrl;
+
+  if (url.startsWith('/uploads')) {
+    fetchUrl = `${CMS_URL}${url}`;
+  } else {
+    fetchUrl = url;
+  }
+
   // Download and save file
   const writer = fs.createWriteStream(filePath);
 
   const response = await axios({
-    url,
+    url: fetchUrl,
     method: 'GET',
     responseType: 'stream'
   });
