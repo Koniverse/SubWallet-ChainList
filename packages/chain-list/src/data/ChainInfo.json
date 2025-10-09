@@ -166,7 +166,6 @@
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
       "Blast": "wss://moonbeam.public.blastapi.io",
       "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
-      "UnitedBloc": "wss://moonbeam.unitedbloc.com",
       "Allnodes": "wss://moonbeam-rpc.publicnode.com",
       "Dwellir": "wss://moonbeam-rpc.n.dwellir.com",
       "IBP1": "wss://moonbeam.ibp.network",
@@ -316,7 +315,6 @@
     "providers": {
       "Astar": "wss://rpc.astar.network",
       "OnFinality": "wss://astar.api.onfinality.io/public-ws",
-      "Dwellir": "wss://astar-rpc.dwellir.com",
       "Blast": "wss://astar.public.blastapi.io",
       "Light Client": "light://substrate-connect/polkadot/astar",
       "RadiumBlock": "wss://astar.public.curie.radiumblock.co/ws"
@@ -652,8 +650,7 @@
     "icon": "/assets/chains/shiden.png",
     "providers": {
       "Astar": "wss://rpc.shiden.astar.network",
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws",
-      "Dwellir": "wss://shiden-rpc.dwellir.com"
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1953,7 +1950,6 @@
     "icon": "/assets/chains/darwinia2.png",
     "providers": {
       "Darwinia Network": "wss://rpc.darwinia.network",
-      "Dwellir": "wss://darwinia-rpc.dwellir.com",
       "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
     },
     "evmInfo": {
@@ -2088,7 +2084,6 @@
     "icon": "/assets/chains/polkadex.png",
     "providers": {
       "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
       "Polkadex": "wss://so.polkadex.ee"
     },
     "evmInfo": null,
@@ -2356,7 +2351,6 @@
     "icon": "/assets/chains/phala.png",
     "providers": {
       "OnFinality": "wss://phala.api.onfinality.io/public-ws",
-      "Dwellir": "wss://phala-rpc.dwellir.com",
       "Helikon": "wss://rpc.helikon.io/phala",
       "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
     },
@@ -2500,8 +2494,7 @@
       "Acala Foundation 0": "wss://karura-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://karura-rpc-1.aca-api.network",
       "Acala Foundation 2": "wss://karura-rpc-2.aca-api.network/ws",
-      "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws",
-      "Dwellir": "wss://karura-rpc.dwellir.com"
+      "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2927,8 +2920,7 @@
     "icon": "/assets/chains/quartz.png",
     "providers": {
       "Unique Europe": "wss://eu-ws-quartz.unique.network",
-      "Unique US": "wss://us-ws-quartz.unique.network",
-      "Unique Asia": "wss://asia-ws-quartz.unique.network"
+      "Unique US": "wss://us-ws-quartz.unique.network"
     },
     "evmInfo": null,
     "substrateInfo": {
