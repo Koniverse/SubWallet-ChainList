@@ -1,5 +1,5 @@
 {
-  "patchVersion": "0.2.117-beta.1",
+  "patchVersion": "0.2.117-beta.2",
   "appliedVersion": "0.2.116",
   "timestamp": 1758875495227,
   "ChainInfo": {
@@ -50,93 +50,10 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
-    },
-    "zkverify": {
-      "slug": "zkverify",
-      "name": "zkVerify",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "/assets/chains/zkverify.png",
-      "providers": {
-        "zkVerify": "wss://zkverify-rpc.zkverify.io"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0x060e3dd3fa2904d031206bb913c954687a2bcc350e5a83d33d9e273ad21460f1",
-        "addressPrefix": 8741,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://zkverify.subscan.io/",
-        "existentialDeposit": "10000000000000000",
-        "symbol": "VFY",
-        "decimals": 18,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": {
-        "subscanSlug": "zkverify",
-        "chainBalanceSlug": "zkverify"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
-    },
-    "vflow": {
-      "slug": "vflow",
-      "name": "VFlow",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "/assets/chains/vflow.png",
-      "providers": {
-        "zkVerify": "wss://vflow-rpc.zkverify.io"
-      },
-      "evmInfo": {
-        "evmChainId": 1408,
-        "blockExplorer": "https://vflow.subscan.io/",
-        "existentialDeposit": "0",
-        "symbol": "VFY",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": 1,
-        "genesisHash": "0xf512a4b3308b4d5d6a2609e814d2bb5e5070c89dd21af63f6e01a72a286913e4",
-        "addressPrefix": 0,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://vflow.subscan.io/",
-        "existentialDeposit": "0",
-        "symbol": "VFY",
-        "decimals": 18,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": {
-        "subscanSlug": "vflow",
-        "chainBalanceSlug": "vflow"
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
-    "origintrail": "f7855e9daeaa69469edee5b814cc6258",
-    "zkverify": "e1ac351556c1ee00098351f284bf6647",
-    "vflow": "4a4eda2204b1889c0a83aec30abd8edf"
+    "origintrail": "f7855e9daeaa69469edee5b814cc6258"
   },
   "ChainAsset": {
     "origintrail-NATIVE-NEURO": {
@@ -217,34 +134,6 @@
       "multiChainAsset": "USDC-USDCoin",
       "hasValue": true,
       "icon": "/assets/chain-assets/peaq_evm-erc20-usdc-0xbba60da06c2c5424f03f7434542280fcad453d10.png"
-    },
-    "zkverify-NATIVE-VFY": {
-      "originChain": "zkverify",
-      "slug": "zkverify-NATIVE-VFY",
-      "name": "zkVerify",
-      "symbol": "VFY",
-      "decimals": 18,
-      "priceId": "zkverify",
-      "minAmount": "10000000000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "/assets/chain-assets/zkverify-native-vfy.png"
-    },
-    "vflow-NATIVE-VFY": {
-      "originChain": "vflow",
-      "slug": "vflow-NATIVE-VFY",
-      "name": "zkVerify",
-      "symbol": "VFY",
-      "decimals": 18,
-      "priceId": "zkverify",
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "/assets/chain-assets/vflow-native-vfy.png"
     }
   },
   "ChainAssetHashMap": {
@@ -252,9 +141,7 @@
     "hydradx_main-LOCAL-HOLLAR": "0c7788063b1336b86ebfb240826c5f93",
     "hydradx_main-LOCAL-SUI": "6e70cb3c51984380e9b307bf2e3e5a2a",
     "peaq_evm-ERC20-stgUSDT-0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949": "6ed9726d344a5e028898a9f190d16064",
-    "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10": "a6e7242836b1104a5f8e75ff3ff3699c",
-    "zkverify-NATIVE-VFY": "a69f5630e45539caadc1d8e0b54625fe",
-    "vflow-NATIVE-VFY": "5826357748a9de44f86192338ab976fe"
+    "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10": "a6e7242836b1104a5f8e75ff3ff3699c"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
