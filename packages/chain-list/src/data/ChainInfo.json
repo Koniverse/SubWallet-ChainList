@@ -2409,7 +2409,7 @@
       "relaySlug": "polkadot",
       "paraId": 2008,
       "genesisHash": "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
-      "addressPrefix": 88,
+      "addressPrefix": 0,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
       "blockExplorer": "https://crust-parachain.subscan.io/",

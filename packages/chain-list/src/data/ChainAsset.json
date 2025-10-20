@@ -11320,8 +11320,8 @@
               },
               {
                 "AccountKey20": {
-                  "network": null,
-                  "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+                  "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                  "network": null
                 }
               }
             ]
@@ -11380,8 +11380,8 @@
               },
               {
                 "AccountKey20": {
-                  "network": null,
-                  "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+                  "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+                  "network": null
                 }
               }
             ]
@@ -18928,6 +18928,54 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/moonbeam-erc20-mst-0xf6ad62cca52a5d3c5d567303347e013c2dadec92.png"
+  },
+  "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254": {
+    "originChain": "moonriver",
+    "slug": "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254",
+    "name": "Bridged GLMR",
+    "symbol": "GLMR.wb",
+    "decimals": 18,
+    "priceId": "moonbeam",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFfFffFff1a49463978f19dfD6983f2fa1885C254"
+    },
+    "multiChainAsset": "GLMR-Moonbeam",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/moonriver-erc20-glmr.wb-0xffffffff1a49463978f19dfd6983f2fa1885c254.png"
+  },
+  "moonbeam-ERC20-MOVR.mr-0xFfffFffF54c47F43713fd9211724362697f1a302": {
+    "originChain": "moonbeam",
+    "slug": "moonbeam-ERC20-MOVR.mr-0xFfffFffF54c47F43713fd9211724362697f1a302",
+    "name": "Bridged MOVR",
+    "symbol": "MOVR.mr",
+    "decimals": 18,
+    "priceId": "moonriver",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xFfffFffF54c47F43713fd9211724362697f1a302"
+    },
+    "multiChainAsset": "MOVR-Moonriver",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/moonbeam-erc20-movr.mr-0xffffffff54c47f43713fd9211724362697f1a302.png"
+  },
+  "hydradx_main-LOCAL-PAXG": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-PAXG",
+    "name": "PAX Gold",
+    "symbol": "PAXG",
+    "decimals": 18,
+    "priceId": "pax-gold",
+    "minAmount": "2374169040836",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "39"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-paxg.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
