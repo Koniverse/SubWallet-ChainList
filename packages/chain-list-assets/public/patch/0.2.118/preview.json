@@ -1,9 +1,62 @@
 {
-  "patchVersion": "0.2.119-beta.0",
+  "patchVersion": "0.2.119-beta.1",
   "appliedVersion": "0.2.118",
-  "timestamp": 1760086673323,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
+  "timestamp": 1760950975201,
+  "ChainInfo": {
+    "crust": {
+      "slug": "crust",
+      "name": "Crust",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/crust.png",
+      "providers": {
+        "Crust": "wss://crust-parachain.crustapps.net",
+        "Crust APP": "wss://crust-parachain.crustnetwork.app",
+        "Crust CC": "wss://crust-parachain.crustnetwork.cc",
+        "Crust XYZ": "wss://crust-parachain.crustnetwork.xyz"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2008,
+        "genesisHash": "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
+        "blockExplorer": "https://crust-parachain.subscan.io/",
+        "existentialDeposit": "100000000",
+        "symbol": "CRU",
+        "decimals": 12,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2008-44",
+            "paraId": 2008,
+            "status": "won",
+            "startTime": "2022-11-22T01:48:00.000Z",
+            "endTime": "2024-09-24T01:48:00.000Z",
+            "auctionIndex": 30,
+            "firstPeriod": 10,
+            "lastPeriod": 17
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "crust-parachain",
+        "chainBalanceSlug": "crust-parachain"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "crust": "ac6c4c700ed9cc4d4356ae595d777799"
+  },
   "ChainAsset": {
     "amplitude-LOCAL-KSM": {
       "originChain": "amplitude",
@@ -203,8 +256,8 @@
                 },
                 {
                   "AccountKey20": {
-                    "network": null,
-                    "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+                    "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                    "network": null
                   }
                 }
               ]
@@ -263,8 +316,8 @@
                 },
                 {
                   "AccountKey20": {
-                    "network": null,
-                    "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+                    "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+                    "network": null
                   }
                 }
               ]
@@ -275,6 +328,54 @@
       "multiChainAsset": "SHIB-SHIBAINU",
       "hasValue": true,
       "icon": "/assets/chain-assets/statemint-local-shib.png"
+    },
+    "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254": {
+      "originChain": "moonriver",
+      "slug": "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254",
+      "name": "Bridged GLMR",
+      "symbol": "GLMR.wb",
+      "decimals": 18,
+      "priceId": "moonbeam",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xFfFffFff1a49463978f19dfD6983f2fa1885C254"
+      },
+      "multiChainAsset": "GLMR-Moonbeam",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/moonriver-erc20-glmr.wb-0xffffffff1a49463978f19dfd6983f2fa1885c254.png"
+    },
+    "moonbeam-ERC20-MOVR.mr-0xFfffFffF54c47F43713fd9211724362697f1a302": {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-MOVR.mr-0xFfffFffF54c47F43713fd9211724362697f1a302",
+      "name": "Bridged MOVR",
+      "symbol": "MOVR.mr",
+      "decimals": 18,
+      "priceId": "moonriver",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xFfffFffF54c47F43713fd9211724362697f1a302"
+      },
+      "multiChainAsset": "MOVR-Moonriver",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/moonbeam-erc20-movr.mr-0xffffffff54c47f43713fd9211724362697f1a302.png"
+    },
+    "hydradx_main-LOCAL-PAXG": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-PAXG",
+      "name": "PAX Gold",
+      "symbol": "PAXG",
+      "decimals": 18,
+      "priceId": "pax-gold",
+      "minAmount": "2374169040836",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "39"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-paxg.png"
     }
   },
   "ChainAssetHashMap": {
@@ -282,8 +383,11 @@
     "amplitude-LOCAL-USDT": "530813bb4ce2227710c20eac44f12578",
     "statemint-LOCAL-KSM": "e30b81fdfbb5214ae233d6689c03a34a",
     "statemine-LOCAL-DOT": "4c0fd218866f5f260f2a0862f7b41cc7",
-    "statemint-LOCAL-WBTC": "d0f80c43d8bcd0320339d84a6cf269b2",
-    "statemint-LOCAL-SHIB": "c52ab297cb545ea59e9ca679af539dfa"
+    "statemint-LOCAL-WBTC": "11895a0704ab6e60fb55473de703bc7c",
+    "statemint-LOCAL-SHIB": "f50a01dd75642487d73bc2547ae771fa",
+    "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254": "cf98e29ce11a886d4f6c877945b57006",
+    "moonbeam-ERC20-MOVR.mr-0xFfffFffF54c47F43713fd9211724362697f1a302": "a29651e2c2e949d6fece156caafba91c",
+    "hydradx_main-LOCAL-PAXG": "bb1b5a1704609f159a42d6dbb6c094ba"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -293,8 +397,13 @@
     "statemint-local-ksm": "/assets/chain-assets/statemint-local-ksm.png",
     "statemine-local-dot": "/assets/chain-assets/statemine-local-dot.png",
     "statemint-local-wbtc": "/assets/chain-assets/statemint-local-wbtc.png",
-    "statemint-local-shib": "/assets/chain-assets/statemint-local-shib.png"
+    "statemint-local-shib": "/assets/chain-assets/statemint-local-shib.png",
+    "moonriver-erc20-glmr.wb-0xffffffff1a49463978f19dfd6983f2fa1885c254": "/assets/chain-assets/moonriver-erc20-glmr.wb-0xffffffff1a49463978f19dfd6983f2fa1885c254.png",
+    "moonbeam-erc20-movr.mr-0xffffffff54c47f43713fd9211724362697f1a302": "/assets/chain-assets/moonbeam-erc20-movr.mr-0xffffffff54c47f43713fd9211724362697f1a302.png",
+    "hydradx_main-local-paxg": "/assets/chain-assets/hydradx_main-local-paxg.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "crust": "/assets/chains/crust.png"
+  },
   "mAssetLogoMap": {}
 }
