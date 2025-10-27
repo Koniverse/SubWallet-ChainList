@@ -475,6 +475,13 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
+  "mythos-NATIVE-MYTH___statemint-LOCAL-MYTH": {
+    "srcAsset": "mythos-NATIVE-MYTH",
+    "destAsset": "statemint-LOCAL-MYTH",
+    "srcChain": "mythos",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
   "availTuringTest-NATIVE-AVAIL___sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d": {
     "srcAsset": "availTuringTest-NATIVE-AVAIL",
     "destAsset": "sepolia_ethereum-ERC20-AVAIL-0xb1C3Cb9b5e598d4E95a85870e7812B99f350982d",
