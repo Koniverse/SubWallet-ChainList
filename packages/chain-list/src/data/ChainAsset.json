@@ -18929,11 +18929,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/moonbeam-erc20-mst-0xf6ad62cca52a5d3c5d567303347e013c2dadec92.png"
   },
-  "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254": {
+  "moonriver-ERC20-GLMR.mb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254": {
     "originChain": "moonriver",
-    "slug": "moonriver-ERC20-GLMR.wb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254",
+    "slug": "moonriver-ERC20-GLMR.mb-0xFfFffFff1a49463978f19dfD6983f2fa1885C254",
     "name": "Bridged GLMR",
-    "symbol": "GLMR.wb",
+    "symbol": "GLMR.mb",
     "decimals": 18,
     "priceId": "moonbeam",
     "minAmount": "0",
@@ -18943,7 +18943,7 @@
     },
     "multiChainAsset": "GLMR-Moonbeam",
     "hasValue": true,
-    "icon": "/assets/chain-assets/moonriver-erc20-glmr.wb-0xffffffff1a49463978f19dfd6983f2fa1885c254.png"
+    "icon": "/assets/chain-assets/moonriver-erc20-glmr.mb-0xffffffff1a49463978f19dfd6983f2fa1885c254.png"
   },
   "moonbeam-ERC20-MOVR.mr-0xFfffFffF54c47F43713fd9211724362697f1a302": {
     "originChain": "moonbeam",
@@ -18976,6 +18976,22 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-paxg.png"
+  },
+  "hydradx_main-LOCAL-ENA": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-ENA",
+    "name": "Ethena",
+    "symbol": "ENA",
+    "decimals": 18,
+    "priceId": "ethena",
+    "minAmount": "17337031900138700",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "38"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-ena.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
