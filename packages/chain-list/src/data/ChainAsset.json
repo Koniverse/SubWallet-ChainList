@@ -19027,6 +19027,54 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-local-ᚱ.png"
   },
+  "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52",
+    "name": "Aria",
+    "symbol": "ARIAIP",
+    "decimals": 18,
+    "priceId": "aria-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/story_protocol-erc20-ariaip-0xc9cbbd8f211300dd0e7a3933b7aeedac6f61dd52.png"
+  },
+  "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+    "name": "Manta Network",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "priceId": "manta-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5"
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-manta-0x95cef13441be50d20ca4558cc0a27b601ac544e5.png"
+  },
+  "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa",
+    "name": "Analog",
+    "symbol": "ANLOG",
+    "decimals": 12,
+    "priceId": "analog",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5305bA038217c391af7E79F6F653C8cbc433DEBa"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-anlog-0x5305ba038217c391af7e79f6f653c8cbc433deba.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
