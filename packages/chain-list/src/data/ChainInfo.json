@@ -167,7 +167,6 @@
       "Blast": "wss://moonbeam.public.blastapi.io",
       "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
       "Allnodes": "wss://moonbeam-rpc.publicnode.com",
-      "Dwellir": "wss://moonbeam-rpc.n.dwellir.com",
       "IBP1": "wss://moonbeam.ibp.network",
       "IBP2": "wss://moonbeam.dotters.network"
     },
@@ -1020,7 +1019,6 @@
     "icon": "/assets/chains/moonbase.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
-      "Dwellir": "wss://moonbase-rpc.dwellir.com",
       "RadiumBlock": "wss://moonbase.public.curie.radiumblock.co/ws",
       "UnitedBloc": "wss://moonbase.unitedbloc.com"
     },
@@ -1069,7 +1067,6 @@
     "icon": "/assets/chains/moonriver.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
-      "Dwellir 2": "wss://moonriver-rpc.n.dwellir.com",
       "OnFinality": "wss://moonriver.api.onfinality.io/public-ws",
       "UnitedBloc": "wss://moonriver.unitedbloc.com"
     },
