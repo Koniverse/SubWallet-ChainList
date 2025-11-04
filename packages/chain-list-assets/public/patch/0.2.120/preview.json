@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.121-beta.2",
+  "patchVersion": "0.2.121-beta.3",
   "appliedVersion": "0.2.120",
-  "timestamp": 1762240674876,
+  "timestamp": 1762245089365,
   "ChainInfo": {},
   "ChainInfoHashMap": {},
   "ChainAsset": {
@@ -1868,8 +1868,7 @@
       "minAmount": "0",
       "assetType": "ERC20",
       "metadata": {
-        "contractAddress": "0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52",
-        "isDisableTransfer": true
+        "contractAddress": "0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52"
       },
       "multiChainAsset": null,
       "hasValue": true,
@@ -2018,7 +2017,7 @@
     "bittensor-LOCAL-𑀅": "c24a82f8a9b44ccbeb146a70963051a6",
     "bittensor-LOCAL-モ": "d60839d3263a38ca6aac8eb78b01ba93",
     "bittensor-LOCAL-ᚱ": "a62729610a2c53c8ac5f220d5b6b0a30",
-    "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52": "08e54d622fbe3e166e27ed1a03860b06",
+    "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52": "6e966b21496a9ea797f3643df660369c",
     "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5": "1c5f4b725bc562dc1512397f67a92a39",
     "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa": "d13a42e72ef90366dfa6b961d296d938"
   },
