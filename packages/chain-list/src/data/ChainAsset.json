@@ -15176,7 +15176,7 @@
     "name": "Apex",
     "symbol": "α",
     "decimals": 9,
-    "priceId": "dtao-1",
+    "priceId": "apex-5",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15193,7 +15193,7 @@
     "name": "Τemplar",
     "symbol": "γ",
     "decimals": 9,
-    "priceId": "dtao-3",
+    "priceId": "templar",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15210,7 +15210,7 @@
     "name": "Omron",
     "symbol": "β",
     "decimals": 9,
-    "priceId": "dtao-2",
+    "priceId": "omron",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15227,7 +15227,7 @@
     "name": "Openkaito",
     "symbol": "ε",
     "decimals": 9,
-    "priceId": "dtao-5",
+    "priceId": "openkaito",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15244,7 +15244,7 @@
     "name": "Targon",
     "symbol": "δ",
     "decimals": 9,
-    "priceId": "dtao-4",
+    "priceId": "targon",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15258,10 +15258,10 @@
   "bittensor-LOCAL-ο": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ο",
-    "name": "De_val",
+    "name": "Bitquant",
     "symbol": "ο",
     "decimals": 9,
-    "priceId": "dtao-15",
+    "priceId": "bitquant",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15278,7 +15278,7 @@
     "name": "Nextplace",
     "symbol": "ק",
     "decimals": 9,
-    "priceId": "dtao-48",
+    "priceId": "nextplace",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15295,7 +15295,7 @@
     "name": "Subvortex",
     "symbol": "η",
     "decimals": 9,
-    "priceId": "dtao-7",
+    "priceId": "subvortex",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15312,7 +15312,7 @@
     "name": "Compute horde",
     "symbol": "μ",
     "decimals": 9,
-    "priceId": "dtao-12",
+    "priceId": "compute-horde",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15329,7 +15329,7 @@
     "name": "Sturdy",
     "symbol": "κ",
     "decimals": 9,
-    "priceId": "dtao-10",
+    "priceId": "sturdy-subnet",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15346,7 +15346,7 @@
     "name": "Data universe",
     "symbol": "ν",
     "decimals": 9,
-    "priceId": "dtao-13",
+    "priceId": "data-universe",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15363,7 +15363,7 @@
     "name": "Omega labs",
     "symbol": "ω",
     "decimals": 9,
-    "priceId": "dtao-24",
+    "priceId": "omega-labs",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15380,7 +15380,7 @@
     "name": "Desearch",
     "symbol": "χ",
     "decimals": 9,
-    "priceId": "dtao-22",
+    "priceId": "desearch",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15397,7 +15397,7 @@
     "name": "Bitads",
     "symbol": "π",
     "decimals": 9,
-    "priceId": "dtao-16",
+    "priceId": "bitads",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15414,7 +15414,7 @@
     "name": "Itsai",
     "symbol": "ח",
     "decimals": 9,
-    "priceId": "dtao-32",
+    "priceId": "itsai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15428,10 +15428,10 @@
   "bittensor-LOCAL-ι": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ι",
-    "name": "Pretrain",
+    "name": "Iota",
     "symbol": "ι",
     "decimals": 9,
-    "priceId": "dtao-9",
+    "priceId": "iota-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15448,7 +15448,7 @@
     "name": "Readyai",
     "symbol": "ט",
     "decimals": 9,
-    "priceId": "dtao-33",
+    "priceId": "readyai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15465,7 +15465,7 @@
     "name": "Dippy",
     "symbol": "λ",
     "decimals": 9,
-    "priceId": "dtao-11",
+    "priceId": "dippy",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15482,7 +15482,7 @@
     "name": "Logicnet",
     "symbol": "ך",
     "decimals": 9,
-    "priceId": "dtao-35",
+    "priceId": "logicnet",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15499,7 +15499,7 @@
     "name": "Graphite",
     "symbol": "ע",
     "decimals": 9,
-    "priceId": "dtao-43",
+    "priceId": "graphite",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15513,10 +15513,10 @@
   "bittensor-LOCAL-מ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-מ",
-    "name": "Edge",
+    "name": "Basilica",
     "symbol": "מ",
     "decimals": 9,
-    "priceId": "dtao-39",
+    "priceId": "w-ai-parked",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15533,7 +15533,7 @@
     "name": "Proprietary trading network",
     "symbol": "θ",
     "decimals": 9,
-    "priceId": "dtao-8",
+    "priceId": "proprietary-trading-network",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15550,7 +15550,7 @@
     "name": "404—gen",
     "symbol": "ρ",
     "decimals": 9,
-    "priceId": "dtao-17",
+    "priceId": "404-gen",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15567,7 +15567,7 @@
     "name": "Bettensor",
     "symbol": "ו",
     "decimals": 9,
-    "priceId": "dtao-30",
+    "priceId": "bettensor",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15584,7 +15584,7 @@
     "name": "Celium",
     "symbol": "ת",
     "decimals": 9,
-    "priceId": "dtao-51",
+    "priceId": "celium",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15601,7 +15601,7 @@
     "name": "Efficientfrontier",
     "symbol": "ب",
     "decimals": 9,
-    "priceId": "dtao-53",
+    "priceId": "efficientfrontier",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15618,7 +15618,7 @@
     "name": "Chunking",
     "symbol": "ן",
     "decimals": 9,
-    "priceId": "dtao-40",
+    "priceId": "chunking",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15635,7 +15635,7 @@
     "name": "Gradients",
     "symbol": "ج",
     "decimals": 9,
-    "priceId": "dtao-56",
+    "priceId": "gradients",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15649,10 +15649,10 @@
   "bittensor-LOCAL-ψ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ψ",
-    "name": "Zuvu",
+    "name": "Nuance",
     "symbol": "ψ",
     "decimals": 9,
-    "priceId": "dtao-23",
+    "priceId": "nuance-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15669,7 +15669,7 @@
     "name": "Swe - rizzo",
     "symbol": "פ",
     "decimals": 9,
-    "priceId": "dtao-45",
+    "priceId": "swe-rizzo",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15686,7 +15686,7 @@
     "name": "Vector-store",
     "symbol": "ξ",
     "decimals": 9,
-    "priceId": "dtao-14",
+    "priceId": "taohash",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15703,7 +15703,7 @@
     "name": "Dippy speech",
     "symbol": "خ",
     "decimals": 9,
-    "priceId": "dtao-58",
+    "priceId": "dippy-speech",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15737,7 +15737,7 @@
     "name": "Bitagent - rizzo",
     "symbol": "υ",
     "decimals": 9,
-    "priceId": "dtao-20",
+    "priceId": "bitagent-rizzo",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15754,7 +15754,7 @@
     "name": "Storb",
     "symbol": "ב",
     "decimals": 9,
-    "priceId": "dtao-26",
+    "priceId": "storb",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15771,7 +15771,7 @@
     "name": "Webgenieai",
     "symbol": "ت",
     "decimals": 9,
-    "priceId": "dtao-54",
+    "priceId": "webgenieai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15788,7 +15788,7 @@
     "name": "Gaia",
     "symbol": "ح",
     "decimals": 9,
-    "priceId": "dtao-57",
+    "priceId": "gaia-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15805,7 +15805,7 @@
     "name": "Distributed training",
     "symbol": "ם",
     "decimals": 9,
-    "priceId": "dtao-38",
+    "priceId": "distributed-training",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15822,7 +15822,7 @@
     "name": "Real-time data by masa",
     "symbol": "ס",
     "decimals": 9,
-    "priceId": "dtao-42",
+    "priceId": "real-time-data-by-masa",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15839,7 +15839,7 @@
     "name": "Automl",
     "symbol": "ר",
     "decimals": 9,
-    "priceId": "dtao-49",
+    "priceId": "polariscloud-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15856,7 +15856,7 @@
     "name": "Sportstensor",
     "symbol": "נ",
     "decimals": 9,
-    "priceId": "dtao-41",
+    "priceId": "sportstensor",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15873,7 +15873,7 @@
     "name": "Synth",
     "symbol": "ש",
     "decimals": 9,
-    "priceId": "dtao-50",
+    "priceId": "synth-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15887,10 +15887,10 @@
   "bittensor-LOCAL-א": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-א",
-    "name": "Folding",
+    "name": "Mainframe",
     "symbol": "א",
     "decimals": 9,
-    "priceId": "dtao-25",
+    "priceId": "mainframe-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15907,7 +15907,7 @@
     "name": "Nineteen.ai",
     "symbol": "t",
     "decimals": 9,
-    "priceId": "dtao-19",
+    "priceId": "nineteen-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15924,7 +15924,7 @@
     "name": "Dojo",
     "symbol": "ا",
     "decimals": 9,
-    "priceId": "dtao-52",
+    "priceId": "dojo-3",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15941,7 +15941,7 @@
     "name": "Web-agents",
     "symbol": "כ",
     "decimals": 9,
-    "priceId": "dtao-36",
+    "priceId": "web-agents-autoppia",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15958,7 +15958,7 @@
     "name": "Ni compute",
     "symbol": "ג",
     "decimals": 9,
-    "priceId": "dtao-27",
+    "priceId": "ni-compute",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15972,10 +15972,10 @@
   "bittensor-LOCAL-ז": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ז",
-    "name": "Naschain",
+    "name": "Candles",
     "symbol": "ז",
     "decimals": 9,
-    "priceId": "dtao-31",
+    "priceId": "candles",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -15992,7 +15992,7 @@
     "name": "Infinite games",
     "symbol": "ζ",
     "decimals": 9,
-    "priceId": "dtao-6",
+    "priceId": "infinite-games",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16009,7 +16009,7 @@
     "name": "Bitmind",
     "symbol": "י",
     "decimals": 9,
-    "priceId": "dtao-34",
+    "priceId": "bitmind",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16026,7 +16026,7 @@
     "name": "Coldint",
     "symbol": "ה",
     "decimals": 9,
-    "priceId": "dtao-29",
+    "priceId": "coldint",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16043,7 +16043,7 @@
     "name": "Score",
     "symbol": "ף",
     "decimals": 9,
-    "priceId": "dtao-44",
+    "priceId": "score",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16060,7 +16060,7 @@
     "name": "Precog",
     "symbol": "ث",
     "decimals": 9,
-    "priceId": "dtao-55",
+    "priceId": "precog",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16077,7 +16077,7 @@
     "name": "Omega any-to-any",
     "symbol": "φ",
     "decimals": 9,
-    "priceId": "dtao-21",
+    "priceId": "omega-any-to-any",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16091,10 +16091,10 @@
   "bittensor-LOCAL-צ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-צ",
-    "name": "Condenses.ai",
+    "name": "Reboot",
     "symbol": "צ",
     "decimals": 9,
-    "priceId": "dtao-47",
+    "priceId": "for-sale",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16111,7 +16111,7 @@
     "name": "Finetuning",
     "symbol": "ל",
     "decimals": 9,
-    "priceId": "dtao-37",
+    "priceId": "finetuning",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16125,10 +16125,10 @@
   "bittensor-LOCAL-ץ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ץ",
-    "name": "Neural3d",
+    "name": "Resi",
     "symbol": "ץ",
     "decimals": 9,
-    "priceId": "dtao-46",
+    "priceId": "neural3d",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16145,7 +16145,7 @@
     "name": "Zeus",
     "symbol": "σ",
     "decimals": 9,
-    "priceId": "dtao-18",
+    "priceId": "zeus-5",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16162,7 +16162,7 @@
     "name": "Hippius",
     "symbol": "م",
     "decimals": 9,
-    "priceId": "dtao-75",
+    "priceId": "hippius",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16179,7 +16179,7 @@
     "name": "Τaos",
     "symbol": "ي",
     "decimals": 9,
-    "priceId": "dtao-79",
+    "priceId": "aos-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16196,7 +16196,7 @@
     "name": "Ai factory",
     "symbol": "ى",
     "decimals": 9,
-    "priceId": "dtao-80",
+    "priceId": "ai-factory",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16230,7 +16230,7 @@
     "name": "Agent arena by masa",
     "symbol": "د",
     "decimals": 9,
-    "priceId": "dtao-59",
+    "priceId": "agent-arena-by-masa",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16247,7 +16247,7 @@
     "name": "Chutes",
     "symbol": "ش",
     "decimals": 9,
-    "priceId": "dtao-64",
+    "priceId": "chutes",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16261,10 +16261,10 @@
   "bittensor-LOCAL-ز": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ز",
-    "name": "Agentao",
+    "name": "Ridges",
     "symbol": "ز",
     "decimals": 9,
-    "priceId": "dtao-62",
+    "priceId": "ridges-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16298,7 +16298,7 @@
     "name": "Bitsec.ai",
     "symbol": "ذ",
     "decimals": 9,
-    "priceId": "dtao-60",
+    "priceId": "bitsec-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16312,10 +16312,10 @@
   "bittensor-LOCAL-ه": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ه",
-    "name": "Reserved",
+    "name": "Liquidity",
     "symbol": "ه",
     "decimals": 9,
-    "priceId": "dtao-77",
+    "priceId": "liquidity",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16332,7 +16332,7 @@
     "name": "Fakenews",
     "symbol": "ض",
     "decimals": 9,
-    "priceId": "dtao-66",
+    "priceId": "fakenews",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16346,10 +16346,10 @@
   "bittensor-LOCAL-س": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-س",
-    "name": "Lean-in",
+    "name": "Quantum innovate",
     "symbol": "س",
     "decimals": 9,
-    "priceId": "dtao-63",
+    "priceId": "alpha-trader-exchange-atx",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16383,7 +16383,7 @@
     "name": "Redteam",
     "symbol": "ر",
     "decimals": 9,
-    "priceId": "dtao-61",
+    "priceId": "redteam",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16400,7 +16400,7 @@
     "name": "Vericore",
     "symbol": "غ",
     "decimals": 9,
-    "priceId": "dtao-70",
+    "priceId": "vericore",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16414,10 +16414,10 @@
   "bittensor-LOCAL-ص": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ص",
-    "name": "Tensor private network (tpn)",
+    "name": "Tao private network",
     "symbol": "ص",
     "decimals": 9,
-    "priceId": "dtao-65",
+    "priceId": "tao-private-network",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16431,10 +16431,10 @@
   "bittensor-LOCAL-ك": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ك",
-    "name": "F(x)integral",
+    "name": "Metahash",
     "symbol": "ك",
     "decimals": 9,
-    "priceId": "dtao-73",
+    "priceId": "merit-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16451,7 +16451,7 @@
     "name": "Safe scan",
     "symbol": "ن",
     "decimals": 9,
-    "priceId": "dtao-76",
+    "priceId": "safe-scan",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16482,10 +16482,10 @@
   "bittensor-LOCAL-ق": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ق",
-    "name": "Qaf",
+    "name": "Streetvision by natix",
     "symbol": "ق",
     "decimals": 9,
-    "priceId": "dtao-72",
+    "priceId": "streetvision-by-natix",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16519,7 +16519,7 @@
     "name": "Nova",
     "symbol": "ظ",
     "decimals": 9,
-    "priceId": "dtao-68",
+    "priceId": "nova-3",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16536,7 +16536,7 @@
     "name": "Patrol (tao.com)",
     "symbol": "ي",
     "decimals": 9,
-    "priceId": "dtao-81",
+    "priceId": "patrol-tao-com",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17285,7 +17285,7 @@
     "name": "Tensorprox",
     "symbol": "ᚁ",
     "decimals": 9,
-    "priceId": "dtao-91",
+    "priceId": "tensorprox",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17302,7 +17302,7 @@
     "name": "Reinforcedai",
     "symbol": "ᚂ",
     "decimals": 9,
-    "priceId": "dtao-92",
+    "priceId": "reinforced-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17319,7 +17319,7 @@
     "name": "Eastworld",
     "symbol": "ᚄ",
     "decimals": 9,
-    "priceId": "dtao-94",
+    "priceId": "eastworld",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17336,7 +17336,7 @@
     "name": "Sταking",
     "symbol": "ᛉ",
     "decimals": 9,
-    "priceId": "dtao-88",
+    "priceId": "staking-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17353,7 +17353,7 @@
     "name": "Brain",
     "symbol": " ",
     "decimals": 9,
-    "priceId": "dtao-90",
+    "priceId": "brain",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17370,7 +17370,7 @@
     "name": "Bitcast",
     "symbol": "ᚃ",
     "decimals": 9,
-    "priceId": "dtao-93",
+    "priceId": "bitcast",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17387,7 +17387,7 @@
     "name": "Infinitevibe.ai",
     "symbol": "ᛒ",
     "decimals": 9,
-    "priceId": "dtao-89",
+    "priceId": "infinitehash",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17404,7 +17404,7 @@
     "name": "Miao",
     "symbol": "ᚳ",
     "decimals": 9,
-    "priceId": "dtao-86",
+    "priceId": "miao",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17438,7 +17438,7 @@
     "name": "Checkerchain",
     "symbol": "Ы",
     "decimals": 9,
-    "priceId": "dtao-87",
+    "priceId": "checkerchain-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17946,7 +17946,7 @@
     "name": "Uruz",
     "symbol": "ᚢ",
     "decimals": 9,
-    "priceId": "dtao-",
+    "priceId": "dtao-82",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17980,7 +17980,7 @@
     "name": "Flock off",
     "symbol": "᚛",
     "decimals": 9,
-    "priceId": "dtao-96",
+    "priceId": "flock-off",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -17997,7 +17997,7 @@
     "name": "Flamewire",
     "symbol": "ა",
     "decimals": 9,
-    "priceId": "dtao-97",
+    "priceId": "flamewire",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18014,7 +18014,7 @@
     "name": "Creator",
     "symbol": "ბ",
     "decimals": 9,
-    "priceId": "dtao-98",
+    "priceId": "creator-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18031,7 +18031,7 @@
     "name": "Neza",
     "symbol": "გ",
     "decimals": 9,
-    "priceId": "dtao-99",
+    "priceId": "neza",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18082,7 +18082,7 @@
     "name": "Bettertherapy",
     "symbol": "ვ",
     "decimals": 9,
-    "priceId": "dtao-102",
+    "priceId": "better-therapy",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18099,7 +18099,7 @@
     "name": "Happyai",
     "symbol": "Ա",
     "decimals": 9,
-    "priceId": "dtao-103",
+    "priceId": "happyai-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18133,7 +18133,7 @@
     "name": "Soundsright",
     "symbol": "Գ",
     "decimals": 9,
-    "priceId": "dtao-105",
+    "priceId": "soundsright",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18150,7 +18150,7 @@
     "name": "Voidai",
     "symbol": "Դ",
     "decimals": 9,
-    "priceId": "dtao-106",
+    "priceId": "liquidity-provisioning",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18167,7 +18167,7 @@
     "name": "Tiger alpha",
     "symbol": "Ե",
     "decimals": 9,
-    "priceId": "dtao-107",
+    "priceId": "tiger-alpha",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18184,7 +18184,7 @@
     "name": "Internet of intelligence",
     "symbol": "Զ",
     "decimals": 9,
-    "priceId": "dtao-108",
+    "priceId": "internet-of-intelligence",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18201,7 +18201,7 @@
     "name": "Taoillium",
     "symbol": "՞",
     "decimals": 9,
-    "priceId": "dtao-109",
+    "priceId": "taoillium",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18235,7 +18235,7 @@
     "name": "Oneoneone",
     "symbol": "Ё",
     "decimals": 9,
-    "priceId": "dtao-111",
+    "priceId": "oneoneone",
     "minAmount": "0",
     "assetType": null,
     "metadata": {
@@ -18269,7 +18269,7 @@
     "name": "Taonado",
     "symbol": "Ѓ",
     "decimals": 9,
-    "priceId": "dtao-113",
+    "priceId": "taonado",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18303,7 +18303,7 @@
     "name": "Soulx",
     "symbol": "Ѕ",
     "decimals": 9,
-    "priceId": "dtao-115",
+    "priceId": "cognify",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18320,7 +18320,7 @@
     "name": "Solmev",
     "symbol": "ъ",
     "decimals": 9,
-    "priceId": "dtao-116",
+    "priceId": "solmev",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18337,7 +18337,7 @@
     "name": "Rna",
     "symbol": "Ⲁ",
     "decimals": 9,
-    "priceId": "dtao-117",
+    "priceId": "rna-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18388,7 +18388,7 @@
     "name": "Affine",
     "symbol": "ⲃ",
     "decimals": 9,
-    "priceId": "dtao-120",
+    "priceId": "affine",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18405,7 +18405,7 @@
     "name": "Sundae_bar",
     "symbol": "Ⲅ",
     "decimals": 9,
-    "priceId": "dtao-121",
+    "priceId": "sundae-bar",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18422,7 +18422,7 @@
     "name": "Bitrecs",
     "symbol": "ⲅ",
     "decimals": 9,
-    "priceId": "dtao-122",
+    "priceId": "bitrecs",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18439,7 +18439,7 @@
     "name": "Mantis",
     "symbol": "𑀀",
     "decimals": 9,
-    "priceId": "dtao-123",
+    "priceId": "mantis-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18456,7 +18456,7 @@
     "name": "Swarm",
     "symbol": "'",
     "decimals": 9,
-    "priceId": "dtao-124",
+    "priceId": "swarm-3",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18507,7 +18507,7 @@
     "name": "Cel ai",
     "symbol": "𑀅",
     "decimals": 9,
-    "priceId": "dtao-127",
+    "priceId": "cel-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -18992,6 +18992,89 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-ena.png"
+  },
+  "bittensor-LOCAL-モ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-モ",
+    "name": "Chipforge (tatsu)",
+    "symbol": "モ",
+    "decimals": 9,
+    "priceId": "docs-insight-tatsu",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 84,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-モ.png"
+  },
+  "bittensor-LOCAL-ᚱ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚱ",
+    "name": "Vidaio",
+    "symbol": "ᚱ",
+    "decimals": 9,
+    "priceId": "vidaio",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 85,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ᚱ.png"
+  },
+  "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52",
+    "name": "Aria",
+    "symbol": "ARIAIP",
+    "decimals": 18,
+    "priceId": "aria-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52",
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/story_protocol-erc20-ariaip-0xc9cbbd8f211300dd0e7a3933b7aeedac6f61dd52.png"
+  },
+  "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+    "name": "Manta Network",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "priceId": "manta-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5"
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-manta-0x95cef13441be50d20ca4558cc0a27b601ac544e5.png"
+  },
+  "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa",
+    "name": "Analog",
+    "symbol": "ANLOG",
+    "decimals": 12,
+    "priceId": "analog",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5305bA038217c391af7E79F6F653C8cbc433DEBa"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-anlog-0x5305ba038217c391af7e79f6f653c8cbc433deba.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
