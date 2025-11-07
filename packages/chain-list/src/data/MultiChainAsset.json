@@ -1069,5 +1069,14 @@
     "priceId": "zkverify",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/vfy-zkverify.png"
+  },
+  "ANLOG-Analog": {
+    "slug": "ANLOG-Analog",
+    "originChainAsset": null,
+    "name": "Analog",
+    "symbol": "ANLOG",
+    "priceId": "analog",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/anlog-analog.png"
   }
 }
