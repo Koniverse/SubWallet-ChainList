@@ -14268,7 +14268,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ANLOG-Analog",
     "hasValue": true,
     "icon": "/assets/chain-assets/analog_timechain-native-anlog.png"
   },
@@ -16360,13 +16360,13 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-local-س.png"
   },
-  "bittensor-LOCAL-ف": {
+  "bittensor-LOCAL-ㄴ": {
     "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ف",
-    "name": "Fa",
-    "symbol": "ف",
+    "slug": "bittensor-LOCAL-ㄴ",
+    "name": "Leadpoet",
+    "symbol": "ㄴ",
     "decimals": 9,
-    "priceId": "dtao-71",
+    "priceId": "kora",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
@@ -16375,7 +16375,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ف.png"
+    "icon": "/assets/chain-assets/bittensor-local-ㄴ.png"
   },
   "bittensor-LOCAL-ر": {
     "originChain": "bittensor",
@@ -19071,7 +19071,7 @@
     "metadata": {
       "contractAddress": "0x5305bA038217c391af7E79F6F653C8cbc433DEBa"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "ANLOG-Analog",
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-anlog-0x5305ba038217c391af7e79f6f653c8cbc433deba.png"
   },
