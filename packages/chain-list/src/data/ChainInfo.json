@@ -36,7 +36,8 @@
       "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": []
+      "crowdloanFunds": [],
+      "supportProxy": true
     },
     "extraInfo": {
       "subscanSlug": "polkadot",
@@ -80,7 +81,8 @@
       "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": []
+      "crowdloanFunds": [],
+      "supportProxy": true
     },
     "extraInfo": {
       "subscanSlug": "kusama",
@@ -350,7 +352,8 @@
           "firstPeriod": 6,
           "lastPeriod": 13
         }
-      ]
+      ],
+      "supportProxy": true
     },
     "extraInfo": {
       "subscanSlug": "astar",
@@ -422,7 +425,8 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": []
+      "crowdloanFunds": [],
+      "supportProxy": true
     },
     "extraInfo": {
       "subscanSlug": "assethub-polkadot",
@@ -473,7 +477,8 @@
           "firstPeriod": 6,
           "lastPeriod": 13
         }
-      ]
+      ],
+      "supportProxy": true
     },
     "extraInfo": {
       "subscanSlug": "acala",
