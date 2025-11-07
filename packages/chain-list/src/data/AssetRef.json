@@ -41,13 +41,6 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
-  "polkadot-NATIVE-DOT___manta_network-LOCAL-DOT": {
-    "srcAsset": "polkadot-NATIVE-DOT",
-    "destAsset": "manta_network-LOCAL-DOT",
-    "srcChain": "polkadot",
-    "destChain": "manta_network",
-    "path": "XCM"
-  },
   "polkadot-NATIVE-DOT___xode-LOCAL-DOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "xode-LOCAL-DOT",
@@ -550,13 +543,6 @@
     "destAsset": "bifrost_dot-LOCAL-MANTA",
     "srcChain": "manta_network",
     "destChain": "bifrost_dot",
-    "path": "XCM"
-  },
-  "manta_network-LOCAL-DOT___polkadot-NATIVE-DOT": {
-    "srcAsset": "manta_network-LOCAL-DOT",
-    "destAsset": "polkadot-NATIVE-DOT",
-    "srcChain": "manta_network",
-    "destChain": "polkadot",
     "path": "XCM"
   },
   "manta_network-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
