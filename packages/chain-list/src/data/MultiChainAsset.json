@@ -970,5 +970,23 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/dot-chainflipdot.png"
+  },
+  "EWT-EnergyWebToken": {
+    "slug": "EWT-EnergyWebToken",
+    "originChainAsset": null,
+    "name": "Energy Web Token",
+    "symbol": "EWT",
+    "priceId": "energy-web-token",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ewt-energywebtoken.png"
+  },
+  "WND-Westend": {
+    "slug": "WND-Westend",
+    "originChainAsset": "westend-NATIVE-WND",
+    "name": "Westend",
+    "symbol": "WND",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/wnd-westend.png"
   }
 }
