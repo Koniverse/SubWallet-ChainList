@@ -2064,7 +2064,12 @@
       "paraSpellValue": "0",
       "paraSpellAssetType": "id",
       "paraSpellIdentifyV4": {
-        "id": "0"
+        "location": {
+          "parents": 1,
+          "interior": {
+            "Here": null
+          }
+        }
       }
     },
     "multiChainAsset": "KSM-Kusama",
@@ -10383,7 +10388,22 @@
       "isDisableTransfer": true,
       "paraSpellAssetType": "id",
       "paraSpellIdentifyV4": {
-        "id": "1"
+        "location": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
       }
     },
     "multiChainAsset": "USDT-Tether",
@@ -10943,9 +10963,15 @@
       "paraSpellAssetType": "symbol",
       "paraSpellIdentifyV4": {
         "location": {
-          "parents": 1,
+          "parents": 2,
           "interior": {
-            "Here": null
+            "X1": [
+              {
+                "GlobalConsensus": {
+                  "kusama": null
+                }
+              }
+            ]
           }
         }
       }
@@ -10979,17 +11005,13 @@
       "paraSpellAssetType": "symbol",
       "paraSpellIdentifyV4": {
         "location": {
-          "parents": 1,
+          "parents": 2,
           "interior": {
-            "X3": [
+            "X1": [
               {
-                "Parachain": 1000
-              },
-              {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 14
+                "GlobalConsensus": {
+                  "polkadot": null
+                }
               }
             ]
           }
@@ -11306,17 +11328,21 @@
       "paraSpellAssetType": "symbol",
       "paraSpellIdentifyV4": {
         "location": {
-          "parents": 1,
+          "parents": 2,
           "interior": {
-            "X3": [
+            "X2": [
               {
-                "Parachain": 1000
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
               },
               {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 21
+                "AccountKey20": {
+                  "network": null,
+                  "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+                }
               }
             ]
           }
@@ -11362,17 +11388,21 @@
       "paraSpellAssetType": "symbol",
       "paraSpellIdentifyV4": {
         "location": {
-          "parents": 1,
+          "parents": 2,
           "interior": {
-            "X3": [
+            "X2": [
               {
-                "Parachain": 1000
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
               },
               {
-                "PalletInstance": 50
-              },
-              {
-                "GeneralIndex": 38
+                "AccountKey20": {
+                  "network": null,
+                  "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+                }
               }
             ]
           }
