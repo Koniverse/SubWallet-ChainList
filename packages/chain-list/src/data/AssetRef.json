@@ -41,6 +41,13 @@
     "destChain": "hydradx_main",
     "path": "XCM"
   },
+  "polkadot-NATIVE-DOT___manta_network-LOCAL-DOT": {
+    "srcAsset": "polkadot-NATIVE-DOT",
+    "destAsset": "manta_network-LOCAL-DOT",
+    "srcChain": "polkadot",
+    "destChain": "manta_network",
+    "path": "XCM"
+  },
   "polkadot-NATIVE-DOT___xode-LOCAL-DOT": {
     "srcAsset": "polkadot-NATIVE-DOT",
     "destAsset": "xode-LOCAL-DOT",
@@ -172,6 +179,13 @@
     "destAsset": "bifrost_dot-LOCAL-DOT",
     "srcChain": "statemint",
     "destChain": "bifrost_dot",
+    "path": "XCM"
+  },
+  "statemint-NATIVE-DOT___xode-LOCAL-DOT": {
+    "srcAsset": "statemint-NATIVE-DOT",
+    "destAsset": "xode-LOCAL-DOT",
+    "srcChain": "statemint",
+    "destChain": "xode",
     "path": "XCM"
   },
   "acala-NATIVE-ACA___moonbeam-LOCAL-xcACA": {
@@ -545,6 +559,13 @@
     "destChain": "bifrost_dot",
     "path": "XCM"
   },
+  "manta_network-LOCAL-DOT___polkadot-NATIVE-DOT": {
+    "srcAsset": "manta_network-LOCAL-DOT",
+    "destAsset": "polkadot-NATIVE-DOT",
+    "srcChain": "manta_network",
+    "destChain": "polkadot",
+    "path": "XCM"
+  },
   "manta_network-LOCAL-DOT___moonbeam-LOCAL-xcDOT": {
     "srcAsset": "manta_network-LOCAL-DOT",
     "destAsset": "moonbeam-LOCAL-xcDOT",
@@ -907,6 +928,13 @@
     "destAsset": "hydradx_main-LOCAL-tBTC",
     "srcChain": "ethereum",
     "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "xode-LOCAL-DOT___statemint-NATIVE-DOT": {
+    "srcAsset": "xode-LOCAL-DOT",
+    "destAsset": "statemint-NATIVE-DOT",
+    "srcChain": "xode",
+    "destChain": "statemint",
     "path": "XCM"
   },
   "xode-LOCAL-USDT___statemint-LOCAL-USDt": {
