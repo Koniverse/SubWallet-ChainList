@@ -20,12 +20,10 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.2.107",
+  "version": "0.2.107-mobile.0",
   "main": "index.js",
   "dependencies": {
-    "@polkadot/dev": "0.67.167",
     "@polkadot/util": "^12.5.1",
-    "eventemitter3": "^5.0.1",
     "ts-md5": "^1.3.1"
   }
 }
