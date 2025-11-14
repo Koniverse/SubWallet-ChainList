@@ -1,0 +1,71 @@
+{
+  "patchVersion": "0.2.122-beta.1",
+  "appliedVersion": "0.2.121",
+  "timestamp": 1762774154115,
+  "ChainInfo": {
+    "acurast_mainnet": {
+      "slug": "acurast_mainnet",
+      "name": "Acurast Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/acurast_mainnet.png",
+      "providers": {
+        "Acurast": "wss://public-archive.mainnet.acurast.com"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3396,
+        "genesisHash": "0x4b5f95eefedf0d0fb514339edc24d2d411310520f687b4146145bcedb99885b9",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "1000000000",
+        "symbol": "ACU",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": true,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "acurast_mainnet": "ba248a790b62662af5138b76ea1b0332"
+  },
+  "ChainAsset": {
+    "acurast_mainnet-NATIVE-ACU": {
+      "originChain": "acurast_mainnet",
+      "slug": "acurast_mainnet-NATIVE-ACU",
+      "name": "Acurast",
+      "symbol": "ACU",
+      "decimals": 12,
+      "priceId": "acurast",
+      "minAmount": "1000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/acurast_mainnet-native-acu.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "acurast_mainnet-NATIVE-ACU": "2758cdae4c16c09b4b1a0ee159dd08ef"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "acurast_mainnet-native-acu": "/assets/chain-assets/acurast_mainnet-native-acu.png"
+  },
+  "ChainLogoMap": {
+    "acurast_mainnet": "/assets/chains/acurast_mainnet.png"
+  },
+  "mAssetLogoMap": {}
+}
