@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.108-beta.0",
+  "patchVersion": "0.2.108-beta.1",
   "appliedVersion": "0.2.105",
-  "timestamp": 1750409441305,
+  "timestamp": 1762835237219,
   "ChainInfo": {
     "pioneer": {
       "slug": "pioneer",
@@ -687,6 +687,34 @@
     "tscs": "830b822912a5a3806b14f04aaa981d96"
   },
   "ChainAsset": {
+    "amplitude-LOCAL-KSM": {
+      "originChain": "amplitude",
+      "slug": "amplitude-LOCAL-KSM",
+      "name": "Kusama",
+      "symbol": "KSM",
+      "decimals": 12,
+      "priceId": "kusama",
+      "minAmount": "1000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "XCM": "0"
+        },
+        "paraSpellValue": "0",
+        "paraSpellAssetType": "id",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 1,
+            "interior": {
+              "Here": null
+            }
+          }
+        }
+      },
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png"
+    },
     "hydradx_main-LOCAL-H2O": {
       "originChain": "hydradx_main",
       "slug": "hydradx_main-LOCAL-H2O",
@@ -702,6 +730,249 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png"
+    },
+    "amplitude-LOCAL-USDT": {
+      "originChain": "amplitude",
+      "slug": "amplitude-LOCAL-USDT",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "1000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "XCM": "1"
+        },
+        "paraSpellValue": "1",
+        "isDisableTransfer": true,
+        "paraSpellAssetType": "id",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 1,
+            "interior": {
+              "X3": [
+                {
+                  "Parachain": 1000
+                },
+                {
+                  "PalletInstance": 50
+                },
+                {
+                  "GeneralIndex": 1984
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-usdt.png"
+    },
+    "statemint-LOCAL-KSM": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-KSM",
+      "name": "Kusama",
+      "symbol": "KSM",
+      "decimals": 12,
+      "priceId": "kusama",
+      "minAmount": "1000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X1": [
+              {
+                "GlobalConsensus": "Kusama"
+              }
+            ]
+          }
+        },
+        "paraSpellValue": "KSM",
+        "paraSpellAssetType": "symbol",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 2,
+            "interior": {
+              "X1": [
+                {
+                  "GlobalConsensus": {
+                    "kusama": null
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ksm.png"
+    },
+    "statemine-LOCAL-DOT": {
+      "originChain": "statemine",
+      "slug": "statemine-LOCAL-DOT",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "priceId": "polkadot",
+      "minAmount": "10000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X1": [
+              {
+                "GlobalConsensus": "Polkadot"
+              }
+            ]
+          }
+        },
+        "paraSpellValue": "DOT",
+        "paraSpellAssetType": "symbol",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 2,
+            "interior": {
+              "X1": [
+                {
+                  "GlobalConsensus": {
+                    "polkadot": null
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemine-local-dot.png"
+    },
+    "statemint-LOCAL-WBTC": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-WBTC",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "priceId": "wrapped-bitcoin",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                  "network": null
+                }
+              }
+            ]
+          }
+        },
+        "paraSpellValue": "WBTC",
+        "paraSpellAssetType": "symbol",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 2,
+            "interior": {
+              "X2": [
+                {
+                  "GlobalConsensus": {
+                    "Ethereum": {
+                      "chainId": 1
+                    }
+                  }
+                },
+                {
+                  "AccountKey20": {
+                    "network": null,
+                    "key": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "WBTC-WrappedBTC",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wbtc.png"
+    },
+    "statemint-LOCAL-SHIB": {
+      "originChain": "statemint",
+      "slug": "statemint-LOCAL-SHIB",
+      "name": "SHIBA INU",
+      "symbol": "SHIB",
+      "decimals": 18,
+      "priceId": "shiba-inu",
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X2": [
+              {
+                "GlobalConsensus": {
+                  "Ethereum": {
+                    "chainId": 1
+                  }
+                }
+              },
+              {
+                "AccountKey20": {
+                  "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+                  "network": null
+                }
+              }
+            ]
+          }
+        },
+        "paraSpellValue": "SHIB",
+        "paraSpellAssetType": "symbol",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 2,
+            "interior": {
+              "X2": [
+                {
+                  "GlobalConsensus": {
+                    "Ethereum": {
+                      "chainId": 1
+                    }
+                  }
+                },
+                {
+                  "AccountKey20": {
+                    "network": null,
+                    "key": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "SHIB-SHIBAINU",
+      "hasValue": true,
+      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-shib.png"
     },
     "truth_network-LOCAL-USDC": {
       "originChain": "truth_network",
@@ -830,7 +1101,13 @@
     }
   },
   "ChainAssetHashMap": {
+    "amplitude-LOCAL-KSM": "c5e5d825f50147c8bc6bacedf113333b",
     "hydradx_main-LOCAL-H2O": "2b3f1609706e976a34ac353fbcc1a30d",
+    "amplitude-LOCAL-USDT": "530813bb4ce2227710c20eac44f12578",
+    "statemint-LOCAL-KSM": "e30b81fdfbb5214ae233d6689c03a34a",
+    "statemine-LOCAL-DOT": "4c0fd218866f5f260f2a0862f7b41cc7",
+    "statemint-LOCAL-WBTC": "d0f80c43d8bcd0320339d84a6cf269b2",
+    "statemint-LOCAL-SHIB": "c52ab297cb545ea59e9ca679af539dfa",
     "truth_network-LOCAL-USDC": "e3ca1efead19c39470bc1482f68c5b37",
     "hydradx_main-LOCAL-GDOT": "1dbcb37db61024eefc00f1f4a228af84",
     "chainflip_assethub-NATIVE-DOT": "363206a91b684f545264c9ec4f43d8f3",
@@ -843,7 +1120,13 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "amplitude-local-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-ksm.png",
     "hydradx_main-local-h2o": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-h2o.png",
+    "amplitude-local-usdt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/amplitude-local-usdt.png",
+    "statemint-local-ksm": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-ksm.png",
+    "statemine-local-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemine-local-dot.png",
+    "statemint-local-wbtc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-wbtc.png",
+    "statemint-local-shib": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/statemint-local-shib.png",
     "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
     "hydradx_main-local-gdot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hydradx_main-local-gdot.png",
     "chainflip_assethub-native-dot": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/chainflip_assethub-native-dot.png",
