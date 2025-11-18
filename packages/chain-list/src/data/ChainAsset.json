@@ -18720,7 +18720,15 @@
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "100000000"
+      "assetId": "100000000",
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "Here": null
+          }
+        }
+      }
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -19074,6 +19082,84 @@
     "multiChainAsset": "ANLOG-Analog",
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-anlog-0x5305ba038217c391af7e79f6f653c8cbc433deba.png"
+  },
+  "acurast_mainnet-NATIVE-ACU": {
+    "originChain": "acurast_mainnet",
+    "slug": "acurast_mainnet-NATIVE-ACU",
+    "name": "Acurast",
+    "symbol": "ACU",
+    "decimals": 12,
+    "priceId": "acurast",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/acurast_mainnet-native-acu.png"
+  },
+  "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-trac-0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png"
+  },
+  "base_mainnet-ERC20-TRAC-0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-TRAC-0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-trac-0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23.png"
+  },
+  "gnosis-ERC20-TRAC-0xEddd81E0792E764501AaE206EB432399a0268DB5": {
+    "originChain": "gnosis",
+    "slug": "gnosis-ERC20-TRAC-0xEddd81E0792E764501AaE206EB432399a0268DB5",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xEddd81E0792E764501AaE206EB432399a0268DB5"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/gnosis-erc20-trac-0xeddd81e0792e764501aae206eb432399a0268db5.png"
+  },
+  "ethereum-ERC20-vMANTA-0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-vMANTA-0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180",
+    "name": "Bifrost Voucher MANTA",
+    "symbol": "vMANTA",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-manta",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
