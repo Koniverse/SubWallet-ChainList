@@ -1,45 +1,9 @@
 {
-  "patchVersion": "0.2.122-beta.2",
+  "patchVersion": "0.2.122-beta.3",
   "appliedVersion": "0.2.121",
-  "timestamp": 1763382017458,
-  "ChainInfo": {
-    "acurast_mainnet": {
-      "slug": "acurast_mainnet",
-      "name": "Acurast Mainnet",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "/assets/chains/acurast_mainnet.png",
-      "providers": {
-        "Acurast": "wss://public-archive.mainnet.acurast.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": 3396,
-        "genesisHash": "0x4b5f95eefedf0d0fb514339edc24d2d411310520f687b4146145bcedb99885b9",
-        "addressPrefix": 42,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": null,
-        "existentialDeposit": "1000000000",
-        "symbol": "ACU",
-        "decimals": 12,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "supportProxy": true,
-        "crowdloanFunds": []
-      },
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
-    }
-  },
-  "ChainInfoHashMap": {
-    "acurast_mainnet": "ba248a790b62662af5138b76ea1b0332"
-  },
+  "timestamp": 1763382017451,
+  "ChainInfo": {},
+  "ChainInfoHashMap": {},
   "ChainAsset": {
     "xode-LOCAL-DOT": {
       "originChain": "xode",
@@ -64,20 +28,6 @@
       "multiChainAsset": "DOT-Polkadot",
       "hasValue": true,
       "icon": "/assets/chain-assets/xode-local-dot.png"
-    },
-    "acurast_mainnet-NATIVE-ACU": {
-      "originChain": "acurast_mainnet",
-      "slug": "acurast_mainnet-NATIVE-ACU",
-      "name": "Acurast",
-      "symbol": "ACU",
-      "decimals": 12,
-      "priceId": "acurast",
-      "minAmount": "1000000000",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "/assets/chain-assets/acurast_mainnet-native-acu.png"
     },
     "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": {
       "originChain": "ethereum",
@@ -146,7 +96,6 @@
   },
   "ChainAssetHashMap": {
     "xode-LOCAL-DOT": "fdd47e9e2cfab6b61269f08d4724f963",
-    "acurast_mainnet-NATIVE-ACU": "2758cdae4c16c09b4b1a0ee159dd08ef",
     "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": "87a60976dc0147e3c9bbc25dfefdff65",
     "base_mainnet-ERC20-TRAC-0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23": "446f68024f696bf2cfce70be159d358e",
     "gnosis-ERC20-TRAC-0xEddd81E0792E764501AaE206EB432399a0268DB5": "83eb38333eb4bd11e247e566992ff151",
@@ -156,14 +105,11 @@
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "xode-local-dot": "/assets/chain-assets/xode-local-dot.png",
-    "acurast_mainnet-native-acu": "/assets/chain-assets/acurast_mainnet-native-acu.png",
     "ethereum-erc20-trac-0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f": "/assets/chain-assets/ethereum-erc20-trac-0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png",
     "base_mainnet-erc20-trac-0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23": "/assets/chain-assets/base_mainnet-erc20-trac-0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23.png",
     "gnosis-erc20-trac-0xeddd81e0792e764501aae206eb432399a0268db5": "/assets/chain-assets/gnosis-erc20-trac-0xeddd81e0792e764501aae206eb432399a0268db5.png",
     "ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png"
   },
-  "ChainLogoMap": {
-    "acurast_mainnet": "/assets/chains/acurast_mainnet.png"
-  },
+  "ChainLogoMap": {},
   "mAssetLogoMap": {}
 }
