@@ -19033,6 +19033,52 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png"
   },
+  "monad-NATIVE-MON": {
+    "originChain": "monad",
+    "slug": "monad-NATIVE-MON",
+    "name": "Monad",
+    "symbol": "MON",
+    "decimals": 18,
+    "priceId": "monad",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/monad-native-mon.png"
+  },
+  "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603": {
+    "originChain": "monad",
+    "slug": "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/monad-erc20-usdc-0x754704bc059f8c67012fed69bc8a327a5aafb603.png"
+  },
+  "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717",
+    "name": "Bifrost Voucher MANTA",
+    "symbol": "vMANTA",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-manta",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7746ef546d562b443AE4B4145541a3b1a3D75717"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/manta_network_evm-erc20-vmanta-0x7746ef546d562b443ae4b4145541a3b1a3d75717.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",

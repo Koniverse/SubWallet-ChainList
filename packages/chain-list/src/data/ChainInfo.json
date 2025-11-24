@@ -13283,5 +13283,35 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "monad": {
+    "slug": "monad",
+    "name": "Monad Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/monad.png",
+    "providers": {
+      "MonadRPC": "https://rpc.monad.xyz/",
+      "MonadRPC1": "https://rpc1.monad.xyz/",
+      "MonadRPC3": "https://rpc3.monad.xyz/",
+      "Monadinfra": "https://rpc-mainnet.monadinfra.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 143,
+      "blockExplorer": "https://monadvision.com/",
+      "existentialDeposit": "0",
+      "symbol": "MON",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }
