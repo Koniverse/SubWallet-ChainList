@@ -13313,5 +13313,32 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "stable": {
+    "slug": "stable",
+    "name": "Stable Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/stable.png",
+    "providers": {
+      "Stable": "https://rpc.stable.xyz/"
+    },
+    "evmInfo": {
+      "evmChainId": 988,
+      "blockExplorer": "https://partners-explorer.stable.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "gUSDT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }

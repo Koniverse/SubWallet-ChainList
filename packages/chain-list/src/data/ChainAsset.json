@@ -2274,20 +2274,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/khala-native-pha.png"
   },
-  "kilt-NATIVE-KILT": {
-    "originChain": "kilt",
-    "slug": "kilt-NATIVE-KILT",
-    "name": "KILT Protocol",
-    "symbol": "KILT",
-    "decimals": 15,
-    "priceId": "kilt-protocol",
-    "minAmount": "10000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "KILT-KILTProtocol",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/kilt-native-kilt.png"
-  },
   "basilisk-NATIVE-BSX": {
     "originChain": "basilisk",
     "slug": "basilisk-NATIVE-BSX",
@@ -8103,20 +8089,6 @@
     "multiChainAsset": "CFG-Centrifuge",
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-cfg.png"
-  },
-  "polimec-NATIVE-PLMC": {
-    "originChain": "polimec",
-    "slug": "polimec-NATIVE-PLMC",
-    "name": "Polimec",
-    "symbol": "PLMC",
-    "decimals": 10,
-    "priceId": "polimec",
-    "minAmount": "100000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/polimec-native-plmc.png"
   },
   "invarch-NATIVE-VARCH": {
     "originChain": "invarch",
@@ -19078,6 +19050,64 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/manta_network_evm-erc20-vmanta-0x7746ef546d562b443ae4b4145541a3b1a3d75717.png"
+  },
+  "stable-NATIVE-gUSDT": {
+    "originChain": "stable",
+    "slug": "stable-NATIVE-gUSDT",
+    "name": "gUSDT",
+    "symbol": "gUSDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/stable-native-gusdt.png"
+  },
+  "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
+    "originChain": "stable",
+    "slug": "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "decimals": 6,
+    "priceId": "usdt0",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736"
+    },
+    "multiChainAsset": "USD₮0-USD₮0",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
+  },
+  "kilt-NATIVE-KILT": {
+    "originChain": "kilt",
+    "slug": "kilt-NATIVE-KILT",
+    "name": "KILT Protocol",
+    "symbol": "KILT",
+    "decimals": 15,
+    "priceId": "kilt-protocol",
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KILT-KILTProtocol",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/kilt-native-kilt.png"
+  },
+  "polimec-NATIVE-PLMC": {
+    "originChain": "polimec",
+    "slug": "polimec-NATIVE-PLMC",
+    "name": "Polimec",
+    "symbol": "PLMC",
+    "decimals": 10,
+    "priceId": "polimec",
+    "minAmount": "100000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/polimec-native-plmc.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
