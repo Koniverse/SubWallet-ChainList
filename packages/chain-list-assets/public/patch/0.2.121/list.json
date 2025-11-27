@@ -1,9 +1,70 @@
 {
-  "patchVersion": "0.2.122-beta.3",
+  "patchVersion": "0.2.122-beta.5",
   "appliedVersion": "0.2.121",
-  "timestamp": 1763382017451,
-  "ChainInfo": {},
-  "ChainInfoHashMap": {},
+  "timestamp": 1764070251449,
+  "ChainInfo": {
+    "monad": {
+      "slug": "monad",
+      "name": "Monad Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/monad.png",
+      "providers": {
+        "MonadRPC": "https://rpc.monad.xyz/",
+        "MonadRPC1": "https://rpc1.monad.xyz/",
+        "MonadRPC3": "https://rpc3.monad.xyz/",
+        "Monadinfra": "https://rpc-mainnet.monadinfra.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 143,
+        "blockExplorer": "https://monadvision.com/",
+        "existentialDeposit": "0",
+        "symbol": "MON",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "stable": {
+      "slug": "stable",
+      "name": "Stable Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/stable.png",
+      "providers": {
+        "Stable": "https://rpc.stable.xyz/"
+      },
+      "evmInfo": {
+        "evmChainId": 988,
+        "blockExplorer": "https://partners-explorer.stable.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "gUSDT",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "monad": "8027959a1e3313defa7ccca5d0009bf6",
+    "stable": "243b557cff0ca48aa8998f3c68c26f42"
+  },
   "ChainAsset": {
     "xode-LOCAL-DOT": {
       "originChain": "xode",
@@ -92,6 +153,82 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png"
+    },
+    "monad-NATIVE-MON": {
+      "originChain": "monad",
+      "slug": "monad-NATIVE-MON",
+      "name": "Monad",
+      "symbol": "MON",
+      "decimals": 18,
+      "priceId": "monad",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/monad-native-mon.png"
+    },
+    "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603": {
+      "originChain": "monad",
+      "slug": "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/monad-erc20-usdc-0x754704bc059f8c67012fed69bc8a327a5aafb603.png"
+    },
+    "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717": {
+      "originChain": "manta_network_evm",
+      "slug": "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717",
+      "name": "Bifrost Voucher MANTA",
+      "symbol": "vMANTA",
+      "decimals": 18,
+      "priceId": "bifrost-voucher-manta",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x7746ef546d562b443AE4B4145541a3b1a3D75717"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/manta_network_evm-erc20-vmanta-0x7746ef546d562b443ae4b4145541a3b1a3d75717.png"
+    },
+    "stable-NATIVE-gUSDT": {
+      "originChain": "stable",
+      "slug": "stable-NATIVE-gUSDT",
+      "name": "gUSDT",
+      "symbol": "gUSDT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/stable-native-gusdt.png"
+    },
+    "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
+      "originChain": "stable",
+      "slug": "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+      "name": "USD₮0",
+      "symbol": "USD₮0",
+      "decimals": 6,
+      "priceId": "usdt0",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736"
+      },
+      "multiChainAsset": "USD₮0-USD₮0",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
     }
   },
   "ChainAssetHashMap": {
@@ -99,7 +236,12 @@
     "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": "87a60976dc0147e3c9bbc25dfefdff65",
     "base_mainnet-ERC20-TRAC-0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23": "446f68024f696bf2cfce70be159d358e",
     "gnosis-ERC20-TRAC-0xEddd81E0792E764501AaE206EB432399a0268DB5": "83eb38333eb4bd11e247e566992ff151",
-    "ethereum-ERC20-vMANTA-0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180": "888a409034ee08909d240cf7cbccf34f"
+    "ethereum-ERC20-vMANTA-0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180": "888a409034ee08909d240cf7cbccf34f",
+    "monad-NATIVE-MON": "d565c71d408d9d23bf0b7de0cab7dfa5",
+    "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603": "5a8a61abfc4006a6aa632221a6029986",
+    "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717": "c9e2e536aa64d6213a1cba45a131155f",
+    "stable-NATIVE-gUSDT": "ff89a5903a2ce62ee98ff70a4382a152",
+    "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": "eddd73cfab84b639755abfe14e232beb"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -108,8 +250,16 @@
     "ethereum-erc20-trac-0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f": "/assets/chain-assets/ethereum-erc20-trac-0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png",
     "base_mainnet-erc20-trac-0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23": "/assets/chain-assets/base_mainnet-erc20-trac-0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23.png",
     "gnosis-erc20-trac-0xeddd81e0792e764501aae206eb432399a0268db5": "/assets/chain-assets/gnosis-erc20-trac-0xeddd81e0792e764501aae206eb432399a0268db5.png",
-    "ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png"
+    "ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png",
+    "monad-native-mon": "/assets/chain-assets/monad-native-mon.png",
+    "monad-erc20-usdc-0x754704bc059f8c67012fed69bc8a327a5aafb603": "/assets/chain-assets/monad-erc20-usdc-0x754704bc059f8c67012fed69bc8a327a5aafb603.png",
+    "manta_network_evm-erc20-vmanta-0x7746ef546d562b443ae4b4145541a3b1a3d75717": "/assets/chain-assets/manta_network_evm-erc20-vmanta-0x7746ef546d562b443ae4b4145541a3b1a3d75717.png",
+    "stable-native-gusdt": "/assets/chain-assets/stable-native-gusdt.png",
+    "stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736": "/assets/chain-assets/stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
   },
-  "ChainLogoMap": {},
+  "ChainLogoMap": {
+    "monad": "/assets/chains/monad.png",
+    "stable": "/assets/chains/stable.png"
+  },
   "mAssetLogoMap": {}
 }
