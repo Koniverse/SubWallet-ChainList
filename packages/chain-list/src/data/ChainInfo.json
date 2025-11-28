@@ -13321,7 +13321,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/stable.png",
     "providers": {
-      "Stable": "https://rpc.stable.xyz/"
+      "Stable": "https://rpc.stable.xyz/",
+      "Omega": "https://omega-13.gateway.tenderly.co/7i0nzTPHGfvTsYnBMIsYiB"
     },
     "evmInfo": {
       "evmChainId": 988,
