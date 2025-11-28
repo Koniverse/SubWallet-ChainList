@@ -988,5 +988,14 @@
     "priceId": null,
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/wnd-westend.png"
+  },
+  "TANSSI-TANSSI": {
+    "slug": "TANSSI-TANSSI",
+    "originChainAsset": null,
+    "name": "TANSSI",
+    "symbol": "TANSSI",
+    "priceId": "tanssi",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/tanssi-tanssi.png"
   }
 }

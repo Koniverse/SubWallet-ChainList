@@ -17331,5 +17331,35 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-erc20-kilt-0x5d0dd05bb095fdd6af4865a1adf97c39c85ad2d8.png"
+  },
+  "tanssi-NATIVE-TANSSI": {
+    "originChain": "tanssi",
+    "slug": "tanssi-NATIVE-TANSSI",
+    "name": "Tanssi Mainnet",
+    "symbol": "TANSSI",
+    "decimals": 12,
+    "priceId": "tanssi",
+    "minAmount": "33333333",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "TANSSI-TANSSI",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/tanssi-native-tanssi.png"
+  },
+  "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TANSSI-0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB",
+    "name": "TANSSI",
+    "symbol": "TANSSI",
+    "decimals": 12,
+    "priceId": "tanssi",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x553F4cB7256D8fC038E91d36Cb63fa7C13b624AB"
+    },
+    "multiChainAsset": "TANSSI-TANSSI",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-tanssi-0x553f4cb7256d8fc038e91d36cb63fa7c13b624ab.png"
   }
 }

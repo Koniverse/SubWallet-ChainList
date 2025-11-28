@@ -12169,7 +12169,7 @@
     "chainStatus": "ACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/dancelight.png",
     "providers": {
-      "Tanssi": "wss://dancelight.tanssi-api.network"
+      "Testnet": "wss://services.tanssi-testnet.network/dancelight"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12217,6 +12217,41 @@
     },
     "substrateInfo": null,
     "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "tanssi": {
+    "slug": "tanssi",
+    "name": "Tanssi Mainnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "https://chain-list-assets.subwallet.app/assets/chains/tanssi.png",
+    "providers": {
+      "Services ": "wss://services.tanssi-mainnet.network/tanssi"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xdd6d086f75ec041b66e20c4186d327b23c8af244c534a2418de6574e8c041a60",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://tanssi.subscan.io",
+      "existentialDeposit": "33333333",
+      "symbol": "TANSSI",
+      "decimals": 12,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "tanssi",
+      "chainBalanceSlug": "tanssi"
+    },
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
