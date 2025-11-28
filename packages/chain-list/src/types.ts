@@ -78,6 +78,7 @@ export interface _ChainAsset {
     canPayTxFee?: boolean,
     runeId?: string,
     cardanoId?: string,
+    netuid?: number,
     paraSpellAssetType?: string,
     paraSpellValue?: string,
     paraSpellIdentifyV4?: Record<string, any>
@@ -174,6 +175,7 @@ export interface _SubstrateInfo {
 
   hasNativeNft: boolean,
   supportStaking: boolean,
+  supportProxy: boolean,
   supportSmartContract: _AssetType[] | null
 }
 
