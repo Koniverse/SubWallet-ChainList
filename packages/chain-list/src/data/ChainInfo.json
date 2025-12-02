@@ -12923,33 +12923,6 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
-  "redstone": {
-    "slug": "redstone",
-    "name": "Redstone",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": null,
-    "providers": {
-      "Blockfrost": "https://rpc.redstonechain.com/"
-    },
-    "evmInfo": {
-      "evmChainId": 690,
-      "blockExplorer": "https://explorer.redstone.xyz/",
-      "existentialDeposit": "0",
-      "symbol": "ETH",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
-    "substrateInfo": null,
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
   "zkverify": {
     "slug": "zkverify",
     "name": "zkVerify",
@@ -12975,7 +12948,6 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13022,7 +12994,6 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13058,7 +13029,6 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
       "crowdloanFunds": []
     },
     "extraInfo": null,
