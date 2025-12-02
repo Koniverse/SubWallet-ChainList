@@ -827,7 +827,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "http://explorer.mainnet.aventus.io/",
+      "blockExplorer": "http://explorer.mainnet.aventus.network/",
       "existentialDeposit": "0",
       "symbol": "AVT",
       "decimals": 18,
@@ -2341,7 +2341,7 @@
     "slug": "phala",
     "name": "Phala",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/phala.png",
     "providers": {
       "OnFinality": "wss://phala.api.onfinality.io/public-ws",
