@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.122-beta.5",
+  "patchVersion": "0.2.122-beta.6",
   "appliedVersion": "0.2.121",
-  "timestamp": 1764070251449,
+  "timestamp": 1764315577739,
   "ChainInfo": {
     "monad": {
       "slug": "monad",
@@ -40,7 +40,8 @@
       "chainStatus": "ACTIVE",
       "icon": "/assets/chains/stable.png",
       "providers": {
-        "Stable": "https://rpc.stable.xyz/"
+        "Stable": "https://rpc.stable.xyz/",
+        "Omega": "https://omega-13.gateway.tenderly.co/7i0nzTPHGfvTsYnBMIsYiB"
       },
       "evmInfo": {
         "evmChainId": 988,
