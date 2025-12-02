@@ -2341,7 +2341,7 @@
     "slug": "phala",
     "name": "Phala",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/phala.png",
     "providers": {
       "OnFinality": "wss://phala.api.onfinality.io/public-ws",
