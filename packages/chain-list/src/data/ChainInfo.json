@@ -828,7 +828,7 @@
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "http://explorer.mainnet.aventus.network/",
+      "blockExplorer": "http://explorer.mainnet.aventus.io/",
       "existentialDeposit": "0",
       "symbol": "AVT",
       "decimals": 18,
@@ -13053,6 +13053,33 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "redstone": {
+    "slug": "redstone",
+    "name": "Redstone",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": null,
+    "providers": {
+      "Blockfrost": "https://rpc.redstonechain.com/"
+    },
+    "evmInfo": {
+      "evmChainId": 690,
+      "blockExplorer": "https://explorer.redstone.xyz/",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "zkverify": {
     "slug": "zkverify",
     "name": "zkVerify",
@@ -13078,6 +13105,7 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
+      "supportProxy": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13124,6 +13152,7 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
+      "supportProxy": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13159,6 +13188,7 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
+      "supportProxy": true,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13204,7 +13234,8 @@
     "icon": "/assets/chains/stable.png",
     "providers": {
       "Stable": "https://rpc.stable.xyz/",
-      "Omega": "https://omega-13.gateway.tenderly.co/7i0nzTPHGfvTsYnBMIsYiB"
+      "Omega": "https://omega-13.gateway.tenderly.co/7i0nzTPHGfvTsYnBMIsYiB",
+      "Alchemy": "https://stable-mainnet.g.alchemy.com/v2/2d45oQFoYQ7J_y9lDXwog"
     },
     "evmInfo": {
       "evmChainId": 988,
