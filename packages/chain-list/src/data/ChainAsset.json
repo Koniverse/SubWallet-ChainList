@@ -19109,6 +19109,650 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/polimec-native-plmc.png"
   },
+  "subtensor_evm-ERC20-xTAO-0x5eD4103E0D58c8507EF03E227b6365ED98E6f518": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xTAO-0x5eD4103E0D58c8507EF03E227b6365ED98E6f518",
+    "name": "TAO",
+    "symbol": "xTAO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5eD4103E0D58c8507EF03E227b6365ED98E6f518"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xtao-0x5ed4103e0d58c8507ef03e227b6365ed98e6f518.png"
+  },
+  "subtensor_evm-ERC20-xSN4-0x3F2c5460bF575cFa8e3299f643645c91cAb6F565": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN4-0x3F2c5460bF575cFa8e3299f643645c91cAb6F565",
+    "name": "Subnet 4",
+    "symbol": "xSN4",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 4,
+      "contractAddress": "0x3F2c5460bF575cFa8e3299f643645c91cAb6F565"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn4-0x3f2c5460bf575cfa8e3299f643645c91cab6f565.png"
+  },
+  "subtensor_evm-ERC20-xSN8-0x30B5F838d479EC994793e576c9463B53B9a8E277": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN8-0x30B5F838d479EC994793e576c9463B53B9a8E277",
+    "name": "SUBNET 8",
+    "symbol": "xSN8",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 8,
+      "contractAddress": "0x30B5F838d479EC994793e576c9463B53B9a8E277"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn8-0x30b5f838d479ec994793e576c9463b53b9a8e277.png"
+  },
+  "subtensor_evm-ERC20-xSN9-0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN9-0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3",
+    "name": "SUBNET 9",
+    "symbol": "xSN9",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 9,
+      "contractAddress": "0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn9-0x4e1f8793bb6d2a81337eb3eaf1b6fbf4743716b3.png"
+  },
+  "subtensor_evm-ERC20-xSN17-0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN17-0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49",
+    "name": "SUBNET 17",
+    "symbol": "xSN17",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 17,
+      "contractAddress": "0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn17-0x6b9c2de3365635ffe8c8d95d318a3691ed827a49.png"
+  },
+  "subtensor_evm-ERC20-xSN33-0x93D38C4E984b134B48908641776d994f0Bf1a6dD": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN33-0x93D38C4E984b134B48908641776d994f0Bf1a6dD",
+    "name": "SUBNET 33",
+    "symbol": "xSN33",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 33,
+      "contractAddress": "0x93D38C4E984b134B48908641776d994f0Bf1a6dD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn33-0x93d38c4e984b134b48908641776d994f0bf1a6dd.png"
+  },
+  "subtensor_evm-ERC20-xSN34-0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN34-0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b",
+    "name": "SUBNET 34",
+    "symbol": "xSN34",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 34,
+      "contractAddress": "0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn34-0x807d4cf263a4e137d1e6bea8324ed85562e57c9b.png"
+  },
+  "subtensor_evm-ERC20-xSN35-0x2E19cFaEABdF7C738F59F704a1d209C0a146E521": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN35-0x2E19cFaEABdF7C738F59F704a1d209C0a146E521",
+    "name": "SUBNET 35",
+    "symbol": "xSN35",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 35,
+      "contractAddress": "0x2E19cFaEABdF7C738F59F704a1d209C0a146E521"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn35-0x2e19cfaeabdf7c738f59f704a1d209c0a146e521.png"
+  },
+  "subtensor_evm-ERC20-xSN41-0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN41-0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6",
+    "name": "SUBNET 41",
+    "symbol": "xSN41",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 41,
+      "contractAddress": "0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn41-0x1ad8e6e648f4f24259ee35be796408dd18d0b0f6.png"
+  },
+  "subtensor_evm-ERC20-xSN44-0xbbC063299D61ee6c5918633E3Bd30C42D2813b73": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN44-0xbbC063299D61ee6c5918633E3Bd30C42D2813b73",
+    "name": "SUBNET 44",
+    "symbol": "xSN44",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 44,
+      "contractAddress": "0xbbC063299D61ee6c5918633E3Bd30C42D2813b73"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn44-0xbbc063299d61ee6c5918633e3bd30c42d2813b73.png"
+  },
+  "subtensor_evm-ERC20-xSN46-0xDDd14D0e433c5db4367e337e0928aD430c35bbF4": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN46-0xDDd14D0e433c5db4367e337e0928aD430c35bbF4",
+    "name": "SUBNET 46",
+    "symbol": "xSN46",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 46,
+      "contractAddress": "0xDDd14D0e433c5db4367e337e0928aD430c35bbF4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn46-0xddd14d0e433c5db4367e337e0928ad430c35bbf4.png"
+  },
+  "subtensor_evm-ERC20-xSN50-0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN50-0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927",
+    "name": "SUBNET 50",
+    "symbol": "xSN50",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 50,
+      "contractAddress": "0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn50-0xda69e0fc33f6ddc13dc6af2a3ea47198aeefb927.png"
+  },
+  "subtensor_evm-ERC20-xSN51-0x36899fc109F970d3d1E94e24C962607484149CD9": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN51-0x36899fc109F970d3d1E94e24C962607484149CD9",
+    "name": "SUBNET 51",
+    "symbol": "xSN51",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 51,
+      "contractAddress": "0x36899fc109F970d3d1E94e24C962607484149CD9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn51-0x36899fc109f970d3d1e94e24c962607484149cd9.png"
+  },
+  "subtensor_evm-ERC20-xSN56-0x3F18Bd7844492A6ED34738C4D2AD486E9299B997": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN56-0x3F18Bd7844492A6ED34738C4D2AD486E9299B997",
+    "name": "SUBNET 56",
+    "symbol": "xSN56",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 56,
+      "contractAddress": "0x3F18Bd7844492A6ED34738C4D2AD486E9299B997"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn56-0x3f18bd7844492a6ed34738c4d2ad486e9299b997.png"
+  },
+  "subtensor_evm-ERC20-xSN62-0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN62-0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B",
+    "name": "SUBNET 62",
+    "symbol": "xSN62",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 62,
+      "contractAddress": "0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn62-0x0aea63f0f4a1dcc1d6641bf393a0032c2c33f88b.png"
+  },
+  "subtensor_evm-ERC20-xSN64-0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN64-0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843",
+    "name": "SUBNET 64",
+    "symbol": "xSN64",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 64,
+      "contractAddress": "0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn64-0x3d44b9c5eba6de51f4da3152341ebe591962e843.png"
+  },
+  "subtensor_evm-ERC20-xSN65-0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN65-0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055",
+    "name": "SUBNET 65",
+    "symbol": "xSN65",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 65,
+      "contractAddress": "0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn65-0x875d8b5d0df57b234ca7bf1a6fa44e9aa114f055.png"
+  },
+  "subtensor_evm-ERC20-xSN71-0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN71-0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21",
+    "name": "SUBNET 71",
+    "symbol": "xSN71",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 71,
+      "contractAddress": "0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn71-0x156e431cc96e0e3b70c97214d869c9bc4b5bbd21.png"
+  },
+  "subtensor_evm-ERC20-xSN120-0xbB6A51b990C116418033d3648B96C24e995E83A8": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN120-0xbB6A51b990C116418033d3648B96C24e995E83A8",
+    "name": "SUBNET 120",
+    "symbol": "xSN120",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 120,
+      "contractAddress": "0xbB6A51b990C116418033d3648B96C24e995E83A8"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn120-0xbb6a51b990c116418033d3648b96c24e995e83a8.png"
+  },
+  "base_mainnet-ERC20-xTAO-0xb99FBE68c8A0cC14bE8c1AF73DD4DfEA8a76aDD7": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xTAO-0xb99FBE68c8A0cC14bE8c1AF73DD4DfEA8a76aDD7",
+    "name": "TAO",
+    "symbol": "xTAO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb99FBE68c8A0cC14bE8c1AF73DD4DfEA8a76aDD7"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xtao-0xb99fbe68c8a0cc14be8c1af73dd4dfea8a76add7.png"
+  },
+  "base_mainnet-ERC20-xSN4-0x96C3A43918d30a7ca4fc195c7E93A959016a7c26": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN4-0x96C3A43918d30a7ca4fc195c7E93A959016a7c26",
+    "name": "SUBNET 4",
+    "symbol": "xSN4",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 4,
+      "contractAddress": "0x96C3A43918d30a7ca4fc195c7E93A959016a7c26"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn4-0x96c3a43918d30a7ca4fc195c7e93a959016a7c26.png"
+  },
+  "base_mainnet-ERC20-xSN8-0xD321054982b8Aa84785c21E1e2371ebf2e00Eb47": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN8-0xD321054982b8Aa84785c21E1e2371ebf2e00Eb47",
+    "name": "SUBNET 8",
+    "symbol": "xSN8",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 8,
+      "contractAddress": "0xD321054982b8Aa84785c21E1e2371ebf2e00Eb47"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn8-0xd321054982b8aa84785c21e1e2371ebf2e00eb47.png"
+  },
+  "base_mainnet-ERC20-xSN9-0xc995C19aaDec7f9005b64e447baccdA46F413Ea1": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN9-0xc995C19aaDec7f9005b64e447baccdA46F413Ea1",
+    "name": "SUBNET 9",
+    "symbol": "xSN9",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 9,
+      "contractAddress": "0xc995C19aaDec7f9005b64e447baccdA46F413Ea1"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn9-0xc995c19aadec7f9005b64e447baccda46f413ea1.png"
+  },
+  "base_mainnet-ERC20-xSN17-0xe611E64Af6eFc07BD8697f95f6cF04341de91971": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN17-0xe611E64Af6eFc07BD8697f95f6cF04341de91971",
+    "name": "SUBNET 17",
+    "symbol": "xSN17",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 17,
+      "contractAddress": "0xe611E64Af6eFc07BD8697f95f6cF04341de91971"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn17-0xe611e64af6efc07bd8697f95f6cf04341de91971.png"
+  },
+  "base_mainnet-ERC20-xSN33-0x5663179054538cAd0467db00B87d5650600A041E": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN33-0x5663179054538cAd0467db00B87d5650600A041E",
+    "name": "SUBNET 33",
+    "symbol": "xSN33",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 33,
+      "contractAddress": "0x5663179054538cAd0467db00B87d5650600A041E"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn33-0x5663179054538cad0467db00b87d5650600a041e.png"
+  },
+  "base_mainnet-ERC20-xSN34-0x150E673eC255e87A49cE0848216f07EBb107379e": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN34-0x150E673eC255e87A49cE0848216f07EBb107379e",
+    "name": "SUBNET 34",
+    "symbol": "xSN34",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 34,
+      "contractAddress": "0x150E673eC255e87A49cE0848216f07EBb107379e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn34-0x150e673ec255e87a49ce0848216f07ebb107379e.png"
+  },
+  "base_mainnet-ERC20-xSN35-0x38d50D6398dcBB03F334C4409f61117aD37c1A34": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN35-0x38d50D6398dcBB03F334C4409f61117aD37c1A34",
+    "name": "SUBNET 35",
+    "symbol": "xSN35",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 35,
+      "contractAddress": "0x38d50D6398dcBB03F334C4409f61117aD37c1A34"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn35-0x38d50d6398dcbb03f334c4409f61117ad37c1a34.png"
+  },
+  "base_mainnet-ERC20-xSN41-0x3ABAB2E0A24A66C1841716A738964FF757327e87": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN41-0x3ABAB2E0A24A66C1841716A738964FF757327e87",
+    "name": "SUBNET 41",
+    "symbol": "xSN41",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 41,
+      "contractAddress": "0x3ABAB2E0A24A66C1841716A738964FF757327e87"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn41-0x3abab2e0a24a66c1841716a738964ff757327e87.png"
+  },
+  "base_mainnet-ERC20-xSN44-0x2cd86CaBfdE8FfA81d7290bE026b74931C4d1ae4": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN44-0x2cd86CaBfdE8FfA81d7290bE026b74931C4d1ae4",
+    "name": "SUBNET 44",
+    "symbol": "xSN44",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 44,
+      "contractAddress": "0x2cd86CaBfdE8FfA81d7290bE026b74931C4d1ae4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn44-0x2cd86cabfde8ffa81d7290be026b74931c4d1ae4.png"
+  },
+  "base_mainnet-ERC20-xSN46-0xDc338d54870BF0D93a3EF734b3b30D5ae0318a2e": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN46-0xDc338d54870BF0D93a3EF734b3b30D5ae0318a2e",
+    "name": "SUBNET 46",
+    "symbol": "xSN46",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 46,
+      "contractAddress": "0xDc338d54870BF0D93a3EF734b3b30D5ae0318a2e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn46-0xdc338d54870bf0d93a3ef734b3b30d5ae0318a2e.png"
+  },
+  "base_mainnet-ERC20-xSN50-0x6E352B77796857C01fAc416CC18413a9cD09C1b4": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN50-0x6E352B77796857C01fAc416CC18413a9cD09C1b4",
+    "name": "SUBNET 50",
+    "symbol": "xSN50",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 50,
+      "contractAddress": "0x6E352B77796857C01fAc416CC18413a9cD09C1b4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn50-0x6e352b77796857c01fac416cc18413a9cd09c1b4.png"
+  },
+  "base_mainnet-ERC20-xSN51-0x88C23896a91e7f21cba56f4090193730630D5F04": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN51-0x88C23896a91e7f21cba56f4090193730630D5F04",
+    "name": "SUBNET 51",
+    "symbol": "xSN51",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 51,
+      "contractAddress": "0x88C23896a91e7f21cba56f4090193730630D5F04"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn51-0x88c23896a91e7f21cba56f4090193730630d5f04.png"
+  },
+  "base_mainnet-ERC20-xSN56-0xDb3Bc179aC3a78886e277cb83551ceF2fD3e8728": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN56-0xDb3Bc179aC3a78886e277cb83551ceF2fD3e8728",
+    "name": "SUBNET 56",
+    "symbol": "xSN56",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 56,
+      "contractAddress": "0xDb3Bc179aC3a78886e277cb83551ceF2fD3e8728"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn56-0xdb3bc179ac3a78886e277cb83551cef2fd3e8728.png"
+  },
+  "base_mainnet-ERC20-xSN62-0xA964973077675E7AeA71744B05C1111e1A51eE36": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN62-0xA964973077675E7AeA71744B05C1111e1A51eE36",
+    "name": "SUBNET 62",
+    "symbol": "xSN62",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 62,
+      "contractAddress": "0xA964973077675E7AeA71744B05C1111e1A51eE36"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn62-0xa964973077675e7aea71744b05c1111e1a51ee36.png"
+  },
+  "base_mainnet-ERC20-xSN64-0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN64-0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE",
+    "name": "SUBNET 64",
+    "symbol": "xSN64",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 64,
+      "contractAddress": "0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn64-0xbadd3f2d84605032c1b2ad8cbebb4700dcd9d7de.png"
+  },
+  "base_mainnet-ERC20-xSN65-0x2c799017D8B26ab2e50f317322BEc8CE68e322E9": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN65-0x2c799017D8B26ab2e50f317322BEc8CE68e322E9",
+    "name": "SUBNET 65",
+    "symbol": "xSN65",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 65,
+      "contractAddress": "0x2c799017D8B26ab2e50f317322BEc8CE68e322E9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn65-0x2c799017d8b26ab2e50f317322bec8ce68e322e9.png"
+  },
+  "base_mainnet-ERC20-xSN71-0x31b85188F676125a66cBaDda8482FE52EBd2905a": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN71-0x31b85188F676125a66cBaDda8482FE52EBd2905a",
+    "name": "SUBNET 71",
+    "symbol": "xSN71",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 71,
+      "contractAddress": "0x31b85188F676125a66cBaDda8482FE52EBd2905a"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn71-0x31b85188f676125a66cbadda8482fe52ebd2905a.png"
+  },
+  "base_mainnet-ERC20-xSN120-0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN120-0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e",
+    "name": "SUBNET 120",
+    "symbol": "xSN120",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 120,
+      "contractAddress": "0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
