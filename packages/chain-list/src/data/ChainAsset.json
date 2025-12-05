@@ -19753,6 +19753,22 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
   },
+  "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
+    "name": "Midnight",
+    "symbol": "NIGHT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
