@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.122-beta.11",
+  "patchVersion": "0.2.122-beta.12",
   "appliedVersion": "0.2.121",
-  "timestamp": 1764747922232,
+  "timestamp": 1764927140050,
   "ChainInfo": {
     "phala": {
       "slug": "phala",
@@ -29,7 +29,6 @@
         "supportStaking": false,
         "supportSmartContract": null,
         "crowdloanParaId": null,
-        "supportProxy": true,
         "crowdloanFunds": [
           {
             "relayChain": "polkadot",
@@ -113,7 +112,7 @@
     }
   },
   "ChainInfoHashMap": {
-    "phala": "a66118f3ff5ef9ee1c41f392482eefc5",
+    "phala": "52333b927a2c1b21ceac1beb399708fc",
     "monad": "8027959a1e3313defa7ccca5d0009bf6",
     "stable": "243b557cff0ca48aa8998f3c68c26f42"
   },
@@ -925,6 +924,22 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
+    },
+    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
+      "name": "Midnight",
+      "symbol": "NIGHT",
+      "decimals": 6,
+      "priceId": null,
+      "minAmount": null,
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
     }
   },
   "ChainAssetHashMap": {
@@ -975,7 +990,8 @@
     "base_mainnet-ERC20-xSN64-0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE": "a4aa0ce6d4b0ab6a9b123de6ea397601",
     "base_mainnet-ERC20-xSN65-0x2c799017D8B26ab2e50f317322BEc8CE68e322E9": "06ae6fa5b0feda66f40b6365834611ca",
     "base_mainnet-ERC20-xSN71-0x31b85188F676125a66cBaDda8482FE52EBd2905a": "69f7e01ac1284fc3d913e0539de2b521",
-    "base_mainnet-ERC20-xSN120-0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e": "fbceb8cacb42ce7fade80bd316947a68"
+    "base_mainnet-ERC20-xSN120-0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e": "fbceb8cacb42ce7fade80bd316947a68",
+    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "519237c42f336b8831f1cd243193ad2e"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -1027,7 +1043,8 @@
     "base_mainnet-erc20-xsn64-0xbadd3f2d84605032c1b2ad8cbebb4700dcd9d7de": "/assets/chain-assets/base_mainnet-erc20-xsn64-0xbadd3f2d84605032c1b2ad8cbebb4700dcd9d7de.png",
     "base_mainnet-erc20-xsn65-0x2c799017d8b26ab2e50f317322bec8ce68e322e9": "/assets/chain-assets/base_mainnet-erc20-xsn65-0x2c799017d8b26ab2e50f317322bec8ce68e322e9.png",
     "base_mainnet-erc20-xsn71-0x31b85188f676125a66cbadda8482fe52ebd2905a": "/assets/chain-assets/base_mainnet-erc20-xsn71-0x31b85188f676125a66cbadda8482fe52ebd2905a.png",
-    "base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
+    "base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png",
+    "cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
   },
   "ChainLogoMap": {
     "phala": "/assets/chains/phala.png",
