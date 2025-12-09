@@ -4822,7 +4822,7 @@
     "slug": "watr_network_evm",
     "name": "Watr Testnet - EVM",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/watr_network_evm.png",
     "providers": {
       "watr": "https://rpc.dev.watr.org"
@@ -7608,7 +7608,7 @@
     "slug": "watr_mainnet_evm",
     "name": "Watr Mainnet - EVM",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/watr_mainnet_evm.png",
     "providers": {
       "Watr": "wss://watr-rpc.watr-api.network"
@@ -8656,7 +8656,7 @@
     "slug": "commune",
     "name": "Commune AI",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/commune.png",
     "providers": {
       "Commune Node 1": "wss://commune-api-node-1.communeai.net"
@@ -12562,7 +12562,7 @@
     "slug": "clover_mainnet",
     "name": "Clover Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/clover_mainnet.png",
     "providers": {
       "Ivy2": "wss://api-ivy-2.clv.org",
@@ -12697,7 +12697,7 @@
     "slug": "regionx_kusama",
     "name": "RegionX Kusama",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/regionx_kusama.png",
     "providers": {
       "RegionX": "wss://regionx-kusama-rpc-lb.zeeve.net/ld940yl9c6/rpc"
@@ -13090,6 +13090,50 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "mosaic": {
+    "slug": "mosaic",
+    "name": "Mosaic Chain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/mosaic.png",
+    "providers": {
+      "MosaicNode1": "wss://mainnet-gw1.mosaicchain.io/MosaicNode1/chain",
+      "MosaicNode2": "wss://mainnet-gw1.mosaicchain.io/MosaicNode2/chain",
+      "MosaicNode3": "wss://mainnet-gw1.mosaicchain.io/MosaicNode3/chain",
+      "MosaicNode4": "wss://mainnet-gw1.mosaicchain.io/MosaicNode4/chain",
+      "MosaicNode5": "wss://mainnet-gw1.mosaicchain.io/MosaicNode5/chain",
+      "MosaicNode6": "wss://mainnet-gw1.mosaicchain.io/MosaicNode6/chain",
+      "MosaicNode1-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode1/chain",
+      "MosaicNode2-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode2/chain",
+      "MosaicNode3-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode3/chain",
+      "MosaicNode4-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode4/chain",
+      "MosaicNode5-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode5/chain",
+      "MosaicNode6-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode6/chain"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": 3377,
+      "genesisHash": "0xe9bb9edbc674faacf806ad9ea66edc3c90a01925723745f9b0ffa060acba3f05",
+      "addressPrefix": 0,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://mainnet-gw2.mosaicchain.io/",
+      "existentialDeposit": "10000000000000000",
+      "symbol": "MOS",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": true,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
