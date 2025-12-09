@@ -19753,14 +19753,44 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
   },
+  "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+    "name": "Metamask USD",
+    "symbol": "MUSD",
+    "decimals": 6,
+    "priceId": "metamask-usd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da.png"
+  },
+  "mosaic-NATIVE-MOS": {
+    "originChain": "mosaic",
+    "slug": "mosaic-NATIVE-MOS",
+    "name": "Mosaic Coin",
+    "symbol": "MOS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/mosaic-native-mos.png"
+  },
   "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": {
     "originChain": "cardano",
     "slug": "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
     "name": "Midnight",
     "symbol": "NIGHT",
     "decimals": 6,
-    "priceId": null,
-    "minAmount": null,
+    "priceId": "midnight-3",
+    "minAmount": "0",
     "assetType": "CIP26",
     "metadata": {
       "cardanoId": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
