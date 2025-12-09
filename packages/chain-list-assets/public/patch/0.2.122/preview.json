@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.123-beta.0",
+  "patchVersion": "0.2.123-beta.1",
   "appliedVersion": "0.2.122",
-  "timestamp": 1765266934341,
+  "timestamp": 1765278135158,
   "ChainInfo": {
     "watr_network_evm": {
       "slug": "watr_network_evm",
@@ -241,7 +241,7 @@
       "name": "Midnight",
       "symbol": "NIGHT",
       "decimals": 6,
-      "priceId": null,
+      "priceId": "midnight-3",
       "minAmount": "0",
       "assetType": "CIP26",
       "metadata": {
@@ -255,7 +255,7 @@
   "ChainAssetHashMap": {
     "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": "516d92236ea1977eee152593ebb3f782",
     "mosaic-NATIVE-MOS": "7ec52bbd97657ba8a34d47f951271872",
-    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "2f909bd8dbae1aa1ecdede18ec80adc6"
+    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "c631baee1a2e982b99d1a26d909b2519"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
