@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.123-beta.1",
+  "patchVersion": "0.2.123-beta.2",
   "appliedVersion": "0.2.122",
-  "timestamp": 1765278135158,
+  "timestamp": 1765532315445,
   "ChainInfo": {
     "watr_network_evm": {
       "slug": "watr_network_evm",
@@ -151,6 +151,35 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
+    "stable": {
+      "slug": "stable",
+      "name": "Stable Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/stable.png",
+      "providers": {
+        "Stable": "https://rpc.stable.xyz/",
+        "Alchemy": "https://stable-mainnet.g.alchemy.com/v2/2d45oQFoYQ7J_y9lDXwog",
+        "Tenderly": "https://stable.gateway.tenderly.co/"
+      },
+      "evmInfo": {
+        "evmChainId": 988,
+        "blockExplorer": "https://stablescan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "gUSDT",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "mosaic": {
       "slug": "mosaic",
       "name": "Mosaic Chain",
@@ -202,6 +231,7 @@
     "commune": "5a595180e54556bbb808b99d66c6cf14",
     "clover_mainnet": "bb6f0051f3bd38f4ce228570678e3888",
     "regionx_kusama": "ff150de75a49b7e6fd9f9265805fa62c",
+    "stable": "a39e8fdf2263397f490e6721fadde283",
     "mosaic": "ee25a6a520a267e7f5513a7188088494"
   },
   "ChainAsset": {
@@ -270,6 +300,7 @@
     "commune": "/assets/chains/commune.png",
     "clover_mainnet": "/assets/chains/clover_mainnet.png",
     "regionx_kusama": "/assets/chains/regionx_kusama.png",
+    "stable": "/assets/chains/stable.png",
     "mosaic": "/assets/chains/mosaic.png"
   },
   "mAssetLogoMap": {}
