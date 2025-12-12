@@ -19799,6 +19799,67 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
   },
+  "energy_web_x-LOCAL-USDC": {
+    "originChain": "energy_web_x",
+    "slug": "energy_web_x-LOCAL-USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isSufficient": true,
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1337
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/energy_web_x-local-usdc.png"
+  },
+  "energy_web_x-LOCAL-stEWT": {
+    "originChain": "energy_web_x",
+    "slug": "energy_web_x-LOCAL-stEWT",
+    "name": "Liquid EWT",
+    "symbol": "stEWT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isSufficient": true,
+      "multilocation": {
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 60
+            },
+            {
+              "GeneralIndex": 1
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/energy_web_x-local-stewt.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
