@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.123-beta.2",
+  "patchVersion": "0.2.123-beta.3",
   "appliedVersion": "0.2.122",
-  "timestamp": 1765532315445,
+  "timestamp": 1765536706238,
   "ChainInfo": {
     "watr_network_evm": {
       "slug": "watr_network_evm",
@@ -208,7 +208,7 @@
         "addressPrefix": 0,
         "chainType": "PARACHAIN",
         "crowdloanUrl": null,
-        "blockExplorer": "https://mainnet-gw2.mosaicchain.io/",
+        "blockExplorer": "https://mainnet-explorer.mosaicchain.io/",
         "existentialDeposit": "10000000000000000",
         "symbol": "MOS",
         "decimals": 18,
@@ -232,7 +232,7 @@
     "clover_mainnet": "bb6f0051f3bd38f4ce228570678e3888",
     "regionx_kusama": "ff150de75a49b7e6fd9f9265805fa62c",
     "stable": "a39e8fdf2263397f490e6721fadde283",
-    "mosaic": "ee25a6a520a267e7f5513a7188088494"
+    "mosaic": "924fc99a82f5fcf5de931182105340a0"
   },
   "ChainAsset": {
     "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": {
