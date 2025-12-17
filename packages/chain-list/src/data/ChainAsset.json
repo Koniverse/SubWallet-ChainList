@@ -2274,20 +2274,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/khala-native-pha.png"
   },
-  "kilt-NATIVE-KILT": {
-    "originChain": "kilt",
-    "slug": "kilt-NATIVE-KILT",
-    "name": "KILT Protocol",
-    "symbol": "KILT",
-    "decimals": 15,
-    "priceId": "kilt-protocol",
-    "minAmount": "10000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "KILT-KILTProtocol",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/kilt-native-kilt.png"
-  },
   "basilisk-NATIVE-BSX": {
     "originChain": "basilisk",
     "slug": "basilisk-NATIVE-BSX",
@@ -8104,20 +8090,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-cfg.png"
   },
-  "polimec-NATIVE-PLMC": {
-    "originChain": "polimec",
-    "slug": "polimec-NATIVE-PLMC",
-    "name": "Polimec",
-    "symbol": "PLMC",
-    "decimals": 10,
-    "priceId": "polimec",
-    "minAmount": "100000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/polimec-native-plmc.png"
-  },
   "invarch-NATIVE-VARCH": {
     "originChain": "invarch",
     "slug": "invarch-NATIVE-VARCH",
@@ -8380,7 +8352,7 @@
         "VToken2": "8"
       }
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "vMANTA-VoucherMANTA",
     "hasValue": true,
     "icon": "/assets/chain-assets/bifrost_dot-local-vmanta.png"
   },
@@ -14268,7 +14240,7 @@
     "minAmount": "1000000000000",
     "assetType": "NATIVE",
     "metadata": null,
-    "multiChainAsset": null,
+    "multiChainAsset": "ANLOG-Analog",
     "hasValue": true,
     "icon": "/assets/chain-assets/analog_timechain-native-anlog.png"
   },
@@ -15176,12 +15148,11 @@
     "name": "Apex",
     "symbol": "α",
     "decimals": 9,
-    "priceId": "dtao-1",
+    "priceId": "apex-5",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 1,
-      "isDisableTransfer": true
+      "netuid": 1
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15193,12 +15164,11 @@
     "name": "Τemplar",
     "symbol": "γ",
     "decimals": 9,
-    "priceId": "dtao-3",
+    "priceId": "templar",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 3,
-      "isDisableTransfer": true
+      "netuid": 3
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15210,12 +15180,11 @@
     "name": "Omron",
     "symbol": "β",
     "decimals": 9,
-    "priceId": "dtao-2",
+    "priceId": "omron",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 2,
-      "isDisableTransfer": true
+      "netuid": 2
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15227,12 +15196,11 @@
     "name": "Openkaito",
     "symbol": "ε",
     "decimals": 9,
-    "priceId": "dtao-5",
+    "priceId": "openkaito",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 5,
-      "isDisableTransfer": true
+      "netuid": 5
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15244,12 +15212,11 @@
     "name": "Targon",
     "symbol": "δ",
     "decimals": 9,
-    "priceId": "dtao-4",
+    "priceId": "targon",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 4,
-      "isDisableTransfer": true
+      "netuid": 4
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15258,15 +15225,14 @@
   "bittensor-LOCAL-ο": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ο",
-    "name": "De_val",
+    "name": "Bitquant",
     "symbol": "ο",
     "decimals": 9,
-    "priceId": "dtao-15",
+    "priceId": "bitquant",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 15,
-      "isDisableTransfer": true
+      "netuid": 15
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15278,12 +15244,11 @@
     "name": "Nextplace",
     "symbol": "ק",
     "decimals": 9,
-    "priceId": "dtao-48",
+    "priceId": "nextplace",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 48,
-      "isDisableTransfer": true
+      "netuid": 48
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15295,12 +15260,11 @@
     "name": "Subvortex",
     "symbol": "η",
     "decimals": 9,
-    "priceId": "dtao-7",
+    "priceId": "subvortex",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 7,
-      "isDisableTransfer": true
+      "netuid": 7
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15312,12 +15276,11 @@
     "name": "Compute horde",
     "symbol": "μ",
     "decimals": 9,
-    "priceId": "dtao-12",
+    "priceId": "compute-horde",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 12,
-      "isDisableTransfer": true
+      "netuid": 12
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15329,12 +15292,11 @@
     "name": "Sturdy",
     "symbol": "κ",
     "decimals": 9,
-    "priceId": "dtao-10",
+    "priceId": "sturdy-subnet",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 10,
-      "isDisableTransfer": true
+      "netuid": 10
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15346,12 +15308,11 @@
     "name": "Data universe",
     "symbol": "ν",
     "decimals": 9,
-    "priceId": "dtao-13",
+    "priceId": "data-universe",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 13,
-      "isDisableTransfer": true
+      "netuid": 13
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15363,12 +15324,11 @@
     "name": "Omega labs",
     "symbol": "ω",
     "decimals": 9,
-    "priceId": "dtao-24",
+    "priceId": "omega-labs",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 24,
-      "isDisableTransfer": true
+      "netuid": 24
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15380,12 +15340,11 @@
     "name": "Desearch",
     "symbol": "χ",
     "decimals": 9,
-    "priceId": "dtao-22",
+    "priceId": "desearch",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 22,
-      "isDisableTransfer": true
+      "netuid": 22
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15397,12 +15356,11 @@
     "name": "Bitads",
     "symbol": "π",
     "decimals": 9,
-    "priceId": "dtao-16",
+    "priceId": "bitads",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 16,
-      "isDisableTransfer": true
+      "netuid": 16
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15414,12 +15372,11 @@
     "name": "Itsai",
     "symbol": "ח",
     "decimals": 9,
-    "priceId": "dtao-32",
+    "priceId": "itsai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 32,
-      "isDisableTransfer": true
+      "netuid": 32
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15428,15 +15385,14 @@
   "bittensor-LOCAL-ι": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ι",
-    "name": "Pretrain",
+    "name": "Iota",
     "symbol": "ι",
     "decimals": 9,
-    "priceId": "dtao-9",
+    "priceId": "iota-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 9,
-      "isDisableTransfer": true
+      "netuid": 9
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15448,12 +15404,11 @@
     "name": "Readyai",
     "symbol": "ט",
     "decimals": 9,
-    "priceId": "dtao-33",
+    "priceId": "readyai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 33,
-      "isDisableTransfer": true
+      "netuid": 33
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15465,12 +15420,11 @@
     "name": "Dippy",
     "symbol": "λ",
     "decimals": 9,
-    "priceId": "dtao-11",
+    "priceId": "dippy",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 11,
-      "isDisableTransfer": true
+      "netuid": 11
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15482,12 +15436,11 @@
     "name": "Logicnet",
     "symbol": "ך",
     "decimals": 9,
-    "priceId": "dtao-35",
+    "priceId": "logicnet",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 35,
-      "isDisableTransfer": true
+      "netuid": 35
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15499,12 +15452,11 @@
     "name": "Graphite",
     "symbol": "ע",
     "decimals": 9,
-    "priceId": "dtao-43",
+    "priceId": "graphite",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 43,
-      "isDisableTransfer": true
+      "netuid": 43
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15513,15 +15465,14 @@
   "bittensor-LOCAL-מ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-מ",
-    "name": "Edge",
+    "name": "Basilica",
     "symbol": "מ",
     "decimals": 9,
-    "priceId": "dtao-39",
+    "priceId": "w-ai-parked",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 39,
-      "isDisableTransfer": true
+      "netuid": 39
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15533,12 +15484,11 @@
     "name": "Proprietary trading network",
     "symbol": "θ",
     "decimals": 9,
-    "priceId": "dtao-8",
+    "priceId": "proprietary-trading-network",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 8,
-      "isDisableTransfer": true
+      "netuid": 8
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15550,12 +15500,11 @@
     "name": "404—gen",
     "symbol": "ρ",
     "decimals": 9,
-    "priceId": "dtao-17",
+    "priceId": "404-gen",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 17,
-      "isDisableTransfer": true
+      "netuid": 17
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15567,12 +15516,11 @@
     "name": "Bettensor",
     "symbol": "ו",
     "decimals": 9,
-    "priceId": "dtao-30",
+    "priceId": "bettensor",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 30,
-      "isDisableTransfer": true
+      "netuid": 30
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15584,12 +15532,11 @@
     "name": "Celium",
     "symbol": "ת",
     "decimals": 9,
-    "priceId": "dtao-51",
+    "priceId": "celium",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 51,
-      "isDisableTransfer": true
+      "netuid": 51
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15601,12 +15548,11 @@
     "name": "Efficientfrontier",
     "symbol": "ب",
     "decimals": 9,
-    "priceId": "dtao-53",
+    "priceId": "efficientfrontier",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 53,
-      "isDisableTransfer": true
+      "netuid": 53
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15618,12 +15564,11 @@
     "name": "Chunking",
     "symbol": "ן",
     "decimals": 9,
-    "priceId": "dtao-40",
+    "priceId": "chunking",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 40,
-      "isDisableTransfer": true
+      "netuid": 40
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15635,12 +15580,11 @@
     "name": "Gradients",
     "symbol": "ج",
     "decimals": 9,
-    "priceId": "dtao-56",
+    "priceId": "gradients",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 56,
-      "isDisableTransfer": true
+      "netuid": 56
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15649,15 +15593,14 @@
   "bittensor-LOCAL-ψ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ψ",
-    "name": "Zuvu",
+    "name": "Nuance",
     "symbol": "ψ",
     "decimals": 9,
-    "priceId": "dtao-23",
+    "priceId": "nuance-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 23,
-      "isDisableTransfer": true
+      "netuid": 23
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15669,12 +15612,11 @@
     "name": "Swe - rizzo",
     "symbol": "פ",
     "decimals": 9,
-    "priceId": "dtao-45",
+    "priceId": "swe-rizzo",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 45,
-      "isDisableTransfer": true
+      "netuid": 45
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15686,12 +15628,11 @@
     "name": "Vector-store",
     "symbol": "ξ",
     "decimals": 9,
-    "priceId": "dtao-14",
+    "priceId": "taohash",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 14,
-      "isDisableTransfer": true
+      "netuid": 14
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15703,12 +15644,11 @@
     "name": "Dippy speech",
     "symbol": "خ",
     "decimals": 9,
-    "priceId": "dtao-58",
+    "priceId": "dippy-speech",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 58,
-      "isDisableTransfer": true
+      "netuid": 58
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15724,8 +15664,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 28,
-      "isDisableTransfer": true
+      "netuid": 28
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15737,12 +15676,11 @@
     "name": "Bitagent - rizzo",
     "symbol": "υ",
     "decimals": 9,
-    "priceId": "dtao-20",
+    "priceId": "bitagent-rizzo",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 20,
-      "isDisableTransfer": true
+      "netuid": 20
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15754,12 +15692,11 @@
     "name": "Storb",
     "symbol": "ב",
     "decimals": 9,
-    "priceId": "dtao-26",
+    "priceId": "storb",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 26,
-      "isDisableTransfer": true
+      "netuid": 26
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15771,12 +15708,11 @@
     "name": "Webgenieai",
     "symbol": "ت",
     "decimals": 9,
-    "priceId": "dtao-54",
+    "priceId": "webgenieai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 54,
-      "isDisableTransfer": true
+      "netuid": 54
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15788,12 +15724,11 @@
     "name": "Gaia",
     "symbol": "ح",
     "decimals": 9,
-    "priceId": "dtao-57",
+    "priceId": "gaia-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 57,
-      "isDisableTransfer": true
+      "netuid": 57
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15805,12 +15740,11 @@
     "name": "Distributed training",
     "symbol": "ם",
     "decimals": 9,
-    "priceId": "dtao-38",
+    "priceId": "distributed-training",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 38,
-      "isDisableTransfer": true
+      "netuid": 38
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15822,12 +15756,11 @@
     "name": "Real-time data by masa",
     "symbol": "ס",
     "decimals": 9,
-    "priceId": "dtao-42",
+    "priceId": "real-time-data-by-masa",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 42,
-      "isDisableTransfer": true
+      "netuid": 42
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15839,12 +15772,11 @@
     "name": "Automl",
     "symbol": "ר",
     "decimals": 9,
-    "priceId": "dtao-49",
+    "priceId": "polariscloud-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 49,
-      "isDisableTransfer": true
+      "netuid": 49
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15856,12 +15788,11 @@
     "name": "Sportstensor",
     "symbol": "נ",
     "decimals": 9,
-    "priceId": "dtao-41",
+    "priceId": "sportstensor",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 41,
-      "isDisableTransfer": true
+      "netuid": 41
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15873,12 +15804,11 @@
     "name": "Synth",
     "symbol": "ש",
     "decimals": 9,
-    "priceId": "dtao-50",
+    "priceId": "synth-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 50,
-      "isDisableTransfer": true
+      "netuid": 50
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15887,15 +15817,14 @@
   "bittensor-LOCAL-א": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-א",
-    "name": "Folding",
+    "name": "Mainframe",
     "symbol": "א",
     "decimals": 9,
-    "priceId": "dtao-25",
+    "priceId": "mainframe-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 25,
-      "isDisableTransfer": true
+      "netuid": 25
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15907,12 +15836,11 @@
     "name": "Nineteen.ai",
     "symbol": "t",
     "decimals": 9,
-    "priceId": "dtao-19",
+    "priceId": "nineteen-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 19,
-      "isDisableTransfer": true
+      "netuid": 19
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15924,12 +15852,11 @@
     "name": "Dojo",
     "symbol": "ا",
     "decimals": 9,
-    "priceId": "dtao-52",
+    "priceId": "dojo-3",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 52,
-      "isDisableTransfer": true
+      "netuid": 52
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15941,12 +15868,11 @@
     "name": "Web-agents",
     "symbol": "כ",
     "decimals": 9,
-    "priceId": "dtao-36",
+    "priceId": "web-agents-autoppia",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 36,
-      "isDisableTransfer": true
+      "netuid": 36
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15958,12 +15884,11 @@
     "name": "Ni compute",
     "symbol": "ג",
     "decimals": 9,
-    "priceId": "dtao-27",
+    "priceId": "ni-compute",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 27,
-      "isDisableTransfer": true
+      "netuid": 27
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15972,15 +15897,14 @@
   "bittensor-LOCAL-ז": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ז",
-    "name": "Naschain",
+    "name": "Candles",
     "symbol": "ז",
     "decimals": 9,
-    "priceId": "dtao-31",
+    "priceId": "candles",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 31,
-      "isDisableTransfer": true
+      "netuid": 31
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -15992,12 +15916,11 @@
     "name": "Infinite games",
     "symbol": "ζ",
     "decimals": 9,
-    "priceId": "dtao-6",
+    "priceId": "infinite-games",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 6,
-      "isDisableTransfer": true
+      "netuid": 6
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16009,12 +15932,11 @@
     "name": "Bitmind",
     "symbol": "י",
     "decimals": 9,
-    "priceId": "dtao-34",
+    "priceId": "bitmind",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 34,
-      "isDisableTransfer": true
+      "netuid": 34
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16026,12 +15948,11 @@
     "name": "Coldint",
     "symbol": "ה",
     "decimals": 9,
-    "priceId": "dtao-29",
+    "priceId": "coldint",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 29,
-      "isDisableTransfer": true
+      "netuid": 29
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16043,12 +15964,11 @@
     "name": "Score",
     "symbol": "ף",
     "decimals": 9,
-    "priceId": "dtao-44",
+    "priceId": "score",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 44,
-      "isDisableTransfer": true
+      "netuid": 44
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16060,12 +15980,11 @@
     "name": "Precog",
     "symbol": "ث",
     "decimals": 9,
-    "priceId": "dtao-55",
+    "priceId": "precog",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 55,
-      "isDisableTransfer": true
+      "netuid": 55
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16077,12 +15996,11 @@
     "name": "Omega any-to-any",
     "symbol": "φ",
     "decimals": 9,
-    "priceId": "dtao-21",
+    "priceId": "omega-any-to-any",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 21,
-      "isDisableTransfer": true
+      "netuid": 21
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16091,15 +16009,14 @@
   "bittensor-LOCAL-צ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-צ",
-    "name": "Condenses.ai",
+    "name": "Reboot",
     "symbol": "צ",
     "decimals": 9,
-    "priceId": "dtao-47",
+    "priceId": "for-sale",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 47,
-      "isDisableTransfer": true
+      "netuid": 47
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16111,12 +16028,11 @@
     "name": "Finetuning",
     "symbol": "ל",
     "decimals": 9,
-    "priceId": "dtao-37",
+    "priceId": "finetuning",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 37,
-      "isDisableTransfer": true
+      "netuid": 37
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16125,15 +16041,14 @@
   "bittensor-LOCAL-ץ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ץ",
-    "name": "Neural3d",
+    "name": "Resi",
     "symbol": "ץ",
     "decimals": 9,
-    "priceId": "dtao-46",
+    "priceId": "neural3d",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 46,
-      "isDisableTransfer": true
+      "netuid": 46
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16145,12 +16060,11 @@
     "name": "Zeus",
     "symbol": "σ",
     "decimals": 9,
-    "priceId": "dtao-18",
+    "priceId": "zeus-5",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 18,
-      "isDisableTransfer": true
+      "netuid": 18
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16162,12 +16076,11 @@
     "name": "Hippius",
     "symbol": "م",
     "decimals": 9,
-    "priceId": "dtao-75",
+    "priceId": "hippius",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 75,
-      "isDisableTransfer": true
+      "netuid": 75
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16179,12 +16092,11 @@
     "name": "Τaos",
     "symbol": "ي",
     "decimals": 9,
-    "priceId": "dtao-79",
+    "priceId": "aos-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 79,
-      "isDisableTransfer": true
+      "netuid": 79
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16196,12 +16108,11 @@
     "name": "Ai factory",
     "symbol": "ى",
     "decimals": 9,
-    "priceId": "dtao-80",
+    "priceId": "ai-factory",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 80,
-      "isDisableTransfer": true
+      "netuid": 80
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16217,8 +16128,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 69,
-      "isDisableTransfer": true
+      "netuid": 69
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16230,12 +16140,11 @@
     "name": "Agent arena by masa",
     "symbol": "د",
     "decimals": 9,
-    "priceId": "dtao-59",
+    "priceId": "agent-arena-by-masa",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 59,
-      "isDisableTransfer": true
+      "netuid": 59
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16247,12 +16156,11 @@
     "name": "Chutes",
     "symbol": "ش",
     "decimals": 9,
-    "priceId": "dtao-64",
+    "priceId": "chutes",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 64,
-      "isDisableTransfer": true
+      "netuid": 64
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16261,15 +16169,14 @@
   "bittensor-LOCAL-ز": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ز",
-    "name": "Agentao",
+    "name": "Ridges",
     "symbol": "ز",
     "decimals": 9,
-    "priceId": "dtao-62",
+    "priceId": "ridges-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 62,
-      "isDisableTransfer": true
+      "netuid": 62
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16285,8 +16192,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 78,
-      "isDisableTransfer": true
+      "netuid": 78
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16298,12 +16204,11 @@
     "name": "Bitsec.ai",
     "symbol": "ذ",
     "decimals": 9,
-    "priceId": "dtao-60",
+    "priceId": "bitsec-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 60,
-      "isDisableTransfer": true
+      "netuid": 60
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16312,15 +16217,14 @@
   "bittensor-LOCAL-ه": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ه",
-    "name": "Reserved",
+    "name": "Liquidity",
     "symbol": "ه",
     "decimals": 9,
-    "priceId": "dtao-77",
+    "priceId": "liquidity",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 77,
-      "isDisableTransfer": true
+      "netuid": 77
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16332,12 +16236,11 @@
     "name": "Fakenews",
     "symbol": "ض",
     "decimals": 9,
-    "priceId": "dtao-66",
+    "priceId": "fakenews",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 66,
-      "isDisableTransfer": true
+      "netuid": 66
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16346,36 +16249,34 @@
   "bittensor-LOCAL-س": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-س",
-    "name": "Lean-in",
+    "name": "Quantum innovate",
     "symbol": "س",
     "decimals": 9,
-    "priceId": "dtao-63",
+    "priceId": "alpha-trader-exchange-atx",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 63,
-      "isDisableTransfer": true
+      "netuid": 63
     },
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-local-س.png"
   },
-  "bittensor-LOCAL-ف": {
+  "bittensor-LOCAL-ㄴ": {
     "originChain": "bittensor",
-    "slug": "bittensor-LOCAL-ف",
-    "name": "Fa",
-    "symbol": "ف",
+    "slug": "bittensor-LOCAL-ㄴ",
+    "name": "Leadpoet",
+    "symbol": "ㄴ",
     "decimals": 9,
-    "priceId": "dtao-71",
+    "priceId": "kora",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 71,
-      "isDisableTransfer": true
+      "netuid": 71
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "/assets/chain-assets/bittensor-local-ف.png"
+    "icon": "/assets/chain-assets/bittensor-local-ㄴ.png"
   },
   "bittensor-LOCAL-ر": {
     "originChain": "bittensor",
@@ -16383,12 +16284,11 @@
     "name": "Redteam",
     "symbol": "ر",
     "decimals": 9,
-    "priceId": "dtao-61",
+    "priceId": "redteam",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 61,
-      "isDisableTransfer": true
+      "netuid": 61
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16400,12 +16300,11 @@
     "name": "Vericore",
     "symbol": "غ",
     "decimals": 9,
-    "priceId": "dtao-70",
+    "priceId": "vericore",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 70,
-      "isDisableTransfer": true
+      "netuid": 70
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16414,15 +16313,14 @@
   "bittensor-LOCAL-ص": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ص",
-    "name": "Tensor private network (tpn)",
+    "name": "Tao private network",
     "symbol": "ص",
     "decimals": 9,
-    "priceId": "dtao-65",
+    "priceId": "tao-private-network",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 65,
-      "isDisableTransfer": true
+      "netuid": 65
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16431,15 +16329,14 @@
   "bittensor-LOCAL-ك": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ك",
-    "name": "F(x)integral",
+    "name": "Metahash",
     "symbol": "ك",
     "decimals": 9,
-    "priceId": "dtao-73",
+    "priceId": "merit-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 73,
-      "isDisableTransfer": true
+      "netuid": 73
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16451,12 +16348,11 @@
     "name": "Safe scan",
     "symbol": "ن",
     "decimals": 9,
-    "priceId": "dtao-76",
+    "priceId": "safe-scan",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 76,
-      "isDisableTransfer": true
+      "netuid": 76
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16472,8 +16368,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 67,
-      "isDisableTransfer": true
+      "netuid": 67
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16482,15 +16377,14 @@
   "bittensor-LOCAL-ق": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ق",
-    "name": "Qaf",
+    "name": "Streetvision by natix",
     "symbol": "ق",
     "decimals": 9,
-    "priceId": "dtao-72",
+    "priceId": "streetvision-by-natix",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 72,
-      "isDisableTransfer": true
+      "netuid": 72
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16506,8 +16400,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 74,
-      "isDisableTransfer": true
+      "netuid": 74
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16519,12 +16412,11 @@
     "name": "Nova",
     "symbol": "ظ",
     "decimals": 9,
-    "priceId": "dtao-68",
+    "priceId": "nova-3",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 68,
-      "isDisableTransfer": true
+      "netuid": 68
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -16536,12 +16428,11 @@
     "name": "Patrol (tao.com)",
     "symbol": "ي",
     "decimals": 9,
-    "priceId": "dtao-81",
+    "priceId": "patrol-tao-com",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 81,
-      "isDisableTransfer": true
+      "netuid": 81
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17285,12 +17176,11 @@
     "name": "Tensorprox",
     "symbol": "ᚁ",
     "decimals": 9,
-    "priceId": "dtao-91",
+    "priceId": "tensorprox",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 91,
-      "isDisableTransfer": true
+      "netuid": 91
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17302,12 +17192,11 @@
     "name": "Reinforcedai",
     "symbol": "ᚂ",
     "decimals": 9,
-    "priceId": "dtao-92",
+    "priceId": "reinforced-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 92,
-      "isDisableTransfer": true
+      "netuid": 92
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17319,12 +17208,11 @@
     "name": "Eastworld",
     "symbol": "ᚄ",
     "decimals": 9,
-    "priceId": "dtao-94",
+    "priceId": "eastworld",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 94,
-      "isDisableTransfer": true
+      "netuid": 94
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17336,12 +17224,11 @@
     "name": "Sταking",
     "symbol": "ᛉ",
     "decimals": 9,
-    "priceId": "dtao-88",
+    "priceId": "staking-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 88,
-      "isDisableTransfer": true
+      "netuid": 88
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17353,12 +17240,11 @@
     "name": "Brain",
     "symbol": " ",
     "decimals": 9,
-    "priceId": "dtao-90",
+    "priceId": "brain",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 90,
-      "isDisableTransfer": true
+      "netuid": 90
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17370,12 +17256,11 @@
     "name": "Bitcast",
     "symbol": "ᚃ",
     "decimals": 9,
-    "priceId": "dtao-93",
+    "priceId": "bitcast",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 93,
-      "isDisableTransfer": true
+      "netuid": 93
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17387,12 +17272,11 @@
     "name": "Infinitevibe.ai",
     "symbol": "ᛒ",
     "decimals": 9,
-    "priceId": "dtao-89",
+    "priceId": "infinitehash",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 89,
-      "isDisableTransfer": true
+      "netuid": 89
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17404,12 +17288,11 @@
     "name": "Miao",
     "symbol": "ᚳ",
     "decimals": 9,
-    "priceId": "dtao-86",
+    "priceId": "miao",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 86,
-      "isDisableTransfer": true
+      "netuid": 86
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17425,8 +17308,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 95,
-      "isDisableTransfer": true
+      "netuid": 95
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17438,12 +17320,11 @@
     "name": "Checkerchain",
     "symbol": "Ы",
     "decimals": 9,
-    "priceId": "dtao-87",
+    "priceId": "checkerchain-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 87,
-      "isDisableTransfer": true
+      "netuid": 87
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17946,12 +17827,11 @@
     "name": "Uruz",
     "symbol": "ᚢ",
     "decimals": 9,
-    "priceId": "dtao-",
+    "priceId": "dtao-82",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 82,
-      "isDisableTransfer": true
+      "netuid": 82
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17967,8 +17847,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 83,
-      "isDisableTransfer": true
+      "netuid": 83
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17980,12 +17859,11 @@
     "name": "Flock off",
     "symbol": "᚛",
     "decimals": 9,
-    "priceId": "dtao-96",
+    "priceId": "flock-off",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 96,
-      "isDisableTransfer": true
+      "netuid": 96
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -17997,12 +17875,11 @@
     "name": "Flamewire",
     "symbol": "ა",
     "decimals": 9,
-    "priceId": "dtao-97",
+    "priceId": "flamewire",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 97,
-      "isDisableTransfer": true
+      "netuid": 97
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18014,12 +17891,11 @@
     "name": "Creator",
     "symbol": "ბ",
     "decimals": 9,
-    "priceId": "dtao-98",
+    "priceId": "creator-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 98,
-      "isDisableTransfer": true
+      "netuid": 98
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18031,12 +17907,11 @@
     "name": "Neza",
     "symbol": "გ",
     "decimals": 9,
-    "priceId": "dtao-99",
+    "priceId": "neza",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 99,
-      "isDisableTransfer": true
+      "netuid": 99
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18052,8 +17927,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 100,
-      "isDisableTransfer": true
+      "netuid": 100
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18069,8 +17943,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 101,
-      "isDisableTransfer": true
+      "netuid": 101
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18082,12 +17955,11 @@
     "name": "Bettertherapy",
     "symbol": "ვ",
     "decimals": 9,
-    "priceId": "dtao-102",
+    "priceId": "better-therapy",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 102,
-      "isDisableTransfer": true
+      "netuid": 102
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18099,12 +17971,11 @@
     "name": "Happyai",
     "symbol": "Ա",
     "decimals": 9,
-    "priceId": "dtao-103",
+    "priceId": "happyai-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 103,
-      "isDisableTransfer": true
+      "netuid": 103
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18120,8 +17991,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 104,
-      "isDisableTransfer": true
+      "netuid": 104
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18133,12 +18003,11 @@
     "name": "Soundsright",
     "symbol": "Գ",
     "decimals": 9,
-    "priceId": "dtao-105",
+    "priceId": "soundsright",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 105,
-      "isDisableTransfer": true
+      "netuid": 105
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18150,12 +18019,11 @@
     "name": "Voidai",
     "symbol": "Դ",
     "decimals": 9,
-    "priceId": "dtao-106",
+    "priceId": "liquidity-provisioning",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 106,
-      "isDisableTransfer": true
+      "netuid": 106
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18167,12 +18035,11 @@
     "name": "Tiger alpha",
     "symbol": "Ե",
     "decimals": 9,
-    "priceId": "dtao-107",
+    "priceId": "tiger-alpha",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 107,
-      "isDisableTransfer": true
+      "netuid": 107
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18184,12 +18051,11 @@
     "name": "Internet of intelligence",
     "symbol": "Զ",
     "decimals": 9,
-    "priceId": "dtao-108",
+    "priceId": "internet-of-intelligence",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 108,
-      "isDisableTransfer": true
+      "netuid": 108
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18201,12 +18067,11 @@
     "name": "Taoillium",
     "symbol": "՞",
     "decimals": 9,
-    "priceId": "dtao-109",
+    "priceId": "taoillium",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 109,
-      "isDisableTransfer": true
+      "netuid": 109
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18222,8 +18087,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 110,
-      "isDisableTransfer": true
+      "netuid": 110
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18235,12 +18099,11 @@
     "name": "Oneoneone",
     "symbol": "Ё",
     "decimals": 9,
-    "priceId": "dtao-111",
+    "priceId": "oneoneone",
     "minAmount": "0",
     "assetType": null,
     "metadata": {
-      "netuid": 111,
-      "isDisableTransfer": true
+      "netuid": 111
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18256,8 +18119,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 112,
-      "isDisableTransfer": true
+      "netuid": 112
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18269,12 +18131,11 @@
     "name": "Taonado",
     "symbol": "Ѓ",
     "decimals": 9,
-    "priceId": "dtao-113",
+    "priceId": "taonado",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 113,
-      "isDisableTransfer": true
+      "netuid": 113
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18290,8 +18151,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 114,
-      "isDisableTransfer": true
+      "netuid": 114
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18303,12 +18163,11 @@
     "name": "Soulx",
     "symbol": "Ѕ",
     "decimals": 9,
-    "priceId": "dtao-115",
+    "priceId": "cognify",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 115,
-      "isDisableTransfer": true
+      "netuid": 115
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18320,12 +18179,11 @@
     "name": "Solmev",
     "symbol": "ъ",
     "decimals": 9,
-    "priceId": "dtao-116",
+    "priceId": "solmev",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 116,
-      "isDisableTransfer": true
+      "netuid": 116
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18337,12 +18195,11 @@
     "name": "Rna",
     "symbol": "Ⲁ",
     "decimals": 9,
-    "priceId": "dtao-117",
+    "priceId": "rna-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 117,
-      "isDisableTransfer": true
+      "netuid": 117
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18358,8 +18215,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 118,
-      "isDisableTransfer": true
+      "netuid": 118
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18375,8 +18231,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 119,
-      "isDisableTransfer": true
+      "netuid": 119
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18388,12 +18243,11 @@
     "name": "Affine",
     "symbol": "ⲃ",
     "decimals": 9,
-    "priceId": "dtao-120",
+    "priceId": "affine",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 120,
-      "isDisableTransfer": true
+      "netuid": 120
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18405,12 +18259,11 @@
     "name": "Sundae_bar",
     "symbol": "Ⲅ",
     "decimals": 9,
-    "priceId": "dtao-121",
+    "priceId": "sundae-bar",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 121,
-      "isDisableTransfer": true
+      "netuid": 121
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18422,12 +18275,11 @@
     "name": "Bitrecs",
     "symbol": "ⲅ",
     "decimals": 9,
-    "priceId": "dtao-122",
+    "priceId": "bitrecs",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 122,
-      "isDisableTransfer": true
+      "netuid": 122
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18439,12 +18291,11 @@
     "name": "Mantis",
     "symbol": "𑀀",
     "decimals": 9,
-    "priceId": "dtao-123",
+    "priceId": "mantis-2",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 123,
-      "isDisableTransfer": true
+      "netuid": 123
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18456,12 +18307,11 @@
     "name": "Swarm",
     "symbol": "'",
     "decimals": 9,
-    "priceId": "dtao-124",
+    "priceId": "swarm-3",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 124,
-      "isDisableTransfer": true
+      "netuid": 124
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18477,8 +18327,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 125,
-      "isDisableTransfer": true
+      "netuid": 125
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18494,8 +18343,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 126,
-      "isDisableTransfer": true
+      "netuid": 126
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18507,12 +18355,11 @@
     "name": "Cel ai",
     "symbol": "𑀅",
     "decimals": 9,
-    "priceId": "dtao-127",
+    "priceId": "cel-ai",
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 127,
-      "isDisableTransfer": true
+      "netuid": 127
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18528,8 +18375,7 @@
     "minAmount": "0",
     "assetType": "LOCAL",
     "metadata": {
-      "netuid": 128,
-      "isDisableTransfer": true
+      "netuid": 128
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -18720,7 +18566,15 @@
     "minAmount": "10000000000",
     "assetType": "LOCAL",
     "metadata": {
-      "assetId": "100000000"
+      "assetId": "100000000",
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "Here": null
+          }
+        }
+      }
     },
     "multiChainAsset": "DOT-Polkadot",
     "hasValue": true,
@@ -18992,6 +18846,928 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/hydradx_main-local-ena.png"
+  },
+  "bittensor-LOCAL-モ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-モ",
+    "name": "Chipforge (tatsu)",
+    "symbol": "モ",
+    "decimals": 9,
+    "priceId": "docs-insight-tatsu",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 84
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-モ.png"
+  },
+  "bittensor-LOCAL-ᚱ": {
+    "originChain": "bittensor",
+    "slug": "bittensor-LOCAL-ᚱ",
+    "name": "Vidaio",
+    "symbol": "ᚱ",
+    "decimals": 9,
+    "priceId": "vidaio",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 85
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-ᚱ.png"
+  },
+  "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52": {
+    "originChain": "story_protocol",
+    "slug": "story_protocol-ERC20-ARIAIP-0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52",
+    "name": "Aria",
+    "symbol": "ARIAIP",
+    "decimals": 18,
+    "priceId": "aria-2",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xC9cbbD8f211300Dd0e7a3933b7AeEdAC6F61Dd52"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/story_protocol-erc20-ariaip-0xc9cbbd8f211300dd0e7a3933b7aeedac6f61dd52.png"
+  },
+  "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MANTA-0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+    "name": "Manta Network",
+    "symbol": "MANTA",
+    "decimals": 18,
+    "priceId": "manta-network",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5"
+    },
+    "multiChainAsset": "MANTA-MantaAtlantic",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-manta-0x95cef13441be50d20ca4558cc0a27b601ac544e5.png"
+  },
+  "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-ANLOG-0x5305bA038217c391af7E79F6F653C8cbc433DEBa",
+    "name": "Analog",
+    "symbol": "ANLOG",
+    "decimals": 12,
+    "priceId": "analog",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5305bA038217c391af7E79F6F653C8cbc433DEBa"
+    },
+    "multiChainAsset": "ANLOG-Analog",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-anlog-0x5305ba038217c391af7e79f6f653c8cbc433deba.png"
+  },
+  "acurast_mainnet-NATIVE-ACU": {
+    "originChain": "acurast_mainnet",
+    "slug": "acurast_mainnet-NATIVE-ACU",
+    "name": "Acurast",
+    "symbol": "ACU",
+    "decimals": 12,
+    "priceId": "acurast",
+    "minAmount": "1000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/acurast_mainnet-native-acu.png"
+  },
+  "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-TRAC-0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-trac-0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png"
+  },
+  "base_mainnet-ERC20-TRAC-0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-TRAC-0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xA81a52B4dda010896cDd386C7fBdc5CDc835ba23"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-trac-0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23.png"
+  },
+  "gnosis-ERC20-TRAC-0xEddd81E0792E764501AaE206EB432399a0268DB5": {
+    "originChain": "gnosis",
+    "slug": "gnosis-ERC20-TRAC-0xEddd81E0792E764501AaE206EB432399a0268DB5",
+    "name": "OriginTrail",
+    "symbol": "TRAC",
+    "decimals": 18,
+    "priceId": "origintrail",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xEddd81E0792E764501AaE206EB432399a0268DB5"
+    },
+    "multiChainAsset": "TRAC-OriginTrail",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/gnosis-erc20-trac-0xeddd81e0792e764501aae206eb432399a0268db5.png"
+  },
+  "ethereum-ERC20-vMANTA-0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-vMANTA-0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180",
+    "name": "Bifrost Voucher MANTA",
+    "symbol": "vMANTA",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-manta",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xf0b9889CDB70a716Bf72e37Ef626F08d9F14c180"
+    },
+    "multiChainAsset": "vMANTA-VoucherMANTA",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-vmanta-0xf0b9889cdb70a716bf72e37ef626f08d9f14c180.png"
+  },
+  "monad-NATIVE-MON": {
+    "originChain": "monad",
+    "slug": "monad-NATIVE-MON",
+    "name": "Monad",
+    "symbol": "MON",
+    "decimals": 18,
+    "priceId": "monad",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/monad-native-mon.png"
+  },
+  "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603": {
+    "originChain": "monad",
+    "slug": "monad-ERC20-USDC-0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603"
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/monad-erc20-usdc-0x754704bc059f8c67012fed69bc8a327a5aafb603.png"
+  },
+  "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717": {
+    "originChain": "manta_network_evm",
+    "slug": "manta_network_evm-ERC20-vMANTA-0x7746ef546d562b443AE4B4145541a3b1a3D75717",
+    "name": "Bifrost Voucher MANTA",
+    "symbol": "vMANTA",
+    "decimals": 18,
+    "priceId": "bifrost-voucher-manta",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x7746ef546d562b443AE4B4145541a3b1a3D75717"
+    },
+    "multiChainAsset": "vMANTA-VoucherMANTA",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/manta_network_evm-erc20-vmanta-0x7746ef546d562b443ae4b4145541a3b1a3d75717.png"
+  },
+  "stable-NATIVE-gUSDT": {
+    "originChain": "stable",
+    "slug": "stable-NATIVE-gUSDT",
+    "name": "gUSDT",
+    "symbol": "gUSDT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/stable-native-gusdt.png"
+  },
+  "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
+    "originChain": "stable",
+    "slug": "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "decimals": 6,
+    "priceId": "usdt0",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736"
+    },
+    "multiChainAsset": "USD₮0-USD₮0",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
+  },
+  "kilt-NATIVE-KILT": {
+    "originChain": "kilt",
+    "slug": "kilt-NATIVE-KILT",
+    "name": "KILT Protocol",
+    "symbol": "KILT",
+    "decimals": 15,
+    "priceId": "kilt-protocol",
+    "minAmount": "10000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KILT-KILTProtocol",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/kilt-native-kilt.png"
+  },
+  "polimec-NATIVE-PLMC": {
+    "originChain": "polimec",
+    "slug": "polimec-NATIVE-PLMC",
+    "name": "Polimec",
+    "symbol": "PLMC",
+    "decimals": 10,
+    "priceId": "polimec",
+    "minAmount": "100000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/polimec-native-plmc.png"
+  },
+  "subtensor_evm-ERC20-xTAO-0x5eD4103E0D58c8507EF03E227b6365ED98E6f518": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xTAO-0x5eD4103E0D58c8507EF03E227b6365ED98E6f518",
+    "name": "TAO",
+    "symbol": "xTAO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x5eD4103E0D58c8507EF03E227b6365ED98E6f518"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xtao-0x5ed4103e0d58c8507ef03e227b6365ed98e6f518.png"
+  },
+  "subtensor_evm-ERC20-xSN4-0x3F2c5460bF575cFa8e3299f643645c91cAb6F565": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN4-0x3F2c5460bF575cFa8e3299f643645c91cAb6F565",
+    "name": "Subnet 4",
+    "symbol": "xSN4",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 4,
+      "contractAddress": "0x3F2c5460bF575cFa8e3299f643645c91cAb6F565"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn4-0x3f2c5460bf575cfa8e3299f643645c91cab6f565.png"
+  },
+  "subtensor_evm-ERC20-xSN8-0x30B5F838d479EC994793e576c9463B53B9a8E277": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN8-0x30B5F838d479EC994793e576c9463B53B9a8E277",
+    "name": "SUBNET 8",
+    "symbol": "xSN8",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 8,
+      "contractAddress": "0x30B5F838d479EC994793e576c9463B53B9a8E277"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn8-0x30b5f838d479ec994793e576c9463b53b9a8e277.png"
+  },
+  "subtensor_evm-ERC20-xSN9-0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN9-0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3",
+    "name": "SUBNET 9",
+    "symbol": "xSN9",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 9,
+      "contractAddress": "0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn9-0x4e1f8793bb6d2a81337eb3eaf1b6fbf4743716b3.png"
+  },
+  "subtensor_evm-ERC20-xSN17-0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN17-0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49",
+    "name": "SUBNET 17",
+    "symbol": "xSN17",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 17,
+      "contractAddress": "0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn17-0x6b9c2de3365635ffe8c8d95d318a3691ed827a49.png"
+  },
+  "subtensor_evm-ERC20-xSN33-0x93D38C4E984b134B48908641776d994f0Bf1a6dD": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN33-0x93D38C4E984b134B48908641776d994f0Bf1a6dD",
+    "name": "SUBNET 33",
+    "symbol": "xSN33",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 33,
+      "contractAddress": "0x93D38C4E984b134B48908641776d994f0Bf1a6dD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn33-0x93d38c4e984b134b48908641776d994f0bf1a6dd.png"
+  },
+  "subtensor_evm-ERC20-xSN34-0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN34-0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b",
+    "name": "SUBNET 34",
+    "symbol": "xSN34",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 34,
+      "contractAddress": "0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn34-0x807d4cf263a4e137d1e6bea8324ed85562e57c9b.png"
+  },
+  "subtensor_evm-ERC20-xSN35-0x2E19cFaEABdF7C738F59F704a1d209C0a146E521": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN35-0x2E19cFaEABdF7C738F59F704a1d209C0a146E521",
+    "name": "SUBNET 35",
+    "symbol": "xSN35",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 35,
+      "contractAddress": "0x2E19cFaEABdF7C738F59F704a1d209C0a146E521"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn35-0x2e19cfaeabdf7c738f59f704a1d209c0a146e521.png"
+  },
+  "subtensor_evm-ERC20-xSN41-0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN41-0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6",
+    "name": "SUBNET 41",
+    "symbol": "xSN41",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 41,
+      "contractAddress": "0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn41-0x1ad8e6e648f4f24259ee35be796408dd18d0b0f6.png"
+  },
+  "subtensor_evm-ERC20-xSN44-0xbbC063299D61ee6c5918633E3Bd30C42D2813b73": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN44-0xbbC063299D61ee6c5918633E3Bd30C42D2813b73",
+    "name": "SUBNET 44",
+    "symbol": "xSN44",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 44,
+      "contractAddress": "0xbbC063299D61ee6c5918633E3Bd30C42D2813b73"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn44-0xbbc063299d61ee6c5918633e3bd30c42d2813b73.png"
+  },
+  "subtensor_evm-ERC20-xSN46-0xDDd14D0e433c5db4367e337e0928aD430c35bbF4": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN46-0xDDd14D0e433c5db4367e337e0928aD430c35bbF4",
+    "name": "SUBNET 46",
+    "symbol": "xSN46",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 46,
+      "contractAddress": "0xDDd14D0e433c5db4367e337e0928aD430c35bbF4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn46-0xddd14d0e433c5db4367e337e0928ad430c35bbf4.png"
+  },
+  "subtensor_evm-ERC20-xSN50-0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN50-0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927",
+    "name": "SUBNET 50",
+    "symbol": "xSN50",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 50,
+      "contractAddress": "0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn50-0xda69e0fc33f6ddc13dc6af2a3ea47198aeefb927.png"
+  },
+  "subtensor_evm-ERC20-xSN51-0x36899fc109F970d3d1E94e24C962607484149CD9": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN51-0x36899fc109F970d3d1E94e24C962607484149CD9",
+    "name": "SUBNET 51",
+    "symbol": "xSN51",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 51,
+      "contractAddress": "0x36899fc109F970d3d1E94e24C962607484149CD9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn51-0x36899fc109f970d3d1e94e24c962607484149cd9.png"
+  },
+  "subtensor_evm-ERC20-xSN56-0x3F18Bd7844492A6ED34738C4D2AD486E9299B997": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN56-0x3F18Bd7844492A6ED34738C4D2AD486E9299B997",
+    "name": "SUBNET 56",
+    "symbol": "xSN56",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 56,
+      "contractAddress": "0x3F18Bd7844492A6ED34738C4D2AD486E9299B997"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn56-0x3f18bd7844492a6ed34738c4d2ad486e9299b997.png"
+  },
+  "subtensor_evm-ERC20-xSN62-0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN62-0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B",
+    "name": "SUBNET 62",
+    "symbol": "xSN62",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 62,
+      "contractAddress": "0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn62-0x0aea63f0f4a1dcc1d6641bf393a0032c2c33f88b.png"
+  },
+  "subtensor_evm-ERC20-xSN64-0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN64-0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843",
+    "name": "SUBNET 64",
+    "symbol": "xSN64",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 64,
+      "contractAddress": "0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn64-0x3d44b9c5eba6de51f4da3152341ebe591962e843.png"
+  },
+  "subtensor_evm-ERC20-xSN65-0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN65-0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055",
+    "name": "SUBNET 65",
+    "symbol": "xSN65",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 65,
+      "contractAddress": "0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn65-0x875d8b5d0df57b234ca7bf1a6fa44e9aa114f055.png"
+  },
+  "subtensor_evm-ERC20-xSN71-0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN71-0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21",
+    "name": "SUBNET 71",
+    "symbol": "xSN71",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 71,
+      "contractAddress": "0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn71-0x156e431cc96e0e3b70c97214d869c9bc4b5bbd21.png"
+  },
+  "subtensor_evm-ERC20-xSN120-0xbB6A51b990C116418033d3648B96C24e995E83A8": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-xSN120-0xbB6A51b990C116418033d3648B96C24e995E83A8",
+    "name": "SUBNET 120",
+    "symbol": "xSN120",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 120,
+      "contractAddress": "0xbB6A51b990C116418033d3648B96C24e995E83A8"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn120-0xbb6a51b990c116418033d3648b96c24e995e83a8.png"
+  },
+  "base_mainnet-ERC20-xTAO-0xb99FBE68c8A0cC14bE8c1AF73DD4DfEA8a76aDD7": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xTAO-0xb99FBE68c8A0cC14bE8c1AF73DD4DfEA8a76aDD7",
+    "name": "TAO",
+    "symbol": "xTAO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xb99FBE68c8A0cC14bE8c1AF73DD4DfEA8a76aDD7"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xtao-0xb99fbe68c8a0cc14be8c1af73dd4dfea8a76add7.png"
+  },
+  "base_mainnet-ERC20-xSN4-0x96C3A43918d30a7ca4fc195c7E93A959016a7c26": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN4-0x96C3A43918d30a7ca4fc195c7E93A959016a7c26",
+    "name": "SUBNET 4",
+    "symbol": "xSN4",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 4,
+      "contractAddress": "0x96C3A43918d30a7ca4fc195c7E93A959016a7c26"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn4-0x96c3a43918d30a7ca4fc195c7e93a959016a7c26.png"
+  },
+  "base_mainnet-ERC20-xSN8-0xD321054982b8Aa84785c21E1e2371ebf2e00Eb47": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN8-0xD321054982b8Aa84785c21E1e2371ebf2e00Eb47",
+    "name": "SUBNET 8",
+    "symbol": "xSN8",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 8,
+      "contractAddress": "0xD321054982b8Aa84785c21E1e2371ebf2e00Eb47"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn8-0xd321054982b8aa84785c21e1e2371ebf2e00eb47.png"
+  },
+  "base_mainnet-ERC20-xSN9-0xc995C19aaDec7f9005b64e447baccdA46F413Ea1": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN9-0xc995C19aaDec7f9005b64e447baccdA46F413Ea1",
+    "name": "SUBNET 9",
+    "symbol": "xSN9",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 9,
+      "contractAddress": "0xc995C19aaDec7f9005b64e447baccdA46F413Ea1"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn9-0xc995c19aadec7f9005b64e447baccda46f413ea1.png"
+  },
+  "base_mainnet-ERC20-xSN17-0xe611E64Af6eFc07BD8697f95f6cF04341de91971": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN17-0xe611E64Af6eFc07BD8697f95f6cF04341de91971",
+    "name": "SUBNET 17",
+    "symbol": "xSN17",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 17,
+      "contractAddress": "0xe611E64Af6eFc07BD8697f95f6cF04341de91971"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn17-0xe611e64af6efc07bd8697f95f6cf04341de91971.png"
+  },
+  "base_mainnet-ERC20-xSN33-0x5663179054538cAd0467db00B87d5650600A041E": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN33-0x5663179054538cAd0467db00B87d5650600A041E",
+    "name": "SUBNET 33",
+    "symbol": "xSN33",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 33,
+      "contractAddress": "0x5663179054538cAd0467db00B87d5650600A041E"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn33-0x5663179054538cad0467db00b87d5650600a041e.png"
+  },
+  "base_mainnet-ERC20-xSN34-0x150E673eC255e87A49cE0848216f07EBb107379e": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN34-0x150E673eC255e87A49cE0848216f07EBb107379e",
+    "name": "SUBNET 34",
+    "symbol": "xSN34",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 34,
+      "contractAddress": "0x150E673eC255e87A49cE0848216f07EBb107379e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn34-0x150e673ec255e87a49ce0848216f07ebb107379e.png"
+  },
+  "base_mainnet-ERC20-xSN35-0x38d50D6398dcBB03F334C4409f61117aD37c1A34": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN35-0x38d50D6398dcBB03F334C4409f61117aD37c1A34",
+    "name": "SUBNET 35",
+    "symbol": "xSN35",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 35,
+      "contractAddress": "0x38d50D6398dcBB03F334C4409f61117aD37c1A34"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn35-0x38d50d6398dcbb03f334c4409f61117ad37c1a34.png"
+  },
+  "base_mainnet-ERC20-xSN41-0x3ABAB2E0A24A66C1841716A738964FF757327e87": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN41-0x3ABAB2E0A24A66C1841716A738964FF757327e87",
+    "name": "SUBNET 41",
+    "symbol": "xSN41",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 41,
+      "contractAddress": "0x3ABAB2E0A24A66C1841716A738964FF757327e87"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn41-0x3abab2e0a24a66c1841716a738964ff757327e87.png"
+  },
+  "base_mainnet-ERC20-xSN44-0x2cd86CaBfdE8FfA81d7290bE026b74931C4d1ae4": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN44-0x2cd86CaBfdE8FfA81d7290bE026b74931C4d1ae4",
+    "name": "SUBNET 44",
+    "symbol": "xSN44",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 44,
+      "contractAddress": "0x2cd86CaBfdE8FfA81d7290bE026b74931C4d1ae4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn44-0x2cd86cabfde8ffa81d7290be026b74931c4d1ae4.png"
+  },
+  "base_mainnet-ERC20-xSN46-0xDc338d54870BF0D93a3EF734b3b30D5ae0318a2e": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN46-0xDc338d54870BF0D93a3EF734b3b30D5ae0318a2e",
+    "name": "SUBNET 46",
+    "symbol": "xSN46",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 46,
+      "contractAddress": "0xDc338d54870BF0D93a3EF734b3b30D5ae0318a2e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn46-0xdc338d54870bf0d93a3ef734b3b30d5ae0318a2e.png"
+  },
+  "base_mainnet-ERC20-xSN50-0x6E352B77796857C01fAc416CC18413a9cD09C1b4": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN50-0x6E352B77796857C01fAc416CC18413a9cD09C1b4",
+    "name": "SUBNET 50",
+    "symbol": "xSN50",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 50,
+      "contractAddress": "0x6E352B77796857C01fAc416CC18413a9cD09C1b4"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn50-0x6e352b77796857c01fac416cc18413a9cd09c1b4.png"
+  },
+  "base_mainnet-ERC20-xSN51-0x88C23896a91e7f21cba56f4090193730630D5F04": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN51-0x88C23896a91e7f21cba56f4090193730630D5F04",
+    "name": "SUBNET 51",
+    "symbol": "xSN51",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 51,
+      "contractAddress": "0x88C23896a91e7f21cba56f4090193730630D5F04"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn51-0x88c23896a91e7f21cba56f4090193730630d5f04.png"
+  },
+  "base_mainnet-ERC20-xSN56-0xDb3Bc179aC3a78886e277cb83551ceF2fD3e8728": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN56-0xDb3Bc179aC3a78886e277cb83551ceF2fD3e8728",
+    "name": "SUBNET 56",
+    "symbol": "xSN56",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 56,
+      "contractAddress": "0xDb3Bc179aC3a78886e277cb83551ceF2fD3e8728"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn56-0xdb3bc179ac3a78886e277cb83551cef2fd3e8728.png"
+  },
+  "base_mainnet-ERC20-xSN62-0xA964973077675E7AeA71744B05C1111e1A51eE36": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN62-0xA964973077675E7AeA71744B05C1111e1A51eE36",
+    "name": "SUBNET 62",
+    "symbol": "xSN62",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 62,
+      "contractAddress": "0xA964973077675E7AeA71744B05C1111e1A51eE36"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn62-0xa964973077675e7aea71744b05c1111e1a51ee36.png"
+  },
+  "base_mainnet-ERC20-xSN64-0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN64-0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE",
+    "name": "SUBNET 64",
+    "symbol": "xSN64",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 64,
+      "contractAddress": "0xbAdd3F2d84605032C1B2AD8cBebb4700Dcd9D7dE"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn64-0xbadd3f2d84605032c1b2ad8cbebb4700dcd9d7de.png"
+  },
+  "base_mainnet-ERC20-xSN65-0x2c799017D8B26ab2e50f317322BEc8CE68e322E9": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN65-0x2c799017D8B26ab2e50f317322BEc8CE68e322E9",
+    "name": "SUBNET 65",
+    "symbol": "xSN65",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 65,
+      "contractAddress": "0x2c799017D8B26ab2e50f317322BEc8CE68e322E9"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn65-0x2c799017d8b26ab2e50f317322bec8ce68e322e9.png"
+  },
+  "base_mainnet-ERC20-xSN71-0x31b85188F676125a66cBaDda8482FE52EBd2905a": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN71-0x31b85188F676125a66cBaDda8482FE52EBd2905a",
+    "name": "SUBNET 71",
+    "symbol": "xSN71",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 71,
+      "contractAddress": "0x31b85188F676125a66cBaDda8482FE52EBd2905a"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn71-0x31b85188f676125a66cbadda8482fe52ebd2905a.png"
+  },
+  "base_mainnet-ERC20-xSN120-0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-xSN120-0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e",
+    "name": "SUBNET 120",
+    "symbol": "xSN120",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 120,
+      "contractAddress": "0xA3b335797BF5a2Cc2FC21Cc4286D2b3F40f0771e"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
+  },
+  "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": {
+    "originChain": "cardano",
+    "slug": "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
+    "name": "Midnight",
+    "symbol": "NIGHT",
+    "decimals": 6,
+    "priceId": null,
+    "minAmount": null,
+    "assetType": "CIP26",
+    "metadata": {
+      "cardanoId": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",

@@ -1069,5 +1069,23 @@
     "priceId": "zkverify",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/vfy-zkverify.png"
+  },
+  "ANLOG-Analog": {
+    "slug": "ANLOG-Analog",
+    "originChainAsset": null,
+    "name": "Analog",
+    "symbol": "ANLOG",
+    "priceId": "analog",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/anlog-analog.png"
+  },
+  "vMANTA-VoucherMANTA": {
+    "slug": "vMANTA-VoucherMANTA",
+    "originChainAsset": null,
+    "name": "Voucher MANTA",
+    "symbol": "vMANTA",
+    "priceId": "bifrost-voucher-manta",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/vmanta-vouchermanta.png"
   }
 }
