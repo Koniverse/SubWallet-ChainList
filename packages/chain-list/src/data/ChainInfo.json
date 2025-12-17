@@ -8711,7 +8711,7 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
+      "supportProxy": false,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -11574,7 +11574,7 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
+      "supportProxy": false,
       "crowdloanFunds": []
     },
     "extraInfo": null,
