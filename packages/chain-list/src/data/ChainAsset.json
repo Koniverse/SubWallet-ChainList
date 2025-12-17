@@ -19769,6 +19769,22 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
   },
+  "bittensor_testnet-LOCAL-α": {
+    "originChain": "bittensor_testnet",
+    "slug": "bittensor_testnet-LOCAL-α",
+    "name": "Apex",
+    "symbol": "α",
+    "decimals": 9,
+    "priceId": "apex-5",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 1
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor_testnet-local-α.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
