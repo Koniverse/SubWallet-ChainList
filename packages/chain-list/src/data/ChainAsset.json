@@ -13735,11 +13735,11 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/autonomys_taurus-native-tai3.png"
   },
-  "gnosis-NATIVE-xDAI": {
+  "gnosis-NATIVE-XDAI": {
     "originChain": "gnosis",
-    "slug": "gnosis-NATIVE-xDAI",
-    "name": "xDAI",
-    "symbol": "xDAI",
+    "slug": "gnosis-NATIVE-XDAI",
+    "name": "XDAI",
+    "symbol": "XDAI",
     "decimals": 18,
     "priceId": "xdai",
     "minAmount": "0",
@@ -19065,11 +19065,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/stable-native-gusdt.png"
   },
-  "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
+  "stable-ERC20-USDT0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
     "originChain": "stable",
-    "slug": "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
-    "name": "USD₮0",
-    "symbol": "USD₮0",
+    "slug": "stable-ERC20-USDT0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+    "name": "USDT0",
+    "symbol": "USDT0",
     "decimals": 6,
     "priceId": "usdt0",
     "minAmount": "0",
@@ -19079,7 +19079,7 @@
     },
     "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
-    "icon": "/assets/chain-assets/stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
+    "icon": "/assets/chain-assets/stable-erc20-usdt0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
   },
   "kilt-NATIVE-KILT": {
     "originChain": "kilt",
