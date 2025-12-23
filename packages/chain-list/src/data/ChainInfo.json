@@ -1314,18 +1314,29 @@
       "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
       "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": "rococo",
-      "paraId": 2030,
-      "genesisHash": "0x0c003b98abbedae774f5e13cd6146781317016725ab4db34312ea2681e9901f3",
-      "addressPrefix": 0,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": "https://bifrost-testnet.subscan.io/",
-      "existentialDeposit": "10000000000",
+    "evmInfo": {
+      "evmChainId": 49088,
+      "blockExplorer": "https://explorer.testnet.bifrostnetwork.com/",
+      "existentialDeposit": "0",
       "symbol": "BFC",
-      "decimals": 12,
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x15b34a3b7443c73fa1f687cce2d8e5981f6a2eaad54809a6b6af28e83d2adaff",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://explorer.testnet.bifrostnetwork.com/",
+      "existentialDeposit": "0",
+      "symbol": "BFC",
+      "decimals": 18,
       "hasNativeNft": false,
       "supportStaking": true,
       "supportSmartContract": null,
