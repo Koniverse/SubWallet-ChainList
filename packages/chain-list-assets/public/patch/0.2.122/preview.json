@@ -1,8 +1,93 @@
 {
-  "patchVersion": "0.2.123-beta.3",
+  "patchVersion": "0.2.123-beta.5",
   "appliedVersion": "0.2.122",
-  "timestamp": 1765536706238,
+  "timestamp": 1766462685221,
   "ChainInfo": {
+    "shibuya": {
+      "slug": "shibuya",
+      "name": "Shibuya Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/shibuya.png",
+      "providers": {
+        "Shibuya": "wss://rpc.shibuya.astar.network"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 2000,
+        "genesisHash": "0xddb89973361a170839f80f152d2e9e38a376a5a7eccefcade763f46a8e567019",
+        "addressPrefix": 5,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://shibuya.subscan.io/",
+        "existentialDeposit": "1000000",
+        "symbol": "SBY",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": [
+          "PSP34",
+          "PSP22"
+        ],
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "shibuya",
+        "chainBalanceSlug": "shibuya"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "bifrost_testnet": {
+      "slug": "bifrost_testnet",
+      "name": "Bifrost Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/bifrost_testnet.png",
+      "providers": {
+        "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+        "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+      },
+      "evmInfo": {
+        "evmChainId": 49088,
+        "blockExplorer": "https://explorer.testnet.bifrostnetwork.com/",
+        "existentialDeposit": "0",
+        "symbol": "BFC",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x15b34a3b7443c73fa1f687cce2d8e5981f6a2eaad54809a6b6af28e83d2adaff",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://explorer.testnet.bifrostnetwork.com/",
+        "existentialDeposit": "0",
+        "symbol": "BFC",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": true,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": null,
+        "chainBalanceSlug": "bifrost-testnet"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
     "watr_network_evm": {
       "slug": "watr_network_evm",
       "name": "Watr Testnet - EVM",
@@ -223,18 +308,97 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
+    },
+    "bifrost_network": {
+      "slug": "bifrost_network",
+      "name": "Bifrost Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/bifrost_network.png",
+      "providers": {
+        "Bifrostnetwork-01": "wss://public-01.mainnet.bifrostnetwork.com/wss",
+        "Bifrostnetwork-02": "wss://public-02.mainnet.bifrostnetwork.com/wss"
+      },
+      "evmInfo": {
+        "evmChainId": 3068,
+        "blockExplorer": "https://explorer.mainnet.bifrostnetwork.com/",
+        "existentialDeposit": "0",
+        "symbol": "BFC",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0x63e1e2390bf7758f2462ad22b950e7e191f3500226ba6f572346ac06ced516fe",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://explorer.mainnet.bifrostnetwork.com/",
+        "existentialDeposit": "0",
+        "symbol": "BFC",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
+    "shibuya": "9a9a69840b1b5a06bf60233b6241d2ab",
+    "bifrost_testnet": "63872749342b0c8d7843d95a0bad0046",
     "watr_network_evm": "a267769404ef677c3691afb487d93b12",
     "watr_mainnet_evm": "8b8be8cb378a12c16a919e4d18c1a4d6",
     "commune": "5a595180e54556bbb808b99d66c6cf14",
     "clover_mainnet": "bb6f0051f3bd38f4ce228570678e3888",
     "regionx_kusama": "ff150de75a49b7e6fd9f9265805fa62c",
     "stable": "a39e8fdf2263397f490e6721fadde283",
-    "mosaic": "924fc99a82f5fcf5de931182105340a0"
+    "mosaic": "924fc99a82f5fcf5de931182105340a0",
+    "bifrost_network": "cf48e3b944ac37993fe78e54dbc48373"
   },
   "ChainAsset": {
+    "bifrost_testnet-NATIVE-BFC": {
+      "originChain": "bifrost_testnet",
+      "slug": "bifrost_testnet-NATIVE-BFC",
+      "name": "Bifrost Testnet",
+      "symbol": "BFC",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "/assets/chain-assets/bifrost_testnet-native-bfc.png"
+    },
+    "hydradx_main-LOCAL-HOLLAR": {
+      "originChain": "hydradx_main",
+      "slug": "hydradx_main-LOCAL-HOLLAR",
+      "name": "Hydrated Dollar",
+      "symbol": "HOLLAR",
+      "decimals": 18,
+      "priceId": "hydrated-dollar",
+      "minAmount": "20000000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "222",
+        "isGigaToken": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/hydradx_main-local-hollar.png"
+    },
     "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": {
       "originChain": "ethereum",
       "slug": "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
@@ -280,28 +444,248 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+    },
+    "energy_web_x-LOCAL-USDC": {
+      "originChain": "energy_web_x",
+      "slug": "energy_web_x-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isSufficient": true,
+        "multilocation": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        },
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 1,
+            "interior": {
+              "X3": [
+                {
+                  "Parachain": 1000
+                },
+                {
+                  "PalletInstance": 50
+                },
+                {
+                  "GeneralIndex": 1337
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/energy_web_x-local-usdc.png"
+    },
+    "energy_web_x-LOCAL-stEWT": {
+      "originChain": "energy_web_x",
+      "slug": "energy_web_x-LOCAL-stEWT",
+      "name": "Liquid EWT",
+      "symbol": "stEWT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isSufficient": true,
+        "multilocation": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 60
+              },
+              {
+                "GeneralIndex": 1
+              }
+            ]
+          }
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/energy_web_x-local-stewt.png"
+    },
+    "bifrost_network-NATIVE-BFC": {
+      "originChain": "bifrost_network",
+      "slug": "bifrost_network-NATIVE-BFC",
+      "name": "Bifrost",
+      "symbol": "BFC",
+      "decimals": 18,
+      "priceId": "bifrost",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/bifrost_network-native-bfc.png"
+    },
+    "stable-ERC20-PYUSD0-0x99aF3EeA856556646C98c8B9b2548Fe815240750": {
+      "originChain": "stable",
+      "slug": "stable-ERC20-PYUSD0-0x99aF3EeA856556646C98c8B9b2548Fe815240750",
+      "name": "PayPal USD",
+      "symbol": "PYUSD0",
+      "decimals": 6,
+      "priceId": "paypal-usd",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x99aF3EeA856556646C98c8B9b2548Fe815240750"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/stable-erc20-pyusd0-0x99af3eea856556646c98c8b9b2548fe815240750.png"
+    },
+    "statemine-LOCAL-USDC": {
+      "originChain": "statemine",
+      "slug": "statemine-LOCAL-USDC",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "priceId": "usd-coin",
+      "minAmount": "10000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isBridged": true,
+        "multilocation": {
+          "parents": 2,
+          "interior": {
+            "X4": [
+              {
+                "GlobalConsensus": "Polkadot"
+              },
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        },
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 2,
+            "interior": {
+              "X4": [
+                {
+                  "GlobalConsensus": {
+                    "polkadot": null
+                  }
+                },
+                {
+                  "Parachain": 1000
+                },
+                {
+                  "PalletInstance": 50
+                },
+                {
+                  "GeneralIndex": 1337
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "USDC-USDCoin",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/statemine-local-usdc.png"
+    },
+    "statemine-LOCAL-USDT": {
+      "originChain": "statemine",
+      "slug": "statemine-LOCAL-USDT",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "priceId": "tether",
+      "minAmount": "100",
+      "assetType": "LOCAL",
+      "metadata": {
+        "assetId": "1984",
+        "paraSpellIdentifyV4": {
+          "location": {
+            "parents": 1,
+            "interior": {
+              "X3": [
+                {
+                  "Parachain": 1000
+                },
+                {
+                  "PalletInstance": 50
+                },
+                {
+                  "GeneralIndex": 1984
+                }
+              ]
+            }
+          }
+        }
+      },
+      "multiChainAsset": "USDT-Tether",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/statemine-local-usdt.png"
     }
   },
   "ChainAssetHashMap": {
+    "bifrost_testnet-NATIVE-BFC": "1a2df43088e3f3ba6129133d1d209346",
+    "hydradx_main-LOCAL-HOLLAR": "df059915ff9845a71df6b682df92c685",
     "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": "516d92236ea1977eee152593ebb3f782",
     "mosaic-NATIVE-MOS": "7ec52bbd97657ba8a34d47f951271872",
-    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "c631baee1a2e982b99d1a26d909b2519"
+    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "c631baee1a2e982b99d1a26d909b2519",
+    "energy_web_x-LOCAL-USDC": "191094a2ab2830b3ddd717cfc7dc69c7",
+    "energy_web_x-LOCAL-stEWT": "9f2cd00d9c27e9ddcd2e19e92f68aac0",
+    "bifrost_network-NATIVE-BFC": "a5bb8688074f0637001e794d758f82b7",
+    "stable-ERC20-PYUSD0-0x99aF3EeA856556646C98c8B9b2548Fe815240750": "5506c86a4617f34f5915243fde02a79a",
+    "statemine-LOCAL-USDC": "c9e056b142ada4ef9f8abd7b365256fc",
+    "statemine-LOCAL-USDT": "3fa1819c2a91ede7b42dcd356a47a449"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
+    "bifrost_testnet-native-bfc": "/assets/chain-assets/bifrost_testnet-native-bfc.png",
+    "hydradx_main-local-hollar": "/assets/chain-assets/hydradx_main-local-hollar.png",
     "ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da": "/assets/chain-assets/ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da.png",
     "mosaic-native-mos": "/assets/chain-assets/mosaic-native-mos.png",
-    "cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+    "cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png",
+    "energy_web_x-local-usdc": "/assets/chain-assets/energy_web_x-local-usdc.png",
+    "energy_web_x-local-stewt": "/assets/chain-assets/energy_web_x-local-stewt.png",
+    "bifrost_network-native-bfc": "/assets/chain-assets/bifrost_network-native-bfc.png",
+    "stable-erc20-pyusd0-0x99af3eea856556646c98c8b9b2548fe815240750": "/assets/chain-assets/stable-erc20-pyusd0-0x99af3eea856556646c98c8b9b2548fe815240750.png",
+    "statemine-local-usdc": "/assets/chain-assets/statemine-local-usdc.png",
+    "statemine-local-usdt": "/assets/chain-assets/statemine-local-usdt.png"
   },
   "ChainLogoMap": {
+    "shibuya": "/assets/chains/shibuya.png",
+    "bifrost_testnet": "/assets/chains/bifrost_testnet.png",
     "watr_network_evm": "/assets/chains/watr_network_evm.png",
     "watr_mainnet_evm": "/assets/chains/watr_mainnet_evm.png",
     "commune": "/assets/chains/commune.png",
     "clover_mainnet": "/assets/chains/clover_mainnet.png",
     "regionx_kusama": "/assets/chains/regionx_kusama.png",
     "stable": "/assets/chains/stable.png",
-    "mosaic": "/assets/chains/mosaic.png"
+    "mosaic": "/assets/chains/mosaic.png",
+    "bifrost_network": "/assets/chains/bifrost_network.png"
   },
   "mAssetLogoMap": {}
 }
