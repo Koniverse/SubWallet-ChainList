@@ -16,8 +16,7 @@
       "Allnodes": "wss://polkadot-rpc.publicnode.com",
       "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
       "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
-      "IBP2": "wss://polkadot.dotters.network",
-      "Permanence DAO EU": "wss://polkadot.rpc.permanence.io"
+      "IBP2": "wss://polkadot.dotters.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -397,7 +396,6 @@
       "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
       "Parity": "wss://polkadot-asset-hub-rpc.polkadot.io",
       "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub",
-      "IBP1": "wss://sys.ibp.network/asset-hub-polkadot",
       "IBP2": "wss://asset-hub-polkadot.dotters.network",
       "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
       "Radiumblock": "wss://statemint.public.curie.radiumblock.co/ws"
@@ -750,7 +748,7 @@
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
-      "paraId": 1000,
+      "paraId": 2000,
       "genesisHash": "0xddb89973361a170839f80f152d2e9e38a376a5a7eccefcade763f46a8e567019",
       "addressPrefix": 5,
       "chainType": "PARACHAIN",
@@ -2562,7 +2560,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/kilt.png",
     "providers": {
-      "KILT Protocol": "wss://spiritnet.kilt.io/",
       "IBP1": "wss://kilt.ibp.network",
       "IBP2": "wss://kilt.dotters.network"
     },
@@ -8492,9 +8489,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/mythos.png",
     "providers": {
-      "Parity": "wss://polkadot-mythos-rpc.polkadot.io",
-      "Helikon": "wss://rpc.helikon.io/mythos",
-      "IBP1": "wss://mythos.ibp.network"
+      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
     },
     "evmInfo": {
       "evmChainId": -1,
@@ -8599,8 +8594,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/paseotest.png",
     "providers": {
-      "Amforc": "wss://paseo.rpc.amforc.com",
-      "Dwellir": "wss://paseo-rpc.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/paseo",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/paseo"
     },
@@ -8909,8 +8902,6 @@
     "icon": "/assets/chains/avail_mainnet.png",
     "providers": {
       "Ankr": "wss://mainnet.avail-rpc.com/",
-      "BrightlyStake": "wss://avail-us.brightlystake.com/",
-      "GlobalStake": "wss://rpc-avail.globalstake.io/",
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
     },
     "evmInfo": null,
@@ -10849,7 +10840,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/autonomys.png",
     "providers": {
-      "Subspace": "wss://rpc-1.mainnet.subspace.network/ws",
       "Foundation": "wss://rpc.mainnet.subspace.foundation/ws",
       "Labs": "wss://rpc-0.mainnet.autonomys.xyz/ws"
     },
@@ -13108,6 +13098,51 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "bifrost_network": {
+    "slug": "bifrost_network",
+    "name": "Bifrost Network",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/bifrost_network.png",
+    "providers": {
+      "Bifrostnetwork-01": "wss://public-01.mainnet.bifrostnetwork.com/wss",
+      "Bifrostnetwork-02": "wss://public-02.mainnet.bifrostnetwork.com/wss"
+    },
+    "evmInfo": {
+      "evmChainId": 3068,
+      "blockExplorer": "https://explorer.mainnet.bifrostnetwork.com/",
+      "existentialDeposit": "0",
+      "symbol": "BFC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x63e1e2390bf7758f2462ad22b950e7e191f3500226ba6f572346ac06ced516fe",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://explorer.mainnet.bifrostnetwork.com/",
+      "existentialDeposit": "0",
+      "symbol": "BFC",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
