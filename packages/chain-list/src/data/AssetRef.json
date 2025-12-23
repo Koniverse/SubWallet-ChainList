@@ -440,6 +440,13 @@
     "destChain": "xode",
     "path": "XCM"
   },
+  "statemint-LOCAL-USDt___statemine-LOCAL-USDT": {
+    "srcAsset": "statemint-LOCAL-USDt",
+    "destAsset": "statemine-LOCAL-USDT",
+    "srcChain": "statemint",
+    "destChain": "statemine",
+    "path": "XCM"
+  },
   "bifrost-LOCAL-KSM___kusama-NATIVE-KSM": {
     "srcAsset": "bifrost-LOCAL-KSM",
     "destAsset": "kusama-NATIVE-KSM",
@@ -529,6 +536,20 @@
     "destAsset": "hydradx_main-LOCAL-USDC",
     "srcChain": "statemint",
     "destChain": "hydradx_main",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDC___energy_web_x-LOCAL-USDC": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "energy_web_x-LOCAL-USDC",
+    "srcChain": "statemint",
+    "destChain": "energy_web_x",
+    "path": "XCM"
+  },
+  "statemint-LOCAL-USDC___statemine-LOCAL-USDC": {
+    "srcAsset": "statemint-LOCAL-USDC",
+    "destAsset": "statemine-LOCAL-USDC",
+    "srcChain": "statemint",
+    "destChain": "statemine",
     "path": "XCM"
   },
   "hydradx_main-LOCAL-USDC___statemint-LOCAL-USDC": {
@@ -941,6 +962,27 @@
     "srcAsset": "xode-LOCAL-USDT",
     "destAsset": "statemint-LOCAL-USDt",
     "srcChain": "xode",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "energy_web_x-LOCAL-USDC___statemint-LOCAL-USDC": {
+    "srcAsset": "energy_web_x-LOCAL-USDC",
+    "destAsset": "statemint-LOCAL-USDC",
+    "srcChain": "energy_web_x",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "statemine-LOCAL-USDC___statemint-LOCAL-USDC": {
+    "srcAsset": "statemine-LOCAL-USDC",
+    "destAsset": "statemint-LOCAL-USDC",
+    "srcChain": "statemine",
+    "destChain": "statemint",
+    "path": "XCM"
+  },
+  "statemine-LOCAL-USDT___statemint-LOCAL-USDt": {
+    "srcAsset": "statemine-LOCAL-USDT",
+    "destAsset": "statemint-LOCAL-USDt",
+    "srcChain": "statemine",
     "destChain": "statemint",
     "path": "XCM"
   }
