@@ -1,0 +1,307 @@
+{
+  "patchVersion": "0.2.123-beta.3",
+  "appliedVersion": "0.2.122",
+  "timestamp": 1765536706238,
+  "ChainInfo": {
+    "watr_network_evm": {
+      "slug": "watr_network_evm",
+      "name": "Watr Testnet - EVM",
+      "isTestnet": true,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/watr_network_evm.png",
+      "providers": {
+        "watr": "https://rpc.dev.watr.org"
+      },
+      "evmInfo": {
+        "evmChainId": 688,
+        "blockExplorer": null,
+        "existentialDeposit": "0",
+        "symbol": "WATRD",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "watr_mainnet_evm": {
+      "slug": "watr_mainnet_evm",
+      "name": "Watr Mainnet - EVM",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/watr_mainnet_evm.png",
+      "providers": {
+        "Watr": "wss://watr-rpc.watr-api.network"
+      },
+      "evmInfo": {
+        "evmChainId": 688,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000000000",
+        "symbol": "WATR",
+        "decimals": 18,
+        "supportSmartContract": null,
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "commune": {
+      "slug": "commune",
+      "name": "Commune AI",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/commune.png",
+      "providers": {
+        "Commune Node 1": "wss://commune-api-node-1.communeai.net"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xbc6eb9753e2417476601485f9f8ef8474701ec199d456f989bd397682c9425c5",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://explorer.comstats.org/#/",
+        "existentialDeposit": "500",
+        "symbol": "COMAI",
+        "decimals": 9,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "clover_mainnet": {
+      "slug": "clover_mainnet",
+      "name": "Clover Mainnet",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/clover_mainnet.png",
+      "providers": {
+        "Ivy2": "wss://api-ivy-2.clv.org",
+        "Ivy3": "wss://api-ivy-3.clv.org"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": null,
+        "genesisHash": "0xe923f1773f4197a862cb4fc4a562f93585b26131dadbc943d524a82bbeecd2eb",
+        "addressPrefix": 42,
+        "chainType": "RELAYCHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://clover.subscan.io/",
+        "existentialDeposit": "500",
+        "symbol": "CLV",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "regionx_kusama": {
+      "slug": "regionx_kusama",
+      "name": "RegionX Kusama",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/regionx_kusama.png",
+      "providers": {
+        "RegionX": "wss://regionx-kusama-rpc-lb.zeeve.net/ld940yl9c6/rpc"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 3422,
+        "genesisHash": "0x086319b29662e34a4f7a3de034afe64c93e3ed477e3aed3ab3ef6e31d33bc179",
+        "addressPrefix": 74,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": null,
+        "existentialDeposit": "10000000000",
+        "symbol": "KSM",
+        "decimals": 12,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "stable": {
+      "slug": "stable",
+      "name": "Stable Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/stable.png",
+      "providers": {
+        "Stable": "https://rpc.stable.xyz/",
+        "Alchemy": "https://stable-mainnet.g.alchemy.com/v2/2d45oQFoYQ7J_y9lDXwog",
+        "Tenderly": "https://stable.gateway.tenderly.co/"
+      },
+      "evmInfo": {
+        "evmChainId": 988,
+        "blockExplorer": "https://stablescan.xyz/",
+        "existentialDeposit": "0",
+        "symbol": "gUSDT",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "mosaic": {
+      "slug": "mosaic",
+      "name": "Mosaic Chain",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/mosaic.png",
+      "providers": {
+        "MosaicNode1": "wss://mainnet-gw1.mosaicchain.io/MosaicNode1/chain",
+        "MosaicNode2": "wss://mainnet-gw1.mosaicchain.io/MosaicNode2/chain",
+        "MosaicNode3": "wss://mainnet-gw1.mosaicchain.io/MosaicNode3/chain",
+        "MosaicNode4": "wss://mainnet-gw1.mosaicchain.io/MosaicNode4/chain",
+        "MosaicNode5": "wss://mainnet-gw1.mosaicchain.io/MosaicNode5/chain",
+        "MosaicNode6": "wss://mainnet-gw1.mosaicchain.io/MosaicNode6/chain",
+        "MosaicNode1-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode1/chain",
+        "MosaicNode2-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode2/chain",
+        "MosaicNode3-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode3/chain",
+        "MosaicNode4-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode4/chain",
+        "MosaicNode5-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode5/chain",
+        "MosaicNode6-gw2": "wss://mainnet-gw2.mosaicchain.io/MosaicNode6/chain"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 3377,
+        "genesisHash": "0xe9bb9edbc674faacf806ad9ea66edc3c90a01925723745f9b0ffa060acba3f05",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://mainnet-explorer.mosaicchain.io/",
+        "existentialDeposit": "10000000000000000",
+        "symbol": "MOS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": true,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "watr_network_evm": "a267769404ef677c3691afb487d93b12",
+    "watr_mainnet_evm": "8b8be8cb378a12c16a919e4d18c1a4d6",
+    "commune": "5a595180e54556bbb808b99d66c6cf14",
+    "clover_mainnet": "bb6f0051f3bd38f4ce228570678e3888",
+    "regionx_kusama": "ff150de75a49b7e6fd9f9265805fa62c",
+    "stable": "a39e8fdf2263397f490e6721fadde283",
+    "mosaic": "924fc99a82f5fcf5de931182105340a0"
+  },
+  "ChainAsset": {
+    "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+      "name": "Metamask USD",
+      "symbol": "MUSD",
+      "decimals": 6,
+      "priceId": "metamask-usd",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da.png"
+    },
+    "mosaic-NATIVE-MOS": {
+      "originChain": "mosaic",
+      "slug": "mosaic-NATIVE-MOS",
+      "name": "Mosaic Coin",
+      "symbol": "MOS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "10000000000000000",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/mosaic-native-mos.png"
+    },
+    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": {
+      "originChain": "cardano",
+      "slug": "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
+      "name": "Midnight",
+      "symbol": "NIGHT",
+      "decimals": 6,
+      "priceId": "midnight-3",
+      "minAmount": "0",
+      "assetType": "CIP26",
+      "metadata": {
+        "cardanoId": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": "516d92236ea1977eee152593ebb3f782",
+    "mosaic-NATIVE-MOS": "7ec52bbd97657ba8a34d47f951271872",
+    "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "c631baee1a2e982b99d1a26d909b2519"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da": "/assets/chain-assets/ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da.png",
+    "mosaic-native-mos": "/assets/chain-assets/mosaic-native-mos.png",
+    "cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+  },
+  "ChainLogoMap": {
+    "watr_network_evm": "/assets/chains/watr_network_evm.png",
+    "watr_mainnet_evm": "/assets/chains/watr_mainnet_evm.png",
+    "commune": "/assets/chains/commune.png",
+    "clover_mainnet": "/assets/chains/clover_mainnet.png",
+    "regionx_kusama": "/assets/chains/regionx_kusama.png",
+    "stable": "/assets/chains/stable.png",
+    "mosaic": "/assets/chains/mosaic.png"
+  },
+  "mAssetLogoMap": {}
+}
