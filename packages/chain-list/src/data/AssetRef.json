@@ -959,17 +959,17 @@
     "path": "XCM"
   },
   "bittensor-NATIVE-TAO___subtensor_evm-NATIVE-TAO": {
-    "srcAsset": "bittensor_testnet-NATIVE-TAO",
-    "destAsset": "subtensor_evm_testnet-NATIVE-TAO",
-    "srcChain": "bittensor_testnet",
-    "destChain": "subtensor_evm_testnet",
+    "srcAsset": "bittensor-NATIVE-TAO",
+    "destAsset": "subtensor_evm-NATIVE-TAO",
+    "srcChain": "bittensor",
+    "destChain": "subtensor_evm",
     "path": "XCM"
   },
   "subtensor_evm-NATIVE-TAO___bittensor-NATIVE-TAO": {
-    "srcAsset": "subtensor_evm_testnet-NATIVE-TAO",
-    "destAsset": "bittensor_testnet-NATIVE-TAO",
-    "srcChain": "subtensor_evm_testnet",
-    "destChain": "bittensor_testnet",
+    "srcAsset": "subtensor_evm-NATIVE-TAO",
+    "destAsset": "bittensor-NATIVE-TAO",
+    "srcChain": "subtensor_evm",
+    "destChain": "bittensor",
     "path": "XCM"
   }
 }
