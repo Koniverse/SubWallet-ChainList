@@ -18409,6 +18409,20 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
   },
+   "subtensor_evm_testnet-NATIVE-TAO": {
+    "originChain": "subtensor_evm_testnet",
+    "slug": "subtensor_evm_testnet-NATIVE-TAO",
+    "name": "Subtensor EVM Testnet",
+    "symbol": "TAO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
+  },
   "auto_evm-NATIVE-AI3": {
     "originChain": "auto_evm",
     "slug": "auto_evm-NATIVE-AI3",
