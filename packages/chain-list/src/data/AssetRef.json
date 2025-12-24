@@ -943,5 +943,19 @@
     "srcChain": "xode",
     "destChain": "statemint",
     "path": "XCM"
+  },
+  "bittensor_testnet-NATIVE-TAO___subtensor_evm_testnet-NATIVE-TAO": {
+    "srcAsset": "bittensor_testnet-NATIVE-TAO",
+    "destAsset": "subtensor_evm_testnet-NATIVE-TAO",
+    "srcChain": "bittensor_testnet",
+    "destChain": "subtensor_evm_testnet",
+    "path": "XCM"
+  },
+  "subtensor_evm_testnet-NATIVE-TAO___bittensor_testnet-NATIVE-TAO": {
+    "srcAsset": "subtensor_evm_testnet-NATIVE-TAO",
+    "destAsset": "bittensor_testnet-NATIVE-TAO",
+    "srcChain": "subtensor_evm_testnet",
+    "destChain": "bittensor_testnet",
+    "path": "XCM"
   }
 }
