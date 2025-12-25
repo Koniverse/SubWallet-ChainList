@@ -14812,6 +14812,22 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/cardano_preproduction-native-tada.png"
   },
+  "cardano_preview-NATIVE-tADA": {
+  "originChain": "cardano_preview",
+  "slug": "cardano_preview-NATIVE-tADA",
+  "name": "Cardano Preview",
+  "symbol": "tADA",
+  "decimals": 6,
+  "priceId": null,
+  "minAmount": "0",
+  "assetType": "NATIVE",
+  "metadata": {
+    "cardanoId": "lovelace"
+  },
+  "multiChainAsset": null,
+  "hasValue": false,
+  "icon": "/assets/chain-assets/cardano_preview-native-tada.png"
+  },
   "cardano_preproduction-CIP26-BLUEDOT": {
     "originChain": "cardano_preproduction",
     "slug": "cardano_preproduction-CIP26-BLUEDOT",

@@ -11960,6 +11960,27 @@
       "symbol": "tADA"
     }
   },
+  "cardano_preview": {
+    "slug": "cardano_preview",
+    "name": "Cardano Preview",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/cardano_preview.png",
+    "providers": {
+      "Blockfrost": "https://cardano-preview.blockfrost.io/api/v0"
+    },
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": {
+      "blockExplorer": "https://preview.cardanoscan.io",
+      "existentialDeposit": "0",
+      "decimals": 6,
+      "symbol": "tADA"
+    }
+  },
   "peaq_evm": {
     "slug": "peaq_evm",
     "name": "peaq EVM",
