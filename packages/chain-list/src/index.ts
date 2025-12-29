@@ -1,4 +1,4 @@
-// Copyright 2019-2024 @subwallet/chain-list authors & contributors
+// Copyright 2017-2022 @subwallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 import { Md5 } from 'ts-md5';
@@ -39,7 +39,11 @@ export enum COMMON_CHAIN_SLUGS {
   POLKADOT_ASSET_HUB = 'statemint',
   KUSAMA_ASSET_HUB = 'statemine',
   ROCOCO_ASSET_HUB = 'rococo_assethub',
-  ARBITRUM = 'arbitrum_one'
+  ARBITRUM = 'arbitrum_one',
+  BITTENSOR = 'bittensor',
+  BITTENSOR_TESTNET = 'bittensor_testnet',
+  SUBTENSOR_EVM = 'subtensor_evm',
+  SUBTENSOR_EVM_TESTNET = 'subtensor_evm_testnet'
 }
 
 export enum COMMON_ASSETS {

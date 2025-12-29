@@ -18409,6 +18409,20 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
   },
+   "subtensor_evm_testnet-NATIVE-TAO": {
+    "originChain": "subtensor_evm_testnet",
+    "slug": "subtensor_evm_testnet-NATIVE-TAO",
+    "name": "Subtensor EVM Testnet",
+    "symbol": "TAO",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-native-tao.png"
+  },
   "auto_evm-NATIVE-AI3": {
     "originChain": "auto_evm",
     "slug": "auto_evm-NATIVE-AI3",
@@ -19768,6 +19782,22 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+  },
+  "bittensor_testnet-LOCAL-α": {
+    "originChain": "bittensor_testnet",
+    "slug": "bittensor_testnet-LOCAL-α",
+    "name": "Apex",
+    "symbol": "α",
+    "decimals": 9,
+    "priceId": "apex-5",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 1
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor_testnet-local-α.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
