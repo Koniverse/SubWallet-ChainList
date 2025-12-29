@@ -20000,6 +20000,88 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/statemine-local-usdt.png"
   },
+  "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "priceId": "jpycoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+  },
+  "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+    "originChain": "avalanche_c",
+    "slug": "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "priceId": "jpycoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/avalanche_c-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+  },
+  "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "priceId": "jpycoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/polygon-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+  },
+  "bifrost_dot-LOCAL-WAVE": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-WAVE",
+    "name": "WAVE",
+    "symbol": "WAVE",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "100000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "14"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bifrost_dot-local-wave.png"
+  },
+  "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153",
+    "name": "Primer",
+    "symbol": "PR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2357110F5F0c5344EEf75966500c75116A4aA153"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
