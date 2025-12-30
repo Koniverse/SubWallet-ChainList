@@ -1892,7 +1892,7 @@
     "slug": "nodle",
     "name": "Nodle",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/nodle.png",
     "providers": {
       "OnFinality": "wss://nodle-parachain.api.onfinality.io/public-ws"
@@ -2652,7 +2652,7 @@
     "slug": "altair",
     "name": "Altair",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/altair.png",
     "providers": {
       "Centrifuge": "wss://fullnode.altair.centrifuge.io",
