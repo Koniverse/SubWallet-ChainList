@@ -1968,20 +1968,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/kintsugi-local-kbtc.png"
   },
-  "nodle-NATIVE-NODL": {
-    "originChain": "nodle",
-    "slug": "nodle-NATIVE-NODL",
-    "name": "Nodle",
-    "symbol": "NODL",
-    "decimals": 11,
-    "priceId": "nodle-network",
-    "minAmount": "10000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/nodle-native-nodl.png"
-  },
   "darwinia2-NATIVE-RING": {
     "originChain": "darwinia2",
     "slug": "darwinia2-NATIVE-RING",
@@ -2287,20 +2273,6 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/basilisk-native-bsx.png"
-  },
-  "altair-NATIVE-AIR": {
-    "originChain": "altair",
-    "slug": "altair-NATIVE-AIR",
-    "name": "Altair",
-    "symbol": "AIR",
-    "decimals": 18,
-    "priceId": "altair",
-    "minAmount": "1000000000000",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "/assets/chain-assets/altair-native-air.png"
   },
   "heiko-NATIVE-HKO": {
     "originChain": "heiko",
