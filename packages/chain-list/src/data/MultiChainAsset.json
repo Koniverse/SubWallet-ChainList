@@ -377,6 +377,15 @@
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/intr-interlay.png"
   },
+  "JPYC-JPYCoin": {
+    "slug": "JPYC-JPYCoin",
+    "originChainAsset": "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "priceId": "jpyc",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/jpyc-jpycoin.png"
+  },
   "ENJ-Enjin": {
     "slug": "ENJ-Enjin",
     "originChainAsset": "enjin_relaychain-NATIVE-ENJ",
