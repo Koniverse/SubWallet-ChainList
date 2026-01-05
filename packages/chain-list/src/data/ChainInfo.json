@@ -5670,7 +5670,7 @@
     "slug": "logion",
     "name": "Logion",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/logion.png",
     "providers": {
       "Logion 1": "wss://para-rpc01.logion.network"
