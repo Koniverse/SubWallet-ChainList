@@ -1,0 +1,818 @@
+{
+  "packages/chain-list": {
+    "root": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets": [
+      "packages/chain-list/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.dependsOn": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.outputs": [
+      "packages/chain-list/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "packages/chain-list/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "packages/chain-list/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "packages/chain-list/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "packages/chain-list/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.cache": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.inputs": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.inputs": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.syncGenerators": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.1": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.continuous": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.syncGenerators": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.deprecated": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.continuous": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.syncGenerators": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.continuous": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.syncGenerators": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.1": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "packages/chain-list/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.lint": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/chain-list/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare.metadata": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare.options.script": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare.metadata.scriptContent": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:compare.metadata.runCommand": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data.metadata": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data.options.script": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data.metadata.scriptContent": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.patch:data.metadata.runCommand": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains.metadata": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains.options.script": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains.metadata.scriptContent": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chains.metadata.runCommand": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets.metadata": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets.options.script": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets.metadata.scriptContent": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:chain-assets.metadata.runCommand": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets.metadata": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets.options.script": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets.metadata.scriptContent": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:multi-chain-assets.metadata.runCommand": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all.metadata": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all.options.script": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all.metadata.scriptContent": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.fetch:all.metadata.runCommand": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/chain-list/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  ".": {
+    "root": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "includedScripts": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.local-registry": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.local-registry.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.local-registry.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.local-registry.options.port": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.local-registry.options.config": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.local-registry.options.storage": [
+      "package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

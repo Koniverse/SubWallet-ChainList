@@ -1,15 +1,10 @@
 {
   "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "baseUrl": "./packages",
-    "composite": false,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
-  },
-  "include": [
-    "packages/**/src/**/*"
-  ],
-  "exclude": [
-    "**/node_modules/**/*"
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/chain-list"
+    }
   ]
 }

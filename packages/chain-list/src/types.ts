@@ -4,22 +4,22 @@
 export enum _ChainStatus {
   ACTIVE = 'ACTIVE',
   INACTIVE = 'INACTIVE',
-  STOPPED = 'STOPPED'
+  STOPPED = 'STOPPED',
 }
 
 export enum _ChainProviderStatus {
   ONLINE = 'ONLINE',
   OFFLINE = 'OFFLINE',
-  UNSTABLE = 'UNSTABLE'
+  UNSTABLE = 'UNSTABLE',
 }
 
 export interface _ChainProvider {
-  id_: number,
-  chainId_: number,
-  providerName: string,
-  endpoint: string,
-  providerMode: string,
-  status: _ChainProviderStatus
+  id_: number;
+  chainId_: number;
+  providerName: string;
+  endpoint: string;
+  providerMode: string;
+  status: _ChainProviderStatus;
 }
 
 export enum _AssetType {
@@ -36,77 +36,77 @@ export enum _AssetType {
   BRC20 = 'BRC20',
   TEP74 = 'TEP74',
   CIP26 = 'CIP26',
-  UNKNOWN = 'UNKNOWN'
+  UNKNOWN = 'UNKNOWN',
 }
 
 export enum _SubstrateChainType {
   RELAYCHAIN = 'RELAYCHAIN',
-  PARACHAIN = 'PARACHAIN'
+  PARACHAIN = 'PARACHAIN',
 }
 
 export interface _ChainInfo {
-  slug: string,
-  name: string,
-  chainStatus: _ChainStatus,
-  isTestnet: boolean,
-  providers: Record<string, string>,
-  substrateInfo: _SubstrateInfo | null,
-  evmInfo: _EvmInfo | null,
+  slug: string;
+  name: string;
+  chainStatus: _ChainStatus;
+  isTestnet: boolean;
+  providers: Record<string, string>;
+  substrateInfo: _SubstrateInfo | null;
+  evmInfo: _EvmInfo | null;
   bitcoinInfo: _BitcoinInfo | null;
-  extraInfo: _ExtraInfo | null,
-  tonInfo: _TonInfo | null,
-  cardanoInfo: _CardanoInfo | null,
-  icon: string
+  extraInfo: _ExtraInfo | null;
+  tonInfo: _TonInfo | null;
+  cardanoInfo: _CardanoInfo | null;
+  icon: string;
 }
 
 export interface _ChainAsset {
-  originChain: string,
-  slug: string,
-  name: string,
-  symbol: string,
-  decimals: number | null,
-  priceId: string | null,
-  minAmount: string | null,
-  assetType: _AssetType,
+  originChain: string;
+  slug: string;
+  name: string;
+  symbol: string;
+  decimals: number | null;
+  priceId: string | null;
+  minAmount: string | null;
+  assetType: _AssetType;
   metadata: null | {
-    contractAddress?: string,
-    multilocation?: unknown,
-    onChainInfo?: unknown,
-    assetId?: string,
-    isBridged?: boolean,
-    assetType?: string,
-    canPayTxFee?: boolean,
-    runeId?: string,
-    cardanoId?: string,
-    netuid?: number,
-    paraSpellAssetType?: string,
-    paraSpellValue?: string,
-    paraSpellIdentifyV4?: Record<string, any>
+    contractAddress?: string;
+    multilocation?: unknown;
+    onChainInfo?: unknown;
+    assetId?: string;
+    isBridged?: boolean;
+    assetType?: string;
+    canPayTxFee?: boolean;
+    runeId?: string;
+    cardanoId?: string;
+    netuid?: number;
+    paraSpellAssetType?: string;
+    paraSpellValue?: string;
+    paraSpellIdentifyV4?: Record<string, any>;
 
-    alternativeSwapAsset?: string,
-    disableEvmTransfer?: boolean,
-    isDisableTransfer?: boolean,
-    autoEnable?: boolean,
-    isSufficient?: boolean,
-    allowAsBaseAsset?: boolean,
-    isGigaToken?: boolean
-  },
-  multiChainAsset: string | null,
-  hasValue: boolean,
-  icon: string
+    alternativeSwapAsset?: string;
+    disableEvmTransfer?: boolean;
+    isDisableTransfer?: boolean;
+    autoEnable?: boolean;
+    isSufficient?: boolean;
+    allowAsBaseAsset?: boolean;
+    isGigaToken?: boolean;
+  };
+  multiChainAsset: string | null;
+  hasValue: boolean;
+  icon: string;
 }
 
 export interface _EvmInfo {
-  evmChainId: number,
-  blockExplorer: string | null,
+  evmChainId: number;
+  blockExplorer: string | null;
 
   // some info about native tokens (for convenience)
-  existentialDeposit: string,
-  decimals: number,
-  symbol: string,
+  existentialDeposit: string;
+  decimals: number;
+  symbol: string;
 
-  supportSmartContract: _AssetType[] | null,
-  abiExplorer: string | null
+  supportSmartContract: _AssetType[] | null;
+  abiExplorer: string | null;
 }
 
 export type BitcoinNetworkMode = 'mainnet' | 'testnet' | 'regtest' | 'signet';
@@ -116,7 +116,7 @@ export interface _BitcoinInfo {
   existentialDeposit: string;
   decimals: number;
   symbol: string;
-  bitcoinNetwork: BitcoinNetworkMode
+  bitcoinNetwork: BitcoinNetworkMode;
 }
 
 export interface _TonInfo {
@@ -146,62 +146,62 @@ export enum _FundStatus {
 }
 
 export interface _CrowdloanFund {
-  relayChain: 'polkadot' | 'kusama'
-  fundId: string
-  paraId: number
-  status: _FundStatus
-  startTime: Date
-  endTime: Date
-  auctionIndex: number
-  firstPeriod: number
-  lastPeriod: number
+  relayChain: 'polkadot' | 'kusama';
+  fundId: string;
+  paraId: number;
+  status: _FundStatus;
+  startTime: Date;
+  endTime: Date;
+  auctionIndex: number;
+  firstPeriod: number;
+  lastPeriod: number;
 }
 
 export interface _SubstrateInfo {
-  relaySlug: string | null,
-  paraId: number | null,
-  genesisHash: string,
-  addressPrefix: number,
-  crowdloanParaId: number | null,
-  crowdloanUrl: string | null,
-  crowdloanFunds: _CrowdloanFund[] | null,
-  chainType: _SubstrateChainType,
-  blockExplorer: string | null,
+  relaySlug: string | null;
+  paraId: number | null;
+  genesisHash: string;
+  addressPrefix: number;
+  crowdloanParaId: number | null;
+  crowdloanUrl: string | null;
+  crowdloanFunds: _CrowdloanFund[] | null;
+  chainType: _SubstrateChainType;
+  blockExplorer: string | null;
 
   // some info about native tokens (for convenience)
-  existentialDeposit: string,
-  decimals: number,
-  symbol: string,
+  existentialDeposit: string;
+  decimals: number;
+  symbol: string;
 
-  hasNativeNft: boolean,
-  supportStaking: boolean,
-  supportSmartContract: _AssetType[] | null
+  hasNativeNft: boolean;
+  supportStaking: boolean;
+  supportSmartContract: _AssetType[] | null;
 }
 
 export interface _MultiChainAsset {
-  slug: string,
-  originChainAsset: string,
-  name: string,
-  symbol: string,
-  priceId: string,
-  hasValue: boolean,
-  icon: string,
+  slug: string;
+  originChainAsset: string;
+  name: string;
+  symbol: string;
+  priceId: string;
+  hasValue: boolean;
+  icon: string;
 }
 
 export enum _AssetRefPath {
   XCM = 'XCM',
   MANTA_ZK = 'MANTA_ZK',
-  SWAP = 'SWAP'
+  SWAP = 'SWAP',
 }
 
 export interface _AssetRef {
-  srcAsset: string,
-  destAsset: string,
+  srcAsset: string;
+  destAsset: string;
 
-  srcChain: string,
-  destChain: string,
+  srcChain: string;
+  destChain: string;
 
-  metadata?: Record<string, any>,
+  metadata?: Record<string, any>;
 
-  path: _AssetRefPath
+  path: _AssetRefPath;
 }

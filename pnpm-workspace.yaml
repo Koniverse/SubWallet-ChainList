@@ -1,0 +1,10 @@
+packages:
+  - packages/*
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - nx
+  - oxc-resolver
+  - sharp
+  - workerd

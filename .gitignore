@@ -1,31 +1,50 @@
-_book/
-build/
-build-*/
-coverage/
-node_modules/
-tmp/
-exports/
-/import_map.json
-/mod.ts
-NOTES.md
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.npmrc
-.rpt2_cache
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-.pnp.*
-.idea/
-.vscode/
-!scripts/exports
-cc-test-reporter
-lerna-debug.log*
-npm-debug.log*
-package-lock.json
-tsconfig*buildinfo
-yarn-debug.log*
-yarn-error.log*
+Thumbs.db
+
+.nx/cache
+.nx/workspace-data
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+
+.env
+/packages/chain-list/scripts/export-data/

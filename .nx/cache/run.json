@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run @subwallet/chain-list:build",
+    "startTime": "2026-01-05T09:12:10.145Z",
+    "endTime": "2026-01-05T09:12:12.202Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@subwallet/chain-list:build",
+      "target": "build",
+      "projectName": "@subwallet/chain-list",
+      "hash": "3893789507229683074",
+      "startTime": "2026-01-05T09:12:10.179Z",
+      "endTime": "2026-01-05T09:12:12.194Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

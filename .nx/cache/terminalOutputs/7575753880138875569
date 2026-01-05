@@ -1,0 +1,14 @@
+> vite build
+
+[36mvite v6.3.5 [32mbuilding for production...[36m[39m
+[2K[1Gtransforming (1) [2msrc/types.ts[22m[2K[1G[32m✓[39m 2 modules transformed.
+[2K[1Grendering chunks (1)...[2K[1Grendering chunks (2)...[2K[1G[32m
+[36m[vite:dts][32m Start generate declaration files...[39m
+[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mdist/[22m[36mtypes.js  [39m[1m[2m1.02 kB[22m[1m[22m[2m │ gzip: 0.45 kB[22m
+[2mdist/[22m[36mindex.js  [39m[1m[2m2.17 kB[22m[1m[22m[2m │ gzip: 0.96 kB[22m
+[32m[36m[vite:dts][32m Declaration files built in 638ms.
+[39m
+[36m[vite-plugin-static-copy][39m [32mCopied 6 items.[39m
+[2K[1Grendering chunks (1)...[2K[1Grendering chunks (2)...[2K[1G[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mdist/[22m[36mtypes.cjs  [39m[1m[2m0.87 kB[22m[1m[22m[2m │ gzip: 0.48 kB[22m
+[2mdist/[22m[36mindex.cjs  [39m[1m[2m2.00 kB[22m[1m[22m[2m │ gzip: 0.94 kB[22m
+[32m✓ built in 705ms[39m

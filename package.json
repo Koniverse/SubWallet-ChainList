@@ -1,86 +1,55 @@
 {
-  "author": "NamPC <nampham@subwallet.app>",
+  "name": "@subwallet/chainlist-root",
+  "version": "0.0.1",
+  "author": "AnhMTV <anhmtv@subwallet.app>",
   "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
   "homepage": "https://github.com/Koniverse/SubWallet-Chain#readme",
   "license": "Apache-2.0",
-  "packageManager": "yarn@3.2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
-  },
-  "sideEffects": false,
-  "type": "module",
-  "version": "0.2.122",
-  "workspaces": [
-    "packages/*"
-  ],
-  "bin": {
-    "export-assets": "./scripts/exports/export-assets.js",
-    "export-chains": "./scripts/exports/export-chains.js",
-    "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
-    "generate-logo-map": "./scripts/generators/generate-logo-map.js",
-    "migration-patch-logo": "./scripts/patch/migration-patch-logo.mjs",
-    "patch-data": "scripts/patch/patch-data.js",
-    "set-version": "./scripts/set-version.mjs",
-    "strapi-fetch-chain-assets": "./scripts/strapi/fetch-chain-assets.mjs",
-    "strapi-fetch-chains": "./scripts/strapi/fetch-chains.mjs",
-    "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
-    "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
-    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
-    "update-logo-url": "./scripts/subwallet-dev-update-logo-url.mjs",
-    "update-patch-url": "./scripts/subwallet-dev-update-patch-url.mjs",
-    "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
-    "validate-chains": "./scripts/validations/validate-chains.js",
-    "validate-tokens": "./scripts/validations/validate-tokens.js"
-  },
-  "scripts": {
-    "build": "subwallet-dev-build-ts && update-logo-url",
-    "build:beta": "BRANCH_NAME=dev yarn build",
-    "build:extra": "",
-    "build:latest": "BRANCH_NAME=master yarn build",
-    "build:rollup": "polkadot-exec-rollup --config",
-    "chain:info": "polkadot-types-chain-info",
-    "clean": "polkadot-dev-clean-build",
-    "deno": "yarn polkadot-dev-deno-map && yarn build && deno check --import-map=import_map.json mod.ts",
-    "deploy": "gh-pages --dist 'packages/chain-list/src/data' --branch 'gh-page'",
-    "export": "export-assets && export-chains && export-xcm-channels",
-    "fetch": "yarn strapi-fetch && yarn generate-logo-map",
-    "fetch:beta": "BRANCH_NAME=dev yarn fetch",
-    "fetch:latest": "BRANCH_NAME=master yarn fetch",
-    "lint": "polkadot-dev-run-lint",
-    "patch:beta": "yarn patch-data",
-    "patch:latest": "yarn migration-patch-logo",
-    "postinstall": "polkadot-dev-yarn-only && patch-package",
-    "publish:beta": "yarn build:beta && cd ./packages/chain-list/build && npm publish --target --tag beta",
-    "publish:latest": "yarn build:latest && cd ./packages/chain-list/build && npm publish --target --tag latest",
-    "strapi-fetch": "yarn strapi-fetch-chains && yarn strapi-fetch-chain-assets && yarn strapi-multi-chain-assets",
-    "test": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --coverage --forceExit --runInBand --testPathIgnorePatterns e2e",
-    "test:one": "NODE_OPTIONS=--experimental-vm-modules polkadot-dev-run-test --detectOpenHandles --forceExit",
-    "update-logo-url": "update-logo-url",
-    "update-patch-url": "update-patch-url"
-  },
-  "dependencies": {
-    "eventemitter3": "^5.0.1"
-  },
+  "scripts": {},
+  "private": true,
   "devDependencies": {
-    "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.23.0",
-    "@babel/register": "^7.22.15",
-    "@babel/runtime": "^7.23.1",
-    "@json2csv/plainjs": "^7.0.3",
-    "@polkadot/dev": "^0.67.167",
-    "@types/jest": "^29.5.5",
+    "@eslint/js": "^9.8.0",
+    "@nx/eslint": "21.4.0",
+    "@nx/eslint-plugin": "21.4.0",
+    "@nx/js": "21.4.0",
+    "@nx/vite": "21.4.0",
+    "@nx/web": "21.4.0",
+    "@swc-node/register": "^1.11.1",
+    "@swc/core": "~1.13.4",
+    "@swc/helpers": "~0.5.17",
+    "@types/node": "18.16.9",
+    "@vitest/coverage-v8": "^3.0.5",
+    "@vitest/ui": "^3.0.0",
     "axios": "^1.11.0",
-    "bignumber.js": "^9.1.2",
-    "copyfiles": "^2.4.1",
-    "gh-pages": "^6.0.0",
-    "graphql": "^16.8.1",
-    "graphql-request": "^6.1.0",
-    "patch-package": "^8.0.0",
-    "postinstall-postinstall": "^2.1.0"
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^10.0.0",
+    "graphql-request": "^7.2.0",
+    "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "nx": "21.4.0",
+    "prettier": "^2.6.2",
+    "tslib": "^2.8.1",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.29.0",
+    "verdaccio": "^6.0.5",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "~4.5.0",
+    "vite-plugin-static-copy": "^3.1.2",
+    "vitest": "^3.0.0",
+    "wrangler": "^4.32.0"
   },
-  "resolutions": {
-    "@polkadot/util": "^13.5.5",
-    "typescript": "^4.7.4"
+  "nx": {
+    "includedScripts": [],
+    "targets": {
+      "local-registry": {
+        "executor": "@nx/js:verdaccio",
+        "options": {
+          "port": 4873,
+          "config": ".verdaccio/config.yml",
+          "storage": "tmp/local-registry/storage"
+        }
+      }
+    }
   }
 }
