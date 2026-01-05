@@ -5218,7 +5218,7 @@
     "metadata": {
       "contractAddress": "0x735abe48e8782948a37c7765ecb76b98cde97b0f"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "JPYC-JPYCoin",
     "hasValue": true,
     "icon": "/assets/chain-assets/shidenevm-erc20-jpyc-0x735abe48e8782948a37c7765ecb76b98cde97b0f.png"
   },
@@ -6678,11 +6678,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/vara_network-native-vara.png"
   },
-  "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+  "polygon-ERC20-USDT0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
     "originChain": "polygon",
-    "slug": "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "slug": "polygon-ERC20-USDT0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
     "name": "USD₮0",
-    "symbol": "USD₮0",
+    "symbol": "USDT0",
     "decimals": 6,
     "priceId": "usdt0",
     "minAmount": "0",
@@ -6692,7 +6692,7 @@
     },
     "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
-    "icon": "/assets/chain-assets/polygon-erc20-usd₮0-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
+    "icon": "/assets/chain-assets/polygon-erc20-usdt0-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
   },
   "arbitrum_one-ERC20-USD₮0-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
     "originChain": "arbitrum_one",
@@ -11501,11 +11501,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/statemint-local-ton.png"
   },
-  "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
+  "ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
     "originChain": "ethereum",
-    "slug": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "slug": "ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
     "name": "TON Coin",
-    "symbol": "TON",
+    "symbol": "TONCOIN",
     "decimals": 9,
     "priceId": "the-open-network",
     "minAmount": "0",
@@ -11515,7 +11515,7 @@
     },
     "multiChainAsset": "TON-TONCoin",
     "hasValue": true,
-    "icon": "/assets/chain-assets/ethereum-erc20-ton-0x582d872a1b094fc48f5de31d3b73f2d9be47def1.png"
+    "icon": "/assets/chain-assets/ethereum-erc20-toncoin-0x582d872a1b094fc48f5de31d3b73f2d9be47def1.png"
   },
   "statemint-LOCAL-wstETH": {
     "originChain": "statemint",
@@ -11653,11 +11653,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-tbtc-0x18084fba666a33d37592fa2633fd49a74dd93a88.png"
   },
-  "moonbeam-ERC20-USDC.axl-0xCa01a1D0993565291051daFF390892518ACfAD3A": {
+  "moonbeam-ERC20-axlUSDC-0xCa01a1D0993565291051daFF390892518ACfAD3A": {
     "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-USDC.axl-0xCa01a1D0993565291051daFF390892518ACfAD3A",
+    "slug": "moonbeam-ERC20-axlUSDC-0xCa01a1D0993565291051daFF390892518ACfAD3A",
     "name": "Axelar Wrapped USDC",
-    "symbol": "USDC.axl",
+    "symbol": "axlUSDC",
     "decimals": 6,
     "priceId": "axlusdc",
     "minAmount": null,
@@ -11667,7 +11667,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "/assets/chain-assets/moonbeam-erc20-usdc.axl-0xca01a1d0993565291051daff390892518acfad3a.png"
+    "icon": "/assets/chain-assets/moonbeam-erc20-axlusdc-0xca01a1d0993565291051daff390892518acfad3a.png"
   },
   "moonbeam-ERC20-USDT.wh-0xc30E9cA94CF52f3Bf5692aaCF81353a27052c46f": {
     "originChain": "moonbeam",
@@ -19966,11 +19966,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/statemine-local-usdc.png"
   },
-  "statemine-LOCAL-USDT": {
+  "statemine-LOCAL-USDt": {
     "originChain": "statemine",
-    "slug": "statemine-LOCAL-USDT",
+    "slug": "statemine-LOCAL-USDt",
     "name": "Tether USD",
-    "symbol": "USDT",
+    "symbol": "USDt",
     "decimals": 6,
     "priceId": "tether",
     "minAmount": "100",
@@ -20012,7 +20012,7 @@
     "metadata": {
       "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "JPYC-JPYCoin",
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
   },
@@ -20028,7 +20028,7 @@
     "metadata": {
       "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "JPYC-JPYCoin",
     "hasValue": true,
     "icon": "/assets/chain-assets/avalanche_c-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
   },
@@ -20044,7 +20044,7 @@
     "metadata": {
       "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "JPYC-JPYCoin",
     "hasValue": true,
     "icon": "/assets/chain-assets/polygon-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
   },
