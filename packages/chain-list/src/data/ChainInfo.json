@@ -1446,7 +1446,7 @@
     "slug": "amplitude_test",
     "name": "Amplitude Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/amplitude_test.png",
     "providers": {
       "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
@@ -1558,7 +1558,7 @@
     "slug": "parallel",
     "name": "Parallel",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/parallel.png",
     "providers": {
       "Gatotech": "wss://parallel.gatotech.network"
@@ -3096,7 +3096,7 @@
     "slug": "subsocial_x",
     "name": "Subsocial",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/subsocial_x.png",
     "providers": {
       "Dappforce": "wss://para.subsocial.network"
@@ -3373,7 +3373,7 @@
     "slug": "integritee",
     "name": "Integritee Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/integritee.png",
     "providers": {
       "Integritee": "wss://kusama.api.integritee.network"
@@ -3420,7 +3420,7 @@
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/integriteepolkadot.png",
     "providers": {
       "Integritee": "wss://polkadot.api.integritee.network"
@@ -3597,7 +3597,7 @@
     "slug": "acala_testnet",
     "name": "Acala Mandala",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/acala_testnet.png",
     "providers": {
       "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
