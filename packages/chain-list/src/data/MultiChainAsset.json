@@ -613,7 +613,7 @@
   },
   "TON-TONCoin": {
     "slug": "TON-TONCoin",
-    "originChainAsset": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "originChainAsset": "ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
     "name": "TON Coin",
     "symbol": "TON",
     "priceId": "the-open-network",
@@ -1087,5 +1087,14 @@
     "priceId": "bifrost-voucher-manta",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/vmanta-vouchermanta.png"
+  },
+  "JPYC-JPYCoin": {
+    "slug": "JPYC-JPYCoin",
+    "originChainAsset": null,
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "priceId": "jpycoin",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/jpyc-jpycoin.png"
   }
 }
