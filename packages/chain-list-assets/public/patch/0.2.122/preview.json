@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.123-beta.5",
+  "patchVersion": "0.2.123-beta.8",
   "appliedVersion": "0.2.122",
-  "timestamp": 1766462685221,
+  "timestamp": 1767089792058,
   "ChainInfo": {
     "shibuya": {
       "slug": "shibuya",
@@ -83,6 +83,101 @@
       "extraInfo": {
         "subscanSlug": null,
         "chainBalanceSlug": "bifrost-testnet"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "nodle": {
+      "slug": "nodle",
+      "name": "Nodle",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/nodle.png",
+      "providers": {
+        "OnFinality": "wss://nodle-parachain.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2026,
+        "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
+        "addressPrefix": 37,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://parachain.nodle.com/",
+        "blockExplorer": "https://nodle.subscan.io/",
+        "existentialDeposit": "10000",
+        "symbol": "NODL",
+        "decimals": 11,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": 2012,
+        "crowdloanFunds": [
+          {
+            "relayChain": "polkadot",
+            "fundId": "2026-14",
+            "paraId": 2026,
+            "status": "won",
+            "startTime": "2022-03-15T01:48:00.000Z",
+            "endTime": "2024-01-16T01:48:00.000Z",
+            "auctionIndex": 11,
+            "firstPeriod": 7,
+            "lastPeriod": 14
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "nodle",
+        "chainBalanceSlug": "nodle"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "altair": {
+      "slug": "altair",
+      "name": "Altair",
+      "isTestnet": false,
+      "chainStatus": "INACTIVE",
+      "icon": "/assets/chains/altair.png",
+      "providers": {
+        "Centrifuge": "wss://fullnode.altair.centrifuge.io",
+        "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+      },
+      "evmInfo": null,
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2088,
+        "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
+        "addressPrefix": 136,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://centrifuge.io/altair/crowdloan/",
+        "blockExplorer": "https://altair.subscan.io/",
+        "existentialDeposit": "1000000000000",
+        "symbol": "AIR",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2088-31",
+            "paraId": 2088,
+            "status": "won",
+            "startTime": "2021-09-08T04:27:00.000Z",
+            "endTime": "2022-08-10T04:27:00.000Z",
+            "auctionIndex": 9,
+            "firstPeriod": 15,
+            "lastPeriod": 22
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": "altair",
+        "chainBalanceSlug": "altair"
       },
       "bitcoinInfo": null,
       "tonInfo": null,
@@ -358,6 +453,8 @@
   "ChainInfoHashMap": {
     "shibuya": "9a9a69840b1b5a06bf60233b6241d2ab",
     "bifrost_testnet": "63872749342b0c8d7843d95a0bad0046",
+    "nodle": "37a9b59eacffd1a5f6f784a81ad46a44",
+    "altair": "91dc9d4251df859c0ada9c832c05bf6b",
     "watr_network_evm": "a267769404ef677c3691afb487d93b12",
     "watr_mainnet_evm": "8b8be8cb378a12c16a919e4d18c1a4d6",
     "commune": "5a595180e54556bbb808b99d66c6cf14",
@@ -645,6 +742,88 @@
       "multiChainAsset": "USDT-Tether",
       "hasValue": true,
       "icon": "/assets/chain-assets/statemine-local-usdt.png"
+    },
+    "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+      "name": "JPY Coin",
+      "symbol": "JPYC",
+      "decimals": 18,
+      "priceId": "jpycoin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+    },
+    "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+      "originChain": "avalanche_c",
+      "slug": "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+      "name": "JPY Coin",
+      "symbol": "JPYC",
+      "decimals": 18,
+      "priceId": "jpycoin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/avalanche_c-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+    },
+    "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+      "originChain": "polygon",
+      "slug": "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+      "name": "JPY Coin",
+      "symbol": "JPYC",
+      "decimals": 18,
+      "priceId": "jpycoin",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/polygon-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+    },
+    "bifrost_dot-LOCAL-WAVE": {
+      "originChain": "bifrost_dot",
+      "slug": "bifrost_dot-LOCAL-WAVE",
+      "name": "WAVE",
+      "symbol": "WAVE",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "100000000000000",
+      "assetType": "LOCAL",
+      "metadata": {
+        "onChainInfo": {
+          "Token2": "14"
+        }
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/bifrost_dot-local-wave.png"
+    },
+    "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153": {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153",
+      "name": "Primer",
+      "symbol": "PR",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x2357110F5F0c5344EEf75966500c75116A4aA153"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
     }
   },
   "ChainAssetHashMap": {
@@ -658,7 +837,12 @@
     "bifrost_network-NATIVE-BFC": "a5bb8688074f0637001e794d758f82b7",
     "stable-ERC20-PYUSD0-0x99aF3EeA856556646C98c8B9b2548Fe815240750": "5506c86a4617f34f5915243fde02a79a",
     "statemine-LOCAL-USDC": "c9e056b142ada4ef9f8abd7b365256fc",
-    "statemine-LOCAL-USDT": "3fa1819c2a91ede7b42dcd356a47a449"
+    "statemine-LOCAL-USDT": "3fa1819c2a91ede7b42dcd356a47a449",
+    "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": "36948ca7bb4b2506343e60a71156b1b3",
+    "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": "8dcc7048c7b0b54225bf1c87bd9e2c94",
+    "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": "e30562cdcd67c5585cd2cddcdee2202a",
+    "bifrost_dot-LOCAL-WAVE": "a5cd9b4ca666a4ef089b94cfbb389c49",
+    "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153": "829d71263951bcb3f1e3de36374bf9c9"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
@@ -673,11 +857,18 @@
     "bifrost_network-native-bfc": "/assets/chain-assets/bifrost_network-native-bfc.png",
     "stable-erc20-pyusd0-0x99af3eea856556646c98c8b9b2548fe815240750": "/assets/chain-assets/stable-erc20-pyusd0-0x99af3eea856556646c98c8b9b2548fe815240750.png",
     "statemine-local-usdc": "/assets/chain-assets/statemine-local-usdc.png",
-    "statemine-local-usdt": "/assets/chain-assets/statemine-local-usdt.png"
+    "statemine-local-usdt": "/assets/chain-assets/statemine-local-usdt.png",
+    "ethereum-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29": "/assets/chain-assets/ethereum-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png",
+    "avalanche_c-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29": "/assets/chain-assets/avalanche_c-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png",
+    "polygon-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29": "/assets/chain-assets/polygon-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png",
+    "bifrost_dot-local-wave": "/assets/chain-assets/bifrost_dot-local-wave.png",
+    "base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
   },
   "ChainLogoMap": {
     "shibuya": "/assets/chains/shibuya.png",
     "bifrost_testnet": "/assets/chains/bifrost_testnet.png",
+    "nodle": "/assets/chains/nodle.png",
+    "altair": "/assets/chains/altair.png",
     "watr_network_evm": "/assets/chains/watr_network_evm.png",
     "watr_mainnet_evm": "/assets/chains/watr_mainnet_evm.png",
     "commune": "/assets/chains/commune.png",
