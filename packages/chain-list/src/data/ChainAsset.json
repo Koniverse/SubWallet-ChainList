@@ -1209,9 +1209,9 @@
     "slug": "bifrost_testnet-NATIVE-BFC",
     "name": "Bifrost Testnet",
     "symbol": "BFC",
-    "decimals": 12,
+    "decimals": 18,
     "priceId": null,
-    "minAmount": "10000000000",
+    "minAmount": "0",
     "assetType": "NATIVE",
     "metadata": null,
     "multiChainAsset": null,
@@ -5218,7 +5218,7 @@
     "metadata": {
       "contractAddress": "0x735abe48e8782948a37c7765ecb76b98cde97b0f"
     },
-    "multiChainAsset": null,
+    "multiChainAsset": "JPYC-JPYCoin",
     "hasValue": true,
     "icon": "/assets/chain-assets/shidenevm-erc20-jpyc-0x735abe48e8782948a37c7765ecb76b98cde97b0f.png"
   },
@@ -6678,11 +6678,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/vara_network-native-vara.png"
   },
-  "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+  "polygon-ERC20-USDT0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
     "originChain": "polygon",
-    "slug": "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "slug": "polygon-ERC20-USDT0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
     "name": "USD₮0",
-    "symbol": "USD₮0",
+    "symbol": "USDT0",
     "decimals": 6,
     "priceId": "usdt0",
     "minAmount": "0",
@@ -6692,7 +6692,7 @@
     },
     "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
-    "icon": "/assets/chain-assets/polygon-erc20-usd₮0-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
+    "icon": "/assets/chain-assets/polygon-erc20-usdt0-0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
   },
   "arbitrum_one-ERC20-USD₮0-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
     "originChain": "arbitrum_one",
@@ -11501,11 +11501,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/statemint-local-ton.png"
   },
-  "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
+  "ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
     "originChain": "ethereum",
-    "slug": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "slug": "ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
     "name": "TON Coin",
-    "symbol": "TON",
+    "symbol": "TONCOIN",
     "decimals": 9,
     "priceId": "the-open-network",
     "minAmount": "0",
@@ -11515,7 +11515,7 @@
     },
     "multiChainAsset": "TON-TONCoin",
     "hasValue": true,
-    "icon": "/assets/chain-assets/ethereum-erc20-ton-0x582d872a1b094fc48f5de31d3b73f2d9be47def1.png"
+    "icon": "/assets/chain-assets/ethereum-erc20-toncoin-0x582d872a1b094fc48f5de31d3b73f2d9be47def1.png"
   },
   "statemint-LOCAL-wstETH": {
     "originChain": "statemint",
@@ -11653,11 +11653,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/ethereum-erc20-tbtc-0x18084fba666a33d37592fa2633fd49a74dd93a88.png"
   },
-  "moonbeam-ERC20-USDC.axl-0xCa01a1D0993565291051daFF390892518ACfAD3A": {
+  "moonbeam-ERC20-axlUSDC-0xCa01a1D0993565291051daFF390892518ACfAD3A": {
     "originChain": "moonbeam",
-    "slug": "moonbeam-ERC20-USDC.axl-0xCa01a1D0993565291051daFF390892518ACfAD3A",
+    "slug": "moonbeam-ERC20-axlUSDC-0xCa01a1D0993565291051daFF390892518ACfAD3A",
     "name": "Axelar Wrapped USDC",
-    "symbol": "USDC.axl",
+    "symbol": "axlUSDC",
     "decimals": 6,
     "priceId": "axlusdc",
     "minAmount": null,
@@ -11667,7 +11667,7 @@
     },
     "multiChainAsset": null,
     "hasValue": true,
-    "icon": "/assets/chain-assets/moonbeam-erc20-usdc.axl-0xca01a1d0993565291051daff390892518acfad3a.png"
+    "icon": "/assets/chain-assets/moonbeam-erc20-axlusdc-0xca01a1d0993565291051daff390892518acfad3a.png"
   },
   "moonbeam-ERC20-USDT.wh-0xc30E9cA94CF52f3Bf5692aaCF81353a27052c46f": {
     "originChain": "moonbeam",
@@ -13735,11 +13735,11 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/autonomys_taurus-native-tai3.png"
   },
-  "gnosis-NATIVE-xDAI": {
+  "gnosis-NATIVE-XDAI": {
     "originChain": "gnosis",
-    "slug": "gnosis-NATIVE-xDAI",
-    "name": "xDAI",
-    "symbol": "xDAI",
+    "slug": "gnosis-NATIVE-XDAI",
+    "name": "XDAI",
+    "symbol": "XDAI",
     "decimals": 18,
     "priceId": "xdai",
     "minAmount": "0",
@@ -18665,7 +18665,7 @@
     "symbol": "HOLLAR",
     "decimals": 18,
     "priceId": "hydrated-dollar",
-    "minAmount": "0",
+    "minAmount": "20000000000000000",
     "assetType": "LOCAL",
     "metadata": {
       "assetId": "222",
@@ -19065,11 +19065,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/stable-native-gusdt.png"
   },
-  "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
+  "stable-ERC20-USDT0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736": {
     "originChain": "stable",
-    "slug": "stable-ERC20-USD₮0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
-    "name": "USD₮0",
-    "symbol": "USD₮0",
+    "slug": "stable-ERC20-USDT0-0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+    "name": "USDT0",
+    "symbol": "USDT0",
     "decimals": 6,
     "priceId": "usdt0",
     "minAmount": "0",
@@ -19079,7 +19079,7 @@
     },
     "multiChainAsset": "USD₮0-USD₮0",
     "hasValue": true,
-    "icon": "/assets/chain-assets/stable-erc20-usd₮0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
+    "icon": "/assets/chain-assets/stable-erc20-usdt0-0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
   },
   "kilt-NATIVE-KILT": {
     "originChain": "kilt",
@@ -19753,14 +19753,44 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
   },
+  "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-MUSD-0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+    "name": "Metamask USD",
+    "symbol": "MUSD",
+    "decimals": 6,
+    "priceId": "metamask-usd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-musd-0xaca92e438df0b2401ff60da7e4337b687a2435da.png"
+  },
+  "mosaic-NATIVE-MOS": {
+    "originChain": "mosaic",
+    "slug": "mosaic-NATIVE-MOS",
+    "name": "Mosaic Coin",
+    "symbol": "MOS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "10000000000000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/mosaic-native-mos.png"
+  },
   "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854": {
     "originChain": "cardano",
     "slug": "cardano-CIP26-NIGHT-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854",
     "name": "Midnight",
     "symbol": "NIGHT",
     "decimals": 6,
-    "priceId": null,
-    "minAmount": null,
+    "priceId": "midnight-3",
+    "minAmount": "0",
     "assetType": "CIP26",
     "metadata": {
       "cardanoId": "0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854"
@@ -19768,6 +19798,289 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/cardano-cip26-night-0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854.png"
+  },
+  "energy_web_x-LOCAL-USDC": {
+    "originChain": "energy_web_x",
+    "slug": "energy_web_x-LOCAL-USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isSufficient": true,
+      "multilocation": {
+        "parents": 1,
+        "interior": {
+          "X3": [
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1337
+            }
+          ]
+        }
+      },
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/energy_web_x-local-usdc.png"
+  },
+  "energy_web_x-LOCAL-stEWT": {
+    "originChain": "energy_web_x",
+    "slug": "energy_web_x-LOCAL-stEWT",
+    "name": "Liquid EWT",
+    "symbol": "stEWT",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "1",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isSufficient": true,
+      "multilocation": {
+        "parents": 0,
+        "interior": {
+          "X2": [
+            {
+              "PalletInstance": 60
+            },
+            {
+              "GeneralIndex": 1
+            }
+          ]
+        }
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/energy_web_x-local-stewt.png"
+  },
+  "bifrost_network-NATIVE-BFC": {
+    "originChain": "bifrost_network",
+    "slug": "bifrost_network-NATIVE-BFC",
+    "name": "Bifrost",
+    "symbol": "BFC",
+    "decimals": 18,
+    "priceId": "bifrost",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bifrost_network-native-bfc.png"
+  },
+  "stable-ERC20-PYUSD0-0x99aF3EeA856556646C98c8B9b2548Fe815240750": {
+    "originChain": "stable",
+    "slug": "stable-ERC20-PYUSD0-0x99aF3EeA856556646C98c8B9b2548Fe815240750",
+    "name": "PayPal USD",
+    "symbol": "PYUSD0",
+    "decimals": 6,
+    "priceId": "paypal-usd",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x99aF3EeA856556646C98c8B9b2548Fe815240750"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/stable-erc20-pyusd0-0x99af3eea856556646c98c8b9b2548fe815240750.png"
+  },
+  "statemine-LOCAL-USDC": {
+    "originChain": "statemine",
+    "slug": "statemine-LOCAL-USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "priceId": "usd-coin",
+    "minAmount": "10000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "isBridged": true,
+      "multilocation": {
+        "parents": 2,
+        "interior": {
+          "X4": [
+            {
+              "GlobalConsensus": "Polkadot"
+            },
+            {
+              "Parachain": 1000
+            },
+            {
+              "PalletInstance": 50
+            },
+            {
+              "GeneralIndex": 1337
+            }
+          ]
+        }
+      },
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 2,
+          "interior": {
+            "X4": [
+              {
+                "GlobalConsensus": {
+                  "polkadot": null
+                }
+              },
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1337
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "USDC-USDCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/statemine-local-usdc.png"
+  },
+  "statemine-LOCAL-USDt": {
+    "originChain": "statemine",
+    "slug": "statemine-LOCAL-USDt",
+    "name": "Tether USD",
+    "symbol": "USDt",
+    "decimals": 6,
+    "priceId": "tether",
+    "minAmount": "100",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "1984",
+      "paraSpellIdentifyV4": {
+        "location": {
+          "parents": 1,
+          "interior": {
+            "X3": [
+              {
+                "Parachain": 1000
+              },
+              {
+                "PalletInstance": 50
+              },
+              {
+                "GeneralIndex": 1984
+              }
+            ]
+          }
+        }
+      }
+    },
+    "multiChainAsset": "USDT-Tether",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/statemine-local-usdt.png"
+  },
+  "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "priceId": "jpycoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    },
+    "multiChainAsset": "JPYC-JPYCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+  },
+  "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+    "originChain": "avalanche_c",
+    "slug": "avalanche_c-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "priceId": "jpycoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    },
+    "multiChainAsset": "JPYC-JPYCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/avalanche_c-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+  },
+  "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29": {
+    "originChain": "polygon",
+    "slug": "polygon-ERC20-JPYC-0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "name": "JPY Coin",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "priceId": "jpycoin",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    },
+    "multiChainAsset": "JPYC-JPYCoin",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/polygon-erc20-jpyc-0xe7c3d8c9a439fede00d2600032d5db0be71c3c29.png"
+  },
+  "bifrost_dot-LOCAL-WAVE": {
+    "originChain": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-WAVE",
+    "name": "WAVE",
+    "symbol": "WAVE",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "100000000000000",
+    "assetType": "LOCAL",
+    "metadata": {
+      "onChainInfo": {
+        "Token2": "14"
+      }
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bifrost_dot-local-wave.png"
+  },
+  "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153": {
+    "originChain": "base_mainnet",
+    "slug": "base_mainnet-ERC20-PR-0x2357110F5F0c5344EEf75966500c75116A4aA153",
+    "name": "Primer",
+    "symbol": "PR",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x2357110F5F0c5344EEf75966500c75116A4aA153"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
