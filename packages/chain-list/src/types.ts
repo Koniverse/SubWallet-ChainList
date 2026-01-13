@@ -89,7 +89,8 @@ export interface _ChainAsset {
     autoEnable?: boolean,
     isSufficient?: boolean,
     allowAsBaseAsset?: boolean,
-    isGigaToken?: boolean
+    isGigaToken?: boolean,
+    isAlphaToken?: boolean
   },
   multiChainAsset: string | null,
   hasValue: boolean,
