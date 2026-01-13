@@ -176,6 +176,7 @@ export interface _SubstrateInfo {
   hasNativeNft: boolean,
   supportStaking: boolean,
   supportProxy: boolean,
+  supportMultisig: boolean,
   supportSmartContract: _AssetType[] | null
 }
 
