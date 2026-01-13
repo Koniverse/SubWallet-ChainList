@@ -12865,6 +12865,33 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "subtensor_evm_testnet": {
+    "slug": "subtensor_evm_testnet",
+    "name": "Subtensor EVM Testnet",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/subtensor_evm.png",
+    "providers": {
+      "Opentensor": "https://test.chain.opentensor.ai"
+    },
+    "evmInfo": {
+      "evmChainId": 945,
+      "blockExplorer": null,
+      "existentialDeposit": "0",
+      "symbol": "TAO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "auto_evm": {
     "slug": "auto_evm",
     "name": "Auto EVM Mainnet",
