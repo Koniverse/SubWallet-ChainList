@@ -20100,13 +20100,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN56-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN56-0x0000000000000000000000000000000000000000",
     "name": "SN56",
     "symbol": "SN56",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 56,
@@ -20118,13 +20118,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN50-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN50-0x0000000000000000000000000000000000000000",
     "name": "SN50",
     "symbol": "SN50",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 50,
@@ -20136,13 +20136,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN51-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN51-0x0000000000000000000000000000000000000000",
     "name": "SN51",
     "symbol": "SN51",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 51,
@@ -20154,13 +20154,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN17-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN17-0x0000000000000000000000000000000000000000",
     "name": "SN17",
     "symbol": "SN17",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 17,
@@ -20172,13 +20172,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN4-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN4-0x0000000000000000000000000000000000000000",
     "name": "SN4",
     "symbol": "SN4",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 4,
@@ -20190,13 +20190,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN65-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN65-0x0000000000000000000000000000000000000000",
     "name": "SN65",
     "symbol": "SN65",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 65,
@@ -20208,13 +20208,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN35-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN35-0x0000000000000000000000000000000000000000",
     "name": "SN35",
     "symbol": "SN35",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 35,
@@ -20226,13 +20226,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN44-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN44-0x0000000000000000000000000000000000000000",
     "name": "SN44",
     "symbol": "SN44",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 44,
@@ -20244,13 +20244,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN62-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN62-0x0000000000000000000000000000000000000000",
     "name": "SN62",
     "symbol": "SN62",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 62,
@@ -20262,13 +20262,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN46-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN46-0x0000000000000000000000000000000000000000",
     "name": "SN46",
     "symbol": "SN46",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 46,
@@ -20280,13 +20280,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN41-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN41-0x0000000000000000000000000000000000000000",
     "name": "SN41",
     "symbol": "SN41",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 41,
@@ -20298,13 +20298,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN9-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN9-0x0000000000000000000000000000000000000000",
     "name": "SN9",
     "symbol": "SN9",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 9,
@@ -20316,13 +20316,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN120-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN120-0x0000000000000000000000000000000000000000",
     "name": "SN120",
     "symbol": "SN120",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 120,
@@ -20334,13 +20334,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN8-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN8-0x0000000000000000000000000000000000000000",
     "name": "SN8",
     "symbol": "SN8",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 8,
@@ -20352,13 +20352,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN33-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN33-0x0000000000000000000000000000000000000000",
     "name": "SN33",
     "symbol": "SN33",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 33,
@@ -20370,13 +20370,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN34-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN34-0x0000000000000000000000000000000000000000",
     "name": "SN34",
     "symbol": "SN34",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 34,
@@ -20388,13 +20388,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN71-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN71-0x0000000000000000000000000000000000000000",
     "name": "SN71",
     "symbol": "SN71",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 71,
@@ -20406,13 +20406,13 @@
     "icon": null
   },
   "subtensor_evm-ERC20-SN64-0x0000000000000000000000000000000000000000": {
-    "originChain": "bittensor",
+    "originChain": "subtensor_evm",
     "slug": "subtensor_evm-ERC20-SN64-0x0000000000000000000000000000000000000000",
     "name": "SN64",
     "symbol": "SN64",
     "decimals": 18,
     "priceId": null,
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "netuid": 64,
