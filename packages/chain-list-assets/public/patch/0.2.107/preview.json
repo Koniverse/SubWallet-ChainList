@@ -335,41 +335,6 @@
       "tonInfo": null,
       "cardanoInfo": null
     },
-    "tanssi": {
-      "slug": "tanssi",
-      "name": "Tanssi Mainnet",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tanssi.png",
-      "providers": {
-        "tanssi": "wss://tanssi.tanssi-mainnet.network"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": null,
-        "paraId": null,
-        "genesisHash": "0xdd6d086f75ec041b66e20c4186d327b23c8af244c534a2418de6574e8c041a60",
-        "addressPrefix": 42,
-        "chainType": "RELAYCHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://tanssi.subscan.io",
-        "existentialDeposit": "33333333",
-        "symbol": "TANSSI",
-        "decimals": 12,
-        "hasNativeNft": null,
-        "supportStaking": null,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      },
-      "extraInfo": {
-        "subscanSlug": "tanssi",
-        "chainBalanceSlug": null
-      },
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
-    },
     "hyperEvm": {
       "slug": "hyperEvm",
       "name": "HyperEVM Mainnet",
@@ -632,7 +597,6 @@
     "rococo_assethub": "6266aeff070bf3a3fb020f31a1f340a2",
     "hydradx_rococo": "1f71a5173a277cc62050c4df4023edb8",
     "paseo_assethub": "d32d7d271a4f495eb91b4d6ad663c21c",
-    "tanssi": "cace11409e22ba50d82cbe9376e49136",
     "hyperEvm": "8b27b4c5247e8388827d4abe74557b1d",
     "mosaicTest": "bcedde47587c51c219e72ae12706f67f",
     "verisenseTest": "0c37b57f96f971cc7262712320646239",
@@ -661,20 +625,6 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png"
-    },
-    "tanssi-NATIVE-TANSSI": {
-      "originChain": "tanssi",
-      "slug": "tanssi-NATIVE-TANSSI",
-      "name": "Tanssi Mainnet",
-      "symbol": "TANSSI",
-      "decimals": 12,
-      "priceId": null,
-      "minAmount": "33333333",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tanssi-native-tanssi.png"
     },
     "hyperEvm-NATIVE-HYPE": {
       "originChain": "hyperEvm",
@@ -869,7 +819,6 @@
   },
   "ChainAssetHashMap": {
     "truth_network-LOCAL-USDC": "815042fc8b14d3909c487c00b4e26139",
-    "tanssi-NATIVE-TANSSI": "3062232f24dcaced83fd2de64611729e",
     "hyperEvm-NATIVE-HYPE": "a6d9f87120f09c7e2e995edc21b5c658",
     "mosaicTest-NATIVE-TMOS": "72f0f6f26d3e66597fee82714176f824",
     "verisenseTest-NATIVE-RWT": "8a1747eb1e8404e0c8364a01ed9cafc4",
@@ -888,7 +837,6 @@
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "truth_network-local-usdc": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/truth_network-local-usdc.png",
-    "tanssi-native-tanssi": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/tanssi-native-tanssi.png",
     "hyperevm-native-hype": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/hyperevm-native-hype.png",
     "mosaictest-native-tmos": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/mosaictest-native-tmos.png",
     "verisensetest-native-rwt": "https://dev.sw-chain-list-assets.pages.dev/assets/chain-assets/verisensetest-native-rwt.png",
@@ -913,7 +861,6 @@
     "rococo_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/rococo_assethub.png",
     "hydradx_rococo": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hydradx_rococo.png",
     "paseo_assethub": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/paseo_assethub.png",
-    "tanssi": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/tanssi.png",
     "hyperEvm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/hyperevm.png",
     "mosaicTest": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/mosaictest.png",
     "verisenseTest": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/verisensetest.png",
