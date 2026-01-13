@@ -19799,6 +19799,22 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor_testnet-local-α.png"
   },
+  "bittensor_testnet-LOCAL-β": {
+    "originChain": "bittensor_testnet",
+    "slug": "bittensor_testnet-LOCAL-β",
+    "name": "Omron",
+    "symbol": "β",
+    "decimals": 9,
+    "priceId": "omron",
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "netuid": 2
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-local-β.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
