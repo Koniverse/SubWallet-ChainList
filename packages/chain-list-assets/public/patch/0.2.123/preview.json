@@ -200,41 +200,13 @@
       "bitcoinInfo": null,
       "tonInfo": null,
       "cardanoInfo": null
-    },
-    "datahaven_testnet": {
-      "slug": "datahaven_testnet",
-      "name": "DataHaven Testnet",
-      "isTestnet": true,
-      "chainStatus": "ACTIVE",
-      "icon": "/assets/chains/datahaven_testnet.png",
-      "providers": {
-        "Datahaven": "https://services.datahaven-testnet.network/testnet"
-      },
-      "evmInfo": {
-        "evmChainId": 55931,
-        "blockExplorer": "https://testnet.dhscan.io/",
-        "existentialDeposit": "0",
-        "symbol": "MOCK",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null,
-      "extraInfo": null,
-      "bitcoinInfo": null,
-      "tonInfo": null,
-      "cardanoInfo": null
     }
   },
   "ChainInfoHashMap": {
     "darwinia2": "eed926a352eb7edd1ae81deb8100b267",
     "crabParachain": "4f1af7b159c26409d2b8b50f4ffd560c",
     "laos_network": "fab01511bb80d3def2a7e122c9b66158",
-    "vflow": "333b1a2c2d0eaa3bb8946ed9c9f99b38",
-    "datahaven_testnet": "528180b55dff5fd91fb70221673c5e66"
+    "vflow": "333b1a2c2d0eaa3bb8946ed9c9f99b38"
   },
   "ChainAsset": {
     "energy_web_x-LOCAL-stEWT": {
@@ -266,38 +238,21 @@
       "multiChainAsset": null,
       "hasValue": true,
       "icon": "/assets/chain-assets/energy_web_x-local-stewt.png"
-    },
-    "datahaven_testnet-NATIVE-MOCK": {
-      "originChain": "datahaven_testnet",
-      "slug": "datahaven_testnet-NATIVE-MOCK",
-      "name": "MOCK",
-      "symbol": "MOCK",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "0",
-      "assetType": "NATIVE",
-      "metadata": null,
-      "multiChainAsset": null,
-      "hasValue": false,
-      "icon": "/assets/chain-assets/datahaven_testnet-native-mock.png"
     }
   },
   "ChainAssetHashMap": {
-    "energy_web_x-LOCAL-stEWT": "a4839e88c12152172d941188e0443564",
-    "datahaven_testnet-NATIVE-MOCK": "cad85a9a9aecdc5dca169bad16ab45fb"
+    "energy_web_x-LOCAL-stEWT": "a4839e88c12152172d941188e0443564"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "energy_web_x-local-stewt": "/assets/chain-assets/energy_web_x-local-stewt.png",
-    "datahaven_testnet-native-mock": "/assets/chain-assets/datahaven_testnet-native-mock.png"
+    "energy_web_x-local-stewt": "/assets/chain-assets/energy_web_x-local-stewt.png"
   },
   "ChainLogoMap": {
     "darwinia2": "/assets/chains/darwinia2.png",
     "crabParachain": "/assets/chains/crabparachain.png",
     "laos_network": "/assets/chains/laos_network.png",
-    "vflow": "/assets/chains/vflow.png",
-    "datahaven_testnet": "/assets/chains/datahaven_testnet.png"
+    "vflow": "/assets/chains/vflow.png"
   },
   "mAssetLogoMap": {}
 }
