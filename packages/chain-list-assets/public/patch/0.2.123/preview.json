@@ -1,0 +1,303 @@
+{
+  "patchVersion": "0.2.124-beta.1",
+  "appliedVersion": "0.2.123",
+  "timestamp": 1768388113112,
+  "ChainInfo": {
+    "darwinia2": {
+      "slug": "darwinia2",
+      "name": "Darwinia 2",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/darwinia2.png",
+      "providers": {
+        "Darwinia Network": "wss://rpc.darwinia.network",
+        "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
+      },
+      "evmInfo": {
+        "evmChainId": 46,
+        "blockExplorer": "https://darwinia.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "RING",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 2046,
+        "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
+        "addressPrefix": 18,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://darwinia.network/plo_contribute",
+        "blockExplorer": "https://darwinia.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "RING",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": false,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "darwinia",
+        "chainBalanceSlug": "darwinia2"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "crabParachain": {
+      "slug": "crabParachain",
+      "name": "Crab2 Parachain",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/crabparachain.png",
+      "providers": {
+        "Crab": "wss://crab-rpc.darwinia.network/"
+      },
+      "evmInfo": {
+        "evmChainId": 44,
+        "blockExplorer": "https://crab-scan.darwinia.network/",
+        "existentialDeposit": "0",
+        "symbol": "CRAB",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": "kusama",
+        "paraId": 2105,
+        "genesisHash": "0x86e49c195aeae7c5c4a86ced251f1a28c67b3c35d8289c387ede1776cdd88b24",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": "https://crab.network/plo",
+        "blockExplorer": "https://crab-scan.darwinia.network/",
+        "existentialDeposit": "0",
+        "symbol": "CRAB",
+        "decimals": 18,
+        "hasNativeNft": false,
+        "supportStaking": false,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": false,
+        "crowdloanFunds": [
+          {
+            "relayChain": "kusama",
+            "fundId": "2105-60",
+            "paraId": 2105,
+            "status": "won",
+            "startTime": "2022-02-23T04:27:00.000Z",
+            "endTime": "2023-01-25T04:27:00.000Z",
+            "auctionIndex": 22,
+            "firstPeriod": 19,
+            "lastPeriod": 26
+          }
+        ]
+      },
+      "extraInfo": {
+        "subscanSlug": null,
+        "chainBalanceSlug": null
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "laos_network": {
+      "slug": "laos_network",
+      "name": "LAOS Network",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/laos_network.png",
+      "providers": {
+        "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
+      },
+      "evmInfo": {
+        "evmChainId": 6283,
+        "blockExplorer": "https://laos.statescan.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": "polkadot",
+        "paraId": 3370,
+        "genesisHash": "0xe8aecc950e82f1a375cf650fa72d07e0ad9bef7118f49b92283b63e88b1de88b",
+        "addressPrefix": 42,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://laos.statescan.io/",
+        "existentialDeposit": "0",
+        "symbol": "LAOS",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": false,
+        "crowdloanFunds": []
+      },
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "vflow": {
+      "slug": "vflow",
+      "name": "VFlow",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/vflow.png",
+      "providers": {
+        "zkVerify": "wss://vflow-rpc.zkverify.io"
+      },
+      "evmInfo": {
+        "evmChainId": 1408,
+        "blockExplorer": "https://vflow.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "VFY",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": {
+        "relaySlug": null,
+        "paraId": 1,
+        "genesisHash": "0xf512a4b3308b4d5d6a2609e814d2bb5e5070c89dd21af63f6e01a72a286913e4",
+        "addressPrefix": 0,
+        "chainType": "PARACHAIN",
+        "crowdloanUrl": null,
+        "blockExplorer": "https://vflow.subscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "VFY",
+        "decimals": 18,
+        "hasNativeNft": null,
+        "supportStaking": null,
+        "supportSmartContract": null,
+        "crowdloanParaId": null,
+        "supportProxy": false,
+        "crowdloanFunds": []
+      },
+      "extraInfo": {
+        "subscanSlug": "vflow",
+        "chainBalanceSlug": "vflow"
+      },
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    },
+    "datahaven_testnet": {
+      "slug": "datahaven_testnet",
+      "name": "DataHaven Testnet",
+      "isTestnet": true,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/datahaven_testnet.png",
+      "providers": {
+        "Datahaven": "https://services.datahaven-testnet.network/testnet"
+      },
+      "evmInfo": {
+        "evmChainId": 55931,
+        "blockExplorer": "https://testnet.dhscan.io/",
+        "existentialDeposit": "0",
+        "symbol": "MOCK",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": null
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "darwinia2": "eed926a352eb7edd1ae81deb8100b267",
+    "crabParachain": "4f1af7b159c26409d2b8b50f4ffd560c",
+    "laos_network": "fab01511bb80d3def2a7e122c9b66158",
+    "vflow": "333b1a2c2d0eaa3bb8946ed9c9f99b38",
+    "datahaven_testnet": "528180b55dff5fd91fb70221673c5e66"
+  },
+  "ChainAsset": {
+    "energy_web_x-LOCAL-stEWT": {
+      "originChain": "energy_web_x",
+      "slug": "energy_web_x-LOCAL-stEWT",
+      "name": "Liquid EWT",
+      "symbol": "stEWT",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "1",
+      "assetType": "LOCAL",
+      "metadata": {
+        "isSufficient": true,
+        "multilocation": {
+          "parents": 0,
+          "interior": {
+            "X2": [
+              {
+                "PalletInstance": 60
+              },
+              {
+                "GeneralIndex": 1
+              }
+            ]
+          }
+        },
+        "isDisableTransfer": true
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/energy_web_x-local-stewt.png"
+    },
+    "datahaven_testnet-NATIVE-MOCK": {
+      "originChain": "datahaven_testnet",
+      "slug": "datahaven_testnet-NATIVE-MOCK",
+      "name": "MOCK",
+      "symbol": "MOCK",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": null,
+      "hasValue": false,
+      "icon": "/assets/chain-assets/datahaven_testnet-native-mock.png"
+    }
+  },
+  "ChainAssetHashMap": {
+    "energy_web_x-LOCAL-stEWT": "a4839e88c12152172d941188e0443564",
+    "datahaven_testnet-NATIVE-MOCK": "cad85a9a9aecdc5dca169bad16ab45fb"
+  },
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {
+    "energy_web_x-local-stewt": "/assets/chain-assets/energy_web_x-local-stewt.png",
+    "datahaven_testnet-native-mock": "/assets/chain-assets/datahaven_testnet-native-mock.png"
+  },
+  "ChainLogoMap": {
+    "darwinia2": "/assets/chains/darwinia2.png",
+    "crabParachain": "/assets/chains/crabparachain.png",
+    "laos_network": "/assets/chains/laos_network.png",
+    "vflow": "/assets/chains/vflow.png",
+    "datahaven_testnet": "/assets/chains/datahaven_testnet.png"
+  },
+  "mAssetLogoMap": {}
+}
