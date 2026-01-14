@@ -19872,7 +19872,8 @@
             }
           ]
         }
-      }
+      },
+      "isDisableTransfer": true
     },
     "multiChainAsset": null,
     "hasValue": true,
@@ -20081,6 +20082,20 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
+  },
+  "datahaven_testnet-NATIVE-MOCK": {
+    "originChain": "datahaven_testnet",
+    "slug": "datahaven_testnet-NATIVE-MOCK",
+    "name": "MOCK",
+    "symbol": "MOCK",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/datahaven_testnet-native-mock.png"
   },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
