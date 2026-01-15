@@ -103,3 +103,4 @@ erDiagram
 - **Project**: products for end-user building upon a blockchain, can be a dApp, a media team,...
 
 **Please refer to [this guide](https://github.com/Koniverse/SubWallet-ChainList/wiki/Start-contributing-to-the-project) to start contributing to the project**
+
