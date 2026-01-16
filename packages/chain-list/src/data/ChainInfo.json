@@ -2005,7 +2005,7 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
+      "supportProxy": false,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -3563,7 +3563,7 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
+      "supportProxy": false,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -11317,7 +11317,7 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
+      "supportProxy": false,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13216,7 +13216,7 @@
       "supportStaking": null,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "supportProxy": true,
+      "supportProxy": false,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13403,6 +13403,33 @@
       "supportProxy": null,
       "crowdloanFunds": []
     },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "datahaven_testnet": {
+    "slug": "datahaven_testnet",
+    "name": "DataHaven Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/datahaven_testnet.png",
+    "providers": {
+      "Datahaven": "https://services.datahaven-testnet.network/testnet"
+    },
+    "evmInfo": {
+      "evmChainId": 55931,
+      "blockExplorer": "https://testnet.dhscan.io/",
+      "existentialDeposit": "0",
+      "symbol": "MOCK",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,

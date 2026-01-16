@@ -727,6 +727,13 @@
     "destChain": "mythos",
     "path": "XCM"
   },
+  "statemint-LOCAL-MYTH___hydradx_main-LOCAL-MYTH": {
+    "srcAsset": "statemint-LOCAL-MYTH",
+    "destAsset": "hydradx_main-LOCAL-MYTH",
+    "srcChain": "statemint",
+    "destChain": "hydradx_main",
+    "path": "XCM"
+  },
   "statemint-LOCAL-WBTC___ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
     "srcAsset": "statemint-LOCAL-WBTC",
     "destAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
@@ -774,6 +781,13 @@
     "destAsset": "mythos-NATIVE-MYTH",
     "srcChain": "hydradx_main",
     "destChain": "mythos",
+    "path": "XCM"
+  },
+  "hydradx_main-LOCAL-MYTH___statemint-LOCAL-MYTH": {
+    "srcAsset": "hydradx_main-LOCAL-MYTH",
+    "destAsset": "statemint-LOCAL-MYTH",
+    "srcChain": "hydradx_main",
+    "destChain": "statemint",
     "path": "XCM"
   },
   "ethereum-ERC20-AVAIL-0xEeB4d8400AEefafC1B2953e0094134A887C76Bd8___avail_mainnet-NATIVE-AVAIL": {
