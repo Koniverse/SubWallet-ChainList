@@ -20097,6 +20097,38 @@
     "hasValue": false,
     "icon": "/assets/chain-assets/datahaven_testnet-native-mock.png"
   },
+  "ethereum-ERC20-ACU-0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD": {
+    "originChain": "ethereum",
+    "slug": "ethereum-ERC20-ACU-0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD",
+    "name": "Acurast",
+    "symbol": "ACU",
+    "decimals": 12,
+    "priceId": "acurast",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/ethereum-erc20-acu-0x216b3643ff8b7bb30d8a48e9f1bd550126202add.png"
+  },
+  "binance-ERC20-ACU-0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF": {
+    "originChain": "binance",
+    "slug": "binance-ERC20-ACU-0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF",
+    "name": "Acurast",
+    "symbol": "ACU",
+    "decimals": 12,
+    "priceId": "acurast",
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/binance-erc20-acu-0x6ef2ffb38d64afe18ce782da280b300e358cfeaf.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
