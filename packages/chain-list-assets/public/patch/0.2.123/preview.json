@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.124-beta.4",
+  "patchVersion": "0.2.124-beta.5",
   "appliedVersion": "0.2.123",
-  "timestamp": 1768563404302,
+  "timestamp": 1768880816351,
   "ChainInfo": {
     "darwinia2": {
       "slug": "darwinia2",
@@ -280,17 +280,53 @@
       "multiChainAsset": null,
       "hasValue": false,
       "icon": "/assets/chain-assets/datahaven_testnet-native-mock.png"
+    },
+    "ethereum-ERC20-ACU-0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD": {
+      "originChain": "ethereum",
+      "slug": "ethereum-ERC20-ACU-0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD",
+      "name": "Acurast",
+      "symbol": "ACU",
+      "decimals": 12,
+      "priceId": "acurast",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/ethereum-erc20-acu-0x216b3643ff8b7bb30d8a48e9f1bd550126202add.png"
+    },
+    "binance-ERC20-ACU-0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF": {
+      "originChain": "binance",
+      "slug": "binance-ERC20-ACU-0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF",
+      "name": "Acurast",
+      "symbol": "ACU",
+      "decimals": 12,
+      "priceId": "acurast",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF"
+      },
+      "multiChainAsset": null,
+      "hasValue": true,
+      "icon": "/assets/chain-assets/binance-erc20-acu-0x6ef2ffb38d64afe18ce782da280b300e358cfeaf.png"
     }
   },
   "ChainAssetHashMap": {
     "energy_web_x-LOCAL-stEWT": "a4839e88c12152172d941188e0443564",
-    "datahaven_testnet-NATIVE-MOCK": "cad85a9a9aecdc5dca169bad16ab45fb"
+    "datahaven_testnet-NATIVE-MOCK": "cad85a9a9aecdc5dca169bad16ab45fb",
+    "ethereum-ERC20-ACU-0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD": "e0d7df90c8412744a50ffb9db8870068",
+    "binance-ERC20-ACU-0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF": "bf3bbae473fb0d64aa001ffe10efa9d8"
   },
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
     "energy_web_x-local-stewt": "/assets/chain-assets/energy_web_x-local-stewt.png",
-    "datahaven_testnet-native-mock": "/assets/chain-assets/datahaven_testnet-native-mock.png"
+    "datahaven_testnet-native-mock": "/assets/chain-assets/datahaven_testnet-native-mock.png",
+    "ethereum-erc20-acu-0x216b3643ff8b7bb30d8a48e9f1bd550126202add": "/assets/chain-assets/ethereum-erc20-acu-0x216b3643ff8b7bb30d8a48e9f1bd550126202add.png",
+    "binance-erc20-acu-0x6ef2ffb38d64afe18ce782da280b300e358cfeaf": "/assets/chain-assets/binance-erc20-acu-0x6ef2ffb38d64afe18ce782da280b300e358cfeaf.png"
   },
   "ChainLogoMap": {
     "darwinia2": "/assets/chains/darwinia2.png",
