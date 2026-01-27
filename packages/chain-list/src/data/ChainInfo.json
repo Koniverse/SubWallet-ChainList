@@ -6954,7 +6954,8 @@
     "chainStatus": "ACTIVE",
     "icon": "https://chain-list-assets.subwallet.app/assets/chains/energy_web_x.png",
     "providers": {
-      "Energy Web": "wss://public-rpc.mainnet.energywebx.com/"
+      "Energy Web": "wss://public-rpc.mainnet.energywebx.com/",
+      "WNP": "wss://wnp-rpc.mainnet.energywebx.com/"
     },
     "evmInfo": null,
     "substrateInfo": {
