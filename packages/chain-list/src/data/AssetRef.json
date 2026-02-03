@@ -755,9 +755,9 @@
     "destChain": "ethereum",
     "path": "XCM"
   },
-  "statemint-LOCAL-TON___ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
+  "statemint-LOCAL-TON___ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1": {
     "srcAsset": "statemint-LOCAL-TON",
-    "destAsset": "ethereum-ERC20-TON-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+    "destAsset": "ethereum-ERC20-TONCOIN-0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
     "srcChain": "statemint",
     "destChain": "ethereum",
     "path": "XCM"
