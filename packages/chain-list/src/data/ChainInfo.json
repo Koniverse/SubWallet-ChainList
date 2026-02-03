@@ -35,6 +35,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -80,6 +81,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -197,6 +199,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": 3342,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -245,6 +248,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -297,6 +301,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -339,6 +344,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -423,6 +429,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -463,6 +470,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -638,6 +646,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -675,6 +684,7 @@
       ],
       "crowdloanParaId": 3335,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -775,6 +785,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -838,6 +849,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -886,6 +898,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -926,6 +939,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -962,6 +976,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -996,6 +1011,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1053,6 +1069,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -1102,6 +1119,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -1161,6 +1179,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -1194,6 +1213,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -1243,6 +1263,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -1304,6 +1325,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1364,6 +1386,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -1400,6 +1423,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -1448,6 +1472,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -1493,6 +1518,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -1606,6 +1632,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": 3350,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1673,6 +1700,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1763,6 +1791,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1811,6 +1840,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -1849,6 +1879,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": 3353,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1898,6 +1929,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -1946,6 +1978,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": 2012,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -2006,6 +2039,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2042,6 +2076,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2098,6 +2133,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -2132,6 +2168,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2168,6 +2205,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -2201,6 +2239,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -2232,6 +2271,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2271,6 +2311,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2308,6 +2349,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -2357,6 +2399,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -2406,6 +2449,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -2457,6 +2501,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -2513,6 +2558,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2552,6 +2598,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2590,6 +2637,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2639,6 +2687,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -2676,6 +2725,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2725,6 +2775,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2773,6 +2824,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2833,6 +2885,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2881,6 +2934,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -2915,6 +2969,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -2986,6 +3041,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3039,6 +3095,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -3087,6 +3144,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3144,6 +3202,7 @@
       "supportSmartContract": [],
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -3177,6 +3236,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -3210,6 +3270,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -3258,6 +3319,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3309,6 +3371,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3368,6 +3431,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -3401,6 +3465,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3460,6 +3525,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3508,6 +3574,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -3564,6 +3631,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3623,6 +3691,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -3656,6 +3725,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -3689,6 +3759,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -3725,6 +3796,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -3759,6 +3831,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3820,6 +3893,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -3856,6 +3930,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3902,6 +3977,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -3948,6 +4024,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -3993,6 +4070,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -4036,6 +4114,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4069,6 +4148,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4100,6 +4180,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4131,6 +4212,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4162,6 +4244,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4195,6 +4278,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4228,6 +4312,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -4276,6 +4361,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4307,6 +4393,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -4353,6 +4440,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -4401,6 +4489,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4432,6 +4521,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4465,6 +4555,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -4508,6 +4599,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -4553,6 +4645,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4584,6 +4677,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -4632,6 +4726,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -4680,6 +4775,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4713,6 +4809,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4746,6 +4843,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4834,6 +4932,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -4870,6 +4969,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4903,6 +5003,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4963,6 +5064,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -4996,6 +5098,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5029,6 +5132,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5062,6 +5166,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5095,6 +5200,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5128,6 +5234,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5167,6 +5274,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -5204,6 +5312,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -5252,6 +5361,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5287,6 +5397,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5320,6 +5431,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -5376,6 +5488,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -5421,6 +5534,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -5466,6 +5580,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5497,6 +5612,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -5540,6 +5656,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5571,6 +5688,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -5614,6 +5732,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5647,6 +5766,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5680,6 +5800,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -5716,6 +5837,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5749,6 +5871,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -5783,6 +5906,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5816,6 +5940,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": 3354,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -5872,6 +5997,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5905,6 +6031,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -5938,6 +6065,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -5972,6 +6100,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6003,6 +6132,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6039,6 +6169,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": 2025,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -6098,6 +6229,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6131,6 +6263,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6164,6 +6297,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6198,6 +6332,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -6234,6 +6369,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6271,6 +6407,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -6307,6 +6444,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6347,6 +6485,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -6387,6 +6526,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -6479,6 +6619,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -6527,6 +6668,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6560,6 +6702,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6655,6 +6798,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -6746,6 +6890,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -6789,6 +6934,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6820,6 +6966,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -6863,6 +7010,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -6894,6 +7042,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -6937,6 +7086,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -6980,6 +7130,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -7023,6 +7174,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7054,6 +7206,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7088,6 +7241,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -7138,6 +7292,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -7181,6 +7336,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7212,6 +7368,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7243,6 +7400,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7274,6 +7432,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -7320,6 +7479,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "kusama",
@@ -7363,6 +7523,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7394,6 +7555,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7425,6 +7587,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7456,6 +7619,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7489,6 +7653,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -7523,6 +7688,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7554,6 +7720,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7591,6 +7758,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -7634,6 +7802,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7665,6 +7834,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7722,6 +7892,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7755,6 +7926,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7812,6 +7984,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -7848,6 +8021,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -7888,6 +8062,7 @@
       ],
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -7921,6 +8096,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -7957,6 +8133,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8018,6 +8195,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8083,6 +8261,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -8131,6 +8310,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8164,6 +8344,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8200,6 +8381,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8236,6 +8418,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8300,6 +8483,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8334,6 +8518,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8367,6 +8552,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8400,6 +8586,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8433,6 +8620,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8466,6 +8654,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8583,6 +8772,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8616,6 +8806,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8677,6 +8868,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8718,6 +8910,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8754,6 +8947,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8818,6 +9012,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8854,6 +9049,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -8887,6 +9083,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -8926,6 +9123,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -9129,6 +9327,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -9219,6 +9418,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -9254,6 +9454,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -9288,6 +9489,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -9369,6 +9571,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -9487,6 +9690,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -9520,6 +9724,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -9553,6 +9758,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -9678,6 +9884,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -10041,6 +10248,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -10422,6 +10630,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -10541,6 +10750,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -10601,6 +10811,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -10826,6 +11037,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11022,6 +11234,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11083,6 +11296,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -11173,6 +11387,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11206,6 +11421,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11271,6 +11487,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -11318,6 +11535,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11576,6 +11794,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11663,6 +11882,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -11727,6 +11947,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -11791,6 +12012,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -11827,6 +12049,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12051,6 +12274,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12111,6 +12335,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12217,6 +12442,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -12257,6 +12483,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -12293,6 +12520,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12380,6 +12608,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12413,6 +12642,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -12476,6 +12706,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -12542,6 +12773,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12575,6 +12807,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12636,6 +12869,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12670,6 +12904,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12703,6 +12938,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12736,6 +12972,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12797,6 +13034,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12830,6 +13068,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12902,6 +13141,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -12935,6 +13175,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13023,6 +13264,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13057,6 +13299,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13090,6 +13333,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13137,6 +13381,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": false,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13170,6 +13415,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13217,6 +13463,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": {
@@ -13253,6 +13500,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13356,6 +13604,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
@@ -13401,6 +13650,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
