@@ -20082,6 +20082,347 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
   },
+  "subtensor_evm-ERC20-TAO-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-TAO-0x0000000000000000000000000000000000000000",
+    "name": "TAO",
+    "symbol": "TAO",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN56-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN56-0x0000000000000000000000000000000000000000",
+    "name": "SN56",
+    "symbol": "SN56",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 56,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN50-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN50-0x0000000000000000000000000000000000000000",
+    "name": "SN50",
+    "symbol": "SN50",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 50,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN51-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN51-0x0000000000000000000000000000000000000000",
+    "name": "SN51",
+    "symbol": "SN51",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 51,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN17-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN17-0x0000000000000000000000000000000000000000",
+    "name": "SN17",
+    "symbol": "SN17",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 17,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN4-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN4-0x0000000000000000000000000000000000000000",
+    "name": "SN4",
+    "symbol": "SN4",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 4,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN65-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN65-0x0000000000000000000000000000000000000000",
+    "name": "SN65",
+    "symbol": "SN65",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 65,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN35-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN35-0x0000000000000000000000000000000000000000",
+    "name": "SN35",
+    "symbol": "SN35",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 35,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN44-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN44-0x0000000000000000000000000000000000000000",
+    "name": "SN44",
+    "symbol": "SN44",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 44,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN62-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN62-0x0000000000000000000000000000000000000000",
+    "name": "SN62",
+    "symbol": "SN62",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 62,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN46-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN46-0x0000000000000000000000000000000000000000",
+    "name": "SN46",
+    "symbol": "SN46",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 46,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN41-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN41-0x0000000000000000000000000000000000000000",
+    "name": "SN41",
+    "symbol": "SN41",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 41,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN9-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN9-0x0000000000000000000000000000000000000000",
+    "name": "SN9",
+    "symbol": "SN9",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 9,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN120-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN120-0x0000000000000000000000000000000000000000",
+    "name": "SN120",
+    "symbol": "SN120",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 120,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN8-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN8-0x0000000000000000000000000000000000000000",
+    "name": "SN8",
+    "symbol": "SN8",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 8,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN33-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN33-0x0000000000000000000000000000000000000000",
+    "name": "SN33",
+    "symbol": "SN33",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 33,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN34-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN34-0x0000000000000000000000000000000000000000",
+    "name": "SN34",
+    "symbol": "SN34",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 34,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN71-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN71-0x0000000000000000000000000000000000000000",
+    "name": "SN71",
+    "symbol": "SN71",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 71,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
+  "subtensor_evm-ERC20-SN64-0x0000000000000000000000000000000000000000": {
+    "originChain": "subtensor_evm",
+    "slug": "subtensor_evm-ERC20-SN64-0x0000000000000000000000000000000000000000",
+    "name": "SN64",
+    "symbol": "SN64",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "ERC20",
+    "metadata": {
+      "netuid": 64,
+      "isAlphaToken": true,
+      "contractAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": null
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
