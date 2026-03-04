@@ -902,11 +902,11 @@
     "destChain": "energy_web_x",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDC___statemine-LOCAL-USDC": {
-    "srcAsset": "statemint-LOCAL-USDC",
-    "destAsset": "statemine-LOCAL-USDC",
-    "srcChain": "statemint",
-    "destChain": "statemine",
+  "statemine-NATIVE-KSM___encointer-NATIVE-KSM": {
+    "srcAsset": "statemine-NATIVE-KSM",
+    "destAsset": "encointer-NATIVE-KSM",
+    "srcChain": "statemine",
+    "destChain": "encointer",
     "path": "XCM"
   }
 }
