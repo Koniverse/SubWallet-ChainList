@@ -515,13 +515,13 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-פ.png"
     },
-    "bittensor-LOCAL-ξ": {
+    "bittensor-LOCAL-テ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ξ",
+      "slug": "bittensor-LOCAL-テ",
       "name": "TAOHash",
-      "symbol": "ξ",
+      "symbol": "テ",
       "decimals": 9,
-      "priceId": "taohash",
+      "priceId": "dtao-14",
       "minAmount": "0",
       "assetType": "LOCAL",
       "metadata": {
@@ -530,7 +530,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ξ.png"
+      "icon": "/assets/chain-assets/bittensor-local-テ.png"
     },
     "bittensor-LOCAL-خ": {
       "originChain": "bittensor",
@@ -566,13 +566,13 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-υ.png"
     },
-    "bittensor-LOCAL-ב": {
+    "bittensor-LOCAL-ඞ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ב",
+      "slug": "bittensor-LOCAL-ඞ",
       "name": "Kinitro",
-      "symbol": "ב",
+      "symbol": "ඞ",
       "decimals": 9,
-      "priceId": "storb",
+      "priceId": "dtao-26",
       "minAmount": "0",
       "assetType": "LOCAL",
       "metadata": {
@@ -581,7 +581,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ב.png"
+      "icon": "/assets/chain-assets/bittensor-local-ඞ.png"
     },
     "bittensor-LOCAL-ت": {
       "originChain": "bittensor",
@@ -1263,13 +1263,13 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-ظ.png"
     },
-    "bittensor-LOCAL-ي-81": {
+    "bittensor-LOCAL-ᚠ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ي-81",
+      "slug": "bittensor-LOCAL-ᚠ",
       "name": "grail",
-      "symbol": "ي",
+      "symbol": "ᚠ",
       "decimals": 9,
-      "priceId": "patrol-tao-com",
+      "priceId": "dtao-81",
       "minAmount": "0",
       "assetType": "LOCAL",
       "metadata": {
@@ -1278,7 +1278,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ي-81.png"
+      "icon": "/assets/chain-assets/bittensor-local-ᚠ.png"
     },
     "bittensor-LOCAL-ᚁ": {
       "originChain": "bittensor",
@@ -1586,11 +1586,11 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-դ.png"
     },
-    "bittensor-LOCAL-Ե": {
+    "bittensor-LOCAL-ミ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-Ե",
+      "slug": "bittensor-LOCAL-ミ",
       "name": "Minos",
-      "symbol": "Ե",
+      "symbol": "ミ",
       "decimals": 9,
       "priceId": "tiger-alpha",
       "minAmount": "0",
@@ -1601,7 +1601,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ե.png"
+      "icon": "/assets/chain-assets/bittensor-local-ミ.png"
     },
     "bittensor-LOCAL-Զ": {
       "originChain": "bittensor",
@@ -1688,11 +1688,11 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-ѕ.png"
     },
-    "bittensor-LOCAL-ъ": {
+    "bittensor-LOCAL-ⴵ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ъ",
+      "slug": "bittensor-LOCAL-ⴵ",
       "name": "TaoLend",
-      "symbol": "ъ",
+      "symbol": "ⴵ",
       "decimals": 9,
       "priceId": "solmev",
       "minAmount": "0",
@@ -1703,7 +1703,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ъ.png"
+      "icon": "/assets/chain-assets/bittensor-local-ⴵ.png"
     },
     "bittensor-LOCAL-Ⲁ": {
       "originChain": "bittensor",
@@ -1722,9 +1722,9 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-ⲁ.png"
     },
-    "bittensor-LOCAL-ⲃ-120": {
+    "bittensor-LOCAL-ⴷ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ⲃ-120",
+      "slug": "bittensor-LOCAL-ⴷ",
       "name": "Affine",
       "symbol": "ⴷ",
       "decimals": 9,
@@ -1737,7 +1737,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ⲃ-120.png"
+      "icon": "/assets/chain-assets/bittensor-local-ⴷ.png"
     },
     "bittensor-LOCAL-Ⲅ": {
       "originChain": "bittensor",
@@ -1938,10 +1938,10 @@
     "bittensor-LOCAL-ج": "b0de439615b180c5de974d0046973a58",
     "bittensor-LOCAL-ψ": "4148d66e36aab7b20bd55d4e32f1c116",
     "bittensor-LOCAL-פ": "be06b8f325fe1749776f141f2d8c0563",
-    "bittensor-LOCAL-ξ": "200be4c7fdf84aa4c7006f8ea41f6503",
+    "bittensor-local-テ": "200be4c7fdf84aa4c7006f8ea41f6503",
     "bittensor-LOCAL-خ": "51b50315cf6004d60f3f23bb8576b9e3",
     "bittensor-LOCAL-υ": "d35a04fac60437d5a25ebaeeabbf6c3a",
-    "bittensor-LOCAL-ב": "e1e8845b532d29f2429740884d5e854d",
+    "bittensor-local-ඞ": "e1e8845b532d29f2429740884d5e854d",
     "bittensor-LOCAL-ت": "f4550123a6c653a011e5443169feda5b",
     "bittensor-LOCAL-ح": "1c5dde9577a55b4c19342ab9537ccba7",
     "bittensor-LOCAL-ם": "00bcfc9192346746fbbbf4a3e4734c1f",
@@ -1982,7 +1982,7 @@
     "bittensor-LOCAL-ن": "d8908a2887318742b9474ebd29e847c0",
     "bittensor-LOCAL-ق": "981f6eea135c468e0b56e34efba8c5b5",
     "bittensor-LOCAL-ظ": "4a67b8ba55591588f95a31514d00b733",
-    "bittensor-LOCAL-ي-81": "0f64c7b315b6c7a79b83bf42cc4fbf77",
+    "bittensor-local-ᚠ": "0f64c7b315b6c7a79b83bf42cc4fbf77",
     "bittensor-LOCAL-ᚁ": "1f7e9c4c00a0b18ef7fdc713b8d5a6f8",
     "bittensor-LOCAL-ᚂ": "1453b50b423903c33bd88ec5064290ea",
     "bittensor-LOCAL-ᚄ": "5ee289cec4a076692b2f99ce466c5a34",
@@ -2001,13 +2001,13 @@
     "bittensor-LOCAL-Ա": "c1d229db3ed583b715202421052ed83f",
     "bittensor-LOCAL-Գ": "119822f6d1712accbf3ab77803ad8dfd",
     "bittensor-LOCAL-Դ": "f742b0c2331fff31d85623582f9757bb",
-    "bittensor-LOCAL-Ե": "829dabaf1c356e4d7c78f3427c526837",
+    "bittensor-local-ミ": "829dabaf1c356e4d7c78f3427c526837",
     "bittensor-LOCAL-Զ": "729f3a0416e273de71cabb66624da000",
     "bittensor-LOCAL-՞": "f56b8a58d6478bf0293c269008ba4165",
     "bittensor-LOCAL-Ё": "e5e96b414dc845ce7fb8046d82d12532",
     "bittensor-LOCAL-Ѓ": "64f2b3d3d9c85f9eb54627bb2c5ad135",
     "bittensor-LOCAL-Ѕ": "708807d8ee756d5e53a41fe23a4a6df2",
-    "bittensor-LOCAL-ъ": "157ba6b410e99c4fc361952be006becf",
+    "bittensor-local-ⴵ": "157ba6b410e99c4fc361952be006becf",
     "bittensor-LOCAL-Ⲁ": "df066c126b46b35d1f19f2fa3ad9184c",
     "bittensor-LOCAL-ⴷ-120": "367c7aa6da33771906b2e19a0e812272",
     "bittensor-LOCAL-Ⲅ": "9b87a81ffd76877c81e615dcd06276a5",
@@ -2054,10 +2054,10 @@
     "bittensor-local-ج": "/assets/chain-assets/bittensor-local-ج.png",
     "bittensor-local-ψ": "/assets/chain-assets/bittensor-local-ψ.png",
     "bittensor-local-פ": "/assets/chain-assets/bittensor-local-פ.png",
-    "bittensor-local-ξ": "/assets/chain-assets/bittensor-local-ξ.png",
+    "bittensor-local-テ": "/assets/chain-assets/bittensor-local-テ.png",
     "bittensor-local-خ": "/assets/chain-assets/bittensor-local-خ.png",
     "bittensor-local-υ": "/assets/chain-assets/bittensor-local-υ.png",
-    "bittensor-local-ב": "/assets/chain-assets/bittensor-local-ב.png",
+    "bittensor-local-ඞ": "/assets/chain-assets/bittensor-local-ඞ.png",
     "bittensor-local-ت": "/assets/chain-assets/bittensor-local-ت.png",
     "bittensor-local-ح": "/assets/chain-assets/bittensor-local-ح.png",
     "bittensor-local-ם": "/assets/chain-assets/bittensor-local-ם.png",
@@ -2098,7 +2098,7 @@
     "bittensor-local-ن": "/assets/chain-assets/bittensor-local-ن.png",
     "bittensor-local-ق": "/assets/chain-assets/bittensor-local-ق.png",
     "bittensor-local-ظ": "/assets/chain-assets/bittensor-local-ظ.png",
-    "bittensor-local-ي-81": "/assets/chain-assets/bittensor-local-ي-81.png",
+    "bittensor-local-ᚠ": "/assets/chain-assets/bittensor-local-ᚠ.png",
     "bittensor-local-ᚁ": "/assets/chain-assets/bittensor-local-ᚁ.png",
     "bittensor-local-ᚂ": "/assets/chain-assets/bittensor-local-ᚂ.png",
     "bittensor-local-ᚄ": "/assets/chain-assets/bittensor-local-ᚄ.png",
@@ -2117,13 +2117,13 @@
     "bittensor-local-ա": "/assets/chain-assets/bittensor-local-ա.png",
     "bittensor-local-գ": "/assets/chain-assets/bittensor-local-գ.png",
     "bittensor-local-դ": "/assets/chain-assets/bittensor-local-դ.png",
-    "bittensor-local-ե": "/assets/chain-assets/bittensor-local-ե.png",
+    "bittensor-local-ミ": "/assets/chain-assets/bittensor-local-ミ.png",
     "bittensor-local-զ": "/assets/chain-assets/bittensor-local-զ.png",
     "bittensor-local-՞": "/assets/chain-assets/bittensor-local-՞.png",
     "bittensor-local-ё": "/assets/chain-assets/bittensor-local-ё.png",
     "bittensor-local-ѓ": "/assets/chain-assets/bittensor-local-ѓ.png",
     "bittensor-local-ѕ": "/assets/chain-assets/bittensor-local-ѕ.png",
-    "bittensor-local-ъ": "/assets/chain-assets/bittensor-local-ъ.png",
+    "bittensor-LOCAL-ⴵ": "/assets/chain-assets/bittensor-local-ⴵ.png",
     "bittensor-local-ⲁ": "/assets/chain-assets/bittensor-local-ⲁ.png",
     "bittensor-local-ⴷ-120": "/assets/chain-assets/bittensor-local-ⴷ-120.png",
     "bittensor-local-ⲅ": "/assets/chain-assets/bittensor-local-ⲅ.png",
