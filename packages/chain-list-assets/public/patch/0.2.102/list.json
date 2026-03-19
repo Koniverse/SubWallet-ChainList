@@ -729,7 +729,7 @@
     "bittensor-LOCAL-β": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-β",
-      "name": "Omron",
+      "name": "DSperse",
       "symbol": "β",
       "decimals": 9,
       "priceId": "dtao-2",
@@ -746,7 +746,7 @@
     "bittensor-LOCAL-ε": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ε",
-      "name": "Openkaito",
+      "name": "Hone",
       "symbol": "ε",
       "decimals": 9,
       "priceId": "dtao-5",
@@ -797,7 +797,7 @@
     "bittensor-LOCAL-ק": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ק",
-      "name": "Nextplace",
+      "name": "Quantum Compute",
       "symbol": "ק",
       "decimals": 9,
       "priceId": "dtao-48",
@@ -848,7 +848,7 @@
     "bittensor-LOCAL-κ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-κ",
-      "name": "Sturdy",
+      "name": "Swap",
       "symbol": "κ",
       "decimals": 9,
       "priceId": "dtao-10",
@@ -882,7 +882,7 @@
     "bittensor-LOCAL-ω": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ω",
-      "name": "Omega labs",
+      "name": "Quasar",
       "symbol": "ω",
       "decimals": 9,
       "priceId": "dtao-24",
@@ -933,7 +933,7 @@
     "bittensor-LOCAL-ח": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ח",
-      "name": "Itsai",
+      "name": "ItsAI",
       "symbol": "ח",
       "decimals": 9,
       "priceId": "dtao-32",
@@ -967,7 +967,7 @@
     "bittensor-LOCAL-ט": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ט",
-      "name": "Readyai",
+      "name": "ReadyAI",
       "symbol": "ט",
       "decimals": 9,
       "priceId": "dtao-33",
@@ -984,7 +984,7 @@
     "bittensor-LOCAL-λ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-λ",
-      "name": "Dippy",
+      "name": "TrajectoryRL",
       "symbol": "λ",
       "decimals": 9,
       "priceId": "dtao-11",
@@ -1001,7 +1001,7 @@
     "bittensor-LOCAL-ך": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ך",
-      "name": "Logicnet",
+      "name": "Cartha",
       "symbol": "ך",
       "decimals": 9,
       "priceId": "dtao-35",
@@ -1052,7 +1052,7 @@
     "bittensor-LOCAL-θ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-θ",
-      "name": "Proprietary trading network",
+      "name": "Vanta",
       "symbol": "θ",
       "decimals": 9,
       "priceId": "dtao-8",
@@ -1086,7 +1086,7 @@
     "bittensor-LOCAL-ו": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ו",
-      "name": "Bettensor",
+      "name": "Wahoot",
       "symbol": "ו",
       "decimals": 9,
       "priceId": "dtao-30",
@@ -1103,7 +1103,7 @@
     "bittensor-LOCAL-ת": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ת",
-      "name": "Celium",
+      "name": "lium.io",
       "symbol": "ת",
       "decimals": 9,
       "priceId": "dtao-51",
@@ -1202,11 +1202,11 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-פ.png"
     },
-    "bittensor-LOCAL-ξ": {
+    "bittensor-LOCAL-テ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ξ",
-      "name": "Vector-store",
-      "symbol": "ξ",
+      "slug": "bittensor-LOCAL-テ",
+      "name": "TAOHash",
+      "symbol": "テ",
       "decimals": 9,
       "priceId": "dtao-14",
       "minAmount": "0",
@@ -1217,12 +1217,12 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ξ.png"
+      "icon": "/assets/chain-assets/bittensor-local-テ.png"
     },
     "bittensor-LOCAL-خ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-خ",
-      "name": "Dippy speech",
+      "name": "Handshake",
       "symbol": "خ",
       "decimals": 9,
       "priceId": "dtao-58",
@@ -1256,7 +1256,7 @@
     "bittensor-LOCAL-υ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-υ",
-      "name": "Bitagent - rizzo",
+      "name": "GroundLayer",
       "symbol": "υ",
       "decimals": 9,
       "priceId": "dtao-20",
@@ -1270,11 +1270,11 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-υ.png"
     },
-    "bittensor-LOCAL-ב": {
+    "bittensor-LOCAL-ඞ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ב",
-      "name": "Storb",
-      "symbol": "ב",
+      "slug": "bittensor-LOCAL-ඞ",
+      "name": "Kinitro",
+      "symbol": "ඞ",
       "decimals": 9,
       "priceId": "dtao-26",
       "minAmount": "0",
@@ -1285,12 +1285,12 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ב.png"
+      "icon": "/assets/chain-assets/bittensor-local-ඞ.png"
     },
     "bittensor-LOCAL-ت": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ت",
-      "name": "Webgenieai",
+      "name": "Yanez MIID",
       "symbol": "ت",
       "decimals": 9,
       "priceId": "dtao-54",
@@ -1307,7 +1307,7 @@
     "bittensor-LOCAL-ح": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ح",
-      "name": "Gaia",
+      "name": "Sparket.AI",
       "symbol": "ح",
       "decimals": 9,
       "priceId": "dtao-57",
@@ -1324,7 +1324,7 @@
     "bittensor-LOCAL-ם": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ם",
-      "name": "Distributed training",
+      "name": "colosseum",
       "symbol": "ם",
       "decimals": 9,
       "priceId": "dtao-38",
@@ -1341,7 +1341,7 @@
     "bittensor-LOCAL-ס": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ס",
-      "name": "Real-time data by masa",
+      "name": "Gopher",
       "symbol": "ס",
       "decimals": 9,
       "priceId": "dtao-42",
@@ -1358,7 +1358,7 @@
     "bittensor-LOCAL-ר": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ר",
-      "name": "Automl",
+      "name": "Nepher Robotics",
       "symbol": "ר",
       "decimals": 9,
       "priceId": "dtao-49",
@@ -1375,7 +1375,7 @@
     "bittensor-LOCAL-נ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-נ",
-      "name": "Sportstensor",
+      "name": "Almanac",
       "symbol": "נ",
       "decimals": 9,
       "priceId": "dtao-41",
@@ -1426,7 +1426,7 @@
     "bittensor-LOCAL-t": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-t",
-      "name": "Nineteen.ai",
+      "name": "blockmachine",
       "symbol": "t",
       "decimals": 9,
       "priceId": "dtao-19",
@@ -1477,7 +1477,7 @@
     "bittensor-LOCAL-ג": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ג",
-      "name": "Ni compute",
+      "name": "Nodexo",
       "symbol": "ג",
       "decimals": 9,
       "priceId": "dtao-27",
@@ -1511,7 +1511,7 @@
     "bittensor-LOCAL-ζ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ζ",
-      "name": "Infinite games",
+      "name": "Numinous",
       "symbol": "ζ",
       "decimals": 9,
       "priceId": "dtao-6",
@@ -1528,7 +1528,7 @@
     "bittensor-LOCAL-י": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-י",
-      "name": "Bitmind",
+      "name": "BitMind",
       "symbol": "י",
       "decimals": 9,
       "priceId": "dtao-34",
@@ -1579,7 +1579,7 @@
     "bittensor-LOCAL-ث": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ث",
-      "name": "Precog",
+      "name": "NIOME",
       "symbol": "ث",
       "decimals": 9,
       "priceId": "dtao-55",
@@ -1596,7 +1596,7 @@
     "bittensor-LOCAL-φ": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-φ",
-      "name": "Omega any-to-any",
+      "name": "OMEGA.inc: The Awakening",
       "symbol": "φ",
       "decimals": 9,
       "priceId": "dtao-21",
@@ -1630,7 +1630,7 @@
     "bittensor-LOCAL-ל": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ל",
-      "name": "Finetuning",
+      "name": "Aurelius",
       "symbol": "ל",
       "decimals": 9,
       "priceId": "dtao-37",
@@ -1698,7 +1698,7 @@
     "bittensor-LOCAL-ي": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ي",
-      "name": "Τaos",
+      "name": "MVTRX",
       "symbol": "ي",
       "decimals": 9,
       "priceId": "dtao-79",
@@ -1715,7 +1715,7 @@
     "bittensor-LOCAL-ى": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ى",
-      "name": "Ai factory",
+      "name": "dogelayer",
       "symbol": "ى",
       "decimals": 9,
       "priceId": "dtao-80",
@@ -1749,7 +1749,7 @@
     "bittensor-LOCAL-د": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-د",
-      "name": "Agent arena by masa",
+      "name": "Babelbit",
       "symbol": "د",
       "decimals": 9,
       "priceId": "dtao-59",
@@ -1800,7 +1800,7 @@
     "bittensor-LOCAL-و": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-و",
-      "name": "Waw",
+      "name": "Loosh",
       "symbol": "و",
       "decimals": 9,
       "priceId": "dtao-78",
@@ -1851,7 +1851,7 @@
     "bittensor-LOCAL-ض": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ض",
-      "name": "Fakenews",
+      "name": "AlphaCore",
       "symbol": "ض",
       "decimals": 9,
       "priceId": "dtao-66",
@@ -2021,7 +2021,7 @@
     "bittensor-LOCAL-ل": {
       "originChain": "bittensor",
       "slug": "bittensor-LOCAL-ل",
-      "name": "Lam",
+      "name": "Gittensor",
       "symbol": "ل",
       "decimals": 9,
       "priceId": "dtao-74",
@@ -2052,11 +2052,11 @@
       "hasValue": true,
       "icon": "/assets/chain-assets/bittensor-local-ظ.png"
     },
-    "bittensor-LOCAL-ي-81": {
+    "bittensor-LOCAL-ᚠ": {
       "originChain": "bittensor",
-      "slug": "bittensor-LOCAL-ي-81",
-      "name": "Patrol (tao.com)",
-      "symbol": "ي",
+      "slug": "bittensor-LOCAL-ᚠ",
+      "name": "grail",
+      "symbol": "ᚠ",
       "decimals": 9,
       "priceId": "dtao-81",
       "minAmount": "0",
@@ -2067,7 +2067,7 @@
       },
       "multiChainAsset": null,
       "hasValue": true,
-      "icon": "/assets/chain-assets/bittensor-local-ي-81.png"
+      "icon": "/assets/chain-assets/bittensor-local-ᚠ.png"
     },
     "peaq_evm-NATIVE-PEAQ": {
       "originChain": "peaq_evm",
@@ -2352,11 +2352,11 @@
     "bittensor-LOCAL-ج": "ce1ed2380913a2fb0e9284bfcf53f912",
     "bittensor-LOCAL-ψ": "31c13e994fce385850a2a98389fecd2d",
     "bittensor-LOCAL-פ": "7bd22b7f80ce3dbe35ffce370260f1f7",
-    "bittensor-LOCAL-ξ": "558a3cf62e5aa4fb6a1893b2cefbe822",
+    "bittensor-local-テ": "558a3cf62e5aa4fb6a1893b2cefbe822",
     "bittensor-LOCAL-خ": "feb52c6a38db0ae07efaf79ac78d3755",
     "bittensor-LOCAL-ד": "1353b1922decc0c002912b10d506b419",
     "bittensor-LOCAL-υ": "0026e04db692f641442aa353bd8e0910",
-    "bittensor-LOCAL-ב": "7d2357bae3c11144608c011a571619df",
+    "bittensor-local-ඞ": "7d2357bae3c11144608c011a571619df",
     "bittensor-LOCAL-ت": "5e3a0311cf6e03944d9e5bd36181f342",
     "bittensor-LOCAL-ح": "e5d2337114480fb1ecf9b63fc7df7ad2",
     "bittensor-LOCAL-ם": "e2c300486215cf79c7f19ea338fd9c06",
@@ -2402,7 +2402,7 @@
     "bittensor-LOCAL-ق": "f583f001bee839943affa6c721e0d802",
     "bittensor-LOCAL-ل": "250a9c2a8d636c009f87e25252880485",
     "bittensor-LOCAL-ظ": "0a2bf563819fe9922e141fb402ca87e3",
-    "bittensor-LOCAL-ي-81": "f248b57ff8c7a91477890aa3813f2a7b",
+    "bittensor-local-ᚠ": "f248b57ff8c7a91477890aa3813f2a7b",
     "peaq_evm-NATIVE-PEAQ": "05600197b0040686615f81793be3dc39",
     "ethereum-ERC20-tTAO-0xE4887Cf30fF3EDb843369f2161FCB7e064ff28f0": "a764e26f024a1235a36019cbf07a527c",
     "ethereum-ERC20-stTAO-0xB60acD2057067DC9ed8c083f5aa227a244044fD6": "55b2d4e776305317815cfcd9e32548bb",
@@ -2469,11 +2469,11 @@
     "bittensor-local-ج": "/assets/chain-assets/bittensor-local-ج.png",
     "bittensor-local-ψ": "/assets/chain-assets/bittensor-local-ψ.png",
     "bittensor-local-פ": "/assets/chain-assets/bittensor-local-פ.png",
-    "bittensor-local-ξ": "/assets/chain-assets/bittensor-local-ξ.png",
+    "bittensor-local-テ": "/assets/chain-assets/bittensor-local-テ.png",
     "bittensor-local-خ": "/assets/chain-assets/bittensor-local-خ.png",
     "bittensor-local-ד": "/assets/chain-assets/bittensor-local-ד.png",
     "bittensor-local-υ": "/assets/chain-assets/bittensor-local-υ.png",
-    "bittensor-local-ב": "/assets/chain-assets/bittensor-local-ב.png",
+    "bittensor-local-ඞ": "/assets/chain-assets/bittensor-local-ඞ.png",
     "bittensor-local-ت": "/assets/chain-assets/bittensor-local-ت.png",
     "bittensor-local-ح": "/assets/chain-assets/bittensor-local-ح.png",
     "bittensor-local-ם": "/assets/chain-assets/bittensor-local-ם.png",
@@ -2519,7 +2519,7 @@
     "bittensor-local-ق": "/assets/chain-assets/bittensor-local-ق.png",
     "bittensor-local-ل": "/assets/chain-assets/bittensor-local-ل.png",
     "bittensor-local-ظ": "/assets/chain-assets/bittensor-local-ظ.png",
-    "bittensor-local-ي-81": "/assets/chain-assets/bittensor-local-ي-81.png",
+    "bittensor-local-ᚠ": "/assets/chain-assets/bittensor-local-ᚠ.png",
     "peaq_evm-native-peaq": "/assets/chain-assets/peaq_evm-native-peaq.png",
     "ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0": "/assets/chain-assets/ethereum-erc20-ttao-0xe4887cf30ff3edb843369f2161fcb7e064ff28f0.png",
     "ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6": "/assets/chain-assets/ethereum-erc20-sttao-0xb60acd2057067dc9ed8c083f5aa227a244044fd6.png",
