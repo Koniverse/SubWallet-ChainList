@@ -1,7 +1,7 @@
 {
-  "patchVersion": "0.2.124-beta.5",
+  "patchVersion": "0.2.126-beta.1",
   "appliedVersion": "0.2.123",
-  "timestamp": 1768880816351,
+  "timestamp": 1775012073697,
   "ChainInfo": {
     "darwinia2": {
       "slug": "darwinia2",
@@ -261,7 +261,7 @@
             ]
           }
         },
-        "isDisableTransfer": true
+        "isDisableTransfer": false
       },
       "multiChainAsset": null,
       "hasValue": true,
