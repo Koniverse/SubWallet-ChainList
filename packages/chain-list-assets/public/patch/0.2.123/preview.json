@@ -1,7 +1,7 @@
 {
   "patchVersion": "0.2.126-beta.1",
   "appliedVersion": "0.2.123",
-  "timestamp": 1775012073697,
+  "timestamp": 1775013868800,
   "ChainInfo": {
     "darwinia2": {
       "slug": "darwinia2",
@@ -237,36 +237,6 @@
     "datahaven_testnet": "528180b55dff5fd91fb70221673c5e66"
   },
   "ChainAsset": {
-    "energy_web_x-LOCAL-stEWT": {
-      "originChain": "energy_web_x",
-      "slug": "energy_web_x-LOCAL-stEWT",
-      "name": "Liquid EWT",
-      "symbol": "stEWT",
-      "decimals": 18,
-      "priceId": null,
-      "minAmount": "1",
-      "assetType": "LOCAL",
-      "metadata": {
-        "isSufficient": true,
-        "multilocation": {
-          "parents": 0,
-          "interior": {
-            "X2": [
-              {
-                "PalletInstance": 60
-              },
-              {
-                "GeneralIndex": 1
-              }
-            ]
-          }
-        },
-        "isDisableTransfer": false
-      },
-      "multiChainAsset": null,
-      "hasValue": true,
-      "icon": "/assets/chain-assets/energy_web_x-local-stewt.png"
-    },
     "datahaven_testnet-NATIVE-MOCK": {
       "originChain": "datahaven_testnet",
       "slug": "datahaven_testnet-NATIVE-MOCK",
@@ -315,7 +285,6 @@
     }
   },
   "ChainAssetHashMap": {
-    "energy_web_x-LOCAL-stEWT": "a4839e88c12152172d941188e0443564",
     "datahaven_testnet-NATIVE-MOCK": "cad85a9a9aecdc5dca169bad16ab45fb",
     "ethereum-ERC20-ACU-0x216b3643ff8b7BB30d8A48E9F1BD550126202AdD": "e0d7df90c8412744a50ffb9db8870068",
     "binance-ERC20-ACU-0x6EF2FFB38D64aFE18ce782DA280b300e358CFeAF": "bf3bbae473fb0d64aa001ffe10efa9d8"
@@ -323,7 +292,6 @@
   "MultiChainAsset": {},
   "MultiChainAssetHashMap": {},
   "AssetLogoMap": {
-    "energy_web_x-local-stewt": "/assets/chain-assets/energy_web_x-local-stewt.png",
     "datahaven_testnet-native-mock": "/assets/chain-assets/datahaven_testnet-native-mock.png",
     "ethereum-erc20-acu-0x216b3643ff8b7bb30d8a48e9f1bd550126202add": "/assets/chain-assets/ethereum-erc20-acu-0x216b3643ff8b7bb30d8a48e9f1bd550126202add.png",
     "binance-erc20-acu-0x6ef2ffb38d64afe18ce782da280b300e358cfeaf": "/assets/chain-assets/binance-erc20-acu-0x6ef2ffb38d64afe18ce782da280b300e358cfeaf.png"
