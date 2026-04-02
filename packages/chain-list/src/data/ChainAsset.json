@@ -20082,6 +20082,38 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png"
   },
+  "hydradx_main-LOCAL-PRIME": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-PRIME",
+    "name": "PRIME",
+    "symbol": "PRIME",
+    "decimals": 6,
+    "priceId": "hastra-prime",
+    "minAmount": "9901",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "43"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-prime.png"
+  },
+  "hydradx_main-LOCAL-EURC": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-EURC",
+    "name": "EURC (Moonbeam Wormhole)",
+    "symbol": "EURC",
+    "decimals": 6,
+    "priceId": "eurc",
+    "minAmount": "11596",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "44"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-eurc.png"
+  },
   "paseo_assethub-NATIVE-PAS": {
     "originChain": "paseo_assethub",
     "slug": "paseo_assethub-NATIVE-PAS",
