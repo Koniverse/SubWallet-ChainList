@@ -7241,7 +7241,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
-      "supportMultisig": null,
+      "supportMultisig": true,
       "crowdloanFunds": [
         {
           "relayChain": "polkadot",
@@ -8195,7 +8195,7 @@
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "supportProxy": true,
-      "supportMultisig": null,
+      "supportMultisig": true,
       "crowdloanFunds": []
     },
     "extraInfo": {
