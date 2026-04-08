@@ -727,6 +727,13 @@
     "destChain": "mythos",
     "path": "XCM"
   },
+  "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003___mythos-NATIVE-MYTH": {
+    "srcAsset": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003",
+    "destAsset": "mythos-NATIVE-MYTH",
+    "srcChain": "ethereum",
+    "destChain": "mythos",
+    "path": "XCM"
+  },
   "statemint-LOCAL-WBTC___ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
     "srcAsset": "statemint-LOCAL-WBTC",
     "destAsset": "ethereum-ERC20-WBTC-0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
