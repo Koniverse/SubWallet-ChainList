@@ -1096,5 +1096,167 @@
     "priceId": "jpycoin",
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/jpyc-jpycoin.png"
+  },
+  "xSN4-Subnet4": {
+    "slug": "xSN4-Subnet4",
+    "originChainAsset": "subtensor_evm-ERC20-xSN4-0x3F2c5460bF575cFa8e3299f643645c91cAb6F565",
+    "name": "Subnet 4",
+    "symbol": "xSN4",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn4-0x3f2c5460bf575cfa8e3299f643645c91cab6f565.png"
+  },
+  "xSN8-Subnet8": {
+    "slug": "xSN8-Subnet8",
+    "originChainAsset": "subtensor_evm-ERC20-xSN8-0x30B5F838d479EC994793e576c9463B53B9a8E277",
+    "name": "Subnet 8",
+    "symbol": "xSN8",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn8-0x30b5f838d479ec994793e576c9463b53b9a8e277.png"
+  },
+  "xSN9-Subnet9": {
+    "slug": "xSN9-Subnet9",
+    "originChainAsset": "subtensor_evm-ERC20-xSN9-0x4E1f8793bb6d2a81337Eb3EaF1b6FBf4743716b3",
+    "name": "Subnet 9",
+    "symbol": "xSN9",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn9-0x4e1f8793bb6d2a81337eb3eaf1b6fbf4743716b3.png"
+  },
+  "xSN17-Subnet17": {
+    "slug": "xSN17-Subnet17",
+    "originChainAsset": "subtensor_evm-ERC20-xSN17-0x6b9c2DE3365635FFe8c8D95D318a3691ed827a49",
+    "name": "Subnet 17",
+    "symbol": "xSN17",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn17-0x6b9c2de3365635ffe8c8d95d318a3691ed827a49.png"
+  },
+  "xSN33-Subnet33": {
+    "slug": "xSN33-Subnet33",
+    "originChainAsset": "subtensor_evm-ERC20-xSN33-0x93D38C4E984b134B48908641776d994f0Bf1a6dD",
+    "name": "Subnet 33",
+    "symbol": "xSN33",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn33-0x93d38c4e984b134b48908641776d994f0bf1a6dd.png"
+  },
+  "xSN34-Subnet34": {
+    "slug": "xSN34-Subnet34",
+    "originChainAsset": "subtensor_evm-ERC20-xSN34-0x807d4cf263a4e137d1E6Bea8324Ed85562e57c9b",
+    "name": "Subnet 34",
+    "symbol": "xSN34",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn34-0x807d4cf263a4e137d1e6bea8324ed85562e57c9b.png"
+  },
+  "xSN35-Subnet35": {
+    "slug": "xSN35-Subnet35",
+    "originChainAsset": "subtensor_evm-ERC20-xSN35-0x2E19cFaEABdF7C738F59F704a1d209C0a146E521",
+    "name": "Subnet 35",
+    "symbol": "xSN35",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn35-0x2e19cfaeabdf7c738f59f704a1d209c0a146e521.png"
+  },
+  "xSN41-Subnet41": {
+    "slug": "xSN41-Subnet41",
+    "originChainAsset": "subtensor_evm-ERC20-xSN41-0x1Ad8e6e648f4F24259eE35Be796408DD18D0B0F6",
+    "name": "Subnet 41",
+    "symbol": "xSN41",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn41-0x1ad8e6e648f4f24259ee35be796408dd18d0b0f6.png"
+  },
+  "xSN44-Subnet44": {
+    "slug": "xSN44-Subnet44",
+    "originChainAsset": "subtensor_evm-ERC20-xSN44-0xbbC063299D61ee6c5918633E3Bd30C42D2813b73",
+    "name": "Subnet 44",
+    "symbol": "xSN44",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn44-0xbbc063299d61ee6c5918633e3bd30c42d2813b73.png"
+  },
+  "xSN46-Subnet46": {
+    "slug": "xSN46-Subnet46",
+    "originChainAsset": "subtensor_evm-ERC20-xSN46-0xDDd14D0e433c5db4367e337e0928aD430c35bbF4",
+    "name": "Subnet 46",
+    "symbol": "xSN46",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn46-0xddd14d0e433c5db4367e337e0928ad430c35bbf4.png"
+  },
+  "xSN50-Subnet50": {
+    "slug": "xSN50-Subnet50",
+    "originChainAsset": "subtensor_evm-ERC20-xSN50-0xDa69E0fc33F6ddC13DC6Af2a3ea47198aEEFB927",
+    "name": "Subnet 50",
+    "symbol": "xSN50",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn50-0xda69e0fc33f6ddc13dc6af2a3ea47198aeefb927.png"
+  },
+  "xSN51-Subnet51": {
+    "slug": "xSN51-Subnet51",
+    "originChainAsset": "subtensor_evm-ERC20-xSN51-0x36899fc109F970d3d1E94e24C962607484149CD9",
+    "name": "Subnet 51",
+    "symbol": "xSN51",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn51-0x36899fc109f970d3d1e94e24c962607484149cd9.png"
+  },
+  "xSN56-Subnet56": {
+    "slug": "xSN56-Subnet56",
+    "originChainAsset": "subtensor_evm-ERC20-xSN56-0x3F18Bd7844492A6ED34738C4D2AD486E9299B997",
+    "name": "Subnet 56",
+    "symbol": "xSN56",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn56-0x3f18bd7844492a6ed34738c4d2ad486e9299b997.png"
+  },
+  "xSN62-Subnet62": {
+    "slug": "xSN62-Subnet62",
+    "originChainAsset": "subtensor_evm-ERC20-xSN62-0x0Aea63F0f4A1DcC1d6641Bf393A0032c2C33f88B",
+    "name": "Subnet 62",
+    "symbol": "xSN62",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn62-0x0aea63f0f4a1dcc1d6641bf393a0032c2c33f88b.png"
+  },
+  "xSN64-Subnet64": {
+    "slug": "xSN64-Subnet64",
+    "originChainAsset": "subtensor_evm-ERC20-xSN64-0x3D44B9c5eBA6DE51f4Da3152341EBe591962e843",
+    "name": "Subnet 64",
+    "symbol": "xSN64",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn64-0x3d44b9c5eba6de51f4da3152341ebe591962e843.png"
+  },
+  "xSN65-Subnet65": {
+    "slug": "xSN65-Subnet65",
+    "originChainAsset": "subtensor_evm-ERC20-xSN65-0x875D8b5D0dF57b234cA7bf1a6fA44e9Aa114f055",
+    "name": "Subnet 65",
+    "symbol": "xSN65",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn65-0x875d8b5d0df57b234ca7bf1a6fa44e9aa114f055.png"
+  },
+  "xSN71-Subnet71": {
+    "slug": "xSN71-Subnet71",
+    "originChainAsset": "subtensor_evm-ERC20-xSN71-0x156e431cC96E0e3B70c97214d869C9bC4b5bbD21",
+    "name": "Subnet 71",
+    "symbol": "xSN71",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn71-0x156e431cc96e0e3b70c97214d869c9bc4b5bbd21.png"
+  },
+  "xSN120-Subnet120": {
+    "slug": "xSN120-Subnet120",
+    "originChainAsset": "subtensor_evm-ERC20-xSN120-0xbB6A51b990C116418033d3648B96C24e995E83A8",
+    "name": "Subnet 120",
+    "symbol": "xSN120",
+    "priceId": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/subtensor_evm-erc20-xsn120-0xbb6a51b990c116418033d3648b96c24e995e83a8.png"
   }
 }
