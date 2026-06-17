@@ -99,6 +99,7 @@ export interface _ChainAsset {
 
 export interface _EvmInfo {
   evmChainId: number,
+  multicall3: string | null,
   blockExplorer: string | null,
 
   // some info about native tokens (for convenience)

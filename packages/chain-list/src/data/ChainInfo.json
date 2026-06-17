@@ -106,6 +106,7 @@
     },
     "evmInfo": {
       "evmChainId": 1,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://etherscan.io",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -139,6 +140,7 @@
     },
     "evmInfo": {
       "evmChainId": 56,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://bscscan.com",
       "existentialDeposit": "0",
       "symbol": "BNB",
@@ -173,6 +175,7 @@
     },
     "evmInfo": {
       "evmChainId": 1284,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://moonscan.io/",
       "existentialDeposit": "0",
       "symbol": "GLMR",
@@ -380,6 +383,7 @@
     },
     "evmInfo": {
       "evmChainId": 592,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://blockscout.com/astar/",
       "existentialDeposit": "0",
       "symbol": "ASTR",
@@ -505,6 +509,7 @@
     },
     "evmInfo": {
       "evmChainId": 137,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://polygonscan.com",
       "existentialDeposit": "0",
       "symbol": "POL",
@@ -536,6 +541,7 @@
     },
     "evmInfo": {
       "evmChainId": 42161,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://arbiscan.io",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -569,6 +575,7 @@
     },
     "evmInfo": {
       "evmChainId": 10,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://optimistic.etherscan.io",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -600,6 +607,7 @@
     },
     "evmInfo": {
       "evmChainId": 88,
+      "multicall3": null,
       "blockExplorer": "https://tomoscan.io",
       "existentialDeposit": "0",
       "symbol": "VIC",
@@ -740,6 +748,7 @@
     },
     "evmInfo": {
       "evmChainId": 336,
+      "multicall3": null,
       "blockExplorer": "https://blockscout.com/shiden/",
       "existentialDeposit": "0",
       "symbol": "SDN",
@@ -807,6 +816,7 @@
     },
     "evmInfo": {
       "evmChainId": 81,
+      "multicall3": null,
       "blockExplorer": "https://blockscout.com/shibuya/",
       "existentialDeposit": "0",
       "symbol": "SBY",
@@ -1043,6 +1053,7 @@
     },
     "evmInfo": {
       "evmChainId": 1287,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://moonbase.moonscan.io/",
       "existentialDeposit": "0",
       "symbol": "DEV",
@@ -1093,6 +1104,7 @@
     },
     "evmInfo": {
       "evmChainId": 1285,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://moonriver.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "MOVR",
@@ -1360,6 +1372,7 @@
     },
     "evmInfo": {
       "evmChainId": 49088,
+      "multicall3": null,
       "blockExplorer": "https://explorer.testnet.bifrostnetwork.com/",
       "existentialDeposit": "0",
       "symbol": "BFC",
@@ -1535,6 +1548,7 @@
     "providers": {},
     "evmInfo": {
       "evmChainId": 1297,
+      "multicall3": null,
       "blockExplorer": "https://blockexplorer.bobabase.boba.network/",
       "existentialDeposit": "0",
       "symbol": "BOBA",
@@ -1562,6 +1576,7 @@
     },
     "evmInfo": {
       "evmChainId": 5,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://goerli.etherscan.io",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -1590,6 +1605,7 @@
     },
     "evmInfo": {
       "evmChainId": 97,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://testnet.bscscan.com",
       "existentialDeposit": "0",
       "symbol": "tBNB",
@@ -1745,6 +1761,7 @@
     },
     "evmInfo": {
       "evmChainId": 1024,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
       "symbol": "CLV",
@@ -2013,6 +2030,7 @@
     },
     "evmInfo": {
       "evmChainId": 46,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://darwinia.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "RING",
@@ -3605,6 +3623,7 @@
     },
     "evmInfo": {
       "evmChainId": 44,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://crab-scan.darwinia.network/",
       "existentialDeposit": "0",
       "symbol": "CRAB",
@@ -3665,6 +3684,7 @@
     },
     "evmInfo": {
       "evmChainId": 43,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
       "symbol": "PRING",
@@ -4862,6 +4882,7 @@
     },
     "evmInfo": {
       "evmChainId": 288,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://bobascan.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -4890,6 +4911,7 @@
     },
     "evmInfo": {
       "evmChainId": 1294,
+      "multicall3": null,
       "blockExplorer": "https://blockexplorer.bobabeam.boba.network",
       "existentialDeposit": "0",
       "symbol": "BOBA",
@@ -5022,6 +5044,7 @@
     },
     "evmInfo": {
       "evmChainId": 688,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
       "symbol": "WATRD",
@@ -6549,6 +6572,7 @@
     },
     "evmInfo": {
       "evmChainId": 4002,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://testnet.ftmscan.com",
       "existentialDeposit": "0",
       "symbol": "FTM",
@@ -6577,6 +6601,7 @@
     },
     "evmInfo": {
       "evmChainId": 250,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://explorer.fantom.network/",
       "existentialDeposit": "0",
       "symbol": "FTM",
@@ -6721,6 +6746,7 @@
     },
     "evmInfo": {
       "evmChainId": 8453,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://basescan.org",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -6749,6 +6775,7 @@
     },
     "evmInfo": {
       "evmChainId": 43114,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://subnets.avax.network/c-chain/",
       "existentialDeposit": "0",
       "symbol": "AVAX",
@@ -6820,6 +6847,7 @@
     },
     "evmInfo": {
       "evmChainId": 787,
+      "multicall3": null,
       "blockExplorer": "https://blockscout.acala.network/",
       "existentialDeposit": "100000000000000000",
       "symbol": "ACA",
@@ -6847,6 +6875,7 @@
     },
     "evmInfo": {
       "evmChainId": 686,
+      "multicall3": null,
       "blockExplorer": "https://blockscout.karura.network/",
       "existentialDeposit": "100000000000000000",
       "symbol": "KAR",
@@ -7853,6 +7882,7 @@
     },
     "evmInfo": {
       "evmChainId": 7001,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://zetachain-athens-3.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "ZETA",
@@ -7945,6 +7975,7 @@
     },
     "evmInfo": {
       "evmChainId": 688,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "10000000000000000",
       "symbol": "WATR",
@@ -8153,6 +8184,7 @@
     },
     "evmInfo": {
       "evmChainId": 246,
+      "multicall3": null,
       "blockExplorer": "http://explorer.energyweb.org/",
       "existentialDeposit": "0",
       "symbol": "EWT",
@@ -8217,6 +8249,7 @@
     },
     "evmInfo": {
       "evmChainId": 169,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://pacific-explorer.manta.network/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -8441,6 +8474,7 @@
     },
     "evmInfo": {
       "evmChainId": 195,
+      "multicall3": null,
       "blockExplorer": "https://www.okx.com/explorer/xlayer-test/",
       "existentialDeposit": "0",
       "symbol": "OKX",
@@ -8673,6 +8707,7 @@
     },
     "evmInfo": {
       "evmChainId": 102031,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": null,
       "symbol": "CTC",
@@ -8700,6 +8735,7 @@
     },
     "evmInfo": {
       "evmChainId": 3776,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://astar-zkevm.explorer.startale.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -8730,6 +8766,7 @@
     },
     "evmInfo": {
       "evmChainId": 11155111,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://sepolia.etherscan.io/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -8829,6 +8866,7 @@
     },
     "evmInfo": {
       "evmChainId": 196,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://www.okx.com/explorer/xlayer",
       "existentialDeposit": "0",
       "symbol": "OKB",
@@ -8887,6 +8925,7 @@
     },
     "evmInfo": {
       "evmChainId": -1,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
       "symbol": "MYTH",
@@ -8969,6 +9008,7 @@
     },
     "evmInfo": {
       "evmChainId": 5234,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://humanode.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "eHMND",
@@ -9147,6 +9187,7 @@
     },
     "evmInfo": {
       "evmChainId": 200901,
+      "multicall3": "0x5B256fE9e993902eCe49D138a5b1162cBb529474",
       "blockExplorer": "https://www.btrscan.com",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9174,6 +9215,7 @@
     },
     "evmInfo": {
       "evmChainId": 200810,
+      "multicall3": "0x5B256fE9e993902eCe49D138a5b1162cBb529474",
       "blockExplorer": "https://testnet-scan.bitlayer.org",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9202,6 +9244,7 @@
     },
     "evmInfo": {
       "evmChainId": 11501,
+      "multicall3": null,
       "blockExplorer": "https://scan-mainnet.bevm.io/",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9229,6 +9272,7 @@
     },
     "evmInfo": {
       "evmChainId": 11503,
+      "multicall3": null,
       "blockExplorer": "https://scan-testnet.bevm.io",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9257,6 +9301,7 @@
     },
     "evmInfo": {
       "evmChainId": 223,
+      "multicall3": null,
       "blockExplorer": "https://explorer.bsquared.network/",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9284,6 +9329,7 @@
     },
     "evmInfo": {
       "evmChainId": 60808,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.gobob.xyz/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -9349,6 +9395,7 @@
     },
     "evmInfo": {
       "evmChainId": 4200,
+      "multicall3": null,
       "blockExplorer": "https://scan.merlinchain.io",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9376,6 +9423,7 @@
     },
     "evmInfo": {
       "evmChainId": 3636,
+      "multicall3": null,
       "blockExplorer": "https://blockscout.botanixlabs.dev/",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9593,6 +9641,7 @@
     },
     "evmInfo": {
       "evmChainId": 59144,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://lineascan.build/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -9620,6 +9669,7 @@
     },
     "evmInfo": {
       "evmChainId": 6001,
+      "multicall3": null,
       "blockExplorer": "https://bbscan.io",
       "existentialDeposit": "0",
       "symbol": "BB",
@@ -9647,6 +9697,7 @@
     },
     "evmInfo": {
       "evmChainId": 6000,
+      "multicall3": null,
       "blockExplorer": "https://testnet.bbscan.io",
       "existentialDeposit": "0",
       "symbol": "BB",
@@ -9780,6 +9831,7 @@
     },
     "evmInfo": {
       "evmChainId": 3456,
+      "multicall3": null,
       "blockExplorer": "https://testnet-explorer.layeredge.io/",
       "existentialDeposit": "0",
       "symbol": "LBTC",
@@ -9807,6 +9859,7 @@
     },
     "evmInfo": {
       "evmChainId": 11505,
+      "multicall3": null,
       "blockExplorer": "https://scan-op-testnet.vercel.app",
       "existentialDeposit": "0",
       "symbol": "WBTC",
@@ -9831,6 +9884,7 @@
     },
     "evmInfo": {
       "evmChainId": 80084,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://bartio.beratrail.io/",
       "existentialDeposit": "0",
       "symbol": "BERA",
@@ -9858,6 +9912,7 @@
     },
     "evmInfo": {
       "evmChainId": 2340,
+      "multicall3": "0x1472ec6392180fb84F345d2455bCC75B26577115",
       "blockExplorer": "https://blockscout.atleta.network/",
       "existentialDeposit": "0",
       "symbol": "ATLA",
@@ -9903,6 +9958,7 @@
     },
     "evmInfo": {
       "evmChainId": 57,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.syscoin.org/",
       "existentialDeposit": "0",
       "symbol": "SYS",
@@ -9930,6 +9986,7 @@
     },
     "evmInfo": {
       "evmChainId": 570,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.rollux.com",
       "existentialDeposit": "0",
       "symbol": "SYS",
@@ -9959,6 +10016,7 @@
     },
     "evmInfo": {
       "evmChainId": 1123,
+      "multicall3": null,
       "blockExplorer": "https://testnet-explorer.bsquared.network",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -9986,6 +10044,7 @@
     },
     "evmInfo": {
       "evmChainId": 479,
+      "multicall3": null,
       "blockExplorer": "https://www.boolscan.com",
       "existentialDeposit": "0",
       "symbol": "tBOL",
@@ -10013,6 +10072,7 @@
     },
     "evmInfo": {
       "evmChainId": 481,
+      "multicall3": null,
       "blockExplorer": "https://beta-testnet.boolscan.com",
       "existentialDeposit": "0",
       "symbol": "tBOL",
@@ -10040,6 +10100,7 @@
     },
     "evmInfo": {
       "evmChainId": 57000,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://rollux.tanenbaum.io",
       "existentialDeposit": "0",
       "symbol": "TSYS",
@@ -10067,6 +10128,7 @@
     },
     "evmInfo": {
       "evmChainId": 5700,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://tanenbaum.io",
       "existentialDeposit": "0",
       "symbol": "TSYS",
@@ -10094,6 +10156,7 @@
     },
     "evmInfo": {
       "evmChainId": 6322,
+      "multicall3": null,
       "blockExplorer": "https://aurascan.io",
       "existentialDeposit": "0",
       "symbol": "AURA",
@@ -10124,6 +10187,7 @@
     },
     "evmInfo": {
       "evmChainId": 8880,
+      "multicall3": null,
       "blockExplorer": "https://uniquescan.io/unique",
       "existentialDeposit": "0",
       "symbol": "UNQ",
@@ -10151,6 +10215,7 @@
     },
     "evmInfo": {
       "evmChainId": 1116,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://scan.coredao.org",
       "existentialDeposit": "0",
       "symbol": "CORE",
@@ -10178,6 +10243,7 @@
     },
     "evmInfo": {
       "evmChainId": 3109,
+      "multicall3": null,
       "blockExplorer": "https://svmscan.io/",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -10205,6 +10271,7 @@
     },
     "evmInfo": {
       "evmChainId": 3110,
+      "multicall3": null,
       "blockExplorer": "https://testnet.svmscan.io/",
       "existentialDeposit": "0",
       "symbol": "BTC",
@@ -10268,6 +10335,7 @@
     },
     "evmInfo": {
       "evmChainId": 2039,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://aleph-zero.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "TZERO",
@@ -10295,6 +10363,7 @@
     },
     "evmInfo": {
       "evmChainId": 41455,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://aleph-zero-evm.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "AZERO",
@@ -10322,6 +10391,7 @@
     },
     "evmInfo": {
       "evmChainId": 2109,
+      "multicall3": null,
       "blockExplorer": "https://explorer.exosama.com/",
       "existentialDeposit": "0",
       "symbol": "SAMA",
@@ -10349,6 +10419,7 @@
     },
     "evmInfo": {
       "evmChainId": 81457,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://blastscan.io/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10374,6 +10445,7 @@
     "providers": {},
     "evmInfo": {
       "evmChainId": 1513,
+      "multicall3": null,
       "blockExplorer": "https://explorer.testnet.storyprotocol.net/",
       "existentialDeposit": "0",
       "symbol": "IP",
@@ -10451,6 +10523,7 @@
     },
     "evmInfo": {
       "evmChainId": 995,
+      "multicall3": null,
       "blockExplorer": "https://5irescan.io/",
       "existentialDeposit": "0",
       "symbol": "5ire",
@@ -10478,6 +10551,7 @@
     },
     "evmInfo": {
       "evmChainId": 1101,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://zkevm.polygonscan.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10505,6 +10579,7 @@
     },
     "evmInfo": {
       "evmChainId": 13371,
+      "multicall3": "0x236bdA4589e44e6850f5aC6a74BfCa398a86c6c0",
       "blockExplorer": "https://explorer.immutable.com/",
       "existentialDeposit": "0",
       "symbol": "IMX",
@@ -10532,6 +10607,7 @@
     },
     "evmInfo": {
       "evmChainId": 1513,
+      "multicall3": null,
       "blockExplorer": "https://testnet.storyscan.xyz/",
       "existentialDeposit": "0",
       "symbol": "IP",
@@ -10559,6 +10635,7 @@
     },
     "evmInfo": {
       "evmChainId": 1946,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://soneium-minato.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10588,6 +10665,7 @@
     },
     "evmInfo": {
       "evmChainId": 84532,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://sepolia-explorer.base.org",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10652,6 +10730,7 @@
     },
     "evmInfo": {
       "evmChainId": 102030,
+      "multicall3": null,
       "blockExplorer": "https://creditcoin.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "CTC",
@@ -10681,6 +10760,7 @@
     },
     "evmInfo": {
       "evmChainId": 421614,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://sepolia.arbiscan.io/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10708,6 +10788,7 @@
     },
     "evmInfo": {
       "evmChainId": 752024,
+      "multicall3": null,
       "blockExplorer": "https://explorer.zkevm.ternoa.network/",
       "existentialDeposit": "0",
       "symbol": "CAPS",
@@ -10769,6 +10850,7 @@
     },
     "evmInfo": {
       "evmChainId": 5000,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://mantlescan.xyz/",
       "existentialDeposit": "0",
       "symbol": "MNT",
@@ -10830,6 +10912,7 @@
     },
     "evmInfo": {
       "evmChainId": 1380012617,
+      "multicall3": null,
       "blockExplorer": "https://mainnet.explorer.rarichain.org/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10857,6 +10940,7 @@
     },
     "evmInfo": {
       "evmChainId": 534352,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://scrollscan.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10884,6 +10968,7 @@
     },
     "evmInfo": {
       "evmChainId": 1301,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://sepolia.uniscan.xyz/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10911,6 +10996,7 @@
     },
     "evmInfo": {
       "evmChainId": 480,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://worldscan.org/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10938,6 +11024,7 @@
     },
     "evmInfo": {
       "evmChainId": 34443,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://explorer.mode.network/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10965,6 +11052,7 @@
     },
     "evmInfo": {
       "evmChainId": 1135,
+      "multicall3": "0xA9d71E1dd7ca26F26e656E66d6AA81ed7f745bf0",
       "blockExplorer": "https://blockscout.lisk.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -10994,6 +11082,7 @@
     },
     "evmInfo": {
       "evmChainId": 48900,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.zircuit.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11056,6 +11145,7 @@
     },
     "evmInfo": {
       "evmChainId": 5845,
+      "multicall3": null,
       "blockExplorer": "https://explorer.tangle.tools/",
       "existentialDeposit": "0",
       "symbol": "TNT",
@@ -11083,6 +11173,7 @@
     },
     "evmInfo": {
       "evmChainId": 1516,
+      "multicall3": null,
       "blockExplorer": "https://odyssey-testnet-explorer.storyscan.xyz/",
       "existentialDeposit": "0",
       "symbol": "IP",
@@ -11110,6 +11201,7 @@
     },
     "evmInfo": {
       "evmChainId": 80002,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://amoy.polygonscan.com/",
       "existentialDeposit": "0",
       "symbol": "POL",
@@ -11137,6 +11229,7 @@
     },
     "evmInfo": {
       "evmChainId": 2442,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://cardona-zkevm.polygonscan.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11164,6 +11257,7 @@
     },
     "evmInfo": {
       "evmChainId": 324,
+      "multicall3": "0xF9cda624FBC7e059355ce98a31693d299FACd963",
       "blockExplorer": "https://explorer.zksync.io/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11191,6 +11285,7 @@
     },
     "evmInfo": {
       "evmChainId": 33139,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://apechain.calderaexplorer.xyz/",
       "existentialDeposit": "0",
       "symbol": "APE",
@@ -11253,6 +11348,7 @@
     },
     "evmInfo": {
       "evmChainId": 100,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://gnosisscan.io/",
       "existentialDeposit": "0",
       "symbol": "XDAI",
@@ -11318,6 +11414,7 @@
     },
     "evmInfo": {
       "evmChainId": 252,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://fraxscan.com/",
       "existentialDeposit": "0",
       "symbol": "FRAX",
@@ -11345,6 +11442,7 @@
     },
     "evmInfo": {
       "evmChainId": 7560,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://cyberscan.co/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11440,6 +11538,7 @@
     },
     "evmInfo": {
       "evmChainId": 42793,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.etherlink.com/",
       "existentialDeposit": "0",
       "symbol": "XTZ",
@@ -11509,6 +11608,7 @@
     },
     "evmInfo": {
       "evmChainId": 6283,
+      "multicall3": null,
       "blockExplorer": "https://laos.statescan.io/",
       "existentialDeposit": "0",
       "symbol": "LAOS",
@@ -11554,6 +11654,7 @@
     },
     "evmInfo": {
       "evmChainId": 911867,
+      "multicall3": null,
       "blockExplorer": "https://odyssey-explorer.ithaca.xyz",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11582,6 +11683,7 @@
     },
     "evmInfo": {
       "evmChainId": 57073,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.inkonchain.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11609,6 +11711,7 @@
     },
     "evmInfo": {
       "evmChainId": 42220,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.celo.org/",
       "existentialDeposit": "0",
       "symbol": "CELO",
@@ -11636,6 +11739,7 @@
     },
     "evmInfo": {
       "evmChainId": 44787,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://celo-alfajores.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "CELO",
@@ -11663,6 +11767,7 @@
     },
     "evmInfo": {
       "evmChainId": 37111,
+      "multicall3": null,
       "blockExplorer": "https://block-explorer.testnet.lens.dev/",
       "existentialDeposit": "0",
       "symbol": "GRASS",
@@ -11690,6 +11795,7 @@
     },
     "evmInfo": {
       "evmChainId": 531050104,
+      "multicall3": "0x83c04d112adedA2C6D9037bb6ecb42E7f0b108Af",
       "blockExplorer": "https://explorer.testnet.sophon.xyz/",
       "existentialDeposit": "0",
       "symbol": "SOPH",
@@ -11717,6 +11823,7 @@
     },
     "evmInfo": {
       "evmChainId": 11124,
+      "multicall3": "0xF9cda624FBC7e059355ce98a31693d299FACd963",
       "blockExplorer": "https://explorer.testnet.abs.xyz/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11744,6 +11851,7 @@
     },
     "evmInfo": {
       "evmChainId": 10640,
+      "multicall3": null,
       "blockExplorer": "https://testnet-explorer.diadata.org/",
       "existentialDeposit": "0",
       "symbol": "DIA",
@@ -11771,6 +11879,7 @@
     },
     "evmInfo": {
       "evmChainId": -1,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
       "symbol": "MUSE",
@@ -11813,6 +11922,7 @@
     },
     "evmInfo": {
       "evmChainId": 1868,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://soneium.blockscout.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -11840,6 +11950,7 @@
     },
     "evmInfo": {
       "evmChainId": 19880818,
+      "multicall3": null,
       "blockExplorer": "http://www.dbcscan.io/",
       "existentialDeposit": "0",
       "symbol": "DBC",
@@ -11902,6 +12013,7 @@
     },
     "evmInfo": {
       "evmChainId": 30,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.rootstock.io",
       "existentialDeposit": "0",
       "symbol": "RBTC",
@@ -11969,6 +12081,7 @@
     },
     "evmInfo": {
       "evmChainId": 1625,
+      "multicall3": "0xf8ac4BEB2F75d2cFFb588c63251347fdD629B92c",
       "blockExplorer": "https://explorer.gravity.xyz/",
       "existentialDeposit": "0",
       "symbol": "G",
@@ -12068,6 +12181,7 @@
     },
     "evmInfo": {
       "evmChainId": 146,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://sonicscan.org/",
       "existentialDeposit": "0",
       "symbol": "S",
@@ -12095,6 +12209,7 @@
     },
     "evmInfo": {
       "evmChainId": 1514,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://storyscan.io/",
       "existentialDeposit": "0",
       "symbol": "IP",
@@ -12123,6 +12238,7 @@
     },
     "evmInfo": {
       "evmChainId": 50104,
+      "multicall3": "0x5f4867441d2416cA88B1b3fd38f21811680CD2C8",
       "blockExplorer": "https://explorer.sophon.xyz/",
       "existentialDeposit": "0",
       "symbol": "SOPH",
@@ -12150,6 +12266,7 @@
     },
     "evmInfo": {
       "evmChainId": 1315,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://aeneid.storyscan.io/",
       "existentialDeposit": "0",
       "symbol": "IP",
@@ -12177,6 +12294,7 @@
     },
     "evmInfo": {
       "evmChainId": 130,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://uniscan.xyz/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -12205,6 +12323,7 @@
     },
     "evmInfo": {
       "evmChainId": 2355,
+      "multicall3": null,
       "blockExplorer": "https://scope.silicon.network/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -12232,6 +12351,7 @@
     },
     "evmInfo": {
       "evmChainId": 752025,
+      "multicall3": null,
       "blockExplorer": "https://explorer-mainnet.zkevm.ternoa.network/",
       "existentialDeposit": "0",
       "symbol": "CAPS",
@@ -12293,6 +12413,7 @@
     },
     "evmInfo": {
       "evmChainId": 10143,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://testnet.monadexplorer.com/",
       "existentialDeposit": "0",
       "symbol": "MON",
@@ -12397,6 +12518,7 @@
     },
     "evmInfo": {
       "evmChainId": 3338,
+      "multicall3": "0xca11bde05977b3631167028862be2a173976ca11",
       "blockExplorer": "https://peaq.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "PEAQ",
@@ -12539,6 +12661,7 @@
     },
     "evmInfo": {
       "evmChainId": 5678,
+      "multicall3": null,
       "blockExplorer": "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network/",
       "existentialDeposit": "0",
       "symbol": "TANGO",
@@ -12566,6 +12689,7 @@
     },
     "evmInfo": {
       "evmChainId": 7777777,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.zora.energy/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -12664,6 +12788,7 @@
     },
     "evmInfo": {
       "evmChainId": 1969,
+      "multicall3": null,
       "blockExplorer": "https://testnetscan.scschain.com/",
       "existentialDeposit": "0",
       "symbol": "TSCS",
@@ -12730,6 +12855,7 @@
     },
     "evmInfo": {
       "evmChainId": 999,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://purrsec.com/",
       "existentialDeposit": "0",
       "symbol": "HYPE",
@@ -12826,6 +12952,7 @@
     },
     "evmInfo": {
       "evmChainId": 747474,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://explorer.katanarpc.com/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -12991,6 +13118,7 @@
     },
     "evmInfo": {
       "evmChainId": 420420422,
+      "multicall3": null,
       "blockExplorer": "https://blockscout-passet-hub.parity-testnet.parity.io/",
       "existentialDeposit": "0",
       "symbol": "PAS",
@@ -13088,6 +13216,7 @@
     },
     "evmInfo": {
       "evmChainId": 964,
+      "multicall3": null,
       "blockExplorer": "https://evm.taostats.io/",
       "existentialDeposit": "0",
       "symbol": "TAO",
@@ -13115,6 +13244,7 @@
     },
     "evmInfo": {
       "evmChainId": 945,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "0",
       "symbol": "TAO",
@@ -13142,6 +13272,7 @@
     },
     "evmInfo": {
       "evmChainId": 870,
+      "multicall3": null,
       "blockExplorer": null,
       "existentialDeposit": "1000000000000",
       "symbol": "AI3",
@@ -13222,6 +13353,7 @@
     },
     "evmInfo": {
       "evmChainId": 2201,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://stable-explorer.testnet.chain0.dev/",
       "existentialDeposit": "0",
       "symbol": "USDT",
@@ -13249,6 +13381,7 @@
     },
     "evmInfo": {
       "evmChainId": 2741,
+      "multicall3": "0xAa4De41dba0Ca5dCBb288b7cC6b708F3aaC759E7",
       "blockExplorer": "https://abscan.org/",
       "existentialDeposit": "0",
       "symbol": "ETH",
@@ -13382,6 +13515,7 @@
     },
     "evmInfo": {
       "evmChainId": 8700,
+      "multicall3": null,
       "blockExplorer": "https://explorer.auto-evm.chronos.autonomys.xyz/",
       "existentialDeposit": "1000000000000",
       "symbol": "tAI3",
@@ -13464,6 +13598,7 @@
     },
     "evmInfo": {
       "evmChainId": 1408,
+      "multicall3": null,
       "blockExplorer": "https://vflow.subscan.io/",
       "existentialDeposit": "0",
       "symbol": "VFY",
@@ -13549,6 +13684,7 @@
     },
     "evmInfo": {
       "evmChainId": 143,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://monadvision.com/",
       "existentialDeposit": "0",
       "symbol": "MON",
@@ -13578,6 +13714,7 @@
     },
     "evmInfo": {
       "evmChainId": 988,
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "blockExplorer": "https://stablescan.xyz/",
       "existentialDeposit": "0",
       "symbol": "gUSDT",
@@ -13651,6 +13788,7 @@
     },
     "evmInfo": {
       "evmChainId": 3068,
+      "multicall3": null,
       "blockExplorer": "https://explorer.mainnet.bifrostnetwork.com/",
       "existentialDeposit": "0",
       "symbol": "BFC",
