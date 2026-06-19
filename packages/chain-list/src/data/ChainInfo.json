@@ -10467,33 +10467,6 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
-  "polygonZkEvm": {
-    "slug": "polygonZkEvm",
-    "name": "Polygon zkEVM",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "/assets/chains/polygonzkevm.png",
-    "providers": {
-      "zkEVM": "https://zkevm-rpc.com/"
-    },
-    "evmInfo": {
-      "evmChainId": 1101,
-      "blockExplorer": "https://zkevm.polygonscan.com/",
-      "existentialDeposit": "0",
-      "symbol": "ETH",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
-    "substrateInfo": null,
-    "extraInfo": null,
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
   "immutableZkEvm": {
     "slug": "immutableZkEvm",
     "name": "Immutable zkEVM Mainnet",

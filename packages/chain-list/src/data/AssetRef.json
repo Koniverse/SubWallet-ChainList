@@ -104,13 +104,6 @@
     "destChain": "arbitrum_one",
     "path": "XCM"
   },
-  "ethereum-NATIVE-ETH___polygonZkEvm-NATIVE-ETH": {
-    "srcAsset": "ethereum-NATIVE-ETH",
-    "destAsset": "polygonZkEvm-NATIVE-ETH",
-    "srcChain": "ethereum",
-    "destChain": "polygonZkEvm",
-    "path": "XCM"
-  },
   "ethereum-NATIVE-ETH___polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
     "srcAsset": "ethereum-NATIVE-ETH",
     "destAsset": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
@@ -629,13 +622,6 @@
     "destChain": "astar",
     "path": "XCM"
   },
-  "sepolia_ethereum-NATIVE-ETH___polygonzkEvm_cardona-NATIVE-ETH": {
-    "srcAsset": "sepolia_ethereum-NATIVE-ETH",
-    "destAsset": "polygonzkEvm_cardona-NATIVE-ETH",
-    "srcChain": "sepolia_ethereum",
-    "destChain": "polygonzkEvm_cardona",
-    "path": "XCM"
-  },
   "sepolia_ethereum-NATIVE-ETH___polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E": {
     "srcAsset": "sepolia_ethereum-NATIVE-ETH",
     "destAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
@@ -783,13 +769,6 @@
     "destChain": "avail_mainnet",
     "path": "XCM"
   },
-  "polygonZkEvm-NATIVE-ETH___ethereum-NATIVE-ETH": {
-    "srcAsset": "polygonZkEvm-NATIVE-ETH",
-    "destAsset": "ethereum-NATIVE-ETH",
-    "srcChain": "polygonZkEvm",
-    "destChain": "ethereum",
-    "path": "XCM"
-  },
   "base_sepolia-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
     "srcAsset": "base_sepolia-NATIVE-ETH",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
@@ -906,13 +885,6 @@
     "srcAsset": "polygon_amoy-ERC20-WETH-0x52eF3d68BaB452a294342DC3e5f464d7f610f72E",
     "destAsset": "sepolia_ethereum-NATIVE-ETH",
     "srcChain": "polygon_amoy",
-    "destChain": "sepolia_ethereum",
-    "path": "XCM"
-  },
-  "polygonzkEvm_cardona-NATIVE-ETH___sepolia_ethereum-NATIVE-ETH": {
-    "srcAsset": "polygonzkEvm_cardona-NATIVE-ETH",
-    "destAsset": "sepolia_ethereum-NATIVE-ETH",
-    "srcChain": "polygonzkEvm_cardona",
     "destChain": "sepolia_ethereum",
     "path": "XCM"
   },
