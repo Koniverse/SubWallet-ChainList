@@ -2536,7 +2536,7 @@
     "name": "Robonomics",
     "symbol": "XRT",
     "decimals": 9,
-    "priceId": "robonomics-network",
+    "priceId": "robonomics-network-2",
     "minAmount": "1000",
     "assetType": "NATIVE",
     "metadata": null,
@@ -12940,20 +12940,6 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/5irechain_mainnet-native-5ire.png"
   },
-  "polygonZkEvm-NATIVE-ETH": {
-    "originChain": "polygonZkEvm",
-    "slug": "polygonZkEvm-NATIVE-ETH",
-    "name": "Ethereum",
-    "symbol": "ETH",
-    "decimals": 18,
-    "priceId": "ethereum",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": "ETH-Ethereum",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/polygonzkevm-native-eth.png"
-  },
   "immutableZkEvm-NATIVE-IMX": {
     "originChain": "immutableZkEvm",
     "slug": "immutableZkEvm-NATIVE-IMX",
@@ -13398,22 +13384,6 @@
     "multiChainAsset": null,
     "hasValue": true,
     "icon": "/assets/chain-assets/mantle-erc20-meth-0xcda86a272531e8640cd7f1a92c01839911b90bb0.png"
-  },
-  "polygonZkEvm-ERC20-MATIC-0xa2036f0538221a77A3937F1379699f44945018d0": {
-    "originChain": "polygonZkEvm",
-    "slug": "polygonZkEvm-ERC20-MATIC-0xa2036f0538221a77A3937F1379699f44945018d0",
-    "name": "Matic token",
-    "symbol": "MATIC",
-    "decimals": 18,
-    "priceId": "matic-network",
-    "minAmount": "0",
-    "assetType": "ERC20",
-    "metadata": {
-      "contractAddress": "0xa2036f0538221a77A3937F1379699f44945018d0"
-    },
-    "multiChainAsset": "MATIC-Polygon",
-    "hasValue": true,
-    "icon": "/assets/chain-assets/polygonzkevm-erc20-matic-0xa2036f0538221a77a3937f1379699f44945018d0.png"
   },
   "ethereum-ERC20-POL-0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6": {
     "originChain": "ethereum",
