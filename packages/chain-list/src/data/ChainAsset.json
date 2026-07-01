@@ -7671,6 +7671,22 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-native-tao.png"
   },
+  "bittensor-PSP22-tUSDT-5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g": {
+    "originChain": "bittensor",
+    "slug": "bittensor-PSP22-tUSDT-5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g",
+    "name": "TensorUSD",
+    "symbol": "tUSDT",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "PSP22",
+    "metadata": {
+      "contractAddress": "5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g"
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/bittensor-psp22-tusdt-5gjl2mkerf9ocxzbzzfueowgf8wany1gcglkdmj2btsasg6g.png"
+  },
   "hydradx_main-LOCAL-USDC": {
     "originChain": "hydradx_main",
     "slug": "hydradx_main-LOCAL-USDC",
