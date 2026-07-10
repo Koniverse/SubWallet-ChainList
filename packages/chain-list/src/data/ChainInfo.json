@@ -13657,5 +13657,88 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "polkadotHub_evm": {
+    "slug": "polkadotHub_evm",
+    "name": "Polkadot Hub EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/polkadothub_evm.png",
+    "providers": {
+      "Parity": "https://eth-rpc.polkadot.io/",
+      "OpsLayer": "https://services.polkadothub-rpc.com/mainnet/"
+    },
+    "evmInfo": {
+      "evmChainId": 420420419,
+      "blockExplorer": "https://blockscout.polkadot.io/",
+      "existentialDeposit": "0",
+      "symbol": "DOT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://blockscout.polkadot.io/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "polkadotHub_evm_testnet": {
+    "slug": "polkadotHub_evm_testnet",
+    "name": "Polkadot Hub TestNet EVM",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/polkadothub_evm_testnet.png",
+    "providers": {
+      "Parity": "https://eth-rpc-testnet.polkadot.io/",
+      "OpsLayer": "https://services.polkadothub-rpc.com/testnet/"
+    },
+    "evmInfo": {
+      "evmChainId": 420420417,
+      "blockExplorer": "https://blockscout-testnet.polkadot.io/",
+      "existentialDeposit": "0",
+      "symbol": "PAS",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://blockscout-testnet.polkadot.io/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "kusamaHub_evm": {
+    "slug": "kusamaHub_evm",
+    "name": "Kusama Hub EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/kusamahub_evm.png",
+    "providers": {
+      "Parity": "https://eth-rpc-kusama.polkadot.io/"
+    },
+    "evmInfo": {
+      "evmChainId": 420420418,
+      "blockExplorer": "https://blockscout-kusama.polkadot.io/",
+      "existentialDeposit": "0",
+      "symbol": "KSM",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://blockscout-kusama.polkadot.io/"
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }

@@ -20484,5 +20484,47 @@
     "multiChainAsset": "PAS-Paseo",
     "hasValue": true,
     "icon": "/assets/chain-assets/paseo_assethub-native-pas.png"
+  },
+  "polkadotHub_evm-NATIVE-DOT": {
+    "originChain": "polkadotHub_evm",
+    "slug": "polkadotHub_evm-NATIVE-DOT",
+    "name": "Polkadot Hub EVM",
+    "symbol": "DOT",
+    "decimals": 18,
+    "priceId": "polkadot",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "DOT-Polkadot",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/polkadothub_evm-native-dot.png"
+  },
+  "polkadotHub_evm_testnet-NATIVE-PAS": {
+    "originChain": "polkadotHub_evm_testnet",
+    "slug": "polkadotHub_evm_testnet-NATIVE-PAS",
+    "name": "Polkadot Hub TestNet EVM",
+    "symbol": "PAS",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "PAS-Paseo",
+    "hasValue": false,
+    "icon": "/assets/chain-assets/polkadothub_evm_testnet-native-pas.png"
+  },
+  "kusamaHub_evm-NATIVE-KSM": {
+    "originChain": "kusamaHub_evm",
+    "slug": "kusamaHub_evm-NATIVE-KSM",
+    "name": "Kusama Hub EVM",
+    "symbol": "KSM",
+    "decimals": 18,
+    "priceId": "kusama",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "KSM-Kusama",
+    "hasValue": true,
+    "icon": "/assets/chain-assets/kusamahub_evm-native-ksm.png"
   }
 }
