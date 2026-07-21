@@ -1147,6 +1147,7 @@
   "bifrost_dot-local-wave": "/assets/chain-assets/bifrost_dot-local-wave.png",
   "base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153": "/assets/chain-assets/base_mainnet-erc20-pr-0x2357110f5f0c5344eef75966500c75116a4aa153.png",
   "paseo_assethub-native-pas": "/assets/chain-assets/paseo_assethub-native-pas.png",
+  "base_mainnet-erc20-cp-0x934ef4bfffdce191ac4bcc351b2fe7892865b440": "/assets/chain-assets/base_mainnet-erc20-cp-0x934ef4bfffdce191ac4bcc351b2fe7892865b440.png",
   "eth-ethereum": "/assets/multi-chain-assets/eth-ethereum.png",
   "ibtc-interbtc": "/assets/multi-chain-assets/ibtc-interbtc.png",
   "glmr-moonbeam": "/assets/multi-chain-assets/glmr-moonbeam.png",
@@ -1289,8 +1290,12 @@
   "xsn65-subnet65": "/assets/multi-chain-assets/xsn65-subnet65.png",
   "xsn71-subnet71": "/assets/multi-chain-assets/xsn71-subnet71.png",
   "xsn120-subnet120": "/assets/multi-chain-assets/xsn120-subnet120.png",
+  "cp-cypress": "/assets/multi-chain-assets/cp-cypress.png",
   "custom-moonbeam-erc20-cp-0x6021d2c27b6fbd6e7608d1f39b41398caee2f824": "/assets/custom-chain-assets/cp_77d5363018.png",
   "custom-aleph-psp22-zpf-5eskjbkpva1ppucmrkcmazdhqm9shihws9uqqsoi4vrdcdle": "/assets/custom-chain-assets/zpf_2f06de3f07.png",
   "custom-custom-substrate-gosnetwork-native-gos": "/assets/custom-chain-assets/gos_a4d1a9cf7a.png",
-  "custom-custom-substrate-gosspectral-native-gost": "/assets/custom-chain-assets/gos_a4d1a9cf7a.png"
+  "custom-custom-substrate-gosspectral-native-gost": "/assets/custom-chain-assets/gos_a4d1a9cf7a.png",
+  "polkadothub_evm-native-dot": "/assets/chain-assets/polkadothub_evm-native-dot.png",
+  "polkadothub_evm_testnet-native-pas": "/assets/chain-assets/polkadothub_evm_testnet-native-pas.png",
+  "kusamahub_evm-native-ksm": "/assets/chain-assets/kusamahub_evm-native-ksm.png"
 }

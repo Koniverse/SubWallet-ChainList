@@ -1258,5 +1258,14 @@
     "priceId": null,
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/xsn120-subnet120.png"
+  },
+  "CP-Cypress": {
+    "slug": "CP-Cypress",
+    "originChainAsset": "base_mainnet-ERC20-CP-0x934ef4bfffdce191ac4bcc351b2fe7892865b440",
+    "name": "Cypress",
+    "symbol": "CP",
+    "priceId": "cypress",
+    "hasValue": true,
+    "icon": "/assets/multi-chain-assets/cp-cypress.png"
   }
 }
