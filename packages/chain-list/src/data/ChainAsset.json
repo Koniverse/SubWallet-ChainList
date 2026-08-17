@@ -7671,11 +7671,11 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/bittensor-native-tao.png"
   },
-  "bittensor-PSP22-tUSDT-5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g": {
+  "bittensor-PSP22-TUSDT-5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g": {
     "originChain": "bittensor",
-    "slug": "bittensor-PSP22-tUSDT-5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g",
+    "slug": "bittensor-PSP22-TUSDT-5GjL2MKErF9ocXZBZZFueoWgf8wAnY1gcgLkDMj2bTsAsg6g",
     "name": "TensorUSD",
-    "symbol": "tUSDT",
+    "symbol": "TUSDT",
     "decimals": 9,
     "priceId": null,
     "minAmount": "0",
@@ -20558,5 +20558,33 @@
     "multiChainAsset": "CP-Cypress",
     "hasValue": true,
     "icon": "/assets/chain-assets/base_mainnet-erc20-cp-0x934ef4bfffdce191ac4bcc351b2fe7892865b440.png"
+  },
+  "prdctr-NATIVE-PRD": {
+    "originChain": "prdctr",
+    "slug": "prdctr-NATIVE-PRD",
+    "name": "PRDCTR",
+    "symbol": "PRD",
+    "decimals": 10,
+    "priceId": "truth-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/prdctr-native-prd.png"
+  },
+  "prdctr_testnet-NATIVE-PRD": {
+    "originChain": "prdctr_testnet",
+    "slug": "prdctr_testnet-NATIVE-PRD",
+    "name": "PRDCTR Testnet",
+    "symbol": "PRD",
+    "decimals": 10,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/prdctr_testnet-native-prd.png"
   }
 }

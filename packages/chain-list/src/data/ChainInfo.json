@@ -13744,5 +13744,73 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "prdctr": {
+    "slug": "prdctr",
+    "name": "PRDCTR",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/prdctr.png",
+    "providers": {
+      "External": "wss://chain-external.prdctr.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xe22737c99a191bd46265c7f497d83ddb98bd2b087fda57d938f9388a7fc75b52",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://explorer.prdctr.io/predictor/",
+      "existentialDeposit": "0",
+      "symbol": "PRD",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": true,
+      "supportMultisig": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "prdctr_testnet": {
+    "slug": "prdctr_testnet",
+    "name": "PRDCTR Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/prdctr_testnet.png",
+    "providers": {
+      "External": "wss://chain-external.testnet.prdctr.io"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x082967ba30c9cdd763afaf0dfcb573f6ce89233cfe1e22116f0d1a672db93980",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://explorer.testnet.prdctr.io/predictor/",
+      "existentialDeposit": "0",
+      "symbol": "PRD",
+      "decimals": 10,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": true,
+      "supportMultisig": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }
