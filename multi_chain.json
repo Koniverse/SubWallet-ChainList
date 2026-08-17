@@ -1378,6 +1378,20 @@
       "multiChainAsset": "DOT-Polkadot",
       "hasValue": true,
       "icon": "/assets/chain-assets/xode-local-dot.png"
+    },
+    {
+      "originChain": "polkadotHub_evm",
+      "slug": "polkadotHub_evm-NATIVE-DOT",
+      "name": "Polkadot Hub EVM",
+      "symbol": "DOT",
+      "decimals": 18,
+      "priceId": "polkadot",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "DOT-Polkadot",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/polkadothub_evm-native-dot.png"
     }
   ],
   "ACA-Acala": [
@@ -5858,6 +5872,20 @@
       "multiChainAsset": "KSM-Kusama",
       "hasValue": true,
       "icon": "/assets/chain-assets/regionx_kusama-native-ksm.png"
+    },
+    {
+      "originChain": "kusamaHub_evm",
+      "slug": "kusamaHub_evm-NATIVE-KSM",
+      "name": "Kusama Hub EVM",
+      "symbol": "KSM",
+      "decimals": 18,
+      "priceId": "kusama",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "KSM-Kusama",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/kusamahub_evm-native-ksm.png"
     }
   ],
   "INTR-Interlay": [
@@ -9738,6 +9766,20 @@
       "multiChainAsset": "PAS-Paseo",
       "hasValue": true,
       "icon": "/assets/chain-assets/paseo_assethub-native-pas.png"
+    },
+    {
+      "originChain": "polkadotHub_evm_testnet",
+      "slug": "polkadotHub_evm_testnet-NATIVE-PAS",
+      "name": "Polkadot Hub TestNet EVM",
+      "symbol": "PAS",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "PAS-Paseo",
+      "hasValue": false,
+      "icon": "/assets/chain-assets/polkadothub_evm_testnet-native-pas.png"
     }
   ],
   "WND-Westend": [
@@ -10963,6 +11005,40 @@
       "multiChainAsset": "xSN120-Subnet120",
       "hasValue": true,
       "icon": "/assets/chain-assets/base_mainnet-erc20-xsn120-0xa3b335797bf5a2cc2fc21cc4286d2b3f40f0771e.png"
+    }
+  ],
+  "CP-Cypress": [
+    {
+      "originChain": "moonbeam",
+      "slug": "moonbeam-ERC20-CP",
+      "name": "Cypress",
+      "symbol": "CP",
+      "decimals": 18,
+      "priceId": "cypress",
+      "minAmount": null,
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x6021D2C27B6FBd6e7608D1F39B41398CAee2F824"
+      },
+      "multiChainAsset": "CP-Cypress",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/moonbeam-erc20-cp.png"
+    },
+    {
+      "originChain": "base_mainnet",
+      "slug": "base_mainnet-ERC20-CP-0x934ef4bfffdce191ac4bcc351b2fe7892865b440",
+      "name": "Cypress",
+      "symbol": "CP",
+      "decimals": 18,
+      "priceId": "cypress",
+      "minAmount": "0",
+      "assetType": "ERC20",
+      "metadata": {
+        "contractAddress": "0x934ef4bfffdce191ac4bcc351b2fe7892865b440"
+      },
+      "multiChainAsset": "CP-Cypress",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/base_mainnet-erc20-cp-0x934ef4bfffdce191ac4bcc351b2fe7892865b440.png"
     }
   ]
 }
