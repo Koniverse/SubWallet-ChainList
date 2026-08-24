@@ -349,9 +349,9 @@
     "destChain": "xode",
     "path": "XCM"
   },
-  "statemint-LOCAL-USDt___statemine-LOCAL-USDt": {
+  "statemint-LOCAL-USDt___statemine-LOCAL-USDt-Polkadot": {
     "srcAsset": "statemint-LOCAL-USDt",
-    "destAsset": "statemine-LOCAL-USDt",
+    "destAsset": "statemine-LOCAL-USDt-Polkadot",
     "srcChain": "statemint",
     "destChain": "statemine",
     "path": "XCM"
@@ -853,8 +853,8 @@
     "destChain": "statemint",
     "path": "XCM"
   },
-  "statemine-LOCAL-USDt___statemint-LOCAL-USDt": {
-    "srcAsset": "statemine-LOCAL-USDt",
+  "statemine-LOCAL-USDt-Polkadot___statemint-LOCAL-USDt": {
+    "srcAsset": "statemine-LOCAL-USDt-Polkadot",
     "destAsset": "statemint-LOCAL-USDt",
     "srcChain": "statemine",
     "destChain": "statemint",
