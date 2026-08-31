@@ -2539,7 +2539,8 @@
       "IBP1": "wss://sys.ibp.network/asset-hub-kusama",
       "IBP2": "wss://asset-hub-kusama.dotters.network",
       "Dwellir": "wss://asset-hub-kusama-rpc.n.dwellir.com",
-      "OnFinality": "wss://assethub-kusama.api.onfinality.io/public-ws"
+      "OnFinality": "wss://assethub-kusama.api.onfinality.io/public-ws",
+      "Rotko": "wss://asset-hub-kusama.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3874,7 +3875,8 @@
     "providers": {
       "Encointer Association": "wss://kusama.api.encointer.org",
       "IBP1": "wss://sys.ibp.network/encointer-kusama",
-      "IBP2": "wss://encointer-kusama.dotters.network"
+      "IBP2": "wss://encointer-kusama.dotters.network",
+      "Rotko": "wss://encointer-kusama.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5255,7 +5257,8 @@
       "IBP2": "wss://collectives-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-collectives-polkadot.luckyfriday.io",
       "RadiumBlock": "wss://collectives.public.curie.radiumblock.co/ws",
-      "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives"
+      "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives",
+      "Rotko": "wss://collectives-polkadot.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6466,7 +6469,8 @@
       "IBP2": "wss://bridge-hub-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-bridge-hub-polkadot.luckyfriday.io",
       "OnFinality": "wss://bridgehub-polkadot.api.onfinality.io/public-ws",
-      "RadiumBlock": "wss://bridgehub-polkadot.public.curie.radiumblock.co/ws"
+      "RadiumBlock": "wss://bridgehub-polkadot.public.curie.radiumblock.co/ws",
+      "Rotko": "wss://bridge-hub-polkadot.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6507,7 +6511,8 @@
       "Stakeworld": "wss://ksm-rpc.stakeworld.io/bridgehub",
       "IBP-GeoDNS1": "wss://sys.ibp.network/bridgehub-kusama",
       "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com",
-      "LuckyFriday": "wss://rpc-bridge-hub-kusama.luckyfriday.io"
+      "LuckyFriday": "wss://rpc-bridge-hub-kusama.luckyfriday.io",
+      "Rotko": "wss://bridge-hub-kusama.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9556,7 +9561,8 @@
       "Stakeworld": "wss://ksm-rpc.stakeworld.io/people",
       "IBP1": "wss://sys.ibp.network/people-kusama",
       "IBP2": "wss://people-kusama.dotters.network",
-      "LuckyFriday": "wss://rpc-people-kusama.luckyfriday.io"
+      "LuckyFriday": "wss://rpc-people-kusama.luckyfriday.io",
+      "Rotko": "wss://people-kusama.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -11445,7 +11451,8 @@
       "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws",
       "Sys Ibp": "wss://sys.ibp.network/people-polkadot",
       "Sys Dotters": "wss://sys.dotters.network/people-polkadot",
-      "Dotters": "wss://people-polkadot.dotters.network"
+      "Dotters": "wss://people-polkadot.dotters.network",
+      "Rotko": "wss://people-polkadot.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12400,7 +12407,8 @@
       "IBP1": "wss://sys.ibp.network/coretime-polkadot",
       "IBP2": "wss://coretime-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-coretime-polkadot.luckyfriday.io",
-      "Parity": "wss://polkadot-coretime-rpc.polkadot.io"
+      "Parity": "wss://polkadot-coretime-rpc.polkadot.io",
+      "Rotko": "wss://coretime-polkadot.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12441,7 +12449,8 @@
       "IBP2": "wss://coretime-kusama.dotters.network",
       "LuckyFriday": "wss://rpc-coretime-kusama.luckyfriday.io",
       "Parity": "wss://kusama-coretime-rpc.polkadot.io",
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime"
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime",
+      "Rotko": "wss://coretime-kusama.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
