@@ -1851,6 +1851,40 @@
     "tonInfo": null,
     "cardanoInfo": null
   },
+  "era": {
+    "slug": "era",
+    "name": "ERA",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/era.svg",
+    "providers": {
+      "ERA": "wss://eraprojects.org/"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0xba96ed0fe6c37790ee7da7ed9e83e9630b29fc8ba66e6753dc2e5c5704aa94e7",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://eraprojects.io/network.html",
+      "existentialDeposit": "0",
+      "symbol": "ETKN",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": null,
+      "supportMultisig": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
   "centrifuge": {
     "slug": "centrifuge",
     "name": "Centrifuge",

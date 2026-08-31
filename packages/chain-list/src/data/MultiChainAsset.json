@@ -1034,6 +1034,15 @@
     "hasValue": true,
     "icon": "/assets/multi-chain-assets/ai3-autonomys.png"
   },
+  "ETKN-ERA_TOKEN": {
+    "slug": "ETKN-ERA_TOKEN",
+    "originChainAsset": "era-NATIVE-ETKN",
+    "name": "ERA Token",
+    "symbol": "ETKN",
+    "priceId": null,
+    "hasValue": false,
+    "icon": "/assets/multi-chain-assets/etkn-era_token.svg"
+  },
   "TRAC-OriginTrail": {
     "slug": "TRAC-OriginTrail",
     "originChainAsset": null,
