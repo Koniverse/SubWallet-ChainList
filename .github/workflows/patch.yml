@@ -32,15 +32,12 @@ jobs:
 
       - name: Deploy Assets and Patch to Cloudflare Pages
         id: cloudflare_deployment
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'sw-chain-list-assets'
+          command: pages deploy ./packages/chain-list-assets/public --project-name=sw-chain-list-assets --branch=${{ github.ref_name }}
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.ref_name }}
-          directory: './packages/chain-list-assets/public'
-          wranglerVersion: '3'
 
       - name: Notify to Discord
         uses: sarisia/actions-status-discord@v1
