@@ -1,0 +1,47 @@
+{
+  "patchVersion": "0.2.132-beta.0",
+  "appliedVersion": "0.2.131",
+  "timestamp": 1790310291595,
+  "ChainInfo": {
+    "xlayer": {
+      "slug": "xlayer",
+      "name": "X Layer",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "icon": "/assets/chains/xlayer.png",
+      "providers": {
+        "X Layer": "https://rpc.xlayer.tech",
+        "X Layer OKX": "https://xlayerrpc.okx.com/"
+      },
+      "evmInfo": {
+        "evmChainId": 196,
+        "blockExplorer": "https://www.okx.com/explorer/xlayer",
+        "existentialDeposit": "0",
+        "symbol": "OKB",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": "https://www.okx.com/explorer/xlayer"
+      },
+      "substrateInfo": null,
+      "extraInfo": null,
+      "bitcoinInfo": null,
+      "tonInfo": null,
+      "cardanoInfo": null
+    }
+  },
+  "ChainInfoHashMap": {
+    "xlayer": "ffb22f067fe4c05b248481423f7d476a"
+  },
+  "ChainAsset": {},
+  "ChainAssetHashMap": {},
+  "MultiChainAsset": {},
+  "MultiChainAssetHashMap": {},
+  "AssetLogoMap": {},
+  "ChainLogoMap": {
+    "xlayer": "/assets/chains/xlayer.png"
+  },
+  "mAssetLogoMap": {}
+}

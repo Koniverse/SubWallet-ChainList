@@ -8837,7 +8837,10 @@
       "existentialDeposit": "0",
       "symbol": "OKB",
       "decimals": 18,
-      "supportSmartContract": null,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
       "abiExplorer": "https://www.okx.com/explorer/xlayer"
     },
     "substrateInfo": null,
