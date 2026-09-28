@@ -94,7 +94,11 @@
     "providers": {
       "PublicNode": "https://ethereum.publicnode.com",
       "DRPC": "https://eth.drpc.org/",
-      "MevBlocker": "https://rpc.mevblocker.io/"
+      "MevBlocker": "https://rpc.mevblocker.io/",
+      "Tenderly": "https://gateway.tenderly.co/public/mainnet",
+      "BlockPi": "https://ethereum.public.blockpi.network/v1/rpc/public",
+      "Pocket Network": "https://eth.api.pocket.network",
+      "Sentio": "https://mainnet.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 1,
@@ -127,7 +131,9 @@
       "Binance": "https://bsc-dataseed.binance.org/",
       "Defibit": "https://bsc-dataseed1.defibit.io/",
       "Ninicoin": "https://bsc-dataseed1.ninicoin.io/",
-      "Nodereal": "https://bsc.nodereal.io/"
+      "Nodereal": "https://bsc.nodereal.io/",
+      "PublicNode": "https://bsc-rpc.publicnode.com",
+      "Pocket Network": "https://bsc.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 56,
@@ -486,7 +492,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polygon.png",
     "providers": {
-      "BorPublicNode": "https://polygon-bor.publicnode.com"
+      "BorPublicNode": "https://polygon-bor-rpc.publicnode.com",
+      "DRPC": "https://polygon.drpc.org",
+      "Tenderly": "https://gateway.tenderly.co/public/polygon",
+      "Pocket Network": "https://poly.api.pocket.network",
+      "Sentio": "https://matic.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 137,
@@ -517,7 +527,10 @@
     "icon": "/assets/chains/arbitrum_one.png",
     "providers": {
       "BlastApi": "https://arbitrum-one.public.blastapi.io",
-      "Meowrpc": "https://arbitrum.meowrpc.com"
+      "Arbitrum": "https://arb1.arbitrum.io/rpc",
+      "PublicNode": "https://arbitrum-one-rpc.publicnode.com",
+      "DRPC": "https://arbitrum.drpc.org",
+      "Tenderly": "https://arbitrum.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 42161,
@@ -549,7 +562,9 @@
     "providers": {
       "DRPC": "https://optimism.drpc.org/",
       "Publicnode": "https://optimism-rpc.publicnode.com/",
-      "1RPC": "https://1rpc.io/op"
+      "Optimism": "https://mainnet.optimism.io",
+      "Tenderly": "https://gateway.tenderly.co/public/optimism",
+      "BlockPi": "https://optimism.public.blockpi.network/v1/rpc/public"
     },
     "evmInfo": {
       "evmChainId": 10,
@@ -6674,7 +6689,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/base_mainnet.png",
     "providers": {
-      "PublicNode": "https://base.publicnode.com"
+      "PublicNode": "https://base.publicnode.com",
+      "Base": "https://mainnet.base.org",
+      "DRPC": "https://base.drpc.org",
+      "Tenderly": "https://gateway.tenderly.co/public/base",
+      "BlockPi": "https://base.public.blockpi.network/v1/rpc/public"
     },
     "evmInfo": {
       "evmChainId": 8453,
@@ -6702,7 +6721,8 @@
     "icon": "/assets/chains/avalanche_c.png",
     "providers": {
       "Avax Network": "https://api.avax.network/ext/bc/C/rpc",
-      "PublicNode": "https://avalanche-c-chain.publicnode.com"
+      "PublicNode": "https://avalanche-c-chain-rpc.publicnode.com",
+      "Tenderly": "https://avalanche-mainnet.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 43114,
@@ -8684,10 +8704,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/sepolia_ethereum.png",
     "providers": {
-      "1RPC": "https://1rpc.io/sepolia",
       "Tenderly": "https://gateway.tenderly.co/public/sepolia",
       "0xrpc": "https://0xrpc.io/sep",
-      "Public node": "https://ethereum-sepolia-rpc.publicnode.com"
+      "Public node": "https://ethereum-sepolia-rpc.publicnode.com",
+      "Sentio": "https://sepolia.rpc.sentio.xyz",
+      "Pocket Network": "https://eth-sepolia-testnet.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 11155111,
@@ -9546,7 +9567,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/lineazkevm.png",
     "providers": {
-      "Linea": "https://rpc.linea.build/"
+      "Linea": "https://rpc.linea.build/",
+      "PublicNode": "https://linea-rpc.publicnode.com",
+      "Sentio": "https://linea.rpc.sentio.xyz",
+      "Pocket Network": "https://linea.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 59144,
@@ -10302,7 +10326,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/blast_mainnet.png",
     "providers": {
-      "Blast": "https://rpc.blast.io"
+      "Blast": "https://rpc.blast.io",
+      "PublicNode": "https://blast-rpc.publicnode.com",
+      "Pocket Network": "https://blast.api.pocket.network",
+      "Tenderly": "https://blast.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 81457,
@@ -10692,7 +10719,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/mantle.png",
     "providers": {
-      "Mantle": "https://rpc.mantle.xyz/"
+      "Mantle": "https://rpc.mantle.xyz/",
+      "PublicNode": "https://mantle-rpc.publicnode.com",
+      "Thirdweb": "https://5000.rpc.thirdweb.com"
     },
     "evmInfo": {
       "evmChainId": 5000,
@@ -10780,7 +10809,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/scroll.png",
     "providers": {
-      "Scroll": "https://rpc.scroll.io/"
+      "Scroll": "https://rpc.scroll.io/",
+      "DRPC": "https://scroll.drpc.org",
+      "PublicNode": "https://scroll-rpc.publicnode.com",
+      "Pocket Network": "https://scroll.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 534352,
@@ -10834,7 +10866,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/world_chain.png",
     "providers": {
-      "World Chain": "https://worldchain-mainnet.g.alchemy.com/public"
+      "World Chain": "https://worldchain-mainnet.g.alchemy.com/public",
+      "DRPC": "https://worldchain.drpc.org",
+      "Tenderly": "https://worldchain-mainnet.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 480,
@@ -11087,7 +11121,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/zksync_era.png",
     "providers": {
-      "ZKsync Era": "https://mainnet.era.zksync.io/"
+      "ZKsync Era": "https://mainnet.era.zksync.io/",
+      "Sentio": "https://zksync-era.rpc.sentio.xyz",
+      "Pocket Network": "https://zksync-era.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 324,
@@ -11176,7 +11212,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/gnosis.png",
     "providers": {
-      "Gnosis Chain": "https://rpc.gnosischain.com/"
+      "Gnosis Chain": "https://rpc.gnosischain.com/",
+      "DRPC": "https://gnosis.drpc.org",
+      "PublicNode": "https://gnosis-rpc.publicnode.com",
+      "Gateway.fm": "https://rpc.gnosis.gateway.fm"
     },
     "evmInfo": {
       "evmChainId": 100,
@@ -11502,7 +11541,9 @@
     "icon": "/assets/chains/ink.png",
     "providers": {
       "Gel Ink": "https://rpc-gel.inkonchain.com/",
-      "Qnd Ink": "https://rpc-qnd.inkonchain.com/"
+      "Qnd Ink": "https://rpc-qnd.inkonchain.com/",
+      "PublicNode": "https://ink-rpc.publicnode.com",
+      "Pocket Network": "https://ink.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 57073,
@@ -11529,7 +11570,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/celo.png",
     "providers": {
-      "Celo Forno": "https://forno.celo.org/"
+      "Celo Forno": "https://forno.celo.org/",
+      "Ankr": "https://rpc.ankr.com/celo",
+      "Stakely": "https://celo-json-rpc.stakely.io"
     },
     "evmInfo": {
       "evmChainId": 42220,
@@ -11733,7 +11776,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/soneium.png",
     "providers": {
-      "Soneium": "https://rpc.soneium.org/"
+      "Soneium": "https://rpc.soneium.org/",
+      "Sentio": "https://soneium-mainnet.rpc.sentio.xyz",
+      "Thirdweb": "https://1868.rpc.thirdweb.com"
     },
     "evmInfo": {
       "evmChainId": 1868,
@@ -11984,7 +12029,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/sonic.png",
     "providers": {
-      "SonicLab": "https://rpc.soniclabs.com/"
+      "SonicLab": "https://rpc.soniclabs.com/",
+      "DRPC": "https://sonic.drpc.org",
+      "PublicNode": "https://sonic-rpc.publicnode.com",
+      "Pocket Network": "https://sonic.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 146,
@@ -12092,7 +12140,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/unichain.png",
     "providers": {
-      "Unichain": "https://mainnet.unichain.org/"
+      "Unichain": "https://mainnet.unichain.org/",
+      "DRPC": "https://unichain.drpc.org",
+      "PublicNode": "https://unichain-rpc.publicnode.com",
+      "Sentio": "https://unichain-mainnet.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 130,
