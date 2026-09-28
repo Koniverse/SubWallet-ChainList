@@ -541,6 +541,34 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "/assets/chain-assets/abstract-native-eth.png"
+    },
+    {
+      "originChain": "robinhood_chain",
+      "slug": "robinhood_chain-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/robinhood_chain-native-eth.png"
+    },
+    {
+      "originChain": "megaeth",
+      "slug": "megaeth-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/megaeth-native-eth.png"
     }
   ],
   "iBTC-interBTC": [
