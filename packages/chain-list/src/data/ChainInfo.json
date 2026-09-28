@@ -14094,5 +14094,340 @@
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
+  },
+  "xgr_testnet": {
+    "slug": "xgr_testnet",
+    "name": "XGR Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/xgr_testnet.png",
+    "providers": {
+      "XGR Network": "https://rpc.testnet.xgr.network",
+      "XGR Network 1": "https://rpc1.testnet.xgr.network",
+      "XGR Network 2": "https://rpc2.testnet.xgr.network"
+    },
+    "evmInfo": {
+      "evmChainId": 1879,
+      "blockExplorer": "https://explorer.testnet.xgr.network",
+      "existentialDeposit": "0",
+      "symbol": "XGR",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "robinhood_chain_testnet": {
+    "slug": "robinhood_chain_testnet",
+    "name": "Robinhood Chain Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/robinhood_chain_testnet.png",
+    "providers": {
+      "Robinhood": "https://rpc.testnet.chain.robinhood.com",
+      "PublicNode": "https://robinhood-sepolia-rpc.publicnode.com",
+      "DRPC": "https://robinhood-testnet.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 46630,
+      "blockExplorer": "https://explorer.testnet.chain.robinhood.com",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "megaeth_testnet": {
+    "slug": "megaeth_testnet",
+    "name": "MegaETH Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/megaeth_testnet.png",
+    "providers": {
+      "MegaETH": "https://carrot.megaeth.com/rpc"
+    },
+    "evmInfo": {
+      "evmChainId": 6343,
+      "blockExplorer": "https://testnet-mega.etherscan.io",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "plasma_testnet": {
+    "slug": "plasma_testnet",
+    "name": "Plasma Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/plasma_testnet.png",
+    "providers": {
+      "Plasma": "https://testnet-rpc.plasma.to"
+    },
+    "evmInfo": {
+      "evmChainId": 9746,
+      "blockExplorer": "https://testnet.plasmascan.to",
+      "existentialDeposit": "0",
+      "symbol": "XPL",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "somnia_testnet": {
+    "slug": "somnia_testnet",
+    "name": "Somnia Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/somnia_testnet.png",
+    "providers": {
+      "Somnia": "https://api.infra.testnet.somnia.network",
+      "Somnia Dream": "https://dream-rpc.somnia.network"
+    },
+    "evmInfo": {
+      "evmChainId": 50312,
+      "blockExplorer": "https://shannon-explorer.somnia.network",
+      "existentialDeposit": "0",
+      "symbol": "STT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "arc_testnet": {
+    "slug": "arc_testnet",
+    "name": "Arc Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/arc_testnet.png",
+    "providers": {
+      "Arc": "https://rpc.testnet.arc.network",
+      "PublicNode": "https://arc-testnet-rpc.publicnode.com",
+      "DRPC": "https://arc-testnet.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 5042002,
+      "blockExplorer": "https://testnet.arcscan.app",
+      "existentialDeposit": "0",
+      "symbol": "USDC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "sei_evm_testnet": {
+    "slug": "sei_evm_testnet",
+    "name": "Sei EVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/sei_evm_testnet.png",
+    "providers": {
+      "Sei": "https://evm-rpc-testnet.sei-apis.com"
+    },
+    "evmInfo": {
+      "evmChainId": 1328,
+      "blockExplorer": "https://testnet.seiscan.io",
+      "existentialDeposit": "0",
+      "symbol": "SEI",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "kaia_kairos": {
+    "slug": "kaia_kairos",
+    "name": "Kaia Kairos Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/kaia_kairos.png",
+    "providers": {
+      "Kaia": "https://public-en-kairos.node.kaia.io",
+      "Ankr": "https://rpc.ankr.com/kaia_testnet",
+      "DRPC": "https://klaytn-baobab.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 1001,
+      "blockExplorer": "https://kairos.kaiascan.io",
+      "existentialDeposit": "0",
+      "symbol": "KAIA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "cronos_testnet": {
+    "slug": "cronos_testnet",
+    "name": "Cronos Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/cronos_testnet.png",
+    "providers": {
+      "Cronos": "https://evm-t3.cronos.org",
+      "Tatum": "https://cro-testnet.gateway.tatum.io"
+    },
+    "evmInfo": {
+      "evmChainId": 338,
+      "blockExplorer": "https://explorer.cronos.org/testnet",
+      "existentialDeposit": "0",
+      "symbol": "TCRO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "berachain_bepolia": {
+    "slug": "berachain_bepolia",
+    "name": "Berachain Bepolia",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/berachain_bepolia.png",
+    "providers": {
+      "Berachain": "https://bepolia.rpc.berachain.com"
+    },
+    "evmInfo": {
+      "evmChainId": 80069,
+      "blockExplorer": "https://testnet.berascan.com",
+      "existentialDeposit": "0",
+      "symbol": "BERA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "ronin_saigon": {
+    "slug": "ronin_saigon",
+    "name": "Ronin Saigon Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/ronin_saigon.png",
+    "providers": {
+      "Ronin": "https://saigon-testnet.roninchain.com/rpc",
+      "DRPC": "https://ronin-saigon.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 202601,
+      "blockExplorer": "https://saigon-explorer.roninchain.com",
+      "existentialDeposit": "0",
+      "symbol": "RON",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "flow_evm_testnet": {
+    "slug": "flow_evm_testnet",
+    "name": "Flow EVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/flow_evm_testnet.png",
+    "providers": {
+      "Flow": "https://testnet.evm.nodes.onflow.org"
+    },
+    "evmInfo": {
+      "evmChainId": 545,
+      "blockExplorer": "https://evm-testnet.flowscan.io",
+      "existentialDeposit": "0",
+      "symbol": "FLOW",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
   }
 }
