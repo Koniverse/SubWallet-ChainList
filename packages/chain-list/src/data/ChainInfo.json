@@ -8811,7 +8811,7 @@
     },
     "evmInfo": {
       "evmChainId": 196,
-      "blockExplorer": "https://www.okx.com/explorer/xlayer",
+      "blockExplorer": "https://web3.okx.com/explorer/x-layer/evm",
       "existentialDeposit": "0",
       "symbol": "OKB",
       "decimals": 18,
@@ -8819,7 +8819,7 @@
         "ERC20",
         "ERC721"
       ],
-      "abiExplorer": "https://www.okx.com/explorer/xlayer"
+      "abiExplorer": null
     },
     "substrateInfo": null,
     "extraInfo": null,
