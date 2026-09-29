@@ -541,6 +541,34 @@
       "multiChainAsset": "ETH-Ethereum",
       "hasValue": true,
       "icon": "/assets/chain-assets/abstract-native-eth.png"
+    },
+    {
+      "originChain": "robinhood_chain",
+      "slug": "robinhood_chain-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/robinhood_chain-native-eth.png"
+    },
+    {
+      "originChain": "megaeth",
+      "slug": "megaeth-NATIVE-ETH",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": "ethereum",
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-Ethereum",
+      "hasValue": true,
+      "icon": "/assets/chain-assets/megaeth-native-eth.png"
     }
   ],
   "iBTC-interBTC": [
@@ -8935,6 +8963,20 @@
       "multiChainAsset": "ETH-EthereumSepolia",
       "hasValue": false,
       "icon": "/assets/chain-assets/ithaca-native-eth.png"
+    },
+    {
+      "originChain": "robinhood_chain_testnet",
+      "slug": "robinhood_chain_testnet-NATIVE-ETH",
+      "name": "Ethereum Sepolia",
+      "symbol": "ETH",
+      "decimals": 18,
+      "priceId": null,
+      "minAmount": "0",
+      "assetType": "NATIVE",
+      "metadata": null,
+      "multiChainAsset": "ETH-EthereumSepolia",
+      "hasValue": false,
+      "icon": "/assets/chain-assets/robinhood_chain_testnet-native-eth.png"
     }
   ],
   "USDC-USDCSepolia": [
