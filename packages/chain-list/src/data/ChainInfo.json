@@ -6348,7 +6348,7 @@
     "slug": "aventus_testnet",
     "name": "AvN Paseo",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/aventus_testnet.png",
     "providers": {
       "Aventus": "wss://public-rpc.testnet.aventus.io"
@@ -6357,7 +6357,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": 2056,
-      "genesisHash": "0xa6ffcef7fb8caadf7f6c5ad8ada65e3eaa90d1604f3eabda546ff1d486865a0c",
+      "genesisHash": "0xf5840f147cae70c939aefd2ed1b0145a879ca49eeb1a1b13d5bf38a720087a90",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -8120,7 +8120,7 @@
     "slug": "energy_web_x_testnet",
     "name": "Energy Web X Argon",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_x_testnet.png",
     "providers": {
       "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
@@ -8129,7 +8129,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": 2000,
-      "genesisHash": "0x89cac7a3b10e408ad81c92013900023f4378713bef4e82c3e3efaf818f009ba4",
+      "genesisHash": "0x9c45fe4271a471ff171350de7db49a2c2bd87483a31b43c87b5c9fe04896dbda",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -8182,7 +8182,7 @@
     "slug": "energy_web_x_rococo",
     "name": "Energy Web X Paseo",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/energy_web_x_rococo.png",
     "providers": {
       "EWX": "wss://public-rpc.testnet.energywebx.com/ws"
@@ -8191,7 +8191,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": 3345,
-      "genesisHash": "0xac123be800b7c9a3e3449bb70edd8e3d9008d27826381451eebf94bce1db1fbe",
+      "genesisHash": "0x466edf864b4314b97f36e45ec21ddb39e0bdc52789377b91be0957d5afad2eb2",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -10718,7 +10718,7 @@
     "slug": "bittensor_devnet",
     "name": "Bittensor devnet",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/bittensor_devnet.png",
     "providers": {
       "Opentensor": "wss://dev.chain.opentensor.ai:443"
@@ -10727,7 +10727,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x73bd9219bd97d2937a0ea7916a362656383c8bfa413c6597c8e0ac45a144d082",
+      "genesisHash": "0x077899043eb684c5277b6814a39161f4ce072b45e782e12c81a521c63fb4f3e5",
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -11744,13 +11744,13 @@
     "slug": "dia_lasernet_testnet",
     "name": "DIA Lasernet Testnet",
     "isTestnet": true,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "icon": "/assets/chains/dia_lasernet_testnet.png",
     "providers": {
       "DiaData": "https://testnet-rpc.diadata.org/"
     },
     "evmInfo": {
-      "evmChainId": 10640,
+      "evmChainId": 10050,
       "blockExplorer": "https://testnet-explorer.diadata.org/",
       "existentialDeposit": "0",
       "symbol": "DIA",
