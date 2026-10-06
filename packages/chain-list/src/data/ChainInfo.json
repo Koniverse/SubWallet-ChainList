@@ -2583,8 +2583,7 @@
       "Acala Foundation 1": "wss://karura-rpc-1.aca-api.network",
       "Acala Foundation 2": "wss://karura-rpc-2.aca-api.network/ws",
       "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws",
-      "Dwellir": "wss://karura-rpc.n.dwellir.com",
-      "LuckyFriday": "wss://rpc-karura.luckyfriday.io"
+      "Dwellir": "wss://karura-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -10364,8 +10363,7 @@
     "providers": {
       "Blast": "https://rpc.blast.io",
       "PublicNode": "https://blast-rpc.publicnode.com",
-      "Pocket Network": "https://blast.api.pocket.network",
-      "Tenderly": "https://blast.gateway.tenderly.co"
+      "Thirdweb": "https://81457.rpc.thirdweb.com"
     },
     "evmInfo": {
       "evmChainId": 81457,
@@ -14059,7 +14057,8 @@
     "providers": {
       "Kaia": "https://public-en.node.kaia.io",
       "Pocket": "https://kaia.api.pocket.network",
-      "1RPC": "https://public.1rpc.io/klay"
+      "Ankr": "https://rpc.ankr.com/kaia",
+      "DRPC": "https://klaytn.drpc.org"
     },
     "evmInfo": {
       "evmChainId": 8217,
@@ -14427,7 +14426,7 @@
     "icon": "/assets/chains/cronos_testnet.png",
     "providers": {
       "Cronos": "https://evm-t3.cronos.org",
-      "Tatum": "https://cro-testnet.gateway.tatum.io"
+      "DRPC": "https://cronos-testnet.drpc.org"
     },
     "evmInfo": {
       "evmChainId": 338,
