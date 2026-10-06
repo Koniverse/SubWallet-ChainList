@@ -17954,7 +17954,7 @@
   "bittensor-LOCAL-Ա": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-Ա",
-    "name": "Capcomp",
+    "name": "Deprecated",
     "symbol": "Ա",
     "decimals": 9,
     "priceId": "happyai-2",
@@ -18087,7 +18087,7 @@
     "decimals": 9,
     "priceId": "oneoneone",
     "minAmount": "0",
-    "assetType": null,
+    "assetType": "LOCAL",
     "metadata": {
       "netuid": 111
     },
@@ -18162,7 +18162,7 @@
   "bittensor-LOCAL-ⴵ": {
     "originChain": "bittensor",
     "slug": "bittensor-LOCAL-ⴵ",
-    "name": "for sale",
+    "name": "Carbon",
     "symbol": "ъ",
     "decimals": 9,
     "priceId": "solmev",
