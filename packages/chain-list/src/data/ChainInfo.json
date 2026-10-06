@@ -6,17 +6,17 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polkadot.png",
     "providers": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "Stakeworld": "wss://dot-rpc.stakeworld.io",
       "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
-      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "Light Client": "light://substrate-connect/polkadot",
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
       "Allnodes": "wss://polkadot-rpc.publicnode.com",
       "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
       "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
-      "IBP2": "wss://polkadot.dotters.network"
+      "Gatotech": "wss://polkadot.gatotech.network",
+      "Dwellir": "wss://polkadot-rpc.n.dwellir.com",
+      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
+      "interweb": "wss://rpc.interweb-it.com/polkadot",
+      "Spectrum": "wss://spectrum-03.simplystaking.xyz/cG9sa2Fkb3QtMDMtOTFkMmYwZGYtcG9sa2Fkb3Q/LjwBJpV3dIKyWQ/polkadot/mainnet/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -53,16 +53,16 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/kusama.png",
     "providers": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws",
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama",
       "Light Client": "light://substrate-connect/kusama",
       "Allnodes": "wss://kusama-rpc.publicnode.com",
       "Helixstreet": "wss://rpc-kusama.helixstreet.io",
-      "IBP2": "wss://kusama.dotters.network",
-      "OnFinality": "wss://kusama.api.onfinality.io/public-ws"
+      "OnFinality": "wss://kusama.api.onfinality.io/public-ws",
+      "Gatotech": "wss://kusama.gatotech.network",
+      "Dwellir": "wss://kusama-rpc.n.dwellir.com",
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws",
+      "Spectrum": "wss://spectrum-03.simplystaking.xyz/cG9sa2Fkb3QtMDMtOTFkMmYwZGYtcG9sa2Fkb3Q/QXq7QZ6Q60NDzA/kusama/mainnet/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -99,10 +99,13 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/ethereum.png",
     "providers": {
-      "Llamarpc": "https://eth.llamarpc.com",
       "PublicNode": "https://ethereum.publicnode.com",
       "DRPC": "https://eth.drpc.org/",
-      "MevBlocker": "https://rpc.mevblocker.io/"
+      "MevBlocker": "https://rpc.mevblocker.io/",
+      "Tenderly": "https://gateway.tenderly.co/public/mainnet",
+      "BlockPi": "https://ethereum.public.blockpi.network/v1/rpc/public",
+      "Pocket Network": "https://eth.api.pocket.network",
+      "Sentio": "https://mainnet.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 1,
@@ -135,7 +138,9 @@
       "Binance": "https://bsc-dataseed.binance.org/",
       "Defibit": "https://bsc-dataseed1.defibit.io/",
       "Ninicoin": "https://bsc-dataseed1.ninicoin.io/",
-      "Nodereal": "https://bsc.nodereal.io/"
+      "Nodereal": "https://bsc.nodereal.io/",
+      "PublicNode": "https://bsc-rpc.publicnode.com",
+      "Pocket Network": "https://bsc.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 56,
@@ -162,7 +167,7 @@
     "slug": "moonbeam",
     "name": "Moonbeam",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/moonbeam.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
@@ -322,7 +327,7 @@
       "Astar": "wss://rpc.astar.network",
       "OnFinality": "wss://astar.api.onfinality.io/public-ws",
       "Light Client": "light://substrate-connect/polkadot/astar",
-      "RadiumBlock": "wss://astar.public.curie.radiumblock.co/ws"
+      "Dwellir": "wss://astar-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -375,8 +380,7 @@
     "icon": "/assets/chains/astarevm.png",
     "providers": {
       "Astar": "https://evm.astar.network",
-      "OnFinality": "https://astar.api.onfinality.io/public",
-      "Dwellir": "https://astar-rpc.dwellir.com"
+      "OnFinality": "https://astar.api.onfinality.io/public"
     },
     "evmInfo": {
       "evmChainId": 592,
@@ -403,14 +407,14 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/statemint.png",
     "providers": {
-      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
       "Dwellir": "wss://asset-hub-polkadot-rpc.n.dwellir.com",
       "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
       "Parity": "wss://polkadot-asset-hub-rpc.polkadot.io",
       "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub",
-      "IBP2": "wss://asset-hub-polkadot.dotters.network",
       "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
-      "Radiumblock": "wss://statemint.public.curie.radiumblock.co/ws"
+      "Gatotech": "wss://asset-hub-polkadot.gatotech.network",
+      "Rotko": "wss://asset-hub-polkadot.rotko.net",
+      "Helixstreet": "wss://rpc-asset-hub-polkadot.helixstreet.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -449,9 +453,7 @@
     "providers": {
       "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://acala-rpc-1.aca-api.network",
-      "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws",
-      "IBP1": "wss://acala.ibp.network",
-      "IBP2": "wss://acala.dotters.network"
+      "Acala Foundation 3": "wss://acala-rpc-3.aca-api.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -500,8 +502,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polygon.png",
     "providers": {
-      "Polygon Scan": "https://polygon-rpc.com/",
-      "BorPublicNode": "https://polygon-bor.publicnode.com"
+      "BorPublicNode": "https://polygon-bor-rpc.publicnode.com",
+      "DRPC": "https://polygon.drpc.org",
+      "Tenderly": "https://gateway.tenderly.co/public/polygon",
+      "Pocket Network": "https://poly.api.pocket.network",
+      "Sentio": "https://matic.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 137,
@@ -532,7 +537,10 @@
     "icon": "/assets/chains/arbitrum_one.png",
     "providers": {
       "BlastApi": "https://arbitrum-one.public.blastapi.io",
-      "Meowrpc": "https://arbitrum.meowrpc.com"
+      "Arbitrum": "https://arb1.arbitrum.io/rpc",
+      "PublicNode": "https://arbitrum-one-rpc.publicnode.com",
+      "DRPC": "https://arbitrum.drpc.org",
+      "Tenderly": "https://arbitrum.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 42161,
@@ -564,8 +572,9 @@
     "providers": {
       "DRPC": "https://optimism.drpc.org/",
       "Publicnode": "https://optimism-rpc.publicnode.com/",
-      "Mainnet": "https://endpoints.omniatech.io/v1/op/mainnet/public",
-      "1RPC": "https://1rpc.io/op"
+      "Optimism": "https://mainnet.optimism.io",
+      "Tenderly": "https://gateway.tenderly.co/public/optimism",
+      "BlockPi": "https://optimism.public.blockpi.network/v1/rpc/public"
     },
     "evmInfo": {
       "evmChainId": 10,
@@ -620,7 +629,7 @@
     "slug": "alephTest",
     "name": "Aleph Zero Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/alephtest.png",
     "providers": {
       "Aleph Zero Foundation": "wss://ws.test.azero.dev",
@@ -662,7 +671,8 @@
     "icon": "/assets/chains/shiden.png",
     "providers": {
       "Astar": "wss://rpc.shiden.astar.network",
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws",
+      "Dwellir": "wss://shiden-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -763,7 +773,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/shibuya.png",
     "providers": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
+      "Shibuya": "wss://rpc.shibuya.astar.network",
+      "Dwellir": "wss://shibuya-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -878,8 +889,8 @@
     "providers": {
       "Parity": "wss://westend-rpc.polkadot.io",
       "Light Client": "light://substrate-connect/westend",
-      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com",
-      "RadiumBlock": "wss://westend.public.curie.radiumblock.co/ws"
+      "OnFinality": "wss://westend.api.onfinality.io/public-ws",
+      "Dwellir": "wss://westend-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1035,7 +1046,7 @@
     "slug": "moonbase",
     "name": "Moonbase Alpha",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/moonbase.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
@@ -1084,7 +1095,7 @@
     "slug": "moonriver",
     "name": "Moonriver",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/moonriver.png",
     "providers": {
       "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
@@ -1304,9 +1315,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/bifrost_dot.png",
     "providers": {
-      "LiebiEU": "wss://eu.bifrost-polkadot-rpc.liebi.com/ws",
-      "IBP1": "wss://bifrost-polkadot.ibp.network",
-      "IBP2": "wss://bifrost-polkadot.dotters.network"
+      "Liebi HK": "wss://hk.bifrost-polkadot-rpc.liebi.com/ws",
+      "Liebi US": "wss://us.bifrost-polkadot-rpc.liebi.com/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1450,7 +1460,7 @@
     "slug": "amplitude",
     "name": "Amplitude",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/amplitude.png",
     "providers": {
       "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
@@ -1769,10 +1779,8 @@
     "icon": "/assets/chains/hydradx_main.png",
     "providers": {
       "Galactic Council": "wss://rpc.hydradx.cloud",
-      "Helikon": "wss://rpc.helikon.io/hydradx",
       "Dwellir 2": "wss://hydration-rpc.n.dwellir.com",
-      "IBP1": "wss://hydration.ibp.network",
-      "IBP2": "wss://hydration.dotters.network"
+      "Rotko": "wss://hydration.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -1818,7 +1826,7 @@
     "slug": "edgeware",
     "name": "Edgeware",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/edgeware.png",
     "providers": {
       "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net"
@@ -1855,7 +1863,7 @@
     "slug": "centrifuge",
     "name": "Centrifuge",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/centrifuge.png",
     "providers": {
       "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
@@ -1906,7 +1914,7 @@
     "slug": "interlay",
     "name": "Interlay",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/interlay.png",
     "providers": {
       "Kintsugi Labs": "wss://api.interlay.io/parachain",
@@ -2008,8 +2016,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/darwinia2.png",
     "providers": {
-      "Darwinia Network": "wss://rpc.darwinia.network",
-      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
+      "Darwinia Network": "wss://rpc.darwinia.network"
     },
     "evmInfo": {
       "evmChainId": 46,
@@ -2054,7 +2061,7 @@
     "slug": "sora_ksm",
     "name": "SORA Kusama",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/sora_ksm.png",
     "providers": {
       "Soramitsu": "wss://ws.parachain-collator-2.c2.sora2.soramitsu.co.jp"
@@ -2148,7 +2155,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polkadex.png",
     "providers": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
       "Polkadex": "wss://so.polkadex.ee"
     },
     "evmInfo": null,
@@ -2183,7 +2189,7 @@
     "slug": "polkadexTest",
     "name": "Polkadex - Testnet",
     "isTestnet": true,
-    "chainStatus": "STOPPED",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/polkadextest.png",
     "providers": {
       "Polkadex Team": "wss://blockchain.polkadex.trade"
@@ -2476,7 +2482,7 @@
     "slug": "crust",
     "name": "Crust",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/crust.png",
     "providers": {
       "Crust": "wss://crust-parachain.crustapps.net",
@@ -2531,15 +2537,12 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/statemine.png",
     "providers": {
-      "RadiumBlock": "wss://statemine.public.curie.radiumblock.co/ws",
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
       "Lucky Friday": "wss://rpc-asset-hub-kusama.luckyfriday.io",
       "Stake World": "wss://ksm-rpc.stakeworld.io/assethub",
       "Parity": "wss://kusama-asset-hub-rpc.polkadot.io",
-      "IBP1": "wss://sys.ibp.network/asset-hub-kusama",
-      "IBP2": "wss://asset-hub-kusama.dotters.network",
       "Dwellir": "wss://asset-hub-kusama-rpc.n.dwellir.com",
-      "OnFinality": "wss://assethub-kusama.api.onfinality.io/public-ws"
+      "OnFinality": "wss://assethub-kusama.api.onfinality.io/public-ws",
+      "Rotko": "wss://asset-hub-kusama.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2579,7 +2582,8 @@
       "Acala Foundation 0": "wss://karura-rpc-0.aca-api.network",
       "Acala Foundation 1": "wss://karura-rpc-1.aca-api.network",
       "Acala Foundation 2": "wss://karura-rpc-2.aca-api.network/ws",
-      "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws"
+      "Acala Foundation 3": "wss://karura-rpc-3.aca-api.network/ws",
+      "Dwellir": "wss://karura-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2664,7 +2668,7 @@
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/kilt.png",
     "providers": {
       "IBP1": "wss://kilt.ibp.network",
@@ -2862,7 +2866,7 @@
     "slug": "kintsugi",
     "name": "Kintsugi",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/kintsugi.png",
     "providers": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain",
@@ -3018,7 +3022,7 @@
     "slug": "quartz",
     "name": "Quartz",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/quartz.png",
     "providers": {
       "Unique Europe": "wss://eu-ws-quartz.unique.network",
@@ -3074,9 +3078,7 @@
       "unique": "wss://us-ws.unique.network",
       "UniqueEu": "wss://eu-ws.unique.network",
       "UniqueAsia": "wss://asia-ws.unique.network",
-      "Geo Load Balancer": "wss://ws.unique.network",
-      "IBP1": "wss://unique.ibp.network",
-      "IBP2": "wss://unique.dotters.network"
+      "Geo Load Balancer": "wss://ws.unique.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3248,7 +3250,7 @@
     "slug": "zeitgeist",
     "name": "Zeitgeist",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/zeitgeist.png",
     "providers": {
       "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
@@ -3346,7 +3348,7 @@
     "slug": "shadow",
     "name": "Crust Shadow",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/shadow.png",
     "providers": {
       "Crust": "wss://rpc-shadow.crust.network/",
@@ -3598,7 +3600,7 @@
     "slug": "crabParachain",
     "name": "Crab2 Parachain",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/crabparachain.png",
     "providers": {
       "Crab": "wss://crab-rpc.darwinia.network/"
@@ -3703,7 +3705,7 @@
     "slug": "chainx",
     "name": "Chain X",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/chainx.png",
     "providers": {
       "chainx ": "wss://mainnet.chainx.org/ws"
@@ -3808,7 +3810,7 @@
     "slug": "mangatax_para",
     "name": "Mangata X",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/mangatax_para.png",
     "providers": {
       "mangata": "wss://kusama-rpc.mangata.online",
@@ -3873,8 +3875,9 @@
     "icon": "/assets/chains/encointer.png",
     "providers": {
       "Encointer Association": "wss://kusama.api.encointer.org",
-      "IBP1": "wss://sys.ibp.network/encointer-kusama",
-      "IBP2": "wss://encointer-kusama.dotters.network"
+      "Rotko": "wss://encointer-kusama.rotko.net",
+      "Dwellir": "wss://encointer-kusama-rpc.n.dwellir.com",
+      "LuckyFriday": "wss://rpc-encointer-kusama.luckyfriday.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -4950,7 +4953,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/xx_network.png",
     "providers": {
-      "XX Foundation": "wss://rpc.xx.network"
+      "XX Foundation": "wss://rpc.xx.network",
+      "Dwellir": "wss://xxnetwork-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5250,12 +5254,11 @@
     "icon": "/assets/chains/collectives.png",
     "providers": {
       "viaParity": "wss://polkadot-collectives-rpc.polkadot.io",
-      "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com",
-      "IBP1": "wss://sys.ibp.network/collectives-polkadot",
-      "IBP2": "wss://collectives-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-collectives-polkadot.luckyfriday.io",
-      "RadiumBlock": "wss://collectives.public.curie.radiumblock.co/ws",
-      "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives"
+      "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives",
+      "Rotko": "wss://collectives-polkadot.rotko.net",
+      "Dwellir": "wss://collectives-polkadot-rpc.n.dwellir.com",
+      "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5292,8 +5295,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/ajunapolkadot.png",
     "providers": {
-      "Ibp": "wss://ajuna.ibp.network",
-      "IBP2": "wss://ajuna.dotters.network"
+      "AjunaNetwork": "wss://rpc-para.ajuna.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5558,7 +5560,7 @@
     "slug": "ipci",
     "name": "DAO IPCI",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/ipci.png",
     "providers": {
       "Airalab": "wss://ipci.rpc.robonomics.network"
@@ -6148,9 +6150,7 @@
     "icon": "/assets/chains/sora_substrate.png",
     "providers": {
       "SORA Parliament Ministry of Finance #2": "wss://mof2.sora.org",
-      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org",
-      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org",
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
+      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6241,7 +6241,7 @@
     "slug": "3dpass",
     "name": "3DPass",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/3dpass.png",
     "providers": {
       "3dpass": "wss://rpc.3dpass.org"
@@ -6309,7 +6309,7 @@
     "slug": "joystream",
     "name": "Joystream",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/joystream.png",
     "providers": {
       "Jsgenesis": "wss://rpc.joystream.org",
@@ -6356,7 +6356,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": 2056,
-      "genesisHash": "0xa6ffcef7fb8caadf7f6c5ad8ada65e3eaa90d1604f3eabda546ff1d486865a0c",
+      "genesisHash": "0xf5840f147cae70c939aefd2ed1b0145a879ca49eeb1a1b13d5bf38a720087a90",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -6461,12 +6461,11 @@
     "providers": {
       "Parity": "wss://polkadot-bridge-hub-rpc.polkadot.io",
       "Stakeworld": "wss://dot-rpc.stakeworld.io/bridgehub",
-      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com",
-      "IBP1": "wss://sys.ibp.network/bridgehub-polkadot",
-      "IBP2": "wss://bridge-hub-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-bridge-hub-polkadot.luckyfriday.io",
       "OnFinality": "wss://bridgehub-polkadot.api.onfinality.io/public-ws",
-      "RadiumBlock": "wss://bridgehub-polkadot.public.curie.radiumblock.co/ws"
+      "Rotko": "wss://bridge-hub-polkadot.rotko.net",
+      "Dwellir": "wss://bridge-hub-polkadot-rpc.n.dwellir.com",
+      "Spectrum": "wss://spectrum-03.simplystaking.xyz/cG9sa2Fkb3QtMDMtOTFkMmYwZGYtcG9sa2Fkb3Q/mgX--uWlEtmNKw/polkadotbridgehub/mainnet/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6504,10 +6503,11 @@
     "icon": "/assets/chains/bridgehubkusama.png",
     "providers": {
       "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io",
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io/bridgehub",
-      "IBP-GeoDNS1": "wss://sys.ibp.network/bridgehub-kusama",
-      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com",
-      "LuckyFriday": "wss://rpc-bridge-hub-kusama.luckyfriday.io"
+      "LuckyFriday": "wss://rpc-bridge-hub-kusama.luckyfriday.io",
+      "Rotko": "wss://bridge-hub-kusama.rotko.net",
+      "Dwellir": "wss://bridge-hub-kusama-rpc.n.dwellir.com",
+      "Spectrum": "wss://spectrum-03.simplystaking.xyz/cG9sa2Fkb3QtMDMtOTFkMmYwZGYtcG9sa2Fkb3Q/balkpUVauqyv8g/kusamabridgehub/mainnet/",
+      "OnFinality": "wss://bridgehub-kusama.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6541,7 +6541,7 @@
     "slug": "fantom_testnet",
     "name": "Fantom Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/fantom_testnet.png",
     "providers": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet",
@@ -6572,8 +6572,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/fantom.png",
     "providers": {
-      "RPC_API": "https://rpcapi.fantom.network",
-      "PoktNetwork": "https://fantom-pokt.nodies.app/"
+      "RPC_API": "https://rpcapi.fantom.network"
     },
     "evmInfo": {
       "evmChainId": 250,
@@ -6597,7 +6596,7 @@
     "slug": "krest_network",
     "name": "Krest Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/krest_network.png",
     "providers": {
       "OnFinality": "wss://krest.api.onfinality.io/public-ws"
@@ -6717,7 +6716,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/base_mainnet.png",
     "providers": {
-      "PublicNode": "https://base.publicnode.com"
+      "PublicNode": "https://base.publicnode.com",
+      "Base": "https://mainnet.base.org",
+      "DRPC": "https://base.drpc.org",
+      "Tenderly": "https://gateway.tenderly.co/public/base",
+      "BlockPi": "https://base.public.blockpi.network/v1/rpc/public"
     },
     "evmInfo": {
       "evmChainId": 8453,
@@ -6745,7 +6748,8 @@
     "icon": "/assets/chains/avalanche_c.png",
     "providers": {
       "Avax Network": "https://api.avax.network/ext/bc/C/rpc",
-      "PublicNode": "https://avalanche-c-chain.publicnode.com"
+      "PublicNode": "https://avalanche-c-chain-rpc.publicnode.com",
+      "Tenderly": "https://avalanche-mainnet.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 43114,
@@ -7633,7 +7637,7 @@
     "slug": "manta_network",
     "name": "Manta Atlantic",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/manta_network.png",
     "providers": {
       "Manta Network": "wss://ws.manta.systems"
@@ -7872,7 +7876,7 @@
     "slug": "xcavate",
     "name": "Xcavate",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/xcavate.png",
     "providers": {
       "Xcavate": "wss://rpc1-polkadot.xcavate.io"
@@ -7967,7 +7971,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/enjin_relaychain.png",
     "providers": {
-      "Enjin": "wss://rpc.relay.blockchain.enjin.io/"
+      "Enjin": "wss://rpc.relay.blockchain.enjin.io/",
+      "Dwellir": "wss://enjin-relay-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8004,7 +8009,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/enjin_matrixchain.png",
     "providers": {
-      "MatrixChain": "wss://rpc.matrix.blockchain.enjin.io/"
+      "MatrixChain": "wss://rpc.matrix.blockchain.enjin.io/",
+      "Dwellir": "wss://enjin-matrix-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8038,7 +8044,7 @@
     "slug": "vara_testnet",
     "name": "Vara Network Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/vara_testnet.png",
     "providers": {
       "Vara": "wss://testnet.vara-network.io",
@@ -8122,7 +8128,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": 2000,
-      "genesisHash": "0x89cac7a3b10e408ad81c92013900023f4378713bef4e82c3e3efaf818f009ba4",
+      "genesisHash": "0x9c45fe4271a471ff171350de7db49a2c2bd87483a31b43c87b5c9fe04896dbda",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -8184,7 +8190,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": 3345,
-      "genesisHash": "0xac123be800b7c9a3e3449bb70edd8e3d9008d27826381451eebf94bce1db1fbe",
+      "genesisHash": "0x466edf864b4314b97f36e45ec21ddb39e0bdc52789377b91be0957d5afad2eb2",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -8437,7 +8443,7 @@
     "slug": "okxTest",
     "name": "X Layer testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/okxtest.png",
     "providers": {
       "Testrpc": "https://testrpc.x1.tech/",
@@ -8568,7 +8574,7 @@
     "slug": "tangleTest",
     "name": "Tangle Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/tangletest.png",
     "providers": {
       "Webb": "wss://testnet-rpc.tangle.tools"
@@ -8727,10 +8733,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/sepolia_ethereum.png",
     "providers": {
-      "1RPC": "https://1rpc.io/sepolia",
       "Tenderly": "https://gateway.tenderly.co/public/sepolia",
       "0xrpc": "https://0xrpc.io/sep",
-      "Public node": "https://ethereum-sepolia-rpc.publicnode.com"
+      "Public node": "https://ethereum-sepolia-rpc.publicnode.com",
+      "Sentio": "https://sepolia.rpc.sentio.xyz",
+      "Pocket Network": "https://eth-sepolia-testnet.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 11155111,
@@ -8833,7 +8840,7 @@
     },
     "evmInfo": {
       "evmChainId": 196,
-      "blockExplorer": "https://www.okx.com/explorer/xlayer",
+      "blockExplorer": "https://web3.okx.com/explorer/x-layer/evm",
       "existentialDeposit": "0",
       "symbol": "OKB",
       "decimals": 18,
@@ -8841,7 +8848,7 @@
         "ERC20",
         "ERC721"
       ],
-      "abiExplorer": "https://www.okx.com/explorer/xlayer"
+      "abiExplorer": null
     },
     "substrateInfo": null,
     "extraInfo": null,
@@ -8856,7 +8863,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/acurast.png",
     "providers": {
-      "Canary": "wss://public-rpc.canary.acurast.com"
+      "Canary": "wss://public-rpc.canary.acurast.com",
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -8890,7 +8898,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/mythos.png",
     "providers": {
-      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
+      "Dmarket": "wss://mythos-rpc.dmarket.com/"
     },
     "evmInfo": {
       "evmChainId": -1,
@@ -8999,14 +9007,16 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/paseotest.png",
     "providers": {
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/paseo",
-      "IBP-GeoDNS2": "wss://rpc.dotters.network/paseo"
+      "Dwellir": "wss://paseo-rpc.n.dwellir.com",
+      "Stakeworld": "wss://rpc-paseo.stakeworld.io",
+      "Turboflakes": "wss://paseo-v2.rpc.turboflakes.io",
+      "interweb": "wss://rpc.interweb-it.com/paseo"
     },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x77afd6190f1554ad45fd0d31aee62aacc33c6db0ea801129acb813f913e0764f",
+      "genesisHash": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
       "addressPrefix": 0,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -9109,9 +9119,7 @@
     "icon": "/assets/chains/availturingtest.png",
     "providers": {
       "Avail Turing ": "wss://turing-rpc.avail.so/ws",
-      "Ankr": "wss://turing-testnet.avail-rpc.com/",
-      "AllNodes": "wss://avail-turing-rpc.publicnode.com/",
-      "BountyBlok": "wss://avail-turing.bountyblok.io/"
+      "AllNodes": "wss://avail-turing-rpc.publicnode.com/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9148,9 +9156,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/bitlayer.png",
     "providers": {
-      "Bitlayer": "https://rpc.bitlayer.org",
-      "Rpc": "https://rpc.bitlayer-rpc.com",
-      "Ankr": "https://rpc.ankr.com/bitlayer"
+      "Bitlayer": "https://rpc.bitlayer.org"
     },
     "evmInfo": {
       "evmChainId": 200901,
@@ -9174,7 +9180,7 @@
     "slug": "bitlayerTest",
     "name": "Bitlayer Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/bitlayertest.png",
     "providers": {
       "Rpc testnet": "https://testnet-rpc.bitlayer.org"
@@ -9229,7 +9235,7 @@
     "slug": "bevmTest",
     "name": "BEVM Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/bevmtest.png",
     "providers": {
       "BEVM testnet": "https://testnet.bevm.io"
@@ -9314,8 +9320,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/avail_mainnet.png",
     "providers": {
-      "Ankr": "wss://mainnet.avail-rpc.com/",
-      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
+      "PublicNode": "wss://avail-rpc.publicnode.com",
+      "LuckyFriday": "wss://rpc-avail.luckyfriday.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9376,7 +9382,7 @@
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/botanixevmtest.png",
     "providers": {
       "Botanix Labs": "https://node.botanixlabs.dev"
@@ -9440,9 +9446,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/hyperbridge.png",
     "providers": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network",
-      "IBP1": "wss://nexus.ibp.network",
-      "IBP2": "wss://nexus.dotters.network"
+      "Polytope Labs": "wss://nexus.rpc.polytope.technology"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9473,7 +9477,7 @@
     "slug": "cess_testnet",
     "name": "CESS Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/cess_testnet.png",
     "providers": {
       "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/",
@@ -9557,9 +9561,10 @@
     "providers": {
       "Parity": "wss://kusama-people-rpc.polkadot.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io/people",
-      "IBP1": "wss://sys.ibp.network/people-kusama",
-      "IBP2": "wss://people-kusama.dotters.network",
-      "LuckyFriday": "wss://rpc-people-kusama.luckyfriday.io"
+      "LuckyFriday": "wss://rpc-people-kusama.luckyfriday.io",
+      "Rotko": "wss://people-kusama.rotko.net",
+      "OnFinality": "wss://people-kusama.api.onfinality.io/public-ws",
+      "Dwellir": "wss://people-kusama-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9596,7 +9601,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/lineazkevm.png",
     "providers": {
-      "Linea": "https://rpc.linea.build/"
+      "Linea": "https://rpc.linea.build/",
+      "PublicNode": "https://linea-rpc.publicnode.com",
+      "Sentio": "https://linea.rpc.sentio.xyz",
+      "Pocket Network": "https://linea.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 59144,
@@ -9647,7 +9655,7 @@
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/bouncebitevmtest.png",
     "providers": {
       "BounceBit Api": "https://fullnode-testnet.bouncebitapi.com/"
@@ -9709,7 +9717,7 @@
     "slug": "analog_testnet",
     "name": "Analog Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/analog_testnet.png",
     "providers": {
       "Analog": "wss://rpc.testnet.analog.one"
@@ -9746,7 +9754,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/peaq.png",
     "providers": {
-      "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
+      "Onfinality": "wss://peaq.api.onfinality.io/public-ws",
+      "PublicNode": "wss://peaq-rpc.publicnode.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9807,7 +9816,7 @@
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/bevm_testnet.png",
     "providers": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
@@ -9831,7 +9840,7 @@
     "slug": "berachain_testnet",
     "name": "Berachain bArtio",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/berachain_testnet.png",
     "providers": {
       "Berachain": "https://bartio.rpc.berachain.com/"
@@ -9957,7 +9966,7 @@
     "slug": "b2_testnet",
     "name": "B² Network Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/b2_testnet.png",
     "providers": {
       "Alt Technology": "https://b2-testnet.alt.technology/",
@@ -10040,7 +10049,7 @@
     "slug": "rollux_testnet",
     "name": "Rollux Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/rollux_testnet.png",
     "providers": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
@@ -10322,7 +10331,7 @@
     "slug": "exosama",
     "name": "Exosama",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/exosama.png",
     "providers": {
       "Exosama Network": "https://rpc.exosama.com"
@@ -10352,7 +10361,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/blast_mainnet.png",
     "providers": {
-      "Blast": "https://rpc.blast.io"
+      "Blast": "https://rpc.blast.io",
+      "PublicNode": "https://blast-rpc.publicnode.com",
+      "Thirdweb": "https://81457.rpc.thirdweb.com"
     },
     "evmInfo": {
       "evmChainId": 81457,
@@ -10451,7 +10462,7 @@
     "slug": "5irechain_mainnet",
     "name": "5ireChain Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/5irechain_mainnet.png",
     "providers": {
       "5fire": "https://rpc.5ire.network/"
@@ -10563,7 +10574,6 @@
     "icon": "/assets/chains/base_sepolia.png",
     "providers": {
       "Base": "https://sepolia.base.org",
-      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public",
       "Public Node": "https://base-sepolia-rpc.publicnode.com"
     },
     "evmInfo": {
@@ -10655,8 +10665,6 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/arbitrum_sepolia.png",
     "providers": {
-      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
-      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public",
       "Rollup": "https://sepolia-rollup.arbitrum.io/rpc"
     },
     "evmInfo": {
@@ -10681,7 +10689,7 @@
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/ternoazkevm_testnet.png",
     "providers": {
       "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
@@ -10717,7 +10725,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x73bd9219bd97d2937a0ea7916a362656383c8bfa413c6597c8e0ac45a144d082",
+      "genesisHash": "0x077899043eb684c5277b6814a39161f4ce072b45e782e12c81a521c63fb4f3e5",
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -10745,7 +10753,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/mantle.png",
     "providers": {
-      "Mantle": "https://rpc.mantle.xyz/"
+      "Mantle": "https://rpc.mantle.xyz/",
+      "PublicNode": "https://mantle-rpc.publicnode.com",
+      "Thirdweb": "https://5000.rpc.thirdweb.com"
     },
     "evmInfo": {
       "evmChainId": 5000,
@@ -10803,7 +10813,7 @@
     "slug": "rari",
     "name": "RARI Chain",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/rari.png",
     "providers": {
       "RARI": "https://mainnet.rpc.rarichain.org/http"
@@ -10833,7 +10843,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/scroll.png",
     "providers": {
-      "Scroll": "https://rpc.scroll.io/"
+      "Scroll": "https://rpc.scroll.io/",
+      "DRPC": "https://scroll.drpc.org",
+      "PublicNode": "https://scroll-rpc.publicnode.com",
+      "Pocket Network": "https://scroll.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 534352,
@@ -10887,7 +10900,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/world_chain.png",
     "providers": {
-      "World Chain": "https://worldchain-mainnet.g.alchemy.com/public"
+      "World Chain": "https://worldchain-mainnet.g.alchemy.com/public",
+      "DRPC": "https://worldchain.drpc.org",
+      "Tenderly": "https://worldchain-mainnet.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 480,
@@ -10968,9 +10983,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/zircuit.png",
     "providers": {
-      "Zircuit1": "https://zircuit1-mainnet.p2pify.com/",
-      "Zircuit": "https://zircuit-mainnet.drpc.org/",
-      "Zircuit Liquify": "https://zircuit1-mainnet.liquify.com/"
+      "Zircuit Mainnet": "https://mainnet.zircuit.com",
+      "Sentio": "https://zircuit.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 48900,
@@ -10994,7 +11008,7 @@
     "slug": "tangle",
     "name": "Tangle Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/tangle.png",
     "providers": {
       "Tangle": "wss://rpc.tangle.tools",
@@ -11029,7 +11043,7 @@
     "slug": "tangle_evm",
     "name": "Tangle EVM Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/tangle_evm.png",
     "providers": {
       "Tangle": "https://rpc.tangle.tools/"
@@ -11086,7 +11100,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polygon_amoy.png",
     "providers": {
-      "Polygon Amoy": "https://rpc-amoy.polygon.technology/"
+      "DRPC": "https://polygon-amoy.drpc.org",
+      "Tenderly": "https://polygon-amoy.gateway.tenderly.co"
     },
     "evmInfo": {
       "evmChainId": 80002,
@@ -11110,7 +11125,7 @@
     "slug": "polygonzkEvm_cardona",
     "name": "Polygon zkEVM Cardona Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/polygonzkevm_cardona.png",
     "providers": {
       "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
@@ -11140,7 +11155,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/zksync_era.png",
     "providers": {
-      "ZKsync Era": "https://mainnet.era.zksync.io/"
+      "ZKsync Era": "https://mainnet.era.zksync.io/",
+      "Sentio": "https://zksync-era.rpc.sentio.xyz",
+      "Pocket Network": "https://zksync-era.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 324,
@@ -11229,7 +11246,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/gnosis.png",
     "providers": {
-      "Gnosis Chain": "https://rpc.gnosischain.com/"
+      "Gnosis Chain": "https://rpc.gnosischain.com/",
+      "DRPC": "https://gnosis.drpc.org",
+      "PublicNode": "https://gnosis-rpc.publicnode.com",
+      "Gateway.fm": "https://rpc.gnosis.gateway.fm"
     },
     "evmInfo": {
       "evmChainId": 100,
@@ -11445,10 +11465,11 @@
     "providers": {
       "PolkadotPeople": "wss://polkadot-people-rpc.polkadot.io",
       "LuckyFriday": "wss://rpc-people-polkadot.luckyfriday.io",
-      "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws",
-      "Sys Ibp": "wss://sys.ibp.network/people-polkadot",
-      "Sys Dotters": "wss://sys.dotters.network/people-polkadot",
-      "Dotters": "wss://people-polkadot.dotters.network"
+      "Rotko": "wss://people-polkadot.rotko.net",
+      "Dwellir": "wss://people-polkadot-rpc.n.dwellir.com",
+      "Stakeworld": "wss://rpc-people-polkadot.stakeworld.io",
+      "OnFinality": "wss://people-polkadot.api.onfinality.io/public-ws",
+      "Helixstreet": "wss://rpc-people-polkadot.helixstreet.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -11482,7 +11503,7 @@
     "slug": "laos_network",
     "name": "LAOS Network",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/laos_network.png",
     "providers": {
       "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
@@ -11558,7 +11579,9 @@
     "icon": "/assets/chains/ink.png",
     "providers": {
       "Gel Ink": "https://rpc-gel.inkonchain.com/",
-      "Qnd Ink": "https://rpc-qnd.inkonchain.com/"
+      "Qnd Ink": "https://rpc-qnd.inkonchain.com/",
+      "PublicNode": "https://ink-rpc.publicnode.com",
+      "Pocket Network": "https://ink.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 57073,
@@ -11585,7 +11608,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/celo.png",
     "providers": {
-      "Celo Forno": "https://forno.celo.org/"
+      "Celo Forno": "https://forno.celo.org/",
+      "Ankr": "https://rpc.ankr.com/celo",
+      "Stakely": "https://celo-json-rpc.stakely.io"
     },
     "evmInfo": {
       "evmChainId": 42220,
@@ -11609,7 +11634,7 @@
     "slug": "celo_alfajores",
     "name": "Celo Alfajores",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/celo_alfajores.png",
     "providers": {
       "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
@@ -11663,7 +11688,7 @@
     "slug": "sophon_testnet",
     "name": "Sophon Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/sophon_testnet.png",
     "providers": {
       "Sophon": "https://rpc.testnet.sophon.xyz/"
@@ -11723,7 +11748,7 @@
       "DiaData": "https://testnet-rpc.diadata.org/"
     },
     "evmInfo": {
-      "evmChainId": 10640,
+      "evmChainId": 10050,
       "blockExplorer": "https://testnet-explorer.diadata.org/",
       "existentialDeposit": "0",
       "symbol": "DIA",
@@ -11744,7 +11769,7 @@
     "slug": "muse_testnet",
     "name": "Muse Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/muse_testnet.png",
     "providers": {
       "Parity": "wss://paseo-muse-rpc.polkadot.io"
@@ -11789,7 +11814,9 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/soneium.png",
     "providers": {
-      "Soneium": "https://rpc.soneium.org/"
+      "Soneium": "https://rpc.soneium.org/",
+      "Sentio": "https://soneium-mainnet.rpc.sentio.xyz",
+      "Thirdweb": "https://1868.rpc.thirdweb.com"
     },
     "evmInfo": {
       "evmChainId": 1868,
@@ -11843,7 +11870,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/analog_timechain.png",
     "providers": {
-      "Analog": "wss://rpc.timechain.analog.one"
+      "Analog": "wss://rpc.timechain.analog.one",
+      "PublicNode": "wss://analog-rpc.publicnode.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -11905,10 +11933,8 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/paseo_assethub.png",
     "providers": {
-      "IBP": "wss://sys.ibp.network/asset-hub-paseo",
-      "Dotters": "wss://asset-hub-paseo.dotters.network",
-      "Stake World": "wss://pas-rpc.stakeworld.io/assethub",
-      "Turbo": "wss://sys.turboflakes.io/asset-hub-paseo"
+      "Turbo": "wss://sys.turboflakes.io/asset-hub-paseo",
+      "Dwellir": "wss://asset-hub-paseo-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -11973,7 +11999,7 @@
     "icon": "/assets/chains/westend_assethub.png",
     "providers": {
       "Parity": "wss://westend-asset-hub-rpc.polkadot.io",
-      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
+      "Dwellir": "wss://asset-hub-westend-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12044,7 +12070,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/sonic.png",
     "providers": {
-      "SonicLab": "https://rpc.soniclabs.com/"
+      "SonicLab": "https://rpc.soniclabs.com/",
+      "DRPC": "https://sonic.drpc.org",
+      "PublicNode": "https://sonic-rpc.publicnode.com",
+      "Pocket Network": "https://sonic.api.pocket.network"
     },
     "evmInfo": {
       "evmChainId": 146,
@@ -12098,8 +12127,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/sophon.png",
     "providers": {
-      "Sophon": "https://rpc.sophon.xyz/",
-      "Unifra": "https://sophon-mainnet-public.unifra.io/"
+      "Sophon": "https://rpc.sophon.xyz/"
     },
     "evmInfo": {
       "evmChainId": 50104,
@@ -12153,7 +12181,10 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/unichain.png",
     "providers": {
-      "Unichain": "https://mainnet.unichain.org/"
+      "Unichain": "https://mainnet.unichain.org/",
+      "DRPC": "https://unichain.drpc.org",
+      "PublicNode": "https://unichain-rpc.publicnode.com",
+      "Sentio": "https://unichain-mainnet.rpc.sentio.xyz"
     },
     "evmInfo": {
       "evmChainId": 130,
@@ -12205,7 +12236,7 @@
     "slug": "ternoaZkEvm",
     "name": "Ternoa zkEVM+",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/ternoazkevm.png",
     "providers": {
       "Ternoa": "https://rpc-mainnet.zkevm.ternoa.network/"
@@ -12293,7 +12324,7 @@
     "slug": "melodie_testnet",
     "name": "Melodie Testnet Live",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/melodie_testnet.png",
     "providers": {
       "Allfeat": "wss://melodie-rpc.allfeat.io"
@@ -12400,10 +12431,12 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polkadot_coretime.png",
     "providers": {
-      "IBP1": "wss://sys.ibp.network/coretime-polkadot",
-      "IBP2": "wss://coretime-polkadot.dotters.network",
       "LuckyFriday": "wss://rpc-coretime-polkadot.luckyfriday.io",
-      "Parity": "wss://polkadot-coretime-rpc.polkadot.io"
+      "Parity": "wss://polkadot-coretime-rpc.polkadot.io",
+      "Rotko": "wss://coretime-polkadot.rotko.net",
+      "Dwellir": "wss://coretime-polkadot-rpc.n.dwellir.com",
+      "Stakeworld": "wss://rpc-coretime-polkadot.stakeworld.io",
+      "OnFinality": "wss://coretime-polkadot.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12440,11 +12473,12 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/kusama_coretime.png",
     "providers": {
-      "IBP1": "wss://sys.ibp.network/coretime-kusama",
-      "IBP2": "wss://coretime-kusama.dotters.network",
       "LuckyFriday": "wss://rpc-coretime-kusama.luckyfriday.io",
       "Parity": "wss://kusama-coretime-rpc.polkadot.io",
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime"
+      "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime",
+      "Rotko": "wss://coretime-kusama.rotko.net",
+      "OnFinality": "wss://coretime-kusama.api.onfinality.io/public-ws",
+      "Dwellir": "wss://coretime-kusama-rpc.n.dwellir.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12600,7 +12634,7 @@
     "slug": "dancelight",
     "name": "Dancelight",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/dancelight.png",
     "providers": {
       "Testnet": "wss://services.tanssi-testnet.network/dancelight"
@@ -12664,7 +12698,7 @@
     "slug": "tanssi",
     "name": "Tanssi Mainnet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/tanssi.png",
     "providers": {
       "Services ": "wss://services.tanssi-mainnet.network/tanssi"
@@ -12765,7 +12799,7 @@
     "slug": "verisenseTest",
     "name": "Verisense Beta Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/verisensetest.png",
     "providers": {
       "Verisense": "wss://rpc.beta.verisense.network"
@@ -12826,7 +12860,7 @@
     "slug": "mandalaTest",
     "name": "Mandala Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/mandalatest.png",
     "providers": {
       "Autobot": "wss://rpc1.paseo.mandalachain.io",
@@ -12861,7 +12895,7 @@
     "slug": "passetHub",
     "name": "passet-hub",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/passethub.png",
     "providers": {
       "IBP": "wss://passet-hub-paseo.ibp.network",
@@ -12896,7 +12930,7 @@
     "slug": "bifrostPaseo",
     "name": "Bifrost Paseo",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/bifrostpaseo.png",
     "providers": {
       "Paseo": "wss://bifrost-rpc.paseo.liebi.com/ws"
@@ -12930,7 +12964,7 @@
     "slug": "hydrationPaseo",
     "name": "Hydration Paseo Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/hydrationpaseo.png",
     "providers": {
       "Hydration Paseo": "wss://paseo-rpc.play.hydration.cloud"
@@ -12964,7 +12998,7 @@
     "slug": "passetHub_evm",
     "name": "Passet Hub EVM",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/passethub_evm.png",
     "providers": {
       "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
@@ -13026,7 +13060,7 @@
     "slug": "quantum_fusion",
     "name": "Quantum Fusion Testnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/quantum_fusion.png",
     "providers": {
       "Qfnetwork": "wss://test.qfnetwork.xyz"
@@ -13063,8 +13097,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/subtensor_evm.png",
     "providers": {
-      "Opentensor": "https://lite.chain.opentensor.ai/",
-      "Nodies": "https://bittensor-lite-public.nodies.app/"
+      "Opentensor": "https://lite.chain.opentensor.ai/"
     },
     "evmInfo": {
       "evmChainId": 964,
@@ -13197,8 +13230,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/stable_testnet.png",
     "providers": {
-      "JsonRPC": "https://stable-jsonrpc.testnet.chain0.dev/",
-      "Stable": "https://stable-jsonrpc-ar.testnet.chain0.dev/"
+      "Stable Testnet": "https://rpc.testnet.stable.xyz"
     },
     "evmInfo": {
       "evmChainId": 2201,
@@ -13249,7 +13281,7 @@
     "slug": "hydradx_hollarnet",
     "name": "Hydration Hollarnet",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/hydradx_hollarnet.png",
     "providers": {
       "Lark": "wss://1.lark.hydration.cloud"
@@ -13286,8 +13318,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/xode.png",
     "providers": {
-      "XodeCommunity": "wss://polkadot-rpcnode.xode.net",
-      "Zeeve": "wss://xode-polkadot-rpc-01.zeeve.net/y0yxg038wn1fncc/rpc"
+      "XodeCommunity": "wss://polkadot-rpcnode.xode.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -13811,6 +13842,687 @@
       "supportMultisig": null,
       "crowdloanFunds": []
     },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "xgr": {
+    "slug": "xgr",
+    "name": "XGRChain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/xgr.png",
+    "providers": {
+      "XGR Network": "https://rpc.xgr.network"
+    },
+    "evmInfo": {
+      "evmChainId": 1643,
+      "blockExplorer": "https://explorer.xgr.network",
+      "existentialDeposit": "0",
+      "symbol": "XGR",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://explorer.xgr.network"
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "robinhood_chain": {
+    "slug": "robinhood_chain",
+    "name": "Robinhood Chain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/robinhood_chain.png",
+    "providers": {
+      "Robinhood": "https://rpc.mainnet.chain.robinhood.com",
+      "PublicNode": "https://robinhood-rpc.publicnode.com",
+      "Globalstake": "https://rpc-robinhood.globalstake.io"
+    },
+    "evmInfo": {
+      "evmChainId": 4663,
+      "blockExplorer": "https://robinhoodchain.blockscout.com",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "megaeth": {
+    "slug": "megaeth",
+    "name": "MegaETH",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/megaeth.png",
+    "providers": {
+      "MegaETH": "https://mainnet.megaeth.com/rpc",
+      "DRPC": "https://megaeth.drpc.org",
+      "Sentio": "https://megaeth.rpc.sentio.xyz"
+    },
+    "evmInfo": {
+      "evmChainId": 4326,
+      "blockExplorer": "https://megaeth.blockscout.com",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "plasma": {
+    "slug": "plasma",
+    "name": "Plasma",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/plasma.png",
+    "providers": {
+      "Plasma": "https://rpc.plasma.to",
+      "Tatum": "https://plasma-mainnet.gateway.tatum.io",
+      "Thirdweb": "https://9745.rpc.thirdweb.com"
+    },
+    "evmInfo": {
+      "evmChainId": 9745,
+      "blockExplorer": "https://plasmascan.to",
+      "existentialDeposit": "0",
+      "symbol": "XPL",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "somnia": {
+    "slug": "somnia",
+    "name": "Somnia",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/somnia.png",
+    "providers": {
+      "Somnia": "https://api.infra.mainnet.somnia.network",
+      "PublicNode": "https://somnia-rpc.publicnode.com",
+      "Thirdweb": "https://5031.rpc.thirdweb.com"
+    },
+    "evmInfo": {
+      "evmChainId": 5031,
+      "blockExplorer": "https://explorer.somnia.network",
+      "existentialDeposit": "0",
+      "symbol": "SOMI",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "arc": {
+    "slug": "arc",
+    "name": "Arc",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/arc.png",
+    "providers": {
+      "Arc": "https://rpc.mainnet.arc.io",
+      "PublicNode": "https://arc-rpc.publicnode.com",
+      "DRPC": "https://rpc.drpc.mainnet.arc.io"
+    },
+    "evmInfo": {
+      "evmChainId": 5042,
+      "blockExplorer": "https://explorer.arc.io",
+      "existentialDeposit": "0",
+      "symbol": "USDC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "sei_evm": {
+    "slug": "sei_evm",
+    "name": "Sei EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/sei_evm.png",
+    "providers": {
+      "Sei": "https://evm-rpc.sei-apis.com",
+      "Stakeme": "https://sei-evm-rpc.stakeme.pro",
+      "Thirdweb": "https://1329.rpc.thirdweb.com"
+    },
+    "evmInfo": {
+      "evmChainId": 1329,
+      "blockExplorer": "https://seiscan.io",
+      "existentialDeposit": "0",
+      "symbol": "SEI",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "kaia": {
+    "slug": "kaia",
+    "name": "Kaia",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/kaia.png",
+    "providers": {
+      "Kaia": "https://public-en.node.kaia.io",
+      "Pocket": "https://kaia.api.pocket.network",
+      "Ankr": "https://rpc.ankr.com/kaia",
+      "DRPC": "https://klaytn.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 8217,
+      "blockExplorer": "https://kaiascan.io",
+      "existentialDeposit": "0",
+      "symbol": "KAIA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "cronos": {
+    "slug": "cronos",
+    "name": "Cronos",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/cronos.png",
+    "providers": {
+      "Cronos": "https://evm.cronos.org",
+      "PublicNode": "https://cronos-evm-rpc.publicnode.com",
+      "DRPC": "https://cronos.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 25,
+      "blockExplorer": "https://explorer.cronos.org",
+      "existentialDeposit": "0",
+      "symbol": "CRO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "berachain": {
+    "slug": "berachain",
+    "name": "Berachain",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/berachain.png",
+    "providers": {
+      "Berachain": "https://rpc.berachain.com",
+      "PublicNode": "https://berachain-rpc.publicnode.com",
+      "DRPC": "https://berachain.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 80094,
+      "blockExplorer": "https://berascan.com",
+      "existentialDeposit": "0",
+      "symbol": "BERA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "ronin": {
+    "slug": "ronin",
+    "name": "Ronin",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/ronin.png",
+    "providers": {
+      "Ronin": "https://api.roninchain.com/rpc",
+      "Tenderly": "https://ronin.gateway.tenderly.co",
+      "Thirdweb": "https://2020.rpc.thirdweb.com"
+    },
+    "evmInfo": {
+      "evmChainId": 2020,
+      "blockExplorer": "https://app.roninchain.com",
+      "existentialDeposit": "0",
+      "symbol": "RON",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "flow_evm": {
+    "slug": "flow_evm",
+    "name": "Flow EVM",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/flow_evm.png",
+    "providers": {
+      "Flow": "https://mainnet.evm.nodes.onflow.org",
+      "Thirdweb": "https://747.rpc.thirdweb.com"
+    },
+    "evmInfo": {
+      "evmChainId": 747,
+      "blockExplorer": "https://evm.flowscan.io",
+      "existentialDeposit": "0",
+      "symbol": "FLOW",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "xgr_testnet": {
+    "slug": "xgr_testnet",
+    "name": "XGR Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/xgr_testnet.png",
+    "providers": {
+      "XGR Network": "https://rpc.testnet.xgr.network",
+      "XGR Network 1": "https://rpc1.testnet.xgr.network",
+      "XGR Network 2": "https://rpc2.testnet.xgr.network"
+    },
+    "evmInfo": {
+      "evmChainId": 1879,
+      "blockExplorer": "https://explorer.testnet.xgr.network",
+      "existentialDeposit": "0",
+      "symbol": "XGR",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "robinhood_chain_testnet": {
+    "slug": "robinhood_chain_testnet",
+    "name": "Robinhood Chain Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/robinhood_chain_testnet.png",
+    "providers": {
+      "Robinhood": "https://rpc.testnet.chain.robinhood.com",
+      "PublicNode": "https://robinhood-sepolia-rpc.publicnode.com",
+      "DRPC": "https://robinhood-testnet.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 46630,
+      "blockExplorer": "https://explorer.testnet.chain.robinhood.com",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "megaeth_testnet": {
+    "slug": "megaeth_testnet",
+    "name": "MegaETH Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/megaeth_testnet.png",
+    "providers": {
+      "MegaETH": "https://carrot.megaeth.com/rpc"
+    },
+    "evmInfo": {
+      "evmChainId": 6343,
+      "blockExplorer": "https://testnet-mega.etherscan.io",
+      "existentialDeposit": "0",
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "plasma_testnet": {
+    "slug": "plasma_testnet",
+    "name": "Plasma Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/plasma_testnet.png",
+    "providers": {
+      "Plasma": "https://testnet-rpc.plasma.to"
+    },
+    "evmInfo": {
+      "evmChainId": 9746,
+      "blockExplorer": "https://testnet.plasmascan.to",
+      "existentialDeposit": "0",
+      "symbol": "XPL",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "somnia_testnet": {
+    "slug": "somnia_testnet",
+    "name": "Somnia Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/somnia_testnet.png",
+    "providers": {
+      "Somnia": "https://api.infra.testnet.somnia.network",
+      "Somnia Dream": "https://dream-rpc.somnia.network"
+    },
+    "evmInfo": {
+      "evmChainId": 50312,
+      "blockExplorer": "https://shannon-explorer.somnia.network",
+      "existentialDeposit": "0",
+      "symbol": "STT",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "arc_testnet": {
+    "slug": "arc_testnet",
+    "name": "Arc Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/arc_testnet.png",
+    "providers": {
+      "Arc": "https://rpc.testnet.arc.network",
+      "PublicNode": "https://arc-testnet-rpc.publicnode.com",
+      "DRPC": "https://arc-testnet.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 5042002,
+      "blockExplorer": "https://testnet.arcscan.app",
+      "existentialDeposit": "0",
+      "symbol": "USDC",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "sei_evm_testnet": {
+    "slug": "sei_evm_testnet",
+    "name": "Sei EVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/sei_evm_testnet.png",
+    "providers": {
+      "Sei": "https://evm-rpc-testnet.sei-apis.com"
+    },
+    "evmInfo": {
+      "evmChainId": 1328,
+      "blockExplorer": "https://testnet.seiscan.io",
+      "existentialDeposit": "0",
+      "symbol": "SEI",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "kaia_kairos": {
+    "slug": "kaia_kairos",
+    "name": "Kaia Kairos Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/kaia_kairos.png",
+    "providers": {
+      "Kaia": "https://public-en-kairos.node.kaia.io",
+      "Ankr": "https://rpc.ankr.com/kaia_testnet",
+      "DRPC": "https://klaytn-baobab.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 1001,
+      "blockExplorer": "https://kairos.kaiascan.io",
+      "existentialDeposit": "0",
+      "symbol": "KAIA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "cronos_testnet": {
+    "slug": "cronos_testnet",
+    "name": "Cronos Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/cronos_testnet.png",
+    "providers": {
+      "Cronos": "https://evm-t3.cronos.org",
+      "DRPC": "https://cronos-testnet.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 338,
+      "blockExplorer": "https://explorer.cronos.org/testnet",
+      "existentialDeposit": "0",
+      "symbol": "TCRO",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "berachain_bepolia": {
+    "slug": "berachain_bepolia",
+    "name": "Berachain Bepolia",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/berachain_bepolia.png",
+    "providers": {
+      "Berachain": "https://bepolia.rpc.berachain.com"
+    },
+    "evmInfo": {
+      "evmChainId": 80069,
+      "blockExplorer": "https://testnet.berascan.com",
+      "existentialDeposit": "0",
+      "symbol": "BERA",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "ronin_saigon": {
+    "slug": "ronin_saigon",
+    "name": "Ronin Saigon Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/ronin_saigon.png",
+    "providers": {
+      "Ronin": "https://saigon-testnet.roninchain.com/rpc",
+      "DRPC": "https://ronin-saigon.drpc.org"
+    },
+    "evmInfo": {
+      "evmChainId": 202601,
+      "blockExplorer": "https://saigon-explorer.roninchain.com",
+      "existentialDeposit": "0",
+      "symbol": "RON",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "flow_evm_testnet": {
+    "slug": "flow_evm_testnet",
+    "name": "Flow EVM Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/flow_evm_testnet.png",
+    "providers": {
+      "Flow": "https://testnet.evm.nodes.onflow.org"
+    },
+    "evmInfo": {
+      "evmChainId": 545,
+      "blockExplorer": "https://evm-testnet.flowscan.io",
+      "existentialDeposit": "0",
+      "symbol": "FLOW",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": null,
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
