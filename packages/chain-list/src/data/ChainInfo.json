@@ -6,12 +6,11 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polkadot.png",
     "providers": {
-      "Stakeworld": "wss://dot-rpc.stakeworld.io",
+      "Stakeworld": "wss://rpc-polkadot.stakeworld.io",
       "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
       "Light Client": "light://substrate-connect/polkadot",
       "Allnodes": "wss://polkadot-rpc.publicnode.com",
       "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
-      "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
       "Gatotech": "wss://polkadot.gatotech.network",
       "Dwellir": "wss://polkadot-rpc.n.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws",
@@ -54,10 +53,9 @@
     "icon": "/assets/chains/kusama.png",
     "providers": {
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io",
+      "Stakeworld": "wss://rpc-kusama.stakeworld.io",
       "Light Client": "light://substrate-connect/kusama",
       "Allnodes": "wss://kusama-rpc.publicnode.com",
-      "Helixstreet": "wss://rpc-kusama.helixstreet.io",
       "OnFinality": "wss://kusama.api.onfinality.io/public-ws",
       "Gatotech": "wss://kusama.gatotech.network",
       "Dwellir": "wss://kusama-rpc.n.dwellir.com",
@@ -410,11 +408,10 @@
       "Dwellir": "wss://asset-hub-polkadot-rpc.n.dwellir.com",
       "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
       "Parity": "wss://polkadot-asset-hub-rpc.polkadot.io",
-      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub",
+      "StakeWorld": "wss://rpc-asset-hub-polkadot.stakeworld.io",
       "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
       "Gatotech": "wss://asset-hub-polkadot.gatotech.network",
-      "Rotko": "wss://asset-hub-polkadot.rotko.net",
-      "Helixstreet": "wss://rpc-asset-hub-polkadot.helixstreet.io"
+      "Rotko": "wss://asset-hub-polkadot.rotko.net"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -671,7 +668,6 @@
     "icon": "/assets/chains/shiden.png",
     "providers": {
       "Astar": "wss://rpc.shiden.astar.network",
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws",
       "Dwellir": "wss://shiden-rpc.n.dwellir.com"
     },
     "evmInfo": null,
@@ -2709,8 +2705,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/basilisk.png",
     "providers": {
-      "Basilisk ": "wss://rpc.basilisk.cloud",
-      "Dwellir 2": "wss://basilisk-rpc.n.dwellir.com"
+      "Basilisk ": "wss://rpc.basilisk.cloud"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -3445,7 +3440,7 @@
     "slug": "robonomics",
     "name": "Robonomics",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/robonomics.png",
     "providers": {
       "Airalab": "wss://kusama.rpc.robonomics.network/"
@@ -5255,7 +5250,7 @@
     "providers": {
       "viaParity": "wss://polkadot-collectives-rpc.polkadot.io",
       "LuckyFriday": "wss://rpc-collectives-polkadot.luckyfriday.io",
-      "Stakeworld": "wss://dot-rpc.stakeworld.io/collectives",
+      "Stakeworld": "wss://rpc-collectives-polkadot.stakeworld.io",
       "Rotko": "wss://collectives-polkadot.rotko.net",
       "Dwellir": "wss://collectives-polkadot-rpc.n.dwellir.com",
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
@@ -6460,7 +6455,7 @@
     "icon": "/assets/chains/bridgehubpolkadot.png",
     "providers": {
       "Parity": "wss://polkadot-bridge-hub-rpc.polkadot.io",
-      "Stakeworld": "wss://dot-rpc.stakeworld.io/bridgehub",
+      "Stakeworld": "wss://rpc-bridge-hub-polkadot.stakeworld.io",
       "LuckyFriday": "wss://rpc-bridge-hub-polkadot.luckyfriday.io",
       "OnFinality": "wss://bridgehub-polkadot.api.onfinality.io/public-ws",
       "Rotko": "wss://bridge-hub-polkadot.rotko.net",
@@ -8608,7 +8603,7 @@
     "slug": "dentnet",
     "name": "DENTNet",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/dentnet.png",
     "providers": {
       "Dentnet": "wss://rpc.dentnet.io/ws"
@@ -8734,10 +8729,11 @@
     "icon": "/assets/chains/sepolia_ethereum.png",
     "providers": {
       "Tenderly": "https://gateway.tenderly.co/public/sepolia",
-      "0xrpc": "https://0xrpc.io/sep",
       "Public node": "https://ethereum-sepolia-rpc.publicnode.com",
       "Sentio": "https://sepolia.rpc.sentio.xyz",
-      "Pocket Network": "https://eth-sepolia-testnet.api.pocket.network"
+      "Pocket Network": "https://eth-sepolia-testnet.api.pocket.network",
+      "ethPandaOps": "https://rpc.sepolia.ethpandaops.io",
+      "ZAN": "https://api.zan.top/eth-sepolia"
     },
     "evmInfo": {
       "evmChainId": 11155111,
@@ -8863,8 +8859,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/acurast.png",
     "providers": {
-      "Canary": "wss://public-rpc.canary.acurast.com",
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+      "Canary": "wss://public-rpc.canary.acurast.com"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -9205,17 +9200,17 @@
   },
   "bevm": {
     "slug": "bevm",
-    "name": "BEVM",
+    "name": "GEB",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/bevm.png",
     "providers": {
-      "Mainnet 1": "https://rpc-mainnet-1.bevm.io",
-      "Mainnet 2": "https://rpc-mainnet-2.bevm.io"
+      "GEB Mainnet 1": "https://rpc-mainnet-1.geb.network",
+      "GEB Mainnet 2": "https://rpc-mainnet-2.geb.network"
     },
     "evmInfo": {
       "evmChainId": 11501,
-      "blockExplorer": "https://scan-mainnet.bevm.io/",
+      "blockExplorer": "https://scan.geb.network/",
       "existentialDeposit": "0",
       "symbol": "BTC",
       "decimals": 18,
@@ -9223,7 +9218,7 @@
         "ERC20",
         "ERC721"
       ],
-      "abiExplorer": "https://scan-mainnet.bevm.io/"
+      "abiExplorer": "https://scan.geb.network/"
     },
     "substrateInfo": null,
     "extraInfo": null,
@@ -9560,7 +9555,7 @@
     "icon": "/assets/chains/peoplekusama.png",
     "providers": {
       "Parity": "wss://kusama-people-rpc.polkadot.io",
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io/people",
+      "Stakeworld": "wss://rpc-people-kusama.stakeworld.io",
       "LuckyFriday": "wss://rpc-people-kusama.luckyfriday.io",
       "Rotko": "wss://people-kusama.rotko.net",
       "OnFinality": "wss://people-kusama.api.onfinality.io/public-ws",
@@ -9628,7 +9623,7 @@
     "slug": "bounceBitEvm",
     "name": "BounceBit",
     "isTestnet": false,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "icon": "/assets/chains/bouncebitevm.png",
     "providers": {
       "BounceBit Api": "https://fullnode-mainnet.bouncebitapi.com/"
@@ -9887,7 +9882,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0xc2f8ae3bd9710abaebfa2b323e16894492fbbb67ef2857ed6491bb31f3901749",
+      "genesisHash": "0xbadafe8dc74e3ace90f8d94bf2b9eb6e5c98fc62d3c1c2e5ad369324f4352eb3",
       "addressPrefix": 2340,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -11468,8 +11463,7 @@
       "Rotko": "wss://people-polkadot.rotko.net",
       "Dwellir": "wss://people-polkadot-rpc.n.dwellir.com",
       "Stakeworld": "wss://rpc-people-polkadot.stakeworld.io",
-      "OnFinality": "wss://people-polkadot.api.onfinality.io/public-ws",
-      "Helixstreet": "wss://rpc-people-polkadot.helixstreet.io"
+      "OnFinality": "wss://people-polkadot.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -12475,7 +12469,7 @@
     "providers": {
       "LuckyFriday": "wss://rpc-coretime-kusama.luckyfriday.io",
       "Parity": "wss://kusama-coretime-rpc.polkadot.io",
-      "Stakeworld": "wss://ksm-rpc.stakeworld.io/coretime",
+      "Stakeworld": "wss://rpc-coretime-kusama.stakeworld.io",
       "Rotko": "wss://coretime-kusama.rotko.net",
       "OnFinality": "wss://coretime-kusama.api.onfinality.io/public-ws",
       "Dwellir": "wss://coretime-kusama-rpc.n.dwellir.com"
@@ -13703,8 +13697,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polkadothub_evm.png",
     "providers": {
-      "Parity": "https://eth-rpc.polkadot.io/",
-      "OpsLayer": "https://services.polkadothub-rpc.com/mainnet/"
+      "Parity": "https://eth-rpc.polkadot.io/"
     },
     "evmInfo": {
       "evmChainId": 420420419,
@@ -13731,8 +13724,7 @@
     "chainStatus": "ACTIVE",
     "icon": "/assets/chains/polkadothub_evm_testnet.png",
     "providers": {
-      "Parity": "https://eth-rpc-testnet.polkadot.io/",
-      "OpsLayer": "https://services.polkadothub-rpc.com/testnet/"
+      "Parity": "https://eth-rpc-testnet.polkadot.io/"
     },
     "evmInfo": {
       "evmChainId": 420420417,
