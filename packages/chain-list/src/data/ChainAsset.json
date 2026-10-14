@@ -1780,6 +1780,20 @@
     "hasValue": true,
     "icon": "/assets/chain-assets/edgeware-native-edg.png"
   },
+  "era-NATIVE-ETKN": {
+    "originChain": "era",
+    "slug": "era-NATIVE-ETKN",
+    "name": "ERA",
+    "symbol": "ETKN",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "ETKN-ERA_TOKEN",
+    "hasValue": false,
+    "icon": "/assets/chain-assets/era-native-etkn.svg"
+  },
   "centrifuge-NATIVE-CFG": {
     "originChain": "centrifuge",
     "slug": "centrifuge-NATIVE-CFG",
