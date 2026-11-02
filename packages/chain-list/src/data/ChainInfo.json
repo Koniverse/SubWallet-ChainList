@@ -411,7 +411,8 @@
       "StakeWorld": "wss://rpc-asset-hub-polkadot.stakeworld.io",
       "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
       "Gatotech": "wss://asset-hub-polkadot.gatotech.network",
-      "Rotko": "wss://asset-hub-polkadot.rotko.net"
+      "Rotko": "wss://asset-hub-polkadot.rotko.net",
+      "Selvage Labs": "wss://asset-hub.selvagelabs.io"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -14515,6 +14516,40 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "coalichain_testnet": {
+    "slug": "coalichain_testnet",
+    "name": "Coalichain Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/coalichain_testnet.png",
+    "providers": {
+      "Coali": "wss://rpc.testnet.coali.app"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x0527b99c64711d4fe780b92a1b829ae3cae815906d58b0b16bf03abc125a78f2",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://explorer.testnet.coali.app/",
+      "existentialDeposit": "1000000",
+      "symbol": "ZOOZ",
+      "decimals": 9,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": true,
+      "supportMultisig": true,
+      "crowdloanFunds": []
+    },
     "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,

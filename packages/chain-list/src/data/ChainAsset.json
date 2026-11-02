@@ -20993,5 +20993,37 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "/assets/chain-assets/flow_evm_testnet-native-flow.png"
+  },
+  "coalichain_testnet-NATIVE-ZOOZ": {
+    "originChain": "coalichain_testnet",
+    "slug": "coalichain_testnet-NATIVE-ZOOZ",
+    "name": "ZOOZ",
+    "symbol": "ZOOZ",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/coalichain_testnet-native-zooz.png"
+  },
+  "hydradx_main-LOCAL-GIGAHDX": {
+    "originChain": "hydradx_main",
+    "slug": "hydradx_main-LOCAL-GIGAHDX",
+    "name": "GIGAHDX",
+    "symbol": "GIGAHDX",
+    "decimals": 12,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "LOCAL",
+    "metadata": {
+      "assetId": "67",
+      "isGigaToken": true,
+      "isDisableTransfer": true
+    },
+    "multiChainAsset": null,
+    "hasValue": true,
+    "icon": "/assets/chain-assets/hydradx_main-local-gigahdx.png"
   }
 }
