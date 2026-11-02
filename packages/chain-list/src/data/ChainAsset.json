@@ -20993,5 +20993,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "/assets/chain-assets/flow_evm_testnet-native-flow.png"
+  },
+  "coalichain_testnet-NATIVE-ZOOZ": {
+    "originChain": "coalichain_testnet",
+    "slug": "coalichain_testnet-NATIVE-ZOOZ",
+    "name": "ZOOZ",
+    "symbol": "ZOOZ",
+    "decimals": 9,
+    "priceId": null,
+    "minAmount": "1000000",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/coalichain_testnet-native-zooz.png"
   }
 }
