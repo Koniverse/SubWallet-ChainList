@@ -411,7 +411,8 @@
       "StakeWorld": "wss://rpc-asset-hub-polkadot.stakeworld.io",
       "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
       "Gatotech": "wss://asset-hub-polkadot.gatotech.network",
-      "Rotko": "wss://asset-hub-polkadot.rotko.net"
+      "Rotko": "wss://asset-hub-polkadot.rotko.net",
+      "Selvage Labs": "wss://asset-hub.selvagelabs.io"
     },
     "evmInfo": null,
     "substrateInfo": {
