@@ -20993,5 +20993,19 @@
     "multiChainAsset": null,
     "hasValue": false,
     "icon": "/assets/chain-assets/flow_evm_testnet-native-flow.png"
+  },
+  "orbinum_testnet-NATIVE-ORB": {
+    "originChain": "orbinum_testnet",
+    "slug": "orbinum_testnet-NATIVE-ORB",
+    "name": "Orbinum Testnet",
+    "symbol": "ORB",
+    "decimals": 18,
+    "priceId": null,
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": null,
+    "hasValue": false,
+    "icon": "/assets/chain-assets/orbinum_testnet-native-orb.png"
   }
 }
