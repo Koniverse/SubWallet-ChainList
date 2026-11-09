@@ -2162,7 +2162,7 @@
       "addressPrefix": 88,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://pdexmon.com/",
+      "blockExplorer": "https://explorer.polkadex.ee/",
       "existentialDeposit": "1000000000000",
       "symbol": "PDEX",
       "decimals": 12,
@@ -14548,6 +14548,52 @@
       "crowdloanParaId": null,
       "supportProxy": true,
       "supportMultisig": true,
+      "crowdloanFunds": []
+    },
+    "extraInfo": null,
+    "bitcoinInfo": null,
+    "tonInfo": null,
+    "cardanoInfo": null
+  },
+  "orbinum_testnet": {
+    "slug": "orbinum_testnet",
+    "name": "Orbinum Testnet",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "icon": "/assets/chains/orbinum_testnet.png",
+    "providers": {
+      "Orbinum 1": "wss://rpc-1.testnet.orbinum.io",
+      "Orbinum 2": "wss://rpc-2.testnet.orbinum.io"
+    },
+    "evmInfo": {
+      "evmChainId": 2700,
+      "blockExplorer": "https://explorer.testnet.orbinum.network/",
+      "existentialDeposit": "0",
+      "symbol": "ORB",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": null
+    },
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x58e2de05e550e64bb73bb2aeb706431dae70dcd1b589d477033c6e3aef3680ae",
+      "addressPrefix": 42,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://explorer.testnet.orbinum.network/",
+      "existentialDeposit": "0",
+      "symbol": "ORB",
+      "decimals": 18,
+      "hasNativeNft": null,
+      "supportStaking": null,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "supportProxy": null,
+      "supportMultisig": null,
       "crowdloanFunds": []
     },
     "extraInfo": null,
