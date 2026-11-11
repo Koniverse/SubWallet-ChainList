@@ -6390,7 +6390,7 @@
       "addressPrefix": 137,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://vara.subscan.io/",
+      "blockExplorer": "https://explorer.vara.network/",
       "existentialDeposit": "1000000000000",
       "symbol": "VARA",
       "decimals": 12,
@@ -8031,44 +8031,6 @@
       "subscanSlug": "matrix",
       "chainBalanceSlug": "enjin-matrix"
     },
-    "bitcoinInfo": null,
-    "tonInfo": null,
-    "cardanoInfo": null
-  },
-  "vara_testnet": {
-    "slug": "vara_testnet",
-    "name": "Vara Network Testnet",
-    "isTestnet": true,
-    "chainStatus": "INACTIVE",
-    "icon": "/assets/chains/vara_testnet.png",
-    "providers": {
-      "Vara": "wss://testnet.vara-network.io",
-      "Gear": "wss://testnet.vara.network"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
-      "genesisHash": "0x525639f713f397dcf839bd022cd821f367ebcf179de7b9253531f8adbe5436d6",
-      "addressPrefix": 137,
-      "chainType": "RELAYCHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": "1000000000000",
-      "symbol": "TVARA",
-      "decimals": 12,
-      "hasNativeNft": null,
-      "supportStaking": null,
-      "supportSmartContract": [
-        "GRC20",
-        "VFT"
-      ],
-      "crowdloanParaId": null,
-      "supportProxy": true,
-      "supportMultisig": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": null,
     "bitcoinInfo": null,
     "tonInfo": null,
     "cardanoInfo": null
